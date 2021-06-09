@@ -29,7 +29,7 @@
                     $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
                         $li = $("<li>");
-                        $a = $("<a>").attr("href", link.url).text(link.text);
+                        $a = $("<a>").attr("href", link.url).attr("target", "_blank").text(link.text);
                         $li.append($a);
                         $linklist.append($li);
                     });
