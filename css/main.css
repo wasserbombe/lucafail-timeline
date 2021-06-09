@@ -39,7 +39,7 @@ body {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #ff5555;
+    border: 4px solid #5a5a5a;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -88,10 +88,24 @@ body {
 }
   
 .content {
-    padding: 20px 30px;
+    padding: 10px 15px;
     background-color: white;
     position: relative;
     border-radius: 6px;
+    
+}
+.container.type-general .content {
+    border-top: 5px solid darkblue;
+}
+.container.type-doc .content {
+    border-top: 5px solid rgb(0, 112, 6);
+}
+.container.type-incident .content {
+    border-top: 5px solid rgb(173, 0, 0);
+}
+
+.content .linkarea {
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 600px) {

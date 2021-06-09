@@ -51,5 +51,22 @@
                 "text": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein"
             }
         ]
+    },
+    {
+        "date": "...",
+        "type": "placeholder",
+        "title": "...",
+        "text": "...",
+        "links": []
+    },
+    {
+        "date": "???",
+        "type": "incident",
+        "title": "Schwachstelle: SMS-Verifizierung in der Web-App arbeitet clientseitig",
+        "text": "SMS-Verifizierung in der Web-App arbeitet clientseitig, der Server selbst “stateless”; dadurch lässt sich die SMS-Verifizierung leicht aushebeln.<br><br>Marcus Mengs<br><br>CVE-2021-33840<br>Impact: Luca Web-App",
+        "links": [{
+            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
+            "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+        }]
     }
 ]
