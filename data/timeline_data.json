@@ -1,289 +1,327 @@
-[
-    {
-        "date": "",
-        "title": "Work in Progress",
-        "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a>"
-    },
-    {
-        "date": "",
-        "title": "Februar 2021 und früher",
-        "text": "Fehlt noch und müsste ergänzt werden. Gerne auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a> eintragen!"
-    },
-    {
-        "date": "02.03.2021",
-        "type": "doc",
-        "title": "Stellungnahme des LfDI Baden-Württemberg zur App Luca",
-        "scope": "Land: BW",
-        "text": "(fehlt)",
-        "links": [
-            {
-                "url": "https://www.baden-wuerttemberg.datenschutz.de/wp-content/uploads/2021/04/Stellungnahme-LfDI-BW-Luca-App.pdf",
-                "text": "Stellungnahme-LfDI-BW-Luca-App.pdf"
-            }
-        ]
-    },
-    {
-        "date": "08.03.2021",
-        "type": "fragdenstaat",
-        "title": "fragdenstaat.de: Vereinbarung mit Luca App",
-        "scope": "Land: MV",
-        "text": "",
-        "embed": [{
+{
+    "timeline": [
+        {
+            "date": "",
+            "title": "Work in Progress",
+            "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a>"
+        },
+        {
+            "date": "",
+            "title": "Februar 2021 und früher",
+            "text": "Fehlt noch und müsste ergänzt werden. Gerne auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a> eintragen!"
+        },
+        {
+            "date": "02.03.2021",
+            "type": "doc",
+            "title": "Stellungnahme des LfDI Baden-Württemberg zur App Luca",
+            "scope": "Land: BW",
+            "text": "(fehlt)",
+            "links": [
+                {
+                    "url": "https://www.baden-wuerttemberg.datenschutz.de/wp-content/uploads/2021/04/Stellungnahme-LfDI-BW-Luca-App.pdf",
+                    "text": "Stellungnahme-LfDI-BW-Luca-App.pdf"
+                }
+            ]
+        },
+        {
+            "date": "08.03.2021",
             "type": "fragdenstaat",
-            "id": "214626"
-        }],
-        "links": [{
-            "url": "https://fragdenstaat.de/a/214626",
-            "text": "https://fragdenstaat.de/a/214626"
-        }]
-    },
-    {
-        "date": "23.03.2021",
-        "type": "doc",
-        "scope": "Bundesweit",
-        "title": "“Preliminary Analysis of Potential Harms in the Luca Tracing System”",
-        "text": "Potential harms a large-scale deployment of the Luca system might cause to individuals, venues, and communities - paper by Theresa Stadler, Wouter Lueks, Kathatina Kohls, Carmela Troncoso",
-        "links": [
-            {
-                "url": "https://arxiv.org/pdf/2103.11958.pdf",
-                "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
-            }
-        ]
-    },
-    {
-        "date": "25.03.2021",
-        "scope": "Konzept",
-        "type": "doc",
-        "title": "ticket.io: “Luca App und Ticket I/O gehen Kooperation ein”",
-        "text": "",
-        "links": [
-            {
-                "url": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein",
-                "text": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein"
-            }
-        ]
-    },
-    {
-        "date": "...",
-        "type": "placeholder",
-        "title": "...",
-        "text": "...",
-        "links": []
-    },
-    {
-        "date": "...",
-        "type": "placeholder",
-        "title": "...",
-        "text": "...",
-        "links": []
-    },
-    {
-        "date": "24.03.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar",
-        "text": "Impact: Alle Nutzer / Locations",
-        "links": []
-    },
-    {
-        "date": "04.04.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Beliebige 6-stellige Zahl funktioniert als TAN",
-        "text": "Impact: >20.000 Schlüsselanhänger",
-        "links": [{
-            "url": "https://www.nnn.de/lokales/rostock/hansestadt-rostock/Luca-App-Schluesselanhaenger-offenbart-Sicherheitsluecken-in-Rostock-id31790352.html",
-            "text": "Norddeutsche Neueste Nachrichten: Schlüsselanhänger offenbart eklatante Sicherheitslücken"
-        }]
-    },
-    {
-        "date": "08.04.2021",
-        "type": "incident",
-        "title": "Schwachstelle: SMS-TAN-Verfahren lässt sich clientseitig umgehen",
-        "text": "",
-        "links": []
-    },
-    {
-        "date": "13.04.2021",
-        "type": "incident",
-        "title": "Schwachstelle: LucaTrack: Historie für Schlüsselanhänger auslesbar, damit Bewegungsprofile möglich",
-        "text": "Über Meta-Daten können seitens des Betreibers Bewegungsprofile von Nutzern erstellt<br><br>Impact: Alle Nutzer / private Treffen",
-        "links": [{
-            "url": "https://lucatrack.de/",
-            "text": "lucatrack.de"
-        },{
-            "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
-            "text": "Bianca Kastl: LucaTrack und andere Gefahren"
-        }]
-    },
-    {
-        "date": "13.04.2021",
-        "type": "incident",
-        "title": "Schwachstelle: “Tracking of unique mobile devices and check-in locations from operator perspective of LucaApp backend”",
-        "text": "Über Meta-Daten können seitens des Betreibers Bewegungsprofile von Nutzern erstellt<br><br>Impact: Alle Nutzer / private Treffen",
-        "links": [{
-            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33838.md",
-            "text": "Marcus Mengs: CVE-2021-33838 (Github)"
-        }]
-    },
-    {
-        "date": "29.04.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Betreiber-QR-Codes können manipuliert werden, um an Nutzerdaten zu gelangen",
-        "text": "Impact: Alle Nutzer / private Treffen",
-        "embed": [{
-            "type": "youtube",
-            "id": "jWyDfEB0m08"
-        }],
-        "links": [{
-            "url": "https://www.youtube.com/watch?v=jWyDfEB0m08",
-            "text": "Luca Location Betreiber manipuliert QR code um an Nutzerdaten zu kommen (YouTube)"
-        },{
-            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33839.md",
-            "text": "Marcus Mengs: CVE-2021-33839 (Github)"
-        }]
-    },
-    {
-        "date": "02.05.2021",
-        "type": "doc",
-        "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
-        "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern",
-        "links": [{
-            "url": "https://digikoletter.github.io/",
-            "text": "digikoletter.github.io"
-        }]
-    },
-    {
-        "date": "05.05.2021",
-        "type": "event",
-        "title": "Deutscher Bundestag / Ausschuss Digitale Agenda: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht",
-        "text": "Der Ausschuss Digitale Agenda unter Leitung von Manuel Höferlin (FDP) hat sich am Mittwoch, 5. Mai 2021, in einem öffentlichen Fachgespräch mit der Sicherheit und Koordinierung der Nutzung von sogenannten Clustererkennungs-Apps wie der Corona-Warn-App der Bundesregierung (CWA) oder der Luca-App beschäftigt. Die Luca-App wird bereits in einigen Bundesländern zur Kontaktnachverfolgung eingesetzt, war aber zuletzt wegen Datenschutzmängeln in die Kritik geraten.",
-        "embed": [{
-            "type": "bundestag-webtv",
-            "id": "7519454"
-        }],
-        "links": [{
-            "url": "https://www.bundestag.de/dokumente/textarchiv/2021/kw18-pa-digitale-agenda-cluster-838094",
-            "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
-        }]
-    },
-    {
-        "date": "06.05.2021",
-        "type": "talk",
-        "title": "Bianca Kastl: Die Luca App - LucaTrack und andere Gefahren",
-        "text": "“Luca ist ein arg seltsames Pseudo-Open-Source-Projekt geworden, bei dem eine Community aus Gesundheitsämtern und Security Expert:innen einem Privatunternehmen dabei helfen muss, seine hohen Marketingversprechen irgendwie einlösen zu können und dafür Lizenzen zu kassieren.”",
-        "embed": [{
-            "type": "ccc-media",
-            "id": "cccs-202105-lucatrack-und-andere-gefahren"
-        }],
-        "links": [{
-            "url": "https://media.ccc.de/v/cccs-202105-lucatrack-und-andere-gefahren",
-            "text": "Talk auf media.ccc.de"
-        },{
-            "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
-            "text": "bkastl.de: Notes"
-        },{
-            "url": "https://bkastl.de/luca_lucatrack_itsec/",
-            "text": "bkastl.de: Slides"
-        }]
-    },
-    {
-        "date": "11.05.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Schlüsselanhänger können nicht entschlüsselt werden.",
-        "text": "Impact: Mehrere tausend v3-Schlüsselanhänger und deren Nutzer, alle Gesundheitsämter",
-        "links": [{
-            "url": "https://twitter.com/mame82/status/1392139239165419522",
-            "text": "Tweet Marcus Mengs (Twitter)"
-        }]
-    },
-    {
-        "date": "14.05.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Fremde Schlüsselanhänger lassen sich einchecken, Kontaktdaten für das Gesundheitsamt veränderbar - auch nachträglich.",
-        "text": "Impact: Mehrere tausend Schlüsselanhänger und deren Nutzer, alle Gesundheitsämter",
-        "links": [{
-            "url": "https://twitter.com/mame82/status/1393182733673848833",
-            "text": "Tweet Marcus Mengs (Twitter)"
-        }]
-    },
-    {
-        "date": "19.05.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Veröffentlichte QR-Code-Badges offenbar nicht “entvalidiert”",
-        "text": "",
-        "links": [{
-            "url": "https://twitter.com/mame82/status/1394957601071370240",
-            "text": "Tweet Marcus Mengs (Twitter)"
-        }]
-    },
-    {
-        "date": "26.05.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Remote Code Injection via CSV-Export",
-        "text": "Durch von Luca erfasste Kontaktdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen, wodurch Daten unbemerkt gestohlen und bearbeitet werden können.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
-        "embed": [{
-            "type": "vimeo",
-            "id": "558459255"
-        }],
-        "links": [{
-            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
-            "text": "Marcus Mengs: CVW-2021-33840 (Github)"
-        },{
-            "url": "https://vimeo.com/558459255",
-            "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
-        }]
-    },
-    {
-        "date": "27.05.2021",
-        "type": "incident",
-        "title": "Schwachstelle: Denial-of-Service Angriffe mit eingegebenen Nutzerdaten",
-        "text": "Durch von Luca erfasste Nutzerdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen. In der Gezeigten Demo wurde Ransomware eingeschleußt und das simulierte Gesundheitsamt auf diese Weise lahmgelegt.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
-        "embed": [{
-            "type": "vimeo",
-            "id": "558459255"
-        }],
-        "links": [{
-            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
-            "text": "Marcus Mengs: CVW-2021-33840 (Github)"
-        },{
-            "url": "https://vimeo.com/558459255",
-            "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
-        }]
-    },
-    {
-        "date": "01.06.2020",
-        "type": "incident",
-        "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
-        "text": "<a href=\"https://twitter.com/fluepke/\">@fluepke</a><br>Impact: Gering, aber nur, weil bisher keine IPv6-Adressen in diesem Bereich vergeben sind",
-        "links": [{
-            "url": "https://twitter.com/fluepke/status/1399790712317751301",
-            "text": "@fluepke auf Twitter"
-        }]
-    },
-    {
-        "date": "???",
-        "type": "incident",
-        "title": "Schwachstelle: SMS-Verifizierung in der Web-App ist clientseitig aushebelbar",
-        "text": "SMS-Verifizierung in der Web-App arbeitet clientseitig, der Server selbst “stateless”; dadurch lässt sich die SMS-Verifizierung leicht aushebeln.<br><br>Marcus Mengs<br><br>CVE-2021-33840<br>Impact: Luca Web-App",
-        "links": [{
-            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
-            "text": "Marcus Mengs: CVE-2021-33840 (Github)"
-        }]
-    },
-    {
-        "date": "03.06.2020",
-        "type": "event",
-        "title": "Zentral - Dezentral - völlig egal?: Eine kritische Auseinandersetzung mit der Luca-App",
-        "text": "Kampgnagel lud im im Rahmen von Claiming Common Spaces III zu einer Diskussion über die App Luca und mögliche Alternativen, sowie über Visionen für institutionelle Digitalisierungsprozesse ein. <br><br>Gäste: Eva Wolfangel (Wissenschaftsjournalistin), Amelie Deuflhard (Intendantin Kampnagel), Lorena Jaume-Palasí (Gründerin The Ethical Tech Society), Jörn Riedel (CIO Freie und Hansestadt Hamburg), Patrick Hennig (CEO neXenio / Luca).<br>Moderation: Judith Horchert (DER SPIEGEL, Ressortleiterin Wirtschaft/Netzwelt).",
-        "embed": [{
-            "type": "vimeo",
-            "id": "558031958"
-        }],
-        "links": [{
-            "url": "http://www.kampnagel.de/de/programm/was-kann-die-luca-app/",
-            "text": "Programm: Was kann die Luca-App? (kampnagel.de)"
-        },{
-            "url": "https://vimeo.com/558031958",
-            "text": "Zentral – Dezentral – völlig egal?: Eine kritische Auseinandersetzung mit der LUCA-App (Vimeo)"
-        }]
-    }
-]
+            "title": "fragdenstaat.de: Vereinbarung mit Luca App",
+            "scope": "Land: MV",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "214626"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/214626",
+                "text": "https://fragdenstaat.de/a/214626"
+            }]
+        },
+        {
+            "date": "23.03.2021",
+            "type": "doc",
+            "scope": "Bundesweit",
+            "title": "“Preliminary Analysis of Potential Harms in the Luca Tracing System”",
+            "text": "Potential harms a large-scale deployment of the Luca system might cause to individuals, venues, and communities - paper by Theresa Stadler, Wouter Lueks, Kathatina Kohls, Carmela Troncoso",
+            "links": [
+                {
+                    "url": "https://arxiv.org/pdf/2103.11958.pdf",
+                    "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
+                }
+            ]
+        },
+        {
+            "date": "25.03.2021",
+            "scope": "Konzept",
+            "type": "doc",
+            "title": "ticket.io: “Luca App und Ticket I/O gehen Kooperation ein”",
+            "text": "",
+            "links": [
+                {
+                    "url": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein",
+                    "text": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein"
+                }
+            ]
+        },
+        {
+            "date": "...",
+            "type": "placeholder",
+            "title": "...",
+            "text": "...",
+            "links": []
+        },
+        {
+            "date": "...",
+            "type": "placeholder",
+            "title": "...",
+            "text": "...",
+            "links": []
+        },
+        {
+            "date": "24.03.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar",
+            "text": "Impact: Alle Nutzer / Locations",
+            "links": []
+        },
+        {
+            "date": "04.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Beliebige 6-stellige Zahl funktioniert als TAN",
+            "text": "Impact: >20.000 Schlüsselanhänger",
+            "links": [{
+                "url": "https://www.nnn.de/lokales/rostock/hansestadt-rostock/Luca-App-Schluesselanhaenger-offenbart-Sicherheitsluecken-in-Rostock-id31790352.html",
+                "text": "Norddeutsche Neueste Nachrichten: Schlüsselanhänger offenbart eklatante Sicherheitslücken"
+            }]
+        },
+        {
+            "date": "08.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: SMS-TAN-Verfahren lässt sich clientseitig umgehen",
+            "text": "",
+            "links": []
+        },
+        {
+            "date": "13.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: LucaTrack: Historie für Schlüsselanhänger auslesbar, damit Bewegungsprofile möglich",
+            "text": "Über Meta-Daten können seitens des Betreibers Bewegungsprofile von Nutzern erstellt<br><br>Impact: Alle Nutzer / private Treffen",
+            "links": [{
+                "url": "https://lucatrack.de/",
+                "text": "lucatrack.de"
+            },{
+                "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
+                "text": "Bianca Kastl: LucaTrack und andere Gefahren"
+            }]
+        },
+        {
+            "date": "13.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: “Tracking of unique mobile devices and check-in locations from operator perspective of LucaApp backend”",
+            "text": "Über Meta-Daten können seitens des Betreibers Bewegungsprofile von Nutzern erstellt<br><br>Impact: Alle Nutzer / private Treffen",
+            "links": [{
+                "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33838.md",
+                "text": "Marcus Mengs: CVE-2021-33838 (Github)"
+            }]
+        },
+        {
+            "date": "29.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Betreiber-QR-Codes können manipuliert werden, um an Nutzerdaten zu gelangen",
+            "text": "Impact: Alle Nutzer / private Treffen",
+            "embed": [{
+                "type": "youtube",
+                "id": "jWyDfEB0m08"
+            }],
+            "links": [{
+                "url": "https://www.youtube.com/watch?v=jWyDfEB0m08",
+                "text": "Luca Location Betreiber manipuliert QR code um an Nutzerdaten zu kommen (YouTube)"
+            },{
+                "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33839.md",
+                "text": "Marcus Mengs: CVE-2021-33839 (Github)"
+            }]
+        },
+        {
+            "date": "02.05.2021",
+            "type": "doc",
+            "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
+            "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern",
+            "links": [{
+                "url": "https://digikoletter.github.io/",
+                "text": "digikoletter.github.io"
+            }]
+        },
+        {
+            "date": "04.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Fremde Menschen können beliebig eingecheckt werden.",
+            "text": "Impact: Alle Menschen, auch Nicht-Luca-Nutzer",
+            "links": [{
+                "url": "https://www.n-tv.de/panorama/Wurde-die-Luca-App-gehackt-article22531735.html",
+                "text": "n-tv.de: Ministerpräsidenten eingecheckt - Wurde die Luca-App gehackt?"
+            }]
+        },
+        {
+            "date": "04.05.2021",
+            "type": "news",
+            "title": "Sachsen ermöglicht als erstes Bundesland Corona-Warn-App zur Kontaktnachverfolgung",
+            "text": "Sachsen ermöglicht als erstes Bundesland Corona-Warn-App zur Kontaktnachverfolgung",
+            "links": [{
+                "url": "https://denken.io/2021/05/04/sachsen-ermoglicht-als-erstes-bundesland-corona-warn-app-zur-kontaktnachverfolgung/",
+                "text": "Ralf Rottmann: Sachsen ermöglicht als erstes Bundesland Corona-Warn-App zur Kontaktnachverfolgung"
+            },{
+                "url": "https://www.medienservice.sachsen.de/medien/news/250995",
+                "text": "sachsen.de: “Kabinett beschließt neue Corona-Schutz-Verordnung”"
+            }]
+        },
+        {
+            "date": "05.05.2021",
+            "type": "event",
+            "title": "Deutscher Bundestag / Ausschuss Digitale Agenda: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht",
+            "text": "Der Ausschuss Digitale Agenda unter Leitung von Manuel Höferlin (FDP) hat sich am Mittwoch, 5. Mai 2021, in einem öffentlichen Fachgespräch mit der Sicherheit und Koordinierung der Nutzung von sogenannten Clustererkennungs-Apps wie der Corona-Warn-App der Bundesregierung (CWA) oder der Luca-App beschäftigt. Die Luca-App wird bereits in einigen Bundesländern zur Kontaktnachverfolgung eingesetzt, war aber zuletzt wegen Datenschutzmängeln in die Kritik geraten.",
+            "embed": [{
+                "type": "bundestag-webtv",
+                "id": "7519454"
+            }],
+            "links": [{
+                "url": "https://www.bundestag.de/dokumente/textarchiv/2021/kw18-pa-digitale-agenda-cluster-838094",
+                "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
+            }]
+        },
+        {
+            "date": "06.05.2021",
+            "type": "talk",
+            "title": "Bianca Kastl: Die Luca App - LucaTrack und andere Gefahren",
+            "text": "“Luca ist ein arg seltsames Pseudo-Open-Source-Projekt geworden, bei dem eine Community aus Gesundheitsämtern und Security Expert:innen einem Privatunternehmen dabei helfen muss, seine hohen Marketingversprechen irgendwie einlösen zu können und dafür Lizenzen zu kassieren.”",
+            "embed": [{
+                "type": "ccc-media",
+                "id": "cccs-202105-lucatrack-und-andere-gefahren"
+            }],
+            "links": [{
+                "url": "https://media.ccc.de/v/cccs-202105-lucatrack-und-andere-gefahren",
+                "text": "Talk auf media.ccc.de"
+            },{
+                "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
+                "text": "bkastl.de: Notes"
+            },{
+                "url": "https://bkastl.de/luca_lucatrack_itsec/",
+                "text": "bkastl.de: Slides"
+            }]
+        },
+        {
+            "date": "11.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Schlüsselanhänger können nicht entschlüsselt werden.",
+            "text": "Impact: Mehrere tausend v3-Schlüsselanhänger und deren Nutzer, alle Gesundheitsämter",
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1392139239165419522",
+                "text": "Tweet Marcus Mengs (Twitter)"
+            }]
+        },
+        {
+            "date": "14.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Nexenio hat Zugriff auf Seriennummer der Schlüsselanhänger - und damit auf das Bewegungsprofil von Nutzern",
+            "text": "Eva Wolfangel: Nexenio hat offenbar Zugriff auf die Seriennummer der Schlüsselanhänger und damit auch auf das Bewegungsprofil deren Nutzer",
+            "links": [{
+                "url": "https://twitter.com/evawolfangel/status/1393204222146064389",
+                "text": "Tweet Eva Wolfangel (Twitter)"
+            },{
+                "url": "https://twitter.com/cccfr/status/1393278132338241536",
+                "text": "Chaos Computer Club Freiburg e.V."
+            }]
+        },
+        {
+            "date": "14.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Fremde Schlüsselanhänger lassen sich einchecken, Kontaktdaten für das Gesundheitsamt veränderbar - auch nachträglich.",
+            "text": "Impact: Mehrere tausend Schlüsselanhänger und deren Nutzer, alle Gesundheitsämter",
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1393182733673848833",
+                "text": "Tweet Marcus Mengs (Twitter)"
+            }]
+        },
+        {
+            "date": "19.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Veröffentlichte QR-Code-Badges offenbar nicht “entvalidiert”",
+            "text": "",
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1394957601071370240",
+                "text": "Tweet Marcus Mengs (Twitter)"
+            }]
+        },
+        {
+            "date": "26.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Remote Code Injection via CSV-Export",
+            "text": "Durch von Luca erfasste Kontaktdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen, wodurch Daten unbemerkt gestohlen und bearbeitet werden können.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
+            "embed": [{
+                "type": "vimeo",
+                "id": "558459255"
+            }],
+            "links": [{
+                "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
+                "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+            },{
+                "url": "https://vimeo.com/558459255",
+                "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+            }]
+        },
+        {
+            "date": "27.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Denial-of-Service Angriffe mit eingegebenen Nutzerdaten",
+            "text": "Durch von Luca erfasste Nutzerdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen. In der Gezeigten Demo wurde Ransomware eingeschleußt und das simulierte Gesundheitsamt auf diese Weise lahmgelegt.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
+            "embed": [{
+                "type": "vimeo",
+                "id": "558459255"
+            }],
+            "links": [{
+                "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
+                "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+            },{
+                "url": "https://vimeo.com/558459255",
+                "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+            }]
+        },
+        {
+            "date": "01.06.2020",
+            "type": "incident",
+            "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "text": "<a href=\"https://twitter.com/fluepke/\">@fluepke</a><br>Impact: Gering, aber nur, weil bisher keine IPv6-Adressen in diesem Bereich vergeben sind",
+            "links": [{
+                "url": "https://twitter.com/fluepke/status/1399790712317751301",
+                "text": "@fluepke auf Twitter"
+            }]
+        },
+        {
+            "date": "???",
+            "type": "incident",
+            "title": "Schwachstelle: SMS-Verifizierung in der Web-App ist clientseitig aushebelbar",
+            "text": "SMS-Verifizierung in der Web-App arbeitet clientseitig, der Server selbst “stateless”; dadurch lässt sich die SMS-Verifizierung leicht aushebeln.<br><br>Marcus Mengs<br><br>CVE-2021-33840<br>Impact: Luca Web-App",
+            "links": [{
+                "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
+                "text": "Marcus Mengs: CVE-2021-33840 (Github)"
+            }]
+        },
+        {
+            "date": "03.06.2020",
+            "type": "event",
+            "title": "Zentral - Dezentral - völlig egal?: Eine kritische Auseinandersetzung mit der Luca-App",
+            "text": "Kampgnagel lud im im Rahmen von Claiming Common Spaces III zu einer Diskussion über die App Luca und mögliche Alternativen, sowie über Visionen für institutionelle Digitalisierungsprozesse ein. <br><br>Gäste: Eva Wolfangel (Wissenschaftsjournalistin), Amelie Deuflhard (Intendantin Kampnagel), Lorena Jaume-Palasí (Gründerin The Ethical Tech Society), Jörn Riedel (CIO Freie und Hansestadt Hamburg), Patrick Hennig (CEO neXenio / Luca).<br>Moderation: Judith Horchert (DER SPIEGEL, Ressortleiterin Wirtschaft/Netzwelt).",
+            "embed": [{
+                "type": "vimeo",
+                "id": "558031958"
+            }],
+            "links": [{
+                "url": "http://www.kampnagel.de/de/programm/was-kann-die-luca-app/",
+                "text": "Programm: Was kann die Luca-App? (kampnagel.de)"
+            },{
+                "url": "https://vimeo.com/558031958",
+                "text": "Zentral – Dezentral – völlig egal?: Eine kritische Auseinandersetzung mit der LUCA-App (Vimeo)"
+            }]
+        }
+    ]
+}

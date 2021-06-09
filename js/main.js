@@ -3,7 +3,11 @@
         url: "/data/timeline_data.json",
         dataType: 'json',
         success: (data) => {
-            data.forEach((e, i) => {
+            data.timeline.push({
+                title: "Ausblick / Roadmap dieser Seite",
+                text: "<ul><li>Externe Inhalte erst nach Consent einbinden</li><li>Liste vervollständigen</li></ul>"
+            });
+            data.timeline.forEach((e, i) => {
                 $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
 
                 var subtitle = [];
@@ -45,6 +49,9 @@
                             // wtf? embedding SCRIPT?
                             //$script = $("<script>").attr("id", "tv" + embed.id).attr("src", "https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content="+embed.id+"&phi=default");
                             //$content.append($script);
+                        } else if (embed.type == "fragdenstaat"){
+                            $fragdenstaatnotice = $("<div>").text("TODO: Check if we're allowed to fetch status from fragdenstaat.de").css("color","darkred").css("font-weight","bold");
+                            $content.append($fragdenstaatnotice);
                         }
                     });
                 }
