@@ -115,6 +115,16 @@
         }]
     },
     {
+        "date": "02.05.2021",
+        "type": "doc",
+        "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
+        "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern",
+        "links": [{
+            "url": "https://digikoletter.github.io/",
+            "text": "digikoletter.github.io"
+        }]
+    },
+    {
         "date": "11.05.2021",
         "type": "incident",
         "title": "Schwachstelle: Schlüsselanhänger können nicht entschlüsselt werden.",
@@ -188,6 +198,19 @@
         "links": [{
             "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
             "text": "Marcus Mengs: CVE-2021-33840 (Github)"
+        }]
+    },
+    {
+        "date": "03.06.2020",
+        "type": "event",
+        "title": "Zentral - Dezentral - völlig egal?: Eine kritische Auseinandersetzung mit der Luca-App",
+        "text": "Kampgnagel lud im im Rahmen von Claiming Common Spaces III zu einer Diskussion über die App Luca und mögliche Alternativen, sowie über Visionen für institutionelle Digitalisierungsprozesse ein. <br><br>Gäste: Eva Wolfangel (Wissenschaftsjournalistin), Amelie Deuflhard (Intendantin Kampnagel), Lorena Jaume-Palasí (Gründerin The Ethical Tech Society), Jörn Riedel (CIO Freie und Hansestadt Hamburg), Patrick Hennig (CEO neXenio / Luca).<br>Moderation: Judith Horchert (DER SPIEGEL, Ressortleiterin Wirtschaft/Netzwelt).",
+        "links": [{
+            "url": "http://www.kampnagel.de/de/programm/was-kann-die-luca-app/",
+            "text": "Programm: Was kann die Luca-App? (kampnagel.de)"
+        },{
+            "url": "https://vimeo.com/558031958",
+            "text": "Zentral – Dezentral – völlig egal?: Eine kritische Auseinandersetzung mit der LUCA-App (Vimeo)"
         }]
     }
 ]
