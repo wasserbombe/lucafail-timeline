@@ -5,16 +5,20 @@
         success: (data) => {
             data.forEach((e, i) => {
                 $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
+
+                var subtitle = [];
+                subtitle.push(e.date);
+                if (e.scope) subtitle.push(e.scope);
                 if (e.type){
                     $div.addClass("type-" + e.type);
-                    e.date = e.date + " - " + e.type;
+                    subtitle.push(e.type);
                 } else {
                     $div.addClass("type-general");
                 }
 
                 $content = $("<div>").addClass("content");
 
-                $subtitle = $("<span>").addClass("subtitle").html(e.date);
+                $subtitle = $("<span>").addClass("subtitle").html(subtitle.join(' / '));
                 $content.append($subtitle);
 
                 $title = $("<h2>").addClass("title").html(e.title);
