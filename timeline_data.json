@@ -1,0 +1,55 @@
+[
+    {
+        "date": "",
+        "title": "Februar 2021 und früher",
+        "text": "Fehlt noch uns müsste ergänzt werden. Gerne auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a> eintragen - danke!"
+    },
+    {
+        "date": "02.03.2021",
+        "type": "doc",
+        "title": "Stellungnahme des LfDI Baden-Württemberg zur App Luca",
+        "text": "(fehlt)",
+        "links": [
+            {
+                "url": "https://www.baden-wuerttemberg.datenschutz.de/wp-content/uploads/2021/04/Stellungnahme-LfDI-BW-Luca-App.pdf",
+                "text": "Stellungnahme-LfDI-BW-Luca-App.pdf"
+            }
+        ]
+    },
+    {
+        "date": "04.03.2021",
+        "type": "doc",
+        "title": "Innovationsverbund Öffentliche Gesundheit (InÖG): “IRIS - Gateway zur digitalen Vernetzung von unterschiedlichen Apps zur Kontaktnachverfolgung”",
+        "text": "(fehlt)",
+        "links": [
+            {
+                "url": "https://xn--ing-tna.de/documents/InoeG_IRIS.pdf",
+                "text": "InoeG_IRIS.pdf"
+            }
+        ]
+    },
+    {
+        "date": "23.03.2021",
+        "type": "doc",
+        "title": "“Preliminary Analysis of Potential Harms in the Luca Tracing System”",
+        "text": "Potential harms a large-scale deployment of the Luca system might cause to individuals, venues, and communities - paper by Theresa Stadler, Wouter Lueks, Kathatina Kohls, Carmela Troncoso",
+        "links": [
+            {
+                "url": "https://arxiv.org/pdf/2103.11958.pdf",
+                "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
+            }
+        ]
+    },
+    {
+        "date": "25.03.2021",
+        "type": "doc",
+        "title": "ticket.io: “Luca App und Ticket I/O gehen Kooperation ein”",
+        "text": "",
+        "links": [
+            {
+                "url": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein",
+                "text": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein"
+            }
+        ]
+    }
+]
