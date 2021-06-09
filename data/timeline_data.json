@@ -96,6 +96,20 @@
             }]
         },
         {
+            "date": "05.04.2021",
+            "type": "podcast",
+            "title": "Logbuch Netzpolitik: Magisches Denken",
+            "text": "Ein Logbuch:Netzpolitik (LNP)-Spezial zur Luca-App und der Corona-Warn-App",
+            "embed": [{
+                "type": "podlove",
+                "id": "https%3A%2F%2Flogbuch-netzpolitik.de%2F%3Fpodlove_player4%3D2036"
+            }],
+            "links": [{
+                "url": "https://logbuch-netzpolitik.de/lnp387-magisches-denken",
+                "text": "Logbuch Netzpolitik 387: Magisches Denken (logbuch-netzpolitik.de)"
+            }]
+        },
+        {
             "date": "08.04.2021",
             "type": "incident",
             "title": "Schwachstelle: SMS-TAN-Verfahren lässt sich clientseitig umgehen",
@@ -287,6 +301,20 @@
             }]
         },
         {
+            "date": "28.05.2021",
+            "type": "podcast",
+            "title": "Logbuch Netzpolitik: Hochsicherheit kommt vor dem Fall",
+            "text": "Ein Logbuch:Netzpolitik (LNP)-Spezial zur letzten dicken Sicherheitslücke in der Luca-App, mit Marcus Mengs, Linus Neumann und Tim Pritlove",
+            "embed": [{
+                "type": "podlove",
+                "id": "https%3A%2F%2Flogbuch-netzpolitik.de%2F%3Fpodlove_player4%3D2048"
+            }],
+            "links": [{
+                "url": "https://logbuch-netzpolitik.de/lnp396-hochsicherheit-kommt-vor-dem-fall",
+                "text": "Logbuch Netzpolitik 396: Hochsicherheit kommt vor dem Fall (logbuch-netzpolitik.de)"
+            }]
+        },
+        {
             "date": "01.06.2020",
             "type": "incident",
             "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
@@ -321,7 +349,23 @@
             },{
                 "url": "https://vimeo.com/558031958",
                 "text": "Zentral – Dezentral – völlig egal?: Eine kritische Auseinandersetzung mit der LUCA-App (Vimeo)"
-            }]
+            }],
+            "tags": ["kampnagel", "eva-wolfangel","patrick-hennig","amelie-deuflhard","lorena-jaume-palasí","jörn-riedel","judith-horchert"]
+        },
+        {
+            "date": "09.06.2021",
+            "type": "broadcast",
+            "title": "ARD Plusminus: Sendung vom 9. Juni 2021: LUCA-App - mehr Kosten als Nutzen",
+            "text": "Ab 18:45 min",
+            "embed": [{
+                "type": "ardmediathek",
+                "id": "Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy8wOTgyNGJmNS1iOThjLTQ1OGItYWFhMy1lMGEzMjY2ZGJhZTg"
+            }],
+            "links": [{
+                "url": "https://www.daserste.de/information/wirtschaft-boerse/plusminus/videos/sendung-vom-09-06-2021-luca-app-video-100.html",
+                "text": "Plusminus-Sendung vom 09. Juni 2021 - Video: LUCA-App – mehr Kosten als Nutzen (daserste.de)"
+            }],
+            "tags": ["ard", "plusminus"]
         }
     ]
 }

@@ -103,12 +103,24 @@ body {
 .container.type-incident .content {
     border-top: 8px solid rgb(173, 0, 0);
 }
-.container.type-event .content, .container.type-talk .content {
+.container.type-event .content, .container.type-talk .content, .container.type-podcast .content, .container.type-broadcast .content {
     border-top: 8px solid rgb(212, 145, 0);
 }
 .content .linkarea {
     margin-top: 15px;
 }
+
+.content .tag {
+    line-height: 2.2em;
+    background-color: gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+
+    font-weight: bold;
+    color: white;
+}
+
 
 @media screen and (max-width: 800px) {
     .timeline::after {
