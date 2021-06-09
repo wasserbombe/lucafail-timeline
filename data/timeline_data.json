@@ -36,7 +36,8 @@
             "links": [{
                 "url": "https://fragdenstaat.de/a/214626",
                 "text": "https://fragdenstaat.de/a/214626"
-            }]
+            }],
+            "tags": ["vertrag"]
         },
         {
             "date": "23.03.2021",
@@ -49,7 +50,8 @@
                     "url": "https://arxiv.org/pdf/2103.11958.pdf",
                     "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
                 }
-            ]
+            ],
+            "tags": ["paper","metadata"]
         },
         {
             "date": "25.03.2021",
@@ -83,7 +85,8 @@
             "type": "incident",
             "title": "Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar",
             "text": "Impact: Alle Nutzer / Locations",
-            "links": []
+            "links": [],
+            "tags": ["luca-api", "luca-backend"]
         },
         {
             "date": "04.04.2021",
@@ -93,7 +96,8 @@
             "links": [{
                 "url": "https://www.nnn.de/lokales/rostock/hansestadt-rostock/Luca-App-Schluesselanhaenger-offenbart-Sicherheitsluecken-in-Rostock-id31790352.html",
                 "text": "Norddeutsche Neueste Nachrichten: Schlüsselanhänger offenbart eklatante Sicherheitslücken"
-            }]
+            }],
+            "tags": ["sms-tan", "luca-frontend"]
         },
         {
             "date": "05.04.2021",
@@ -201,7 +205,8 @@
             "links": [{
                 "url": "https://www.bundestag.de/dokumente/textarchiv/2021/kw18-pa-digitale-agenda-cluster-838094",
                 "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
-            }]
+            }],
+            "tags": ["bundestag","linus-neumann","bianca-kastl"]
         },
         {
             "date": "06.05.2021",
@@ -221,7 +226,8 @@
             },{
                 "url": "https://bkastl.de/luca_lucatrack_itsec/",
                 "text": "bkastl.de: Slides"
-            }]
+            }],
+            "tags": ["luca-badges","lucatrack","bianca-kastl"]
         },
         {
             "date": "11.05.2021",
@@ -231,7 +237,8 @@
             "links": [{
                 "url": "https://twitter.com/mame82/status/1392139239165419522",
                 "text": "Tweet Marcus Mengs (Twitter)"
-            }]
+            }],
+            "tags": ["luca-badges"]
         },
         {
             "date": "14.05.2021",
@@ -244,7 +251,8 @@
             },{
                 "url": "https://twitter.com/cccfr/status/1393278132338241536",
                 "text": "Chaos Computer Club Freiburg e.V."
-            }]
+            }],
+            "tags": ["luca-badges"]
         },
         {
             "date": "14.05.2021",
@@ -254,7 +262,8 @@
             "links": [{
                 "url": "https://twitter.com/mame82/status/1393182733673848833",
                 "text": "Tweet Marcus Mengs (Twitter)"
-            }]
+            }],
+            "tags": ["luca-badges"]
         },
         {
             "date": "19.05.2021",
@@ -264,7 +273,8 @@
             "links": [{
                 "url": "https://twitter.com/mame82/status/1394957601071370240",
                 "text": "Tweet Marcus Mengs (Twitter)"
-            }]
+            }],
+            "tags": ["luca-badges"]
         },
         {
             "date": "26.05.2021",
@@ -277,7 +287,7 @@
             }],
             "links": [{
                 "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
-                "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+                "text": "Marcus Mengs: CVE-2021-33840 (Github)"
             },{
                 "url": "https://vimeo.com/558459255",
                 "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
@@ -294,11 +304,12 @@
             }],
             "links": [{
                 "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
-                "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+                "text": "Marcus Mengs: CVE-2021-33840 (Github)"
             },{
                 "url": "https://vimeo.com/558459255",
                 "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
-            }]
+            }],
+            "tags": ["denial-of-service", "ransomware", "cve"]
         },
         {
             "date": "28.05.2021",
@@ -332,7 +343,8 @@
             "links": [{
                 "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
                 "text": "Marcus Mengs: CVE-2021-33840 (Github)"
-            }]
+            }],
+            "tags": ["sms-tan","luca-frontend"]
         },
         {
             "date": "03.06.2020",
