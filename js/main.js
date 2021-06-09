@@ -7,6 +7,7 @@
                 $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
                 if (e.type){
                     $div.addClass("type-" + e.type);
+                    e.date = e.date + " - " + e.type;
                 } else {
                     $div.addClass("type-general");
                 }

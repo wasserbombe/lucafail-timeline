@@ -60,9 +60,32 @@
         "links": []
     },
     {
+        "date": "26.05.2021",
+        "type": "incident",
+        "title": "Schwachstelle: Remote Code Injection via CSV-Export",
+        "text": "Durch von Luca erfasste Kontaktdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen, wodurch Daten unbemerkt gestohlen und bearbeitet werden können.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
+        "links": [{
+            "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
+            "text": "Marcus Mengs: CVW-2021-33840 (Github)"
+        },{
+            "url": "https://vimeo.com/558459255",
+            "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+        }]
+    },
+    {
+        "date": "01.06.2020",
+        "type": "incident",
+        "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "text": "<a href=\"https://twitter.com/fluepke/\">@fluepke</a><br>Impact: Gering, aber nur, weil bisher keine IPv6-Adressen in diesem Bereich vergeben sind",
+        "links": [{
+            "url": "https://twitter.com/fluepke/status/1399790712317751301",
+            "text": "@fluepke auf Twitter"
+        }]
+    },
+    {
         "date": "???",
         "type": "incident",
-        "title": "Schwachstelle: SMS-Verifizierung in der Web-App arbeitet clientseitig",
+        "title": "Schwachstelle: SMS-Verifizierung in der Web-App ist clientseitig aushebelbar",
         "text": "SMS-Verifizierung in der Web-App arbeitet clientseitig, der Server selbst “stateless”; dadurch lässt sich die SMS-Verifizierung leicht aushebeln.<br><br>Marcus Mengs<br><br>CVE-2021-33840<br>Impact: Luca Web-App",
         "links": [{
             "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
