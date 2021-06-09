@@ -129,6 +129,10 @@
         "type": "incident",
         "title": "Schwachstelle: Betreiber-QR-Codes können manipuliert werden, um an Nutzerdaten zu gelangen",
         "text": "Impact: Alle Nutzer / private Treffen",
+        "embed": [{
+            "type": "youtube",
+            "id": "jWyDfEB0m08"
+        }],
         "links": [{
             "url": "https://www.youtube.com/watch?v=jWyDfEB0m08",
             "text": "Luca Location Betreiber manipuliert QR code um an Nutzerdaten zu kommen (YouTube)"
@@ -145,6 +149,40 @@
         "links": [{
             "url": "https://digikoletter.github.io/",
             "text": "digikoletter.github.io"
+        }]
+    },
+    {
+        "date": "05.05.2021",
+        "type": "event",
+        "title": "Deutscher Bundestag / Ausschuss Digitale Agenda: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht",
+        "text": "Der Ausschuss Digitale Agenda unter Leitung von Manuel Höferlin (FDP) hat sich am Mittwoch, 5. Mai 2021, in einem öffentlichen Fachgespräch mit der Sicherheit und Koordinierung der Nutzung von sogenannten Clustererkennungs-Apps wie der Corona-Warn-App der Bundesregierung (CWA) oder der Luca-App beschäftigt. Die Luca-App wird bereits in einigen Bundesländern zur Kontaktnachverfolgung eingesetzt, war aber zuletzt wegen Datenschutzmängeln in die Kritik geraten.",
+        "embed": [{
+            "type": "bundestag-webtv",
+            "id": "7519454"
+        }],
+        "links": [{
+            "url": "https://www.bundestag.de/dokumente/textarchiv/2021/kw18-pa-digitale-agenda-cluster-838094",
+            "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
+        }]
+    },
+    {
+        "date": "06.05.2021",
+        "type": "talk",
+        "title": "Bianca Kastl: Die Luca App - LucaTrack und andere Gefahren",
+        "text": "“Luca ist ein arg seltsames Pseudo-Open-Source-Projekt geworden, bei dem eine Community aus Gesundheitsämtern und Security Expert:innen einem Privatunternehmen dabei helfen muss, seine hohen Marketingversprechen irgendwie einlösen zu können und dafür Lizenzen zu kassieren.”",
+        "embed": [{
+            "type": "ccc-media",
+            "id": "cccs-202105-lucatrack-und-andere-gefahren"
+        }],
+        "links": [{
+            "url": "https://media.ccc.de/v/cccs-202105-lucatrack-und-andere-gefahren",
+            "text": "Talk auf media.ccc.de"
+        },{
+            "url": "https://bkastl.de/notes/luca-app-lucatrack-und-andere-gefahren",
+            "text": "bkastl.de: Notes"
+        },{
+            "url": "https://bkastl.de/luca_lucatrack_itsec/",
+            "text": "bkastl.de: Slides"
         }]
     },
     {
@@ -182,6 +220,10 @@
         "type": "incident",
         "title": "Schwachstelle: Remote Code Injection via CSV-Export",
         "text": "Durch von Luca erfasste Kontaktdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen, wodurch Daten unbemerkt gestohlen und bearbeitet werden können.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
+        "embed": [{
+            "type": "vimeo",
+            "id": "558459255"
+        }],
         "links": [{
             "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
             "text": "Marcus Mengs: CVW-2021-33840 (Github)"
@@ -195,6 +237,10 @@
         "type": "incident",
         "title": "Schwachstelle: Denial-of-Service Angriffe mit eingegebenen Nutzerdaten",
         "text": "Durch von Luca erfasste Nutzerdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen. In der Gezeigten Demo wurde Ransomware eingeschleußt und das simulierte Gesundheitsamt auf diese Weise lahmgelegt.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
+        "embed": [{
+            "type": "vimeo",
+            "id": "558459255"
+        }],
         "links": [{
             "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33840.md",
             "text": "Marcus Mengs: CVW-2021-33840 (Github)"
@@ -228,6 +274,10 @@
         "type": "event",
         "title": "Zentral - Dezentral - völlig egal?: Eine kritische Auseinandersetzung mit der Luca-App",
         "text": "Kampgnagel lud im im Rahmen von Claiming Common Spaces III zu einer Diskussion über die App Luca und mögliche Alternativen, sowie über Visionen für institutionelle Digitalisierungsprozesse ein. <br><br>Gäste: Eva Wolfangel (Wissenschaftsjournalistin), Amelie Deuflhard (Intendantin Kampnagel), Lorena Jaume-Palasí (Gründerin The Ethical Tech Society), Jörn Riedel (CIO Freie und Hansestadt Hamburg), Patrick Hennig (CEO neXenio / Luca).<br>Moderation: Judith Horchert (DER SPIEGEL, Ressortleiterin Wirtschaft/Netzwelt).",
+        "embed": [{
+            "type": "vimeo",
+            "id": "558031958"
+        }],
         "links": [{
             "url": "http://www.kampnagel.de/de/programm/was-kann-die-luca-app/",
             "text": "Programm: Was kann die Luca-App? (kampnagel.de)"

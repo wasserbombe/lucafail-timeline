@@ -29,6 +29,26 @@
                     $content.append($text);                    
                 }
 
+                if (e.embed && e.embed.length){
+                    e.embed.forEach((embed, i) => {
+                        if (embed.type == "vimeo"){
+                            $iframe = $("<iframe>").attr("src", "https://player.vimeo.com/video/" + embed.id).attr("allowfullscreen","").attr("frameborder", "0").css("width","100%");
+                            $content.append($iframe);
+                        } else if (embed.type == "youtube"){
+                            $iframe = $("<iframe>").attr("src", "https://www.youtube-nocookie.com/embed/" + embed.id).attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width","100%");
+                            $content.append($iframe);
+                        } else if (embed.type == "ccc-media"){
+                            $iframe = $("<iframe>").attr("src", "https://media.ccc.de/v/"+embed.id+"/oembed").attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width","100%");
+                            $content.append($iframe);
+                        } else if (embed.type == "bundestag-webtv"){
+                            // <script id="tv7519454" src="https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content=7519454&phi=default"></script>
+                            // wtf? embedding SCRIPT?
+                            //$script = $("<script>").attr("id", "tv" + embed.id).attr("src", "https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content="+embed.id+"&phi=default");
+                            //$content.append($script);
+                        }
+                    });
+                }
+
                 if (e.links && e.links.length){
                     $linklist = $("<ul>");
                     e.links.forEach((link,i) => {

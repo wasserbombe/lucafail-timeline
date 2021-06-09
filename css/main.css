@@ -103,7 +103,7 @@ body {
 .container.type-incident .content {
     border-top: 8px solid rgb(173, 0, 0);
 }
-.container.type-event .content {
+.container.type-event .content, .container.type-talk .content {
     border-top: 8px solid rgb(212, 145, 0);
 }
 .content .linkarea {
