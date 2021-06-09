@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #474e5d;
+    background-color: #6b6b6b;
     font-family: Helvetica, sans-serif;
     font-size: smaller;
 }
@@ -95,13 +95,13 @@ body {
     
 }
 .container.type-general .content {
-    border-top: 5px solid darkblue;
+    border-top: 8px solid darkblue;
 }
 .container.type-doc .content {
-    border-top: 5px solid rgb(0, 112, 6);
+    border-top: 8px solid rgb(0, 112, 6);
 }
 .container.type-incident .content {
-    border-top: 5px solid rgb(173, 0, 0);
+    border-top: 8px solid rgb(173, 0, 0);
 }
 
 .content .linkarea {
