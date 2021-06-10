@@ -1,4 +1,5 @@
 <?php
+    $cachedir = __DIR__ . '/cache/';
     $res = array(
         "data" => array(),
         "code" => 400,
@@ -10,9 +11,32 @@
         $res["code"] = 400; 
         $res["error"] = array("msg" => "Bad Request. Request ID must be provided and needs to be numeric.");
     } else {
-        $fds_raw = file_get_contents("https://fragdenstaat.de/api/v1/request/".$_REQUEST["id"]."/"); 
-        $fds = json_decode($fds_raw, true);
-        $res["data"] = $fds;
+        $url = "https://fragdenstaat.de/api/v1/request/".$_REQUEST["id"]."/";
+        $cache_fn = $cachedir . md5($url) . '.json';
+        if (file_exists($cache_fn) && filemtime($cache_fn) > time()-60*60*1){
+            $fds_raw = file_get_contents($cache_fn);
+            $fds = json_decode($fds_raw, true);
+        } else {
+            // @TODO: Use curl and send user agent
+            $fds_raw = file_get_contents($url);
+            $fds = json_decode($fds_raw, true);
+            if ($fds){
+                file_put_contents($cache_fn, $fds_raw);
+            } 
+        }
+
+        $data = array(
+            "url" => "https://fragdenstaat.de".$fds["url"],
+            "status" => $fds["status"]?:"unknown",
+            "description" => $fds["description"],
+            "last_message" => $fds["last_message"],
+            "title" => $fds["title"],
+            "costs" => $fds["costs"],
+            "messages_count" => sizeof($fds["messages"]),
+        );
+        //$data["raw"] = $fds; 
+        
+        $res["data"] = $data;
         $res["code"] = 200; 
     }
 

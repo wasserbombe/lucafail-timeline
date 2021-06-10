@@ -1,4 +1,54 @@
 (function(){
+    var fdsbuttonclickhandler = (e) => {
+        var fds = $(e.target).closest("[data-fds-id]").data("fds-id");
+        console.log(fds);
+        if (fds){
+            window.open('https://fragdenstaat.de/a/' + fds, '_blank');
+        }
+    };
+
+    var embedFDS = ($fdswidget) => {
+        $fdswidget.addClass("fds-widget");
+        $.ajax({
+            url: "/api/fds.php",
+            data: { id: $fdswidget.data("fds-id") },
+            dataType: 'json',
+            success: (data) => {
+                console.log("FDS", data);
+                if (data.data){
+                    data = data.data;
+                    var $fdstitle = $("<div>").addClass("fds-title").text(data.title);
+                    $fdswidget.append($fdstitle);
+
+                    var $fdscontent = $("<div>").addClass("fds-content");
+
+                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Status:<br>"));
+                    $fdscontent.append($("<span>").text(data.status));
+
+                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Letzte Nachricht:<br>"));
+                    $fdscontent.append($("<span>").text(data.last_message));
+
+                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Inhalt:<br>"));
+                    $fdscontent.append($("<span>").text(data.description));
+
+                    $fdscredit = $("<div>").addClass("fds-credit");
+                    $tr = $("<tr>");
+                    $td = $("<td>").append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
+                    $tr.append($td);
+
+                    $td = $("<td>");
+                    $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://fragdenstaat.de\" target=\"_blank\">fragdenstaat.de</a> abgerufen."));
+                    $td.append($("<button>").text("Zur Original-Anfrage auf fragdenstaat.de »").on("click", fdsbuttonclickhandler));
+                    $tr.append($td);
+
+                    $fdscredit.append($("<table>").append($tr));
+                    $fdscontent.append($fdscredit);
+
+                    $fdswidget.append($fdscontent);
+                }
+            }
+        });
+    }
     $.ajax({
         url: "/data/timeline_data.json",
         dataType: 'json',
@@ -55,8 +105,9 @@
                             $iframe = $("<iframe>").attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+embed.id).attr("width","600").attr("height","290").attr("scrolling","no").attr("frameborder", "0");
                             $content.append($iframe);
                         } else if (embed.type == "fragdenstaat"){
-                            $fragdenstaatnotice = $("<div>").text("TODO: Check if we're allowed to fetch status from fragdenstaat.de").css("color","darkred").css("font-weight","bold");
-                            $content.append($fragdenstaatnotice);
+                            $fragdenstaat = $("<div>").attr("data-fds-id", embed.id);
+                            embedFDS($fragdenstaat);
+                            $content.append($fragdenstaat);
                         } else if (embed.type == "ardmediathek"){
                             // <iframe src="https://www.ardmediathek.de/embed/Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy9jM2Y1ODI1MS0xZjQ1LTQ1NDYtOTRiZi0zNTk0ZjhiMzk0NGU?startTime=1127.75&endTime=1680.35" width="640" height="420" allowfullscreen frameBorder="0" scrolling="no"></iframe>
                             var url = "https://www.ardmediathek.de/embed/" + embed.id; 
