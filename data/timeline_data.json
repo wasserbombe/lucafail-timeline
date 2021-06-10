@@ -125,8 +125,8 @@
         {
             "date": "31.03.2021",
             "type": "incident",
-            "title": "Konzept-Problem: QR-Codes lassen sich fotografieren und jederzeit an jedem Ort nutzen",
-            "text": "",
+            "title": "Konzept-Problem: Check-In von überall möglich, QR-Codes genügen",
+            "text": "... und die gibt's auf Social Media reichlich!",
             "embed": [{
                 "type": "tweet",
                 "url": "https:\/\/twitter.com\/Wasserbombe\/status\/1377197156927422465"
@@ -155,6 +155,20 @@
             "links": [{
                 "url": "https://logbuch-netzpolitik.de/lnp387-magisches-denken",
                 "text": "Logbuch Netzpolitik 387: Magisches Denken (logbuch-netzpolitik.de)"
+            }]
+        },
+        {
+            "date": "08.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Anonyme Luca-QR-Codes lassen sich ohne Luca erstellen und nutzen",
+            "text": "Die lokal generierten QR-Codes lassen sich vom Luca App-Scanner (für Gastgeber) einscannen, werden als gültig erkannt und erhöhen den Gastzähler beim Betreiber, sind ansonsten aber sinnlos.",
+            "links": [{
+                "url": "https://twitter.com/AllenRe97883617/status/1379405366010732552",
+                "text": "Tweet von @AllenRe97883617 (Twitter)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/AllenRe97883617/status/1379405366010732552"
             }]
         },
         {
@@ -213,6 +227,16 @@
                 "text": "Luca-App: CCC fordert Bundesnotbremse"
             }],
             "tags": ["ccc","linus-neumann"]
+        },
+        {
+            "date": "15.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle/Proof of Concept: Dank Luca-App überall einchecken!",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ralf/status/1382673524276477955"
+            }]
         },
         {
             "date": "29.04.2021",
@@ -502,6 +526,21 @@
             },{
                 "url": "https://netzpolitik.org/2021/it-sicherheit-schon-wieder-desastroese-sicherheitsluecke-in-luca-app/",
                 "text": "Markus Reuter: IT-Sicherheit - Schon wieder desaströse Sicherheitslücke in Luca App (netzpolitik.org)"
+            }]
+        },
+        {
+            "date": "26.05.2021",
+            "type": "news",
+            "title": "“Hacker können Gesundheitsämter über Luca angreifen”",
+            "text": "<blockquote>Die Luca-App liefert Daten ans Gesundheitsamt. Sicherheitsexperten zeigen nun: Darin lässt sich Quellcode verstecken, der potenziell ganze Behörden lahmlegen könnte.</blockquote>",
+            "links": [{
+                "url": "https://www.zeit.de/digital/2021-05/luca-app-gesundheitsaemter-hackerangriff-risiko-kontaktverfolgung-coronavirus/komplettansicht",
+                "text": "Eva Wolfangel: Luca-App - Hacker können Gesundheitsämter über Luca angreifen (zeit.de)"
+            }],
+            "tags": ["zeit","eva-wolfangel"],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/evawolfangel/status/1397454150875615233"
             }]
         },
         {
