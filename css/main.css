@@ -207,11 +207,18 @@ blockquote {
 }
 
 
+@media screen and (max-width: 1435px) {
+    .podlove {
+        height: 380px;
+        width: unset;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .timeline::after {
         left: 31px;
     }
-    
+
     .container {
         width: 100%;
         padding-left: 70px;
