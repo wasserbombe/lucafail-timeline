@@ -109,6 +109,9 @@ body {
 .container.type-fragdenstaat .content {
     border-top: 8px solid #0047e1;
 }
+.container.type-news .content {
+    border-top: 8px solid #8000a7;
+}
 
 .content .linkarea {
     margin-top: 15px;

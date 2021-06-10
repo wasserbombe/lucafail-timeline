@@ -107,20 +107,6 @@
             ]
         },
         {
-            "date": "...",
-            "type": "placeholder",
-            "title": "...",
-            "text": "...",
-            "links": []
-        },
-        {
-            "date": "...",
-            "type": "placeholder",
-            "title": "...",
-            "text": "...",
-            "links": []
-        },
-        {
             "date": "30.03.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Datenschutz-Folgenabschätzung (DSFA) für die Luca-App",
@@ -135,6 +121,16 @@
                 "text": "https://fragdenstaat.de/a/217030"
             }],
             "tags": ["vertrag","datenschutz"]
+        },
+        {
+            "date": "31.03.2021",
+            "type": "incident",
+            "title": "Konzept-Problem: QR-Codes lassen sich fotografieren und jederzeit an jedem Ort nutzen",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https:\/\/twitter.com\/Wasserbombe\/status\/1377197156927422465"
+            }]
         },
         {
             "date": "04.04.2021",
@@ -208,6 +204,17 @@
             }]
         },
         {
+            "date": "13.04.2021",
+            "type": "news",
+            "title": "“Luca-App: CCC fordert Bundesnotbremse”",
+            "text": "<ul><li>Investor Smudo auf Talkshow-Tour</li><li>Staatlich subventioniertes Geschäftsmodell</li><li>Fragwürdige Vergabepraxis</li><li>Alternativen geflissentlich ignoriert</li><li>Zweifelhafter Nutzen</li><li>Betreiber greifen in zentralen Datenbestand ein</li><li>Handwerkliche Mängel und Schwachstellen</li></ul>",
+            "links": [{
+                "url": "https://www.ccc.de/de/updates/2021/luca-app-ccc-fordert-bundesnotbremse",
+                "text": "Luca-App: CCC fordert Bundesnotbremse"
+            }],
+            "tags": ["ccc","linus-neumann"]
+        },
+        {
             "date": "29.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Betreiber-QR-Codes können manipuliert werden, um an Nutzerdaten zu gelangen",
@@ -228,7 +235,7 @@
             "date": "02.05.2021",
             "type": "doc",
             "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
-            "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern",
+            "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern mit grundlegenden Entwicklungsprinzipien:<ul><li><b>Zweckbindung:</b> Das einzige Ziel muss die Pandemiebekämpfung sein. Eine Verknüpfung mit anderen Geschäftsmodellen, Anwendungsmöglichkeiten und Profitinteressen muss ausgeschlossen, idealerweise technisch unmöglich sein.</li><li><b>Offenheit und Transparenz:</b> Fachleuten, IT-Sicherheits- und Datenschutzexpert:innen muss frühzeitig die Möglichkeit gegeben werden, sich konstruktiv am Entwicklungsprozess zu beteiligen oder diesen unabhängig zu begutachten.</li><li><b>Freiwilligkeit:</b> Die Nutzung bestimmter Werkzeuge zur digitalen Kontaktverfolgung muss freiwillig sein. Bürger:innen, die das Werkzeug nicht benutzen möchten, dürfen nicht von sozialen Aktivitäten, dem Zutritt zu öffentlichen Gebäuden, Geschäften, usw. ausgeschlossen werden.</li><li><b>Risikoabwägung:</b> Die Beurteilung des Nutzens und der Risiken einer solchen Lösung muss im Vorfeld unabhängig und öffentlich geprüft werden können. Dies gilt ganz besonders dann, wenn der Effekt der technischen Lösung in wesentlichem Umfang auf dem Vertrauen der Bürger:innen basiert.</li></ul>",
             "links": [{
                 "url": "https://digikoletter.github.io/",
                 "text": "digikoletter.github.io"
@@ -275,6 +282,23 @@
                 "url": "https://www.n-tv.de/panorama/Wurde-die-Luca-App-gehackt-article22531735.html",
                 "text": "n-tv.de: Ministerpräsidenten eingecheckt - Wurde die Luca-App gehackt?"
             }]
+        },
+        {
+            "date": "04.05.2021",
+            "type": "news",
+            "title": "“Was bringt die Luca-App den Gesundheitsämtern wirklich?”",
+            "text": "<blockquote>Die Auswertung eines Modellversuchs aus Weimar legt außerdem nahe, dass von Luca bislang vor allem Daten bereitgestellt werden, mit denen Gesundheitsämter nichts anfangen können. Im Evaluierungsbericht heißt es über den dortigen Luca-Einsatz: \"Nach erster Beurteilung durch das Gesundheitsamt waren <b>von 655 angefragten und übermittelten Kontakten im Projektzeitraum null Kontakte relevant</b>.\" Auch die Datenschutzbeauftragten der Länder und des Bundes warnten vergangene Woche in einer Stellungnahme zur Luca-App, dass diese Daten liefern könne, \"die für die Kontaktnachverfolgung nutzlos sind\".</blockquote>",
+            "links": [{
+                "url": "https://www.zeit.de/digital/datenschutz/2021-04/luca-app-gesundheitsaemter-corona-kontaktverfolgung-hackerangriff-risiko/komplettansicht",
+                "text": "Eva Wolfangel: Luca-App - Was bringt die Luca-App den Gesundheitsämtern wirklich? (zeit.de)"
+            },{
+                "url": "https://stadt.weimar.de/fileadmin/redaktion/Dokumente/corona/Evaluation_des_Weimarer_Modells_final_Stand20210412_1523.pdf",
+                "text": "Das Weimarer Modell: Testen - Lockern - Impfen, Evaluation der Testphase 1 (stadt.weimar.de)"
+            },{
+                "url": "https://www.datenschutzkonferenz-online.de/media/st/20210429_DSK_Stellungnahme_LUCA.pdf",
+                "text": "Stellungnahme der Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder vom 29. April 2021 zu Kontaktnachverfolgungssystemen (datenschutzkonferenz-online.de)"
+            }],
+            "tags": ["zeit","eva-wolfangel","weimar","evaluation","bodenseekreis"]
         },
         {
             "date": "04.05.2021",
@@ -353,6 +377,17 @@
             "tags": ["luca-badges"]
         },
         {
+            "date": "12.05.2021",
+            "type": "news",
+            "title": "Appell an Stadtspitze und Stadtrat: “Warnen Sie Ihre Bürgerinnen und Bürger vor der Luca-App”",
+            "text": "",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/warnen-sie-ihre-buergerinnen-und-buerger-vor-der-luca-app/12052021/",
+                "text": "regensburg-digital.de"
+            }],
+            "tags": ["zeit","markus-feilner","regensburg"]
+        },
+        {
             "date": "14.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Nexenio hat Zugriff auf Seriennummer der Schlüsselanhänger - und damit auf das Bewegungsprofil von Nutzern",
@@ -374,6 +409,10 @@
             "links": [{
                 "url": "https://twitter.com/mame82/status/1393182733673848833",
                 "text": "Tweet Marcus Mengs (Twitter)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1393182733673848833"
             }],
             "tags": ["luca-badges"]
         },
@@ -418,6 +457,10 @@
                 "url": "https://twitter.com/mame82/status/1394957601071370240",
                 "text": "Tweet Marcus Mengs (Twitter)"
             }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1394957601071370240"
+            }],
             "tags": ["luca-badges"]
         },
         {
@@ -435,6 +478,9 @@
             },{
                 "url": "https://vimeo.com/558459255",
                 "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+            },{
+                "url": "https://netzpolitik.org/2021/it-sicherheit-schon-wieder-desastroese-sicherheitsluecke-in-luca-app/",
+                "text": "Markus Reuter: IT-Sicherheit - Schon wieder desaströse Sicherheitslücke in Luca App (netzpolitik.org)"
             }]
         },
         {

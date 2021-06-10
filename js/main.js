@@ -125,6 +125,12 @@
                             }
                             $iframe = $("<iframe>").attr("src", url).attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width", "100%").css("min-height", "320px");// .css("width","640").css("height","420");
                             $content.append($iframe);
+                        } else if (embed.type == "tweet" && embed.url){
+                            var $tweetdiv = $("<div>");
+                            // TODO: we can do that better... (twttr.widgets.createTweet ?)
+                            // https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
+                            $tweetdiv.html("\u003Cblockquote data-dnt=\"true\" data-theme=\"dark\" data-align=\"center\" class=\"twitter-tweet\"\u003E\u003Ca href=\""+embed.url+"\"\u003E\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E");
+                            $content.append($tweetdiv);
                         }
                     });
                 }
