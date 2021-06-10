@@ -329,6 +329,16 @@
             "tags": ["bundestag","linus-neumann","bianca-kastl","digitale-agenda"]
         },
         {
+            "date": "05.05.2021",
+            "type": "podcast",
+            "title": "Anke Domscheit-Berg: “Ausschussreport: Hopp oder Topp? Luca und Corona-Warn-App auf dem Prüfstand” (Video)",
+            "text": "",
+            "embed": [{
+                "type": "youtube",
+                "id": "b_jzjQSBUZo"
+            }]
+        },
+        {
             "date": "06.05.2021",
             "type": "talk",
             "title": "Bianca Kastl: Die Luca App - LucaTrack und andere Gefahren",
@@ -374,7 +384,11 @@
                 "url": "https://twitter.com/mame82/status/1392139239165419522",
                 "text": "Tweet Marcus Mengs (Twitter)"
             }],
-            "tags": ["luca-badges"]
+            "tags": ["luca-badges"],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1392139239165419522"
+            }]
         },
         {
             "date": "12.05.2021",
@@ -398,8 +412,15 @@
             },{
                 "url": "https://twitter.com/cccfr/status/1393278132338241536",
                 "text": "Chaos Computer Club Freiburg e.V."
+            },{
+                "url": "https://gitlab.com/lucaapp/web/-/issues/15",
+                "text": "Gitlab: Temporary unable to retrieve badge history"
             }],
-            "tags": ["luca-badges"]
+            "tags": ["luca-badges"],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/evawolfangel/status/1393204222146064389"
+            }]
         },
         {
             "date": "14.05.2021",
