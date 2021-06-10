@@ -40,6 +40,22 @@
             "tags": ["vertrag"]
         },
         {
+            "date": "21.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Vertrag & Kosten zur Nutzung der Luca App",
+            "scope": "Land: Berlin",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216210"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216210",
+                "text": "https://fragdenstaat.de/a/216210"
+            }],
+            "tags": ["vertrag","kosten"]
+        },
+        {
             "date": "23.03.2021",
             "type": "doc",
             "scope": "Bundesweit",
@@ -52,6 +68,30 @@
                 }
             ],
             "tags": ["paper","metadata"]
+        },
+        {
+            "date": "24.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Prüfung der LucaApp und weiterer Systeme",
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "Ergebnis: Landesbeauftragter für Datenschutz und Informationsfreiheit war nicht an der Prüfung beteiligt.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216557"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216557",
+                "text": "https://fragdenstaat.de/a/216557"
+            }],
+            "tags": ["vertrag","prüfung","malu-dreyer","datenschutz"]
+        },
+        {
+            "date": "24.03.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar",
+            "text": "Impact: Alle Nutzer / Locations",
+            "links": [],
+            "tags": ["luca-api", "luca-backend"]
         },
         {
             "date": "25.03.2021",
@@ -81,12 +121,20 @@
             "links": []
         },
         {
-            "date": "24.03.2021",
-            "type": "incident",
-            "title": "Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar",
-            "text": "Impact: Alle Nutzer / Locations",
-            "links": [],
-            "tags": ["luca-api", "luca-backend"]
+            "date": "30.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Datenschutz-Folgenabschätzung (DSFA) für die Luca-App",
+            "scope": "Land: Berlin",
+            "text": "Prüfverfahren dauert dran; Informationszugang ist gebührenpflichtig",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217030"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/217030",
+                "text": "https://fragdenstaat.de/a/217030"
+            }],
+            "tags": ["vertrag","datenschutz"]
         },
         {
             "date": "04.04.2021",
@@ -119,6 +167,22 @@
             "title": "Schwachstelle: SMS-TAN-Verfahren lässt sich clientseitig umgehen",
             "text": "",
             "links": []
+        },
+        {
+            "date": "11.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Kosten für den Einsatz der Luca-App",
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "Ergebnis: Kosten in Summe, ansonsten abgelehnt.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "218014"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/218014",
+                "text": "https://fragdenstaat.de/a/218014"
+            }],
+            "tags": ["vertrag","kosten"]
         },
         {
             "date": "13.04.2021",
@@ -171,6 +235,38 @@
             }]
         },
         {
+            "date": "03.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: luca App",
+            "scope": "Land: Hessen",
+            "text": "Ergebnis: Kosten, “Verfahren bei Beteiligung Dritter”.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219710"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219710",
+                "text": "https://fragdenstaat.de/a/219710"
+            }],
+            "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "03.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Fragen zur Luca App und Zweifel am Nutzen und der Verhältnismäßigkeit dessen Einsatzes",
+            "scope": "Land: Bayern",
+            "text": "Ergebnis: Keine Anfrage gemäß BayDSG, Begründung mehr IF-Anfrage nicht möglich.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219744"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219744",
+                "text": "https://fragdenstaat.de/a/219744"
+            }],
+            "tags": ["vertrag","kosten"]
+        },
+        {
             "date": "04.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Fremde Menschen können beliebig eingecheckt werden.",
@@ -206,13 +302,13 @@
                 "url": "https://www.bundestag.de/dokumente/textarchiv/2021/kw18-pa-digitale-agenda-cluster-838094",
                 "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
             }],
-            "tags": ["bundestag","linus-neumann","bianca-kastl"]
+            "tags": ["bundestag","linus-neumann","bianca-kastl","digitale-agenda"]
         },
         {
             "date": "06.05.2021",
             "type": "talk",
             "title": "Bianca Kastl: Die Luca App - LucaTrack und andere Gefahren",
-            "text": "“Luca ist ein arg seltsames Pseudo-Open-Source-Projekt geworden, bei dem eine Community aus Gesundheitsämtern und Security Expert:innen einem Privatunternehmen dabei helfen muss, seine hohen Marketingversprechen irgendwie einlösen zu können und dafür Lizenzen zu kassieren.”",
+            "text": "Talk von Bianca Kastl, IT-Projektmanagerin beim Gesundheitsamt Bodenseekreis, über die Luca-App, deren Sicherheitsprobleme und Contact-Tracing allgemein.<blockquote>Luca ist ein arg seltsames Pseudo-Open-Source-Projekt geworden, bei dem eine Community aus Gesundheitsämtern und Security Expert:innen einem Privatunternehmen dabei helfen muss, seine hohen Marketingversprechen irgendwie einlösen zu können und dafür Lizenzen zu kassieren.</blockquote>",
             "embed": [{
                 "type": "ccc-media",
                 "id": "cccs-202105-lucatrack-und-andere-gefahren"
@@ -228,6 +324,22 @@
                 "text": "bkastl.de: Slides"
             }],
             "tags": ["luca-badges","lucatrack","bianca-kastl"]
+        },
+        {
+            "date": "10.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Einsatz der Luca-App",
+            "scope": "Stadt Osnabrück",
+            "text": "Ergebnis: Keine Kosten für IT; Keine Daten über Luca abgefragt; Schlüsselanhänger wurden vom Citymarketing beschafft.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220127"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220127",
+                "text": "https://fragdenstaat.de/a/220127"
+            }],
+            "tags": ["vertrag","kosten","tracing-anfragen","nutzen","luca-badges"]
         },
         {
             "date": "11.05.2021",
@@ -264,6 +376,38 @@
                 "text": "Tweet Marcus Mengs (Twitter)"
             }],
             "tags": ["luca-badges"]
+        },
+        {
+            "date": "15.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Kosten für die Luca App",
+            "scope": "Bund",
+            "text": "Ergebnis: BMG und BMF prüfen Form der Unterstützung “der zwischenzeitlich von ihnen mehrheitlich gewählten Systeme”.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220461"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220461",
+                "text": "https://fragdenstaat.de/a/220461"
+            }],
+            "tags": ["vertrag","kosten","kostenübernahme","bmg","bmf"]
+        },
+        {
+            "date": "15.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Kostenübernahme für die Luca App Vertrag",
+            "scope": "Land BW",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220462"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220462",
+                "text": "https://fragdenstaat.de/a/220462"
+            }],
+            "tags": ["vertrag","kosten","kostenübernahme"]
         },
         {
             "date": "19.05.2021",
@@ -324,6 +468,22 @@
                 "url": "https://logbuch-netzpolitik.de/lnp396-hochsicherheit-kommt-vor-dem-fall",
                 "text": "Logbuch Netzpolitik 396: Hochsicherheit kommt vor dem Fall (logbuch-netzpolitik.de)"
             }]
+        },
+        {
+            "date": "28.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Alle Ihrer Behörde vorliegende Dokumente zur Luca-App / zum Luca-System",
+            "scope": "Land SH",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "221248"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/221248",
+                "text": "https://fragdenstaat.de/a/221248"
+            }],
+            "tags": ["vertrag","kosten"]
         },
         {
             "date": "01.06.2020",

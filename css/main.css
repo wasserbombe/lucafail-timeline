@@ -106,6 +106,10 @@ body {
 .container.type-event .content, .container.type-talk .content, .container.type-podcast .content, .container.type-broadcast .content {
     border-top: 8px solid rgb(212, 145, 0);
 }
+.container.type-fragdenstaat .content {
+    border-top: 8px solid #0047e1;
+}
+
 .content .linkarea {
     margin-top: 15px;
 }
@@ -148,6 +152,20 @@ body {
     padding: 3px;
     font-size: smaller;
 }
+.fds-content .fds-status-badge {
+    background-color: rgb(68, 68, 68);
+    color: white; 
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 2em;
+}
+.fds-content .fds-status-badge.fds-status-resolved {
+    background-color: darkgreen;
+}
+.fds-content .fds-status-badge.fds-status-awaiting_response {
+    background-color: orangered;
+}
 /*.fds-content .fds-credit::before {
     content: url('/assets/fds/logo.svg'); 
     width: 100px; 
@@ -161,6 +179,28 @@ body {
     margin-top: 5px;
     padding: 6px;
     display: block;
+}
+
+blockquote {
+    text-indent: -0.45em;
+    font-style: italic;
+    font-family: Georgia;
+}
+@supports ( hanging-punctuation: first) {
+    blockquote {
+        text-indent: 0;
+        hanging-punctuation: first;
+    }
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+blockquote {
+    quotes: "“" "”" "‘" "’";
 }
 
 

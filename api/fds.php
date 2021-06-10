@@ -25,15 +25,22 @@
             } 
         }
 
+        $desc = $fds["description"];
+        $desc = str_replace("\r\n","<br>", $desc);
+        $desc = str_replace("\n","<br>", $desc);
         $data = array(
             "url" => "https://fragdenstaat.de".$fds["url"],
             "status" => $fds["status"]?:"unknown",
-            "description" => $fds["description"],
+            "description" => $desc,
             "last_message" => $fds["last_message"],
             "title" => $fds["title"],
             "costs" => $fds["costs"],
             "messages_count" => sizeof($fds["messages"]),
+            "recipient" => ""
         );
+        if (isset($fds["public_body"]) && isset($fds["public_body"]["name"])){
+            $data["recipient"] = $fds["public_body"]["name"];
+        }
         //$data["raw"] = $fds; 
         
         $res["data"] = $data;

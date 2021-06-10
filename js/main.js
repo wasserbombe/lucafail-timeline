@@ -1,9 +1,11 @@
 (function(){
     var fdsbuttonclickhandler = (e) => {
-        var fds = $(e.target).closest("[data-fds-id]").data("fds-id");
-        console.log(fds);
-        if (fds){
-            window.open('https://fragdenstaat.de/a/' + fds, '_blank');
+        var fdsclosest = $(e.target).closest("[data-fds-id]");
+        if (fdsclosest.length){
+            var fds = fdsclosest.data("fds-id");
+            if (fds){
+                window.open('https://fragdenstaat.de/a/' + fds, '_blank');
+            }
         }
     };
 
@@ -14,7 +16,6 @@
             data: { id: $fdswidget.data("fds-id") },
             dataType: 'json',
             success: (data) => {
-                console.log("FDS", data);
                 if (data.data){
                     data = data.data;
                     var $fdstitle = $("<div>").addClass("fds-title").text(data.title);
@@ -22,14 +23,22 @@
 
                     var $fdscontent = $("<div>").addClass("fds-content");
 
+                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Anfrage an:<br>"));
+                    $fdscontent.append($("<span>").text(data.recipient));
+
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Status:<br>"));
-                    $fdscontent.append($("<span>").text(data.status));
+                    $fdscontent.append($("<span>").addClass("fds-status-badge").addClass("fds-status-" + data.status).text(data.status));
+                    $fdscontent.append($("<span>").text(" (" + data.messages_count + " Nachrichten)"));
 
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Letzte Nachricht:<br>"));
                     $fdscontent.append($("<span>").text(data.last_message));
 
+                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Kosten:<br>"));
+                    $fdscontent.append($("<span>").text(data.costs + " €"));
+
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Inhalt:<br>"));
-                    $fdscontent.append($("<span>").text(data.description));
+                    // TODO: Find a better way than throwing unchecked HTML into the page...
+                    $fdscontent.append($("<span>").html(data.description));
 
                     $fdscredit = $("<div>").addClass("fds-credit");
                     $tr = $("<tr>");
