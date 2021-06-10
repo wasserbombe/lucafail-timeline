@@ -111,7 +111,8 @@
                             //$script = $("<script>").attr("id", "tv" + embed.id).attr("src", "https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content="+embed.id+"&phi=default");
                             //$content.append($script);
                         } else if (embed.type == "podlove"){
-                            $iframe = $("<iframe>").attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+embed.id).attr("width","600").attr("height","290").attr("scrolling","no").attr("frameborder", "0");
+                            $iframe = $("<iframe>").attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+embed.id).attr("width","600").attr("height","230").attr("scrolling","no").attr("frameborder", "0");
+                            $iframe.addClass("podlove");
                             $content.append($iframe);
                         } else if (embed.type == "fragdenstaat"){
                             $fragdenstaat = $("<div>").attr("data-fds-id", embed.id);
