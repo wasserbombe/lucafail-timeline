@@ -158,6 +158,22 @@
             }]
         },
         {
+            "date": "06.04.2021",
+            "type": "doc",
+            "title": "Kleine Anfrage: Nutzbarkeit der Stärken der luca App - Erweiterung von Öffnungsstrategien",
+            "text": "",
+            "links": [{
+                "url": "https://dip.bundestag.de/vorgang/nutzbarkeit-der-st%C3%A4rken-der-luca-app-erweiterung-von-%C3%B6ffnungsstrategien/276094",
+                "text": "Vorgang (Deutscher Bundestag, DIP)"
+            },{
+                "url": "https://dserver.bundestag.de/btd/19/282/1928280.pdf",
+                "text": "BT-Drucksache 19/28280, Kleine Anfrage Fraktion der FDP"
+            },{
+                "url": "https://dserver.bundestag.de/btd/19/293/1929333.pdf",
+                "text": "BT-Drucksache 19/29333, Antwort Bundesregierung"
+            }]
+        },
+        {
             "date": "08.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Anonyme Luca-QR-Codes lassen sich ohne Luca erstellen und nutzen",

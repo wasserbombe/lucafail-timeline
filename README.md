@@ -4,9 +4,10 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
 - [ ] month separators / anchors
 - [x] add tags
 - [ ] make tags clickable
-- [ ] embed of external content
+- [x] embed of external content
   - [ ] check that YouTube/Vimeo/... etc. isn't loaded without consent
   - [x] check whether it's possible (and allowed) to show status of fragdenstaat.de-requests
+  - [ ] Widget for Deutscher Bundestag/DIP?
 - [ ] add data
 - [ ] add filters for scope
 - [ ] add filters for content type
