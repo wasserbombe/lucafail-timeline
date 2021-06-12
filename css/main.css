@@ -184,6 +184,62 @@ body {
     display: block;
 }
 
+.gl-widget {
+    border: 3px solid rgb(41, 41, 97);
+    min-height: 200px;
+    border-radius: 4px;
+}
+.gl-widget .gl-title {
+    background-color: rgb(41, 41, 97);
+    color: white; 
+    font-weight: bold;
+    padding: 5px 3px;
+}
+.gl-widget .gl-content {
+    padding: 5px 5px;
+}
+
+.gl-content .gl-content-title {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px; 
+}
+
+.gl-content .gl-credit {
+    border-top: 1px dotted rgb(41, 41, 97);
+    margin-top: 10px;
+    padding: 3px;
+    font-size: smaller;
+}
+.gl-content .gl-status-badge {
+    background-color: rgb(68, 68, 68);
+    color: white; 
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 2em;
+}
+.gl-content .gl-status-badge.gl-status-resolved {
+    background-color: darkgreen;
+}
+.gl-content .gl-status-badge.gl-status-awaiting_response {
+    background-color: orangered;
+}
+/*.gl-content .gl-credit::before {
+    content: url('/assets/fds/logo.svg'); 
+    width: 100px; 
+} */
+.gl-content .gl-credit button {
+    border: 1px solid rgb(41, 41, 97);
+    border-radius: 3px;
+    background-color: rgb(41, 41, 97); 
+    color: white; 
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 6px;
+    display: block;
+}
+
 blockquote {
     text-indent: -0.45em;
     font-style: italic;

@@ -8,6 +8,15 @@
             }
         }
     };
+    var glbuttonclickhandler = (e) => {
+        var glclosest = $(e.target).closest("[data-gl-url]");
+        if (glclosest.length){
+            var url = glclosest.data("gl-url");
+            if (url){
+                window.open(url, '_blank');
+            }
+        }
+    };
 
     var embedFDS = ($fdswidget) => {
         $fdswidget.addClass("fds-widget");
@@ -54,6 +63,50 @@
                     $fdscontent.append($fdscredit);
 
                     $fdswidget.append($fdscontent);
+                }
+            }
+        });
+    }
+    var embedGL = ($glwidget) => {
+        $glwidget.addClass("gl-widget");
+        $.ajax({
+            url: "/api/gitlab.php",
+            data: { project: $glwidget.data("gl-project-id"), issue: $glwidget.data("gl-issue-id") },
+            dataType: 'json',
+            success: (data) => {
+                if (data.data){
+                    data = data.data;
+                    var $gltitle = $("<div>").addClass("gl-title").text(data.title);
+                    $glwidget.append($gltitle);
+
+                    var $glcontent = $("<div>").addClass("gl-content");
+
+                    $glcontent.append($("<span>").addClass("gl-content-title").html("Author:<br>"));
+                    $glcontent.append($("<span>").text(data.author.name));
+
+                    $glcontent.append($("<span>").addClass("gl-content-title").html("Letztes Update:<br>"));
+                    $glcontent.append($("<span>").text(data.updated));
+
+                    $glcontent.append($("<span>").addClass("gl-content-title").html("Inhalt:<br>"));
+                    // TODO: Find a better way than throwing unchecked HTML into the page...
+                    $glcontent.append($("<span>").html(data.description));
+
+                    $glwidget.attr("data-gl-url", data.url);
+
+                    $glcredit = $("<div>").addClass("gl-credit");
+                    $tr = $("<tr>");
+                    $td = $("<td>"); //.append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
+                    $tr.append($td);
+
+                    $td = $("<td>");
+                    $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://gitlab.com\" target=\"_blank\">gitlab.com</a> abgerufen."));
+                    $td.append($("<button>").text("Zur Original-Anfrage auf gitlab.com »").on("click", glbuttonclickhandler));
+                    $tr.append($td);
+
+                    $glcredit.append($("<table>").append($tr));
+                    $glcontent.append($glcredit);
+
+                    $glwidget.append($glcontent);
                 }
             }
         });
@@ -118,6 +171,10 @@
                             $fragdenstaat = $("<div>").attr("data-fds-id", embed.id);
                             embedFDS($fragdenstaat);
                             $content.append($fragdenstaat);
+                        } else if (embed.type == "gitlab"){
+                            $gldiv = $("<div>").attr("data-gl-project-id", embed.project).attr("data-gl-issue-id", embed.issue);
+                            embedGL($gldiv);
+                            $content.append($gldiv);
                         } else if (embed.type == "ardmediathek"){
                             // <iframe src="https://www.ardmediathek.de/embed/Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy9jM2Y1ODI1MS0xZjQ1LTQ1NDYtOTRiZi0zNTk0ZjhiMzk0NGU?startTime=1127.75&endTime=1680.35" width="640" height="420" allowfullscreen frameBorder="0" scrolling="no"></iframe>
                             var url = "https://www.ardmediathek.de/embed/" + embed.id; 

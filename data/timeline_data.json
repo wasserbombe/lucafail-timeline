@@ -303,6 +303,17 @@
         },
         {
             "date": "02.05.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Gesundheitsämter \"verlieren\" / wechseln Keys - ohne, dass das kommuniziert wird oder nachvollziehbar ist",
+            "text": "Ralf Rottmann (<a href=\"https://luca.denken.io\" target=\"_blank\">luca.denken.io</a>) entdeckt etwas zunächst unerwartetes: Gesundheitsämter \"verlieren\" / wechseln Keys - ohne, dass das seitens Luca oder seitens der Gesundheitsämter klar kommuniziert wird oder für Nutzer/Beobachter irgendwie nachvollziehbar ist. Gleichzeitig werden Traces von Gesundheitsämtern beobachtet, die aber laut Luca API derzeit gar keinen Key besitzen. Das kann ein Zeichen dafür sein, dass Unberechtigte auf Luca-Daten zugegriffen haben könnten oder im Namen eines Gesundheitsamtes Anfragen zur Freigabe der Historie bei Nutzern gestellt haben.<br><br>",
+            "embed": [{
+                "type": "gitlab",
+                "issue": "2",
+                "project": "25883425"
+            }]
+        },
+        {
+            "date": "02.05.2021",
             "type": "doc",
             "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
             "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern mit grundlegenden Entwicklungsprinzipien:<ul><li><b>Zweckbindung:</b> Das einzige Ziel muss die Pandemiebekämpfung sein. Eine Verknüpfung mit anderen Geschäftsmodellen, Anwendungsmöglichkeiten und Profitinteressen muss ausgeschlossen, idealerweise technisch unmöglich sein.</li><li><b>Offenheit und Transparenz:</b> Fachleuten, IT-Sicherheits- und Datenschutzexpert:innen muss frühzeitig die Möglichkeit gegeben werden, sich konstruktiv am Entwicklungsprozess zu beteiligen oder diesen unabhängig zu begutachten.</li><li><b>Freiwilligkeit:</b> Die Nutzung bestimmter Werkzeuge zur digitalen Kontaktverfolgung muss freiwillig sein. Bürger:innen, die das Werkzeug nicht benutzen möchten, dürfen nicht von sozialen Aktivitäten, dem Zutritt zu öffentlichen Gebäuden, Geschäften, usw. ausgeschlossen werden.</li><li><b>Risikoabwägung:</b> Die Beurteilung des Nutzens und der Risiken einer solchen Lösung muss im Vorfeld unabhängig und öffentlich geprüft werden können. Dies gilt ganz besonders dann, wenn der Effekt der technischen Lösung in wesentlichem Umfang auf dem Vertrauen der Bürger:innen basiert.</li></ul>",
@@ -694,7 +705,7 @@
             "date": "09.06.2021",
             "type": "broadcast",
             "title": "ARD Plusminus: Sendung vom 9. Juni 2021: LUCA-App - mehr Kosten als Nutzen",
-            "text": "Ab 18:45 min",
+            "text": "Beitrag bei ARD Plusminus, u.a. mit Manuel Atug, Dr. Michael Ziemons (Leiter Gesundheitsamt Aachen) und Max Kiehnscherf im Interview.",
             "embed": [{
                 "type": "ardmediathek",
                 "id": "Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy8wOTgyNGJmNS1iOThjLTQ1OGItYWFhMy1lMGEzMjY2ZGJhZTg"
