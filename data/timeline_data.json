@@ -95,6 +95,22 @@
         },
         {
             "date": "25.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: EILT - Gefahr in Verzug! Luca-App - datenschutzrechtliche Probleme",
+            "scope": "Land: Berlin",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216610"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216610",
+                "text": "https://fragdenstaat.de/a/216610"
+            }],
+            "tags": ["vertrag","datenschutz"]
+        },
+        {
+            "date": "25.03.2021",
             "scope": "Konzept",
             "type": "doc",
             "title": "ticket.io: “Luca App und Ticket I/O gehen Kooperation ein”",
@@ -252,6 +268,20 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/ralf/status/1382673524276477955"
+            }]
+        },
+        {
+            "type": "doc",
+            "date": "22.04.2021",
+            "title": "Gesundheitsamt-Aktivitätsmonitor: luca.denken.io",
+            "text": "Traces bei Luca sind öffentlich, damit können sie gespeichert und ausgewertet werden. Ralf Rottmann hat dazu ein kleines Tool gebastelt.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ralf/status/1385331819587981319"
+            }],
+            "links": [{
+                "url": "http://luca.denken.io/",
+                "text": "Ralf Rottmann: luca.denken.io"
             }]
         },
         {
@@ -560,6 +590,16 @@
             }]
         },
         {
+            "date": "26.05.2021",
+            "type": "incident",
+            "title": "Luca lößt CSV-Injection-Problem - halbherzig",
+            "text": "Alles, was keine Buchstaben von A-Z und Umlaute sind, wird nun ausgefiltert. Das betrifft auch E-Mail-Adressen (@) und Telefonnummern (+49). Zusätzlich werden Wortteile wie 'FROM', d.h. z.B. im Nachnamen 'Fromm' entfernt; es wird nicht einmal mit Wortgrenzen (\\b) gearbeitet.<br>Die exportierten Daten sind für Gesundheitsämter somit fehlerhaft bzw. zerstückelt bis komplett unbrauchbar.<br><br>Das Probleme wurde einige Tage später wieder behoben, indem zusätzliche Zeichen erlaubt wurden.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/Wasserbombe/status/1397600383804092417"
+            }]
+        },
+        {
             "date": "27.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Denial-of-Service Angriffe mit eingegebenen Nutzerdaten",
@@ -615,6 +655,10 @@
             "links": [{
                 "url": "https://twitter.com/fluepke/status/1399790712317751301",
                 "text": "@fluepke auf Twitter"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/fluepke/status/1399790712317751301"
             }]
         },
         {

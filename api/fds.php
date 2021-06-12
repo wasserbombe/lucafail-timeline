@@ -31,6 +31,7 @@
         $data = array(
             "url" => "https://fragdenstaat.de".$fds["url"],
             "status" => $fds["status"]?:"unknown",
+            "resolution" => $fds["resolution"]?:"unknown",
             "description" => $desc,
             "last_message" => $fds["last_message"],
             "title" => $fds["title"],

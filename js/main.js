@@ -28,7 +28,7 @@
 
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Status:<br>"));
                     $fdscontent.append($("<span>").addClass("fds-status-badge").addClass("fds-status-" + data.status).text(data.status));
-                    $fdscontent.append($("<span>").text(" (" + data.messages_count + " Nachrichten)"));
+                    $fdscontent.append($("<span>").text(" - " + data.resolution + " (" + data.messages_count + " Nachrichten)"));
 
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Letzte Nachricht:<br>"));
                     $fdscontent.append($("<span>").text(data.last_message));
