@@ -1,6 +1,6 @@
 <?php
     $cachedir = __DIR__ . '/cache/';
-    $allowed_projects = ['25883425'];
+    $allowed_projects = ['25883425','25531274'];
     $res = array(
         "data" => array(),
         "code" => 400,

@@ -19,7 +19,7 @@
     };
 
     var embedFDS = ($fdswidget) => {
-        $fdswidget.addClass("fds-widget");
+        $fdswidget.addClass("fds-widget").addClass("embed-widget");
         $.ajax({
             url: "/api/fds.php",
             data: { id: $fdswidget.data("fds-id") },
@@ -68,7 +68,7 @@
         });
     }
     var embedGL = ($glwidget) => {
-        $glwidget.addClass("gl-widget");
+        $glwidget.addClass("gl-widget").addClass("embed-widget");
         $.ajax({
             url: "/api/gitlab.php",
             data: { project: $glwidget.data("gl-project-id"), issue: $glwidget.data("gl-issue-id") },
