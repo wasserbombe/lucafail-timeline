@@ -76,7 +76,7 @@
             success: (data) => {
                 if (data.data){
                     data = data.data;
-                    var $gltitle = $("<div>").addClass("gl-title").text(data.title);
+                    var $gltitle = $("<div>").addClass("gl-title").text("Gitlab: " + data.title);
                     $glwidget.append($gltitle);
 
                     var $glcontent = $("<div>").addClass("gl-content");

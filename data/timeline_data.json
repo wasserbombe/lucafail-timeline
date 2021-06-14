@@ -702,6 +702,17 @@
             "tags": ["kampnagel", "eva-wolfangel","patrick-hennig","amelie-deuflhard","lorena-jaume-palasí","jörn-riedel","judith-horchert"]
         },
         {
+            "date": "05.06.2021",
+            "type": "news",
+            "scope": "Land: Nordrhein-Westfalen",
+            "title": "NRW: Luca nicht mehr Corona-SchVO-konform",
+            "text": "Nordrhein-Westfalen hat seine Corona-Schutzverordnung um einen Absatz ergänzt, nachdem Location-Betreiber die erfassten Daten bei einer Kontrolle durch Behörden vorweisen und zum Abgleich bereithalten müssen. Damit ist Luca in NRW nicht mehr Corona-SchVO-konform einsetzbar.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ralf/status/1401161029602758659"
+            }]
+        },
+        {
             "date": "09.06.2021",
             "type": "broadcast",
             "title": "ARD Plusminus: Sendung vom 9. Juni 2021: LUCA-App - mehr Kosten als Nutzen",
