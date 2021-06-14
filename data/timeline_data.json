@@ -82,8 +82,11 @@
             "links": [{
                 "url": "https://fragdenstaat.de/a/216557",
                 "text": "https://fragdenstaat.de/a/216557"
+            },{
+                "url": "https://www.volksfreund.de/region/rheinland-pfalz/corona-lockdown-an-ostern-diese-regeln-gelten-jetzt-in-rheinland-pfalz_aid-56956987",
+                "text": "volksfreund.de: Neue Beschlüsse - Scharfer Corona-Lockdown an Ostern: Diese Corona-Regeln gelten jetzt in Rheinland-Pfalz"
             }],
-            "tags": ["vertrag","prüfung","malu-dreyer","datenschutz"]
+            "tags": ["vertrag","prüfung","malu-dreyer","datenschutz","rheinland-pfalz"]
         },
         {
             "date": "24.03.2021",
@@ -92,6 +95,25 @@
             "text": "Impact: Alle Nutzer / Locations",
             "links": [],
             "tags": ["luca-api", "luca-backend"]
+        },
+        {
+            "date": "24.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Prüfung der LucaApp und weiterer Systeme",
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "Ergebnis: Landesbeauftragter für Datenschutz und Informationsfreiheit sei beteiligt gewesen, eine <a href=\"https://fragdenstaat.de/a/216557\">Anfrage bei ihm</a> zeigte aber, dass er es nicht war.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216556"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216556",
+                "text": "https://fragdenstaat.de/a/216556"
+            },{
+                "url": "https://www.volksfreund.de/region/rheinland-pfalz/corona-lockdown-an-ostern-diese-regeln-gelten-jetzt-in-rheinland-pfalz_aid-56956987",
+                "text": "volksfreund.de: Neue Beschlüsse - Scharfer Corona-Lockdown an Ostern: Diese Corona-Regeln gelten jetzt in Rheinland-Pfalz"
+            }],
+            "tags": ["vertrag","prüfung","malu-dreyer","datenschutz","rheinland-pfalz"]
         },
         {
             "date": "25.03.2021",
@@ -119,6 +141,9 @@
                 {
                     "url": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein",
                     "text": "https://landing.ticket.io/news/ticket-i-o-und-luca-gehen-kooperation-ein"
+                },{
+                    "url": "https://www.volksfreund.de/pr/presseportal/luca-app-und-ticket-i-o-gehen-kooperation-ein-tina-testen-impfen-nachverfolgung-testergebnisse-und-kontaktrueckverfolgung-mit-luca-moeglich_aid-57007165",
+                    "text": "Anzeige bei volksfreund.de: Luca App und Ticket i/O gehen Kooperation ein - TINA - Testen/Impfen/NAchverfolgung - Testergebnisse und Kontaktrückverfolgung mit luca möglich"
                 }
             ]
         },
@@ -710,13 +735,18 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/ralf/status/1401161029602758659"
-            }]
+            }],
+            "links": [{
+                "url": "https://www.facebook.com/permalink.php?story_fbid=3948454441919971&id=539995366099246",
+                "text": "Mitteilung Ordnungsamt Essen: Luca kann nicht verordnungskonform in NRW eingesetzt werden; derzeit wird auf eine Rückmeldung des Landes gewartet, welche Apps mit dem nun kommenden IRIS-Gateway kompatibel sein werden. (Facebook)"
+            }],
+            "tags": ["iris", "NRW"]
         },
         {
             "date": "09.06.2021",
             "type": "broadcast",
             "title": "ARD Plusminus: Sendung vom 9. Juni 2021: LUCA-App - mehr Kosten als Nutzen",
-            "text": "Beitrag bei ARD Plusminus, u.a. mit Manuel Atug, Dr. Michael Ziemons (Leiter Gesundheitsamt Aachen) und Max Kiehnscherf im Interview.",
+            "text": "Beitrag bei ARD Plusminus, u.a. mit Manuel Atug, Dr. Michael Ziemons (Leiter Gesundheitsamt Aachen) und Max Kiehnscherf im Interview.<ul><li>Die LUCA-App zur Kontaktnachverfolgung wurde vollmundig angekündigt; inzwischen große Skepsis bei Datensicherheit</li><li>Über App konnten hochsensible Daten der Gesundheitsämter gehackt werden – vom Gewicht der Kinder bis Leichenschau</li><li>IT-Experten finden ständig neue Risiken, weil Grundproblem nicht behoben wird</li><li>App-Entwickler räumen Gefahren ein</li><li>13 Bundesländer haben 21 Millionen Euro in App investiert</ul>",
             "embed": [{
                 "type": "ardmediathek",
                 "id": "Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy8wOTgyNGJmNS1iOThjLTQ1OGItYWFhMy1lMGEzMjY2ZGJhZTg"
@@ -726,6 +756,16 @@
                 "text": "Plusminus-Sendung vom 09. Juni 2021 - Video: LUCA-App – mehr Kosten als Nutzen (daserste.de)"
             }],
             "tags": ["ard", "plusminus"]
+        },{
+            "date": "10.06.2021",
+            "type": "news",
+            "title": "IRIS Gateway: Luca ist bisher nicht angeschlossen.",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/markus_bublitz/status/1403092238914183177"
+            }],
+            "tags": ["iris"]
         }
     ]
 }
