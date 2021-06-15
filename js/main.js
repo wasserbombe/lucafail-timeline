@@ -95,7 +95,8 @@
 
                     $glcredit = $("<div>").addClass("gl-credit");
                     $tr = $("<tr>");
-                    $td = $("<td>"); //.append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
+
+                    $td = $("<td>").append($("<img>").attr("src","/assets/gitlab-logo-gray-stacked-rgb.svg").css("width", "100%").css("max-height","65px").css("margin-right","10px"));
                     $tr.append($td);
 
                     $td = $("<td>");

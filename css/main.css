@@ -235,7 +235,7 @@ body {
     background-color: orangered;
 }
 /*.gl-content .gl-credit::before {
-    content: url('/assets/fds/logo.svg'); 
+    content: url('/assets/fds/gitlab-logo-gray-stacked-rgb.svg'); 
     width: 100px; 
 } */
 .gl-content .gl-credit button {

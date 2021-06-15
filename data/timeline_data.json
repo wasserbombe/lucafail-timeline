@@ -3,7 +3,7 @@
         {
             "date": "",
             "title": "Work in Progress",
-            "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a>"
+            "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Ziel dieser Seite</b><br>Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen und LeserInnen diese selbst bewerten zu lassen.<br>Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere Institutionen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder, noch besser: Ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a>"
         },
         {
             "date": "",
@@ -272,6 +272,16 @@
             }]
         },
         {
+            "type": "incident",
+            "date": "07.04.2021",
+            "title": "Schwachstelle: Luca kann in Datenerfassung eingreifen",
+            "text": "Einen zentralen Kritikpunkt an der zentralen Datenspeicherung beim Luca-System führen die Luca-Macher direkt selbst vor: Enno Lenze startet auf Twitter den Aufruf, bei seiner privaten Veranstaltung einzuchecken - die Luca-Macher beendeten bzw. löschten die Veranstaltung bei über 400.000 Check-Ins, wegen \"offensichtlichen Missbrauchs\". Man hatte hier also Zugriff auf Veranstaltungen und konnte die Datenerfassung von Betreiberseite aus beenden.<br>Später ruderte man zurück und verneinte die Möglichkeit - man hatte quasi über Nacht eine Grenze für die maximale Anzahl an Teilnehmern implementiert.",
+            "links": [{
+                "url": "https://www.berlinstory-news.de/virtuelle-corona-party-beendet/",
+                "text": "Enno Lenze: “Virtuelle Corona-Party beendet” (berlinstory-news.de)"
+            }]
+        },
+        {
             "date": "08.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Anonyme Luca-QR-Codes lassen sich ohne Luca erstellen und nutzen",
@@ -290,7 +300,11 @@
             "type": "incident",
             "title": "Schwachstelle: SMS-TAN-Verfahren lässt sich clientseitig umgehen",
             "text": "",
-            "links": []
+            "links": [],
+            "embed": [{
+                "type": "youtube",
+                "id": "tGq0_04j3T4"
+            }]
         },
         {
             "date": "11.04.2021",
@@ -329,6 +343,10 @@
             "links": [{
                 "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33838.md",
                 "text": "Marcus Mengs: CVE-2021-33838 (Github)"
+            }],
+            "embed": [{
+                "type": "youtube",
+                "id": "ywldwHuZ9Ak"
             }]
         },
         {
@@ -364,6 +382,28 @@
             "links": [{
                 "url": "http://luca.denken.io/",
                 "text": "Ralf Rottmann: luca.denken.io"
+            }]
+        },
+        {
+            "type": "incident",
+            "date": "26.04.2021",
+            "title": "Schwachstelle: Location-Betreiber können Freitextfelder hinzufügen",
+            "text": "Dabei ist für Nutzer nicht ersichtlich, dass diese Felder<ul><li>nicht zur eigentlichen Datenerfassung gehören</li><li>nicht genauso verschlüsselt werden wie die eigentlichen Kontaktdaten</li></ul>",
+            "embed": [{
+                "type": "gitlab",
+                "project": "security-overview",
+                "issue": "1"
+            }]
+        },
+        {
+            "date": "28.04.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Betreiber können sich an Orten registrieren, für die gar kein Gesundheitsamt angebunden ist.",
+            "text": "... damit werden zwar Daten erfasst, doch kann/wird diese niemand abrufen. Damit verstoßen Betreiber gegen die vor Ort geltenden Corona-Verordnungen - möglicherweise, ohne zu das zu wissen.",
+            "embed": [{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "13"
             }]
         },
         {
@@ -686,10 +726,25 @@
             "date": "26.05.2021",
             "type": "incident",
             "title": "Luca lößt CSV-Injection-Problem - halbherzig",
-            "text": "Alles, was keine Buchstaben von A-Z und Umlaute sind, wird nun ausgefiltert. Das betrifft auch E-Mail-Adressen (@) und Telefonnummern (+49). Zusätzlich werden Wortteile wie 'FROM', d.h. z.B. im Nachnamen 'Fromm' entfernt; es wird nicht einmal mit Wortgrenzen (\\b) gearbeitet.<br>Die exportierten Daten sind für Gesundheitsämter somit fehlerhaft bzw. zerstückelt bis komplett unbrauchbar.<br><br>Das Probleme wurde einige Tage später wieder behoben, indem zusätzliche Zeichen erlaubt wurden.",
+            "text": "Alles, was keine Buchstaben von A-Z und Umlaute sind, wird nun ausgefiltert. Das betrifft auch E-Mail-Adressen (@) und Telefonnummern (+49). Zusätzlich werden Wortteile wie 'FROM', d.h. z.B. im Nachnamen 'Fromm' entfernt; es wird nicht einmal mit Wortgrenzen (\\b) gearbeitet.<br>Die exportierten Daten sind für Gesundheitsämter somit fehlerhaft bzw. zerstückelt bis komplett unbrauchbar.<br><br>Das Probleme wurde einige Tage später wieder behoben, indem zusätzliche Zeichen erlaubt wurden.<br><br>Die Antwort von Luca: Alle sind schuld, außer Luca.",
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/Wasserbombe/status/1397600383804092417"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/Linuzifer/status/1397516284158427136"
+            },{
+                "type": "gitlab",
+                "project": "25883425",
+                "issue": "3"
+            },{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "18"
+            },{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "20"
             }]
         },
         {
@@ -752,6 +807,10 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/fluepke/status/1399790712317751301"
+            },{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "19"
             }]
         },
         {
@@ -844,18 +903,27 @@
             "links": [{
                 "url": "https://twitter.com/mame82/status/1404720191066492930",
                 "text": "Tweet von Marcus Mengs zum Thema (Twitter)"
+            },{
+                "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R0953",
+                "text": "Verordnung (EU) 2021/953 des Europäischen Parlaments und des Rates vom 14. Juni 2021 über einen Rahmen für die Ausstellung, Überprüfung und Anerkennung interoperabler Zertifikate zur Bescheinigung von COVID-19-Impfungen und -Tests sowie der Genesung von einer COVID-19-Infektion (digitales COVID-Zertifikat der EU) (eur-lex.europa.eu)"
             }],
             "tags": ["impfzertifikat"]
         },{
             "date": "15.06.2021",
             "title": "Verwaltungsgericht Osnabrück: Landkreis Osnabrück darf auf seiner Website nicht allein für die LUCA-App werben",
-            "text": "",
+            "text": "Der Landkreis Osnabrück warb auf seiner Webseite <a href\"https://corona-os.de/\" target=\"_blank\">corona-os.de</a> ausschließlich und explizit die Luca-App. Das Verwaltungsgericht Osnabrück stellte nun klar: Wenn geworben wird, dann nicht ausschließlich nur für eine App.",
             "links": [{
                 "url": "https://www.verwaltungsgericht-osnabrueck.niedersachsen.de/aktuelles/pressemitteilungen/landkreis-osnabruck-darf-auf-seiner-website-nicht-allein-fur-die-luca-app-werben-201423.html",
                 "text": "Pressinformation des Verwaltungsgerichts Osnabrück (verwaltungsgericht-osnabrueck.niedersachsen.de)"
             },{
                 "url": "http://archive.today/2021.05.05-150340/https://corona-os.de/node/485",
                 "text": "Snapshot von corona-os.de: “Darum unterstützen Stadt und Landkreis den Einsatz von luca” (archive.is)"
+            },{
+                "url": "https://rundblick-unna.de/2021/06/15/gericht-urteilt-kommune-darf-nicht-einseitig-fuer-luca-app-werben/",
+                "text": "“Gericht urteilt: Kommune darf nicht einseitig für LUCA-App werben” (rundblick-unna.de)"
+            },{
+                "url": "https://osna-live.de/26382/amtsgericht-osnabrueck-landkreis-darf-nicht-allein-fuer-luca-app-werben/",
+                "text": "“Amtsgericht Osnabrück: Landkreis darf nicht allein für LUCA-App werben” (osna-live.de)"
             }]
         }
     ]

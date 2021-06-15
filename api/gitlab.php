@@ -1,12 +1,22 @@
 <?php
     $cachedir = __DIR__ . '/cache/';
     $allowed_projects = ['25883425','25531274'];
+    $project2projectID = [
+        "web" => "25881780",
+        "security-overview" => "25883425"
+    ];
     $res = array(
         "data" => array(),
         "code" => 400,
         "error" => array(),
         "request" => $_REQUEST
     );
+
+    if (isset($_REQUEST["project"]) && isset($project2projectID[$_REQUEST["project"]])){
+        $pid = $project2projectID[$_REQUEST["project"]];
+        $_REQUEST["project"] = $pid;
+        $allowed_projects[] = $pid;
+    }
 
     if (!isset($_REQUEST["project"]) || !preg_match("~^[0-9]+$~", $_REQUEST["project"]) || !isset($_REQUEST["issue"]) || !preg_match("~^[0-9]+$~", $_REQUEST["issue"])){
         $res["code"] = 400; 
