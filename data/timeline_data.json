@@ -177,7 +177,7 @@
             "date": "31.03.2021",
             "type": "doc",
             "title": "Code teilweise veröffentlicht, sehr eingeschränkte Lizenz",
-            "text": "Code des Luca-Systems sollte als Open Source bereitgestellt werden, wurde zunächst aber nur mit einer \"eingeschränkten Lizenz\" veröffentlicht, die nicht einmal den Download/das Forken des Repositories - und schon gar nicht Builds/Pentests der Software - ermöglicht.<br>Nach öffentlichem Druck durch die IT-Community wurde die - angeblich \"temporäre\" - Lizenz durch eine wirkliche Open Source-Lizenz ersetzt (GPLv3).",
+            "text": "Code des Luca-Systems sollte als Open Source bereitgestellt werden, wurde zunächst aber nur mit einer \"eingeschränkten Lizenz\" veröffentlicht, die nicht einmal den Download/das Forken des Repositories oder das Zitieren von Code-Abschnitten - und schon gar nicht Builds/Pentests der Software - ermöglicht.<br>Nach öffentlichem Druck durch die IT-Community wurde die - angeblich \"temporäre\" - Lizenz durch eine wirkliche Open Source-Lizenz ersetzt (GPLv3).",
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/zerforschung/status/1376996347774177284"
@@ -196,8 +196,39 @@
             },{
                 "url": "https://gitlab.com/lucaapp/android/-/commit/488a48fe0c23bff5f91d8c74fe1104bf21fbac73",
                 "text": "Gitlab-Commit, in dem die Lizenz durch GPLv3 ersetzt wird (gitlab.com)"
+            },{
+                "url": "https://netzpolitik.org/2021/mfg-gpl-die-fantastische-lizenz-der-luca-app/",
+                "text": "Alexander Fanta: MfG, GPL - Die fantastische Lizenz der Luca-App (netzpolitik.org)"
+            },{
+                "url": "https://zerforschung.org/posts/luca-2/",
+                "text": "zerforschung.org: Die Luca-Lizenz (LL-ND-NC-WTF)"
             }],
-            "tags": ["open-source", "code", "gitlab"]
+            "tags": ["open-source", "code", "gitlab","lizenz"]
+        },
+        {
+            "type": "incident",
+            "date": "31.03.2021",
+            "title": "Code und Code-Commits fehlen in Gitlab - immer wieder",
+            "text": "",
+            "embed": [{
+                "type": "gitlab",
+                "project": "25531274",
+                "issue": "3"
+            }]
+        },
+        {
+            "type": "incident",
+            "date": "01.04.2021",
+            "title": "“Corona-Tracing-App Luca verletzt Urheberrecht von Wiener”",
+            "text": "Die Tracing-App von Rapper Smudo hat das Urheberrecht eines Wiener Entwicklers verletzt. Der setzt jetzt rechtliche Schritte.", 
+            "links": [{
+                "url": "https://futurezone.at/netzpolitik/corona-tracing-app-luca-verletzt-urheberrecht-von-wiener/401338920",
+                "text": "Barbara Wimmer: “Corona-Tracing-App Luca verletzt Urheberrecht von Wiener” (futurezone.at)"
+            },{
+                "url": "https://github.com/thesimj/jBaseZ85/issues/1",
+                "text": "benbender: “Copyright infringement by \"Culture4Life GmbH\" / LucaApp” (github.com)"
+            }],
+            "tags": ["open-source","code","lizenz"]
         },
         {
             "date": "04.04.2021",
@@ -792,6 +823,40 @@
                 "url": "https://twitter.com/markus_bublitz/status/1403092238914183177"
             }],
             "tags": ["iris"]
+        },{
+            "date": "14.06.2021",
+            "type": "news",
+            "title": "Corona-Warn-App hat über 100.000 Infektionsketten unterbrochen",
+            "text": "... und damit einen ähnlich großen Beitrag zur Eindämmung der Pandemie geleistet wie alle Gesundheitsämter gemeinsam (die zu einem kleinen Teil u.a. auch Luca einsetzen).",
+            "links": [{
+                "url": "https://heise.de/-6070747",
+                "text": "Holger Bleich: RKI-Schätzung: Corona-Warn-App hat über 100.000 Infektionsketten unterbrochen (heise.de)"
+            }]
+        },{
+            "date": "15.06.2021",
+            "type": "incident",
+            "title": "Luca nutzt Impfzertifikate, um Kontaktdaten zu validieren",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/MalteEngeler/status/1404796425792331776"
+            }],
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1404720191066492930",
+                "text": "Tweet von Marcus Mengs zum Thema (Twitter)"
+            }],
+            "tags": ["impfzertifikat"]
+        },{
+            "date": "15.06.2021",
+            "title": "Verwaltungsgericht Osnabrück: Landkreis Osnabrück darf auf seiner Website nicht allein für die LUCA-App werben",
+            "text": "",
+            "links": [{
+                "url": "https://www.verwaltungsgericht-osnabrueck.niedersachsen.de/aktuelles/pressemitteilungen/landkreis-osnabruck-darf-auf-seiner-website-nicht-allein-fur-die-luca-app-werben-201423.html",
+                "text": "Pressinformation des Verwaltungsgerichts Osnabrück (verwaltungsgericht-osnabrueck.niedersachsen.de)"
+            },{
+                "url": "http://archive.today/2021.05.05-150340/https://corona-os.de/node/485",
+                "text": "Snapshot von corona-os.de: “Darum unterstützen Stadt und Landkreis den Einsatz von luca” (archive.is)"
+            }]
         }
     ]
 }
