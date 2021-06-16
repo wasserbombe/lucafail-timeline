@@ -13,6 +13,11 @@ body {
 li {
     margin-left: 20px;
 }
+
+button {
+    cursor: pointer;
+}
+
 #settings {
     background-color: white;
     height: 30px;
@@ -128,6 +133,12 @@ li {
     margin-top: 15px;
 }
 
+.content .tagarea {
+    border-top: 1px solid grey; 
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
 .content .tag {
     line-height: 2.2em;
     background-color: gray;
@@ -142,10 +153,19 @@ li {
 /******************************************************************************************************************************/
 /* WIDGETS ********************************************************************************************************************/
 /******************************************************************************************************************************/
+.embed {
+    margin-top: 10px; 
+}
 .embed-placeholder {
     background-color: darkgrey;
     width: 100%; 
     height: 100px; 
+    padding: 10px;
+    text-align: center;
+}
+.embed-placeholder button {
+    padding: 5px;
+    margin-top: 10px;
 }
 .embed-widget {
     margin-top: 10px; 

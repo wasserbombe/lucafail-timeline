@@ -42,7 +42,7 @@
                     
                     // TODO: Integrate embedFDS() here? 
                     embedFDS($fragdenstaat);
-                    
+
                     $container.append($fragdenstaat);
                     return true; 
                 }
@@ -62,6 +62,112 @@
                                 .css("min-height", "320px");
                     $container.append($iframe);
                     return true;
+                }
+                return false; 
+            }
+        },
+        "youtube": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg && typeof cfg.id !== "undefined"){
+                    var $iframe = $("<iframe>")
+                                    .attr("src", "https://www.youtube-nocookie.com/embed/" + cfg.id)
+                                    .attr("allowfullscreen","")
+                                    .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+                                    .attr("frameborder", "0")
+                                    .css("width","100%")
+                                    .css("min-height", "320px");
+                    $container.append($iframe);
+                    return true;
+                }
+                return false; 
+            }
+        },
+        "tweet": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg.url){
+                    var $tweetdiv = $("<div>");
+                    // TODO: we can do that better... (twttr.widgets.createTweet ?)
+                    // https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
+                    $tweetdiv.html("\u003Cblockquote data-dnt=\"true\" data-theme=\"dark\" data-align=\"center\" class=\"twitter-tweet\"\u003E\u003Ca href=\""+cfg.url+"\"\u003E\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E");
+                    $container.append($tweetdiv);
+                }
+            }
+        },
+        "ardmediathek": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg.id){
+                    var url = "https://www.ardmediathek.de/embed/" + cfg.id; 
+                    if (cfg.startTime && cfg.endTime){
+                        url += "?startTime="+cfg.startTime+"&endTime="+cfg.endTime;
+                    }
+                    var $iframe = $("<iframe>")
+                                    .attr("src", url)
+                                    .attr("allowfullscreen","")
+                                    .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+                                    .attr("frameborder", "0")
+                                    .css("width", "100%")
+                                    .css("min-height", "320px");// .css("width","640").css("height","420");
+                    $container.append($iframe);
+                    return true; 
+                }
+                return false; 
+            }
+        },
+        "ccc-media": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg.id){
+                    var $iframe = $("<iframe>")
+                                    .attr("src", "https://media.ccc.de/v/"+cfg.id+"/oembed")
+                                    .attr("allowfullscreen","")
+                                    .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+                                    .attr("frameborder", "0")
+                                    .css("width","100%")
+                                    .css("min-height", "320px");
+                    $container.append($iframe);
+
+                    return true; 
+                }
+                return false; 
+            }
+        },
+        "podlove": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg.id){
+                    var $iframe = $("<iframe>")
+                                    .attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+cfg.id)
+                                    .attr("width","600")
+                                    .attr("height","230")
+                                    .attr("scrolling","no")
+                                    .attr("frameborder", "0")
+                                    .addClass("podlove");
+                    $container.append($iframe);
+
+                    return true; 
+                }
+                return false; 
+            }
+        },
+        "gitlab": {
+            // TODO: Check how to prevent external images from loading
+            needsConsent: false,
+            type: "widget",
+            embed: ($container, cfg) => {
+                if (cfg.project && cfg.issue){
+                    var $gldiv = $("<div>").attr("data-gl-project-id", cfg.project).attr("data-gl-issue-id", cfg.issue);
+                    embedGL($gldiv);
+                    $container.append($gldiv);
+
+                    return true; 
                 }
                 return false; 
             }
@@ -121,7 +227,12 @@
                         $container.attr("data-embed-consent-state", "true");
                     } else {
                         // no consent, hide content, show placeholder
-                        var $embedPlaceholderInner = $("<div>").addClass("embed-placeholder").text(JSON.stringify(cfg));
+                        var $embedPlaceholderInner = $("<div>").addClass("embed-placeholder").html('Um diesen Inhalt eines externen Anbieters ('+cfg.type+') zu laden, benötigen wir Ihr Einverständnis. Bitte beachten Sie dazu die <a href="#datenschutz">Datenschutzerklärung</a> unten.<br>');
+                        var $btn_consent = $("<button>").text("Einverständnis erteilen").on("click", () => {
+                            $('#checkboxExternalContent').click();
+                        });
+                        $embedPlaceholderInner.append($btn_consent);
+
                         $container.append($embedPlaceholderInner);
                         $container.attr("data-embed-consent-state", "false");
                     }
@@ -294,49 +405,6 @@
                     });
                 }
 
-                // old embed without consent
-                if (e.embed && e.embed.length){
-                    e.embed.forEach((embed, i) => {
-                        if (embed.type == "vimeo"){
-                            $iframe = $("<iframe>").attr("src", "https://player.vimeo.com/video/" + embed.id).attr("allowfullscreen","").attr("frameborder", "0").css("width","100%").css("min-height", "320px");
-                            $content.append($iframe);
-                        } else if (embed.type == "youtube"){
-                            $iframe = $("<iframe>").attr("src", "https://www.youtube-nocookie.com/embed/" + embed.id).attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width","100%").css("min-height", "320px");
-                            $content.append($iframe);
-                        } else if (embed.type == "ccc-media"){
-                            $iframe = $("<iframe>").attr("src", "https://media.ccc.de/v/"+embed.id+"/oembed").attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width","100%").css("min-height", "320px");
-                            $content.append($iframe);
-                        } else if (embed.type == "bundestag-webtv"){
-                            // <script id="tv7519454" src="https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content=7519454&phi=default"></script>
-                            // wtf? embedding SCRIPT?
-                            //$script = $("<script>").attr("id", "tv" + embed.id).attr("src", "https://webtv.bundestag.de/player/macros/bttv/hls/player.js?content="+embed.id+"&phi=default");
-                            //$content.append($script);
-                        } else if (embed.type == "podlove"){
-                            $iframe = $("<iframe>").attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+embed.id).attr("width","600").attr("height","230").attr("scrolling","no").attr("frameborder", "0");
-                            $iframe.addClass("podlove");
-                            $content.append($iframe);
-                        } else if (embed.type == "gitlab"){
-                            $gldiv = $("<div>").attr("data-gl-project-id", embed.project).attr("data-gl-issue-id", embed.issue);
-                            embedGL($gldiv);
-                            $content.append($gldiv);
-                        } else if (embed.type == "ardmediathek"){
-                            // <iframe src="https://www.ardmediathek.de/embed/Y3JpZDovL2Rhc2Vyc3RlLmRlL3BsdXNtaW51cy9jM2Y1ODI1MS0xZjQ1LTQ1NDYtOTRiZi0zNTk0ZjhiMzk0NGU?startTime=1127.75&endTime=1680.35" width="640" height="420" allowfullscreen frameBorder="0" scrolling="no"></iframe>
-                            var url = "https://www.ardmediathek.de/embed/" + embed.id; 
-                            if (embed.startTime && embed.endTime){
-                                url += "?startTime="+embed.startTime+"&endTime="+embed.endTime;
-                            }
-                            $iframe = $("<iframe>").attr("src", url).attr("allowfullscreen","").attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture").attr("frameborder", "0").css("width", "100%").css("min-height", "320px");// .css("width","640").css("height","420");
-                            $content.append($iframe);
-                        } else if (embed.type == "tweet" && embed.url){
-                            var $tweetdiv = $("<div>");
-                            // TODO: we can do that better... (twttr.widgets.createTweet ?)
-                            // https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
-                            $tweetdiv.html("\u003Cblockquote data-dnt=\"true\" data-theme=\"dark\" data-align=\"center\" class=\"twitter-tweet\"\u003E\u003Ca href=\""+embed.url+"\"\u003E\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E");
-                            $content.append($tweetdiv);
-                        }
-                    });
-                }
-
                 if (e.links && e.links.length){
                     $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
@@ -351,7 +419,7 @@
                     $content.append($linkarea);                    
                 }
 
-                $tags = $("<div>"); 
+                $tags = $("<div>").addClass("tagarea"); 
                 e.tags.forEach((e, i) => {
                     $tag = $("<span>").addClass("tag").text(e).attr("data-tag", e.toLowerCase());
                     $tags.append($tag);
