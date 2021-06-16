@@ -18,6 +18,120 @@
         }
     };
 
+    /**
+     * EMBEDDING of (external) content
+     */
+    var embedTypes = {
+        "iframe": {
+            // false = directly loaded / true = only loaded with consent
+            needsConsent: true,
+            // type could iframe or widget
+            type: "iframe",
+            // function called if consent given and content should be embedded
+            embed: ($container, cfg) => {
+                // true for successfull embed, false for fail
+                return true; 
+            }
+        },
+        "fragdenstaat": {
+            needsConsent: false,
+            type: "widget",
+            embed: ($container, cfg) => {
+                if (typeof cfg.id != "undefined"){
+                    var $fragdenstaat = $("<div>").attr("data-fds-id", cfg.id);
+                    
+                    // TODO: Integrate embedFDS() here? 
+                    embedFDS($fragdenstaat);
+                    
+                    $container.append($fragdenstaat);
+                    return true; 
+                }
+                return false; 
+            }
+        },
+        "vimeo": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                if (cfg && typeof cfg.id !== "undefined"){
+                    var $iframe = $("<iframe>")
+                                .attr("src", "https://player.vimeo.com/video/" + cfg.id)
+                                .attr("allowfullscreen","")
+                                .attr("frameborder", "0")
+                                .css("width","100%")
+                                .css("min-height", "320px");
+                    $container.append($iframe);
+                    return true;
+                }
+                return false; 
+            }
+        }
+    };
+    var syncConsentToContent = () => {
+        var consentGiven = $("#checkboxExternalContent").is(":checked");
+
+        if (consentGiven){
+            console.log("CONSENT GIVEN");
+        } else {
+            console.log("CONSENT NOT GIVEN");
+        }
+        $(".embed[data-embed-cfg]").each((i, e) => {
+            var $container = $(e); 
+            var cfg = {};
+            try {
+                var rawcfg = $container.data("embed-cfg");
+                if (typeof rawcfg == "object"){
+                    cfg = rawcfg; 
+                } else {
+                    cfg = JSON.parse(rawcfg);
+                }
+                
+            } catch (e){};
+
+            var currentState = false;
+            if ($container.data("embed-consent-state") && $container.data("embed-consent-state") == "true"){
+                currentState = true; 
+            }
+
+            // lookup embed type configuration
+            var embedcfg = null;
+            if (cfg.type && typeof embedTypes[cfg.type] != "undefined"){
+                embedcfg = embedTypes[cfg.type];
+            }
+
+            if (!embedcfg){
+                console.log("No embed type '" + cfg.type + "' found!");
+            } else {
+                var consentForThisEmbed = consentGiven || !embedcfg.needsConsent; 
+
+                if (currentState != consentGiven || !$container.data("embed-consent-state")){
+                    $container.html(""); 
+
+                    if (consentForThisEmbed){
+                        // consent given, call callbacks
+                        var res = false; 
+                        if (typeof embedcfg.embed == "function"){
+                            res = embedcfg.embed($container, cfg);
+                        }
+
+                        if (!res){
+                            console.log("[ERROR] Container couldn't rendered/embedded.", embedcfg, cfg);
+                        }
+
+                        $container.attr("data-embed-consent-state", "true");
+                    } else {
+                        // no consent, hide content, show placeholder
+                        var $embedPlaceholderInner = $("<div>").addClass("embed-placeholder").text(JSON.stringify(cfg));
+                        $container.append($embedPlaceholderInner);
+                        $container.attr("data-embed-consent-state", "false");
+                    }
+                }
+            }
+            
+        });
+    };
+    $("#checkboxExternalContent").on("change", syncConsentToContent);
+
     var embedFDS = ($fdswidget) => {
         $fdswidget.addClass("fds-widget").addClass("embed-widget");
         $.ajax({
@@ -83,6 +197,9 @@
 
                     $glcontent.append($("<span>").addClass("gl-content-title").html("Author:<br>"));
                     $glcontent.append($("<span>").text(data.author.name));
+
+                    $glcontent.append($("<span>").addClass("gl-content-title").html("State:<br>"));
+                    $glcontent.append($("<span>").text(data.state));
 
                     $glcontent.append($("<span>").addClass("gl-content-title").html("Letztes Update:<br>"));
                     $glcontent.append($("<span>").text(data.updated));
@@ -169,6 +286,15 @@
                     $content.append($text);                    
                 }
 
+                // new consent-based embed
+                if (e.embed && e.embed.length){
+                    e.embed.forEach((embed, i) => {
+                        var $embedPlaceholderDiv = $("<div>").addClass("embed").attr("data-embed-cfg", JSON.stringify(embed));
+                        $content.append($embedPlaceholderDiv);
+                    });
+                }
+
+                // old embed without consent
                 if (e.embed && e.embed.length){
                     e.embed.forEach((embed, i) => {
                         if (embed.type == "vimeo"){
@@ -189,10 +315,6 @@
                             $iframe = $("<iframe>").attr("src", "https://cdn.podlove.org/web-player/share.html?episode="+embed.id).attr("width","600").attr("height","230").attr("scrolling","no").attr("frameborder", "0");
                             $iframe.addClass("podlove");
                             $content.append($iframe);
-                        } else if (embed.type == "fragdenstaat"){
-                            $fragdenstaat = $("<div>").attr("data-fds-id", embed.id);
-                            embedFDS($fragdenstaat);
-                            $content.append($fragdenstaat);
                         } else if (embed.type == "gitlab"){
                             $gldiv = $("<div>").attr("data-gl-project-id", embed.project).attr("data-gl-issue-id", embed.issue);
                             embedGL($gldiv);
@@ -240,6 +362,8 @@
 
                 $(".timeline").append($div);
             });
+
+            syncConsentToContent();
         }
     });
 })(); 
