@@ -171,6 +171,9 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https:\/\/twitter.com\/Wasserbombe\/status\/1377197156927422465"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/janboehm/status/1379564653060227072"
             }]
         },
         {
@@ -293,6 +296,21 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/AllenRe97883617/status/1379405366010732552"
+            }]
+        },
+        {
+            "date": "08.04.2021",
+            "type": "podcast",
+            "title": "Rechtsbelehrung: “Luca – Eine App, viele Desaster – Rechtsbelehrung 90”", 
+            "text": "", 
+            "embed": [{
+                "type": "iframe",
+                "url": "https://rechtsbelehrung.com/?powerpress_embed=18470-podcast&amp;powerpress_player=mediaelement-audio",
+                "height": "40px"
+            }],
+            "links": [{
+                "url": "https://rechtsbelehrung.com/luca-app-rechtsbelehrung-90/",
+                "text": "Marcus Richter und Thomas Schwenke: Luca – Eine App, viele Desaster – Rechtsbelehrung 90 (rechtsbelehrung.com)"
             }]
         },
         {
@@ -434,6 +452,16 @@
             },{
                 "url": "https://github.com/mame82/misc/blob/master/cve-luca/cve-2021-33839.md",
                 "text": "Marcus Mengs: CVE-2021-33839 (Github)"
+            }]
+        },
+        {
+            "type": "news",
+            "date": "29.04.2021",
+            "title": "Recherche Radio Dreyeckland / Chaos Computer Club Freiburg: Luca wird kaum genutzt",
+            "text": "Nur drei Gesundheitsämter haben in den letzten 14 Tagen Luca-Abfragen durchgeführt. So gut wie alle Ämter könnten Luca einsetzen.", 
+            "links": [{
+                "url": "https://wiki.cccfr.de/luca_cwa_einsatz",
+                "text": "Chaos Computer Club Freiburg e.V.: Luca wird kaum genutzt (wiki.cccfr.de)"
             }]
         },
         {
@@ -604,6 +632,10 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/mame82/status/1392139239165419522"
+            },{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "15"
             }]
         },
         {
@@ -650,6 +682,10 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/mame82/status/1393182733673848833"
+            },{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "16"
             }],
             "tags": ["luca-badges"]
         },

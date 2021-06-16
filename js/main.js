@@ -1,7 +1,7 @@
 (function(){
     var typeFriendlyNames = {
         "general": "Allgemein",
-        "doc": "Dokument",
+        "doc": "Dokument/Paper/Veröffentlichung",
         "fragdenstaat": "Anfrage via fragdenstaat.de",
         "incident": "Schwachstelle/Sicherheitsproblem",
         "news": "Veröffentlichungen in Magazinen, Newsportalen, ...",
@@ -40,7 +40,21 @@
             // function called if consent given and content should be embedded
             embed: ($container, cfg) => {
                 // true for successfull embed, false for fail
-                return true; 
+                if (typeof cfg.url != "undefined"){
+                    var $iframe = $("<iframe>")
+                                .attr("src", cfg.url)
+                                .attr("frameborder", "0")
+                                .css("width","100%")
+                                .attr("scrolling","no");
+                    if (cfg.height){
+                        $iframe.css("height", cfg.height);
+                    } else {
+                        $iframe.css("min-height", "320px");
+                    }
+                    $container.append($iframe);
+                    return true; 
+                }
+                return false; 
             }
         },
         "fragdenstaat": {
