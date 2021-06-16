@@ -36,6 +36,12 @@
         "fragdenstaat": {
             needsConsent: false,
             type: "widget",
+            provider: {
+                name: "Open Knowledge Foundation Deutschland e.V.",
+                address: "Singerstr. 109, 10179 Berlin",
+                url: "https://fragdenstaat.de/",
+                dataprivacynotice_url: "https://fragdenstaat.de/datenschutzerklaerung/"
+            },
             embed: ($container, cfg) => {
                 if (typeof cfg.id != "undefined"){
                     var $fragdenstaat = $("<div>").attr("data-fds-id", cfg.id);
@@ -176,11 +182,6 @@
     var syncConsentToContent = () => {
         var consentGiven = $("#checkboxExternalContent").is(":checked");
 
-        if (consentGiven){
-            console.log("CONSENT GIVEN");
-        } else {
-            console.log("CONSENT NOT GIVEN");
-        }
         $(".embed[data-embed-cfg]").each((i, e) => {
             var $container = $(e); 
             var cfg = {};
