@@ -249,6 +249,10 @@ body {
     display: block;
 }
 
+.gl-content-gltext img {
+    max-width: 100%;
+}
+
 blockquote {
     text-indent: -0.45em;
     font-style: italic;

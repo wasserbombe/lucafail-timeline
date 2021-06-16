@@ -88,8 +88,29 @@
                     $glcontent.append($("<span>").text(data.updated));
 
                     $glcontent.append($("<span>").addClass("gl-content-title").html("Inhalt:<br>"));
+
                     // TODO: Find a better way than throwing unchecked HTML into the page...
-                    $glcontent.append($("<span>").html(data.description));
+                    var md = window.markdownit({
+                        html: true, 
+                        breaks: true, 
+                        linkify: true
+                    });
+                    var md_rendered = md.render(data.description);
+                    if (md_rendered){
+                        $rendered = $(md_rendered);
+                        $rendered.find("img").each((i, e) => {
+                            if ($(e).attr("src").match(/^\/uploads\/.+/i)){
+                                $(e).attr("src", data.url.split("/").slice(0,5).join("/") + $(e).attr("src"));
+                            }
+                        });
+                        $rendered.find("a").each((i, e) => {
+                            $(e).attr("target", "_blank"); 
+                        });
+                        
+                        $glcontent.append($("<span>").addClass("gl-content-gltext").html($rendered));
+                    } else {
+                        $glcontent.append($("<span>").html(data.description));
+                    }
 
                     $glwidget.attr("data-gl-url", data.url);
 

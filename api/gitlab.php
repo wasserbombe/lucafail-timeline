@@ -42,7 +42,7 @@
             }
 
             $desc = $gl["description"];
-            $desc = str_replace("\n", "<br>", $desc);
+            //$desc = str_replace("\n", "<br>", $desc);
             $data = array(
                 "title" => $gl["title"],
                 "description" => $desc,
