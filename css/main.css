@@ -1,11 +1,22 @@
 * {
     box-sizing: border-box;
+    padding: 0px; 
+    margin: 0px;
 }
 
 body {
-    background-color: #6b6b6b;
+    background-color: #999999;
     font-family: Helvetica, sans-serif;
     font-size: smaller;
+    
+}
+li {
+    margin-left: 20px;
+}
+#settings {
+    background-color: white;
+    height: 30px;
+    padding: 6px;
 }
 
 .timeline {
@@ -273,6 +284,23 @@ blockquote::after {
 }
 blockquote {
     quotes: "“" "”" "‘" "’";
+}
+
+footer {
+    
+}
+footer td {
+    padding: 5px;
+    vertical-align: top;
+}
+footer h2 {
+    margin-top: 10px;
+}
+footer h3 {
+    margin-top: 8px;
+}
+footer p {
+    margin-bottom: 10px;
 }
 
 
