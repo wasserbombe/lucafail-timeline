@@ -41,6 +41,12 @@ button {
     margin-left: -3px;
 }
 
+.month-separator {
+    border-bottom: 1px dotted black; 
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+
 .container {
     padding: 10px 40px;
     position: relative;

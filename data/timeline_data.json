@@ -3,7 +3,7 @@
         {
             "date": "",
             "title": "⚠ Work in Progress",
-            "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Ziel dieser Seite</b><br>Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen und LeserInnen diese selbst bewerten zu lassen.<br>Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere Institutionen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder, noch besser: Ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a>"
+            "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Ziel dieser Seite</b><br>Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen und LeserInnen diese selbst bewerten zu lassen.<br>Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere Institutionen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder, noch besser: Ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a><div id=\"stats_container_month_category\"></div>"
         },
         {
             "date": "",
@@ -809,7 +809,7 @@
             "tags": ["vertrag","kosten"]
         },
         {
-            "date": "01.06.2020",
+            "date": "01.06.2021",
             "type": "incident",
             "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
             "text": "<a href=\"https://twitter.com/fluepke/\">@fluepke</a><br>Impact: Gering, aber nur, weil bisher keine IPv6-Adressen in diesem Bereich vergeben sind",
@@ -838,7 +838,7 @@
             "tags": ["sms-tan","luca-frontend"]
         },
         {
-            "date": "03.06.2020",
+            "date": "03.06.2021",
             "type": "event",
             "title": "Zentral - Dezentral - völlig egal?: Eine kritische Auseinandersetzung mit der Luca-App",
             "text": "Kampgnagel lud im im Rahmen von Claiming Common Spaces III zu einer Diskussion über die App Luca und mögliche Alternativen, sowie über Visionen für institutionelle Digitalisierungsprozesse ein. <br><br>Gäste: Eva Wolfangel (Wissenschaftsjournalistin), Amelie Deuflhard (Intendantin Kampnagel), Lorena Jaume-Palasí (Gründerin The Ethical Tech Society), Jörn Riedel (CIO Freie und Hansestadt Hamburg), Patrick Hennig (CEO neXenio / Luca).<br>Moderation: Judith Horchert (DER SPIEGEL, Ressortleiterin Wirtschaft/Netzwelt).",

@@ -12,7 +12,7 @@
         $res["error"] = array("msg" => "Bad Request. Request ID must be provided and needs to be numeric.");
     } else {
         $url = "https://fragdenstaat.de/api/v1/request/".$_REQUEST["id"]."/";
-        $cache_fn = $cachedir . md5($url) . '.json';
+        $cache_fn = $cachedir . 'fds_' . md5($url) . '.json';
         if (file_exists($cache_fn) && filemtime($cache_fn) > time()-60*60*1){
             $fds_raw = file_get_contents($cache_fn);
             $fds = json_decode($fds_raw, true);

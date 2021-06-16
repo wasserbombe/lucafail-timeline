@@ -1,4 +1,14 @@
 (function(){
+    var typeFriendlyNames = {
+        "general": "Allgemein",
+        "doc": "Dokument",
+        "fragdenstaat": "Anfrage via fragdenstaat.de",
+        "incident": "Schwachstelle/Sicherheitsproblem",
+        "news": "Veröffentlichungen in Magazinen, Newsportalen, ...",
+        "event": "Veranstaltung",
+        "broadcast": "TV- oder Radiosendung",
+        "talk": "Präsentation auf Fachveranstaltung"
+    };
     var fdsbuttonclickhandler = (e) => {
         var fdsclosest = $(e.target).closest("[data-fds-id]");
         if (fdsclosest.length){
@@ -181,6 +191,8 @@
     };
     var syncConsentToContent = () => {
         var consentGiven = $("#checkboxExternalContent").is(":checked");
+
+        console.log("syncConsentToContent", $(".embed[data-embed-cfg]").length);
 
         $(".embed[data-embed-cfg]").each((i, e) => {
             var $container = $(e); 
@@ -370,7 +382,25 @@
                 title: "Ausblick / Roadmap dieser Seite",
                 text: "Siehe <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">https://github.com/wasserbombe/lucafail-timeline</a>"
             });
+            var lastYearAndMonth = null; 
+            var statisticsByMonthAndCategory = {};
             data.timeline.forEach((e, i) => {
+                if (e.date){
+                    var dateMatch = e.date.match(/^[0-9]{2}\.([0-9]{2})\.([0-9]{4})$/i);
+                    if (dateMatch){
+                        var yearMonth = dateMatch[2] + '-' + dateMatch[1];
+                        if (yearMonth != lastYearAndMonth){
+                            // new month!
+                            var $monthSep = $("<div>").html("<h2>" + yearMonth + "</h2>").addClass("month-separator").attr("id", yearMonth);
+
+                            $(".timeline").append($monthSep);
+
+
+                            lastYearAndMonth = yearMonth; 
+                        }
+                    }
+                }
+                
                 $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
 
                 e.tags = e.tags || []; 
@@ -383,6 +413,14 @@
                     e.tags.push(e.type);
                 } else {
                     $div.addClass("type-general");
+                    e.type = "general";
+                }
+
+                if (typeof statisticsByMonthAndCategory[lastYearAndMonth] == "undefined") statisticsByMonthAndCategory[lastYearAndMonth] = {};
+                if (typeof statisticsByMonthAndCategory[lastYearAndMonth][e.type] == "undefined"){
+                    statisticsByMonthAndCategory[lastYearAndMonth][e.type] = 1;
+                } else {
+                    statisticsByMonthAndCategory[lastYearAndMonth][e.type]++;
                 }
 
                 $content = $("<div>").addClass("content");
@@ -406,6 +444,7 @@
                     });
                 }
 
+                // linklist
                 if (e.links && e.links.length){
                     $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
@@ -420,6 +459,7 @@
                     $content.append($linkarea);                    
                 }
 
+                // tag list
                 $tags = $("<div>").addClass("tagarea"); 
                 e.tags.forEach((e, i) => {
                     $tag = $("<span>").addClass("tag").text(e).attr("data-tag", e.toLowerCase());
@@ -433,6 +473,67 @@
             });
 
             syncConsentToContent();
+
+            console.log(statisticsByMonthAndCategory);
+            var series = {"name": "test", data: []}; 
+            var series = {}; 
+            for (var m in statisticsByMonthAndCategory){
+                if (m && statisticsByMonthAndCategory.hasOwnProperty(m)){
+                    var ts = new Date(m).getTime(); 
+                    for (var c in statisticsByMonthAndCategory[m]){
+                        if (c && statisticsByMonthAndCategory[m].hasOwnProperty(c)){
+                            // series.data.push([ts, statisticsByMonthAndCategory[m][c]]);
+                            if (typeof series[c] == "undefined") series[c] = []; 
+                            series[c].push([ts, statisticsByMonthAndCategory[m][c]]);
+                        }
+                    }
+                }
+            }
+            var series_new = []; 
+            for (var c in series){
+                if (c && series.hasOwnProperty(c)){
+                    var name = c; 
+                    if (typeof typeFriendlyNames[name] != "undefined"){
+                        name = typeFriendlyNames[name]; 
+                    }
+                    series_new.push({ name: name, data: series[c] });
+                }
+            }
+            
+            Highcharts.chart('stats_container_month_category', {
+                chart: {
+                    type: 'column'
+                },
+                credits: {
+                    enabled: false
+                },
+                title: {
+                    text: ''
+                },
+                xAxis: {
+                    type: 'datetime'
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Beiträge'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                tooltip: {},
+                plotOptions: {
+                    column: {
+                        stacking: 'normal',
+                        dataLabels: {
+                            enabled: true
+                        }
+                    }
+                },
+                series: series_new
+            });
+
         }
     });
 })(); 
