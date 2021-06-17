@@ -524,7 +524,7 @@
                     enabled: false
                 },
                 title: {
-                    text: ''
+                    text: 'Beiträge in dieser Timeline - pro Monat'
                 },
                 xAxis: {
                     type: 'datetime'
@@ -549,7 +549,114 @@
                 },
                 series: series_new
             });
+        }
+    });
 
+    /**
+     * STATS
+     */
+    // stats_container_tweets_per_day
+    $.ajax({
+        url: "/api/stats.php",
+        dataType: 'json',
+        data: { view: 'twt_tweets-per-day' },
+        success: (data) => {
+            console.log(data); 
+            if (data.data){
+                data = data.data; 
+                var series_tweets = {
+                    name: 'Tweets', 
+                    data: []
+                }; 
+                var series_tweets_per_user = {
+                    name: 'Tweets pro Nutzer', 
+                    data: [],
+                    type: 'line',
+                    yAxis: 1
+                }; 
+                data.forEach((e, i) => {
+                    series_tweets.data.push([new Date(e.date).getTime(), e.tweets]);
+                    series_tweets_per_user.data.push([new Date(e.date).getTime(), e.tweets_per_user]);
+                });
+                console.log(series_tweets); 
+
+                Highcharts.chart('stats_container_tweets_per_day', {
+                    chart: {
+                        type: 'column'
+                    },
+                    credits: {
+                        enabled: false
+                    },
+                    title: {
+                        text: 'Tweets pro Tag zum Thema'
+                    },
+                    xAxis: {
+                        type: 'datetime'
+                    },
+                    yAxis: [{
+                        min: 0,
+                        title: {
+                            text: 'Tweets'
+                        }
+                    },{
+                        min: 0,
+                        title: {
+                            text: ''
+                        },
+                        opposite: true
+                    }],
+                    legend: {
+                        enabled: false
+                    },
+                    tooltip: {},
+                    plotOptions: {
+                        column: {
+                            stacking: 'normal',
+                            dataLabels: {
+                                enabled: true
+                            }
+                        }
+                    },
+                    series: [
+                        series_tweets,
+                        series_tweets_per_user
+                    ]
+                });
+            }
+        }
+    });
+
+    // stats_container_hashtags
+    $.ajax({
+        url: "/api/stats.php",
+        dataType: 'json',
+        data: { view: 'twt_hashtags' },
+        success: (data) => {
+            console.log(data); 
+            if (data.data){
+                data = data.data; 
+                var series = { name: 'Hashtag', type: 'wordcloud', data: []};
+                var c = 0; 
+                data.forEach((e, i) => {
+                    if (c < 25 && ['lucaapp'].indexOf(e.hashtag) == -1){
+                        series.data.push({ name: '#' + e.hashtag, weight: e.tweets });
+                        c++; 
+                    }
+                    
+                });
+
+                Highcharts.chart('stats_container_hashtags', {
+                    credits: {
+                        enabled: false
+                    },
+                    title: {
+                        text: 'Häufig genutzte Hashtags'
+                    },
+                    series: [
+                        series
+                    ]
+                });
+            }
         }
     });
 })(); 

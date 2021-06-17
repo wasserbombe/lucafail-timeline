@@ -1,2 +1,3 @@
 api/cache/*.json
 config/credentials/*.php
+js/highcharts/modules/*
