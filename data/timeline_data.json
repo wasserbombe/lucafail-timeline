@@ -1163,6 +1163,22 @@
                 "text": "https://fragdenstaat.de/a/223455"
             }],
             "tags": []
+        },
+        {
+            "date": "15.06.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Einsatz der Luca-App im Landkreis Schwäbisch Hall",
+            "scope": "Kreis: Schwäbisch Hall",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "223590"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/223590",
+                "text": "https://fragdenstaat.de/a/223590"
+            }],
+            "tags": []
         }
     ]
 }
