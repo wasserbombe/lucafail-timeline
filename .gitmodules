@@ -1,0 +1,3 @@
+[submodule "lib/DB"]
+	path = lib/DB
+	url = git@github.com:Interdose/DB.git
