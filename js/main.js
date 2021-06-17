@@ -294,8 +294,10 @@
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Letzte Nachricht:<br>"));
                     $fdscontent.append($("<span>").text(data.last_message));
 
-                    $fdscontent.append($("<span>").addClass("fds-content-title").html("Kosten:<br>"));
-                    $fdscontent.append($("<span>").text(data.costs + " €"));
+                    if (data.costs){
+                        $fdscontent.append($("<span>").addClass("fds-content-title").html("Kosten:<br>"));
+                        $fdscontent.append($("<span>").text(data.costs + " €"));
+                    }
 
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Inhalt:<br>"));
                     // TODO: Find a better way than throwing unchecked HTML into the page...
