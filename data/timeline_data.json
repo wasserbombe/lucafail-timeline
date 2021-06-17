@@ -6,7 +6,7 @@
             "text": "Diese Timeline wird gerade erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>Solange findest Du viele Infos auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br><br><b>Ziel dieser Seite</b><br>Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen und LeserInnen diese selbst bewerten zu lassen.<br>Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere Institutionen.<br><br><b>Du magst helfen?</b><br>Gerne eine kurze Mail an mitmachen@luca.fail oder, noch besser: Ein Pull Request im <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br><br><b>Du magst auf die Daten dieser Seite zugreifen?</b><br>Hier geht's lang: <a href=\"https://timeline.luca.fail/data/timeline_data.json\">https://timeline.luca.fail/data/timeline_data.json</a><div id=\"stats_container_month_category\"></div>"
         },
         {
-            "date": "",
+            "date": "01.02.2021",
             "title": "Februar 2021 und früher",
             "text": "Fehlt noch und müsste ergänzt werden. Gerne auch auf <a href=\"http://edit.luca.fail/\">edit.luca.fail</a> eintragen!"
         },
