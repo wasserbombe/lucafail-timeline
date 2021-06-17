@@ -39,6 +39,23 @@
                 );
             }
             $res["code"] = 200; 
+        } elseif ($_REQUEST["view"] == 'twt_domains'){
+            $rows = $DB_TWT->query("SELECT 
+                                        REPLACE(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(u.`expanded_url`, '/', 3), '://', -1), '/', 1), '?', 1), 'www.', '') AS domain,
+                                        COUNT(*) as tweets
+                                    FROM urls u
+                                    JOIN urls_tweets ut ON u.`url` = ut.`url`
+                                    JOIN tweets t ON ut.`tweet_id` = t.`id`
+                                    WHERE u.`expanded_url` NOT LIKE '%//twitter.com/%'
+                                    GROUP BY REPLACE(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(u.`expanded_url`, '/', 3), '://', -1), '/', 1), '?', 1), 'www.', '')
+                                    ORDER BY COUNT(*) DESC;")->fetchAll(); 
+            foreach ($rows as $row){
+                $res["data"][] = array(
+                    "domain" => $row["domain"],
+                    "tweets" => intval($row["tweets"])
+                );
+            }
+            $res["code"] = 200; 
         } else {
             $res["code"] = 404;
             $res["error"] = array("msg" => "Unknown view."); 

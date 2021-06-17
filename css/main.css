@@ -19,15 +19,23 @@ button {
 }
 
 #settings {
+    position: sticky;
+    top: 0px; 
     background-color: white;
     height: 30px;
     padding: 6px;
+    z-index: 100;
+
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 8px 2px #000000;
+
 }
 
 .timeline {
     position: relative;
     max-width: 1700px;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 .timeline::after {

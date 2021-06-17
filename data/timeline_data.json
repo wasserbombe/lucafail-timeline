@@ -36,6 +36,17 @@
         },
         {
             "date": "21.03.2021",
+            "type": "incident",
+            "title": "Transparenz: Wichtige Dokumente / Veröffentlichungen fehlen - immer noch",
+            "text": "Unter anderem fehlen/fehlten bis zum 21.03.:<ul><li>DSFA (Datenschutz-Folgeabschätzung)</li><li>Abgleich mit den Anforderungen an Contact-Tracing-Apps des Chaos Computer Clubs</li><li>Abgleich mit den Anforderungen an Contact-Tracing-Apps des D64 e.V.</li><li>Angaben zum Key Management</li><li>Angaben zur Architektur</li></ul>",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/HonkHase/status/1373607440600735744"
+            }],
+            "tags": []
+        },
+        {
+            "date": "21.03.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Vertrag & Kosten zur Nutzung der Luca App",
             "scope": "Land: Berlin",
@@ -62,6 +73,10 @@
                     "text": "PDF: Preliminary Analysis of Potential Harms in the Luca Tracing System"
                 }
             ],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/thsStadler/status/1374319093449375747"
+            }],
             "tags": ["paper","metadata"]
         },
         {
@@ -82,6 +97,16 @@
                 "text": "volksfreund.de: Neue Beschlüsse - Scharfer Corona-Lockdown an Ostern: Diese Corona-Regeln gelten jetzt in Rheinland-Pfalz"
             }],
             "tags": ["vertrag","prüfung","malu-dreyer","datenschutz","rheinland-pfalz"]
+        },
+        {
+            "date": "24.03.2021",
+            "type": "podcast",
+            "title": "Anke Domscheit-Berg: “Stand Corona-Warn-App und Datenschutzfragen anderer Check-In Apps” (Video)",
+            "text": "",
+            "embed": [{
+                "type": "youtube",
+                "id": "dApEeaPn9bk"
+            }]
         },
         {
             "date": "24.03.2021",
@@ -159,6 +184,41 @@
             "tags": ["vertrag","datenschutz"]
         },
         {
+            "date": "30.03.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: „Gesetzes“-Datenschutz-Folgenabschätzung (DSFA) für die Luca-App gemäß Art. 35 (10) DSGVO",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217046"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/217046",
+                "text": "https://fragdenstaat.de/a/217046"
+            }],
+            "tags": ["vertrag","datenschutz"]
+        },
+        {
+            "date": "31.03.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Alle Gesundheitsämter nutzen denselben Schlüssel zum Zugriff auf Kontaktdaten",
+            "text": "Zwar rotiert dieser Schlüssel täglich, doch kommt er in einem Gesundheitsamt abhanden (oder wird dort täglich mitgelesen), dann sind auch alle Kontaktdaten, die für andere Gesundheitsämter bestimmt waren, betroffen.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/HonkHase/status/1377132479962750978"
+            }]
+        },
+        {
+            "date": "31.03.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Luca-Bereiche werden viel zu groß für eine sinnvolle Kontaktnachverfolgung dimensioniert",
+            "text": "Bspw. wird im Maximilianpark Hamm nur ein Luca-QR-Code (und somit eine \"Luca-Zone\") für insgesamt rund 22 Hektar genutzt.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/sand2drn/status/1377131074212425728"
+            }]
+        },
+        {
             "date": "31.03.2021",
             "type": "incident",
             "title": "Konzept-Problem: Check-In von überall möglich, QR-Codes genügen",
@@ -225,6 +285,10 @@
             },{
                 "url": "https://github.com/thesimj/jBaseZ85/issues/1",
                 "text": "benbender: “Copyright infringement by \"Culture4Life GmbH\" / LucaApp” (github.com)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/benfooben/status/1377191196922159108"
             }],
             "tags": ["open-source","code","lizenz"]
         },
@@ -348,6 +412,22 @@
             "links": [{
                 "url": "https://fragdenstaat.de/a/218014",
                 "text": "https://fragdenstaat.de/a/218014"
+            }],
+            "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "11.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Einsatz der Luca-App in RLP-Modellkommunen",
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "Ergebnis: Abgelehnt; Informationen nicht vorhanden.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "218042"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/218042",
+                "text": "https://fragdenstaat.de/a/218042"
             }],
             "tags": ["vertrag","kosten"]
         },
@@ -548,6 +628,13 @@
                 "type": "gitlab",
                 "issue": "2",
                 "project": "25883425"
+            },{
+                "type": "fragdenstaat",
+                "id": "219865"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219865",
+                "text": "fragdenstaat.de: Schlüsselzertifikate und deren Änderung bei der luca-App"
             }]
         },
         {

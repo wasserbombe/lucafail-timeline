@@ -437,6 +437,8 @@
                     e.type = "general";
                 }
 
+                $("#filterTopics").append($("<option>").text(e.type));
+
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth] == "undefined") statisticsByMonthAndCategory[lastYearAndMonth] = {};
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth][e.type] == "undefined"){
                     statisticsByMonthAndCategory[lastYearAndMonth][e.type] = 1;
@@ -596,7 +598,8 @@
                         text: 'Tweets pro Tag zum Thema'
                     },
                     xAxis: {
-                        type: 'datetime'
+                        type: 'datetime',
+                        min: Date.UTC(2020, 0, 1),
                     },
                     yAxis: [{
                         min: 0,
@@ -618,13 +621,13 @@
                         column: {
                             stacking: 'normal',
                             dataLabels: {
-                                enabled: true
+                                //enabled: true
                             }
                         }
                     },
                     series: [
-                        series_tweets,
-                        series_tweets_per_user
+                        series_tweets
+                        //series_tweets_per_user
                     ]
                 });
             }
@@ -643,7 +646,10 @@
                 var series = { name: 'Hashtag', type: 'wordcloud', data: []};
                 var c = 0; 
                 data.forEach((e, i) => {
-                    if (c < 25 && ['lucaapp'].indexOf(e.hashtag) == -1){
+                    if (
+                        //c < 25 && 
+                        e.tweets > 2 &&
+                        ['lucaapp','lucafail'].indexOf(e.hashtag.toLowerCase()) == -1){
                         series.data.push({ name: '#' + e.hashtag, weight: e.tweets });
                         c++; 
                     }
@@ -656,6 +662,40 @@
                     },
                     title: {
                         text: 'Häufig genutzte Hashtags'
+                    },
+                    series: [
+                        series
+                    ]
+                });
+            }
+        }
+    });
+
+    // stats_container_domains
+    $.ajax({
+        url: "/api/stats.php",
+        dataType: 'json',
+        data: { view: 'twt_domains' },
+        success: (data) => {
+            console.log(data); 
+            if (data.data){
+                data = data.data; 
+                var series = { name: 'Domains', type: 'wordcloud', data: []};
+                var c = 0; 
+                data.forEach((e, i) => {
+                    if (e.tweets > 2 && ["swarmapp.com","4sq.com"].indexOf(e.domain.toLowerCase()) == -1){
+                        series.data.push({ name: e.domain, weight: e.tweets });
+                        c++; 
+                    }
+                    
+                });
+
+                Highcharts.chart('stats_container_domains', {
+                    credits: {
+                        enabled: false
+                    },
+                    title: {
+                        text: 'Häufig verlinkte Domains'
                     },
                     series: [
                         series

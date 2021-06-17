@@ -30,10 +30,23 @@
     </head>
     <body>
         <div id="settings">
-            <input type="checkbox" id="checkboxExternalContent">
-            <label for="checkboxExternalContent">Externe Inhalte (z.B. Vimeo, YouTube) laden (s. <a href="#datenschutz">Datenschutz</a>!)</label>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="checkboxExternalContent">
+                        <label for="checkboxExternalContent">Externe Inhalte (z.B. Vimeo, YouTube) laden (s. <a href="#datenschutz">Datenschutz</a>!)</label>
+                    </td>
+                    <td>
+                        <b>Themen: </b>
+                        <select size="1" id="filterTopics">
+                            <option>Alle</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            
 
-            <select size="1"></select>
+            
         </div>
         <div class="timeline">
             <div class="container left type-general">
@@ -57,10 +70,27 @@
                         Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br>
                         <br>
                         <b>Du magst auf die Daten dieser Seite zugreifen?</b><br>
-                        Hier geht's lang: <a href="https://timeline.luca.fail/data/timeline_data.json">https://timeline.luca.fail/data/timeline_data.json</a>
+                        Hier geht's lang: 
+                        <ul>
+                            <li><a href="https://timeline.luca.fail/data/timeline_data.json">https://timeline.luca.fail/data/timeline_data.json</a></li>
+                            <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day">https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day</a></li>
+                            <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_hashtags">https://timeline.luca.fail/api/stats.php?view=twt_hashtags</a></li>
+                            <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_domains">https://timeline.luca.fail/api/stats.php?view=twt_domains</a></li>
+                        </ul>
+
                         <div id="stats_container_month_category"></div>
+                    </div>
+                    <div class="tagarea"></div>
+                </div>
+            </div>
+            <div class="container right type-general">
+                <div class="content">
+                    <span class="subtitle"></span>
+                    <h2 class="title">Stats</h2>
+                    <div>
                         <div id="stats_container_tweets_per_day"></div>
                         <div id="stats_container_hashtags"></div>
+                        <div id="stats_container_domains"></div>
                     </div>
                     <div class="tagarea"></div>
                 </div>
