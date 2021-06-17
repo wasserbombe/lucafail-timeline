@@ -1,1 +1,2 @@
 api/cache/*.json
+config/credentials/*.php
