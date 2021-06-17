@@ -536,7 +536,7 @@
                     }
                 },
                 legend: {
-                    enabled: false
+                    enabled: true
                 },
                 tooltip: {},
                 plotOptions: {
@@ -599,7 +599,7 @@
                             text: 'Tweets'
                         }
                     },{
-                        min: 0,
+                        min: 1,
                         title: {
                             text: ''
                         },

@@ -280,6 +280,22 @@
             }]
         },
         {
+            "date": "07.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Vertrag luca App",
+            "scope": "Stadt Weimar",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217676"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/217676",
+                "text": "https://fragdenstaat.de/a/217676"
+            }],
+            "tags": []
+        },
+        {
             "date": "08.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Anonyme Luca-QR-Codes lassen sich ohne Luca erstellen und nutzen",
@@ -384,6 +400,22 @@
             "tags": ["ccc","linus-neumann"]
         },
         {
+            "date": "14.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: luca App",
+            "scope": "Region Kassel",
+            "text": "Sowohl die Stadt Kassel als auch der Landkreis Kassel haben keinen Vertrag über die Nutzung der Luca App abgeschlossen und es entstehen bislang auch keine Kosten. Der gesamte rechtliche Hintergrund lief über das Hessische Ministerium für Soziales und Integration, Referat Gesundheitspolitik.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "218377"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/218377",
+                "text": "https://fragdenstaat.de/a/218377"
+            }],
+            "tags": []
+        },
+        {
             "date": "15.04.2021",
             "type": "incident",
             "title": "Schwachstelle/Proof of Concept: Dank Luca-App überall einchecken!",
@@ -406,6 +438,22 @@
                 "url": "http://luca.denken.io/",
                 "text": "Ralf Rottmann: luca.denken.io"
             }]
+        },
+        {
+            "date": "23.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Luca App",
+            "scope": "Kreis: Ennepe-Ruhr-Kreis Kreisverwaltung",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219104"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219104",
+                "text": "https://fragdenstaat.de/a/219104"
+            }],
+            "tags": []
         },
         {
             "type": "incident",
@@ -717,6 +765,38 @@
             "tags": ["vertrag","kosten","kostenübernahme"]
         },
         {
+            "date": "16.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Luca App",
+            "scope": "Kreis Soest",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220486"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220486",
+                "text": "https://fragdenstaat.de/a/220486"
+            }],
+            "tags": []
+        },
+        {
+            "date": "17.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Luca-App im Rhein-Neckar-Kreis",
+            "scope": "Kreis: Rhein-Neckar-Kreis",
+            "text": "Rückmeldung bisher: Die Entscheidung für den Einsatz der Luca-App beruht alleine auf der Stellungnahme des LfDi vom 02.03.2021 (!).",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220506"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220506",
+                "text": "https://fragdenstaat.de/a/220506"
+            }],
+            "tags": []
+        },
+        {
             "date": "19.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Veröffentlichte QR-Code-Badges offenbar nicht “entvalidiert”",
@@ -793,6 +873,22 @@
         },
         {
             "date": "27.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: luca Standorte im Saarland",
+            "scope": "Saarland",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "221163"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/221163",
+                "text": "https://fragdenstaat.de/a/221163"
+            }],
+            "tags": []
+        },
+        {
+            "date": "27.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Denial-of-Service Angriffe mit eingegebenen Nutzerdaten",
             "text": "Durch von Luca erfasste Nutzerdaten lässt sich Code bei Gesundheitsämtern einschleußen und ausführen. In der Gezeigten Demo wurde Ransomware eingeschleußt und das simulierte Gesundheitsamt auf diese Weise lahmgelegt.<br><br>Marcus Mengs<br><br>CVE-2021-?????<br>Impact: Alle Gesundheitsämter, alle erfasste Kontaktdaten",
@@ -806,6 +902,9 @@
             },{
                 "url": "https://vimeo.com/558459255",
                 "text": "Vimeo: Nutzer greift Gesundheitsamt an und stiehlt Daten bevor er Ransomware schickt"
+            },{
+                "url": "https://t3n.de/news/sicherheitsluecke-kriminelle-1380790/",
+                "text": "Kathrin Stoll: “Sicherheitslücke bei Luca-App: Überarbeitung führt offenbar zu anderen Problemen” (t3n.de)"
             }],
             "tags": ["denial-of-service", "ransomware", "cve"]
         },
@@ -942,6 +1041,22 @@
                 "url": "https://twitter.com/markus_bublitz/status/1403092238914183177"
             }],
             "tags": ["iris"]
+        },
+        {
+            "date": "14.06.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: LUCA-Software",
+            "scope": "Kreis: Kreisverwaltung Mayen-Koblenz",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "223372"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/223372",
+                "text": "https://fragdenstaat.de/a/223372"
+            }],
+            "tags": []
         },{
             "date": "14.06.2021",
             "type": "news",
@@ -970,6 +1085,21 @@
             "tags": ["impfzertifikat"]
         },{
             "date": "15.06.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: LUCA Werbung",
+            "scope": "Kreis: Verbandsgemeindeverwaltung Pellenz",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "223453"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/223453",
+                "text": "https://fragdenstaat.de/a/223453"
+            }],
+            "tags": []
+        },{
+            "date": "15.06.2021",
             "title": "Verwaltungsgericht Osnabrück: Landkreis Osnabrück darf auf seiner Website nicht allein für die LUCA-App werben",
             "text": "Der Landkreis Osnabrück warb auf seiner Webseite <a href\"https://corona-os.de/\" target=\"_blank\">corona-os.de</a> ausschließlich und explizit für die Luca-App. Das Verwaltungsgericht Osnabrück stellte nun klar: Wenn geworben wird, dann nicht ausschließlich nur für eine App.",
             "links": [{
@@ -985,6 +1115,22 @@
                 "url": "https://osna-live.de/26382/amtsgericht-osnabrueck-landkreis-darf-nicht-allein-fuer-luca-app-werben/",
                 "text": "“Amtsgericht Osnabrück: Landkreis darf nicht allein für LUCA-App werben” (osna-live.de)"
             }]
+        },
+        {
+            "date": "15.06.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: LUCA System im Kreis Mayen-Koblenz",
+            "scope": "Kreis: Kreisverwaltung Mayen-Koblenz",
+            "text": "Infektionsfälle bei denen in diesem Zeitraum Daten aus der Luca-App für eine Kontaktverfolgung herangezogen werden mussten oder eine Kontaktverfolgung ausschließlich mit Hilfe der LUCA-App möglich war sind nicht zu verzeichnen",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "223455"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/223455",
+                "text": "https://fragdenstaat.de/a/223455"
+            }],
+            "tags": []
         }
     ]
 }
