@@ -845,6 +845,22 @@
             "tags": ["vertrag","kosten"]
         },
         {
+            "date": "29.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Einsatz der Luca-App im Westerwaldkreis",
+            "scope": "Westerwaldkreis",
+            "text": "Ergebnis: Es ist bisher in keinem Fall zu einer Abfrage von Daten aus der Luca-App gekommen.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "221300"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/221300",
+                "text": "https://fragdenstaat.de/a/221300"
+            }],
+            "tags": ["vertrag","kosten","tracing-anfragen"]
+        },
+        {
             "date": "01.06.2021",
             "type": "incident",
             "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
