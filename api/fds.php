@@ -37,7 +37,8 @@
             "title" => $fds["title"],
             "costs" => $fds["costs"],
             "messages_count" => sizeof($fds["messages"]),
-            "recipient" => ""
+            "recipient" => "",
+            "summary" => $fds["summary"]
         );
         if (isset($fds["public_body"]) && isset($fds["public_body"]["name"])){
             $data["recipient"] = $fds["public_body"]["name"];

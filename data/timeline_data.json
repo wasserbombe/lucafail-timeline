@@ -470,6 +470,38 @@
             }]
         },
         {
+            "date": "27.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Luca App in der Stadt Uelzen",
+            "scope": "Stadt Uelzen",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219344"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219344",
+                "text": "https://fragdenstaat.de/a/219344"
+            }],
+            "tags": []
+        },
+        {
+            "date": "28.04.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Luca App im Landkreis Uelzen",
+            "scope": "Landkreis Uelzen",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219430"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219430",
+                "text": "https://fragdenstaat.de/a/219430"
+            }],
+            "tags": []
+        },
+        {
             "date": "28.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Betreiber können sich an Orten registrieren, für die gar kein Gesundheitsamt angebunden ist.",

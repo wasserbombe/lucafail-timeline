@@ -299,6 +299,11 @@
                         $fdscontent.append($("<span>").text(data.costs + " €"));
                     }
 
+                    if (data.summary){
+                        $fdscontent.append($("<span>").addClass("fds-content-title").html("Zusammenfassung / Fazit:<br>"));
+                        $fdscontent.append($("<span>").text(data.summary));
+                    }
+
                     $fdscontent.append($("<span>").addClass("fds-content-title").html("Inhalt:<br>"));
                     // TODO: Find a better way than throwing unchecked HTML into the page...
                     $fdscontent.append($("<span>").html(data.description));
