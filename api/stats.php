@@ -12,18 +12,22 @@
         $_REQUEST["view"] = strtolower($_REQUEST["view"]);
         if ($_REQUEST["view"] == 'twt_tweets-per-day'){
             $rows = $DB_TWT->query("SELECT 
-                                    LEFT(t.`created_at`, 10) AS 'date', 
-                                    COUNT(*) AS 'count',
-                                    COUNT(DISTINCT t.`user_id`) AS 'users',
-                                    COUNT(*)/COUNT(DISTINCT t.`user_id`) AS 'tweets_per_user'
-                                FROM tweets t
-                                GROUP BY LEFT(t.`created_at`, 10)")->fetchAll(); 
+                                        LEFT(t.`created_at`, 10) AS 'date', 
+                                        COUNT(*) AS 'count',
+                                        COUNT(DISTINCT t.`user_id`) AS 'users',
+                                        COUNT(*)/COUNT(DISTINCT t.`user_id`) AS 'tweets_per_user',
+                                        SUM(u.followers_count) AS 'estimated_reach'
+                                    FROM tweets t
+                                    LEFT JOIN users_latest ul ON ul.user_id = t.`user_id`
+                                    LEFT JOIN users u ON u.id = ul.user_id AND u.date = ul.date
+                                    GROUP BY LEFT(t.`created_at`, 10);")->fetchAll(); 
             foreach ($rows as $row){
                 $res["data"][] = array(
                     "date" => $row["date"],
                     "tweets" => intval($row["count"]),
                     "users" => intval($row["users"]),
-                    "tweets_per_user" => floatval($row["tweets_per_user"])
+                    "tweets_per_user" => floatval($row["tweets_per_user"]),
+                    "reach_estimated" => intval($row["estimated_reach"])
                 );
             }
             $res["code"] = 200; 

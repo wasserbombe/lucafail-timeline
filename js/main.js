@@ -581,8 +581,15 @@
                     type: 'line',
                     yAxis: 1
                 }; 
+                var series_reach = {
+                    name: 'Geschätze theoretische Reichweite', 
+                    data: [],
+                    type: 'spline',
+                    yAxis: 1
+                }; 
                 data.forEach((e, i) => {
                     series_tweets.data.push([new Date(e.date).getTime(), e.tweets]);
+                    series_reach.data.push([new Date(e.date).getTime(), e.reach_estimated]);
                     series_tweets_per_user.data.push([new Date(e.date).getTime(), e.tweets_per_user]);
                 });
                 console.log(series_tweets); 
@@ -599,7 +606,7 @@
                     },
                     xAxis: {
                         type: 'datetime',
-                        min: Date.UTC(2020, 0, 1),
+                        min: Date.UTC(2021, 0, 1),
                     },
                     yAxis: [{
                         min: 0,
@@ -609,14 +616,16 @@
                     },{
                         min: 1,
                         title: {
-                            text: ''
+                            text: 'Reichweite'
                         },
                         opposite: true
                     }],
                     legend: {
                         enabled: false
                     },
-                    tooltip: {},
+                    tooltip: {
+                        shared: true
+                    },
                     plotOptions: {
                         column: {
                             stacking: 'normal',
@@ -626,7 +635,8 @@
                         }
                     },
                     series: [
-                        series_tweets
+                        series_tweets,
+                        series_reach
                         //series_tweets_per_user
                     ]
                 });
