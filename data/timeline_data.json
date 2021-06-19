@@ -1270,6 +1270,19 @@
         {
             "date": "19.06.2021",
             "type": "incident",
+            "title": "IT-Security-Experte Marcus Mengs stellt (kostenlose) Zuarbeit/Hinsweise in Form von Dokumenation möglicher Sicherheitsprobleme zur Luca-App ein",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1406281381756518405"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/Wasserbombe/status/1406284815343800329"
+            }]
+        },
+        {
+            "date": "19.06.2021",
+            "type": "incident",
             "title": "Schwachstelle: Denial of Service-Attacken auf Gesundheitsämter (schon wieder) möglich",
             "text": "", 
             "embed": [{
