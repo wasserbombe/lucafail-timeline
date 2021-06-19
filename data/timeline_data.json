@@ -1266,6 +1266,26 @@
                 "text": "https://fragdenstaat.de/a/223590"
             }],
             "tags": []
+        },
+        {
+            "date": "19.06.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Denial of Service-Attacken auf Gesundheitsämter (schon wieder) möglich",
+            "text": "", 
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1406269269873201159"
+            },{
+                "type": "vimeo",
+                "id": "565012610"
+            }],
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1406269269873201159",
+                "text": "Twitter-Thread von Marcus Mengs zum Thema (twitter.com)"
+            },{
+                "url": "https://github.com/mame82/LucaAppIssues/blob/main/abandoned_issues.md",
+                "text": "Dokumentation von weiteren Sicherheitslücken und Auffälligkeiten von Marcus Mengs (github.com)"
+            }]
         }
     ]
 }

@@ -604,6 +604,9 @@
                     title: {
                         text: 'Tweets pro Tag zum Thema'
                     },
+                    subtitle: {
+                        text: '(Daten vor 2021-06-10 noch unvollständig)'
+                    },
                     xAxis: {
                         type: 'datetime',
                         min: Date.UTC(2021, 0, 1),
@@ -659,7 +662,8 @@
                     if (
                         //c < 25 && 
                         e.tweets > 2 &&
-                        ['lucaapp','lucafail'].indexOf(e.hashtag.toLowerCase()) == -1){
+                        // excluding those we're searching for or that are irrelevant for Luca case
+                        ['lucaapp','lucafail','luca','rigaer94'].indexOf(e.hashtag.toLowerCase()) == -1){
                         series.data.push({ name: '#' + e.hashtag, weight: e.tweets });
                         c++; 
                     }
@@ -671,7 +675,7 @@
                         enabled: false
                     },
                     title: {
-                        text: 'Häufig genutzte Hashtags'
+                        text: 'Häufig genutzte Hashtags (letzte drei Tage)'
                     },
                     series: [
                         series
@@ -693,7 +697,7 @@
                 var series = { name: 'Domains', type: 'wordcloud', data: []};
                 var c = 0; 
                 data.forEach((e, i) => {
-                    if (e.tweets > 2 && ["swarmapp.com","4sq.com"].indexOf(e.domain.toLowerCase()) == -1){
+                    if (e.tweets > 2 && ["swarmapp.com","4sq.com","mobile.twitter.com","bit.ly","ow.ly"].indexOf(e.domain.toLowerCase()) == -1){
                         series.data.push({ name: e.domain, weight: e.tweets });
                         c++; 
                     }

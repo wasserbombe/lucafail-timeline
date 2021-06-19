@@ -13,3 +13,7 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
 - [ ] add filters for content type
 - [ ] add screenshots of "bigger" news articles (but where to store them?)
 - [ ] "show more" button instead of showing the full-blown text for one card
+- [ ] stats
+  - [x] show number of topics per month
+  - [x] show some twitter stats
+  - [ ] add annotations from timeline to chart / link
