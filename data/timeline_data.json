@@ -20,6 +20,19 @@
         },
         {
             "date": "08.03.2021",
+            "type": "doc",
+            "title": "D64: Fünf Forderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung",
+            "scope": "Land: Bund",
+            "text": "Das D64 – Zentrum für Digitalen Fortschritt e.V. veröffentlicht seine fünf Anforderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung.<br><br><ul><li><b>Whitepaper:</b> Vollständige Dokumentation und Transparenz des Dienstes und seiner Schnittstellen, sowie der zu verarbeitenden Daten mit Erläuterung der kryptografischen Verfahren.</li><li><b>Open Source:</b> Die Veröffentlichung des Quellcodes aller Komponenten des Dienstes, von den Smartphone-Apps bis zu Backend-Services.</li><li><b>Datensparsamkeit:</b> Es dürfen nur Daten erhoben werden, die zum Betrieb des Dienstes zwingend notwendig sind. Zugriff auf personenbezogene Daten dürfen nur die Gesundheitsämter in einem Infektionsfall erhalten. Einen „Generalschlüssel“ zum Zugriff auf alle Daten darf es nicht geben.</li><li><b>Barrierefreiheit:</b> Der Dienst muss von allen Menschen mit unterschiedlichen mobilen Endgeräten bedient werden können.</li><li><b>Serverstandort:</b> Alle Daten dürfen nur auf Servern der EU verarbeitet werden.</li></ul>",
+            "links": [
+                {
+                    "url": "https://d-64.org/check-in-app/",
+                    "text": "D64: Fünf Forderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung"
+                }
+            ]
+        },
+        {
+            "date": "08.03.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Vereinbarung mit Luca App",
             "scope": "Land: MV",
@@ -916,6 +929,20 @@
             "tags": []
         },
         {
+            "date": "17.05.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat: Stellungnahme der culture4life GmbH zur Anfrage \"Vereinbarung mit Luca App\"",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "220566"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/220566",
+                "text": "fragdenstaat.de: Stellungnahme der culture4life GmbH zur Anfrage \"Vereinbarung mit Luca App\""
+            }]
+        },
+        {
             "date": "19.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Veröffentlichte QR-Code-Badges offenbar nicht “entvalidiert”",
@@ -1268,9 +1295,23 @@
             "tags": []
         },
         {
+            "date": "18.06.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Denial of Service-Attacken auf Gesundheitsämter (schon wieder) möglich",
+            "text": "Denial of Service-Attacken auf Gesundheitsämter durch manipulierte Nutzerdaten sind auch mit der Backend version v1.2.1 von Luca möglich.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1405855701830938627"
+            }],
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1405855701830938627",
+                "text": "Tweet von Marcus Mengs zum Thema, mit Demo (Twitter)"
+            }]
+        },
+        {
             "date": "19.06.2021",
             "type": "incident",
-            "title": "IT-Security-Experte Marcus Mengs stellt (kostenlose) Zuarbeit/Hinsweise in Form von Dokumenation möglicher Sicherheitsprobleme zur Luca-App ein",
+            "title": "IT-Security-Experte Marcus Mengs stellt (kostenlose) Zuarbeit/Hinweise in Form von Dokumenation möglicher Sicherheitsprobleme zur Luca-App ein",
             "text": "",
             "embed": [{
                 "type": "tweet",
@@ -1278,12 +1319,16 @@
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/Wasserbombe/status/1406284815343800329"
+            }],
+            "links": [{
+                "url": "https://github.com/mame82/LucaAppIssues/blob/main/abandoned_issues.md",
+                "text": "Dokumentation von weiteren Sicherheitslücken und Auffälligkeiten von Marcus Mengs (github.com)"
             }]
         },
         {
             "date": "19.06.2021",
             "type": "incident",
-            "title": "Schwachstelle: Denial of Service-Attacken auf Gesundheitsämter (schon wieder) möglich",
+            "title": "Schwachstelle: Ransomware-Angriffe auf Gesundheitsämter (schon wieder) über Luca möglich",
             "text": "", 
             "embed": [{
                 "type": "tweet",
@@ -1298,6 +1343,16 @@
             },{
                 "url": "https://github.com/mame82/LucaAppIssues/blob/main/abandoned_issues.md",
                 "text": "Dokumentation von weiteren Sicherheitslücken und Auffälligkeiten von Marcus Mengs (github.com)"
+            }]
+        },
+        {
+            "date": "20.06.2021",
+            "type": "news",
+            "title": "Enno Lenze: “Aktuelle Probleme der Luca App”",
+            "text": "<blockquote>Den Benutzern also zu erklären, dass sie die Luca-App aufgrund der Code-Qualität nicht nutzen sollen, ist eine Sackgasse.</blockquote>",
+            "links": [{
+                "url": "https://www.berlinstory-news.de/aktuelle-probleme-der-luca-app/",
+                "text": "Enno Lenze: Aktuelle Probleme der Luca App (berlinstory-news.de)"
             }]
         }
     ]
