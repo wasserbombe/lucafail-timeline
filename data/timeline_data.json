@@ -469,6 +469,19 @@
         },
         {
             "date": "13.04.2021",
+            "type": "podcast",
+            "title": "She likes Tech #22 - Luca vs. Datenschutz",
+            "text": "",
+            "links": [{
+                "url": "https://www.ndr.de/nachrichten/info/22-Vertrauen-ist-keine-gute-Technologie,audio868810.html",
+                "text": "She likes Tech #22 - Luca vs. Datenschutz"
+            },{
+                "url": "https://www.ndr.de/nachrichten/info/podcast4808.html",
+                "text": "NDR info: She Likes Tech - der Podcast über Technologie (Gesamtseite des Podcasts)"
+            }]
+        },
+        {
+            "date": "13.04.2021",
             "type": "incident",
             "title": "Schwachstelle: “Tracking of unique mobile devices and check-in locations from operator perspective of LucaApp backend”",
             "text": "Über Meta-Daten können seitens des Betreibers Bewegungsprofile von Nutzern erstellt<br><br>Impact: Alle Nutzer / private Treffen",
@@ -1164,6 +1177,19 @@
             "tags": ["iris", "NRW"]
         },
         {
+            "date": "08.06.2021",
+            "type": "podcast",
+            "title": "She likes Tech #26 - Luca: Fehler im System",
+            "text": "Bianca Kastl ist zu Gast bei \"She likes Tech\", einem Tech-Podcast der beiden Tech-Journalistinnen Eva Köhler und Svea Eckert.",
+            "links": [{
+                "url": "https://www.ndr.de/nachrichten/info/podcast4808.html",
+                "text": "She likes Tech #26 - Luca: Fehler im System (Seite zum Einzelbeitrag)"
+            },{
+                "url": "https://www.ndr.de/nachrichten/info/podcast4808.html",
+                "text": "NDR info: She Likes Tech - der Podcast über Technologie (Gesamtseite des Podcasts)"
+            }]
+        },
+        {
             "date": "09.06.2021",
             "type": "broadcast",
             "title": "ARD Plusminus: Sendung vom 9. Juni 2021: LUCA-App - mehr Kosten als Nutzen",
@@ -1260,6 +1286,9 @@
             },{
                 "url": "https://osna-live.de/26382/amtsgericht-osnabrueck-landkreis-darf-nicht-allein-fuer-luca-app-werben/",
                 "text": "“Amtsgericht Osnabrück: Landkreis darf nicht allein für LUCA-App werben” (osna-live.de)"
+            },{
+                "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=VG%20Osnabr%FCck&Datum=2021-06-15&Aktenzeichen=1%20B%2024/21",
+                "text": "Rechtssprechung: VG Osnabrück, 15.06.2021 - Aktenzeichen 1 B 24/21 (dejure.org)"
             }]
         },
         {
@@ -1353,6 +1382,16 @@
             "links": [{
                 "url": "https://www.berlinstory-news.de/aktuelle-probleme-der-luca-app/",
                 "text": "Enno Lenze: Aktuelle Probleme der Luca App (berlinstory-news.de)"
+            }]
+        },
+        {
+            "date": "24.06.2021",
+            "type": "news",
+            "title": "Bundesamt für Sicherheit in der Informationstechnik (BSI): “Wir konzentrieren unsere Ressourcen weiterhin auf die intensive und entwicklungsbegleitende Prüfung der Corona-Warn-App”",
+            "text": "<blockquote>Informationssicherheit muss bei Digitalisierungsprojekten höchste Priorität haben. Wir konzentrieren unsere Ressourcen weiterhin auf die intensive und entwicklungsbegleitende Prüfung der #CoronaWarnApp.<br>Diese leistet einen wertvollen Beitrag im Umgang mit der Corona-Pandemie und bietet viele nützliche Funktionen. Sie ermöglicht die Kontaktnachverfolgung, etwa bei Veranstaltungen, und internationale Reisen durch den digitalen Impfnachweis.</blockquote>",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/BSI_Bund/status/1408002553913171969"
             }]
         }
     ]
