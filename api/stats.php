@@ -20,7 +20,7 @@
                                     FROM tweets t
                                     LEFT JOIN users_latest ul ON ul.user_id = t.`user_id`
                                     LEFT JOIN users u ON u.id = ul.user_id AND u.date = ul.date
-                                    WHERE t.full_text NOT LIKE '%disney%'
+                                    WHERE t.full_text NOT LIKE '%disney%' AND t.full_text NOT LIKE '%pixar%'
                                     GROUP BY LEFT(t.`created_at`, 10);")->fetchAll(); 
             foreach ($rows as $row){
                 $res["data"][] = array(

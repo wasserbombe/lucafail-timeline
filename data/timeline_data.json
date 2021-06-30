@@ -1393,6 +1393,34 @@
                 "type": "tweet",
                 "url": "https://twitter.com/BSI_Bund/status/1408002553913171969"
             }]
+        },
+        {
+            "date": "25.06.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Registrierungs-Formular für jedermann von überall zugänglich, Telefonnummer-Verifizierung hier weiterhin nicht umgesetzt.",
+            "text": "",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1408392734755508225"
+            }]
+        },
+        {
+            "date": "29.06.2021",
+            "type": "news",
+            "scope": "Ennepe-Ruhr-Kreis",
+            "title": "Ennepe-Ruhr-Kreis steigt aus Luca-Vertrag aus, setzt auf IRIS-Gateway",
+            "text": "Der Ennepe-Ruhr-Kreis (NRW) verlängert seinen Vertrag mit Luca nicht über den Testzeitraum hinaus, teils aus finanziellen Gründen, teils, weil inzwischen das IRIS Gateway verfügbar ist und die Luca-App daran nicht angebunden ist. Damit ist der Ennepe-Ruhr-Kreis der zweite Kreis in NRW (nach Aachen), der nach dem Testzeitraum seinen Vertrag mit Luca nicht verlängert hat.",
+            "links": [{
+                "url": "https://ruhrkanal.news/digitale-kontaktverfolgung-kreis-setzt-auf-iris-gateway/",
+                "text": "Barteczko/Strohdiek: Digitale Kontaktverfolgung - Kreis setzt auf IRIS-Gateway (ruhrkanal.news)"
+            },{
+                "url": "https://www.enkreis.de/aktuelles/news-detailansicht/news/digitale-kontaktverfolgung-krisenstab-plant-umstieg-auf-iris-gateway.html",
+                "text": "Pressemitteilung des Keises: Digitale Kontaktverfolgung - Krisenstab plant Umstieg auf IRIS Gateway (enkreis.de)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/BorgTenOfNine/status/1409877579839033349"
+            }]
         }
     ]
 }
