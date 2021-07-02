@@ -675,7 +675,10 @@
                         enabled: false
                     },
                     title: {
-                        text: 'Häufig genutzte Hashtags (letzte drei Tage)'
+                        text: 'Häufig genutzte Hashtags'
+                    },
+                    subtitle: {
+                        text: '(letzte 7 Tage)'
                     },
                     series: [
                         series

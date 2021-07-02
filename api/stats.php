@@ -36,7 +36,7 @@
             $rows = $DB_TWT->query("SELECT h2t.`hashtag`, COUNT(*) AS 'tweets'
                                     FROM hashtag2tweet h2t
                                     JOIN tweets t ON t.`id` = h2t.`tweet_id`
-                                    WHERE t.`created_at_ts` > UNIX_TIMESTAMP()-60*60*24*3
+                                    WHERE t.`created_at_ts` > UNIX_TIMESTAMP()-60*60*24*7
                                     GROUP BY h2t.`hashtag`
                                     ORDER BY COUNT(*) DESC;")->fetchAll(); 
             foreach ($rows as $row){

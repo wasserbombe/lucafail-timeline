@@ -1421,6 +1421,37 @@
                 "type": "tweet",
                 "url": "https://twitter.com/BorgTenOfNine/status/1409877579839033349"
             }]
+        },
+        {
+            "date": "01.07.2021",
+            "type": "Kuriositäten",
+            "title": "IT-Haftpflichtversicherung wirbt mit Luca-App als Negativbeispiel",
+            "text": "In einem Artikel der Exali-Versicherung wird über die Probleme mit der Luca-App berichtet und am Ende die eigene IT-Haftpflichtversicherung beworben.",
+            "links": [{
+                "url": "https://www.exali.de/Info-Base/luca-app-schwachstellen",
+                "text": "Sicherheitslücken, Fehler und schlechtes Krisenmanagment: Die größten Pannen der Luca-App und was Entwickler:innen daraus lernen können (exali.de)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/evawolfangel/status/1410707717711437832"
+            }]
+        },
+        {
+            "date": "01.07.2021",
+            "type": "news",
+            "title": "Hertie School: Nach einem Jahr Corona-Warn-App ist die Ahnungslosigkeit über Funktionsweise und Datenschutz immer noch groß",
+            "text": "",
+            "links": [{
+                "url": "https://www.hertie-school.org/en/news/detail/content/simon-munzert-says-more-education-needed-for-uptake-of-germanys-virus-tracking-app",
+                "text": "Simon Munzert says more education needed for uptake of Germany’s virus-tracking app (hertie-school.org)"
+            },{
+                "url": "https://www.zeit.de/digital/mobil/2021-06/corona-warn-app-bundesregierung-digitalisierung-infektionsketten-datenschut",
+                "text": "Meike Laaff, Jakob von Lindern, Lisa Hegemann: Corona-Warn-App - Besser, als Sie denken"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/simonsaysnothin/status/1410570012943863812"
+            }]
         }
     ]
 }
