@@ -1452,6 +1452,26 @@
                 "type": "tweet",
                 "url": "https://twitter.com/simonsaysnothin/status/1410570012943863812"
             }]
+        },
+        {
+            "date": "03.07.2021",
+            "type": "news",
+            "title": "Chaos Computer Club kritisiert Quasi-Zwang zur Luca-App",
+            "links": [{
+                "url": "https://www.spiegel.de/netzwelt/apps/corona-kontaktverfolgung-chaos-computer-club-kritisiert-quasi-zwang-zur-luca-app-a-a90dee1b-dc58-449d-919a-0f3515ac0808",
+                "text": "Jörg Breithut: Corona-Kontaktverfolgung - Chaos Computer Club kritisiert Quasi-Zwang zur Luca-App (spiegel.de)"
+            }]
+        },
+        {
+            "date": "03.07.2021",
+            "type": "news",
+            "scope": "Land: Hessen",
+            "title": "Hessen: “Datenschützer fordert pragmatischen Umgang mit Luca-App”",
+            "text": "Der hessische Datenschutzbeauftragte Alexander Roßnagel schlägt einen \"pragmatischen Umgang\" mit der Luca-App vor: <blockquote>Später erkannte Probleme rund um den Datenschutz kann man auch nachträglich korrigieren.</blockquote>",
+            "links": [{
+                "url": "https://www.heise.de/news/Datenschuetzer-fordert-pragmatischen-Umgang-mit-Luca-App-6128129.html",
+                "text": "Datenschützer fordert pragmatischen Umgang mit Luca-App (heise.de)"
+            }]
         }
     ]
 }
