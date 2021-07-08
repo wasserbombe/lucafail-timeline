@@ -646,6 +646,29 @@
             }]
         },
         {
+            "date": "29.04.2021",
+            "type": "doc",
+            "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
+            "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern mit grundlegenden Entwicklungsprinzipien:<ul><li><b>Zweckbindung:</b> Das einzige Ziel muss die Pandemiebekämpfung sein. Eine Verknüpfung mit anderen Geschäftsmodellen, Anwendungsmöglichkeiten und Profitinteressen muss ausgeschlossen, idealerweise technisch unmöglich sein.</li><li><b>Offenheit und Transparenz:</b> Fachleuten, IT-Sicherheits- und Datenschutzexpert:innen muss frühzeitig die Möglichkeit gegeben werden, sich konstruktiv am Entwicklungsprozess zu beteiligen oder diesen unabhängig zu begutachten.</li><li><b>Freiwilligkeit:</b> Die Nutzung bestimmter Werkzeuge zur digitalen Kontaktverfolgung muss freiwillig sein. Bürger:innen, die das Werkzeug nicht benutzen möchten, dürfen nicht von sozialen Aktivitäten, dem Zutritt zu öffentlichen Gebäuden, Geschäften, usw. ausgeschlossen werden.</li><li><b>Risikoabwägung:</b> Die Beurteilung des Nutzens und der Risiken einer solchen Lösung muss im Vorfeld unabhängig und öffentlich geprüft werden können. Dies gilt ganz besonders dann, wenn der Effekt der technischen Lösung in wesentlichem Umfang auf dem Vertrauen der Bürger:innen basiert.</li></ul>",
+            "links": [{
+                "url": "https://digikoletter.github.io/",
+                "text": "digikoletter.github.io"
+            }]
+        },
+        {
+            "date": "29.04.2021",
+            "type": "doc",
+            "title": "Stellungnahmen der Konferenz der unabhängigen Datenschutzaufsichtsbehörden (DSK)",
+            "text": "<ul><li>Mehrzahl der Länder haben sich für Luca entschlossen, daher ist Luca Gegenstand verschiedener datenschutzaufsichtlicher Untersuchungen geworden.</li><li>Es ergeben sich Risiken durch den nun weiterverbreiteten Einsatz mit erhöhter Wahrscheinlichkeit von missbräuchlicher Nutzung</li><li>Eingesetzte Rufnummernüberprüfung lässt sich umgehen und kann zur Belästigung von Personen missbraucht werden</li><li>Durch den Anbieter müssen technische Abhilfemaßnahmen umgesetzt werden.</li><li>Aus missbräuchlichen Eintragungen können sich Überlastungen der Gesundheitsämter mit Daten ergeben, die für die Kontaktnachverfolgung nutzlos sind.</li><li>Nicht alle Risiken werden durch die eingesetzten zweistufigen Verschlüsselungsmechanismen vollständig ausgeräumt. Nach dem derzeitigen Stand kann daher ein qualifizierter Angriff von Dritten gegen die zentralen IT-Systeme des Dienstes dazu führen, dass ab dem Zeitpunkt eines erfolgreichen Cyberangriffs die Funktionsweise des Luca-Systems manipuliert wird und im schlimmsten Fall die Angreifenden in großem Umfang Daten über die Anwesenheit von Personen bei Veranstaltungen etc. entschlüsseln und ausleiten können.</li></ul>",
+            "links": [{
+                "url": "https://www.datenschutzkonferenz-online.de/media/st/20210429_DSK_Stellungnahme_LUCA.pdf",
+                "text": "Stellungnahme zu Kontaktnachverfolgungssystemen – insbesondere zu „Luca“ der culture4life GmbH (datenschutzkonferenz-online.de)"
+            },{
+                "url": "https://www.datenschutzkonferenz-online.de/media/pm/20210429_PM_%20DSK_KonferenzApril.pdf",
+                "text": "Pressemitteilung: Datenschutzkonferenz – Datenschutz beim Einsatz digitaler Dienste zur Kontaktnachverfolgung (datenschutzkonferenz-online.de)"
+            }]
+        },
+        {
             "date": "02.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Gesundheitsämter \"verlieren\" / wechseln Keys - ohne, dass das kommuniziert wird oder nachvollziehbar ist",
@@ -661,16 +684,6 @@
             "links": [{
                 "url": "https://fragdenstaat.de/a/219865",
                 "text": "fragdenstaat.de: Schlüsselzertifikate und deren Änderung bei der luca-App"
-            }]
-        },
-        {
-            "date": "02.05.2021",
-            "type": "doc",
-            "title": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung",
-            "text": "Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung von über 70 Sicherheitsforschern und über 400 weiteren Unterzeichnern mit grundlegenden Entwicklungsprinzipien:<ul><li><b>Zweckbindung:</b> Das einzige Ziel muss die Pandemiebekämpfung sein. Eine Verknüpfung mit anderen Geschäftsmodellen, Anwendungsmöglichkeiten und Profitinteressen muss ausgeschlossen, idealerweise technisch unmöglich sein.</li><li><b>Offenheit und Transparenz:</b> Fachleuten, IT-Sicherheits- und Datenschutzexpert:innen muss frühzeitig die Möglichkeit gegeben werden, sich konstruktiv am Entwicklungsprozess zu beteiligen oder diesen unabhängig zu begutachten.</li><li><b>Freiwilligkeit:</b> Die Nutzung bestimmter Werkzeuge zur digitalen Kontaktverfolgung muss freiwillig sein. Bürger:innen, die das Werkzeug nicht benutzen möchten, dürfen nicht von sozialen Aktivitäten, dem Zutritt zu öffentlichen Gebäuden, Geschäften, usw. ausgeschlossen werden.</li><li><b>Risikoabwägung:</b> Die Beurteilung des Nutzens und der Risiken einer solchen Lösung muss im Vorfeld unabhängig und öffentlich geprüft werden können. Dies gilt ganz besonders dann, wenn der Effekt der technischen Lösung in wesentlichem Umfang auf dem Vertrauen der Bürger:innen basiert.</li></ul>",
-            "links": [{
-                "url": "https://digikoletter.github.io/",
-                "text": "digikoletter.github.io"
             }]
         },
         {
@@ -709,10 +722,13 @@
             "date": "04.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Fremde Menschen können beliebig eingecheckt werden.",
-            "text": "Impact: Alle Menschen, auch Nicht-Luca-Nutzer",
+            "text": "Das Peng-Kollektiv zeigt mit seiner Webseite <a href=\"https://luci-app.de/\" target=\"_blank\">luci-app.de</a> anschaulich, dass jeder von jedermann überall eingecheckt werden kann, solange die Location-ID einer Location vorliegt (QR-Code). Spätestens hier wird Luca auch zur Gefahr auf für die Menschen, die gar nicht Luca nutzen. Jemand kann ihre Daten verwenden und sie an einem Ort einchecken, es ist nicht möglich herauszufinden, ob sie es wirklich waren.<br><br>Impact: Alle Menschen, auch Nicht-Luca-Nutzer",
             "links": [{
                 "url": "https://www.n-tv.de/panorama/Wurde-die-Luca-App-gehackt-article22531735.html",
                 "text": "n-tv.de: Ministerpräsidenten eingecheckt - Wurde die Luca-App gehackt?"
+            },{
+                "url": "https://luci-app.de/",
+                "text": "luci-app.de"
             }]
         },
         {
@@ -1471,6 +1487,16 @@
             "links": [{
                 "url": "https://www.heise.de/news/Datenschuetzer-fordert-pragmatischen-Umgang-mit-Luca-App-6128129.html",
                 "text": "Datenschützer fordert pragmatischen Umgang mit Luca-App (heise.de)"
+            }]
+        },
+        {
+            "date": "05.07.2021",
+            "type": "news",
+            "scope": "Land: Nordrhein-Westfalen",
+            "title": "NRW: “Land NRW sichert Nutzung der Gateway-Lösung IRIS connect und setzt auf Anbieter-Pluralität bei der digitalen Kontaktnachverfolgung”",
+            "links": [{
+                "url": "https://www.it.nrw/land-nrw-sichert-nutzung-der-gateway-loesung-iris-connect-und-setzt-auf-anbieter-pluralitaet-bei-der",
+                "text": "Pressemitteilung Landesbetrieb IT.NRW: Land NRW sichert Nutzung der Gateway-Lösung IRIS connect und setzt auf Anbieter-Pluralität bei der digitalen Kontaktnachverfolgung (it.nrw)"
             }]
         }
     ]
