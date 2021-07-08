@@ -532,6 +532,19 @@
             }]
         },
         {
+            "date": "19.04.2021",
+            "type": "incident",
+            "title": "Forschungsprojekt: lucifer - Wenn luca zum Teufel geht",
+            "text": "lucifer-app.de stellt das Luca-System (Android-App und Web-App) nach und untersucht so, welche Daten durch Server der luca App erhoben und verknüpft werden können, ohne dass dies durch Endnutzer feststellbar wäre. Ziel des Projektes ist es festzustellen, was passieren könnte, wenn die Server von luca unter Kontrolle einer Person fallen, die diese missbräuchlich oder für andere Zwecke einsetzt.<br>Mithilfe einer <a href=\"https://app.lucifer-app.de/lucifer/\" target=\"_blank\">Suche</a> können erfasste Daten durchsucht werden.",
+            "links": [{
+                "url": "https://lucifer-app.de/",
+                "text": "lucifer-app.de"
+            },{
+                "url": "https://gitlab.com/luciferapp/android/-/commit/2ea74fd8949878f9d9e88fcc99432a7ccc4b95a1",
+                "text": "Gitlab-Commit: Rebranding Luca (gitlab.com)"
+            }]
+        },
+        {
             "type": "doc",
             "date": "22.04.2021",
             "title": "Gesundheitsamt-Aktivitätsmonitor: luca.denken.io",
