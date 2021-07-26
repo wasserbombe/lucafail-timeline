@@ -7,7 +7,8 @@
         "news": "Veröffentlichungen in Magazinen, Newsportalen, ...",
         "event": "Veranstaltung",
         "broadcast": "TV- oder Radiosendung",
-        "talk": "Präsentation auf Fachveranstaltung"
+        "talk": "Präsentation auf Fachveranstaltung",
+        "probleme": "Probleme beim Benutzen der App / UX"
     };
     var fdsbuttonclickhandler = (e) => {
         var fdsclosest = $(e.target).closest("[data-fds-id]");

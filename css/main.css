@@ -130,7 +130,7 @@ button {
 .container.type-doc .content {
     border-top: 8px solid rgb(0, 112, 6);
 }
-.container.type-incident .content {
+.container.type-incident .content, .container.type-probleme .content {
     border-top: 8px solid rgb(173, 0, 0);
 }
 .container.type-event .content, .container.type-talk .content, .container.type-podcast .content, .container.type-broadcast .content {
