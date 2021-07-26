@@ -1511,6 +1511,72 @@
                 "url": "https://www.it.nrw/land-nrw-sichert-nutzung-der-gateway-loesung-iris-connect-und-setzt-auf-anbieter-pluralitaet-bei-der",
                 "text": "Pressemitteilung Landesbetrieb IT.NRW: Land NRW sichert Nutzung der Gateway-Lösung IRIS connect und setzt auf Anbieter-Pluralität bei der digitalen Kontaktnachverfolgung (it.nrw)"
             }]
+        },
+        {
+            "date": "21.07.2021",
+            "type": "news",
+            "title": "Artikel in Telepolis: “Luca und Lügen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt”",
+            "text": "Zitat aus verlinktem Artikel: <blockquote>Die Sache wirft ein eigenartiges Licht darauf, wie vonseiten der LucaApp-Betreiber mit Kritik umgegangen wird. Sie bestätigt den Eindruck, dass in der Coronakrise mit schwerem Geschütz gegen Kritiker vorgegangen wird - nicht selten unverhältnismäßig. Demgegenüber steht eine privilegierte Marktposition der App, deren Team sehr gut vernetzt ist, wohl auch in politische Kreise.</blockquote>",
+            "links": [{
+                "url": "https://www.heise.de/tp/features/Luca-und-Luegen-6144169.html",
+                "text": "Artikel in Telepolis: “Luca und Lügen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt” (heise.de)"
+            }]
+        },
+        {
+            "date": "22.07.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Webseiten können Check-Ins für beliebige Locations erzwingen",
+            "text": "... wird ein Link zu einem privaten Meeting verwendet, dann kann der Angreifer auch Vor- und Nachname lesen (Phishing)",
+            "links": [{
+                "url": "https://twitter.com/mame82/status/1418197330264735758",
+                "text": "Tweet Marcus Mengs (twitter.com)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/mame82/status/1418197330264735758"
+            }]
+        },
+        {
+            "date": "23.07.2021",
+            "type": "probleme",
+            "geo": {
+                "city": "Westerland"
+            },
+            "title": "“Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf”",
+            "text": "<blockquote>Wegen eines vom Hersteller bestätigten technischen Fehlers der Luca-App gelang es bis zuletzt nicht, die gespeicherten Daten der anderen Gäste abzurufen. Deshalb bleibt dem Gesundheitsamt des Kreises Nordfriesland nun nur noch der öffentliche Aufruf. „Die Gäste konnten sich problemlos einchecken, aber beim Übermitteln der Daten an die Behörden gab es einen technischen Fehler der Luca-App, für den ich nichts kann. Da liegt der Fehler ganz klar bei App“, so Leskau.</blockquote>",
+            "links": [{
+                "url": "https://www.shz.de/lokales/sylter-rundschau/Infizierter-Gast-in-der-Wunderbar-Gaeste-muessen-in-Quarantaene-id33032257.html?r=artikellink",
+                "text": "Sylter Rundschau: “Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf” (shz.de)"
+            }]
+        },
+        {
+            "date": "26.07.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Sicherheitseinschätzung der Luca-App",
+            "scope": "",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "225567"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/225567",
+                "text": "https://fragdenstaat.de/a/214626"
+            }],
+            "tags": []
+        },
+        {
+            "date": "26.07.2021",
+            "type": "probleme",
+            "geo": {
+                "city": "Flensburg"
+            },
+            "title": "Flensburg: “Luca-App kann nicht ausgewertet werden: „Klähblatt“-Besucherin positiv getestet”",
+            "text": "Das Gesundheitsamt sucht Gäste mit Symptomen, da die Daten der Luca-App nicht auslesbar waren. <br><blockquote>Der Fall erinnert an einen Corona-Infizierten, der in der vergangenen Woche die „Wunderbar“ in Westerland besuchte. Auch hier konnte das Gesundheitsamt die Daten der Luca-App nicht auslesen.</blockquote>",
+            "links": [{
+                "url": "https://www.shz.de/lokales/flensburger-tageblatt/Luca-App-kann-nicht-ausgewertet-werden-Klaehblatt-Besucherin-positiv-getestet-id33056862-amp.html",
+                "text": "Flensburger Tageblatt: “Luca-App kann nicht ausgewertet werden: „Klähblatt“-Besucherin positiv getestet” (shz.de)"
+            }]
         }
     ]
 }
