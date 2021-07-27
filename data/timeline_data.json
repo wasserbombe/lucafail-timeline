@@ -1577,6 +1577,27 @@
                 "url": "https://www.shz.de/lokales/flensburger-tageblatt/Luca-App-kann-nicht-ausgewertet-werden-Klaehblatt-Besucherin-positiv-getestet-id33056862-amp.html",
                 "text": "Flensburger Tageblatt: “Luca-App kann nicht ausgewertet werden: „Klähblatt“-Besucherin positiv getestet” (shz.de)"
             }]
+        },
+        {
+            "date": "26.07.2021",
+            "type": "news",
+            "scope": "Land: BW",
+            "title": "Baden-Württemberg: “Gemeinsame Erklärung zur Luca-App unterzeichnet”",
+            "text": "\"Alle Beteiligten\" (offenbar abzüglich kritischer Stimmen?) haben in Baden-Würrtemberg eine gemeinsame Erklärung unterzeichnet, in der die Zusammenarbeit \"in Sachen Luca-App\" bekräftigt wurde. Leider ist aus der Pressemitteilung des Innenministeriums Baden-Württemberg nicht ersichtlich,<ul><li>... wer \"Alle Beteiligten\" sind</li><li>... wie Luca eine \"schnelle und gezielte Kontaktverfolgung\" unterstützen soll</li><li>... was die \"passgenauen Anleitungen und Hinweise\" sind, die offenbar erforderlich wurden?</li></ul>",
+            "links": [{
+                "url": "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/gemeinsame-erklaerung-zur-luca-app-unterzeichnet/",
+                "text": "Pressemitteilung: “Gemeinsame Erklärung zur Luca-App unterzeichnet” (baden-wuerttemberg.de)"
+            },{
+                "url": "https://fragdenstaat.de/a/225586",
+                "text": "Frag den Staat: Anfrage zu Mitglieder der AG Corona; Gemeinsame Erklärung zur Luca-App (fragdenstaat.de)"
+            }],
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "225586"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/MalteEngeler/status/1419925654640992273"
+            }]
         }
     ]
 }
