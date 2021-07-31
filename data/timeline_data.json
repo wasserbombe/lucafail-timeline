@@ -1598,6 +1598,51 @@
                 "type": "tweet",
                 "url": "https://twitter.com/MalteEngeler/status/1419925654640992273"
             }]
+        },
+        {
+            "date": "29.07.2021",
+            "type": "news",
+            "title": "“Luca-App erkennt die Klammern in Halle (Saale) nicht”",
+            "text": "Wenn Veranstalter einen Veranstaltungsort mit z.B. \"Halle (Saale)\" in der Adresse anlegen und einen QR-Code für diesen Ort generieren wollen, dann ist das nicht möglich. Der Ort muss manuell erstellt werden; dann funktioniert aber das \"Automatisch Auschecken\"-Feature nicht.",
+            "links": [{
+                "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/luca-app-probleme-sonderzeichen-100.html",
+                "text": "Gero Hirschelmann, MDR Sachsen-Anhalt: “Luca-App erkennt die Klammern in Halle (Saale) nicht” (mdr.de)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/bkastl/status/1420792594787971073"
+            }]
+        },
+        {
+            "date": "30.07.2021",
+            "type": "news",
+            "title": "Artikel in Telepolis: “Fünf Sterne für die Luca-App: \"Das Essen war sehr gut\"”",
+            "text": "Die Luca-App fordert Android-Nutzer zur Bewertung auf - die halten das für eine Bewertungsmöglichkeit der Restaurants. Dadurch verändern sich Wertung und Inhalt der Bewertungen im Google Play Store rasant zum Guten.<br>Auf iOS fehlt dieses Feature.",
+            "links": [{
+                "url": "https://heise.de/-6149776",
+                "text": "Artikel in Telepolis: ““Fünf Sterne für die Luca-App: \"Das Essen war sehr gut\"” (heise.de)"
+            },{
+                "url": "https://play.google.com/store/apps/details?id=de.culture4life.luca&hl=de&gl=DE&showAllReviews=true",
+                "text": "Bewertungen der Luca-App im Google Play-Store (play.google.com)"
+            }]
+        },
+        {
+            "date": "30.07.2021",
+            "type": "incident",
+            "title": "Mögliche Schwachstelle: Daily Traces / Benachrichtigungen der Nutzer über Datenzugriffe wurden nicht aktualisiert?",
+            "text": "Die Macher der Luca-App haben den Fehler bestätigt und in ihrem Blogpost erklärt, dass für ca. 46 Stunden keine neuen Trace IDs bereitgestellt wurden (siehe Link unten), offenbar, da Wartungsarbeiten am Produktiv-System vorgenommen wurden.<br>Diese Trace IDs wurden dann aber ab dem 30. Juli wieder ausgespielt, d.h. Nutzer wurden über eine Abfrage eines Gesundheitsamts auf jeden Fall informiert, theoretisch aber mit einer Verzogerung im schlimmsten Fall von bis zu 46 Stunden.",
+            "embed": [{
+                "type": "gitlab",
+                "project": "web",
+                "issue": "24"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/honkhase/status/1421106486789423106"
+            }],
+            "links": [{
+                "url": "https://www.luca-app.de/informationen-zur-verfuegbarkeit-der-tracing-api/",
+                "text": "Luca-App: “Informationen zur Verfügbarkeit der Tracing-API” (luca-app.de)"
+            }]
         }
     ]
 }
