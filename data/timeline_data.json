@@ -1543,10 +1543,13 @@
                 "city": "Westerland"
             },
             "title": "“Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf”",
-            "text": "<blockquote>Wegen eines vom Hersteller bestätigten technischen Fehlers der Luca-App gelang es bis zuletzt nicht, die gespeicherten Daten der anderen Gäste abzurufen. Deshalb bleibt dem Gesundheitsamt des Kreises Nordfriesland nun nur noch der öffentliche Aufruf. „Die Gäste konnten sich problemlos einchecken, aber beim Übermitteln der Daten an die Behörden gab es einen technischen Fehler der Luca-App, für den ich nichts kann. Da liegt der Fehler ganz klar bei App“, so Leskau.</blockquote>",
+            "text": "<blockquote>Wegen eines vom Hersteller bestätigten technischen Fehlers der Luca-App gelang es bis zuletzt nicht, die gespeicherten Daten der anderen Gäste abzurufen. Deshalb bleibt dem Gesundheitsamt des Kreises Nordfriesland nun nur noch der öffentliche Aufruf. „Die Gäste konnten sich problemlos einchecken, aber beim Übermitteln der Daten an die Behörden gab es einen technischen Fehler der Luca-App, für den ich nichts kann. Da liegt der Fehler ganz klar bei App“, so Leskau.</blockquote><br>Scheinbar bestand hier das Problem darin, dass der Location-Betreiber seinen privaten Schlüssel verloren hatte und so die Kontaktdaten nicht entschlüsseln konnte. Wenngleich er für den Erhalt des Schlüssel verantwortlich gewesen wäre, so war er sich dieser Verantwortung möglicherweise nicht bewusst, da das Kryptokonzept der Luca-App und generell die Hinweise in dem Betreiber-Interface für normale Betreiber ohne entsprechendes Wissen kaum zu durchschauen ist.",
             "links": [{
                 "url": "https://www.shz.de/lokales/sylter-rundschau/Infizierter-Gast-in-der-Wunderbar-Gaeste-muessen-in-Quarantaene-id33032257.html?r=artikellink",
                 "text": "Sylter Rundschau: “Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf” (shz.de)"
+            },{
+                "url": "https://www.luca-app.de/bekannte-fakten-zur-kontaktnachverfolgung-wunderbar-sylt/",
+                "text": "Luca: “Bekannte Fakten zur Kontakt­nachverfolgung – Wunderbar (Sylt)” (luca-app.de)"
             }]
         },
         {
