@@ -1646,6 +1646,34 @@
                 "url": "https://www.luca-app.de/informationen-zur-verfuegbarkeit-der-tracing-api/",
                 "text": "Luca-App: “Informationen zur Verfügbarkeit der Tracing-API” (luca-app.de)"
             }]
+        },
+        {
+            "date": "01.08.2021",
+            "type": "news",
+            "title": "Chaos Computer Club Freiburg: “Luca in Numbers”",
+            "text": "Der Chaos Computer Club Freiburg versucht anhand des kürzlich ausgefallenen API-Endpoints /notifications/traces eine Herleitung einer realistischen Nutzer-Zahl der Luca-App. Das Ergebnis: Zwischen 1/4 bis 1/5 aller App-Downloads (20 Millionen); schätzungsweise gibt es zwischen 2,25 bis maximal 4,5 Millionen aktive App-Nutzer, wobei letztere Zahl unter Idealbedingungen zustande käme.",
+            "links": [{
+                "url": "https://wiki.cccfr.de/luca_numbers",
+                "text": "CCC FR: “Luca in Numbers” (wiki.cccfr.de)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/cccfr/status/1421837740803506180"
+            }]
+        },
+        {
+            "date": "01.08.2021",
+            "type": "news",
+            "title": "Enno Park: “Liebe Leserïnnen, bitte installiert die Luca-App nicht auf euren Telefonen”",
+            "text": "",
+            "links": [{
+                "url": "https://steadyhq.com/de/ennopark/posts/d151c51b-b292-4208-9ea1-1304e40311b9",
+                "text": "Enno Park: “Liebe Leserïnnen, bitte installiert die Luca-App nicht auf euren Telefonen” (steadyhq.com)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ennopark/status/1421771697687080961"
+            }]
         }
     ]
 }
