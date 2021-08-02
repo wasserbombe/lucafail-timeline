@@ -400,6 +400,7 @@
         url: "/data/timeline_data.json",
         dataType: 'json',
         success: (data) => {
+            data.timeline = data.timeline.reverse(); 
             data.timeline.push({
                 title: "Ausblick / Roadmap dieser Seite",
                 text: "Siehe <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">https://github.com/wasserbombe/lucafail-timeline</a>"
