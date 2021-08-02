@@ -1651,14 +1651,20 @@
             "date": "01.08.2021",
             "type": "news",
             "title": "Chaos Computer Club Freiburg: “Luca in Numbers”",
-            "text": "Der Chaos Computer Club Freiburg versucht anhand des kürzlich ausgefallenen API-Endpoints /notifications/traces eine Herleitung einer realistischen Nutzer-Zahl der Luca-App. Das Ergebnis: Zwischen 1/4 bis 1/5 aller App-Downloads (20 Millionen); schätzungsweise gibt es zwischen 2,25 bis maximal 4,5 Millionen aktive App-Nutzer, wobei letztere Zahl unter Idealbedingungen zustande käme.",
+            "text": "Der Chaos Computer Club Freiburg versucht anhand des kürzlich ausgefallenen API-Endpoints /notifications/traces eine Herleitung einer realistischen Nutzer-Zahl der Luca-App. Das Ergebnis: Zwischen 1/4 bis 1/5 aller App-Downloads (20 Millionen); schätzungsweise gibt es zwischen 2,25 bis maximal 4,5 Millionen aktive App-Nutzer, wobei letztere Zahl unter Idealbedingungen zustande käme.<br>Luca dementiert die Analyse auf Twitter, äußert sich aber nicht zu Zahl der Nutzer und weiteren Zahlen im Beitrag des CCC FR (siehe Tweet unten).",
             "links": [{
                 "url": "https://wiki.cccfr.de/luca_numbers",
                 "text": "CCC FR: “Luca in Numbers” (wiki.cccfr.de)"
+            },{
+                "url": "https://twitter.com/_lucaApp/status/1422152252102414352",
+                "text": "Tweet Luca-App als Reaktion (twitter.com)"
             }],
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/cccfr/status/1421837740803506180"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/_lucaApp/status/1422152252102414352"
             }]
         },
         {
@@ -1673,6 +1679,19 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/ennopark/status/1421771697687080961"
+            }]
+        },
+        {
+            "date": "01.08.2021",
+            "type": "podcast",
+            "title": "Logbuch Netzpolitik: LNP401 Gespaltenes Verhältnis zu Sonderzeichen",
+            "embed": [{
+                "type": "podlove",
+                "id": "https%3A%2F%2Flogbuch-netzpolitik.de%2F%3Fpodlove_player4%3D2054"
+            }],
+            "links": [{
+                "url": "https://logbuch-netzpolitik.de/lnp401-gespaltenes-verhaeltnis-zu-sonderzeichen",
+                "text": "Logbuch Netzpolitik 401: Gespaltenes Verhältnis zu Sonderzeichen (logbuch-netzpolitik.de)"
             }]
         }
     ]
