@@ -1631,6 +1631,18 @@
         },
         {
             "date": "30.07.2021",
+            "type": "news",
+            "title": "“Bielefelder Panne offenbart riesige Schwächen der Luca-App”",
+            "links": [{
+                "url": "https://www.nw.de/lokal/bielefeld/mitte/23061163_Bielefelder-Panne-offenbart-riesige-Schwaechen-der-Luca-App.html",
+                "text": "Andrea Rolfes - Kommentar: “Bielefelder Panne offenbart riesige Schwächen der Luca-App” (nw.de)"
+            },{
+                "url": "https://www.westfalen-blatt.de/owl/bielefeld/bielefeld-und-die-panne-mit-der-luca-app-2402554?pid=true",
+                "text": "“Bielefeld und die Panne mit der Luca-App” (westfalen-blatt.de)"
+            }]
+        },
+        {
+            "date": "30.07.2021",
             "type": "incident",
             "title": "Mögliche Schwachstelle: Daily Traces / Benachrichtigungen der Nutzer über Datenzugriffe wurden nicht aktualisiert?",
             "text": "Die Macher der Luca-App haben den Fehler bestätigt und in ihrem Blogpost erklärt, dass für ca. 46 Stunden keine neuen Trace IDs bereitgestellt wurden (siehe Link unten), offenbar, da Wartungsarbeiten am Produktiv-System vorgenommen wurden.<br>Diese Trace IDs wurden dann aber ab dem 30. Juli wieder ausgespielt, d.h. Nutzer wurden über eine Abfrage eines Gesundheitsamts auf jeden Fall informiert, theoretisch aber mit einer Verzogerung im schlimmsten Fall von bis zu 46 Stunden.",
