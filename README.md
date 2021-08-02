@@ -1,7 +1,7 @@
 # lucafail-timeline
 Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
 ## Roadmap
-- [ ] month separators / anchors
+- [x] month separators / anchors
 - [x] add tags
 - [ ] make tags clickable
 - [x] embed of external content
@@ -17,3 +17,4 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
   - [x] show number of topics per month
   - [x] show some twitter stats
   - [ ] add annotations from timeline to chart / link
+- [ ] geocode data, show map
