@@ -18,3 +18,5 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
   - [x] show some twitter stats
   - [ ] add annotations from timeline to chart / link
 - [ ] geocode data, show map
+- [ ] RSS-Feed (#2)
+- [ ] E-Mail Newsletter (#2)
