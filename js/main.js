@@ -207,6 +207,13 @@
     var syncConsentToContent = () => {
         var consentGiven = $("#checkboxExternalContent").is(":checked");
 
+        if (consentGiven){
+            $("#checkboxRememberExternalSettings").prop("disabled", false);
+        } else {
+            $("#checkboxRememberExternalSettings").prop("checked", false);
+            $("#checkboxRememberExternalSettings").prop("disabled", true);
+        }
+
         console.log("syncConsentToContent", $(".embed[data-embed-cfg]").length);
 
         $(".embed[data-embed-cfg]").each((i, e) => {
@@ -270,6 +277,23 @@
         });
     };
     $("#checkboxExternalContent").on("change", syncConsentToContent);
+    $("#checkboxRememberExternalSettings").on("change", function (){
+        var remember = $("#checkboxRememberExternalSettings").is(":checked");
+        if (remember){
+            localStorage.setItem("timeline_load_external_content", "true");
+        } else {
+            if (localStorage.getItem("timeline_load_external_content")){
+                localStorage.removeItem("timeline_load_external_content");
+            }
+        }
+    }); 
+
+    var savedExternalContent = localStorage.getItem("timeline_load_external_content"); 
+    if (savedExternalContent && savedExternalContent == "true"){
+        $('#checkboxExternalContent').prop("checked", true);
+        syncConsentToContent(); 
+        $('#checkboxRememberExternalSettings').prop("checked", true);
+    }
 
     var embedFDS = ($fdswidget) => {
         $fdswidget.addClass("fds-widget").addClass("embed-widget");
