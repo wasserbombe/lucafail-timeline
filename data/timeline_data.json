@@ -1718,6 +1718,9 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/bkastl/status/1423023050337964033"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/HonkHase/status/1423026607426523140"
             }]
         }
     ]
