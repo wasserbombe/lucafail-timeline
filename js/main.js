@@ -433,7 +433,10 @@
             var lastYearAndMonth = null; 
             var statisticsByMonthAndCategory = {};
             data.timeline.forEach((e, i) => {
+                var subtitle = [];
                 if (e.date){
+                    subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
+
                     var dateMatch = e.date.match(/^[0-9]{2}\.([0-9]{2})\.([0-9]{4})$/i);
                     if (dateMatch){
                         var yearMonth = dateMatch[2] + '-' + dateMatch[1];
@@ -454,15 +457,15 @@
                 var $badge = $("<div>").addClass("timeline-badge").html('<i class="bi-check"></i>');
                 $timelineli.append($badge);
 
-                var $panel = $("<div>").addClass("timeline-panel");
-
                 e.tags = e.tags || []; 
-                var subtitle = [];
-                subtitle.push(e.date);
-                if (e.scope) subtitle.push(e.scope);
+                if (e.scope) subtitle.push('<i class="bi-geo-alt"></i> ' + e.scope);
                 if (e.type){
                     $timelineli.addClass("type-" + e.type);
-                    subtitle.push(e.type);
+                    if (typeof typeFriendlyNames[e.type] !== "undefined"){
+                        subtitle.push(typeFriendlyNames[e.type]);
+                    } else {
+                        subtitle.push(e.type);
+                    }
                     e.tags.push(e.type);
                 } else {
                     $timelineli.addClass("type-general");
@@ -478,13 +481,20 @@
                     statisticsByMonthAndCategory[lastYearAndMonth][e.type]++;
                 }
 
-                $content = $("<div>").addClass("content");
+                var $panel = $("<div>").addClass("timeline-panel");
+                var $heading = $("<div>").addClass("timeline-heading");
 
-                $subtitle = $("<span>").addClass("subtitle").html(subtitle.join(' / '));
-                $content.append($subtitle);
+                // subtitle
+                var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
+                var $p = $("<p>").append($small);
+                $heading.append($p);
 
-                $title = $("<h2>").addClass("title").html(e.title);
-                $content.append($title);
+                // title
+                $title = $("<h4>").addClass("title").html(e.title);
+                $heading.append($title);
+                $panel.append($heading);
+
+                var $content = $("<div>").addClass("timeline-body");
 
                 if (e.text){
                     $text = $("<div>").html(e.text);
@@ -515,9 +525,10 @@
                 }
 
                 // tag list
-                $tags = $("<div>").addClass("tagarea"); 
+                $content.append("<hr>");
+                var $tags = $("<div>"); 
                 e.tags.forEach((e, i) => {
-                    $tag = $("<span>").addClass("tag").text(e).attr("data-tag", e.toLowerCase());
+                    $tag = $("<span>").addClass("badge bg-secondary").text(e).attr("data-tag", e.toLowerCase());
                     $tags.append($tag);
                 });
                 $content.append($tags);
@@ -525,8 +536,6 @@
                 $panel.append($content);
 
                 $timelineli.append($panel);
-
-                
 
                 $(".timeline").append($timelineli);
             });

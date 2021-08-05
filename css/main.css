@@ -15,7 +15,7 @@ TIMELINE
     position: absolute;
     content: " ";
     width: 3px;
- /*   background-color: #eeeeee;*/
+    background-color: #aaaaaa;
     left: 50%;
     margin-left: -1.5px;
 }
@@ -124,6 +124,10 @@ TIMELINE
 }
 .timeline-body > p + p {
     margin-top: 5px;
+}
+
+.timeline-heading p {
+    margin-bottom: 0px;
 }
 
 /* PANELS */
