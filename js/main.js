@@ -204,6 +204,7 @@
             }
         }
     };
+
     var syncConsentToContent = () => {
         var consentGiven = $("#checkboxExternalContent").is(":checked");
 
