@@ -449,18 +449,23 @@
                     }
                 }
                 
-                $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
+                var $timelineli = $("<li>").addClass((i%2 == 0)?"timeline-inverted":"");
+
+                var $badge = $("<div>").addClass("timeline-badge").html('<i class="bi-check"></i>');
+                $timelineli.append($badge);
+
+                var $panel = $("<div>").addClass("timeline-panel");
 
                 e.tags = e.tags || []; 
                 var subtitle = [];
                 subtitle.push(e.date);
                 if (e.scope) subtitle.push(e.scope);
                 if (e.type){
-                    $div.addClass("type-" + e.type);
+                    $timelineli.addClass("type-" + e.type);
                     subtitle.push(e.type);
                     e.tags.push(e.type);
                 } else {
-                    $div.addClass("type-general");
+                    $timelineli.addClass("type-general");
                     e.type = "general";
                 }
 
@@ -517,9 +522,13 @@
                 });
                 $content.append($tags);
 
-                $div.append($content);
+                $panel.append($content);
 
-                $(".timeline").append($div);
+                $timelineli.append($panel);
+
+                
+
+                $(".timeline").append($timelineli);
             });
 
             syncConsentToContent();
