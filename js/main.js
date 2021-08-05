@@ -426,10 +426,7 @@
         dataType: 'json',
         success: (data) => {
             data.timeline = data.timeline.reverse(); 
-            data.timeline.push({
-                title: "Ausblick / Roadmap dieser Seite",
-                text: "Siehe <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">https://github.com/wasserbombe/lucafail-timeline</a>"
-            });
+
             var lastYearAndMonth = null; 
             var statisticsByMonthAndCategory = {};
             data.timeline.forEach((e, i) => {
@@ -471,7 +468,7 @@
                 }
                 e.tags.push(e.type);
 
-                $("#filterTopics").append($("<option>").text(e.type));
+                $("#filterTopics").append($("<option>").text(e.type).attr("value", e.type));
 
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth] == "undefined") statisticsByMonthAndCategory[lastYearAndMonth] = {};
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth][e.type] == "undefined"){
@@ -546,8 +543,8 @@
             });
 
             syncConsentToContent();
+            $('#filterTopics').multiselect();
 
-            console.log(statisticsByMonthAndCategory);
             var series = {"name": "test", data: []}; 
             var series = {}; 
             for (var m in statisticsByMonthAndCategory){

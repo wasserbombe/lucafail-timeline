@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="css/main.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,110 +38,109 @@
         <link rel="apple-touch-icon" href="https://timeline.luca.fail/assets/lucafail_favicon_500px.png">
     </head>
     <body class="bg-light">
-        <div id="settings">
-            <table>
-                <tr>
-                    <td>
-                        <input type="checkbox" id="checkboxExternalContent">
-                        <label for="checkboxExternalContent">Externe Inhalte (z.B. Vimeo, YouTube) laden (s. <a href="#datenschutz">Datenschutz</a>!)</label>
-                        <input type="checkbox" id="checkboxRememberExternalSettings" disabled>
-                        <label for="checkboxRememberExternalSettings">Einstellung zu ext. Inhalten merken</label>
-                    </td>
-                    <td>
-                        <b>Themen: </b>
-                        <select size="1" id="filterTopics">
-                            <option>Alle</option>
-                        </select>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="container">
-            <ul class="timeline">
-                <!-- Template -->
-                <!--
-                <li>
-                    <div class="timeline-badge"><i class="bi-check"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">TIMELINE ALS BOOTSTRAP TEST</h4>
-                            <p><small class="text-muted"><i class="bi-clock"></i> Veröffentlichung</small></p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Beschreibung, Fließtext, etc.</p>
-                        </div>
-                    </div>
-                </li>
-                -->
-                <li class="type-general">
-                    <div class="timeline-badge"><i class="bi-info"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <p><small class="text-muted"><i class="bi-clock"></i> Veröffentlichung</small></p>
-                            <h4 class="timeline-title">Die Timeline zur Luca-App</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <div>
-                                Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung in Online- und Print-Medien, Statements von IT- und Security-Experten, Diskussionen in Social Media, Talks und Videos, Gitlab-Issues sowie Informationsfreiheits-Anfragen auf fragdenstaat.de<br>
-                                <br>
-                                <b>Ziel dieser Seite</b><br>
-                                Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es
-                                keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen 
-                                und LeserInnen diese selbst bewerten zu lassen.<br>
-                                Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere 
-                                Institutionen.<br>
-                                <br>
-                                <b>Du magst helfen?</b><br>
-                                Gerne eine kurze Mail an <a href="mailto:mitmachen@luca.fail">mitmachen@luca.fail</a> oder, noch besser: Ein Pull Request im <a href="https://github.com/wasserbombe/lucafail-timeline" target="_blank">
-                                Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br>
-                                <br>
-                                <b>Du magst auf die Daten dieser Seite zugreifen?</b><br>
-                                Hier geht's lang: 
-                                <ul>
-                                    <li><a href="https://timeline.luca.fail/data/timeline_data.json">https://timeline.luca.fail/data/timeline_data.json</a></li>
-                                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day">https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day</a></li>
-                                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_hashtags">https://timeline.luca.fail/api/stats.php?view=twt_hashtags</a></li>
-                                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_domains">https://timeline.luca.fail/api/stats.php?view=twt_domains</a></li>
-                                </ul>
-                                <br>
+        <main>
+            <div class="container">
+                <h1>Die Timeline zur Luca-App</h1>
+                <p>
+                    Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung in Online- und Print-Medien, Statements von IT- und Security-Experten, Diskussionen in Social Media, Talks und Videos, Gitlab-Issues sowie Informationsfreiheits-Anfragen auf fragdenstaat.de
+                </p>
+                <h2>Ziel dieser Seite</h2>
+                <p>
+                    Das Ziel dieser Seite besteht darin, einen Überblick über - berechtigte oder auch unberechtigte - Kritikpunkte an der Luca-App zu verschaffen. Dabei geht es keinesfalls darum, selbst Kritik zu üben, sondern häufig diskutierte Kritikpunkte von IT- und Security-Experten sowie in der Politik und Gesellschaft aufzuzeigen und LeserInnen diese selbst bewerten zu lassen.<br>
+                    Übrigens: Die hier gezeigten Punkte betreffen nicht nur die App selbst (oder ihre Macher), sondern v.a. auch Entscheidungsträger in der Politik und andere 
+                    Institutionen.
+                </p>
+                <h2>Du magst helfen?</h2>
+                <p>
+                    Gerne eine kurze Mail an <a href="mailto:mitmachen@luca.fail">mitmachen@luca.fail</a> oder, noch besser: Ein Pull Request im <a href="https://github.com/wasserbombe/lucafail-timeline" target="_blank"></a>Github-Repository</a> stellen. Dort findest Du auch eine Roadmap mit Dingen, bei denen Du konkret helfen kannst. Danke!<br>
+                    <b>Darüber hinaus stellen wir die Daten dieser Seite für jeden frei zur Verfügung. Mehr dazu <a href="#datasets">weiter unten</a>.</b>
+                </p>
+
+                <hr>
+                    
+                <div id="settings">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="checkboxExternalContent">
+                                <label for="checkboxExternalContent">Externe Inhalte (z.B. Vimeo, YouTube) laden (s. <a href="#datenschutz">Datenschutz</a>!)</label>
+                                <input type="checkbox" id="checkboxRememberExternalSettings" disabled>
+                                <label for="checkboxRememberExternalSettings">Einstellung zu ext. Inhalten merken</label>
+                            </td>
+                            <td>
+                                <b>Themen: </b>
+                                <select size="1" id="filterTopics" multiple="multiple">
+                                    <option>Alle</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <ul class="timeline">
+                    <li class="type-general">
+                        <div class="timeline-badge"><i class="bi-info"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <p><small class="text-muted"><i class="bi-info"></i> Beispiel-Panel</small></p>
+                                <h4 class="timeline-title">... und los geht's!</h4>
                             </div>
-                            <h5>⚠ Work in Progress</h5>
-                            <div>
-                                Die Seite wird erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>
-                                Solange findest Du viele Infos auch auf <a href="http://edit.luca.fail/">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br>
-                                <br>
-                                <b>Updates</b>
-                                <table>
-                                    <tr>
-                                        <td><b>02.08.2021</b></td>
-                                        <td>Reihenfolge umgekehrt. Aufgrund der Vielzahl der Einträge werden nun die Neuesten zuerst angezeigt.</td>
-                                    </tr>
-                                </table>
+                            <div class="timeline-body">
+                                <h5>⚠ Work in Progress</h5>
+                                <div>
+                                    Die Seite wird erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>
+                                    Solange findest Du viele Infos auch auf <a href="http://edit.luca.fail/">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br>
+                                    <br>
+                                    <b>Updates</b>
+                                    <table>
+                                        <tr>
+                                            <td><b>05.08.2021</b></td>
+                                            <td>Re-Design, "Verified"-Flag in den Daten</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>02.08.2021</b></td>
+                                            <td>Reihenfolge umgekehrt. Aufgrund der Vielzahl der Einträge werden nun die Neuesten zuerst angezeigt.</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
+                    </li>
+                </ul>
+                <hr>
+                <h2>Stats</h2>
+                <div class="row">
+                    <div class="col">
+                        <div id="stats_container_tweets_per_day"></div>
                     </div>
-                </li>
-                <li>
-                    <div class="timeline-badge"><i class="bi-info"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <p><small class="text-muted"><i class="bi-clock"></i> Veröffentlichung</small></p>
-                            <h4 class="timeline-title">Statistiken</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <div id="stats_container_tweets_per_day"></div>
-                            <!--<div id="stats_container_hashtags"></div>
-                            <div id="stats_container_domains"></div>-->
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="stats_container_hashtags"></div>
                     </div>
-                </li>
-            </ul>
-        </div>
+                    <div class="col">
+                        <div id="stats_container_domains"></div>
+                    </div>
+                </div>
+                <hr>
+                <h2 id="datasets">Daten</h2>
+                <p>
+                    <b>Du magst auf die Daten dieser Seite zugreifen?</b><br>
+                    Hier geht's lang: 
+                </p>
+                <ul>
+                    <li><a href="https://timeline.luca.fail/data/timeline_data.json">https://timeline.luca.fail/data/timeline_data.json</a></li>
+                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day">https://timeline.luca.fail/api/stats.php?view=twt_tweets-per-day</a></li>
+                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_hashtags">https://timeline.luca.fail/api/stats.php?view=twt_hashtags</a></li>
+                    <li><a href="https://timeline.luca.fail/api/stats.php?view=twt_domains">https://timeline.luca.fail/api/stats.php?view=twt_domains</a></li>
+                </ul>
+            </div>
+        </main>
+        
         <hr>
         <footer>
             <table>
                 <tr>
-                    <td>
+                    <td valign="top">
                         <h2>Impressum</h2>
                         Diese Webseite wird von privater Seite betrieben; sie dient rein persönlichem Interesse und keinem kommerziellen Zweck.<br>
                         <br>
@@ -177,7 +177,7 @@
                             <li>fragdenstaat.de</li>
                         </ul>
                     </td>
-                    <td>
+                    <td valign="top">
                         <h2 id="datenschutz">Datenschutzerklärung (Kurzfassung)</h2>
                         <ul>
                             <li>Diese Seite erfasst keinerlei Daten ihrer Besucher. Wir schreiben keine Cookies und auch keine Server-Logs, die Sie als Besucher identifizieren könnten.</li>
@@ -197,214 +197,217 @@
                             </li>
                         </ul>
 
-                        <h2>Datenschutzerklärung (Langversion)</h2>
-                        <h3>1. Datenschutz auf einen Blick</h3>
-                        <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
-                        
-                        <h4>Datenerfassung auf dieser Website</h4> 
-                        <h5>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h5>
-                        <p>
-                            Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser Datenschutzerklärung entnehmen.
-                        </p>
-                        
-                        <h5>Wie erfassen wir Ihre Daten?</h5>
-                        <p>
-                            Ihre Daten werden dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder per E-Mail an uns schicken.
-                        </p>
-                        <p>
-                            Andere Daten (wie bspw. Browser, Betriebsystem, IP-Adresse) werden nicht durch unsere IT-Systeme erfasst (sprich: Wir loggen keine Zugriffe auf diesen Server).
-                        </p>
-                        
-                        <h5>Wofür nutzen wir Ihre Daten?</h5>
-                        <p>
-                            Wir erfassen auf dieser Seite keine Daten, entsprechend können wir diese auch nicht nutzen. <br>
-                            Sollten Sie uns per E-Mail kontaktieren, dann nutzen wir die von Ihnen angegebenen Daten, um Ihre Anfrage zu bearbeiten.
-                        </p>
-                        
-                        <h5>Welche Rechte haben Sie bezüglich Ihrer Daten?</h5>
-                        <p>
-                            Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
-                        </p>
-                        <p>
-                            Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
-                        </p>
-                        
-                        <h4>Analyse-Tools und Tools von Drittanbietern</h4>
-                        <p>
-                            Wir setzen keine Analyse-Tools ein, die es ermöglichen würden, Ihr Surf-Verhalten bei einem Besuch dieser Webseite statistisch auszuwerten.
-                        </p>
-                        <p>
-                            Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
-                        </p>
-                        
-                        <h3>2. Hosting</h3>
-                        <h4>Externes Hosting</h4>
-                        <p>
-                            Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Da wir nichts davon erfassen, wird auch nichts auf dem Server gespeichert.
-                        </p>
-                        <p>
-                            Der Einsatz des Hosters erfolgt im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).<br>
-                            Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
-                        </p>
-                        <p>
-                            Wir setzen folgenden Hoster ein:
-                        </p>
-                        <p>
-                            Hetzner Online GmbH<br />
-                            Industriestr. 25<br />
-                            91710 Gunzenhausen<br />
-                            Deutschland
-                        </p>
-                        
-                        <h3>3. Allgemeine Hinweise und Pflichtinformationen</h3>
-                        <h4>Datenschutz</h4>
-                        <p>
-                            Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
-                        </p>
-                        <p>
-                            Wenn Sie diese Website benutzen, werden keine personenbezogene Daten erhoben. Personenbezogene Daten wären Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
-                        </p>
-                        <p>
-                            Wir weisen darauf hin, dass die Datenübertragung im Internet (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
-                        </p>
-                        
-                        <h4>Hinweis zur verantwortlichen Stelle</h4>
-                        <p>
-                            Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
-                        </p> 
-                        <p>
-                            Sebastian Fuhrmann<br />
-                            Mozartstr. 11<br />
-                            69502 Hemsbach
-                        </p>
-                        
-                        <p>
-                            Telefon: +49 (0) 6201 2492590<br />
-                            E-Mail: datenschutz@sebastianfuhrmann.de
-                        </p>
-                        
-                        <p>
-                            Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
-                        </p>
-                        
-                        <h4>Speicherdauer</h4>
-                        <p>
-                            Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.&nbsp;B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.
-                        </p>
-                        
-                        <h4>Hinweis zur Datenweitergabe in die USA und sonstige Drittstaaten</h4>
-                        <p>
-                            Wir verwenden unter anderem Tools von Unternehmen mit Sitz in den USA oder sonstigen datenschutzrechtlich nicht sicheren Drittstaaten. Wenn diese Tools aktiv sind, können Ihre personenbezogene Daten in diese Drittstaaten übertragen und dort verarbeitet werden. Wir weisen darauf hin, dass in diesen Ländern kein mit der EU vergleichbares Datenschutzniveau garantiert werden kann. Beispielsweise sind US-Unternehmen dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.&nbsp;B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.
-                        </p>
-                        
-                        <h4>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
-                        <p>
-                            Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
-                        </p>
-                        
-                        <h4>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h4>
-                        <p>
-                            WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KöNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</p> <p>WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO
-                        </p>
-                        
-                        <h4>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h4>
-                        <p>
-                            Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
-                        </p>
-                        
-                        <h4>Recht auf Datenübertragbarkeit</h4>
-                        <p>
-                            Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
-                        </p>
-                        
-                        <h4>SSL- bzw. TLS-Verschlüsselung</h4>
-                        <p>
-                            Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von &bdquo;http://&ldquo; auf &bdquo;https://&ldquo; wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
-                        </p>
-                        <p>
-                            Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
-                        </p>
-                        
-                        <h4>Auskunft, Löschung und Berichtigung</h4>
-                        <p>
-                            Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.
-                        </p>
-                        
-                        <h4>Recht auf Einschränkung der Verarbeitung</h4>
-                        <p>
-                            Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
-                        </p>
-                        <ul>
-                            <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-                            <li>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.</li>
-                            <li>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-                            <li>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-                        </ul>
-                        <p>
-                            Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
-                        </p>
-                        
-                        <h4>Widerspruch gegen Werbe-E-Mails</h4>
-                        <p>
-                            Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-                        </p>
-                        
-                        <h3>4. Datenerfassung auf dieser Website</h3>
-                        <h4>Anfrage per E-Mail, Telefon oder Telefax</h4>
-                        <p>
-                            Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
-                        </p>
-                        <p>
-                            Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
-                        </p>
-                        <p>
-                            Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.&nbsp;B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben unberührt.
-                        </p>
-                        
-                        <h3>5. Soziale Medien</h3>
-                        <h4>Twitter Plugin</h4>
-                        <p>
-                            Auf dieser Website sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, D02 AX07, Irland. Durch das Benutzen von Twitter und der Funktion &bdquo;Re-Tweet&ldquo; werden die von Ihnen besuchten Websites mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter: <a href="https://twitter.com/de/privacy" target="_blank" rel="noopener noreferrer">https://twitter.com/de/privacy</a>.
-                        </p>
-                        <p>
-                            Die Verwendung des Twitter-Plugins erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
-                        </p>
-                        <p>
-                            Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href="https://gdpr.twitter.com/en/controller-to-controller-transfers.html" target="_blank" rel="noopener noreferrer">https://gdpr.twitter.com/en/controller-to-controller-transfers.html</a>.</p> <p>Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter <a href="https://twitter.com/account/settings" target="_blank" rel="noopener noreferrer">https://twitter.com/account/settings</a> ändern.
-                        </p>
-                        
-                        <h3>6. Plugins und Tools</h3>
-                        <h4>YouTube mit erweitertem Datenschutz</h4>
-                        <p>
-                            Diese Website bindet Videos der YouTube ein. Betreiber der Seiten ist die Google Ireland Limited (&bdquo;Google&ldquo;), Gordon House, Barrow Street, Dublin 4, Irland.
-                        </p>
-                        <p>
-                            Wir nutzen YouTube im erweiterten Datenschutzmodus. Dieser Modus bewirkt laut YouTube, dass YouTube keine Informationen über die Besucher auf dieser Website speichert, bevor diese sich das Video ansehen. Die Weitergabe von Daten an YouTube-Partner wird durch den erweiterten Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube &ndash; unabhängig davon, ob Sie sich ein Video ansehen &ndash; eine Verbindung zum Google DoubleClick-Netzwerk her.
-                        </p>
-                        <p>
-                            Sobald Sie ein YouTube-Video auf dieser Website starten, wird eine Verbindung zu den Servern von YouTube hergestellt. Dabei wird dem YouTube-Server mitgeteilt, welche unserer Seiten Sie besucht haben. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, ermöglichen Sie YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem YouTube-Account ausloggen.
-                        </p>
-                        <p>
-                            Des Weiteren kann YouTube nach Starten eines Videos verschiedene Cookies auf Ihrem Endgerät speichern oder vergleichbare Wiedererkennungstechnologien (z.&nbsp;B. Device-Fingerprinting) einsetzen. Auf diese Weise kann YouTube Informationen über Besucher dieser Website erhalten. Diese Informationen werden u. a. verwendet, um Videostatistiken zu erfassen, die Anwenderfreundlichkeit zu verbessern und Betrugsversuchen vorzubeugen.</p> <p>Gegebenenfalls können nach dem Start eines YouTube-Videos weitere Datenverarbeitungsvorgänge ausgelöst werden, auf die wir keinen Einfluss haben.</p> <p>Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
-                        </p>
-                        <p>
-                            Weitere Informationen über Datenschutz bei YouTube finden Sie in deren Datenschutzerklärung unter: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.
-                        </p>
-                        
-                        <h4>Vimeo ohne Tracking (Do-Not-Track)</h4>
-                        <p>
-                            Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA.
-                        </p>
-                        <p>
-                            Wenn Sie eine unserer mit Vimeo-Videos ausgestatteten Seiten besuchen, wird eine Verbindung zu den Servern von Vimeo hergestellt. Dabei wird dem Vimeo-Server mitgeteilt, welche unserer Seiten Sie besucht haben. Zudem erlangt Vimeo Ihre IP-Adresse. Wir haben Vimeo jedoch so eingestellt, dass Vimeo Ihre Nutzeraktivitäten nicht nachverfolgen und keine Cookies setzen wird.
-                        </p>
-                        <p>
-                            Die Nutzung von Vimeo erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
-                        </p>
-                        <p>
-                            Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission sowie nach Aussage von Vimeo auf &bdquo;berechtigte Geschäftsinteressen&ldquo; gestützt. Details finden Sie hier: <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">https://vimeo.com/privacy</a>.</p> <p>Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Vimeo unter: <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">https://vimeo.com/privacy</a>.
-                        </p>
-                        <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#datenschutzLang" role="button" aria-expanded="false" aria-controls="datenschutzLang">Langversion anzeigen</a>
+                        <div class="collapse" id="datenschutzLang">
+                            <h2>Datenschutzerklärung (Langversion)</h2>
+                            <h3>1. Datenschutz auf einen Blick</h3>
+                            <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
+                            
+                            <h4>Datenerfassung auf dieser Website</h4> 
+                            <h5>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h5>
+                            <p>
+                                Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser Datenschutzerklärung entnehmen.
+                            </p>
+                            
+                            <h5>Wie erfassen wir Ihre Daten?</h5>
+                            <p>
+                                Ihre Daten werden dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder per E-Mail an uns schicken.
+                            </p>
+                            <p>
+                                Andere Daten (wie bspw. Browser, Betriebsystem, IP-Adresse) werden nicht durch unsere IT-Systeme erfasst (sprich: Wir loggen keine Zugriffe auf diesen Server).
+                            </p>
+                            
+                            <h5>Wofür nutzen wir Ihre Daten?</h5>
+                            <p>
+                                Wir erfassen auf dieser Seite keine Daten, entsprechend können wir diese auch nicht nutzen. <br>
+                                Sollten Sie uns per E-Mail kontaktieren, dann nutzen wir die von Ihnen angegebenen Daten, um Ihre Anfrage zu bearbeiten.
+                            </p>
+                            
+                            <h5>Welche Rechte haben Sie bezüglich Ihrer Daten?</h5>
+                            <p>
+                                Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
+                            </p>
+                            <p>
+                                Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
+                            </p>
+                            
+                            <h4>Analyse-Tools und Tools von Drittanbietern</h4>
+                            <p>
+                                Wir setzen keine Analyse-Tools ein, die es ermöglichen würden, Ihr Surf-Verhalten bei einem Besuch dieser Webseite statistisch auszuwerten.
+                            </p>
+                            <p>
+                                Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
+                            </p>
+                            
+                            <h3>2. Hosting</h3>
+                            <h4>Externes Hosting</h4>
+                            <p>
+                                Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Da wir nichts davon erfassen, wird auch nichts auf dem Server gespeichert.
+                            </p>
+                            <p>
+                                Der Einsatz des Hosters erfolgt im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).<br>
+                                Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+                            </p>
+                            <p>
+                                Wir setzen folgenden Hoster ein:
+                            </p>
+                            <p>
+                                Hetzner Online GmbH<br />
+                                Industriestr. 25<br />
+                                91710 Gunzenhausen<br />
+                                Deutschland
+                            </p>
+                            
+                            <h3>3. Allgemeine Hinweise und Pflichtinformationen</h3>
+                            <h4>Datenschutz</h4>
+                            <p>
+                                Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+                            </p>
+                            <p>
+                                Wenn Sie diese Website benutzen, werden keine personenbezogene Daten erhoben. Personenbezogene Daten wären Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
+                            </p>
+                            <p>
+                                Wir weisen darauf hin, dass die Datenübertragung im Internet (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+                            </p>
+                            
+                            <h4>Hinweis zur verantwortlichen Stelle</h4>
+                            <p>
+                                Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+                            </p> 
+                            <p>
+                                Sebastian Fuhrmann<br />
+                                Mozartstr. 11<br />
+                                69502 Hemsbach
+                            </p>
+                            
+                            <p>
+                                Telefon: +49 (0) 6201 2492590<br />
+                                E-Mail: datenschutz@sebastianfuhrmann.de
+                            </p>
+                            
+                            <p>
+                                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
+                            </p>
+                            
+                            <h4>Speicherdauer</h4>
+                            <p>
+                                Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.&nbsp;B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.
+                            </p>
+                            
+                            <h4>Hinweis zur Datenweitergabe in die USA und sonstige Drittstaaten</h4>
+                            <p>
+                                Wir verwenden unter anderem Tools von Unternehmen mit Sitz in den USA oder sonstigen datenschutzrechtlich nicht sicheren Drittstaaten. Wenn diese Tools aktiv sind, können Ihre personenbezogene Daten in diese Drittstaaten übertragen und dort verarbeitet werden. Wir weisen darauf hin, dass in diesen Ländern kein mit der EU vergleichbares Datenschutzniveau garantiert werden kann. Beispielsweise sind US-Unternehmen dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.&nbsp;B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.
+                            </p>
+                            
+                            <h4>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
+                            <p>
+                                Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+                            </p>
+                            
+                            <h4>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h4>
+                            <p>
+                                WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KöNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</p> <p>WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO
+                            </p>
+                            
+                            <h4>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h4>
+                            <p>
+                                Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+                            </p>
+                            
+                            <h4>Recht auf Datenübertragbarkeit</h4>
+                            <p>
+                                Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+                            </p>
+                            
+                            <h4>SSL- bzw. TLS-Verschlüsselung</h4>
+                            <p>
+                                Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von &bdquo;http://&ldquo; auf &bdquo;https://&ldquo; wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
+                            </p>
+                            <p>
+                                Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
+                            </p>
+                            
+                            <h4>Auskunft, Löschung und Berichtigung</h4>
+                            <p>
+                                Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.
+                            </p>
+                            
+                            <h4>Recht auf Einschränkung der Verarbeitung</h4>
+                            <p>
+                                Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
+                            </p>
+                            <ul>
+                                <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+                                <li>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.</li>
+                                <li>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+                                <li>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+                            </ul>
+                            <p>
+                                Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
+                            </p>
+                            
+                            <h4>Widerspruch gegen Werbe-E-Mails</h4>
+                            <p>
+                                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+                            </p>
+                            
+                            <h3>4. Datenerfassung auf dieser Website</h3>
+                            <h4>Anfrage per E-Mail, Telefon oder Telefax</h4>
+                            <p>
+                                Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+                            </p>
+                            <p>
+                                Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
+                            </p>
+                            <p>
+                                Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.&nbsp;B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben unberührt.
+                            </p>
+                            
+                            <h3>5. Soziale Medien</h3>
+                            <h4>Twitter Plugin</h4>
+                            <p>
+                                Auf dieser Website sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter International Company, One Cumberland Place, Fenian Street, Dublin 2, D02 AX07, Irland. Durch das Benutzen von Twitter und der Funktion &bdquo;Re-Tweet&ldquo; werden die von Ihnen besuchten Websites mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter: <a href="https://twitter.com/de/privacy" target="_blank" rel="noopener noreferrer">https://twitter.com/de/privacy</a>.
+                            </p>
+                            <p>
+                                Die Verwendung des Twitter-Plugins erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
+                            </p>
+                            <p>
+                                Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href="https://gdpr.twitter.com/en/controller-to-controller-transfers.html" target="_blank" rel="noopener noreferrer">https://gdpr.twitter.com/en/controller-to-controller-transfers.html</a>.</p> <p>Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter <a href="https://twitter.com/account/settings" target="_blank" rel="noopener noreferrer">https://twitter.com/account/settings</a> ändern.
+                            </p>
+                            
+                            <h3>6. Plugins und Tools</h3>
+                            <h4>YouTube mit erweitertem Datenschutz</h4>
+                            <p>
+                                Diese Website bindet Videos der YouTube ein. Betreiber der Seiten ist die Google Ireland Limited (&bdquo;Google&ldquo;), Gordon House, Barrow Street, Dublin 4, Irland.
+                            </p>
+                            <p>
+                                Wir nutzen YouTube im erweiterten Datenschutzmodus. Dieser Modus bewirkt laut YouTube, dass YouTube keine Informationen über die Besucher auf dieser Website speichert, bevor diese sich das Video ansehen. Die Weitergabe von Daten an YouTube-Partner wird durch den erweiterten Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube &ndash; unabhängig davon, ob Sie sich ein Video ansehen &ndash; eine Verbindung zum Google DoubleClick-Netzwerk her.
+                            </p>
+                            <p>
+                                Sobald Sie ein YouTube-Video auf dieser Website starten, wird eine Verbindung zu den Servern von YouTube hergestellt. Dabei wird dem YouTube-Server mitgeteilt, welche unserer Seiten Sie besucht haben. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, ermöglichen Sie YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern, indem Sie sich aus Ihrem YouTube-Account ausloggen.
+                            </p>
+                            <p>
+                                Des Weiteren kann YouTube nach Starten eines Videos verschiedene Cookies auf Ihrem Endgerät speichern oder vergleichbare Wiedererkennungstechnologien (z.&nbsp;B. Device-Fingerprinting) einsetzen. Auf diese Weise kann YouTube Informationen über Besucher dieser Website erhalten. Diese Informationen werden u. a. verwendet, um Videostatistiken zu erfassen, die Anwenderfreundlichkeit zu verbessern und Betrugsversuchen vorzubeugen.</p> <p>Gegebenenfalls können nach dem Start eines YouTube-Videos weitere Datenverarbeitungsvorgänge ausgelöst werden, auf die wir keinen Einfluss haben.</p> <p>Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
+                            </p>
+                            <p>
+                                Weitere Informationen über Datenschutz bei YouTube finden Sie in deren Datenschutzerklärung unter: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.
+                            </p>
+                            
+                            <h4>Vimeo ohne Tracking (Do-Not-Track)</h4>
+                            <p>
+                                Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA.
+                            </p>
+                            <p>
+                                Wenn Sie eine unserer mit Vimeo-Videos ausgestatteten Seiten besuchen, wird eine Verbindung zu den Servern von Vimeo hergestellt. Dabei wird dem Vimeo-Server mitgeteilt, welche unserer Seiten Sie besucht haben. Zudem erlangt Vimeo Ihre IP-Adresse. Wir haben Vimeo jedoch so eingestellt, dass Vimeo Ihre Nutzeraktivitäten nicht nachverfolgen und keine Cookies setzen wird.
+                            </p>
+                            <p>
+                                Die Nutzung von Vimeo erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar.
+                            </p>
+                            <p>
+                                Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission sowie nach Aussage von Vimeo auf &bdquo;berechtigte Geschäftsinteressen&ldquo; gestützt. Details finden Sie hier: <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">https://vimeo.com/privacy</a>.</p> <p>Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Vimeo unter: <a href="https://vimeo.com/privacy" target="_blank" rel="noopener noreferrer">https://vimeo.com/privacy</a>.
+                            </p>
+                            <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
+                        </div>
                     </td>
                 </tr>
             </table>
