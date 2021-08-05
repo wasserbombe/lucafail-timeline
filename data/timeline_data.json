@@ -1318,7 +1318,8 @@
             },{
                 "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=VG%20Osnabr%FCck&Datum=2021-06-15&Aktenzeichen=1%20B%2024/21",
                 "text": "Rechtssprechung: VG Osnabrück, 15.06.2021 - Aktenzeichen 1 B 24/21 (dejure.org)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "15.06.2021",
@@ -1633,13 +1634,18 @@
             "date": "30.07.2021",
             "type": "news",
             "title": "“Bielefelder Panne offenbart riesige Schwächen der Luca-App”",
+            "text": "Gesundheitsamt in Bielefeld versäumt den von luca initiierten Tausch des Sicherheitszertifikat und kann auf Kontaktdaten nicht zugreifen.",
             "links": [{
                 "url": "https://www.nw.de/lokal/bielefeld/mitte/23061163_Bielefelder-Panne-offenbart-riesige-Schwaechen-der-Luca-App.html",
                 "text": "Andrea Rolfes - Kommentar: “Bielefelder Panne offenbart riesige Schwächen der Luca-App” (nw.de)"
             },{
                 "url": "https://www.westfalen-blatt.de/owl/bielefeld/bielefeld-und-die-panne-mit-der-luca-app-2402554?pid=true",
                 "text": "“Bielefeld und die Panne mit der Luca-App” (westfalen-blatt.de)"
-            }]
+            },{
+                "url": "http://www.radiobielefeld.de/nachrichten/lokalnachrichten/detailansicht/spd-weist-kritik-nach-luca-app-panne-zurueck.html",
+                "text": "“SPD weist Kritik nach \"Luca-App\"- Panne zurück” (radiobielefeld.de)"
+            }],
+            "verified": true
         },
         {
             "date": "30.07.2021",
