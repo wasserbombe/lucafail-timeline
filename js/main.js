@@ -334,12 +334,12 @@
                     // TODO: Find a better way than throwing unchecked HTML into the page...
                     $fdscontent.append($("<span>").html(data.description));
 
-                    $fdscredit = $("<div>").addClass("fds-credit");
-                    $tr = $("<tr>");
-                    $td = $("<td>").append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
+                    var $fdscredit = $("<div>").addClass("fds-credit");
+                    var $tr = $("<tr>");
+                    var $td = $("<td>").append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
                     $tr.append($td);
 
-                    $td = $("<td>");
+                    var $td = $("<td>");
                     $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://fragdenstaat.de\" target=\"_blank\">fragdenstaat.de</a> abgerufen."));
                     $td.append($("<button>").text("Zur Original-Anfrage auf fragdenstaat.de »").on("click", fdsbuttonclickhandler));
                     $tr.append($td);
@@ -385,7 +385,7 @@
                     });
                     var md_rendered = md.render(data.description);
                     if (md_rendered){
-                        $rendered = $(md_rendered);
+                        var $rendered = $(md_rendered);
                         $rendered.find("img").each((i, e) => {
                             if ($(e).attr("src").match(/^\/uploads\/.+/i)){
                                 $(e).attr("src", data.url.split("/").slice(0,5).join("/") + $(e).attr("src"));
@@ -402,13 +402,13 @@
 
                     $glwidget.attr("data-gl-url", data.url);
 
-                    $glcredit = $("<div>").addClass("gl-credit");
-                    $tr = $("<tr>");
+                    var $glcredit = $("<div>").addClass("gl-credit");
+                    var $tr = $("<tr>");
 
-                    $td = $("<td>").append($("<img>").attr("src","/assets/gitlab-logo-gray-stacked-rgb.svg").css("width", "100%").css("max-height","65px").css("margin-right","10px"));
+                    var $td = $("<td>").append($("<img>").attr("src","/assets/gitlab-logo-gray-stacked-rgb.svg").css("width", "100%").css("max-height","65px").css("margin-right","10px"));
                     $tr.append($td);
 
-                    $td = $("<td>");
+                    var $td = $("<td>");
                     $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://gitlab.com\" target=\"_blank\">gitlab.com</a> abgerufen."));
                     $td.append($("<button>").text("Zur Original-Anfrage auf gitlab.com »").on("click", glbuttonclickhandler));
                     $tr.append($td);
@@ -458,19 +458,18 @@
                 $timelineli.append($badge);
 
                 e.tags = e.tags || []; 
-                if (e.scope) subtitle.push('<i class="bi-geo-alt"></i> ' + e.scope);
-                if (e.type){
-                    $timelineli.addClass("type-" + e.type);
-                    if (typeof typeFriendlyNames[e.type] !== "undefined"){
-                        subtitle.push(typeFriendlyNames[e.type]);
-                    } else {
-                        subtitle.push(e.type);
-                    }
-                    e.tags.push(e.type);
-                } else {
-                    $timelineli.addClass("type-general");
-                    e.type = "general";
+                if (e.scope) {
+                    subtitle.push('<i class="bi-geo-alt"></i> ' + e.scope);
+                    e.tags.push(e.scope);
                 }
+                e.type = e.type || "general";
+                $timelineli.addClass("type-" + e.type);
+                if (typeof typeFriendlyNames[e.type] !== "undefined"){
+                    subtitle.push(typeFriendlyNames[e.type]);
+                } else {
+                    subtitle.push(e.type);
+                }
+                e.tags.push(e.type);
 
                 $("#filterTopics").append($("<option>").text(e.type));
 
@@ -490,14 +489,20 @@
                 $heading.append($p);
 
                 // title
-                $title = $("<h4>").addClass("title").html(e.title);
+                var $title = $("<h4>").addClass("title").html(e.title);
                 $heading.append($title);
                 $panel.append($heading);
 
                 var $content = $("<div>").addClass("timeline-body");
 
+                if (typeof e.verified !== "undefined"){
+                    if (!e.verified){
+                        $content.append($("<span>").html('<small><span style="color: darkred;"><i class="bi-exclamation-triangle-fill"></i> Information noch nicht verifiziert. Hilf uns, indem Du weitere Quellen findest.</span></small>'));
+                    }
+                }
+
                 if (e.text){
-                    $text = $("<div>").html(e.text);
+                    var $text = $("<div>").html(e.text);
                     $content.append($text);                    
                 }
 
@@ -511,15 +516,15 @@
 
                 // linklist
                 if (e.links && e.links.length){
-                    $linklist = $("<ul>");
+                    var $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
-                        $li = $("<li>");
-                        $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
+                        var $li = $("<li>");
+                        var $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
                         $li.append($a);
                         $linklist.append($li);
                     });
                     
-                    $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
+                    var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
 
                     $content.append($linkarea);                    
                 }
@@ -528,7 +533,7 @@
                 $content.append("<hr>");
                 var $tags = $("<div>"); 
                 e.tags.forEach((e, i) => {
-                    $tag = $("<span>").addClass("badge bg-secondary").text(e).attr("data-tag", e.toLowerCase());
+                    var $tag = $("<span>").addClass("badge bg-secondary").text(e).attr("data-tag", e.toLowerCase());
                     $tags.append($tag);
                 });
                 $content.append($tags);
