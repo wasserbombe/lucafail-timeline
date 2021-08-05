@@ -1735,6 +1735,19 @@
                 "url": "https://twitter.com/bkastl/status/1423027182218121220",
                 "text": "Twitter-Thread von Bianca Kastl (twitter.com)"
             }]
+        },
+        {
+            "date": "05.08.2021",
+            "type": "news",
+            "title": "tv.rostock: Klage gegen Vergabe der Luca-App",
+            "text": "<blockquote>Am kommenden Mittwoch beginnt vor dem Oberlandesgericht Rostock der Prozess gegen die Vergabe der Luca-App ohne Ausschreibung. Die österreichische Firma Cube Software- und Hotel Projektierungs GmbH verklagt das Land MV wegen der Beschaffung der Luca-App zur Kontaktnachverfolgung durch die Gesundheitsämter. Drei Tage bevor die Luca-App der Culture4life GmbH beauftragt wurde, hatte die Klägerin ebenfalls Interesse an einem Auftrag bekundet.</blockquote>",
+            "links": [{
+                "url": "https://www.facebook.com/story.php?story_fbid=4426186560737546&id=357150720974504",
+                "text": "tv.rostock: “Klage gegen Vergabe der LUCA-App” (facebook.com)"
+            },{
+                "url": "https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/ordentliche-gerichte/oberlandesgericht-rostock/",
+                "text": "Webseite OLG Rostock (mv-justiz.de)"
+            }]
         }
     ]
 }
