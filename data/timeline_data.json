@@ -1677,7 +1677,8 @@
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/_lucaApp/status/1422152252102414352"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "01.08.2021",
@@ -1691,7 +1692,8 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/ennopark/status/1421771697687080961"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "01.08.2021",
@@ -1704,7 +1706,23 @@
             "links": [{
                 "url": "https://logbuch-netzpolitik.de/lnp401-gespaltenes-verhaeltnis-zu-sonderzeichen",
                 "text": "Logbuch Netzpolitik 401: Gespaltenes Verhältnis zu Sonderzeichen (logbuch-netzpolitik.de)"
-            }]
+            }],
+            "verified": true
+        },
+        {
+            "date": "02.08.2021",
+            "type": "news",
+            "title": "Corona-Warn-App: \"Rote Warnung\" zeigt Wirkung",
+            "text": "Die meisten der befragten CWA-Nutzenden hielten die AHA+L-Regeln ein und ließen sich nach einer Warnung durch die CWA testen.<br><blockquote>Der zweite Teil der ereignisbezogenen Befragung (EDUS) hat u.a. ergeben, dass<ul><li>ein signifikanter Anteil der Befragten (72,5%) von der „roten Warnung“ überrascht war.</li><li>die Befragten ihre Testergebnisse meistens innerhalb von 24 Stunden über die App erhielten durch die Teilung positiver Testergebnisse in der App</li><li>weitere Personen zeitnah gewarnt wurden, wobei das erhöhte Infektionsrisiko ohne die Corona-Warn-App nicht hätte erkannt werden können.</li><li>der Großteil der Teilnehmenden nach einer „roten Warnung“ anschließend weitere Verhaltensmaßnahmen durchgesetzt hat, um der Ausbreitung des Virus entgegenzuwirken.</li><li>die Corona-Warn-App den Zweck der frühzeitigen Warnung und Unterstützung bei der Beendigung von Infektionsketten erfüllt.</li></ul></blockquote>",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://mobile.twitter.com/coronawarnapp/status/1423179748600127490"
+            }],
+            "links": [{
+                "url": "https://www.coronawarn.app/de/science/2021-08-02-science-blog-3/",
+                "text": "“Wie hat die „rote Warnung“ das Verhalten der Corona-Warn-App-Nutzenden beeinflusst?” (coronawarn.app)"
+            }],
+            "verified": true
         },
         {
             "date": "04.08.2021",
@@ -1721,7 +1739,8 @@
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/HonkHase/status/1423026607426523140"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "04.08.2021",
@@ -1734,7 +1753,8 @@
             "links": [{
                 "url": "https://twitter.com/bkastl/status/1423027182218121220",
                 "text": "Twitter-Thread von Bianca Kastl (twitter.com)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "05.08.2021",
@@ -1747,7 +1767,24 @@
             },{
                 "url": "https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/ordentliche-gerichte/oberlandesgericht-rostock/",
                 "text": "Webseite OLG Rostock (mv-justiz.de)"
-            }]
+            }],
+            "verified": false
+        },
+        {
+            "date": "05.08.2021",
+            "type": "probleme",
+            "scope": "Landkreis Breisgau-Hochschwarzwald",
+            "title": "Landkreis Breisgau-Hochschwarzwald: 5 von 7 Luca-Anfragen scheiterten",
+            "text": "5 von 7 Abfragen scheiterten, die meisten waren zudem zu ungenau um Sinnvoll zu sein. Die Anzahl daraus folgender Quarantänen gering. Angebliche Luca Traces >400 - die allermeisten Fake.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/cccfr/status/1423058671781781508"
+            }],
+            "links": [{
+                "url": "https://twitter.com/cccfr/status/1423058671781781508",
+                "text": "Tweet Chaos Computer Club Freiburg zu einer aktuellen Anfrage ans Gesundheitsamt (twitter.com)"
+            }],
+            "verified": true
         }
     ]
 }
