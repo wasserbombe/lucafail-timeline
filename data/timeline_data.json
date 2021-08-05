@@ -1707,7 +1707,7 @@
             }]
         },
         {
-            "date": "05.08.2021",
+            "date": "04.08.2021",
             "type": "news",
             "title": "FAZ: “Luca hilft auch nicht immer”",
             "text": "",
@@ -1721,6 +1721,19 @@
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/HonkHase/status/1423026607426523140"
+            }]
+        },
+        {
+            "date": "04.08.2021",
+            "type": "general",
+            "title": "Bianca Kastl: Ich will helfen, “Aber dazu braucht es vor allem eins: eine Fehlerkultur auf Augenhöhe.”",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/bkastl/status/1423027182218121220"
+            }],
+            "links": [{
+                "url": "https://twitter.com/bkastl/status/1423027182218121220",
+                "text": "Twitter-Thread von Bianca Kastl (twitter.com)"
             }]
         }
     ]
