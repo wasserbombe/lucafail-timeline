@@ -17,6 +17,6 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
   - [x] show number of topics per month
   - [x] show some twitter stats
   - [ ] add annotations from timeline to chart / link
-- [ ] geocode data, show map
+- [x] geocode data, show map
 - [ ] RSS-Feed ([#2](https://github.com/wasserbombe/lucafail-timeline/issues/2))
 - [ ] E-Mail Newsletter ([#2](https://github.com/wasserbombe/lucafail-timeline/issues/2))
