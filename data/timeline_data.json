@@ -359,6 +359,16 @@
         },
         {
             "date": "07.04.2021",
+            "type": "news",
+            "title": "“„Einfach grottig“ – dieser Trick entlarvt den fatalen Fehler der Luca-App”",
+            "text": "Artikel auf welt.de",
+            "links": [{
+                "url": "https://www.welt.de/wirtschaft/plus229919373/Luca-App-So-leicht-laesst-sich-die-Corona-Kontaktverfolgung-austricksen.html",
+                "text": "Benedikt Fuest: “„Einfach grottig“ – dieser Trick entlarvt den fatalen Fehler der Luca-App” (welt.de)"
+            }]
+        },
+        {
+            "date": "07.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Vertrag luca App",
             "scope": "Stadt Weimar",
@@ -885,6 +895,26 @@
             "verified": true
         },
         {
+            "date": "07.05.2021",
+            "type": "news",
+            "title": "Nürnberg: “Nürnberg hält an Luca-App fest - und äußert sich zur Dauer-Kritik”",
+            "text": "Artikel auf nordbayern.de",
+            "geo": {
+                "city": "Nürnberg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.458298407666945, 
+                    "lng": 11.085696011056541
+                }
+            },
+            "scope": "Stadt: Nürnberg",
+            "links": [{
+                "url": "https://www.nordbayern.de/region/nuernberg/nurnberg-halt-an-luca-app-fest-und-aussert-sich-zur-dauer-kritik-1.11049283",
+                "text": "“Nürnberg hält an Luca-App fest - und äußert sich zur Dauer-Kritik” (nordbayern.de)"
+            }]
+        },
+        {
             "date": "10.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Einsatz der Luca-App",
@@ -1307,7 +1337,26 @@
                 "text": "Plusminus-Sendung vom 09. Juni 2021 - Video: LUCA-App – mehr Kosten als Nutzen (daserste.de)"
             }],
             "tags": ["ard", "plusminus"]
-        },{
+        },
+        {
+            "date": "10.06.2021",
+            "type": "news",
+            "title": "Interview mit Peter Lachenmair: “Kritik an der Luca App: Geht Schwaben den richtigen Weg?”",
+            "geo": {
+                "city": "Augsburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 48.37757948970364,
+                    "lng": 10.89240761580469
+                }
+            },
+            "links": [{
+                "url": "https://www.b4bschwaben.de/b4b-nachrichten/augsburg_artikel,-kritik-an-der-luca-app-geht-schwaben-den-richtigen-weg-_arid,264302.html",
+                "text": "Interview mit Peter Lachenmair: “Kritik an der Luca App: Geht Schwaben den richtigen Weg?” (b4bschwaben.de)"
+            }]
+        },
+        {
             "date": "10.06.2021",
             "type": "news",
             "title": "IRIS Gateway: Luca ist bisher nicht angeschlossen.",
@@ -1953,7 +2002,7 @@
                 "url": "https://twitter.com/cccfr/status/1423058671781781508",
                 "text": "Tweet Chaos Computer Club Freiburg zu einer aktuellen Anfrage ans Gesundheitsamt (twitter.com)"
             }],
-            "verified": true
+            "verified": false
         }
     ]
 }
