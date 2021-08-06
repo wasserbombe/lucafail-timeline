@@ -510,6 +510,15 @@
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: luca App",
             "scope": "Region Kassel",
+            "geo": {
+                "city": "Kassel",
+                "state": "Hessen",
+                "state_short": "HE",
+                "position": {
+                    "lat": 51.312130189691366,
+                    "lng": 9.4715920757401
+                }
+            },
             "text": "Sowohl die Stadt Kassel als auch der Landkreis Kassel haben keinen Vertrag über die Nutzung der Luca App abgeschlossen und es entstehen bislang auch keine Kosten. Der gesamte rechtliche Hintergrund lief über das Hessische Ministerium für Soziales und Integration, Referat Gesundheitspolitik.",
             "embed": [{
                 "type": "fragdenstaat",
@@ -562,8 +571,17 @@
             "date": "23.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Luca App",
-            "scope": "Kreis: Ennepe-Ruhr-Kreis Kreisverwaltung",
+            "scope": "Kreis: Ennepe-Ruhr-Kreis",
             "text": "",
+            "geo": {
+                "city": "Ennepe-Ruhr-Kreis",
+                "state": "Nordrhein-Westfalen",
+                "state_short": "NW",
+                "position": {
+                    "lat": 51.338976304868176,
+                    "lng": 7.29355358031557
+                }
+            },
             "embed": [{
                 "type": "fragdenstaat",
                 "id": "219104"
@@ -593,6 +611,15 @@
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Luca App in der Stadt Uelzen",
             "scope": "Stadt Uelzen",
+            "geo": {
+                "city": "Uelzen",
+                "state": "Niedersachen",
+                "state_short": "NW",
+                "position": {
+                    "lat": 52.972759385956756,
+                    "lng": 10.56202162044369
+                }
+            },
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -779,6 +806,15 @@
             "type": "event",
             "title": "Deutscher Bundestag / Ausschuss Digitale Agenda: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht",
             "text": "Der Ausschuss Digitale Agenda unter Leitung von Manuel Höferlin (FDP) hat sich am Mittwoch, 5. Mai 2021, in einem öffentlichen Fachgespräch mit der Sicherheit und Koordinierung der Nutzung von sogenannten Clustererkennungs-Apps wie der Corona-Warn-App der Bundesregierung (CWA) oder der Luca-App beschäftigt. Die Luca-App wird bereits in einigen Bundesländern zur Kontaktnachverfolgung eingesetzt, war aber zuletzt wegen Datenschutzmängeln in die Kritik geraten.",
+            "geo": {
+                "city": "Berlin",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.518626354430204,
+                    "lng": 13.376056974000214
+                }
+            },
             "embed": [{
                 "type": "bundestag-webtv",
                 "id": "7519454"
@@ -825,6 +861,15 @@
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Einsatz der Luca-App",
             "scope": "Stadt Osnabrück",
+            "geo": {
+                "city": "Osnabrück",
+                "state": "Niedersachen",
+                "state_short": "NS",
+                "position": {
+                    "lat": 52.27689811311533,
+                    "lng": 8.047598303135276
+                }
+            },
             "text": "Ergebnis: Keine Kosten für IT; Keine Daten über Luca abgefragt; Schlüsselanhänger wurden vom Citymarketing beschafft.",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1289,6 +1334,15 @@
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: LUCA Werbung",
             "scope": "Kreis: Verbandsgemeindeverwaltung Pellenz",
+            "geo": {
+                "city": "Pellenz",
+                "state": "Rheinland-Pfalz",
+                "state_short": "RP",
+                "position": {
+                    "lat": 50.438351963626744,
+                    "lng": 7.403468885585047
+                }
+            },
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1301,6 +1355,15 @@
             "tags": []
         },{
             "date": "15.06.2021",
+            "geo": {
+                "city": "Osnabrück",
+                "state": "Niedersachsen",
+                "state_short": "NS",
+                "position": {
+                    "lat": 52.27459266456133,
+                    "lng": 50.438351963626744
+                }
+            },
             "title": "Verwaltungsgericht Osnabrück: Landkreis Osnabrück darf auf seiner Website nicht allein für die LUCA-App werben",
             "text": "Der Landkreis Osnabrück warb auf seiner Webseite <a href\"https://corona-os.de/\" target=\"_blank\">corona-os.de</a> ausschließlich und explizit für die Luca-App. Das Verwaltungsgericht Osnabrück stellte nun klar: Wenn geworben wird, dann nicht ausschließlich nur für eine App.",
             "links": [{
@@ -1342,6 +1405,15 @@
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Einsatz der Luca-App im Landkreis Schwäbisch Hall",
             "scope": "Kreis: Schwäbisch Hall",
+            "geo": {
+                "city": "Schwäbisch Hall",
+                "state": "Baden-Württemberg",
+                "state_short": "BW",
+                "position": {
+                    "lat": 49.12279483693555,
+                    "lng": 9.754675510920487
+                }
+            },
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1598,6 +1670,15 @@
             "date": "26.07.2021",
             "type": "news",
             "scope": "Land: BW",
+            "geo": {
+                "city": "Stuttgart",
+                "state": "Baden-Württemberg",
+                "state_short": "BW",
+                "position": {
+                    "lat": 48.78455594409909,
+                    "lng": 9.188548640404816
+                }
+            },
             "title": "Baden-Württemberg: “Gemeinsame Erklärung zur Luca-App unterzeichnet”",
             "text": "\"Alle Beteiligten\" (offenbar abzüglich kritischer Stimmen?) haben in Baden-Würrtemberg eine gemeinsame Erklärung unterzeichnet, in der die Zusammenarbeit \"in Sachen Luca-App\" bekräftigt wurde. Leider ist aus der Pressemitteilung des Innenministeriums Baden-Württemberg nicht ersichtlich,<ul><li>... wer \"Alle Beteiligten\" sind</li><li>... wie Luca eine \"schnelle und gezielte Kontaktverfolgung\" unterstützen soll</li><li>... was die \"passgenauen Anleitungen und Hinweise\" sind, die offenbar erforderlich wurden?</li></ul>",
             "links": [{
@@ -1619,6 +1700,15 @@
             "date": "29.07.2021",
             "type": "news",
             "title": "“Luca-App erkennt die Klammern in Halle (Saale) nicht”",
+            "geo": {
+                "city": "Halle (Saale)",
+                "state": "Sachsen-Anhalt",
+                "state_short": "SA",
+                "position": {
+                    "lat": 51.487812823866,
+                    "lng": 11.974498228254136
+                }
+            },
             "text": "Wenn Veranstalter einen Veranstaltungsort mit z.B. \"Halle (Saale)\" in der Adresse anlegen und einen QR-Code für diesen Ort generieren wollen, dann ist das nicht möglich. Der Ort muss manuell erstellt werden; dann funktioniert aber das \"Automatisch Auschecken\"-Feature nicht.",
             "links": [{
                 "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/halle/luca-app-probleme-sonderzeichen-100.html",
