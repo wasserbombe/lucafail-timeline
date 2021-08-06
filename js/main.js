@@ -8,8 +8,23 @@
         "event": "Veranstaltung",
         "broadcast": "TV- oder Radiosendung",
         "talk": "Präsentation auf Fachveranstaltung",
-        "probleme": "Probleme beim Benutzen der App / UX"
+        "probleme": "Probleme Benutzung / UX",
+        "podcast": "Podcast"
     };
+    var typeBSIcon = {
+        "general": "info-lg",
+        "doc": "file-pdf",
+        "fragdenstaat": "question-lg",
+        "incident": "exclamation-lg",
+        "news": "newspaper",
+        "event": "calendar-event",
+        "broadcast": "broadcast",
+        "talk": "easel",
+        "probleme": "emoji-frown",
+        "podcast": "soundwave"
+    };
+    var topics = []; 
+    var scopes = []; 
     var fdsbuttonclickhandler = (e) => {
         var fdsclosest = $(e.target).closest("[data-fds-id]");
         if (fdsclosest.length){
@@ -264,7 +279,7 @@
                     } else {
                         // no consent, hide content, show placeholder
                         var $embedPlaceholderInner = $("<div>").addClass("embed-placeholder").html('Um diesen Inhalt eines externen Anbieters ('+cfg.type+') zu laden, benötigen wir Ihr Einverständnis. Bitte beachten Sie dazu die <a href="#datenschutz">Datenschutzerklärung</a> unten.<br>');
-                        var $btn_consent = $("<button>").text("Einverständnis erteilen").on("click", () => {
+                        var $btn_consent = $("<button>").attr("type", "button").addClass("btn btn-outline-secondary").text("Einverständnis erteilen").on("click", () => {
                             $('#checkboxExternalContent').click();
                         });
                         $embedPlaceholderInner.append($btn_consent);
@@ -451,24 +466,37 @@
                 
                 var $timelineli = $("<li>").addClass((i%2 == 0)?"timeline-inverted":"");
 
-                var $badge = $("<div>").addClass("timeline-badge").html('<i class="bi-check"></i>');
+                var icon = "info-lg";
+                if (typeBSIcon[e.type]){
+                    icon = typeBSIcon[e.type]; 
+                }
+                var $badge = $("<div>").addClass("timeline-badge").html('<i class="bi-'+icon+'"></i>');
                 $timelineli.append($badge);
 
                 e.tags = e.tags || []; 
                 if (e.scope) {
                     subtitle.push('<i class="bi-geo-alt"></i> ' + e.scope);
                     e.tags.push(e.scope);
+
+                    if (scopes.indexOf(e.scope) == -1){
+                        $("#filterScopes").append($("<option>").text(e.scope).attr("value", e.scope).prop("selected", true));
+                        scopes.push(e.scope);
+                    }
                 }
                 e.type = e.type || "general";
                 $timelineli.addClass("type-" + e.type);
+                $timelineli.attr("data-type", e.type);
+                var topic = e.type; 
                 if (typeof typeFriendlyNames[e.type] !== "undefined"){
-                    subtitle.push(typeFriendlyNames[e.type]);
-                } else {
-                    subtitle.push(e.type);
+                    topic = typeFriendlyNames[e.type];
                 }
+                subtitle.push(topic);
                 e.tags.push(e.type);
-
-                $("#filterTopics").append($("<option>").text(e.type).attr("value", e.type));
+                
+                if (topics.indexOf(e.type) == -1){
+                    $("#filterTopics").append($("<option>").text(topic).attr("value", e.type).prop("selected", true));
+                    topics.push(e.type); 
+                }
 
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth] == "undefined") statisticsByMonthAndCategory[lastYearAndMonth] = {};
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth][e.type] == "undefined"){
@@ -481,6 +509,13 @@
                 var $heading = $("<div>").addClass("timeline-heading");
 
                 // subtitle
+                if (typeof e.verified !== "undefined"){
+                    if (!e.verified){
+                        subtitle.push('<small><span style="color: darkred;"><i class="bi-exclamation-triangle-fill" title="Info (noch) nicht verifiziert"></i></span></small>');
+                    } else {
+                        subtitle.push('<small><span style="color: darkgreen;"><i class="bi-check-circle-fill" title="Info verifiziert."></i></span></small>');
+                    }
+                }
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
                 var $p = $("<p>").append($small);
                 $heading.append($p);
@@ -543,7 +578,43 @@
             });
 
             syncConsentToContent();
-            $('#filterTopics').multiselect();
+
+            $(document).ready(function() {
+                $('#filterTopics').multiselect({
+                    allSelectedText: "Alle Themen",
+                    nSelectedText: " Themen ausgewählt",
+                    includeSelectAllOption: true,
+                    selectAllText: 'Alle Themen',
+                    nonSelectedText: 'Keine Themen gewählt',
+                    buttonWidth: '200px',
+                    onChange: function(option, checked) {
+                        var selectedOptions = $('#filterTopics option:selected');
+                        var selectedTopics = []; 
+                        selectedOptions.each((i, elem) => {
+                            selectedTopics.push(elem.value); 
+                        });
+
+                        $("ul.timeline li").each((i, elem) => {
+                            var $li = $(elem); 
+                            if (selectedTopics.indexOf($li.attr("data-type")) == -1){
+                                $li.hide(); 
+                            } else {
+                                $li.show(); 
+                            }
+                        }); 
+                    }
+                });
+                $('#filterScopes').multiselect({
+                    allSelectedText: "Alle Bereiche",
+                    nSelectedText: " Bereiche ausgewählt",
+                    includeSelectAllOption: true,
+                    selectAllText: 'Alle Bereiche',
+                    nonSelectedText: 'Kein Bereich gewählt',
+                    buttonWidth: '200px',
+                    onChange: function(option, checked) {
+                    }
+                });
+            });
 
             var series = {"name": "test", data: []}; 
             var series = {}; 

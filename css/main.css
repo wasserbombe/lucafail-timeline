@@ -179,9 +179,9 @@ li.type-news .timeline-badge {
     margin-top: 10px; 
 }
 .embed-placeholder {
-    background-color: darkgrey;
+    background-color: rgb(212, 212, 212);
     width: 100%; 
-    height: 100px; 
+    /*height: 100px; */
     padding: 10px;
     text-align: center;
 }
@@ -191,6 +191,13 @@ li.type-news .timeline-badge {
 }
 .embed-widget {
     margin-top: 10px; 
+}
+
+@media screen and (max-width: 1435px) {
+    .podlove {
+        height: 380px;
+        width: unset;
+    }
 }
 
 /* Frag den Staat-Widget */

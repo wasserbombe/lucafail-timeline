@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
 
         <link href="css/main.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,15 +69,17 @@
                             </td>
                             <td>
                                 <b>Themen: </b>
-                                <select size="1" id="filterTopics" multiple="multiple">
-                                    <option>Alle</option>
-                                </select>
+                                <select size="1" id="filterTopics" multiple="multiple"></select>
+                            </td>
+                            <td>
+                                <b>Scope: </b>
+                                <select size="1" id="filterScopes" multiple="multiple"></select>
                             </td>
                         </tr>
                     </table>
                 </div>
                 <ul class="timeline">
-                    <li class="type-general">
+                    <li class="type-general" data-type="general">
                         <div class="timeline-badge"><i class="bi-info"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -85,16 +87,22 @@
                                 <h4 class="timeline-title">... und los geht's!</h4>
                             </div>
                             <div class="timeline-body">
-                                <h5>⚠ Work in Progress</h5>
+                                <p>
+                                    Das hier ist ein Beispiel-Panel. Jedes Ereignis / jedes Thema wird als ein eigenes Panel dargestellt. Berichte / Statements / etc. zum selben Thema werden in einem Panel gruppiert.
+                                </p>
+                                <h4>Links zu nützlichen Seiten</h4>
+                                <p>
+                                    Manche Seiten lassen sich nicht einem bestimmten Datum zuordnen, weil es selbst Zusammenfassungen sind.
+                                </p>
+                                <ul>
+                                    <li><a href="https://luca.denken.io/" target="_blank">#LucaApp Performance Monitor</a> von Ralf Rottmann</li>
+                                </ul>
+                                <h5>Updates</h5>
                                 <div>
-                                    Die Seite wird erst mit Daten gefüllt. Bis alles eingebaut wurde kann noch einige Zeit vergehen.<br>
-                                    Solange findest Du viele Infos auch auf <a href="http://edit.luca.fail/">edit.luca.fail</a>, dort kannst Du auch eigene Punkte eintragen, die vielleicht noch fehlen.<br>
-                                    <br>
-                                    <b>Updates</b>
                                     <table>
                                         <tr>
-                                            <td><b>05.08.2021</b></td>
-                                            <td>Re-Design, "Verified"-Flag in den Daten</td>
+                                            <td><b>06.08.2021</b></td>
+                                            <td>Re-Design, "Verified"-Flag in den Daten, Themenauswahl</td>
                                         </tr>
                                         <tr>
                                             <td><b>02.08.2021</b></td>
@@ -152,7 +160,7 @@
                         Kontakt:<br>
                         Telefon: +49 (0) 6201 2492590<br>
                         Telefax: +49 (0) 6201 472688<br>
-                        E-Mail: impressum@sebastianfuhrmann.de<br>
+                        E-Mail: <a href="mailto:impressum@sebastianfuhrmann.de">impressum@sebastianfuhrmann.de</a><br>
                         <br>
                         <b>Redaktionell verantwortlich</b><br>
                         Sebastian Fuhrmann<br>
@@ -160,7 +168,7 @@
                         69502 Hemsbach<br>
                         <br>
                         
-                        Redaktionelle Inhalte werden möglicherweise von Mitwirkenden erstellt. Eine Historie, von wem welcher Beitrag stammt, ist im <a href="https://github.com/wasserbombe/lucafail-timeline/commits/main" target="_blank">Github-Repository</a> (externer Link) zu finden.
+                        Redaktionelle Inhalte werden möglicherweise von Mitwirkenden erstellt. Eine Historie, von wem welcher Beitrag stammt, ist im <a href="https://github.com/wasserbombe/lucafail-timeline/commits/main" target="_blank">Github-Repository</a> (externer Link) zu finden. Zudem gibt es Zusendungen per E-Mail, die wir auf Wunsch ohne Namensnennung hier veröffentlichen.
 
                         <br><br>
                         <h2>Lizenzen</h2>
