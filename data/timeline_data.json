@@ -449,6 +449,27 @@
         },
         {
             "date": "12.04.2021",
+            "type": "doc",
+            "scope": "Stadt Weimar",
+            "title": "Stadt Weimar: Studie zum Nutzen der Luca-App",
+            "geo": {
+                "city": "Weimar",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.98115764144089,
+                    "lng": 11.32635902982103
+                }
+            },
+            "links": [{
+                "url": "https://stadt.weimar.de/fileadmin/redaktion/Dokumente/corona/Evaluation_des_Weimarer_Modells_final_Stand20210412_1523.pdf",
+                "text": "Das Weimarer Modell: Testen – Lockern - Impfen, Evaluation der Testphase 1 (stadt.weimar.de)"
+            }],
+            "verified": true,
+            "tags": ["weimar","studie"]
+        },
+        {
+            "date": "12.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Luca-App ist nicht barrierefrei",
             "text": "<ul><li>Etablierte Standards für Barrierefreiheit in Apps wurden nicht umgesetzt</li><li>Nur eine barrierefreie App ermöglicht allen Menschen, diese uneingeschränkt zu nutzen</li><li>Bei der Beschaffung und Auftragsvergabe wurde nicht an Barrierefreiheit gedacht.</li></ul>",
@@ -1771,6 +1792,9 @@
             },{
                 "url": "http://www.radiobielefeld.de/nachrichten/lokalnachrichten/detailansicht/spd-weist-kritik-nach-luca-app-panne-zurueck.html",
                 "text": "“SPD weist Kritik nach \"Luca-App\"- Panne zurück” (radiobielefeld.de)"
+            },{
+                "url": "https://www.westfalen-blatt.de/owl/bielefeld/spd-nimmt-stellung-zur-luca-app-panne-2405488",
+                "text": "“Kritik an CDU und FDP in Bielefeld: SPD nimmt Stellung zur Luca-App-Panne” (westfalen-blatt.de)"
             }],
             "verified": true
         },

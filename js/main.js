@@ -1,5 +1,7 @@
 (function(){
-    var mymap = L.map('map_container').setView([51.3, 8.9], 5); 
+    var mymap = L.map('map_container', {
+        fullscreenControl: true
+    }).setView([51.3, 8.9], 5); 
 
     L.tileLayer('/osmtiles/tile.php?s={s}&z={z}&x={x}&y={y}', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -590,6 +592,7 @@
                     if (e.text){
                         popup_text.push(e.text); 
                     }
+                    popup_text.push('<small>'+$linklist.html()+'</small>');
                     L.marker([e.geo.position.lat, e.geo.position.lng]).addTo(mymap).bindPopup(popup_text.join('<br>'));
                 }
 
