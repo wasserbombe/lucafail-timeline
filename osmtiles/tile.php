@@ -13,7 +13,7 @@
 
     $valid = true; 
     foreach ($params as $param => $pattern){
-        if (!isset($_REQUEST[$param]) || empty($_REQUEST[$param]) || !preg_match($pattern, $_REQUEST[$param])){
+        if (!isset($_REQUEST[$param]) || (empty($_REQUEST[$param]) && $_REQUEST[$param] !== "0") || !preg_match($pattern, $_REQUEST[$param])){
             $valid = false; 
             break; 
         }
@@ -33,7 +33,7 @@
         }
 
         $cache_filename = __DIR__.'/cache/tile_'.md5($cacheurl).'.png';
-        if (file_exists($cache_filename)){
+        if (file_exists($cache_filename) && filemtime($cache_filename) > time()-60*60*24*3){
             $tile = file_get_contents($cache_filename);
         } else {
             $opts = array('http'=>array('header' => "User-Agent: timeline.luca.fail/1.0\r\n"));
