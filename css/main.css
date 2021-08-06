@@ -1,5 +1,6 @@
 html {
     font-size: 0.8rem;
+    overflow-wrap: break-word;
 }
 
 #map_container {
