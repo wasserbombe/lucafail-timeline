@@ -1,4 +1,10 @@
 (function(){
+    var mymap = L.map('map_container').setView([51.3, 8.9], 5); 
+
+    L.tileLayer('/osmtiles/tile.php?s={s}&z={z}&x={x}&y={y}', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(mymap);
+
     var typeFriendlyNames = {
         "general": "Allgemein",
         "doc": "Dokument/Paper/Veröffentlichung",
@@ -8,8 +14,23 @@
         "event": "Veranstaltung",
         "broadcast": "TV- oder Radiosendung",
         "talk": "Präsentation auf Fachveranstaltung",
-        "probleme": "Probleme beim Benutzen der App / UX"
+        "probleme": "Probleme Benutzung / UX",
+        "podcast": "Podcast"
     };
+    var typeBSIcon = {
+        "general": "info-lg",
+        "doc": "file-pdf",
+        "fragdenstaat": "question-lg",
+        "incident": "exclamation-lg",
+        "news": "newspaper",
+        "event": "calendar-event",
+        "broadcast": "broadcast",
+        "talk": "easel",
+        "probleme": "emoji-frown",
+        "podcast": "soundwave"
+    };
+    var topics = []; 
+    var scopes = []; 
     var fdsbuttonclickhandler = (e) => {
         var fdsclosest = $(e.target).closest("[data-fds-id]");
         if (fdsclosest.length){
@@ -125,7 +146,9 @@
                     // https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
                     $tweetdiv.html("\u003Cblockquote data-dnt=\"true\" data-theme=\"dark\" data-align=\"center\" class=\"twitter-tweet\"\u003E\u003Ca href=\""+cfg.url+"\"\u003E\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E");
                     $container.append($tweetdiv);
+                    return true; 
                 }
+                return false; 
             }
         },
         "ardmediathek": {
@@ -264,7 +287,7 @@
                     } else {
                         // no consent, hide content, show placeholder
                         var $embedPlaceholderInner = $("<div>").addClass("embed-placeholder").html('Um diesen Inhalt eines externen Anbieters ('+cfg.type+') zu laden, benötigen wir Ihr Einverständnis. Bitte beachten Sie dazu die <a href="#datenschutz">Datenschutzerklärung</a> unten.<br>');
-                        var $btn_consent = $("<button>").text("Einverständnis erteilen").on("click", () => {
+                        var $btn_consent = $("<button>").attr("type", "button").addClass("btn btn-outline-secondary").text("Einverständnis erteilen").on("click", () => {
                             $('#checkboxExternalContent').click();
                         });
                         $embedPlaceholderInner.append($btn_consent);
@@ -334,12 +357,12 @@
                     // TODO: Find a better way than throwing unchecked HTML into the page...
                     $fdscontent.append($("<span>").html(data.description));
 
-                    $fdscredit = $("<div>").addClass("fds-credit");
-                    $tr = $("<tr>");
-                    $td = $("<td>").append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
+                    var $fdscredit = $("<div>").addClass("fds-credit");
+                    var $tr = $("<tr>");
+                    var $td = $("<td>").append($("<img>").attr("src","/assets/fds/banner.svg").css("max-height","50px").css("margin-right","10px"));
                     $tr.append($td);
 
-                    $td = $("<td>");
+                    var $td = $("<td>");
                     $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://fragdenstaat.de\" target=\"_blank\">fragdenstaat.de</a> abgerufen."));
                     $td.append($("<button>").text("Zur Original-Anfrage auf fragdenstaat.de »").on("click", fdsbuttonclickhandler));
                     $tr.append($td);
@@ -385,7 +408,7 @@
                     });
                     var md_rendered = md.render(data.description);
                     if (md_rendered){
-                        $rendered = $(md_rendered);
+                        var $rendered = $(md_rendered);
                         $rendered.find("img").each((i, e) => {
                             if ($(e).attr("src").match(/^\/uploads\/.+/i)){
                                 $(e).attr("src", data.url.split("/").slice(0,5).join("/") + $(e).attr("src"));
@@ -402,13 +425,13 @@
 
                     $glwidget.attr("data-gl-url", data.url);
 
-                    $glcredit = $("<div>").addClass("gl-credit");
-                    $tr = $("<tr>");
+                    var $glcredit = $("<div>").addClass("gl-credit");
+                    var $tr = $("<tr>");
 
-                    $td = $("<td>").append($("<img>").attr("src","/assets/gitlab-logo-gray-stacked-rgb.svg").css("width", "100%").css("max-height","65px").css("margin-right","10px"));
+                    var $td = $("<td>").append($("<img>").attr("src","/assets/gitlab-logo-gray-stacked-rgb.svg").css("width", "100%").css("max-height","65px").css("margin-right","10px"));
                     $tr.append($td);
 
-                    $td = $("<td>");
+                    var $td = $("<td>");
                     $td.append($("<span>").html("Die in diesem Widget angezeigten Daten werden von <a href=\"https://gitlab.com\" target=\"_blank\">gitlab.com</a> abgerufen."));
                     $td.append($("<button>").text("Zur Original-Anfrage auf gitlab.com »").on("click", glbuttonclickhandler));
                     $tr.append($td);
@@ -426,14 +449,14 @@
         dataType: 'json',
         success: (data) => {
             data.timeline = data.timeline.reverse(); 
-            data.timeline.push({
-                title: "Ausblick / Roadmap dieser Seite",
-                text: "Siehe <a href=\"https://github.com/wasserbombe/lucafail-timeline\" target=\"_blank\">https://github.com/wasserbombe/lucafail-timeline</a>"
-            });
+
             var lastYearAndMonth = null; 
             var statisticsByMonthAndCategory = {};
             data.timeline.forEach((e, i) => {
+                var subtitle = [];
                 if (e.date){
+                    subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
+
                     var dateMatch = e.date.match(/^[0-9]{2}\.([0-9]{2})\.([0-9]{4})$/i);
                     if (dateMatch){
                         var yearMonth = dateMatch[2] + '-' + dateMatch[1];
@@ -449,22 +472,39 @@
                     }
                 }
                 
-                $div = $("<div>").addClass("container").addClass((i%2 == 0)?"left":"right");
+                var $timelineli = $("<li>").addClass((i%2 == 0)?"timeline-inverted":"");
+
+                var icon = "info-lg";
+                if (typeBSIcon[e.type]){
+                    icon = typeBSIcon[e.type]; 
+                }
+                var $badge = $("<div>").addClass("timeline-badge").html('<i class="bi-'+icon+'"></i>');
+                $timelineli.append($badge);
 
                 e.tags = e.tags || []; 
-                var subtitle = [];
-                subtitle.push(e.date);
-                if (e.scope) subtitle.push(e.scope);
-                if (e.type){
-                    $div.addClass("type-" + e.type);
-                    subtitle.push(e.type);
-                    e.tags.push(e.type);
-                } else {
-                    $div.addClass("type-general");
-                    e.type = "general";
-                }
+                if (e.scope) {
+                    subtitle.push('<i class="bi-geo-alt"></i> ' + e.scope);
+                    e.tags.push(e.scope);
 
-                $("#filterTopics").append($("<option>").text(e.type));
+                    if (scopes.indexOf(e.scope) == -1){
+                        $("#filterScopes").append($("<option>").text(e.scope).attr("value", e.scope).prop("selected", true));
+                        scopes.push(e.scope);
+                    }
+                }
+                e.type = e.type || "general";
+                $timelineli.addClass("type-" + e.type);
+                $timelineli.attr("data-type", e.type);
+                var topic = e.type; 
+                if (typeof typeFriendlyNames[e.type] !== "undefined"){
+                    topic = typeFriendlyNames[e.type];
+                }
+                subtitle.push(topic);
+                e.tags.push(e.type);
+                
+                if (topics.indexOf(e.type) == -1){
+                    $("#filterTopics").append($("<option>").text(topic).attr("value", e.type).prop("selected", true));
+                    topics.push(e.type); 
+                }
 
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth] == "undefined") statisticsByMonthAndCategory[lastYearAndMonth] = {};
                 if (typeof statisticsByMonthAndCategory[lastYearAndMonth][e.type] == "undefined"){
@@ -473,16 +513,36 @@
                     statisticsByMonthAndCategory[lastYearAndMonth][e.type]++;
                 }
 
-                $content = $("<div>").addClass("content");
+                var $panel = $("<div>").addClass("timeline-panel");
+                var $heading = $("<div>").addClass("timeline-heading");
 
-                $subtitle = $("<span>").addClass("subtitle").html(subtitle.join(' / '));
-                $content.append($subtitle);
+                // subtitle
+                if (typeof e.verified !== "undefined"){
+                    if (!e.verified){
+                        subtitle.push('<small><span style="color: darkred;"><i class="bi-exclamation-triangle-fill" title="Info (noch) nicht verifiziert"></i></span></small>');
+                    } else {
+                        subtitle.push('<small><span style="color: darkgreen;"><i class="bi-check-circle-fill" title="Info verifiziert."></i></span></small>');
+                    }
+                }
+                var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
+                var $p = $("<p>").append($small);
+                $heading.append($p);
 
-                $title = $("<h2>").addClass("title").html(e.title);
-                $content.append($title);
+                // title
+                var $title = $("<h4>").addClass("title").html(e.title);
+                $heading.append($title);
+                $panel.append($heading);
+
+                var $content = $("<div>").addClass("timeline-body");
+
+                if (typeof e.verified !== "undefined"){
+                    if (!e.verified){
+                        $content.append($("<span>").html('<small><span style="color: darkred;"><i class="bi-exclamation-triangle-fill"></i> Information noch nicht verifiziert. Hilf uns, indem Du weitere Quellen findest.</span></small>'));
+                    }
+                }
 
                 if (e.text){
-                    $text = $("<div>").html(e.text);
+                    var $text = $("<div>").html(e.text);
                     $content.append($text);                    
                 }
 
@@ -496,35 +556,85 @@
 
                 // linklist
                 if (e.links && e.links.length){
-                    $linklist = $("<ul>");
+                    var $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
-                        $li = $("<li>");
-                        $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
+                        var $li = $("<li>");
+                        var $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
                         $li.append($a);
                         $linklist.append($li);
                     });
                     
-                    $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
+                    var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
 
                     $content.append($linkarea);                    
                 }
 
                 // tag list
-                $tags = $("<div>").addClass("tagarea"); 
+                $content.append("<hr>");
+                var $tags = $("<div>"); 
                 e.tags.forEach((e, i) => {
-                    $tag = $("<span>").addClass("tag").text(e).attr("data-tag", e.toLowerCase());
+                    var $tag = $("<span>").addClass("badge bg-secondary").text(e).attr("data-tag", e.toLowerCase());
                     $tags.append($tag);
                 });
                 $content.append($tags);
 
-                $div.append($content);
+                $panel.append($content);
 
-                $(".timeline").append($div);
+                $timelineli.append($panel);
+
+                // add map
+                if (e.geo && e.geo.position){
+                    var popup_text = []; 
+                    popup_text.push('<small style="color: grey;">' + subtitle.join(' / ') + '</small>')
+                    popup_text.push('<b>' + e.title + '</b>')
+                    if (e.text){
+                        popup_text.push(e.text); 
+                    }
+                    L.marker([e.geo.position.lat, e.geo.position.lng]).addTo(mymap).bindPopup(popup_text.join('<br>'));
+                }
+
+                $(".timeline").append($timelineli);
             });
 
             syncConsentToContent();
 
-            console.log(statisticsByMonthAndCategory);
+            $(document).ready(function() {
+                $('#filterTopics').multiselect({
+                    allSelectedText: "Alle Themen",
+                    nSelectedText: " Themen ausgewählt",
+                    includeSelectAllOption: true,
+                    selectAllText: 'Alle Themen',
+                    nonSelectedText: 'Keine Themen gewählt',
+                    buttonWidth: '200px',
+                    onChange: function(option, checked) {
+                        var selectedOptions = $('#filterTopics option:selected');
+                        var selectedTopics = []; 
+                        selectedOptions.each((i, elem) => {
+                            selectedTopics.push(elem.value); 
+                        });
+
+                        $("ul.timeline li").each((i, elem) => {
+                            var $li = $(elem); 
+                            if (selectedTopics.indexOf($li.attr("data-type")) == -1){
+                                $li.hide(); 
+                            } else {
+                                $li.show(); 
+                            }
+                        }); 
+                    }
+                });
+                $('#filterScopes').multiselect({
+                    allSelectedText: "Alle Bereiche",
+                    nSelectedText: " Bereiche ausgewählt",
+                    includeSelectAllOption: true,
+                    selectAllText: 'Alle Bereiche',
+                    nonSelectedText: 'Kein Bereich gewählt',
+                    buttonWidth: '200px',
+                    onChange: function(option, checked) {
+                    }
+                });
+            });
+
             var series = {"name": "test", data: []}; 
             var series = {}; 
             for (var m in statisticsByMonthAndCategory){

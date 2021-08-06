@@ -1190,7 +1190,7 @@
         {
             "date": "01.06.2021",
             "type": "incident",
-            "title": "Schwachstelle: IP-Whitelisting von 0000:0000:0000:0000:0000:0000:0000:0000 bis 00ff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "title": "Schwachstelle: IP-Whitelisting von IPv6-Ranges",
             "text": "<a href=\"https://twitter.com/fluepke/\">@fluepke</a><br>Impact: Gering, aber nur, weil bisher keine IPv6-Adressen in diesem Bereich vergeben sind",
             "links": [{
                 "url": "https://twitter.com/fluepke/status/1399790712317751301",

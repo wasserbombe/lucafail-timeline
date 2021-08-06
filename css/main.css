@@ -1,167 +1,180 @@
-* {
-    box-sizing: border-box;
-    padding: 0px; 
-    margin: 0px;
+html {
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
 }
 
-body {
-    background-color: #999999;
-    font-family: Helvetica, sans-serif;
-    font-size: smaller;
-    
-}
-li {
-    margin-left: 20px;
+#map_container {
+    height: 480px; 
 }
 
-button {
-    cursor: pointer;
-}
-
-#settings {
-    position: sticky;
-    top: 0px; 
-    background-color: white;
-    height: 30px;
-    padding: 6px;
-    z-index: 100;
-
-    border-bottom: 1px solid gray;
-    box-shadow: 0px 0px 8px 2px #000000;
-
-}
-
+/******************************************************
+TIMELINE
+*/
 .timeline {
+    list-style: none;
+    padding: 10px 0 20px;
     position: relative;
-    max-width: 1700px;
-    margin: 0 auto;
-    margin-top: 25px;
 }
 
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: white;
+.timeline:before {
     top: 0;
     bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #aaaaaa;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -1.5px;
 }
-
-.month-separator {
-    border-bottom: 1px dotted black; 
-    padding: 10px 40px;
-    margin-top: 30px;
-}
-
-.container {
-    padding: 10px 40px;
+.timeline > li {
+    margin-bottom: 20px;
     position: relative;
-    background-color: inherit;
+}
+
+.timeline > li:before, .timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li:before, .timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li > .timeline-panel {
     width: 50%;
-}
-
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #5a5a5a;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.container h2 {
-    margin-top: 0px;
-}
-
-.left {
-    left: 0;
-}
-  
-.right {
-    left: 50%;
-}
-  
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-  
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-}
-  
-.right::after {
-    left: -16px;
-}
-  
-.content {
-    padding: 10px 15px;
-    background-color: white;
+    float: left;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
     position: relative;
-    border-radius: 6px;
-    
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-.container.type-general .content {
+
+.timeline > li.timeline-inverted + li:not(.timeline-inverted),
+.timeline > li:not(.timeline-inverted) + li.timeline-inverted {
+    margin-top: -60px;
+}
+.timeline > li:not(.timeline-inverted) {
+    padding-right:90px;
+}
+.timeline > li.timeline-inverted {
+    padding-left:90px;
+}
+.timeline > li > .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+.timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline > li > .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #999999;
+    z-index: 100;
+    border: 4px solid #aaaaaa; 
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+.timeline-body > p, .timeline-body > ul {
+    margin-bottom: 0;
+}
+.timeline-body > p + p {
+    margin-top: 5px;
+}
+
+.timeline-heading p {
+    margin-bottom: 0px;
+}
+
+/* PANELS */
+li.type-general .timeline-panel {
     border-top: 8px solid darkblue;
 }
-.container.type-doc .content {
+li.type-doc .timeline-panel {
     border-top: 8px solid rgb(0, 112, 6);
 }
-.container.type-incident .content, .container.type-probleme .content {
+li.type-incident .timeline-panel, li.type-probleme .timeline-panel {
     border-top: 8px solid rgb(173, 0, 0);
 }
-.container.type-event .content, .container.type-talk .content, .container.type-podcast .content, .container.type-broadcast .content {
+li.type-event .timeline-panel, li.type-talk .timeline-panel, li.type-podcast .timeline-panel, li.type-broadcast .timeline-panel {
     border-top: 8px solid rgb(212, 145, 0);
 }
-.container.type-fragdenstaat .content {
+li.type-fragdenstaat .timeline-panel {
     border-top: 8px solid #0047e1;
 }
-.container.type-news .content {
+li.type-news .timeline-panel {
     border-top: 8px solid #8000a7;
 }
-
-.content .linkarea {
-    margin-top: 15px;
+/* BADGES */
+li.type-general .timeline-badge {
+    background-color: darkblue;
 }
-
-.content .tagarea {
-    border-top: 1px solid grey; 
-    margin-top: 20px;
-    padding-top: 10px;
+li.type-doc .timeline-badge {
+    background-color: rgb(0, 112, 6);
 }
-
-.content .tag {
-    line-height: 2.2em;
-    background-color: gray;
-    padding: 5px 10px 5px 10px;
-    border-radius: 3px;
-    margin-right: 5px;
-
-    font-weight: bold;
-    color: white;
+li.type-incident .timeline-badge, li.type-probleme .timeline-badge {
+    background-color: rgb(173, 0, 0);
+}
+li.type-event .timeline-badge, li.type-talk .timeline-badge, li.type-podcast .timeline-badge, li.type-broadcast .timeline-badge {
+    background-color: rgb(212, 145, 0);
+}
+li.type-fragdenstaat .timeline-badge {
+    background-color: #0047e1;
+}
+li.type-news .timeline-badge {
+    background-color: #8000a7;
 }
 
 /******************************************************************************************************************************/
@@ -171,9 +184,9 @@ button {
     margin-top: 10px; 
 }
 .embed-placeholder {
-    background-color: darkgrey;
+    background-color: rgb(212, 212, 212);
     width: 100%; 
-    height: 100px; 
+    /*height: 100px; */
     padding: 10px;
     text-align: center;
 }
@@ -183,6 +196,13 @@ button {
 }
 .embed-widget {
     margin-top: 10px; 
+}
+
+@media screen and (max-width: 1435px) {
+    .podlove {
+        height: 380px;
+        width: unset;
+    }
 }
 
 /* Frag den Staat-Widget */
@@ -323,53 +343,4 @@ blockquote::after {
 }
 blockquote {
     quotes: "“" "”" "‘" "’";
-}
-
-footer td {
-    padding: 5px;
-    vertical-align: top;
-}
-footer h2 {
-    margin-top: 10px;
-}
-footer h3 {
-    margin-top: 8px;
-}
-footer p {
-    margin-bottom: 10px;
-}
-
-
-@media screen and (max-width: 1435px) {
-    .podlove {
-        height: 380px;
-        width: unset;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .timeline::after {
-        left: 31px;
-    }
-
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-    
-    .container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
-    
-    .left::after, .right::after {
-        left: 15px;
-    }
-    
-    .right {
-        left: 0%;
-    }
 }
