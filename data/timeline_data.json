@@ -1541,7 +1541,13 @@
             "date": "23.07.2021",
             "type": "probleme",
             "geo": {
-                "city": "Westerland"
+                "city": "Westerland",
+                "state": "Schleswig-Holstein",
+                "state_short": "SH",
+                "position": {
+                    "lat": 54.90679033469537, 
+                    "lng": 8.311304334738912
+                }
             },
             "title": "“Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf”",
             "text": "<blockquote>Wegen eines vom Hersteller bestätigten technischen Fehlers der Luca-App gelang es bis zuletzt nicht, die gespeicherten Daten der anderen Gäste abzurufen. Deshalb bleibt dem Gesundheitsamt des Kreises Nordfriesland nun nur noch der öffentliche Aufruf. „Die Gäste konnten sich problemlos einchecken, aber beim Übermitteln der Daten an die Behörden gab es einen technischen Fehler der Luca-App, für den ich nichts kann. Da liegt der Fehler ganz klar bei App“, so Leskau.</blockquote><br>Scheinbar bestand hier das Problem darin, dass der Location-Betreiber seinen privaten Schlüssel verloren hatte und so die Kontaktdaten nicht entschlüsseln konnte. Wenngleich er für den Erhalt des Schlüssel verantwortlich gewesen wäre, so war er sich dieser Verantwortung möglicherweise nicht bewusst, da das Kryptokonzept der Luca-App und generell die Hinweise in dem Betreiber-Interface für normale Betreiber ohne entsprechendes Wissen kaum zu durchschauen ist.",
@@ -1573,7 +1579,13 @@
             "date": "26.07.2021",
             "type": "probleme",
             "geo": {
-                "city": "Flensburg"
+                "city": "Flensburg",
+                "state": "Schleswig-Holstein",
+                "state_short": "SH",
+                "position": {
+                    "lat": 54.78402170586622,
+                    "lng": 9.432615406634602
+                }
             },
             "title": "Flensburg: “Luca-App kann nicht ausgewertet werden: „Klähblatt“-Besucherin positiv getestet”",
             "text": "Das Gesundheitsamt sucht Gäste mit Symptomen, da die Daten der Luca-App nicht auslesbar waren. <br><blockquote>Der Fall erinnert an einen Corona-Infizierten, der in der vergangenen Woche die „Wunderbar“ in Westerland besuchte. Auch hier konnte das Gesundheitsamt die Daten der Luca-App nicht auslesen.</blockquote>",
@@ -1633,6 +1645,15 @@
         {
             "date": "30.07.2021",
             "type": "news",
+            "geo": {
+                "city": "Bielefeld",
+                "state": "Nordrhein-Westfalen",
+                "state_short": "NW",
+                "position": {
+                    "lat": 52.029815598193146,
+                    "lng": 8.532921515526924
+                }
+            },
             "title": "“Bielefelder Panne offenbart riesige Schwächen der Luca-App”",
             "text": "Gesundheitsamt in Bielefeld versäumt den von luca initiierten Tausch des Sicherheitszertifikat und kann auf Kontaktdaten nicht zugreifen.",
             "links": [{
@@ -1765,6 +1786,15 @@
         {
             "date": "05.08.2021",
             "type": "news",
+            "geo": {
+                "city": "Rostock",
+                "state": "Mecklenburg-Vorpommern",
+                "state_short": "MV",
+                "position": {
+                    "lat": 54.10282119681471,
+                    "lng": 12.095490683430818
+                }
+            },
             "title": "tv.rostock: Klage gegen Vergabe der Luca-App",
             "text": "<blockquote>Am kommenden Mittwoch beginnt vor dem Oberlandesgericht Rostock der Prozess gegen die Vergabe der Luca-App ohne Ausschreibung. Die österreichische Firma Cube Software- und Hotel Projektierungs GmbH verklagt das Land MV wegen der Beschaffung der Luca-App zur Kontaktnachverfolgung durch die Gesundheitsämter. Drei Tage bevor die Luca-App der Culture4life GmbH beauftragt wurde, hatte die Klägerin ebenfalls Interesse an einem Auftrag bekundet.</blockquote>",
             "links": [{
