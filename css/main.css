@@ -2,6 +2,10 @@ html {
     font-size: 0.8rem;
 }
 
+#map_container {
+    height: 380px; 
+}
+
 /******************************************************
 TIMELINE
 */
