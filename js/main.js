@@ -1,13 +1,9 @@
 (function(){
-    var mymap = L.map('map_container').setView([51.505, -0.09], 13); 
+    var mymap = L.map('map_container').setView([51.3, 8.9], 5); 
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(mymap);
-
-    L.marker([51.5, -0.09]).addTo(mymap)
-        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-        .openPopup();
 
     var typeFriendlyNames = {
         "general": "Allgemein",
@@ -583,6 +579,14 @@
                 $panel.append($content);
 
                 $timelineli.append($panel);
+
+                // add map
+                if (e.geo && e.geo.position){
+                    var popup_text = []; 
+                    popup_text.push('<small style="color: grey;">' + subtitle.join(' / ') + '</small>')
+                    popup_text.push('<b>' + e.title + '</b>')
+                    L.marker([e.geo.position.lat, e.geo.position.lng]).addTo(mymap).bindPopup(popup_text.join('<br>'));
+                }
 
                 $(".timeline").append($timelineli);
             });
