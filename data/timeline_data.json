@@ -670,6 +670,31 @@
         },
         {
             "date": "28.04.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.020642291469315,
+                    "lng": 12.102442771716376
+                }
+            },
+            "title": "“Luca in Regensburg: Digitales Globuli”",
+            "text": "Interview mit Markus Feilner auf regensburg-digital.de",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/luca-in-regensburg-digitales-globuli/28042021/",
+                "text": "Interview von Stefan Aigner mit Markus Feilner: “Luca in Regensburg: Digitales Globuli” (regensburg-digital.de)"
+            },{
+                "url": "https://www.regensburg-digital.de/warnen-sie-ihre-buergerinnen-und-buerger-vor-der-luca-app/12052021/",
+                "text": "Appell an Stadtspitze und Stadtrat: “Warnen Sie Ihre Bürgerinnen und Bürger vor der Luca-App” (regensburg-digital.de)"
+            }],
+            "tags": ["markus-feilner","interview","regensburg"],
+            "verified": true
+        },
+        {
+            "date": "28.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Luca App im Landkreis Uelzen",
             "scope": "Kreis: Uelzen",
@@ -778,6 +803,28 @@
                 "text": "https://fragdenstaat.de/a/219710"
             }],
             "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "03.05.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.010526724111976,
+                    "lng": 12.05437475580781
+                }
+            },
+            "title": "“Luca-App in Regensburg: Stadtrat kritisiert Beschlussvorlage”",
+            "text": "„Corona-Warn-App ist die smartere Lösung“",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/luca-app-in-regensburg-stadtrat-kritisiert-beschlussvorlage/03052021/",
+                "text": "Stefan Aigner: “Luca-App in Regensburg: Stadtrat kritisiert Beschlussvorlage” (regensburg-digital.de)"
+            }],
+            "tags": ["cwa","regensburg"],
+            "verified": true
         },
         {
             "date": "03.05.2021",
@@ -1101,6 +1148,28 @@
                 "url": "https://twitter.com/mame82/status/1394957601071370240"
             }],
             "tags": ["luca-badges"]
+        },
+        {
+            "date": "20.05.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.000981731902534,
+                    "lng": 12.18307719141348
+                }
+            },
+            "title": "“Regensburg geht auf Distanz zur Luca-App”",
+            "text": "<blockquote>Von der viertgrößten Stadt in Bayern gibt es keine Empfehlung und schon gar keine Verpflichtung zur Nutzung der Luca-App. Das hat Regensburgs Oberbürgermeisterin Gertrud Maltz-Schwarzfischer in einer Sitzung des Kulturausschusses am Dienstag klargestellt.</blockquote>",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/regensburg-geht-auf-distanz-zur-luca-app/20052021/",
+                "text": "Stefan Aigner: “Regensburg geht auf Distanz zur Luca-App” (regensburg-digital.de)"
+            }],
+            "tags": ["cwa","regensburg"],
+            "verified": true
         },
         {
             "date": "26.05.2021",
