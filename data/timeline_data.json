@@ -9,7 +9,7 @@
             "date": "02.03.2021",
             "type": "doc",
             "title": "Stellungnahme des LfDI Baden-Württemberg zur App Luca",
-            "scope": "Land: BW",
+            "scope": "Land: Baden-Württemberg",
             "text": "(fehlt)",
             "links": [
                 {
@@ -22,20 +22,21 @@
             "date": "08.03.2021",
             "type": "doc",
             "title": "D64: Fünf Forderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung",
-            "scope": "Land: Bund",
+            "scope": "Bundesweit",
             "text": "Das D64 – Zentrum für Digitalen Fortschritt e.V. veröffentlicht seine fünf Anforderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung.<br><br><ul><li><b>Whitepaper:</b> Vollständige Dokumentation und Transparenz des Dienstes und seiner Schnittstellen, sowie der zu verarbeitenden Daten mit Erläuterung der kryptografischen Verfahren.</li><li><b>Open Source:</b> Die Veröffentlichung des Quellcodes aller Komponenten des Dienstes, von den Smartphone-Apps bis zu Backend-Services.</li><li><b>Datensparsamkeit:</b> Es dürfen nur Daten erhoben werden, die zum Betrieb des Dienstes zwingend notwendig sind. Zugriff auf personenbezogene Daten dürfen nur die Gesundheitsämter in einem Infektionsfall erhalten. Einen „Generalschlüssel“ zum Zugriff auf alle Daten darf es nicht geben.</li><li><b>Barrierefreiheit:</b> Der Dienst muss von allen Menschen mit unterschiedlichen mobilen Endgeräten bedient werden können.</li><li><b>Serverstandort:</b> Alle Daten dürfen nur auf Servern der EU verarbeitet werden.</li></ul>",
             "links": [
                 {
                     "url": "https://d-64.org/check-in-app/",
                     "text": "D64: Fünf Forderungen an eine bundesweite Check-In-App zur Kontaktnachverfolgung"
                 }
-            ]
+            ],
+            "verified": true
         },
         {
             "date": "08.03.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Vereinbarung mit Luca App",
-            "scope": "Land: MV",
+            "scope": "Land: Mecklenburg-Vorpommern",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -358,6 +359,16 @@
         },
         {
             "date": "07.04.2021",
+            "type": "news",
+            "title": "“„Einfach grottig“ – dieser Trick entlarvt den fatalen Fehler der Luca-App”",
+            "text": "Artikel auf welt.de",
+            "links": [{
+                "url": "https://www.welt.de/wirtschaft/plus229919373/Luca-App-So-leicht-laesst-sich-die-Corona-Kontaktverfolgung-austricksen.html",
+                "text": "Benedikt Fuest: “„Einfach grottig“ – dieser Trick entlarvt den fatalen Fehler der Luca-App” (welt.de)"
+            }]
+        },
+        {
+            "date": "07.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Vertrag luca App",
             "scope": "Stadt Weimar",
@@ -410,7 +421,9 @@
             "embed": [{
                 "type": "youtube",
                 "id": "tGq0_04j3T4"
-            }]
+            }],
+            "tags": ["sms-tan"],
+            "verified": true
         },
         {
             "date": "11.04.2021",
@@ -446,13 +459,36 @@
         },
         {
             "date": "12.04.2021",
+            "type": "doc",
+            "scope": "Stadt Weimar",
+            "title": "Stadt Weimar: Studie zum Nutzen der Luca-App",
+            "geo": {
+                "city": "Weimar",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.98115764144089,
+                    "lng": 11.32635902982103
+                }
+            },
+            "links": [{
+                "url": "https://stadt.weimar.de/fileadmin/redaktion/Dokumente/corona/Evaluation_des_Weimarer_Modells_final_Stand20210412_1523.pdf",
+                "text": "Das Weimarer Modell: Testen – Lockern - Impfen, Evaluation der Testphase 1 (stadt.weimar.de)"
+            }],
+            "verified": true,
+            "tags": ["weimar","studie"]
+        },
+        {
+            "date": "12.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Luca-App ist nicht barrierefrei",
             "text": "<ul><li>Etablierte Standards für Barrierefreiheit in Apps wurden nicht umgesetzt</li><li>Nur eine barrierefreie App ermöglicht allen Menschen, diese uneingeschränkt zu nutzen</li><li>Bei der Beschaffung und Auftragsvergabe wurde nicht an Barrierefreiheit gedacht.</li></ul>",
             "links": [{
                 "url": "https://bbsb.org/newsletter-eintrag/bbsb-pressemitteilung-luca-app-nicht-barrierefrei-bbsb-inform-12-04-2021-2/",
                 "text": "Bayerische Blinden- und Sehbehindertenbund e.V.: Luca-App nicht barrierefrei (bbsb.org)"
-            }]
+            }],
+            "tags": ["barrierefreiheit","bbsb"],
+            "verified": false
         },
         {
             "date": "13.04.2021",
@@ -509,7 +545,7 @@
             "date": "14.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: luca App",
-            "scope": "Region Kassel",
+            "scope": "Kreis: Kassel",
             "geo": {
                 "city": "Kassel",
                 "state": "Hessen",
@@ -538,7 +574,8 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/ralf/status/1382673524276477955"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "19.04.2021",
@@ -633,9 +670,34 @@
         },
         {
             "date": "28.04.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.020642291469315,
+                    "lng": 12.102442771716376
+                }
+            },
+            "title": "“Luca in Regensburg: Digitales Globuli”",
+            "text": "Interview mit Markus Feilner auf regensburg-digital.de",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/luca-in-regensburg-digitales-globuli/28042021/",
+                "text": "Interview von Stefan Aigner mit Markus Feilner: “Luca in Regensburg: Digitales Globuli” (regensburg-digital.de)"
+            },{
+                "url": "https://www.regensburg-digital.de/warnen-sie-ihre-buergerinnen-und-buerger-vor-der-luca-app/12052021/",
+                "text": "Appell an Stadtspitze und Stadtrat: “Warnen Sie Ihre Bürgerinnen und Bürger vor der Luca-App” (regensburg-digital.de)"
+            }],
+            "tags": ["markus-feilner","interview","regensburg"],
+            "verified": true
+        },
+        {
+            "date": "28.04.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Luca App im Landkreis Uelzen",
-            "scope": "Landkreis Uelzen",
+            "scope": "Kreis: Uelzen",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -741,6 +803,28 @@
                 "text": "https://fragdenstaat.de/a/219710"
             }],
             "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "03.05.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.010526724111976,
+                    "lng": 12.05437475580781
+                }
+            },
+            "title": "“Luca-App in Regensburg: Stadtrat kritisiert Beschlussvorlage”",
+            "text": "„Corona-Warn-App ist die smartere Lösung“",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/luca-app-in-regensburg-stadtrat-kritisiert-beschlussvorlage/03052021/",
+                "text": "Stefan Aigner: “Luca-App in Regensburg: Stadtrat kritisiert Beschlussvorlage” (regensburg-digital.de)"
+            }],
+            "tags": ["cwa","regensburg"],
+            "verified": true
         },
         {
             "date": "03.05.2021",
@@ -854,7 +938,28 @@
                 "url": "https://bkastl.de/luca_lucatrack_itsec/",
                 "text": "bkastl.de: Slides"
             }],
-            "tags": ["luca-badges","lucatrack","bianca-kastl"]
+            "tags": ["luca-badges","lucatrack","bianca-kastl"],
+            "verified": true
+        },
+        {
+            "date": "07.05.2021",
+            "type": "news",
+            "title": "Nürnberg: “Nürnberg hält an Luca-App fest - und äußert sich zur Dauer-Kritik”",
+            "text": "Artikel auf nordbayern.de",
+            "geo": {
+                "city": "Nürnberg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.458298407666945, 
+                    "lng": 11.085696011056541
+                }
+            },
+            "scope": "Stadt: Nürnberg",
+            "links": [{
+                "url": "https://www.nordbayern.de/region/nuernberg/nurnberg-halt-an-luca-app-fest-und-aussert-sich-zur-dauer-kritik-1.11049283",
+                "text": "“Nürnberg hält an Luca-App fest - und äußert sich zur Dauer-Kritik” (nordbayern.de)"
+            }]
         },
         {
             "date": "10.05.2021",
@@ -955,7 +1060,7 @@
             "date": "15.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Kosten für die Luca App",
-            "scope": "Bund",
+            "scope": "Bundesweit",
             "text": "Ergebnis: BMG und BMF prüfen Form der Unterstützung “der zwischenzeitlich von ihnen mehrheitlich gewählten Systeme”.",
             "embed": [{
                 "type": "fragdenstaat",
@@ -971,7 +1076,7 @@
             "date": "15.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Kostenübernahme für die Luca App Vertrag",
-            "scope": "Land BW",
+            "scope": "Land: Baden-Württemberg",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -987,7 +1092,7 @@
             "date": "16.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Luca App",
-            "scope": "Kreis Soest",
+            "scope": "Kreis: Soest",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1045,6 +1150,28 @@
             "tags": ["luca-badges"]
         },
         {
+            "date": "20.05.2021",
+            "type": "news",
+            "scope": "Stadt Regensburg",
+            "geo": {
+                "city": "Regensburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 49.000981731902534,
+                    "lng": 12.18307719141348
+                }
+            },
+            "title": "“Regensburg geht auf Distanz zur Luca-App”",
+            "text": "<blockquote>Von der viertgrößten Stadt in Bayern gibt es keine Empfehlung und schon gar keine Verpflichtung zur Nutzung der Luca-App. Das hat Regensburgs Oberbürgermeisterin Gertrud Maltz-Schwarzfischer in einer Sitzung des Kulturausschusses am Dienstag klargestellt.</blockquote>",
+            "links": [{
+                "url": "https://www.regensburg-digital.de/regensburg-geht-auf-distanz-zur-luca-app/20052021/",
+                "text": "Stefan Aigner: “Regensburg geht auf Distanz zur Luca-App” (regensburg-digital.de)"
+            }],
+            "tags": ["cwa","regensburg"],
+            "verified": true
+        },
+        {
             "date": "26.05.2021",
             "type": "incident",
             "title": "Schwachstelle: Remote Code Injection via CSV-Export",
@@ -1062,7 +1189,8 @@
             },{
                 "url": "https://netzpolitik.org/2021/it-sicherheit-schon-wieder-desastroese-sicherheitsluecke-in-luca-app/",
                 "text": "Markus Reuter: IT-Sicherheit - Schon wieder desaströse Sicherheitslücke in Luca App (netzpolitik.org)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "26.05.2021",
@@ -1108,7 +1236,7 @@
             "date": "27.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: luca Standorte im Saarland",
-            "scope": "Saarland",
+            "scope": "Land: Saarland",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1139,7 +1267,8 @@
                 "url": "https://t3n.de/news/sicherheitsluecke-kriminelle-1380790/",
                 "text": "Kathrin Stoll: “Sicherheitslücke bei Luca-App: Überarbeitung führt offenbar zu anderen Problemen” (t3n.de)"
             }],
-            "tags": ["denial-of-service", "ransomware", "cve"]
+            "tags": ["denial-of-service", "ransomware", "cve"],
+            "verified": true
         },
         {
             "date": "28.05.2021",
@@ -1159,7 +1288,7 @@
             "date": "28.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Alle Ihrer Behörde vorliegende Dokumente zur Luca-App / zum Luca-System",
-            "scope": "Land SH",
+            "scope": "Land: Schleswig-Holstein",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1175,7 +1304,7 @@
             "date": "29.05.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: Einsatz der Luca-App im Westerwaldkreis",
-            "scope": "Westerwaldkreis",
+            "scope": "Kreis: Westerwaldkreis",
             "text": "Ergebnis: Es ist bisher in keinem Fall zu einer Abfrage von Daten aus der Luca-App gekommen.",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1277,7 +1406,26 @@
                 "text": "Plusminus-Sendung vom 09. Juni 2021 - Video: LUCA-App – mehr Kosten als Nutzen (daserste.de)"
             }],
             "tags": ["ard", "plusminus"]
-        },{
+        },
+        {
+            "date": "10.06.2021",
+            "type": "news",
+            "title": "Interview mit Peter Lachenmair: “Kritik an der Luca App: Geht Schwaben den richtigen Weg?”",
+            "geo": {
+                "city": "Augsburg",
+                "state": "Bayern",
+                "state_short": "BY",
+                "position": {
+                    "lat": 48.37757948970364,
+                    "lng": 10.89240761580469
+                }
+            },
+            "links": [{
+                "url": "https://www.b4bschwaben.de/b4b-nachrichten/augsburg_artikel,-kritik-an-der-luca-app-geht-schwaben-den-richtigen-weg-_arid,264302.html",
+                "text": "Interview mit Peter Lachenmair: “Kritik an der Luca App: Geht Schwaben den richtigen Weg?” (b4bschwaben.de)"
+            }]
+        },
+        {
             "date": "10.06.2021",
             "type": "news",
             "title": "IRIS Gateway: Luca ist bisher nicht angeschlossen.",
@@ -1292,7 +1440,7 @@
             "date": "14.06.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: LUCA-Software",
-            "scope": "Kreis: Kreisverwaltung Mayen-Koblenz",
+            "scope": "Kreis: Mayen-Koblenz",
             "text": "",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1355,6 +1503,7 @@
             "tags": []
         },{
             "date": "15.06.2021",
+            "scope": "Kreis: Osnabrück",
             "geo": {
                 "city": "Osnabrück",
                 "state": "Niedersachsen",
@@ -1388,7 +1537,7 @@
             "date": "15.06.2021",
             "type": "fragdenstaat",
             "title": "fragdenstaat.de: LUCA System im Kreis Mayen-Koblenz",
-            "scope": "Kreis: Kreisverwaltung Mayen-Koblenz",
+            "scope": "Kreis: Mayen-Koblenz",
             "text": "Infektionsfälle bei denen in diesem Zeitraum Daten aus der Luca-App für eine Kontaktverfolgung herangezogen werden mussten oder eine Kontaktverfolgung ausschließlich mit Hilfe der LUCA-App möglich war sind nicht zu verzeichnen",
             "embed": [{
                 "type": "fragdenstaat",
@@ -1474,7 +1623,8 @@
             },{
                 "url": "https://github.com/mame82/LucaAppIssues/blob/main/abandoned_issues.md",
                 "text": "Dokumentation von weiteren Sicherheitslücken und Auffälligkeiten von Marcus Mengs (github.com)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "20.06.2021",
@@ -1509,7 +1659,7 @@
         {
             "date": "29.06.2021",
             "type": "news",
-            "scope": "Ennepe-Ruhr-Kreis",
+            "scope": "Kreis: Ennepe-Ruhr-Kreis",
             "title": "Ennepe-Ruhr-Kreis steigt aus Luca-Vertrag aus, setzt auf IRIS-Gateway",
             "text": "Der Ennepe-Ruhr-Kreis (NRW) verlängert seinen Vertrag mit Luca nicht über den Testzeitraum hinaus, teils aus finanziellen Gründen, teils, weil inzwischen das IRIS Gateway verfügbar ist und die Luca-App daran nicht angebunden ist. Damit ist der Ennepe-Ruhr-Kreis der zweite Kreis in NRW (nach Aachen), der nach dem Testzeitraum seinen Vertrag mit Luca nicht verlängert hat.",
             "links": [{
@@ -1621,6 +1771,7 @@
                     "lng": 8.311304334738912
                 }
             },
+            "scope": "Kreis: Nordfriesland",
             "title": "“Fehler bei Luca-App - Corona-Fall in Sylter „Wunderbar“: Kreis startet Quarantäne-Aufruf”",
             "text": "<blockquote>Wegen eines vom Hersteller bestätigten technischen Fehlers der Luca-App gelang es bis zuletzt nicht, die gespeicherten Daten der anderen Gäste abzurufen. Deshalb bleibt dem Gesundheitsamt des Kreises Nordfriesland nun nur noch der öffentliche Aufruf. „Die Gäste konnten sich problemlos einchecken, aber beim Übermitteln der Daten an die Behörden gab es einen technischen Fehler der Luca-App, für den ich nichts kann. Da liegt der Fehler ganz klar bei App“, so Leskau.</blockquote><br>Scheinbar bestand hier das Problem darin, dass der Location-Betreiber seinen privaten Schlüssel verloren hatte und so die Kontaktdaten nicht entschlüsseln konnte. Wenngleich er für den Erhalt des Schlüssel verantwortlich gewesen wäre, so war er sich dieser Verantwortung möglicherweise nicht bewusst, da das Kryptokonzept der Luca-App und generell die Hinweise in dem Betreiber-Interface für normale Betreiber ohne entsprechendes Wissen kaum zu durchschauen ist.",
             "links": [{
@@ -1629,7 +1780,8 @@
             },{
                 "url": "https://www.luca-app.de/bekannte-fakten-zur-kontaktnachverfolgung-wunderbar-sylt/",
                 "text": "Luca: “Bekannte Fakten zur Kontakt­nachverfolgung – Wunderbar (Sylt)” (luca-app.de)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "26.07.2021",
@@ -1664,12 +1816,13 @@
             "links": [{
                 "url": "https://www.shz.de/lokales/flensburger-tageblatt/Luca-App-kann-nicht-ausgewertet-werden-Klaehblatt-Besucherin-positiv-getestet-id33056862-amp.html",
                 "text": "Flensburger Tageblatt: “Luca-App kann nicht ausgewertet werden: „Klähblatt“-Besucherin positiv getestet” (shz.de)"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "26.07.2021",
             "type": "news",
-            "scope": "Land: BW",
+            "scope": "Land: Baden-Württemberg",
             "geo": {
                 "city": "Stuttgart",
                 "state": "Baden-Württemberg",
@@ -1694,7 +1847,8 @@
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/MalteEngeler/status/1419925654640992273"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "29.07.2021",
@@ -1717,7 +1871,8 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/bkastl/status/1420792594787971073"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "30.07.2021",
@@ -1755,6 +1910,9 @@
             },{
                 "url": "http://www.radiobielefeld.de/nachrichten/lokalnachrichten/detailansicht/spd-weist-kritik-nach-luca-app-panne-zurueck.html",
                 "text": "“SPD weist Kritik nach \"Luca-App\"- Panne zurück” (radiobielefeld.de)"
+            },{
+                "url": "https://www.westfalen-blatt.de/owl/bielefeld/spd-nimmt-stellung-zur-luca-app-panne-2405488",
+                "text": "“Kritik an CDU und FDP in Bielefeld: SPD nimmt Stellung zur Luca-App-Panne” (westfalen-blatt.de)"
             }],
             "verified": true
         },
@@ -1893,13 +2051,16 @@
             },{
                 "url": "https://www.mv-justiz.de/gerichte-und-staatsanwaltschaften/ordentliche-gerichte/oberlandesgericht-rostock/",
                 "text": "Webseite OLG Rostock (mv-justiz.de)"
+            },{
+                "url": "https://www.welt.de/regionales/mecklenburg-vorpommern/article232977881/Oberlandesgericht-ueberprueft-Kauf-der-Luca-App-durch-das-Land.html",
+                "text": "dpa: “Oberlandesgericht überprüft Kauf der Luca-App durch das Land” (welt.de)"
             }],
             "verified": false
         },
         {
             "date": "05.08.2021",
             "type": "probleme",
-            "scope": "Landkreis Breisgau-Hochschwarzwald",
+            "scope": "Kreis: Breisgau-Hochschwarzwald",
             "title": "Landkreis Breisgau-Hochschwarzwald: 5 von 7 Luca-Anfragen scheiterten",
             "text": "5 von 7 Abfragen scheiterten, die meisten waren zudem zu ungenau um Sinnvoll zu sein. Die Anzahl daraus folgender Quarantänen gering. Angebliche Luca Traces >400 - die allermeisten Fake.",
             "embed": [{
@@ -1910,7 +2071,7 @@
                 "url": "https://twitter.com/cccfr/status/1423058671781781508",
                 "text": "Tweet Chaos Computer Club Freiburg zu einer aktuellen Anfrage ans Gesundheitsamt (twitter.com)"
             }],
-            "verified": true
+            "verified": false
         }
     ]
 }
