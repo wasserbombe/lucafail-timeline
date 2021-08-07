@@ -17,7 +17,8 @@
         "broadcast": "TV- oder Radiosendung",
         "talk": "Präsentation auf Fachveranstaltung",
         "probleme": "Probleme Benutzung / UX",
-        "podcast": "Podcast"
+        "podcast": "Podcast",
+        "research": "Recherche"
     };
     var typeBSIcon = {
         "general": "info-lg",
@@ -29,7 +30,8 @@
         "broadcast": "broadcast",
         "talk": "easel",
         "probleme": "emoji-frown",
-        "podcast": "soundwave"
+        "podcast": "soundwave",
+        "research": "zoom-in"
     };
     var topics = []; 
     var scopes = []; 
@@ -450,6 +452,16 @@
         url: "/data/timeline_data.json",
         dataType: 'json',
         success: (data) => {
+            data.timeline.push({
+                "date": "XX.08.2021",
+                "type": "research",
+                "scope": "Bundesweit",
+                "title": "Kosten der Luca-App im Überblick",
+                "text": "",
+                "links": [],
+                "tags": ["kosten"],
+                "verified": true
+            });
             data.timeline = data.timeline.reverse(); 
 
             var lastYearAndMonth = null; 

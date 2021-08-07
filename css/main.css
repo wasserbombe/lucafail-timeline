@@ -123,6 +123,11 @@ TIMELINE
     left: -14px;
     right: auto;
 }
+
+.timeline li.type-research .timeline-panel {
+    width: 100%;
+}
+
 .timeline-title {
     margin-top: 0;
     color: inherit;
