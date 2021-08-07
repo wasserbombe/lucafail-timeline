@@ -457,7 +457,7 @@
                 "type": "research",
                 "scope": "Bundesweit",
                 "title": "Kosten der Luca-App im Überblick",
-                "text": "",
+                "text": "<div class=\"table-responsive\"><table class=\"table\"><thead><tr><th>Bundesland</th><th>Kosten</th><th>Kostenübernahme?</th><th>Vertragslaufzeit</th><th>Anonyme KV?</th><th>Anmerkungen</th></tr></thead><tbody><tr><td>Bayern</td><td>5.500.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Baden-Württemberg</td><td>3.700.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Niedersachsen</td><td>3.000.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Hessen</td><td>>2.000.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Rheinland-Pfalz</td><td>1.726.190 €</td><td>Laut Land: Ersten 18 Monate durch Bund</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>1.450.580 € netto; Enthalten: Implementierung und Betrieb der Software; Unterstützung bei deren Einführung auf Seiten der kommunalen und/oder Landesgesundheitsbehörden; den Betrieb und die Unterstützung bei der Einführung der Software auf Seiten der Betreiber/”Gastgeber”; Unterstützung im Rahmen der Einführung und Nutzung im jeweiligen Bundesland; Einmalbetrag für SMS-Kosten. </td></tr></tbody></table></div>",
                 "links": [],
                 "tags": ["kosten"],
                 "verified": true
