@@ -2072,6 +2072,17 @@
                 "text": "Tweet Chaos Computer Club Freiburg zu einer aktuellen Anfrage ans Gesundheitsamt (twitter.com)"
             }],
             "verified": false
+        },
+        {
+            "date": "07.08.2021",
+            "type": "news",
+            "title": "“Deutschlands Luca-Leichtsinn: Gesundheitsämter fürchten Versagen vor der vierten Welle”",
+            "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.",
+            "links": [{
+                "url": "https://www.welt.de/wirtschaft/plus232988315/Luca-App-Gesundheitsaemter-fuerchten-Versagen-vor-der-vierten-Welle.html",
+                "text": "Jan Klauth, Benedikt Fuest: “Deutschlands Luca-Leichtsinn” (welt.de)"
+            }],
+            "verified": true
         }
     ]
 }
