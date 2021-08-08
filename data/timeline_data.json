@@ -2248,6 +2248,32 @@
             "verified": false
         },
         {
+            "date": "06.08.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Effektivität des Einsatzes der Luca App zur Kontaktverfolgung im Kreis Stormarn",
+            "scope": "Landkreis: Stormarn",
+            "geo": {
+                "city": "-",
+                "state": "Schleswig-Holstein",
+                "state_short": "SH",
+                "position": {
+                    "lat": 53.730021157045044,
+                    "lng": 10.327940358328517
+                }
+            },
+            "text": "Im Kreis Stormarn hat das Gesundheitsamt insgesamt nur zwei mal versucht, Luca-Daten abzufragen. Beide Abfragen waren erfolglos.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "225804"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/225804",
+                "text": "https://fragdenstaat.de/a/225804"
+            }],
+            "tags": ["nutzung"],
+            "verified": true
+        },
+        {
             "date": "07.08.2021",
             "type": "news",
             "title": "“Deutschlands Luca-Leichtsinn: Gesundheitsämter fürchten Versagen vor der vierten Welle”",
