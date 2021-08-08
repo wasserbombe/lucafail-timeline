@@ -17,7 +17,8 @@
         "broadcast": "TV- oder Radiosendung",
         "talk": "Präsentation auf Fachveranstaltung",
         "probleme": "Probleme Benutzung / UX",
-        "podcast": "Podcast"
+        "podcast": "Podcast",
+        "research": "Recherche"
     };
     var typeBSIcon = {
         "general": "info-lg",
@@ -29,7 +30,8 @@
         "broadcast": "broadcast",
         "talk": "easel",
         "probleme": "emoji-frown",
-        "podcast": "soundwave"
+        "podcast": "soundwave",
+        "research": "zoom-in"
     };
     var topics = []; 
     var scopes = []; 
@@ -548,8 +550,46 @@
                     $content.append($text);                    
                 }
 
+                // figures
+                if (e.figures && e.figures.length > 0){
+                    e.figures.forEach((figure, i) => {
+                        if (figure.type == "table"){
+                            var $tablediv = $("<div>").addClass("table-responsive");
+                            var $table = $("<table>").addClass("table");
+                            if (figure.data){
+                                if (figure.data.header && figure.data.header.length > 0){
+                                    var $thead = $("<thead>");
+                                    var $tr = $("<tr>");
+                                    figure.data.header.forEach((header, h) => {
+                                        var $th = $("<th>");
+                                        $th.text(header);
+                                        $tr.append($th); 
+                                    })
+                                    $thead.append($tr); 
+                                    $table.append($thead);
+                                }
+                                if (figure.data.rows && figure.data.rows.length > 0){
+                                    var $tbody = $("<tbody>");
+                                    figure.data.rows.forEach((row, r) => {
+                                        var $tr = $("<tr>");
+                                        row.forEach((cell, c) => {
+                                            var $td = $("<td>");
+                                            $td.html(cell);
+                                            $tr.append($td); 
+                                        });
+                                        $tbody.append($tr); 
+                                    })
+                                    $table.append($tbody);
+                                }
+                            }
+                            $tablediv.append($table);
+                            $content.append($tablediv);
+                        }
+                    });
+                }
+
                 // new consent-based embed
-                if (e.embed && e.embed.length){
+                if (e.embed && e.embed.length > 0){
                     e.embed.forEach((embed, i) => {
                         var $embedPlaceholderDiv = $("<div>").addClass("embed").attr("data-embed-cfg", JSON.stringify(embed));
                         $content.append($embedPlaceholderDiv);
