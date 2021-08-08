@@ -57,8 +57,8 @@ TIMELINE
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
-.timeline > li.timeline-inverted + li:not(.timeline-inverted):not(.type-research),
-.timeline > li:not(.timeline-inverted) + li.timeline-inverted:not(.type-research) {
+.timeline > li.timeline-inverted:not(.type-research) + li:not(.timeline-inverted):not(.type-research),
+.timeline > li:not(.timeline-inverted) + li.timeline-inverted {
     margin-top: -60px;
 }
 .timeline > li:not(.timeline-inverted) {

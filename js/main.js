@@ -452,16 +452,6 @@
         url: "/data/timeline_data.json",
         dataType: 'json',
         success: (data) => {
-            data.timeline.push({
-                "date": "XX.08.2021",
-                "type": "research",
-                "scope": "Bundesweit",
-                "title": "Kosten der Luca-App im Überblick",
-                "text": "<div class=\"table-responsive\"><table class=\"table\"><thead><tr><th>Bundesland</th><th>Kosten</th><th>Kostenübernahme?</th><th>Vertragslaufzeit</th><th>Anonyme KV?</th><th>Anmerkungen</th></tr></thead><tbody><tr><td>Bayern</td><td>5.500.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Baden-Württemberg</td><td>3.700.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Niedersachsen</td><td>3.000.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Hessen</td><td>>2.000.000 €</td><td>?</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>-</td></tr><tr><td>Rheinland-Pfalz</td><td>1.726.190 €</td><td>Laut Land: Ersten 18 Monate durch Bund</td><td>?</td><td>Nicht möglich laut CoronaVO</td><td>1.450.580 € netto; Enthalten: Implementierung und Betrieb der Software; Unterstützung bei deren Einführung auf Seiten der kommunalen und/oder Landesgesundheitsbehörden; den Betrieb und die Unterstützung bei der Einführung der Software auf Seiten der Betreiber/”Gastgeber”; Unterstützung im Rahmen der Einführung und Nutzung im jeweiligen Bundesland; Einmalbetrag für SMS-Kosten. </td></tr></tbody></table></div>",
-                "links": [],
-                "tags": ["kosten"],
-                "verified": true
-            });
             data.timeline = data.timeline.reverse(); 
 
             var lastYearAndMonth = null; 
@@ -560,8 +550,46 @@
                     $content.append($text);                    
                 }
 
+                // figures
+                if (e.figures && e.figures.length > 0){
+                    e.figures.forEach((figure, i) => {
+                        if (figure.type == "table"){
+                            var $tablediv = $("<div>").addClass("table-responsive");
+                            var $table = $("<table>").addClass("table");
+                            if (figure.data){
+                                if (figure.data.header && figure.data.header.length > 0){
+                                    var $thead = $("<thead>");
+                                    var $tr = $("<tr>");
+                                    figure.data.header.forEach((header, h) => {
+                                        var $th = $("<th>");
+                                        $th.text(header);
+                                        $tr.append($th); 
+                                    })
+                                    $thead.append($tr); 
+                                    $table.append($thead);
+                                }
+                                if (figure.data.rows && figure.data.rows.length > 0){
+                                    var $tbody = $("<tbody>");
+                                    figure.data.rows.forEach((row, r) => {
+                                        var $tr = $("<tr>");
+                                        row.forEach((cell, c) => {
+                                            var $td = $("<td>");
+                                            $td.html(cell);
+                                            $tr.append($td); 
+                                        });
+                                        $tbody.append($tr); 
+                                    })
+                                    $table.append($tbody);
+                                }
+                            }
+                            $tablediv.append($table);
+                            $content.append($tablediv);
+                        }
+                    });
+                }
+
                 // new consent-based embed
-                if (e.embed && e.embed.length){
+                if (e.embed && e.embed.length > 0){
                     e.embed.forEach((embed, i) => {
                         var $embedPlaceholderDiv = $("<div>").addClass("embed").attr("data-embed-cfg", JSON.stringify(embed));
                         $content.append($embedPlaceholderDiv);

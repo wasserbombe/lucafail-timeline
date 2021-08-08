@@ -49,6 +49,159 @@
             "tags": ["vertrag"]
         },
         {
+            "date": "18.03.2021",
+            "type": "research",
+            "scope": "Bundesweit",
+            "title": "Recherche: Kosten der Luca-App im Überblick",
+            "text": "Die folgende Tabelle zeigt eine Übersicht über die Kosten, die in den einzelnen Bundesländern für die Luca-App angefallen sind. Die Daten wurden aus unterschiedlichen Quellen (IFG-Anfragen, Fragen in Parlamenten, Medienberichten, etc. zursammengetragen - diese Quellen sind in der Linkliste aufgelistet.",
+            "figures": [{
+                "type": "table",
+                "data": {
+                    "header": [
+                        "Bundesland",
+                        "Kosten",
+                        "Kostenübernahme?",
+                        "Vertragslaufzeit",
+                        "Anonyme KV?",
+                        "Anmerkungen"
+                    ],
+                    "rows": [
+                        [
+                            "Bayern",
+                            "5.500.000€",
+                            "?",
+                            "?",
+                            "Nicht möglich laut CoronaVO",
+                            "-"
+                        ],
+                        [
+                            "Baden-Württemberg",
+                            "3.700.000€",
+                            "?",
+                            "?",
+                            "Nicht möglich laut CoronaVO",
+                            "-"
+                        ],
+                        [
+                            "Niedersachsen",
+                            "3.000.000€",
+                            "?",
+                            "?",
+                            "Nicht möglich laut CoronaVO",
+                            "-"
+                        ],
+                        [
+                            "Hessen",
+                            ">2.000.000€",
+                            "?",
+                            "?",
+                            "Nicht möglich laut CoronaVO",
+                            "-"
+                        ],
+                        [
+                            "Rheinland-Pfalz",
+                            "1.726.190€",
+                            "Laut Land: Ersten 18 Monate durch Bund",
+                            "?",
+                            "Nicht möglich laut CoronaVO",
+                            "1.450.580 € netto; Enthalten: Implementierung und Betrieb der Software; Unterstützung bei deren Einführung auf Seiten der kommunalen und/oder Landesgesundheitsbehörden; den Betrieb und die Unterstützung bei der Einführung der Software auf Seiten der Betreiber/”Gastgeber”; Unterstützung im Rahmen der Einführung und Nutzung im jeweiligen Bundesland; Einmalbetrag für SMS-Kosten."
+                        ],
+                        [
+                            "Berlin",
+                            "1.389.920€",
+                            "Laut Land: Ersten 18 Monate durch Bund",
+                            "22.03.2021 - 21.03.2022<br>Automatische Verlängerung, Kündigungsfrist 1 Monat",
+                            "?",
+                            "1.168.000 € netto, aufgeteilt auf:<br>216.000 € Lizenz- und Wartungskosten<br>672.000 € Betrieb Backend / Infrastruktur<br>280.000 € Einmalkosten für Inbetriebnahme<br>Ab dem Jahr 2022 jährliche Kosten i.H.v. 888.000 €. Schlüsselanhänger werden getrennt verhandelt."
+                        ],
+                        [
+                            "Sachsen-Anhalt",
+                            "~1.000.000€",
+                            "?",
+                            "?",
+                            "?",
+                            "?"
+                        ],
+                        [
+                            "Schleswig-Holstein",
+                            "~1.000.000€",
+                            "?",
+                            "?",
+                            "?",
+                            "?"
+                        ],
+                        [
+                            "Brandenburg",
+                            "990.000€",
+                            "?",
+                            "?",
+                            "Nicht möglich laut VO",
+                            "?"
+                        ],
+                        [
+                            "Hamburg",
+                            "615.000€",
+                            "?",
+                            "?",
+                            "?",
+                            "460k laut Riedel?"
+                        ],
+                        [
+                            "Mecklenburg-Vorpommern",
+                            "440.000€",
+                            "?",
+                            "12.03.2021 - 11.03.2022",
+                            "?",
+                            "?"
+                        ],
+                        [
+                            "Saarland",
+                            "369.090€",
+                            "?",
+                            "?",
+                            "?",
+                            "?"
+                        ],
+                        [
+                            "Bremen",
+                            "~260.000€",
+                            "?",
+                            "?",
+                            "?",
+                            "?"
+                        ],
+                        [
+                            "Nordrhein-Westfalen",
+                            "0€",
+                            "?",
+                            "-",
+                            "?",
+                            "NRW setzt auf offene Standards wie IRIS und hat die Luca App nicht lizenziert - zumindest nicht als Bundesland."
+                        ],
+                        [
+                            "Sachsen",
+                            "0€",
+                            "?",
+                            "-",
+                            "Anonym möglich",
+                            "Einzelne Städte wie Chemnitz und Meißen nutzen Luca, Sachsen selbst setzt allerdings auf die Corona-Warn-App und schafft entsprechende rechtliche Rahmenbedingungen. "
+                        ],
+                        [
+                            "Thüringen",
+                            "?",
+                            "?",
+                            "?",
+                            "Laut Stadt Jena CWA möglich, laut Landesverordnung (!) nicht.",
+                            "Nur in einzelnen Städten? U.a. Stadt Jena"
+                        ]
+                    ]
+                }
+            }],
+            "links": [],
+            "tags": ["kosten"],
+            "verified": true
+        },
+        {
             "date": "21.03.2021",
             "type": "incident",
             "title": "Transparenz: Wichtige Dokumente / Veröffentlichungen fehlen - immer noch",
