@@ -557,7 +557,7 @@
                 }
 
                 // linklist
-                if (e.links && e.links.length){
+                if (e.links && e.links.length > 0){
                     var $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
                         var $li = $("<li>");
@@ -592,7 +592,9 @@
                     if (e.text){
                         popup_text.push(e.text); 
                     }
-                    popup_text.push('<small>'+$linklist.html()+'</small>');
+                    if (e.links && e.links.length > 0){
+                        popup_text.push('<small>'+$linklist.html()+'</small>');
+                    }
                     L.marker([e.geo.position.lat, e.geo.position.lng]).addTo(mymap).bindPopup(popup_text.join('<br>'));
                 }
 

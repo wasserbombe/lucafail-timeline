@@ -2083,6 +2083,30 @@
                 "text": "Jan Klauth, Benedikt Fuest: “Deutschlands Luca-Leichtsinn” (welt.de)"
             }],
             "verified": true
+        },
+        {
+            "date": "08.08.2021",
+            "type": "probleme",
+            "geo": {
+                "city": "Bad Doberan",
+                "state": "Mecklenburg-Vorpommern",
+                "state_short": "MV",
+                "position": {
+                    "lat": 54.107199422026305,
+                    "lng": 11.905386253333882
+                }
+            },
+            "title": "Corona-Fall bei einer Veranstaltung in Bad Doberan, der Kreis Rostock und die angeblich individuelle Luca-Warnung",
+            "text": "Das Gesundheitsamt des Landkreises Rostoock denkt, dass in Zusammenarbeit mit den Luca-Machern eine \"individuelle\" Warn-Meldung an betroffene Gäst versandt wurde. Das ist über die Luca-App aber gar nicht möglich.<br>Der Landkreis selbst leistet hier im Nachhinein sehr gute Arbeit: Er fragt bei IT-Experten und Luca-Kennern nach und korrigiert die eigene Aussage vorbildlich.",
+            "links": [{
+                "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Corona-Luca-App-Meldung-in-Bad-Doberan-nach-Party,coronavirus5600.html",
+                "text": "“Corona: Luca-App-Meldung in Bad Doberan nach Party” (ndr.de)"
+            }],
+            "embed": [{
+                "url": "https://twitter.com/kreis_rostock/status/1424291693982068738",
+                "type": "tweet"
+            }],
+            "verified": true
         }
     ]
 }
