@@ -197,7 +197,28 @@
                     ]
                 }
             }],
-            "links": [],
+            "links": [{
+                "text": "“Luca-App: Mecklenburg-Vorpommern beginnt mit Kontaktverfolgung” (heise.de)",
+                "url": "https://www.heise.de/news/Luca-App-Mecklenburg-Vorpommern-beginnen-mit-Kontaktverfolgung-5987369.html"
+            },{
+                "text": "“Check-In im Biergarten: NRW setzt auf offene Lösung” (wdr.de)",
+                "url": "https://www1.wdr.de/nachrichten/landespolitik/luca-nrw-corona-warn-app-plaene-100.html"
+            },{
+                "text": "“Kontaktverfolgung durch \"Luca\"-App – in Sachsen noch nicht überall Thema” (mdr.de)",
+                "url": "https://www.mdr.de/nachrichten/deutschland/politik/luca-app-kontaktverfolgung-100.html"
+            },{
+                "text": "“Kontaktnachverfolgung: Sachsen setzt auf Corona-Warn-App statt Luca” (t3n.de)",
+                "url": "https://t3n.de/news/kontaktnachverfolgung-sachsen-corona-warn-app-1376787/"
+            },{
+                "text": "“Digitale Kontaktverfolgung: Mehr als 20 Millionen Euro für Luca” (netzpolitik.de)",
+                "url": "https://netzpolitik.org/2021/digitale-kontaktverfolgung-fast-20-millionen-euro-fuer-luca/"
+            },{
+                "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
+                "url": "https://www.parlament-berlin.de/adosservice/18/Haupt/vorgang/h18-3379.O-v.pdf"
+            },{
+                "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
+                "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/SchrAnfr/s18-27534.pdf"
+            }],
             "tags": ["kosten"],
             "verified": true
         },
@@ -2273,7 +2294,8 @@
             "links": [{
                 "url": "https://luca.denken.io/",
                 "text": "Ralf Rottmann: #LucaApp Performance Monitor (luca.denken.io)"
-            }]
+            }],
+            "verified": false
         }
     ]
 }
