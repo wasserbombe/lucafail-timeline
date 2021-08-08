@@ -2260,6 +2260,20 @@
                 "type": "tweet"
             }],
             "verified": true
+        },
+        {
+            "date": "08.08.2021",
+            "type": "probleme",
+            "title": "“Luca Performance Monitor”: Sei ungenau, Luca selbst liefert aber keine Kennzahlen über tatsächliche Nutzung",
+            "text": "U.a. im kürzlich veröffentlichten WELT-Artikel wird das Herausrechnen der Fake Traces in Ralf Rottmann's Performance Monitor als unzuverlässig beschrieben. Luca selbst liefert aber überhaupt keine Informationen über die tatsächliche Nutzung / tatsächliche Anzahl abgerufener Traces pro Gesundheitsamt - was den Performance Monitor zur einzigen Informationsquelle der Öffentlichkeit macht, wenn es um die tatsächlichiche Verwendung der Luca-App durch Gesundheitsämter geht.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ralf/status/1424171287988080641"
+            }],
+            "links": [{
+                "url": "https://luca.denken.io/",
+                "text": "Ralf Rottmann: #LucaApp Performance Monitor (luca.denken.io)"
+            }]
         }
     ]
 }
