@@ -2276,6 +2276,15 @@
         {
             "date": "07.08.2021",
             "type": "news",
+            "geo": {
+                "city": "Neukölln",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.45256872087673,
+                    "lng": 13.447480883731151
+                }
+            },
             "title": "“Deutschlands Luca-Leichtsinn: Gesundheitsämter fürchten Versagen vor der vierten Welle”",
             "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.<blockquote>Nicolai Savaskan leitet als Amtsarzt das Gesundheitsamt in Berlin-Neukölln, Mesut Yavuz berät Gesundheitsämter in IT-Fragen. Beide wollten die Luca-App zur Rückverfolgung der Kontakte von Infizierten nutzen. Doch: Bis heute ist die Datenübertragung nicht kompatibel, auf Emails und Telefonanrufe reagiert bei Luca niemand. Ein Weckruf.</blockquote>",
             "links": [{
@@ -2374,6 +2383,26 @@
             "links": [{
                 "url": "https://fragdenstaat.de/a/224799",
                 "text": "https://fragdenstaat.de/a/224799"
+            }],
+            "verified": true
+        },
+        {
+            "date": "09.08.2021",
+            "type": "news",
+            "geo": {
+                "city": "Reinickendorf",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.63185619078751,
+                    "lng": 13.290424713981315
+                }
+            },
+            "title": "“„Sie hilft gar nicht“ - Wie sich Berliner Gesundheitsämter mit der Luca-App quälen”",
+            "text": "<blockquote>Die App hilft gar nicht, sie ist extrem ungenau, erfasst im Einzelfall riesige Personenmengen ohne räumliche Bezüge zueinander herstellen zu können, liefert also unsinnige Zusatzinformationen, aber keine relevanten Daten.</blockquote>",
+            "links": [{
+                "url": "https://plus.tagesspiegel.de/berlin/berliner-wirtschaft/sie-hilft-gar-nicht-wie-sich-berliner-gesundheitsaemter-mit-der-luca-app-quaelen-209837.html",
+                "text": "Daniel Böldt: “„Sie hilft gar nicht“ - Wie sich Berliner Gesundheitsämter mit der Luca-App quälen” (plus.tagesspiegel.de)"
             }],
             "verified": true
         }
