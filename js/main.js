@@ -31,7 +31,8 @@
         "talk": "easel",
         "probleme": "emoji-frown",
         "podcast": "soundwave",
-        "research": "zoom-in"
+        "research": "zoom-in",
+        "Kuriositäten": "stars"
     };
     var topics = []; 
     var scopes = []; 

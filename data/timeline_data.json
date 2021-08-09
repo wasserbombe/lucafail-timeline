@@ -160,7 +160,7 @@
                             "?",
                             "?",
                             "?",
-                            "?"
+                            "+45.888,68€ für Werbekampagne der Staatskanzlei (https://fragdenstaat.de/a/224799)"
                         ],
                         [
                             "Bremen",
@@ -2351,6 +2351,31 @@
                 "text": "NDR: “Corona-Ausbruch nach Party: Luca-App-Daten unbrauchbar” (ndr.de)"
             }],
             "verified": false
+        },
+        {
+            "date": "09.08.2021",
+            "type": "Kuriositäten",
+            "geo": {
+                "city": "Saarbrücken",
+                "state": "Saarland",
+                "state_short": "SA",
+                "position": {
+                    "lat": 49.238889671776654,
+                    "lng": 6.973426154273023
+                }
+            },
+            "scope": "Land: Saarland",
+            "title": "Staatskanzlei Saarland entwirft Luca-Werbekampagne „luca? – Ei Jò!“ - für 46.000€",
+            "text": "<blockquote>Die Image-Kampagne „luca? – Ei Jò!“ wurde konzeptionell durch unser Haus mit eigenen Mitarbeitern geplant und umgesetzt. [...] Lediglich Kosten für Anzeigen- und Radiowerbung fielen in Höhe von insgesamt 45.888,68€ an.</blockquote>",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "224799"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/224799",
+                "text": "https://fragdenstaat.de/a/224799"
+            }],
+            "verified": true
         }
     ]
 }
