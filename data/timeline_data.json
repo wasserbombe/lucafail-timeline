@@ -160,7 +160,7 @@
                             "?",
                             "?",
                             "?",
-                            "?"
+                            "+45.888,68€ für Werbekampagne der Staatskanzlei (https://fragdenstaat.de/a/224799)"
                         ],
                         [
                             "Bremen",
@@ -197,7 +197,28 @@
                     ]
                 }
             }],
-            "links": [],
+            "links": [{
+                "text": "“Luca-App: Mecklenburg-Vorpommern beginnt mit Kontaktverfolgung” (heise.de)",
+                "url": "https://www.heise.de/news/Luca-App-Mecklenburg-Vorpommern-beginnen-mit-Kontaktverfolgung-5987369.html"
+            },{
+                "text": "“Check-In im Biergarten: NRW setzt auf offene Lösung” (wdr.de)",
+                "url": "https://www1.wdr.de/nachrichten/landespolitik/luca-nrw-corona-warn-app-plaene-100.html"
+            },{
+                "text": "“Kontaktverfolgung durch \"Luca\"-App – in Sachsen noch nicht überall Thema” (mdr.de)",
+                "url": "https://www.mdr.de/nachrichten/deutschland/politik/luca-app-kontaktverfolgung-100.html"
+            },{
+                "text": "“Kontaktnachverfolgung: Sachsen setzt auf Corona-Warn-App statt Luca” (t3n.de)",
+                "url": "https://t3n.de/news/kontaktnachverfolgung-sachsen-corona-warn-app-1376787/"
+            },{
+                "text": "“Digitale Kontaktverfolgung: Mehr als 20 Millionen Euro für Luca” (netzpolitik.de)",
+                "url": "https://netzpolitik.org/2021/digitale-kontaktverfolgung-fast-20-millionen-euro-fuer-luca/"
+            },{
+                "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
+                "url": "https://www.parlament-berlin.de/adosservice/18/Haupt/vorgang/h18-3379.O-v.pdf"
+            },{
+                "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
+                "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/SchrAnfr/s18-27534.pdf"
+            }],
             "tags": ["kosten"],
             "verified": true
         },
@@ -2227,13 +2248,51 @@
             "verified": false
         },
         {
+            "date": "06.08.2021",
+            "type": "fragdenstaat",
+            "title": "fragdenstaat.de: Effektivität des Einsatzes der Luca App zur Kontaktverfolgung im Kreis Stormarn",
+            "scope": "Landkreis: Stormarn",
+            "geo": {
+                "city": "-",
+                "state": "Schleswig-Holstein",
+                "state_short": "SH",
+                "position": {
+                    "lat": 53.730021157045044,
+                    "lng": 10.327940358328517
+                }
+            },
+            "text": "Im Kreis Stormarn hat das Gesundheitsamt insgesamt nur zwei mal versucht, Luca-Daten abzufragen. Beide Abfragen waren erfolglos.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "225804"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/225804",
+                "text": "https://fragdenstaat.de/a/225804"
+            }],
+            "tags": ["nutzung"],
+            "verified": true
+        },
+        {
             "date": "07.08.2021",
             "type": "news",
+            "geo": {
+                "city": "Neukölln",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.45256872087673,
+                    "lng": 13.447480883731151
+                }
+            },
             "title": "“Deutschlands Luca-Leichtsinn: Gesundheitsämter fürchten Versagen vor der vierten Welle”",
-            "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.",
+            "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.<blockquote>Nicolai Savaskan leitet als Amtsarzt das Gesundheitsamt in Berlin-Neukölln, Mesut Yavuz berät Gesundheitsämter in IT-Fragen. Beide wollten die Luca-App zur Rückverfolgung der Kontakte von Infizierten nutzen. Doch: Bis heute ist die Datenübertragung nicht kompatibel, auf Emails und Telefonanrufe reagiert bei Luca niemand. Ein Weckruf.</blockquote>",
             "links": [{
                 "url": "https://www.welt.de/wirtschaft/plus232988315/Luca-App-Gesundheitsaemter-fuerchten-Versagen-vor-der-vierten-Welle.html",
                 "text": "Jan Klauth, Benedikt Fuest: “Deutschlands Luca-Leichtsinn” (welt.de)"
+            },{
+                "url": "https://www.stern.de/p/plus/gesundheit-wissenschaft/berliner-gesundheitsamt-warnt--die-luca-app-funktioniert-nicht--30651130.html",
+                "text": "Mesut Yavuz, Nicolai Savaskan: “Leiter eines Berliner Gesundheitsamts warnt: Die Luca-App funktioniert nicht!” (stern.de)"
             }],
             "verified": true
         },
@@ -2249,6 +2308,7 @@
                     "lng": 11.905386253333882
                 }
             },
+            "scope": "Kreis: Rostock",
             "title": "Corona-Fall bei einer Veranstaltung in Bad Doberan, der Kreis Rostock und die angeblich individuelle Luca-Warnung",
             "text": "Das Gesundheitsamt des Landkreises Rostoock denkt, dass in Zusammenarbeit mit den Luca-Machern eine \"individuelle\" Warn-Meldung an betroffene Gäst versandt wurde. Das ist über die Luca-App aber gar nicht möglich.<br>Der Landkreis selbst leistet hier im Nachhinein sehr gute Arbeit: Er fragt bei IT-Experten und Luca-Kennern nach und korrigiert die eigene Aussage vorbildlich.",
             "links": [{
@@ -2258,6 +2318,91 @@
             "embed": [{
                 "url": "https://twitter.com/kreis_rostock/status/1424291693982068738",
                 "type": "tweet"
+            }],
+            "verified": true
+        },
+        {
+            "date": "08.08.2021",
+            "type": "probleme",
+            "title": "“Luca Performance Monitor”: Sei ungenau, Luca selbst liefert aber keine Kennzahlen über tatsächliche Nutzung",
+            "text": "U.a. im kürzlich veröffentlichten WELT-Artikel wird das Herausrechnen der Fake Traces in Ralf Rottmann's Performance Monitor als unzuverlässig beschrieben. Luca selbst liefert aber überhaupt keine Informationen über die tatsächliche Nutzung / tatsächliche Anzahl abgerufener Traces pro Gesundheitsamt - was den Performance Monitor zur einzigen Informationsquelle der Öffentlichkeit macht, wenn es um die tatsächlichiche Verwendung der Luca-App durch Gesundheitsämter geht.",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/ralf/status/1424171287988080641"
+            }],
+            "links": [{
+                "url": "https://luca.denken.io/",
+                "text": "Ralf Rottmann: #LucaApp Performance Monitor (luca.denken.io)"
+            }],
+            "verified": false
+        },
+        {
+            "date": "09.08.2021",
+            "type": "probleme",
+            "geo": {
+                "city": "Bad Doberan",
+                "state": "Mecklenburg-Vorpommern",
+                "state_short": "MV",
+                "position": {
+                    "lat": 54.13613006005119,
+                    "lng": 11.873139832441046
+                }
+            },
+            "scope": "Kreis: Rostock",
+            "title": "Corona-Fall bei einer (weiteren!) Veranstaltung in Bad Doberan, der Kreis Rostock und nicht entschlüsselbare Luca-Daten",
+            "text": "<blockquote>Die Daten aus der Luca-App, die zum Einchecken auf der Veranstaltung benutzt wurde, sind derzeit unbrauchbar, da der Veranstalter den Datenschlüssel verlegt hat. Das Gesundheitsamt hat den Veranstalter aufgefordert, mit dem App-Anbieter zu kooperieren, um eine Lösung zu finden.</blockquote>",
+            "embed": [],
+            "links": [{
+                "url": "https://www.landkreis-rostock.de/landkreis/aktuelles/news/2021/Ticker_Covid19",
+                "text": "Landkreis Rostock: Informationen zum aktuellen Infektionsgeschehen im Landkreis Rostock (landkreis-rostock.de)"
+            },{
+                "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Corona-Ausbruch-nach-Party-Luca-App-Daten-unbrauchbar,coronavirus5596.html",
+                "text": "NDR: “Corona-Ausbruch nach Party: Luca-App-Daten unbrauchbar” (ndr.de)"
+            }],
+            "verified": false
+        },
+        {
+            "date": "09.08.2021",
+            "type": "Kuriositäten",
+            "geo": {
+                "city": "Saarbrücken",
+                "state": "Saarland",
+                "state_short": "SA",
+                "position": {
+                    "lat": 49.238889671776654,
+                    "lng": 6.973426154273023
+                }
+            },
+            "scope": "Land: Saarland",
+            "title": "Staatskanzlei Saarland entwirft Luca-Werbekampagne „luca? – Ei Jò!“ - für 46.000€",
+            "text": "<blockquote>Die Image-Kampagne „luca? – Ei Jò!“ wurde konzeptionell durch unser Haus mit eigenen Mitarbeitern geplant und umgesetzt. [...] Lediglich Kosten für Anzeigen- und Radiowerbung fielen in Höhe von insgesamt 45.888,68€ an.</blockquote>",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "224799"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/224799",
+                "text": "https://fragdenstaat.de/a/224799"
+            }],
+            "verified": true
+        },
+        {
+            "date": "09.08.2021",
+            "type": "news",
+            "geo": {
+                "city": "Reinickendorf",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.63185619078751,
+                    "lng": 13.290424713981315
+                }
+            },
+            "title": "“„Sie hilft gar nicht“ - Wie sich Berliner Gesundheitsämter mit der Luca-App quälen”",
+            "text": "<blockquote>Die App hilft gar nicht, sie ist extrem ungenau, erfasst im Einzelfall riesige Personenmengen ohne räumliche Bezüge zueinander herstellen zu können, liefert also unsinnige Zusatzinformationen, aber keine relevanten Daten.</blockquote>",
+            "links": [{
+                "url": "https://plus.tagesspiegel.de/berlin/berliner-wirtschaft/sie-hilft-gar-nicht-wie-sich-berliner-gesundheitsaemter-mit-der-luca-app-quaelen-209837.html",
+                "text": "Daniel Böldt: “„Sie hilft gar nicht“ - Wie sich Berliner Gesundheitsämter mit der Luca-App quälen” (plus.tagesspiegel.de)"
             }],
             "verified": true
         }
