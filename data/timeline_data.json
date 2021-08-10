@@ -80,7 +80,7 @@
                             "?",
                             "?",
                             "Nicht möglich laut CoronaVO",
-                            "-"
+                            "3.117.000€ laut https://fragdenstaat.de/a/216802"
                         ],
                         [
                             "Niedersachsen",
@@ -654,6 +654,20 @@
         },
         {
             "date": "12.04.2021",
+            "scope": "Land: Hessen",
+            "type": "fragdenstaat",
+            "title": "Hessiche Staatskanzlei sieht für die Herausgabe des Vertragswerks ein „Verfahren bei Beteiligung Dritter“ und veranschlagt Kosten bis zu 600€",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216803"
+            }],
+            "links": [],
+            "tags": ["vertrag","hessen"],
+            "verified": true
+        },
+        {
+            "date": "12.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Luca-App ist nicht barrierefrei",
             "text": "<ul><li>Etablierte Standards für Barrierefreiheit in Apps wurden nicht umgesetzt</li><li>Nur eine barrierefreie App ermöglicht allen Menschen, diese uneingeschränkt zu nutzen</li><li>Bei der Beschaffung und Auftragsvergabe wurde nicht an Barrierefreiheit gedacht.</li></ul>",
@@ -885,6 +899,23 @@
         },
         {
             "date": "28.04.2021",
+            "scope": "Land: Baden-Württemberg",
+            "type": "fragdenstaat",
+            "title": "Sozialministerium Baden-Württemberg nennt Luca-Kosten, veröffentlicht aber nicht den Vertragt",
+            "text": "... aufgrund \"derzeit noch laufenden vergaberechtlichen Fristen\".",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216802"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216802",
+                "text": "https://fragdenstaat.de/a/216802"
+            }],
+            "verified": true,
+            "tags": ["vertrag"]
+        },
+        {
+            "date": "28.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Betreiber können sich an Orten registrieren, für die gar kein Gesundheitsamt angebunden ist.",
             "text": "... damit werden zwar Daten erfasst, doch kann/wird diese niemand abrufen. Damit verstoßen Betreiber gegen die vor Ort geltenden Corona-Verordnungen - möglicherweise, ohne zu das zu wissen.",
@@ -977,6 +1008,23 @@
                 "text": "https://fragdenstaat.de/a/219710"
             }],
             "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "03.05.2021",
+            "scope": "Land: Schleswig-Holstein",
+            "type": "fragdenstaat",
+            "title": "Das Ministerium für Soziales, Gesundheit, Jugend, Familie und Senioren Schleswig-Holstein veröffentlicht Luca-Vertrag",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216804"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/216804",
+                "text": "https://fragdenstaat.de/a/216804"
+            }],
+            "verified": true,
+            "tags": ["vertrag"]
         },
         {
             "date": "03.05.2021",
@@ -1082,6 +1130,27 @@
                 "text": "Textarchiv Deutscher Bundestag: Wie es um Sicherheit und Nutzen von Clusterer­kennungs-Apps steht"
             }],
             "tags": ["bundestag","linus-neumann","bianca-kastl","digitale-agenda"]
+        },
+        {
+            "date": "05.05.2021",
+            "scope": "Stadt: Suhl",
+            "type": "fragdenstaat",
+            "geo": {
+                "city": "Suhl",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.609053456031276,
+                    "lng": 10.69413194801157
+                }
+            },
+            "title": "Stadt Suhl: Upload des Vertrags wegen Vertraulichkeitsklausel nicht möglich",
+            "text": "Die Stadt Suhl kann den Vertrag nicht uploaden, da mit dem Vertragspartner eine entsprechende Vertraulichkeitsklausel geschlossen wurde.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217273"
+            }],
+            "links": []
         },
         {
             "date": "05.05.2021",
@@ -1811,6 +1880,23 @@
             }]
         },
         {
+            "date": "22.06.2021",
+            "scope": "Bundesweit",
+            "type": "fragdenstaat",
+            "title": "Bundesdruckerei beantwortet keine IFG-Anfragen zu Luca, da sie juristische Person des Privatrechts ist",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "219865"
+            }],
+            "links": [{
+                "url": "https://fragdenstaat.de/a/219865",
+                "text": "https://fragdenstaat.de/a/219865"
+            }],
+            "verified": true,
+            "tags": ["bundesdruckerei"]
+        },
+        {
             "date": "24.06.2021",
             "type": "news",
             "title": "Bundesamt für Sicherheit in der Informationstechnik (BSI): “Wir konzentrieren unsere Ressourcen weiterhin auf die intensive und entwicklungsbegleitende Prüfung der Corona-Warn-App”",
@@ -1907,6 +1993,53 @@
             "links": [{
                 "url": "https://www.it.nrw/land-nrw-sichert-nutzung-der-gateway-loesung-iris-connect-und-setzt-auf-anbieter-pluralitaet-bei-der",
                 "text": "Pressemitteilung Landesbetrieb IT.NRW: Land NRW sichert Nutzung der Gateway-Lösung IRIS connect und setzt auf Anbieter-Pluralität bei der digitalen Kontaktnachverfolgung (it.nrw)"
+            }]
+        },
+        {
+            "date": "07.07.2021",
+            "scope": "Stadt: Jena",
+            "type": "fragdenstaat",
+            "geo": {
+                "city": "Jena",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.92787198022735,
+                    "lng": 11.58495066269543
+                }
+            },
+            "title": "Stadt Jena: Luca-Vertrag per IFG-Anfrage zugänglich",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217359"
+            }],
+            "links": [],
+            "tags": ["vertrag","jena"],
+            "verified": true
+        },
+        {
+            "date": "12.07.2021",
+            "scope": "Stadt: Solingen",
+            "type": "fragdenstaat",
+            "geo": {
+                "city": "Solingen",
+                "state": "Nordrhein-Westfalen",
+                "state_short": "NRW",
+                "position": {
+                    "lat": 51.18290053365026,
+                    "lng": 7.071432144620613
+                }
+            },
+            "title": "Kommunalverwaltung Solingen verweigert die Auskunft zu Beschaffungsprozess und datenschutzrechtlicher Bewertung",
+            "text": "Die Kommunalverwaltung Solingen verweigert die Auskunft zu Beschaffungsprozess und datenschutzrechtlicher Bewertung",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "224806"
+            }],
+            "links": [{
+                "url": "https://www.solingen.de/de/aktuelles/pressemitteilung-2021-91-pe/",
+                "title": "Pressemitteilung \"Coronapandemie: Kontaktnachverfolgung leicht gemacht - Luca-App für Solingen einsatzfähig\""
             }]
         },
         {
@@ -2233,6 +2366,20 @@
         },
         {
             "date": "05.08.2021",
+            "scope": "Land: Brandenburg",
+            "type": "fragdenstaat",
+            "title": "Land Brandenburg lehnt Offenlegung des Luca-Vertrages wegen \"Betriebs- und Geschäftsgeheimnissen\" ab",
+            "text": "",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "216805"
+            }],
+            "links": [],
+            "tags": ["vertrag","brandenburg"],
+            "verified": true
+        },
+        {
+            "date": "05.08.2021",
             "type": "probleme",
             "scope": "Kreis: Breisgau-Hochschwarzwald",
             "title": "Landkreis Breisgau-Hochschwarzwald: 5 von 7 Luca-Anfragen scheiterten",
@@ -2246,6 +2393,30 @@
                 "text": "Tweet Chaos Computer Club Freiburg zu einer aktuellen Anfrage ans Gesundheitsamt (twitter.com)"
             }],
             "verified": false
+        },
+        {
+            "date": "06.08.2021",
+            "scope": "Landkreis: Ravensburg",
+            "type": "fragdenstaat",
+            "geo": {
+                "city": "Ravensburg",
+                "state": "Baden-Württemberg",
+                "state_short": "BW",
+                "position": {
+                    "lat": 47.76917389849329,
+                    "lng": 9.586845889420148
+                }
+            },
+            "title": "Landkreis Ravensburg: Keine Antwort auf IFG-Anfrage zur Luca-App",
+            "text": "Der Landkreis Ravensburg antwortet auch nach mehrmaliger Kontaktaufnahme des zuständigen LfDI Baden-Württemberg nicht.",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "217308"
+            }],
+            "links": [{
+                "url": "https://www.rv.de/site/LRA-RV/node/18330428",
+                "text": "“Luca-App jetzt auch im Landkreis Ravensburg freigeschaltet” (rv.de)"
+            }]
         },
         {
             "date": "06.08.2021",
@@ -2295,6 +2466,30 @@
                 "text": "Mesut Yavuz, Nicolai Savaskan: “Leiter eines Berliner Gesundheitsamts warnt: Die Luca-App funktioniert nicht!” (stern.de)"
             }],
             "verified": true
+        },
+        {
+            "date": "08.08.2021",
+            "scope": "Land: Bremen",
+            "type": "fragdenstaat",
+            "geo": {
+                "city": "Bremen",
+                "state": "Bremen",
+                "state_short": "HB",
+                "position": {
+                    "lat": 53.074717294283936,
+                    "lng": 8.830514283271228
+                }
+            },
+            "title": "Gesundheitsamt Bremen antwortet nicht auf IFG-Anfragen bezüglich Luca - auch nicht nach 3,5 Monaten",
+            "text": "Das Gesundheitsamt Bremen antwortet nicht auf Informationsfreiheits-Anfragen via fragdenstaat.de mit Bezug auf Luca - auch nicht nach 3,5 Monaten",
+            "embed": [{
+                "type": "fragdenstaat",
+                "id": "218870"
+            }],
+            "links": [{
+                "url": "https://www.butenunbinnen.de/nachrichten/politik/bremen-luca-app-kontakte-nachverfolgung-100.html",
+                "text": "Artikel, auf den sich die IFG-Anfrage bezieht: “Bremen setzt auf Luca-App zur Kontaktverfolgung” (butenunbinnen.de)"
+            }]
         },
         {
             "date": "08.08.2021",
