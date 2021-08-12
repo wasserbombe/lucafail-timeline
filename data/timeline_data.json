@@ -482,6 +482,18 @@
         },
         {
             "date": "04.04.2021",
+            "type": "doc",
+            "scope": "Bundesweit",
+            "title": "Bianca Kastl: “Was muss eigentlich getan werden, damit aus digitalen Tracinginformationen Infektionen oder zumindest Hinweise darauf erkennbar werden?”",
+            "text": "",
+            "links": [{
+                "url": "https://bkastl.de/notes/eine-kleine-contact-tracing-datenforensik-luca-corona-warnapp",
+                "text": "Bianca Kastl: “Eine kleine Contact Tracing Datenforensik: Was muss eigentlich getan werden, damit aus digitalen Tracinginformationen Infektionen oder zumindest Hinweise darauf erkennbar werden?” (bkastl.de)"
+            }],
+            "verified": true
+        },
+        {
+            "date": "04.04.2021",
             "type": "incident",
             "title": "Schwachstelle: Beliebige 6-stellige Zahl funktioniert als TAN",
             "text": "Impact: >20.000 Schlüsselanhänger",
@@ -1063,6 +1075,18 @@
                 "text": "https://fragdenstaat.de/a/219744"
             }],
             "tags": ["vertrag","kosten"]
+        },
+        {
+            "date": "03.05.2021",
+            "type": "news",
+            "scope": "Bundesweit",
+            "title": "“Bei Luca zahlen wir für ein Jahr Millionen und haben danach gar nichts”",
+            "text": "Interview mit Linus Neumann vom Chaos Computer Club e.V. in der Süddeutschen Zeitung (volles Interview siehe unten):<blockquote>Mit der Luca-App bevorzugen viele Bundesländer eine Lösung, die erstens die Aufgabe ineffizienter erfüllt als andere Apps, und auch noch riskant ist. Als würde man nukleare Braunkohlekraftwerke bauen - es gibt keinen Grund, das zu machen.</blockquote><blockquote>Wenn das Bundesgesundheitsministerium für viele Millionen Euro eine App baut, dann ist es doch ein Unding, dass dieses Ministerium noch einen Markt für mehrere privatwirtschaftliche Produkte entstehen lässt.</blockquote><blockquote>Man sagt also: \"Wir haben 'ne super App, die hat Millionen gekostet - aber deine Adresse musst du trotzdem noch in diesem zweiten System hier lassen.\"</blockquote><div class=\"quote-origin\">— Linus Neumann, Chaos Computer Club e.V.</div>",
+            "links": [{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-gesundheitsamt-berlin-neukoelln-datenschutz-1.5378628",
+                "text": "Jannis Brühl (SZ): “Software gegen Covid-19: \"Bei Luca zahlen wir für ein Jahr Millionen und haben danach gar nichts\"” (sueddeutsche.de)"
+            }],
+            "verified": true
         },
         {
             "date": "04.05.2021",
@@ -2158,6 +2182,25 @@
             "verified": true
         },
         {
+            "date": "28.07.2021",
+            "type": "news",
+            "geo": {
+                "city": "Hameln",
+                "state": "Niedersachsen",
+                "state_short": "NS",
+                "position": {
+                    "lat": 52.101401220652576,
+                    "lng": 9.361865826651593
+                }
+            },
+            "title": "Hameln: “Gaststätten überprüfen Nutzung von Luca-App nicht”",
+            "links": [{
+                "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/Hameln-Gaststaetten-ueberpruefen-Nutzung-von-Luca-App-nicht,aktuellhannover9080.html",
+                "text": "“Hameln: Gaststätten überprüfen Nutzung von Luca-App nicht” (ndr.de)"
+            }],
+            "verified": false
+        },
+        {
             "date": "29.07.2021",
             "type": "news",
             "title": "“Luca-App erkennt die Klammern in Halle (Saale) nicht”",
@@ -2457,13 +2500,15 @@
                 }
             },
             "title": "“Deutschlands Luca-Leichtsinn: Gesundheitsämter fürchten Versagen vor der vierten Welle”",
-            "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.<blockquote>Nicolai Savaskan leitet als Amtsarzt das Gesundheitsamt in Berlin-Neukölln, Mesut Yavuz berät Gesundheitsämter in IT-Fragen. Beide wollten die Luca-App zur Rückverfolgung der Kontakte von Infizierten nutzen. Doch: Bis heute ist die Datenübertragung nicht kompatibel, auf Emails und Telefonanrufe reagiert bei Luca niemand. Ein Weckruf.</blockquote>",
+            "text": "<blockquote>Die Luca-App gilt als große Hilfe im Kampf gegen Corona. Doch seit ihrem Start sorgt sie immer wieder für Ärger. Wie effektiv die Software in den Gesundheitsämtern wirklich ist, ist unklar. Jetzt mehren sich Anzeichen, dass die Anwendung mit einer vierten Welle überfordert wäre. Die Sicherheit ist nicht mehr gewährleistet.</blockquote>Auch manche Apotheken <a href=\"https://www.instagram.com/p/CSSE18QMT_k/\" target=\"_blank\">warnen</a> vor diesem Hintergrund, weil der Nutzen der App weiterhin unklar ist.<blockquote>Nicolai Savaskan leitet als Amtsarzt das Gesundheitsamt in Berlin-Neukölln, Mesut Yavuz berät Gesundheitsämter in IT-Fragen. Beide wollten die Luca-App zur Rückverfolgung der Kontakte von Infizierten nutzen. Doch: Bis heute ist die Datenübertragung nicht kompatibel, auf Emails und Telefonanrufe reagiert bei Luca niemand. Ein Weckruf.</blockquote><blockquote>„Durch ihre Zukunftsversprechungen haben die Luca-Macher die Gesundheitsämter mitten in der vierten Welle in eine Abhängigkeit gebracht.“ Für das effektive Brechen von Infektionsketten sei die Software aber zum jetzigen Stand nicht geeignet.</blockquote>",
             "links": [{
                 "url": "https://www.welt.de/wirtschaft/plus232988315/Luca-App-Gesundheitsaemter-fuerchten-Versagen-vor-der-vierten-Welle.html",
                 "text": "Jan Klauth, Benedikt Fuest: “Deutschlands Luca-Leichtsinn” (welt.de)"
             },{
                 "url": "https://www.stern.de/p/plus/gesundheit-wissenschaft/berliner-gesundheitsamt-warnt--die-luca-app-funktioniert-nicht--30651130.html",
                 "text": "Mesut Yavuz, Nicolai Savaskan: “Leiter eines Berliner Gesundheitsamts warnt: Die Luca-App funktioniert nicht!” (stern.de)"
+            },{
+                "text": "DIE WELT, 7. August 2021, Seite 11"
             }],
             "verified": true
         },
@@ -2519,6 +2564,7 @@
         {
             "date": "08.08.2021",
             "type": "probleme",
+            "scope": "Bundesweit",
             "title": "“Luca Performance Monitor”: Sei ungenau, Luca selbst liefert aber keine Kennzahlen über tatsächliche Nutzung",
             "text": "U.a. im kürzlich veröffentlichten WELT-Artikel wird das Herausrechnen der Fake Traces in Ralf Rottmann's Performance Monitor als unzuverlässig beschrieben. Luca selbst liefert aber überhaupt keine Informationen über die tatsächliche Nutzung / tatsächliche Anzahl abgerufener Traces pro Gesundheitsamt - was den Performance Monitor zur einzigen Informationsquelle der Öffentlichkeit macht, wenn es um die tatsächlichiche Verwendung der Luca-App durch Gesundheitsämter geht.",
             "embed": [{
@@ -2584,6 +2630,7 @@
         {
             "date": "09.08.2021",
             "type": "news",
+            "scope": "Land: Berlin",
             "geo": {
                 "city": "Reinickendorf",
                 "state": "Berlin",
@@ -2598,6 +2645,62 @@
             "links": [{
                 "url": "https://plus.tagesspiegel.de/berlin/berliner-wirtschaft/sie-hilft-gar-nicht-wie-sich-berliner-gesundheitsaemter-mit-der-luca-app-quaelen-209837.html",
                 "text": "Daniel Böldt: “„Sie hilft gar nicht“ - Wie sich Berliner Gesundheitsämter mit der Luca-App quälen” (plus.tagesspiegel.de)"
+            }],
+            "verified": true
+        },
+        {
+            "date": "10.08.2021",
+            "type": "news",
+            "geo": {
+                "city": "Düsseldorf",
+                "state": "Nordrhein-Westfalen",
+                "state_short": "NRW",
+                "position": {
+                    "lat": 51.22575304752256,
+                    "lng": 6.785976563528657
+                }
+            },
+            "scope": "Land: Nordrhein-Westfalen",
+            "title": "“Land soll vor Luca-App warnen”",
+            "text": "<blockquote>31 Städte in NRW nutzen die umstrittene Software zur Kontaktdatenerfassung. Die Grünen finden das problematisch. Denn immer wieder gab es Hinweise von Sicherheitsexperten.</blockquote><blockquote>Anders als beispielsweise die Corona-Warn-App des Bundes sei die Luca-App aber nicht in der Lage zu erkennen, ob registrierte Personen auch enge Kontaktpersonen seien, die dann in Quarantäne müssten.</blockquote>",
+            "links": [{
+                "url": "https://rp-online.de/wirtschaft/die-gruenen-land-nrw-soll-vor-luca-app-warnen_aid-62077023",
+                "text": "Florian Rinke: “Wegen Sicherheitsbedenken - Grüne: Land soll vor Luca-App warnen” (rp-online.de)"
+            }],
+            "verified": false
+        },
+        {
+            "date": "11.08.2021",
+            "type": "doc",
+            "scope": "Bundesweit",
+            "title": "Bianca Kastl: “Was muss eigentlich getan werden, damit mit digitalen Tracinginformationen Infektionsketten unterbrochen werden können?”",
+            "text": "Ein wirklich interessanter Überblick von Bianca Kastl darüber, was es braucht, digitale Tracing-Lösungen in der Pandemiebekämpfung sinnvoll einzusetzen.<blockquote>Mit der Corona-Warn-App existiert eigentlich eine stark unterschätzte digitale Möglichkeit zur schnellen Information von Personen in möglichen Infektionsszenarien – nur wurde diese lange schlecht vermarktet und eingebunden. Der Versuch der Marktdominanz von Seiten Luca hat auch eine sinnige Anwendung der CWA in vielen Bundesländern eher gehemmt; Sprecher von Ländern wie Baden-Württemberg bezeichnen Luca zwar als «scharfes Schwert», verkennen aber den beschränkten Anwendungsfall und die prinzipbedingt beschränkte Möglichkeit, Infektionsketten wirklich nachhaltig beeinflussen zu können. Es fehlt der ganzheitliche Blick für die Probleme in der Kontaktnachverfolgung.</blockquote><blockquote>Viel Aufwand und Geld ist in Luca geflossen in den letzten Monaten, wenig davon wird sich auszahlen. Symptomatisch für die Art von Digitalisierung, die in Deutschland oftmals betrieben wird. Alte Prozesse werden in Teilbereichen digitalisiert, aber nicht konsequent neu digital gedacht.</blockquote>",
+            "links": [{
+                "url": "https://bkastl.de/notes/contact-tracing-todo-cwa-luca-corona-warn-app",
+                "text": "Bianca Kastl: “Eine kleine Contact Tracing To Do Liste: Was muss eigentlich getan werden, damit mit digitalen Tracinginformationen Infektionsketten unterbrochen werden können?” (bkastl.de)"
+            }],
+            "verified": true
+        },
+        {
+            "date": "11.08.2021",
+            "type": "probleme",
+            "geo": {
+                "city": "Berlin",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.45265372711133,
+                    "lng": 13.447030276443856
+                }
+            },
+            "scope": "Land: Berlin",
+            "title": "“Gesundheitsamt Berlin-Neukölln: Wir können nicht sinnvoll mit Luca arbeiten”",
+            "text": "Das Gesundheitsamt Berlin-Neukölln berichtet in einem Interview mit der Süddeutschen Zeitung ausführlich über Probleme mit Luca:<blockquote>Alles, was die Gesundheitsämter entlasten könnte, ist willkommen. [...] Luca hätte eine echte Hilfe sein können.</blockquote><blockquote>Nach zwei Monaten hatten wir immer noch keine Antworten auf unsere Fragen und keine Hilfe für die technischen Probleme. Die Luca-Macher sind abgetaucht, statt uns zu unterstützen. In einer Pandemie geht es um Gesundheit, teils um Leben um Tod, da können wir nicht kleinen Firmen hinterherrennen, die offenichtlich überfordert sind.</blockquote><blockquote>Mehrere Berliner Ämter haben ähnliche Erfahrungen mit Luca gemacht. Dort ist die Software installiert, aber sie arbeiten nicht damit. Bundesweit sind uns weitere solcher Fälle bekannt. Luca ist dort eine Art Karteileiche. Wir zweifeln stark an den Zahlen.</blockquote><blockquote>Als Arzt weiß ich nicht, was die politisch Verantwortlichen dazu bewogen hat, sich für Luca zu entscheiden.</blockquote><blockquote>[...] Ich habe das als  Einschüchterung er lebt. [...] Im Grunde haben wir alle das gleiche Ziel, wir wollen die Pandemie eindämmen. Uns geht es nicht darum, Luca mies zumachen. Wir glauben nur, dass öffentlich über diese Probleme diskutiert werden sollte.</blockquote><div class=\"quote-origin\">— Amtsarzt Nicolai Savaskan</div>Die Luca-Macher kommentierten die Aussagen und bezeichneten Aussagen eines Textes als “pauschale, substanzlose Vorwürfe und nachweisbare falsche Aussagen” (Stellungnahme siehe SZ-Quelle unten)",
+            "links": [{
+                "text": "Süddeutsche Zeitung Nr. 183, 11. August 2021, Seite 22"
+            },{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-gesundheitsamt-berlin-neukoelln-datenschutz-1.5378628",
+                "text": "Simon Hurtz (SZ): Gesundheitsamt Berlin-Neukölln: Wir können nicht sinnvoll mit Luca arbeiten (sueddeutsche.de)"
             }],
             "verified": true
         }

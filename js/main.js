@@ -16,7 +16,7 @@
         "event": "Veranstaltung",
         "broadcast": "TV- oder Radiosendung",
         "talk": "Präsentation auf Fachveranstaltung",
-        "probleme": "Probleme Benutzung / UX",
+        "probleme": "Probleme im Betrieb: Benutzung / UX / Support",
         "podcast": "Podcast",
         "research": "Recherche"
     };
@@ -599,11 +599,16 @@
 
                 // linklist
                 if (e.links && e.links.length > 0){
+                    $content.append($("<hr>"));  
                     var $linklist = $("<ul>");
                     e.links.forEach((link,i) => {
                         var $li = $("<li>");
-                        var $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
-                        $li.append($a);
+                        if (link.url){
+                            var $a = $("<a>").attr("href", link.url).attr("title", "Externer Link: "+link.text).attr("target", "_blank").text(link.text);
+                            $li.append($a);
+                        } else {
+                            $li.html(link.text);
+                        }
                         $linklist.append($li);
                     });
                     
