@@ -2703,6 +2703,29 @@
                 "text": "Simon Hurtz (SZ): Gesundheitsamt Berlin-Neukölln: Wir können nicht sinnvoll mit Luca arbeiten (sueddeutsche.de)"
             }],
             "verified": true
+        },
+        {
+            "date": "12.08.2021",
+            "type": "news",
+            "scope": "Landkreis: Ludwigslust-Parchim",
+            "geo": {
+                "city": "Spornitz / Parchim",
+                "state": "Mecklenburg-Vorpommern",
+                "state_short": "MV",
+                "position": {
+                    "lat": 53.410885351444,
+                    "lng": 11.711778694986144
+                }
+            },
+            "title": "Landkreis Ludwigslust-Parchim: Luca hat funktioniert",
+            "text": "Einer Meldung des Landkreis Ludwigslust-Parchim zufolge wurde die Luca-App dort zum ersten Mal erfolgreich eingesetzt.<blockquote>Was bei diesen Daten auffällt, ist die hohe Qualität und Vollständigkeit. Keine ausgedachten Fantasienamen, keine 0190-Telefonnummern. Und im Gegensatz zu handgeschriebenen Zetteln sind die digitalen Daten einwandfrei zu entziffern und sind gleich zur weiteren Verarbeitung vorbereitet</blockquote>Allerdings: Luca wurde im März beschafft, Mecklenburg-Vorpommern war eines der ersten Länder, das Luca noch dazu in der Corona-Verordnung verankerte - der erste Einsatz erfolgte somit erst nach 5 (!) Monaten.",
+            "links": [{
+                "url": "https://www.kreis-lup.de/index.php?FID=3378.6953.1&ModID=255&object=tx,3378.5.1",
+                "text": "Kreis Ludwigslust-Parchim: “Luca-App erstmals im Einsatz” (kreis-lup.de)"
+            },{
+                "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Corona-feiert-mit-Von-der-Gartenparty-zur-Disco,coronavirus5624.html",
+                "text": "“Corona feiert mit: Von der Gartenparty zur Disco” (ndr.de)"
+            }]
         }
     ]
 }
