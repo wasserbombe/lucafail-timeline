@@ -2662,12 +2662,15 @@
             },
             "scope": "Land: Nordrhein-Westfalen",
             "title": "“Land soll vor Luca-App warnen”",
-            "text": "<blockquote>31 Städte in NRW nutzen die umstrittene Software zur Kontaktdatenerfassung. Die Grünen finden das problematisch. Denn immer wieder gab es Hinweise von Sicherheitsexperten.</blockquote><blockquote>Anders als beispielsweise die Corona-Warn-App des Bundes sei die Luca-App aber nicht in der Lage zu erkennen, ob registrierte Personen auch enge Kontaktpersonen seien, die dann in Quarantäne müssten.</blockquote>",
+            "text": "<blockquote>31 Städte in NRW nutzen die umstrittene Software zur Kontaktdatenerfassung. Die Grünen finden das problematisch. Denn immer wieder gab es Hinweise von Sicherheitsexperten.</blockquote><blockquote>Anders als beispielsweise die Corona-Warn-App des Bundes sei die Luca-App aber nicht in der Lage zu erkennen, ob registrierte Personen auch enge Kontaktpersonen seien, die dann in Quarantäne müssten.</blockquote>Nexenio reagiert auf die Kritik (Link s.u.):<blockquote>„Es laufen dauerhaft sowohl interne als auch externe Überprüfungen“, sagte Geschäftsführer Patrick Hennig.</blockquote><blockquote>In NRW wurden von Gesundheitsämtern laut Nexenio in 247 Fällen Kontaktdaten abgefragt. Dabei wurden 38.194 Kontaktdaten entschlüsselt.</blockquote>",
             "links": [{
                 "url": "https://rp-online.de/wirtschaft/die-gruenen-land-nrw-soll-vor-luca-app-warnen_aid-62077023",
                 "text": "Florian Rinke: “Wegen Sicherheitsbedenken - Grüne: Land soll vor Luca-App warnen” (rp-online.de)"
+            },{
+                "url": "https://rp-online.de/nrw/landespolitik/luca-app-macher-nexenio-wehrt-sich-gegen-kritik-der-gruenen-in-nrw_aid-62130747",
+                "text": "Florian Rinke: “Lösung zur Kontakdatenerfassung - Macher der Luca-App wehren sich gegen Grünen-Kritik” (rp-online.de)"
             }],
-            "verified": false
+            "verified": true
         },
         {
             "date": "11.08.2021",
