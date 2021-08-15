@@ -1938,7 +1938,8 @@
             "embed": [{
                 "type": "tweet",
                 "url": "https://twitter.com/mame82/status/1408392734755508225"
-            }]
+            }],
+            "verified": true
         },
         {
             "date": "29.06.2021",
@@ -2729,6 +2730,62 @@
                 "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Corona-feiert-mit-Von-der-Gartenparty-zur-Disco,coronavirus5624.html",
                 "text": "“Corona feiert mit: Von der Gartenparty zur Disco” (ndr.de)"
             }]
+        },
+        {
+            "date": "13.08.2021",
+            "type": "news",
+            "scope": "Land: Berlin",
+            "title": "SPIEGEL: “Technische Probleme, unzuverlässige Daten: »Es ist nicht ersichtlich, was der Einsatz der Luca-App bringen würde«”",
+            "text": "",
+            "links": [{
+                "url": "https://www.spiegel.de/netzwelt/apps/luca-app-gesundheitsaemter-kritisieren-dass-die-app-kaum-weiterhilft-a-472ea68e-0002-0001-0000-000178784919",
+                "text": "Patrick Beuth, Katrin Elger, Max Hoppenstedt, Martin U. Müller und Marcel Pauly (SPIEGEL 33/2021): “Technische Probleme, unzuverlässige Daten: »Es ist nicht ersichtlich, was der Einsatz der Luca-App bringen würde«” (spiegel.de)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/PatrickBeuth/status/1426474516931297280"
+            }],
+            "verified": false
+        },
+        {
+            "date": "15.08.2021",
+            "type": "doc",
+            "title": "Bianca Kastl: “Luca wurde trotzdem gekauft [...], weil $irgendwasDigitalesHilftJaImmer”",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/bkastl/status/1426855637183614976"
+            }]
+        },
+        {
+            "date": "15.08.2021",
+            "type": "incident",
+            "title": "Schwachstelle: Registrierung mit Testdaten weiterhin möglich",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/Sero2nin/status/1426785643385036800"
+            }],
+            "verified": false
+        },
+        {
+            "date": "15.08.2021",
+            "type": "news",
+            "title": "“Problem bei Kontaktnachverfolgung: Krisentreffen wegen Luca-App in Berlin”",
+            "scope": "Land: Berlin",
+            "geo": {
+                "city": "Berlin",
+                "state": "Berlin",
+                "state_short": "BE",
+                "position": {
+                    "lat": 52.50624853793523,
+                    "lng": 13.400570427165
+                }
+            },
+            "text": "<blockquote>Die Gesundheitsverwaltung hat Vertreter der Bezirke, Gesundheitsämter und des Luca-Herstellers Culture4life laut Einladungsschreiben zu einem „offenen Austausch“ am Dienstag geladen. Doch allzu offen soll der Austausch dann doch nicht sein: „Fragestellungen rund um den Datenschutz und Beteiligungsverfahren in Bezug auf Luca“ sollen in einem gesonderten Termin erörtert werden.</blockquote>",
+            "links": [{
+                "url": "https://www.tagesspiegel.de/berlin/problem-bei-kontaktnachverfolgung-krisentreffen-wegen-luca-app-in-berlin/27519876.html",
+                "text": "Sabine Beikler: “Problem bei Kontaktnachverfolgung: Krisentreffen wegen Luca-App in Berlin” (tagesspiegel.de)"
+            }],
+            "verified": false
         }
     ]
 }
