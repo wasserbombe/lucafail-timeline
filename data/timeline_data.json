@@ -2687,6 +2687,8 @@
         },
         {
             "date": "11.08.2021",
+            "dt_created": "2021-08-11 18:00:00",
+            "dt_updated": "2021-08-16 18:00:00",
             "type": "probleme",
             "geo": {
                 "city": "Berlin",
@@ -2705,6 +2707,9 @@
             },{
                 "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-gesundheitsamt-berlin-neukoelln-datenschutz-1.5378628",
                 "text": "Simon Hurtz (SZ): Gesundheitsamt Berlin-Neukölln: Wir können nicht sinnvoll mit Luca arbeiten (sueddeutsche.de)"
+            },{
+                "url": "https://www.morgenpost.de/vermischtes/article233048205/corona-luca-app-behoerden-urteil.html",
+                "text": "Berliner Morgenpost: “Luca-App: Gesundheitsämter fällen vernichtendes Urteil” (morgenpost.de)"
             }],
             "verified": true
         },
@@ -2748,6 +2753,23 @@
             "verified": false
         },
         {
+            "date": "14.08.2021",
+            "dt_created": "2021-08-16 18:00:00",
+            "dt_updated": "2021-08-16 18:00:00",
+            "type": "news",
+            "title": "“Unbrauchbare Daten? Gesundheitsämter nutzen Luca-App kaum”",
+            "scope": "Bundesweit",
+            "text": "<blockquote>Andere Gesundheitsämter berichten zudem, dass Daten von Personen geliefert werden, die den Infizierten womöglich nie nahe gekommen seien. Das kann passieren, wenn es für eine Location nur einen QR-Code gibt und nicht, wie bei Restaurants, an jedem Tisch.</blockquote>",
+            "links": [{
+                "url": "https://www.mopo.de/hamburg/gesundheitsaemter-kritisieren-luca-app/",
+                "text": "Hamburger Morgenpost: “Unbrauchbare Daten? Gesundheitsämter nutzen Luca-App kaum” (mopo.de)"
+            },{
+                "url": "https://www.welt.de/politik/deutschland/article233150537/Corona-Luca-App-Viele-Gesundheitsaemter-nutzen-Daten-gar-nicht.html",
+                "text": "WELT: “Umfrage zeigt - Viele Gesundheitsämter nutzen Luca-Daten gar nicht” (welt   .de)"
+            }],
+            "verified": false
+        },
+        {
             "date": "15.08.2021",
             "type": "doc",
             "title": "Bianca Kastl: “Luca wurde trotzdem gekauft [...], weil $irgendwasDigitalesHilftJaImmer”",
@@ -2784,6 +2806,82 @@
             "links": [{
                 "url": "https://www.tagesspiegel.de/berlin/problem-bei-kontaktnachverfolgung-krisentreffen-wegen-luca-app-in-berlin/27519876.html",
                 "text": "Sabine Beikler: “Problem bei Kontaktnachverfolgung: Krisentreffen wegen Luca-App in Berlin” (tagesspiegel.de)"
+            }],
+            "verified": false
+        },
+        {
+            "date": "16.08.2021",
+            "dt_created": "2021-08-16 18:00:00",
+            "dt_updated": "2021-08-16 18:00:00",
+            "type": "news",
+            "title": "“Bremer Kontaktnachverfolgung: Amt nutzt Luca-App keine zehn Mal”",
+            "scope": "Land: Bremen",
+            "geo": {
+                "city": "Bremen",
+                "state": "Bremen",
+                "state_short": "BE",
+                "position": {
+                    "lat": 53.07453753664653,
+                    "lng": 8.830794714860492
+                }
+            },
+            "text": "<blockquote>Ein gutes System, aber wenig kooperative Infizierte und keine zehn Nutzungen – ob sich die Viertelmillion gelohnt hat, die Bremen an die Betreiberfirma Culture4live für die einjährige Lizenz bezahlt hat?</blockquote><blockquote>Technische Probleme, unbrauchbare Daten: zu viel Aufwand für zu wenig Nutzen.<br>Da ist nichts mehr zu retten. Aber doch viel zu lernen – für alle künftigen Fälle, in denen Software beschafft werden soll. [...] die mit dem besten Marketing haben nämlich nicht unbedingt das beste Produkt.</blockquote>",
+            "links": [{
+                "url": "https://taz.de/Bremer-Kontaktnachverfolgung/!5793395/",
+                "text": "Alina Götz: “Bremer Kontaktnachverfolgung: Amt nutzt Luca-App keine zehn Mal” (taz.de)"
+            },{
+                "url": "https://taz.de/Archiv-Suche/!5789471/",
+                "text": "“Zahl des Tages: 21,3 Millionen” (taz.de)"
+            },{
+                "url": "https://taz.de/Maengel-der-Luca-App/!5789480/",
+                "text": "Svenja Bergt: “Mängel der Luca-App: Ein lehrreiches Debakel” (taz.de)"
+            }],
+            "verified": false
+        },
+        {
+            "date": "16.08.2021",
+            "dt_created": "2021-08-16 18:00:00",
+            "dt_updated": "2021-08-16 18:00:00",
+            "type": "doc",
+            "title": "CCC Freiburg: Eine Qualifizierte Schätzung zur tatsächlichen Nutzung der Luca-App",
+            "scope": "Bundesweit",
+            "text": "Der Chaos Computer Club Freiburg hat schon in den letzten Wochen wichtige Hinweise und Zahlen zur tatsächlichen Nutzung der Luca-App gepostet (siehe Einträge in dieser Timeline). Nun wurden die Daten tagesbasiert aufbereitet:",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/cccfr/status/1427254119778160650"
+            }],
+            "verified": false,
+            "tags": ["nutzung","ccc-freiburg","zahlen"]
+        },
+        {
+            "date": "16.08.2021",
+            "dt_created": "2021-08-16 20:00:00",
+            "dt_updated": "2021-08-16 20:00:00",
+            "type": "event",
+            "scope": "Land: Berlin",
+            "title": "Sitzung des Ausschuss für Kommunikationstechnologie und Datenschutz (KTDat) des Abgeordnetenhauses Berlin",
+            "text": "<i>(wir warten auf die Live-Aufzeichnung der Ausschusssitzung; diese wird dann hier verlinkt)</i>",
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/Tobias_Schulze/status/1427259413778292737"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/schluesselburg/status/1427260171236093952"
+            }],
+            "verified": false,
+            "tags": ["agh-berlin","abgeordnetenhaus-berlin","berlin","ktdat"]
+        },
+        {
+            "date": "16.08.2021",
+            "dt_created": "2021-08-16 20:00:00",
+            "dt_updated": "2021-08-16 20:00:00",
+            "type": "news",
+            "title": "“Berliner Datenschutzbeauftragte hält Missbrauch der Luca-App für möglich”",
+            "scope": "Land: Berlin",
+            "text": "<blockquote>Laut Datenschutzbeauftragter gebe es nach wie vor keine ausreichende Rechtsgrundlage für den Einsatz der App</blockquote><blockquote>Die Zentralisierung der Datenverarbeitung in einer Hand sei „ein erhebliches Risiko“. Ein Missbrauch sei „in dem System nach wie vor möglich“. Man könnte die App zwar datenschutzgerecht gestalten. Aber es kämen immer neue Probleme hinzu.</blockquote>",
+            "links": [{
+                "url": "https://www.tagesspiegel.de/berlin/verschluesselung-entspricht-nicht-den-anforderungen-berliner-datenschutzbeauftragte-haelt-missbrauch-der-luca-app-fuer-moeglich/27523070.html",
+                "text": "Sabine Beikler: “Berliner Datenschutzbeauftragte hält Missbrauch der Luca-App für möglich” (tagesspiegel.de)"
             }],
             "verified": false
         }
