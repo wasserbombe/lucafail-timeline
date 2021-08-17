@@ -341,9 +341,12 @@ li.type-news .timeline-badge {
 }
 
 blockquote {
-    text-indent: 0.45em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: -0.45em;
     font-style: italic;
     font-family: Georgia;
+    quotes: "“" "”" "‘" "’";
 }
 @supports ( hanging-punctuation: first) {
     blockquote {
@@ -358,6 +361,9 @@ blockquote::before {
 blockquote::after {
     content: close-quote;
 }
-blockquote {
-    quotes: "“" "”" "‘" "’";
+div.quote-origin {
+    margin-top: -5px;
+    padding-right: 15px;
+    text-align: right;
+    margin-bottom: 10px;
 }
