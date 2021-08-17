@@ -4,7 +4,7 @@
 
     $cache_fn = __DIR__.'/cache/lucastats.json';
     $cache_fn_fallback = __DIR__.'/cache/lucastats_end.json';
-    $cachetime = 60*60*1; 
+    $cachetime = 60*30; 
 
     $res = array(
         "code" => 200,
@@ -47,7 +47,7 @@
                             $text = $p->textContent; 
                             if (in_array($text, $existing)) continue; 
                             $existing[] = $text; 
-                            if (preg_match("~^([0-9,\.]*) (Mio)?([a-z :0-9-]*) Stand: (.+) Uhr~i", $text, $matches)){
+                            if (preg_match("~^>? ?([0-9,\.]*) (Mio)?([a-z :0-9-]*) Stand: (.+) Uhr~i", $text, $matches)){
                                 $metric = array("_raw" => $text); 
                                 $val = $matches[1];
                                 $val = str_replace(".", "", $val); 

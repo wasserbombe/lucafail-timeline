@@ -148,11 +148,11 @@
                         ],
                         [
                             "Mecklenburg-Vorpommern",
-                            "440.000€",
+                            "440.776",
                             "?",
                             "12.03.2021 - 11.03.2022",
                             "?",
-                            "?"
+                            "230.400€ für Software, Betrieb & Co.<br>140.000€ für SMS-Verifizierung"
                         ],
                         [
                             "Saarland",
@@ -218,6 +218,9 @@
             },{
                 "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
                 "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/SchrAnfr/s18-27534.pdf"
+            },{
+                "text": "Landtag Mecklenburg-Vorpommern: KLEINE ANFRAGE der Abgeordneten Eva-Maria Kröger, Fraktion DIE LINKE - Lizenzkauf Luca-App",
+                "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/49980/lizenzkauf_luca_app.pdf"
             }],
             "tags": ["kosten"],
             "verified": true
@@ -2883,6 +2886,21 @@
                 "url": "https://www.tagesspiegel.de/berlin/verschluesselung-entspricht-nicht-den-anforderungen-berliner-datenschutzbeauftragte-haelt-missbrauch-der-luca-app-fuer-moeglich/27523070.html",
                 "text": "Sabine Beikler: “Berliner Datenschutzbeauftragte hält Missbrauch der Luca-App für möglich” (tagesspiegel.de)"
             }],
+            "verified": false
+        },
+        {
+            "date": "17.08.2021",
+            "dt_created": "2021-08-17 14:30:00",
+            "dt_updated": "2021-08-17 14:32:00",
+            "type": "news",
+            "title": "“IT-Sicherheit: Innenministerium lehnt Prüfung der Luca-App ab”",
+            "scope": "Bundesweit",
+            "text": "<blockquote>[...] hat sich das hessische Innenministerium an das BSI gewandt und eine umfassende Prüfung der »Luca App inklusive der dazugehörigen Systeminfrastruktur« angefordert</blockquote><blockquote>Nach SPIEGEL-Information hat sich das Bundesinnenministerium einer entsprechenden Überprüfung durch das BSI in den Weg gestellt.</blockquote><blockquote>Bei dem abgelehnten Ersuchen aus Hessen ging es nicht nur um die App, sondern um eine umfassendere Analyse des »Gesamtsystems inklusive aller Komponenten der dahinter stehenden IT-Infrastruktur«</blockquote><div class=\"quote-origin\">— SPIEGEL</div>",
+            "links": [{
+                "url": "https://www.spiegel.de/netzwelt/netzpolitik/luca-app-innenministerium-lehnt-sicherheitspruefung-ab-a-a6dba9ed-6d12-4ead-945a-bf06d6fc0795",
+                "text": "Max Hoppenstedt: “IT-Sicherheit: Innenministerium lehnt Prüfung der Luca-App ab” (spiegel.de)"
+            }],
+            "tags": ["bsi","security","security-audit"],
             "verified": false
         }
     ]
