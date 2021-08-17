@@ -341,7 +341,7 @@ li.type-news .timeline-badge {
 }
 
 blockquote {
-    text-indent: -0.45em;
+    text-indent: 0.45em;
     font-style: italic;
     font-family: Georgia;
 }
