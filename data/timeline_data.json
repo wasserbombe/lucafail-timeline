@@ -2909,7 +2909,16 @@
         {
             "date": "18.08.2021",
             "dt_created": "2021-08-18 17:10:00",
-            "dt_updated": "2021-08-18 17:10:00",
+            "dt_updated": "2021-08-18 17:15:00",
+            "geo": {
+                "city": "Weimar",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.98375369711976,
+                    "lng": 11.323272646863934
+                }
+            },
             "type": "news",
             "title": "“Weimar: Modellregion verabschiedet sich von der Luca-App”",
             "scope": "Stadt: Weimar",
@@ -2917,6 +2926,9 @@
             "links": [{
                 "url": "https://www.t-online.de/digital/handy/id_90648404/weimar-modellregion-verabschiedet-sich-von-der-luca-app.html",
                 "text": "“Testlauf ernüchternd - Stadt stoppt Einsatz der Luca-App” (t-online.de)"
+            },{
+                "url": "https://www.mdr.de/nachrichten/thueringen/luca-app-corona-sormas-100.html",
+                "text": "MDR Thüringen: “Erwartungen nicht erfüllt: Luca-App in Thüringen nur noch wenig genutzt” (mdr.de)"
             }],
             "tags": ["weimar","modellregion","kündigung"],
             "verified": false
