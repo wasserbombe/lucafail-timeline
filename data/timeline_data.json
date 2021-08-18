@@ -2420,6 +2420,9 @@
             "embed": [{
                 "type": "fragdenstaat",
                 "id": "216805"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/Chrysocyon42/status/1427749913232920576"
             }],
             "links": [],
             "tags": ["vertrag","brandenburg"],
@@ -2901,6 +2904,21 @@
                 "text": "Max Hoppenstedt: “IT-Sicherheit: Innenministerium lehnt Prüfung der Luca-App ab” (spiegel.de)"
             }],
             "tags": ["bsi","security","security-audit"],
+            "verified": false
+        },
+        {
+            "date": "18.08.2021",
+            "dt_created": "2021-08-18 17:10:00",
+            "dt_updated": "2021-08-18 17:10:00",
+            "type": "news",
+            "title": "“Weimar: Modellregion verabschiedet sich von der Luca-App”",
+            "scope": "Stadt: Weimar",
+            "text": "<blockquote>Über die App seien dem Gesundheitsamt viel zu viele Daten übermittelt worden, die für eine effektive Nachverfolgung von Kontakten gar nicht notwendig gewesen wären. \"Die Nachverfolgung mit Zettel und Stift war etwas eingrenzbarer.\"</blockquote><blockquote>\"Wir setzen unsere Hoffnungen jetzt auf die 'Iris'-Schnittstelle des Landes\"</blockquote>",
+            "links": [{
+                "url": "https://www.t-online.de/digital/handy/id_90648404/weimar-modellregion-verabschiedet-sich-von-der-luca-app.html",
+                "text": "“Testlauf ernüchternd - Stadt stoppt Einsatz der Luca-App” (t-online.de)"
+            }],
+            "tags": ["weimar","modellregion","kündigung"],
             "verified": false
         }
     ]
