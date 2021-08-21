@@ -2862,20 +2862,24 @@
         {
             "date": "16.08.2021",
             "dt_created": "2021-08-16 20:00:00",
-            "dt_updated": "2021-08-16 20:00:00",
+            "dt_updated": "2021-08-19 16:30:00",
             "type": "event",
             "scope": "Land: Berlin",
             "title": "Sitzung des Ausschuss für Kommunikationstechnologie und Datenschutz (KTDat) des Abgeordnetenhauses Berlin",
-            "text": "<i>(wir warten auf die Live-Aufzeichnung der Ausschusssitzung; diese wird dann hier verlinkt)</i>",
+            "text": "Die Berliner Beauftragte für Datenschutz und Informationsfreiheit, Maja Smoltczyk, auf der Sitzung des KTDat-Ausschusses:<br>Man sei von der Gesundheitsverwaltung zu keinem Stadium eingebunden worden. Man sei aber damit beschäftigt, die Luca-App \"sehr intensiv\" zu prüfen. Kritikpunkte seien mittlerweile teilweise nachgebessert worden, aber es gebe weiterhin nachhaltige und problematische Mängel. Die schwersten: <ul><li>es gebe nach wie vor <b>keine ausreichende Rechtsgrundlage</b> für den Einsatz der Luca-App</li><li>die <b>Zentralisierung der Datenverarbeitung</b> in einer Hand sei ein Risiko</li><li>inzwischen sei eine Verschlüsselung eingebaut worden, diese entspreche aber <b>nicht den Anforderungen</b></li><li>es würden <b>mehr Verkehrsdaten als erforderlich</b> gessammelt, dadurch sei auch ohne die eigentlichen (verschlüsselten) Daten eine <b>Identifizierung möglich</b></li><li>durch die Zentralität und die Möglichkeit, beliebige Anfragen an beliebige Veranstalter zu stellen, sei es möglich, dies zu manipulieren. Im schlimmsten Fall sei es möglich, <b>mit den Zugangsdaten nur eines Gesundheitsamtes auf sämtliche Daten zuzugreifen, die bundesweit gespeichert wurden</b>.</li><li>es sei möglich, <b>unbefugte Eintragungen (Check-Ins)</b> vorzunehmen => Missbrauch</li><li>das System könne mit <b>falschen Daten</b> geflutet werden, was die <b>Effizienz</b> infrage stelle</li></ul><br><div class=\"quote-origin\">— Berliner Beauftragte für Datenschutz und Informationsfreiheit, Maja Smoltczyk</div>",
             "embed": [{
+                "type": "youtube",
+                "id": "YO4hJckYTTM",
+                "startAt": 700
+            },{
                 "type": "tweet",
                 "url": "https://twitter.com/Tobias_Schulze/status/1427259413778292737"
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/schluesselburg/status/1427260171236093952"
             }],
-            "verified": false,
-            "tags": ["agh-berlin","abgeordnetenhaus-berlin","berlin","ktdat"]
+            "verified": true,
+            "tags": ["agh-berlin","abgeordnetenhaus-berlin","berlin","ktdat","maja-smoltczyk"]
         },
         {
             "date": "16.08.2021",
@@ -2931,6 +2935,41 @@
                 "text": "MDR Thüringen: “Erwartungen nicht erfüllt: Luca-App in Thüringen nur noch wenig genutzt” (mdr.de)"
             }],
             "tags": ["weimar","modellregion","kündigung"],
+            "verified": true
+        },
+        {
+            "date": "19.08.2021",
+            "dt_created": "2021-08-19 17:10:00",
+            "dt_updated": "2021-08-19 17:31:00",
+            "type": "news",
+            "title": "“Große Versprechen, nichts dahinter? Die Kritik an der Luca-App im Überblick”",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.rnd.de/digital/luca-app-grosse-versprechen-nichts-dahinter-die-kritik-im-ueberblick-UKWJZPDCDZGMZHD7EW34SLHDNI.html",
+                "text": "Redaktionsnetzwerk Deutschland (RND): “Große Versprechen, nichts dahinter? Die Kritik an der Luca-App im Überblick” (rnd.de)"
+            },{
+                "url": "https://www.rnd.de/panorama/luca-app-was-bleibt-ist-nicht-mehr-als-ein-maerchen-IJ3NA7VSQZDPDCUVLOCYJQGFWQ.html",
+                "text": "Matthias Schwarzer (RND): “Kommentar: Luca-App: Was bleibt, ist nicht mehr als ein Märchen” (rnd.de)"
+            }],
+            "tags": ["kritik"],
+            "verified": false
+        },
+        {
+            "date": "21.08.2021",
+            "dt_created": "2021-08-21 20:30:00",
+            "dt_updated": "2021-08-21 20:30:00",
+            "type": "news",
+            "title": "NRW: Neue Corona-Verordnung ohne Kontaktdatenerfassung => Rechtsgrundlage fehlt?",
+            "text": "<blockquote>In Nordrhein-Westfalen könnte die Luca-Nutzung für Gastronomen demnächst sogar rechtlich problematisch werden. Seit Freitag ist die Nachverfolgung von Kontakten dort nicht mehr Teil der Corona-Schutzverordnung, für die Erhebung der Daten ohne Einwilligung fehlt also die Rechtsgrundlage. Luca habe die Betreiber in einer Mail darüber informiert, schreibt Luca-Sprecher Markus Bublitz auf Twitter. Von einem rechtlichen Risiko ist in den Mails allerdings keine Rede.</blockquote><div class=\"quote-origin\">— Süddeutsche Zeitung</div>",
+            "scope": "Land: Nordrhein-Westfalen",
+            "links": [{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-kritik-1.5388136",
+                "text": "Süddeutsche Zeitung: “Die teure App, die wenig bringt” (sueddeutsche.de)"
+            },{
+                "url": "https://www.land.nrw/de/pressemitteilung/neue-coronaschutzverordnung-nordrhein-westfalen-setzt-beschluesse-der-bund-laender",
+                "text": "Wir in NRW: “Pressemitteilung: Neue Coronaschutzverordnung – Nordrhein-Westfalen setzt Beschlüsse der Bund-Länder-Beratungen konsequent um” (land.nrw)"
+            }],
+            "tags": ["verordnung","dsgvo","rechtsgrundlage"],
             "verified": false
         }
     ]

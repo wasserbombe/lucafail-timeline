@@ -53,7 +53,9 @@
                                 $val = str_replace(".", "", $val); 
                                 $val = str_replace(",", ".", $val); 
                                 $val = doubleval($val); 
-                                if (preg_match("~mio~i", $matches[2])) $val = $val * 1000000;
+
+                                // don't ask... 
+                                if (preg_match("~mio~i", $matches[2]) && $val <= 1000000) $val = $val * 1000000;
                                 $metric["value"] = $val;
                                 
                                 $ex_name = explode(" innerhalb der letzten ", $matches[3]);

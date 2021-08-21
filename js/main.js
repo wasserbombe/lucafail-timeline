@@ -128,8 +128,12 @@
             type: "iframe",
             embed: ($container, cfg) => {
                 if (cfg && typeof cfg.id !== "undefined"){
+                    var ytsrc = "https://www.youtube-nocookie.com/embed/" + cfg.id;
+                    if (cfg.startAt){
+                        ytsrc += "?start=" + cfg.startAt; 
+                    }
                     var $iframe = $("<iframe>")
-                                    .attr("src", "https://www.youtube-nocookie.com/embed/" + cfg.id)
+                                    .attr("src", ytsrc)
                                     .attr("allowfullscreen","")
                                     .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
                                     .attr("frameborder", "0")
