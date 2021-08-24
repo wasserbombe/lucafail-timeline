@@ -2956,6 +2956,30 @@
         },
         {
             "date": "21.08.2021",
+            "dt_created": "2021-08-24 11:30:00",
+            "dt_updated": "2021-08-24 11:30:00",
+            "type": "news",
+            "title": "Analyse der Berliner Zeitung: “Hamburgs Finanzsenator: „Bei uns arbeitet die Luca-App bisher reibungslos“”",
+            "text": "<blockquote>Nexenio sei mit Luca aber vor allem angetreten, millionenfache Zettelwirtschaft in Bars und Restaurants [...] durch ein schnelles und intuitives Programm zu ersetzen</blockquote><div class=\"quote-origin\">— Berliner Zeitung (zitiert Patrick Hennig)</div><br>Beworben wurde die Ausgabe der Berliner Zeitung u.a. mit folgendem Text: <blockquote>[Es] werden immer wieder Presseberichte gestreut, die die Luca-Gründer zu diskreditieren versuchen. [...] ob in Deutschland Interessensgruppen existieren, die am Scheitern der Luca-App interessiert sein könnten. </blockquote><div class=\"quote-origin\">— Berliner Zeitung (der Abschnitt wurde von der Seite entfernt; das Original ist <a href=\"https://web.archive.org/web/20210820182006/https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124\" target=\"_blank\">hier</a> als Snapshot zu finden)</div><br><blockquote>Das ist interessant: Die Berliner Zeitung unterstellt unabhängigen Journalist:innen wie mir ein „Interesse“ am Scheitern der #LucaApp und vergisst zu erwähnen, dass ihr Verleger Holger Friedrich mit seinem Unternehmen Core Nexenio berät und damit ein Interesse am Erfolg hat.</blockquote><div class=\"quote-origin\">— Eva Wolfangel auf <a href=\"https://twitter.com/evawolfangel/status/1429000321339207682\" target=\"_blank\">Twitter</a></div>",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.berliner-zeitung.de/wochenende/hamburgs-finanzsenator-bei-uns-arbeitet-die-luca-app-bisher-reibungslos-li.178129",
+                "text": "Berliner Zeitung: “Analyse - Hamburgs Finanzsenator: „Bei uns arbeitet die Luca-App bisher reibungslos“” (berliner-zeitung.de)"
+            },{
+                "url": "https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124",
+                "text": "Berliner Zeitung: “Die Wochenausgabe der Berliner Zeitung vom 21. August 2021” (berliner-zeitung.de)"
+            },{
+                "url": "https://web.archive.org/web/20210820182006/https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124",
+                "text": "Snapshot der Originalseite der Berliner Zeitung: “Die Wochenausgabe der Berliner Zeitung vom 21. August 2021” (archive.org)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/evawolfangel/status/1429000321339207682"
+            }],
+            "tags": []
+        },
+        {
+            "date": "21.08.2021",
             "dt_created": "2021-08-21 20:30:00",
             "dt_updated": "2021-08-21 20:30:00",
             "type": "news",
@@ -2968,8 +2992,29 @@
             },{
                 "url": "https://www.land.nrw/de/pressemitteilung/neue-coronaschutzverordnung-nordrhein-westfalen-setzt-beschluesse-der-bund-laender",
                 "text": "Wir in NRW: “Pressemitteilung: Neue Coronaschutzverordnung – Nordrhein-Westfalen setzt Beschlüsse der Bund-Länder-Beratungen konsequent um” (land.nrw)"
+            },{
+                "url": "https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/2400406/kontaktnachverfolgung-entfaellt-in-nrw",
+                "text": "Neue Osnabrücker Zeitung: “ADIEU ZETTEL UND LUCA-APP: Keine Kontaktnachverfolgung mehr in NRW – 3G-Regel in Kraft getreten” (noz.de)"
             }],
             "tags": ["verordnung","dsgvo","rechtsgrundlage"],
+            "verified": false
+        },
+        {
+            "date": "22.08.2021",
+            "dt_created": "2021-08-24 11:30:00",
+            "dt_updated": "2021-08-24 11:30:00",
+            "type": "news",
+            "title": "Kommentar in der Süddeutschen Zeitung: “Luca-App - Aus der Zauber”",
+            "text": "<blockquote>Die Luca-App sollte der Heilsbringer für die überlasteten Gesundheitsämter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken über Alternativen zu machen.</blockquote><div class=\"quote-origin\">— Max Muth (Süddeutsche Zeitung)</div>",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-corona-warn-app-1.5388866",
+                "text": "Kommentar in der Süddeutschen Zeitung: “Luca-App - Aus der Zauber” (sueddeutsche.de)"
+            },{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-kritik-1.5388136",
+                "text": "Süddeutsche Zeitung: “Die teure App, die wenig bringt” (sueddeutsche.de)"
+            }],
+            "tags": ["kommentar"],
             "verified": false
         }
     ]
