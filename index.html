@@ -66,164 +66,6 @@
                     Der folgende Abschnitt stellt verschiedene Tipps zur Nutzung der Luca-App vor, die sich aus vergangenen Ereignissen oder Mängeln der App ergeben haben - und die wir eigentlich vonseiten der Luca-Macher erwartet hätten. Die Liste ist nicht abschließend und wird immer wieder ergänzt. Um sie möglichst kurz zu halten, haben wir auf eine Referenz zu den entsprechenden Ereignissen verzichtet.
                 </p>
                 <div class="accordion" id="accordionSummary">
-                    <!--
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <b>15 Gründe, warum wir über die Luca-App reden sollten</b>
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionSummary">
-                            <div class="accordion-body">
-                                <p>
-                                    Die Luca-App verspricht vielen Kommunen, Einzelhändlern, Veranstaltern vor allem aber auch Besuchern und Gästen eine Öffnungsperspektive. Gerne wird Luca als “Allheilmittel” beworben und von Ländern und Kommunen teils aus blindem Aktionismus eingekauft und genutzt.<br>
-                                    Während die Idee und die Motivation hinter Luca sehr ehrwürdig sind, klaffen gleichzeitig eine Reihe von Sicherheits- und Konzept-Lücken auf, die - bevor eine Entscheidung zum Einsatz von Luca oder dagegen gefällt wird - unbedingt besprochen werden sollten. Im schlimmsten Fall könnten diese Mängel dazu führen, das Leben von Menschen nicht zu verbessern, sondern sie in unmittelbare gesundheitliche, politische oder …. Gefahr zu bringen. <br>
-                                    Daher eine kleine Sammlung von Gründen, warum es wichtig ist, über Luca nachzudenken und Luca kritisch zu hinterfragen, bevor die App eingesetzt werden kann. 
-                                </p>
-                                <ol>
-                                    <li>
-                                        <b>Tragweite</b><br>
-                                        Luca wurde von den meisten Bundesländern für ein Jahr erworben. Somit ist ein fast flächendeckender Einsatz denkbar, im Zweifelsfall sind bis zu 83,1 Millionen Einwohner betroffen. Verbunden mit der zentralen Speicherung der Daten (siehe unten) stellt das Luca-System daher nicht nur eine zentrale Anlaufstelle zur Kontaktnachverfolgung dar, sondern leider auch einen Angriffsvektor für Datenmanipulationen, -fälschung und Datenabgriffen. 
-                                    </li>
-                                    <li>
-                                        <b>Verifikation von Eingaben</b><br>
-                                        <ul>
-                                            <li>SMS-Bestätigung wird nur clientseitig geprüft und ist somit aushebelbar.</li>
-                                            <li>Es können beliebige Daten (Name, Anschrift, Telefon, Handynummer) eingetragen werden, die Handynummer auch unabhängig vorangegangener SMS-Verifikation. Damit kann bereits bei der Registrierung ohne jegliches technisches Know-How eine andere Person angegeben werden.  </li>
-                                        </ul>
-                                        <u>⇒ Mögliche Folgen:</u> Accounts können massenhaft automatisiert angelegt werden; die bei Luca eingegebenen Daten sind möglicherweise falsch. 
-                                    </li>
-                                    <li>
-                                        <b>Zentrale Speicherung von Daten</b><br>
-                                        Personenbezogene Daten von Nutzern, Daten von Location-Betreibern sowie Informationen über Check-Ins werden zentral auf Servern eines privaten Unternehmens gespeichert. Der Schutz eines Webdienstes ist erfahrungsgemäß auch für große Unternehmen eine Herausforderung; und hier reden wir von potenziell bis zu 83 Mio. Bundesbürgern. <br>
-                                        Daraus ergeben sich - neben der politischen und rechtlichen Problematik, dass Daten in diesem Größenumfang auf Servern in privater Hand gespeichert werden - weitere Probleme: 
-                                        <ul>
-                                            <li>Daten sind an zentraler Stelle abgreifbar, siehe “LucaTrack” oder öffentliche, in Echtzeit verfolgbare Statistiken über aktuell eingecheckte Personen.</li>
-                                            <li>Daten sind an zentraler Stelle manipulierbar</li>
-                                            <li>Monitoring von Check-In-Vorgängen bei bekannter Location-ID ist in Echtzeit möglich.</li>
-                                            <li>Ein Eingriff in die Datenerfassung ist seitens der Systembetreiber an zentraler Stelle möglich - diese Möglichkeit wurde von den Luca-Machern bereits ausgenutzt.</li>
-                                            <li>Bewegungsprofile von Nutzern lassen sich dadurch sehr einfach erstellen, trotz verschlüsselter Daten alleine basierend auf den Meta-Daten.</li>
-                                            <li>Zum Check-in ist eine Internetverbindung zum Luca-System notwendig, d.h. das System und die zugrundeliegende sowie übermittelnde Infrastruktur (z.B. Handynetz) muss verfügbar sein.</li>
-                                        </ul>
-
-                                        <u>⇒ Mögliche Folgen:</u> Bewegungsprofile werden erstellt und genutzt/missbraucht; es ist überhaupt erst attraktiv, als Unberechtigter Daten abzugreifen; Luca “filtert” Check-Ins; ohne Cloud kein Check-In. 
-                                    </li>
-                                    <li>
-                                        <b>Missbrauchspotential und Plausibilität</b><br>
-                                        <ul>
-                                            <li>Es ist möglich, beliebige andere Personen einzuchecken - siehe luci-app.de. </li>
-                                            <li>Es ist möglich, an jeder Location einzuchecken, ohne dass die Plausibilität des Check-Ins überprüft wird (hunderte Kilometer Abstand in wenigen Minuten), “Check-In von überall”.</li>
-                                            <li>Es ist möglich, “anonym” einzuchecken (“Lucia” generiert eine zufällige ID, zu der dann keine Informationen im Luca-System gefunden werden, wenn das Gesundheitsamt Daten abrufen möchte)</li>
-                                            <li>Diese Punkte sind in großem Stil automatisiert (bspw. über Skripte) möglich. Damit ist Luca gefährlicher als die bisherige “Zettelwirtschaft”, bei der eine Abgabe mehrer Zettel sofort aufgefallen wäre und auf eine Location begrenzt ist.</li>
-                                            <li>Locations sind oftmals über eine größere Fläche verteilt - bspw. der Osnabrücker Zoo oder der Maxipark Hamm - Check-In bei nur einer Location für so eine große Fläche macht keinen Sinn und erzeugt nur unbrauchbare Daten. Die zeitliche und örtliche Auflösung der produzierten Datensätze ist ungenügend, für eine sinnvolle Kontaktnachverfolgung durch  die Gesundheitsämter sind sie in der Regel nicht geeignet. [ggf. bkastl Zitat finden] </li>
-                                            <li>breit beworbene Schlüsselanhänger erlaubten bis Anfang März komplette Stalking/Tracking der Nutzerinnen auch in die Zukunft hinein (siehe Abschnitt “Schlüsselanhänger”). </li>
-                                            <li>Personendaten waren aufgrund von Programmierfehlern für Gesundheitsämter defacto bis Mitte Mai nicht Abrufbar. Das Versprechen der Ende zu Ende Verschlüsselung wird im Falle der Schlüsselanhänger gebrochen, diese sind nur einfach symmetrisch gesichert und die Schlüssel culture4life zumindest mittelbar bekannt.</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Schlüsselanhänger</b><br>
-                                        <ul>
-                                            <li>03.04.2021 (und davor): Registrierung mit jeder beliebigen sechsstelligen Zahl als TAN möglich.</li>
-                                            <li>13.04.2021: Auslesen der Historie aus allen Schlüsselanhängern ohne Kenntnis der Person für jedermann möglich. Diese Funktion ist für culture4life immer noch gegeben, sie wurde nur für den öffentlich erreichbaren Teil deaktiviert - Culture4Life sowie Hersteller von Schlüsselanhängern haben Kenntnis der Seriennummern und damit Zugriff auf die Historie der Nutzer.</li>
-                                            <li>12.05.2021: Historie kann / konnte seitens der Gesundheitsämter nicht ausgewertet werden, obwohl sie intensiv beworben wurden. </li>
-                                            <li>14.05.2021: Fremde Schlüsselanhänger lassen sich nicht nur einchecken, sondern es lassen die auch Kontaktdaten für das Gesundheitsamt beliebig verändern - sogar nachträglich.</li>
-                                            <li>Schlüsselanhänger können nicht ausgecheckt werden. Nur pauschal alle vom Betreiber, ansonsten bleiben sie bis zu 24:59 Stunden bei der Location eingecheckt.</li>
-                                            <li>Kommunen fühlen sich mit Schlüsselanhänger immer noch sicher; geben sie teils als Aktion für einen guten Zweck aus.</li>
-                                            <li>Schlüsselanhänger werden von externen Firmen produziert und durch Gemeinden ausgegeben. Alle beteiligten Stellen kennen QR-Code und Seriennummer der Anhänger; wie auch bei Location QR-Codes genügt ein Foto des Badges, um auf Daten zuzugreifen und/oder Schaden anzurichten. </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Rechtliche Probleme / Fragestellungen (Betreiber / Nutzer)</b><br>
-                                        <ul>
-                                            <li>Luca schließt keine Auftragsdaten-Verarbeitungs-Verträge (AV-Verträge) mit Location-Betreibern => DSGVO?</li>
-                                            <li>Eine Löschung des eigenen Accounts und zugehöriger Daten (nach der 14-Tage-Frist) ist nicht möglich => Recht auf Löschung laut DSGVO?</li>
-                                            <li>Es liegt nahe, dass Location-Betreiber zumindest in NRW gegen die CoronaSchVO verstoßen bzgl. Einhaltung Datenschutz Vorgaben und generell Sicherstellung der Rückverfolgbarkeit für 4 Wochen. CoronaSchVO NRW (§4a (1) und (4)</li>
-                                            <li>Location-Betreiber müssen Informationspflichten gemäß Artikel 13 DSGVO nachkommen, allerdings ist das rechtliche Verhältnis zwischen Location-Betreiber und Luca unklar. Besteht ein Vertrag zur Auftragsdatenverarbeitung? </li>
-                                            <li>Luca gibt für alle Gesundheitsämter jeden Tag einen gemeinsamen Schlüssel aus. Damit schafft Luca defacto ein Supergesundheitsamt und unterwandert hierbei Zuständigkeitsgrenzen von Kommunen, Bund und Ländern. Es ist so für den Endnutzer nicht nachvollziehbar, warum sehr ortsfremde Gesundheitsämter auf Daten zugreifen. In der Regel bedürfte es zumindest für den länderübergreifenden Teil gesonderter Verordnungen, da sich Gesundheitsämter aus verschiedenen Bundesländern nicht auf CoronaVO anderer Bundesländer berufen können. Das wird insbesondere schwierig, sollten sich die Verordnungen hinsichtlich der Menge und Dauer der gespeicherten Daten unterscheiden.</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Überlastung von Gesundheitsämtern (Gesundheitsamt)</b><br>
-                                        <ul>
-                                            <li>Gesundheitsämter arbeiten bereits seit längerer Zeit an ihrer Schmerzgrenze. Die Luca-App verspricht mit der Anbindung an SORMAS X (was nicht einmal in jedem Gesundheitsamt installiert ist) Abhilfe. Allerdings funktioniert diese Anbindung bis heute nicht (mehr?).</li>
-                                            <li>Aufgrund fehlender Verifizierung der Daten ist die Datenqualität fraglich.</li>
-                                            <li>Aufgrund fehlender Plausibilitätsprüfung seitens Luca müssen Gesundheitsämter zusätzlich Verifikation und Plausibilitätsprüfung durchführen, was mehr Aufwand bedeutet. </li>
-                                            <li>Selbst valide Daten sind hinsichtlich ihrer zeitlichen und örtlichen Auflösung mangelhaft und erschweren eine sinnvolle Einschätzung relevanter Kontakte. </li>
-                                            <li>Schnittstelle birgt möglicherweise Sicherheitsrisiken, da seitens Luca keine Prüfung der übermittelten Daten stattfindet, was für Gesundheitsämter schwere Folgen haben kann und zum Schutz sehr sensibler Daten zum Umstieg auf analoge Technik führen kann. </li>
-                                            <li>Diese Sicherheitsrisiken haben sich Mitte Mai 2021 bewahrheitet - es ist möglich, über von Luca erfasste Daten Schadsoftware, bspw. Ransomware, in die IT-Infrastruktur von Gesundheitsämtern einzuschleusen. Die Luca-Macher haben - obwohl über genau eine solche mögliche Sicherheitslücke ausführlich diskutiert wurde - eine solche stets verneint/für nicht möglich gehalten. Das eingesetzte Frontend (!)-Framework React (!) stelle sicher, dass kein Schaden entsteht. </li>
-                                            <li>Gesundheitsämter scheinen Luca kaum zu nutzen. Möglicherweise zu unbrauchbare Daten?</li>
-                                            <li>Ein Modellversuch in Weimar zeigte, dass vor allem Daten bereitgestellt werden, mit denen Gesundheitsämter nichts anfangen können. 655 Kontakte wurden angefragt und übermittelt, aber es waren null Kontakte relevant für die Pandemiebekämpfung.</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Transparenz</b><br>
-                                        <ul>
-                                            <li>Extrem große Tragweite, aber kaum Transparenz seitens Luca. </li>
-                                            <li>Auf Problembeschreibungen und Stellungnahmen wird nicht oder nur ausweichend eingegangen. Bei den meisten Sicherheitsproblemen wird nicht auf das Problem eingegangen, sondern ein noch größeres gefunden und genannt. </li>
-                                            <li>Der Code steht bis heute nicht vollständig zur Verfügung; es wird nicht im selben Repository gearbeitet wie veröffentlicht wird, dadurch gibt es immer Abweichungen zur Live-Version; Änderungen sind schwerer nachzuvollziehen. </li>
-                                            <li>Verträge zwischen Ländern und Luca sind nicht einsehbar, weil Culture4Life der Herausgabe widersprochen hat, bspw. in Mecklenburg-Vorpommern.</li>
-                                            <li>Culture4Life/Nexenio verschweigt Lieferanten von Schlüsselanhängern (Lieferanten wissen die Seriennummer und damit den Verschlüsselungs-Code für Schlüsselanhänger-Daten). </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Code-Qualität und handwerkliche Probleme</b><br>
-                                        <ul>
-                                            <li>SMS-Verifizierung clientseitig aushebelbar, was das massenhafte Erstellen von User-Accounts oder auch das Einchecken anderer Menschen bei brisanten Locations ermöglicht.</li>
-                                            <li>Passwörter und Private Keys in Code-Repositories enthalten. Angeblich zwar nur zum schnellen Aufbau eines Testsystems, doch dadurch auch das Risiko, dass viele Menschen dem gleichen Key vertrauen. (Ende Juli endlich behoben)</li>
-                                            <li>Luca verwendet fremde Software-Komponenten unter Missachtung der Lizenzbedingungen.</li>
-                                            <li>Bisher ist immer noch nur ein Teil des gesamten Quellcodes öffentlich (siehe Transparenz), aber viel schlimmer: Mit den veröffentlichen Repositories wird nicht unmittelbar gearbeitet. Daher ist es fraglich, inwieweit der veröffentlichte Code mit dem der tatsächlich veröffentlichten, sich im Einsatz befindlichen App übereinstimmt. </li>
-                                            <li>Kritik von teils renomierten Sicherheitsforschern und aus der Community wird von den Luca-Machern nicht beherzigt; stattdessen wird ihnen vorgeworfen, “das Konzept nicht verstanden zu haben”. </li>
-                                            <li>Zentrale, konzeptionelle Fehler zum Schutz der Nutzer werden als “Fundamentalkritik” abgetan statt beseitigt. </li>
-                                            <li>Die Schuld an (bereits seit Wochen bekannten) Bugs wird konsequent auf andere geschoben; Probleme werden heruntergespielt. Es gibt keinerlei Eingeständnis, dass man evtl. selbst unsauber gearbeitet haben könnte. Schwachstellen werden geleugnet.</li>
-                                            <li>Wenn Schwachstellen dann durch die Community bewiesen werden, werden sie hastig korrigiert - und Escaping äußerst unsauber gelöst. Dadurch können Gesundheitsämter Kontaktdaten von Nutzern nicht oder nur “lückenhaft” abrufen. Beim Versuch, nicht vorhandenes Escaping/Sanization auszubessern, werden Fehler eingebaut, die Denial-of-Service-Attacken durch Nutzerdaten ermöglichen. </li>
-                                            <li>Das Web-Portal, über das Gesundheitsämter auf Luca-Daten zugreifen können, unterstützt noch TLS 1.0 und TLS 1.1 - und erfüllt damit nicht die Mindeststandards des Bundesamts für Sicherheit in der Informationstechnik (BSI).</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Vergabepraxis und Lizenzkosten (Land)</b><br>
-                                        <ul>
-                                            <li>Alternativen (sowohl prinzipielle wie die standardisierte Schnittstelle IRIS, als auch konkrete App-Alternativen oder die Initiative “Wir für Digitalisierung”) wurden nicht geprüft. </li>
-                                            <li>Es gab keine formalen (ggf. europaweiten) Ausschreibungen. </li>
-                                            <li>Luca wird bspw. in MV konkret in der Corona-Verordnung genannt, alternative Apps und Dienste, inkl. der Corona-Warn-App,  werden vernachlässigt.</li>
-                                            <li>Es wird kein Produkt gekauft, stattdessen wird eine Lizenz für die Nutzung des Luca-Systems eingekauft. Die Kosten dafür belaufen sich auf über 21,8 Millionen Euro, alleine Bayern gab über 5 Millionen Euro für eine Jahreslizenz aus.</li>
-                                            <li>Es gab keine Markterkundungen. Lediglich in Rheinland-Pfalz, und dort fand eine Prüfung unter Ausschluss des Landesdatenschutzbeauftragten statt. </li>
-                                            <li>Während einige Bundesländer, darunter Rheinland-Pfalz und Berlin, sich sicher sind, dass die Kosten für Luca in den ersten 18 Monaten vom Bund übernommen werden, prüft dieser (bzw. BMG und BMF), die Form der Unterstützung. Durch die Formulierung “[...] Finanzierung der zwischenzeitlich von ihnen mehrheitlich gewählten Systeme [...]” ergibt sich außerdem die Frage, ob Contact-Tracing-Apps in Bundesländern ohne Luca-Vertrag nicht unterstützt werden.</li>
-                                        </ul>
-                                        <u>⇒ Mögliche Folgen:</u> Politisch für Landräte/Kommunen, dass ein mangelhaftes Konzept empfohlen und ohne Prüfung eingekauft wurde; Finanziell für Länder, da das Geld in andere Projekte hätte fließen können; Rechtliche Probleme für Entscheidungsträger und Regierungen
-                                    </li>
-                                    <li>
-                                        <b>Lizenz- und Urheberrechtsverletzungen</b><br>
-                                        Fremder OpenSource-Code wird ohne Lizenzhinweis kopiert, teilweise werden Lizenzhinweise sogar explizit entfernt.
-                                    </li>
-                                    <li>
-                                        <b>Barrierefreiheit</b><br>
-                                        VoiceOver erst nach Druck durch die Community ergänzt; insbesondere der Bayrischer Blinden- und Sehbehindertenbund e.V. kritisiert die (nicht vorhandene) Berrierefreiheit der Luca-App. 
-                                    </li>
-                                    <li>
-                                        <b>Clustererkennung</b><br>
-                                        <ul>
-                                            <li>Luca liefert nur mögliche Infektionen über Check-In zur selben Uhrzeit, nicht wahrscheinliche Infektionen (wie die CWA), da - im Gegensatz zur CWA keine Risikobewertung über Entfernung, Dauer, etc. implementiert oder möglich ist. </li>
-                                            <li>Daher gibt es nicht nur wesentlich mehr Daten zur Nachverfolgung, sondern auch ausschließlich ungewichtete Daten, die die Arbeit der Gesundheitsämter weiter erschwert => Überlastung?</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <b>Corona-Warn-App</b><br>
-                                        Seit Mitte 2020 existiert eine eigene App des Bundes, welche ähnliches, wenn nicht sogar größeres Potential besitzt - und ohne die Mängel der Luca-App kommt. Es ist verwunderlich, warum diese App nicht stattdessen (oder wenigstens parallel) beworben wird - und warum eine weitere App eingekauft wird, anstatt zur Verbesserung der CWA beizutragen. <br>
-                                        Als erstes Bundesland sieht Sachsen auch die Corona-Warn-App in seiner Corona-Verordnung vor; es ist fraglich, warum nicht auch die restlichen Bundesländer darauf hin gearbeitet haben. 
-                                        <u>⇒ Mögliche Folgen:</u> Keine. Die Corona-Warn-App nutzt ein anderes, dafür geeignetes Konzept. Daten werden nicht erfasst, schon gar nicht zentral. Die Folge aus hier geschilderten Problemen sollte aber sein, die CWA rechtlich abzusichern und mit ihr eine Kontaktnachverfolgung möglich zu machen. 
-                                    </li>
-                                    <li>
-                                        <b>Marketing-/Werbe-Versprechen</b><br>
-                                        <ul>
-                                            <li>“Automatische Warnung”, mit der die Luca-App oftmals seit November 2020 beworben wurde, ist bis heute nicht vollständig umgesetzt. Das “Mein Luca”-Tab, welches wenigstens die Anfragen durch Gesundheitsämter anzeigt, existiert erst seit Mitte Mai 2021.</li>
-                                            <li>...</li>
-                                        </ul>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                    -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingVenue">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVenue" aria-expanded="false" aria-controls="collapseVenue">
@@ -246,11 +88,11 @@
                                     </li>
                                     <li>
                                         <b>Betreiberschlüssel für Kontaktdaten sicher aufbewahren</b><br>
-                                        Die Luca-App wälzt eine wichtige Verantwortung an Location-Betreiber ab: Damit die Kontaktdaten später beim Gesundheitsamt entschlüsselt werden können, wird im Infektionsfall auch der Betreiberschlüssel benötigt. Der wird in den meisten Fällen von der Luca-App nur beim Erstellen der Location gebraucht, dann selten abgefragt - <b>spielt aber auch später eine große Rolle!</b>. Dachte daher darauf, dass Du den Schlüssel sicher aufbewahrst, ihn nicht verlierst - und er zu den erstellten QR-Codes passt.
+                                        Die Luca-App wälzt eine wichtige Verantwortung an Location-Betreiber ab: Damit die Kontaktdaten später beim Gesundheitsamt entschlüsselt werden können, wird im Infektionsfall auch der Betreiberschlüssel benötigt. Der wird in den meisten Fällen von der Luca-App nur beim Erstellen der Location gebraucht, dann selten abgefragt - <b>spielt aber auch später eine große Rolle!</b>. Achte daher darauf, dass Du den Schlüssel sicher aufbewahrst, ihn nicht verlierst - und er zu den erstellten QR-Codes passt.
                                     </li>
                                     <li>
                                         <b>Rechtliche Rahmenbedingungen prüfen</b><br>
-                                        Nicht überall besteht die Pflicht zur Kontaktdatenerfassung. In Sachsen genügt bspw. eine anonyme Kontakterfassung (z.B. via Corona-Warn-App), in NRW ist seit dem 20.08.2021 gar keine Kontaktdatenerfassung vorgesehen. Damit fehlt die Rechtsgrundlage zum Erfassen der Daten.
+                                        Nicht überall besteht die Pflicht zur Kontaktdatenerfassung. In Sachsen genügt bspw. eine anonyme Kontakterfassung (z.B. via Corona-Warn-App), in <a href="https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/2400406/kontaktnachverfolgung-entfaellt-in-nrw" target="_blank">NRW ist seit dem 20.08.2021 gar keine Kontaktdatenerfassung mehr vorgesehen</a>. Auch <a href="https://www.ndr.de/nachrichten/hamburg/coronavirus/Corona-Hamburg-fuehrt-2G-Regelung-ab-Sonnabend-ein,corona8602.html" target="_blank">Hamburg plant die Einführung einer reinen 2G-Regel ab 28.08.2021</a>. Damit fehlt die Rechtsgrundlage zum Erfassen der Daten.
                                     </li>
                                     <li>
                                         <b>Bedarf ermitteln</b><br>
