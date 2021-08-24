@@ -1,5 +1,6 @@
 Options -Indexes
 ServerSignature Off
+Header unset server
 
 RewriteEngine On
 RedirectMatch 404 /\.git

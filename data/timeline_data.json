@@ -148,11 +148,11 @@
                         ],
                         [
                             "Mecklenburg-Vorpommern",
-                            "440.000€",
+                            "440.776",
                             "?",
                             "12.03.2021 - 11.03.2022",
                             "?",
-                            "?"
+                            "230.400€ für Software, Betrieb & Co.<br>140.000€ für SMS-Verifizierung"
                         ],
                         [
                             "Saarland",
@@ -218,6 +218,9 @@
             },{
                 "text": "“Senatsverwaltung für Gesundheit, Pflege und Gleichstellung, Rote Nr. 3379 N” (parlament-berlin.de)",
                 "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/18/SchrAnfr/s18-27534.pdf"
+            },{
+                "text": "Landtag Mecklenburg-Vorpommern: KLEINE ANFRAGE der Abgeordneten Eva-Maria Kröger, Fraktion DIE LINKE - Lizenzkauf Luca-App",
+                "url": "https://www.dokumentation.landtag-mv.de/parldok/dokument/49980/lizenzkauf_luca_app.pdf"
             }],
             "tags": ["kosten"],
             "verified": true
@@ -2417,6 +2420,9 @@
             "embed": [{
                 "type": "fragdenstaat",
                 "id": "216805"
+            },{
+                "type": "tweet",
+                "url": "https://twitter.com/Chrysocyon42/status/1427749913232920576"
             }],
             "links": [],
             "tags": ["vertrag","brandenburg"],
@@ -2856,20 +2862,24 @@
         {
             "date": "16.08.2021",
             "dt_created": "2021-08-16 20:00:00",
-            "dt_updated": "2021-08-16 20:00:00",
+            "dt_updated": "2021-08-19 16:30:00",
             "type": "event",
             "scope": "Land: Berlin",
             "title": "Sitzung des Ausschuss für Kommunikationstechnologie und Datenschutz (KTDat) des Abgeordnetenhauses Berlin",
-            "text": "<i>(wir warten auf die Live-Aufzeichnung der Ausschusssitzung; diese wird dann hier verlinkt)</i>",
+            "text": "Die Berliner Beauftragte für Datenschutz und Informationsfreiheit, Maja Smoltczyk, auf der Sitzung des KTDat-Ausschusses:<br>Man sei von der Gesundheitsverwaltung zu keinem Stadium eingebunden worden. Man sei aber damit beschäftigt, die Luca-App \"sehr intensiv\" zu prüfen. Kritikpunkte seien mittlerweile teilweise nachgebessert worden, aber es gebe weiterhin nachhaltige und problematische Mängel. Die schwersten: <ul><li>es gebe nach wie vor <b>keine ausreichende Rechtsgrundlage</b> für den Einsatz der Luca-App</li><li>die <b>Zentralisierung der Datenverarbeitung</b> in einer Hand sei ein Risiko</li><li>inzwischen sei eine Verschlüsselung eingebaut worden, diese entspreche aber <b>nicht den Anforderungen</b></li><li>es würden <b>mehr Verkehrsdaten als erforderlich</b> gessammelt, dadurch sei auch ohne die eigentlichen (verschlüsselten) Daten eine <b>Identifizierung möglich</b></li><li>durch die Zentralität und die Möglichkeit, beliebige Anfragen an beliebige Veranstalter zu stellen, sei es möglich, dies zu manipulieren. Im schlimmsten Fall sei es möglich, <b>mit den Zugangsdaten nur eines Gesundheitsamtes auf sämtliche Daten zuzugreifen, die bundesweit gespeichert wurden</b>.</li><li>es sei möglich, <b>unbefugte Eintragungen (Check-Ins)</b> vorzunehmen => Missbrauch</li><li>das System könne mit <b>falschen Daten</b> geflutet werden, was die <b>Effizienz</b> infrage stelle</li></ul><br><div class=\"quote-origin\">— Berliner Beauftragte für Datenschutz und Informationsfreiheit, Maja Smoltczyk</div>",
             "embed": [{
+                "type": "youtube",
+                "id": "YO4hJckYTTM",
+                "startAt": 700
+            },{
                 "type": "tweet",
                 "url": "https://twitter.com/Tobias_Schulze/status/1427259413778292737"
             },{
                 "type": "tweet",
                 "url": "https://twitter.com/schluesselburg/status/1427260171236093952"
             }],
-            "verified": false,
-            "tags": ["agh-berlin","abgeordnetenhaus-berlin","berlin","ktdat"]
+            "verified": true,
+            "tags": ["agh-berlin","abgeordnetenhaus-berlin","berlin","ktdat","maja-smoltczyk"]
         },
         {
             "date": "16.08.2021",
@@ -2884,6 +2894,146 @@
                 "text": "Sabine Beikler: “Berliner Datenschutzbeauftragte hält Missbrauch der Luca-App für möglich” (tagesspiegel.de)"
             }],
             "verified": false
+        },
+        {
+            "date": "17.08.2021",
+            "dt_created": "2021-08-17 14:30:00",
+            "dt_updated": "2021-08-17 14:32:00",
+            "type": "news",
+            "title": "“IT-Sicherheit: Innenministerium lehnt Prüfung der Luca-App ab”",
+            "scope": "Bundesweit",
+            "text": "<blockquote>[...] hat sich das hessische Innenministerium an das BSI gewandt und eine umfassende Prüfung der »Luca App inklusive der dazugehörigen Systeminfrastruktur« angefordert</blockquote><blockquote>Nach SPIEGEL-Information hat sich das Bundesinnenministerium einer entsprechenden Überprüfung durch das BSI in den Weg gestellt.</blockquote><blockquote>Bei dem abgelehnten Ersuchen aus Hessen ging es nicht nur um die App, sondern um eine umfassendere Analyse des »Gesamtsystems inklusive aller Komponenten der dahinter stehenden IT-Infrastruktur«</blockquote><div class=\"quote-origin\">— SPIEGEL</div>",
+            "links": [{
+                "url": "https://www.spiegel.de/netzwelt/netzpolitik/luca-app-innenministerium-lehnt-sicherheitspruefung-ab-a-a6dba9ed-6d12-4ead-945a-bf06d6fc0795",
+                "text": "Max Hoppenstedt: “IT-Sicherheit: Innenministerium lehnt Prüfung der Luca-App ab” (spiegel.de)"
+            }],
+            "tags": ["bsi","security","security-audit"],
+            "verified": false
+        },
+        {
+            "date": "18.08.2021",
+            "dt_created": "2021-08-18 17:10:00",
+            "dt_updated": "2021-08-18 17:15:00",
+            "geo": {
+                "city": "Weimar",
+                "state": "Thüringen",
+                "state_short": "TH",
+                "position": {
+                    "lat": 50.98375369711976,
+                    "lng": 11.323272646863934
+                }
+            },
+            "type": "news",
+            "title": "“Weimar: Modellregion verabschiedet sich von der Luca-App”",
+            "scope": "Stadt: Weimar",
+            "text": "<blockquote>Über die App seien dem Gesundheitsamt viel zu viele Daten übermittelt worden, die für eine effektive Nachverfolgung von Kontakten gar nicht notwendig gewesen wären. \"Die Nachverfolgung mit Zettel und Stift war etwas eingrenzbarer.\"</blockquote><blockquote>\"Wir setzen unsere Hoffnungen jetzt auf die 'Iris'-Schnittstelle des Landes\"</blockquote>",
+            "links": [{
+                "url": "https://www.t-online.de/digital/handy/id_90648404/weimar-modellregion-verabschiedet-sich-von-der-luca-app.html",
+                "text": "“Testlauf ernüchternd - Stadt stoppt Einsatz der Luca-App” (t-online.de)"
+            },{
+                "url": "https://www.mdr.de/nachrichten/thueringen/luca-app-corona-sormas-100.html",
+                "text": "MDR Thüringen: “Erwartungen nicht erfüllt: Luca-App in Thüringen nur noch wenig genutzt” (mdr.de)"
+            }],
+            "tags": ["weimar","modellregion","kündigung"],
+            "verified": true
+        },
+        {
+            "date": "19.08.2021",
+            "dt_created": "2021-08-19 17:10:00",
+            "dt_updated": "2021-08-19 17:31:00",
+            "type": "news",
+            "title": "“Große Versprechen, nichts dahinter? Die Kritik an der Luca-App im Überblick”",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.rnd.de/digital/luca-app-grosse-versprechen-nichts-dahinter-die-kritik-im-ueberblick-UKWJZPDCDZGMZHD7EW34SLHDNI.html",
+                "text": "Redaktionsnetzwerk Deutschland (RND): “Große Versprechen, nichts dahinter? Die Kritik an der Luca-App im Überblick” (rnd.de)"
+            },{
+                "url": "https://www.rnd.de/panorama/luca-app-was-bleibt-ist-nicht-mehr-als-ein-maerchen-IJ3NA7VSQZDPDCUVLOCYJQGFWQ.html",
+                "text": "Matthias Schwarzer (RND): “Kommentar: Luca-App: Was bleibt, ist nicht mehr als ein Märchen” (rnd.de)"
+            }],
+            "tags": ["kritik"],
+            "verified": false
+        },
+        {
+            "date": "20.08.2021",
+            "dt_created": "2021-08-24 12:30:00",
+            "dt_updated": "2021-08-24 12:30:00",
+            "type": "news",
+            "title": "Baden-Württemberg: “Kontaktnachverfolgung? Ministerium hat keinen Überblick über Wirksamkeit der Luca-App”",
+            "text": "<blockquote>Das Ministerium hatte den 3,7 Millionen Euro teuren Kauf der App damit begründet, dass die Kontaktnachverfolgung erheblich erleichtert werde. Allerdings ist es verwunderlich, dass man trotzdem gerade in den Gesundheitsämtern nicht weiß, wie viele Kontakte nachverfolgt werden.</blockquote><div class=\"quote-origin\">— SWR</div>",
+            "scope": "Land: Baden-Württemberg",
+            "links": [{
+                "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/corona-pandemie-bilanz-zur-luca-app-100.html",
+                "text": "SWR: “Kontaktnachverfolgung? Ministerium hat keinen Überblick über Wirksamkeit der Luca-App” (swr.de)"
+            }],
+            "tags": [],
+            "verified": false
+        },
+        {
+            "date": "21.08.2021",
+            "dt_created": "2021-08-24 11:30:00",
+            "dt_updated": "2021-08-24 11:30:00",
+            "type": "news",
+            "title": "Analyse der Berliner Zeitung: “Hamburgs Finanzsenator: „Bei uns arbeitet die Luca-App bisher reibungslos“”",
+            "text": "<blockquote>Nexenio sei mit Luca aber vor allem angetreten, millionenfache Zettelwirtschaft in Bars und Restaurants [...] durch ein schnelles und intuitives Programm zu ersetzen</blockquote><div class=\"quote-origin\">— Berliner Zeitung (zitiert Patrick Hennig)</div><br>Beworben wurde die Ausgabe der Berliner Zeitung u.a. mit folgendem Text: <blockquote>[Es] werden immer wieder Presseberichte gestreut, die die Luca-Gründer zu diskreditieren versuchen. [...] ob in Deutschland Interessensgruppen existieren, die am Scheitern der Luca-App interessiert sein könnten. </blockquote><div class=\"quote-origin\">— Berliner Zeitung (der Abschnitt wurde von der Seite entfernt; das Original ist <a href=\"https://web.archive.org/web/20210820182006/https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124\" target=\"_blank\">hier</a> als Snapshot zu finden)</div><br><blockquote>Das ist interessant: Die Berliner Zeitung unterstellt unabhängigen Journalist:innen wie mir ein „Interesse“ am Scheitern der #LucaApp und vergisst zu erwähnen, dass ihr Verleger Holger Friedrich mit seinem Unternehmen Core Nexenio berät und damit ein Interesse am Erfolg hat.</blockquote><div class=\"quote-origin\">— Eva Wolfangel auf <a href=\"https://twitter.com/evawolfangel/status/1429000321339207682\" target=\"_blank\">Twitter</a></div>",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.berliner-zeitung.de/wochenende/hamburgs-finanzsenator-bei-uns-arbeitet-die-luca-app-bisher-reibungslos-li.178129",
+                "text": "Berliner Zeitung: “Analyse - Hamburgs Finanzsenator: „Bei uns arbeitet die Luca-App bisher reibungslos“” (berliner-zeitung.de)"
+            },{
+                "url": "https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124",
+                "text": "Berliner Zeitung: “Die Wochenausgabe der Berliner Zeitung vom 21. August 2021” (berliner-zeitung.de)"
+            },{
+                "url": "https://web.archive.org/web/20210820182006/https://www.berliner-zeitung.de/wochenende/die-wochenendausgabe-der-berliner-zeitung-vom-21-august-2021-li.178124",
+                "text": "Snapshot der Originalseite der Berliner Zeitung: “Die Wochenausgabe der Berliner Zeitung vom 21. August 2021” (archive.org)"
+            }],
+            "embed": [{
+                "type": "tweet",
+                "url": "https://twitter.com/evawolfangel/status/1429000321339207682"
+            }],
+            "tags": []
+        },
+        {
+            "date": "21.08.2021",
+            "dt_created": "2021-08-21 20:30:00",
+            "dt_updated": "2021-08-21 20:30:00",
+            "type": "news",
+            "title": "NRW: Neue Corona-Verordnung ohne Kontaktdatenerfassung => Rechtsgrundlage fehlt?",
+            "text": "<blockquote>In Nordrhein-Westfalen könnte die Luca-Nutzung für Gastronomen demnächst sogar rechtlich problematisch werden. Seit Freitag ist die Nachverfolgung von Kontakten dort nicht mehr Teil der Corona-Schutzverordnung, für die Erhebung der Daten ohne Einwilligung fehlt also die Rechtsgrundlage. Luca habe die Betreiber in einer Mail darüber informiert, schreibt Luca-Sprecher Markus Bublitz auf Twitter. Von einem rechtlichen Risiko ist in den Mails allerdings keine Rede.</blockquote><div class=\"quote-origin\">— Süddeutsche Zeitung</div>",
+            "scope": "Land: Nordrhein-Westfalen",
+            "links": [{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-kritik-1.5388136",
+                "text": "Süddeutsche Zeitung: “Die teure App, die wenig bringt” (sueddeutsche.de)"
+            },{
+                "url": "https://www.land.nrw/de/pressemitteilung/neue-coronaschutzverordnung-nordrhein-westfalen-setzt-beschluesse-der-bund-laender",
+                "text": "Wir in NRW: “Pressemitteilung: Neue Coronaschutzverordnung – Nordrhein-Westfalen setzt Beschlüsse der Bund-Länder-Beratungen konsequent um” (land.nrw)"
+            },{
+                "url": "https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/2400406/kontaktnachverfolgung-entfaellt-in-nrw",
+                "text": "Neue Osnabrücker Zeitung: “ADIEU ZETTEL UND LUCA-APP: Keine Kontaktnachverfolgung mehr in NRW – 3G-Regel in Kraft getreten” (noz.de)"
+            }],
+            "tags": ["verordnung","dsgvo","rechtsgrundlage"],
+            "verified": false
+        },
+        {
+            "date": "22.08.2021",
+            "dt_created": "2021-08-24 11:30:00",
+            "dt_updated": "2021-08-24 12:30:00",
+            "type": "news",
+            "title": "“Luca-App - Aus der Zauber”",
+            "text": "Verschiedene Zeitungen kommentieren den Bericht des Spiegels:<blockquote>Die Luca-App sollte der Heilsbringer für die überlasteten Gesundheitsämter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken über Alternativen zu machen.</blockquote><div class=\"quote-origin\">— Max Muth (Süddeutsche Zeitung)</div><blockquote>Wir beamen, nein scannen, uns jetzt an mehrere Orte gleichzeitig. Eine Bekannte hat dabei einen Rekord aufgestellt, als sie, parallel zu Alltag und Job, 261 Stunden beim Lieblingsitaliener saß.</blockquote><div class=\"quote-origin\">— Anna-Lena Niemann (Frankfurter Allgemeine Zeitung)</div>",
+            "scope": "Bundesweit",
+            "links": [{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-corona-warn-app-1.5388866",
+                "text": "Kommentar in der Süddeutschen Zeitung: “Luca-App - Aus der Zauber” (sueddeutsche.de)"
+            },{
+                "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-kritik-1.5388136",
+                "text": "Süddeutsche Zeitung: “Die teure App, die wenig bringt” (sueddeutsche.de)"
+            },{
+                "url": "https://www.faz.net/aktuell/technik-motor/die-luca-app-sorgt-fuer-gastronomische-paralleluniversen-17492494.html",
+                "text": "Anna-Lena Niemann / Frankfurter Allgemeine Zeitung: “Zeit mit Luca” (faz.net)"
+            }],
+            "tags": ["kommentar"],
+            "verified": true
         }
     ]
 }
