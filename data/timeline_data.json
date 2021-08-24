@@ -2955,6 +2955,21 @@
             "verified": false
         },
         {
+            "date": "20.08.2021",
+            "dt_created": "2021-08-24 12:30:00",
+            "dt_updated": "2021-08-24 12:30:00",
+            "type": "news",
+            "title": "Baden-Württemberg: “Kontaktnachverfolgung? Ministerium hat keinen Überblick über Wirksamkeit der Luca-App”",
+            "text": "<blockquote>Das Ministerium hatte den 3,7 Millionen Euro teuren Kauf der App damit begründet, dass die Kontaktnachverfolgung erheblich erleichtert werde. Allerdings ist es verwunderlich, dass man trotzdem gerade in den Gesundheitsämtern nicht weiß, wie viele Kontakte nachverfolgt werden.</blockquote><div class=\"quote-origin\">— SWR</div>",
+            "scope": "Land: Baden-Württemberg",
+            "links": [{
+                "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/corona-pandemie-bilanz-zur-luca-app-100.html",
+                "text": "SWR: “Kontaktnachverfolgung? Ministerium hat keinen Überblick über Wirksamkeit der Luca-App” (swr.de)"
+            }],
+            "tags": [],
+            "verified": false
+        },
+        {
             "date": "21.08.2021",
             "dt_created": "2021-08-24 11:30:00",
             "dt_updated": "2021-08-24 11:30:00",
@@ -3002,10 +3017,10 @@
         {
             "date": "22.08.2021",
             "dt_created": "2021-08-24 11:30:00",
-            "dt_updated": "2021-08-24 11:30:00",
+            "dt_updated": "2021-08-24 12:30:00",
             "type": "news",
-            "title": "Kommentar in der Süddeutschen Zeitung: “Luca-App - Aus der Zauber”",
-            "text": "<blockquote>Die Luca-App sollte der Heilsbringer für die überlasteten Gesundheitsämter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken über Alternativen zu machen.</blockquote><div class=\"quote-origin\">— Max Muth (Süddeutsche Zeitung)</div>",
+            "title": "“Luca-App - Aus der Zauber”",
+            "text": "Verschiedene Zeitungen kommentieren den Bericht des Spiegels:<blockquote>Die Luca-App sollte der Heilsbringer für die überlasteten Gesundheitsämter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken über Alternativen zu machen.</blockquote><div class=\"quote-origin\">— Max Muth (Süddeutsche Zeitung)</div><blockquote>Wir beamen, nein scannen, uns jetzt an mehrere Orte gleichzeitig. Eine Bekannte hat dabei einen Rekord aufgestellt, als sie, parallel zu Alltag und Job, 261 Stunden beim Lieblingsitaliener saß.</blockquote><div class=\"quote-origin\">— Anna-Lena Niemann (Frankfurter Allgemeine Zeitung)</div>",
             "scope": "Bundesweit",
             "links": [{
                 "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-corona-warn-app-1.5388866",
@@ -3013,9 +3028,12 @@
             },{
                 "url": "https://www.sueddeutsche.de/wirtschaft/luca-app-kritik-1.5388136",
                 "text": "Süddeutsche Zeitung: “Die teure App, die wenig bringt” (sueddeutsche.de)"
+            },{
+                "url": "https://www.faz.net/aktuell/technik-motor/die-luca-app-sorgt-fuer-gastronomische-paralleluniversen-17492494.html",
+                "text": "Anna-Lena Niemann / Frankfurter Allgemeine Zeitung: “Zeit mit Luca” (faz.net)"
             }],
             "tags": ["kommentar"],
-            "verified": false
+            "verified": true
         }
     ]
 }
