@@ -1173,6 +1173,22 @@
         },
         {
             "date": "22.04.2021",
+            "dt_created": "2021-08-25 00:00:00",
+            "dt_updated": "2021-08-25 00:00:00",
+            "id": "41ab6c53df5c",
+            "id_readable": "2021-04-22_news_Zwei-Apps-sind-eine-zu-viel",
+            "links": [
+                {
+                    "url": "https:\/\/www.nordbayern.de\/region\/forchheim\/kommentar-zwei-apps-sind-eine-zu-viel-1.11019076",
+                    "text": "Max S\u00f6llner: \u201cKommentar: Zwei Apps sind eine zu viel\u201d (nordbayern.de)"
+                }
+            ],
+            "text": "<blockquote>Es w\u00e4re vermeidbar gewesen, dass der Staat viel Geld in eine bedenkliche App steckt, kommentiert Max S\u00f6llner.<\/blockquote>",
+            "title": "\u201cZwei Apps sind eine zu viel\u201d",
+            "type": "news"
+        },
+        {
+            "date": "22.04.2021",
             "dt_created": "2021-04-22 00:00:00",
             "dt_updated": "2021-04-22 00:00:00",
             "embed": [
@@ -1809,7 +1825,7 @@
         {
             "date": "07.05.2021",
             "dt_created": "2021-05-07 00:00:00",
-            "dt_updated": "2021-05-07 00:00:00",
+            "dt_updated": "2021-08-25 19:45:00",
             "geo": {
                 "city": "N\u00fcrnberg",
                 "state": "Bayern",
@@ -1825,6 +1841,10 @@
                 {
                     "url": "https:\/\/www.nordbayern.de\/region\/nuernberg\/nurnberg-halt-an-luca-app-fest-und-aussert-sich-zur-dauer-kritik-1.11049283",
                     "text": "\u201cN\u00fcrnberg h\u00e4lt an Luca-App fest - und \u00e4u\u00dfert sich zur Dauer-Kritik\u201d (nordbayern.de)"
+                },
+                {
+                    "url": "https:\/\/www.nordbayern.de\/region\/nuernberg\/wieso-setzt-der-staat-auf-die-fragwurdige-luca-app-ein-kommentar-1.11055383",
+                    "text": "Max S\u00f6llner: \u201cWieso setzt der Staat auf die fragw\u00fcrdige Luca-App? Ein Kommentar\u201d (nordbayern.de)"
                 }
             ],
             "scope": "Stadt: N\u00fcrnberg",
@@ -4484,9 +4504,9 @@
     ],
     "meta": {
         "git": {
-            "commit_sh": "2949929",
-            "commit_lh": "2949929f2f86ce8fd8822c60678a154f551aceef",
-            "commit_date": "2021-08-25 15:35:29 +0200",
+            "commit_sh": "1c50b4a",
+            "commit_lh": "1c50b4a430da7470c278519586658ab0fe4b5304",
+            "commit_date": "2021-08-25 19:25:59 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -4495,7 +4515,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1629902517,
+        "ts": 1629913617,
         "date": "2021-08-25"
     }
 }
