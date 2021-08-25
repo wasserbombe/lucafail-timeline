@@ -3,3 +3,5 @@ config/credentials/*.php
 js/highcharts/modules/*
 robots.txt
 osmtiles/cache/*
+data/timeline_data copy.json
+data/timeline_data.json.test

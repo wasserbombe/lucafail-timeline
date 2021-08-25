@@ -1,12 +1,5 @@
 (function(){
-    var mymap = L.map('map_container', {
-        fullscreenControl: true
-    }).setView([51.3, 8.9], 5); 
-
-    L.tileLayer('/osmtiles/tile.php?s={s}&z={z}&x={x}&y={y}', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(mymap);
-
+    // CONFIG
     var typeFriendlyNames = {
         "general": "Allgemein",
         "doc": "Dokument/Paper/Veröffentlichung",
@@ -34,6 +27,64 @@
         "research": "zoom-in",
         "Kuriositäten": "stars"
     };
+
+    // /CONFIG
+    var mymap = L.map('map_container', {
+        fullscreenControl: true
+    }).setView([51.3, 8.9], 5); 
+
+    L.tileLayer('/osmtiles/tile.php?s={s}&z={z}&x={x}&y={y}', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(mymap);
+
+    $(document).on("popstate", () => { console.log("popstate"); });
+    $(document).on("pushstate", () => { console.log("pushstate"); });
+
+    var scrollToPanel = function (panel){
+        console.log("Looking for ", panel); 
+
+        if ($('[data-panel-id="'+panel+'"]').length){
+            $('[data-panel-id="'+panel+'"]').get(0).scrollIntoView();
+        } else if ($('[data-panel-name="'+panel+'"]').length){
+            $('[data-panel-name="'+panel+'"]').get(0).scrollIntoView();
+        } else {
+            // try by date
+            var splitPanel = panel.split("_"); 
+            if (splitPanel.length >= 1){
+                var dateToScrollTo = splitPanel[0];
+                if ($('[data-date="'+dateToScrollTo+'"]').length){
+                    $('[data-date="'+dateToScrollTo+'"]').get(0).scrollIntoView();
+                }
+            }
+        }
+
+        var url = new URL(location.href); 
+        url.hash = "#"+panel; 
+
+        window.history.replaceState(null, '', url); 
+    };
+
+    $(document).on("click", function (e) {
+        console.log("click", e.target); 
+        var $link = $(e.target).closest("a"); 
+        if ($link.length > 0){
+            var href = $link.attr("href"); 
+            var url = new URL(href, document.baseURI); 
+            if (url.host == location.host){
+                // internal link
+                if (url.pathname == location.pathname && url.hash && url.hash.length > 1){
+                    var panel = url.hash.substr(1); 
+                    scrollToPanel(panel);
+                }
+            } else {
+                // external link
+            }
+            console.log("click", href, url);
+        }
+        
+    });
+
+
     var topics = []; 
     var scopes = []; 
     var fdsbuttonclickhandler = (e) => {
@@ -464,22 +515,21 @@
             data.timeline.forEach((e, i) => {
                 var subtitle = [];
                 if (e.date){
+                    subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
+
                     var dateMatch = e.date.match(/^([0-9]{2})\.([0-9]{2})\.([0-9]{4})$/i);
+
                     if (dateMatch){
                         var yearMonth = dateMatch[3] + '-' + dateMatch[2];
                         e.dateYYMMDD = dateMatch[3] + '-' + dateMatch[2] + '-' + dateMatch[1]
-                        subtitle.push('<i class="bi-calendar-event"></i> <a href="?date='+e.dateYYMMDD+'">' + e.date + '</a>');
                         if (yearMonth != lastYearAndMonth){
                             // new month!
                             var $monthSep = $("<div>").html("<h2>" + yearMonth + "</h2>").addClass("month-separator").attr("id", yearMonth);
 
                             $(".timeline").append($monthSep);
-
-
+                            
                             lastYearAndMonth = yearMonth; 
                         }
-                    } else {
-                        subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
                     }
                 }
                 
@@ -506,13 +556,14 @@
                 $timelineli.addClass("type-" + e.type);
                 $timelineli.attr("data-type", e.type);
                 $timelineli.attr("data-date", e.dateYYMMDD ? e.dateYYMMDD : "");
-                // generate panel ID
-                var panelID = [];
-                panelID.push(e.dateYYMMDD ? e.dateYYMMDD : e.data); 
-                panelID.push(e.type);
-                panelID.push(e.title);
-                panelID = panelID.join("-").replace(/[^a-z0-9-]/ig,'_'); 
-                $timelineli.attr("data-panelID", panelID);
+                
+                // add panel ID
+                if (e.id_readable){
+                    $timelineli.attr("data-panel-name", e.id_readable);
+                }
+                if (e.id){
+                    $timelineli.attr("data-panel-id", e.id);
+                }
 
                 var topic = e.type; 
                 if (typeof typeFriendlyNames[e.type] !== "undefined"){
@@ -546,7 +597,10 @@
                     }
                 }
                 // add panel link to subtitle
-                subtitle.push('<a href="?panel='+panelID+'"><i class="bi-link"></i></a>')
+                if (e.id_readable){
+                    subtitle.push('<a href="#'+e.id_readable+'"><i class="bi-link"></i></a>')
+                }
+                
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
                 var $p = $("<p>").append($small);
                 $heading.append($p);
@@ -673,32 +727,18 @@
             var scrollInt = window.setInterval(function (){
                 var url = new URL(location.href); 
                 if (url && url.searchParams){
-                    if (url.searchParams.get("panel")){
-                        var panelToScrollTo = url.searchParams.get("panel"); 
-                        if ($('[data-panelid="'+panelToScrollTo+'"]').length){
-                            $('[data-panelid="'+panelToScrollTo+'"]').get(0).scrollIntoView();
-                        } else {
-                            // try by date
-                            var splitPanel = panelToScrollTo.split("-"); 
-                            if (splitPanel.length >= 3){
-                                var dateToScrollTo = splitPanel[0] + '-' + splitPanel[1] + '-' + splitPanel[2];
-                                if ($('[data-date="'+dateToScrollTo+'"]').length){
-                                    $('[data-date="'+dateToScrollTo+'"]').get(0).scrollIntoView();
-                                }
-                            }
-                        }
+                    if (url.hash && url.hash.length > 1) {
+                        scrollToPanel(url.hash.substr(1)); 
+                    } else if (url.searchParams.get("panel")){
+                        scrollToPanel(url.searchParams.get("panel"));
                     } else if (url.searchParams.get("date")){
-                        // scroll to date
-                        var dateToScrollTo = url.searchParams.get("date"); 
-                        if ($('[data-date="'+dateToScrollTo+'"]').length){
-                            $('[data-date="'+dateToScrollTo+'"]').get(0).scrollIntoView();
-                        }
+                        scrollToPanel(url.searchParams.get("date"));
                     }
                 }
-                if (scrollIntCounter++ > 20){
+                if (scrollIntCounter++ > 10){
                     window.clearInterval(scrollInt);
                 }
-            }, 100);
+            }, 200);
 
             $(document).ready(function() {
                 $('#filterTopics').multiselect({
