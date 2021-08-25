@@ -41,8 +41,6 @@
     $(document).on("pushstate", () => { console.log("pushstate"); });
 
     var scrollToPanel = function (panel){
-        console.log("Looking for ", panel); 
-
         if ($('[data-panel-id="'+panel+'"]').length){
             $('[data-panel-id="'+panel+'"]').get(0).scrollIntoView();
         } else if ($('[data-panel-name="'+panel+'"]').length){
@@ -65,7 +63,6 @@
     };
 
     $(document).on("click", function (e) {
-        console.log("click", e.target); 
         var $link = $(e.target).closest("a"); 
         if ($link.length > 0){
             var href = $link.attr("href"); 
@@ -79,9 +76,7 @@
             } else {
                 // external link
             }
-            console.log("click", href, url);
         }
-        
     });
 
 
