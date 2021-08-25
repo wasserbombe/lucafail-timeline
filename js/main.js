@@ -464,11 +464,11 @@
             data.timeline.forEach((e, i) => {
                 var subtitle = [];
                 if (e.date){
-                    subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
-
-                    var dateMatch = e.date.match(/^[0-9]{2}\.([0-9]{2})\.([0-9]{4})$/i);
+                    var dateMatch = e.date.match(/^([0-9]{2})\.([0-9]{2})\.([0-9]{4})$/i);
                     if (dateMatch){
-                        var yearMonth = dateMatch[2] + '-' + dateMatch[1];
+                        var yearMonth = dateMatch[3] + '-' + dateMatch[2];
+                        e.dateYYMMDD = dateMatch[3] + '-' + dateMatch[2] + '-' + dateMatch[1]
+                        subtitle.push('<i class="bi-calendar-event"></i> <a href="?date='+e.dateYYMMDD+'">' + e.date + '</a>');
                         if (yearMonth != lastYearAndMonth){
                             // new month!
                             var $monthSep = $("<div>").html("<h2>" + yearMonth + "</h2>").addClass("month-separator").attr("id", yearMonth);
@@ -478,6 +478,8 @@
 
                             lastYearAndMonth = yearMonth; 
                         }
+                    } else {
+                        subtitle.push('<i class="bi-calendar-event"></i> ' + e.date);
                     }
                 }
                 
@@ -503,6 +505,15 @@
                 e.type = e.type || "general";
                 $timelineli.addClass("type-" + e.type);
                 $timelineli.attr("data-type", e.type);
+                $timelineli.attr("data-date", e.dateYYMMDD ? e.dateYYMMDD : "");
+                // generate panel ID
+                var panelID = [];
+                panelID.push(e.dateYYMMDD ? e.dateYYMMDD : e.data); 
+                panelID.push(e.type);
+                panelID.push(e.title);
+                panelID = panelID.join("-").replace(/[^a-z0-9-]/ig,'_'); 
+                $timelineli.attr("data-panelID", panelID);
+
                 var topic = e.type; 
                 if (typeof typeFriendlyNames[e.type] !== "undefined"){
                     topic = typeFriendlyNames[e.type];
@@ -523,6 +534,7 @@
                 }
 
                 var $panel = $("<div>").addClass("timeline-panel");
+
                 var $heading = $("<div>").addClass("timeline-heading");
 
                 // subtitle
@@ -533,6 +545,8 @@
                         subtitle.push('<small><span style="color: darkgreen;"><i class="bi-check-circle-fill" title="Info verifiziert."></i></span></small>');
                     }
                 }
+                // add panel link to subtitle
+                subtitle.push('<a href="?panel='+panelID+'"><i class="bi-link"></i></a>')
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
                 var $p = $("<p>").append($small);
                 $heading.append($p);
@@ -652,6 +666,39 @@
             });
 
             syncConsentToContent();
+
+            // scroll if query param present
+            // TODO: Trigger if page content was loaded / removing interval...
+            var scrollIntCounter = 0; 
+            var scrollInt = window.setInterval(function (){
+                var url = new URL(location.href); 
+                if (url && url.searchParams){
+                    if (url.searchParams.get("panel")){
+                        var panelToScrollTo = url.searchParams.get("panel"); 
+                        if ($('[data-panelid="'+panelToScrollTo+'"]').length){
+                            $('[data-panelid="'+panelToScrollTo+'"]').get(0).scrollIntoView();
+                        } else {
+                            // try by date
+                            var splitPanel = panelToScrollTo.split("-"); 
+                            if (splitPanel.length >= 3){
+                                var dateToScrollTo = splitPanel[0] + '-' + splitPanel[1] + '-' + splitPanel[2];
+                                if ($('[data-date="'+dateToScrollTo+'"]').length){
+                                    $('[data-date="'+dateToScrollTo+'"]').get(0).scrollIntoView();
+                                }
+                            }
+                        }
+                    } else if (url.searchParams.get("date")){
+                        // scroll to date
+                        var dateToScrollTo = url.searchParams.get("date"); 
+                        if ($('[data-date="'+dateToScrollTo+'"]').length){
+                            $('[data-date="'+dateToScrollTo+'"]').get(0).scrollIntoView();
+                        }
+                    }
+                }
+                if (scrollIntCounter++ > 20){
+                    window.clearInterval(scrollInt);
+                }
+            }, 100);
 
             $(document).ready(function() {
                 $('#filterTopics').multiselect({
