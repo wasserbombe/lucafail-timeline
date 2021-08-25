@@ -87,6 +87,15 @@
                                         Teile Deine Location in möglichst kleine Bereiche (z.B. pro Tisch, Bar, ...) ein, sodass später zumindest eine rudimentäre Risikobewertung möglich ist. Keinem Gesundheitsamt bringt es etwas, im Infektionsfall eine Liste mit 2.000 Baumarkt-Kunden zu erhalten, wenn nur der Bereich beim Gartensortiment-Drive-In interessant gewesen wäre.
                                     </li>
                                     <li>
+                                        <b>Teile keine Scanner- und Kontaktformular-URLs</b><br>
+                                        Beides ermöglicht es fremdem/entfernten Menschen (wie auch beim Veröffentlichen von QR-Codes), Gäste bei Deiner Location einzuchecken. Teilweise waren Scanner- und Kontaktformular-URLs via Google auffindbar, weil Vereine sie öffentlich auf ihrer Webseite posteten. 
+                                        <small>
+                                            <ul>
+                                                <li><a href="#2021-03-24_incident_Schwachstelle-Scanner-URLs-offen-Nutzer-im-Namen-von-Locations-eincheckbar-Auslastung-in-Echtzeit-auslesbar">Schwachstelle: Scanner-URLs offen, Nutzer im Namen von Locations eincheckbar, Auslastung in Echtzeit auslesbar</a></li>
+                                            </ul>
+                                        </small>
+                                    </li>
+                                    <li>
                                         <b>Betreiberschlüssel für Kontaktdaten sicher aufbewahren</b><br>
                                         Die Luca-App wälzt eine wichtige Verantwortung an Location-Betreiber ab: Damit die Kontaktdaten später beim Gesundheitsamt entschlüsselt werden können, wird im Infektionsfall auch der Betreiberschlüssel benötigt. Der wird in den meisten Fällen von der Luca-App nur beim Erstellen der Location gebraucht, dann selten abgefragt - <b>spielt aber auch später eine große Rolle!</b>. Achte daher darauf, dass Du den Schlüssel sicher aufbewahrst, ihn nicht verlierst - und er zu den erstellten QR-Codes passt.
                                         <small>
@@ -137,6 +146,15 @@
                                         <b>Verwende keine Luca-Schlüsselanhänger</b><br>
                                         Luca-Schlüsselanhänger sind anfällig für eine Reihe von Szenarien. Allen voran: Jeder, der den Schlüsselanhänger in die Hände bekommt, kann ihn kopieren und nutzen, da das Schlüsselmaterial statisch ist. Theoretisch könnten die Luca-App-Betreiber dann sogar auf Deine Historie und Kontaktdaten zugreifen.<br>
                                         Außerdem: Mit einem Schlüsselanhänger kannst Du nicht auschecken. Selbst ein Location-Betreiber kann nur <i>alle</i> eingecheckten Leute auschecken, nicht individuell. Du wirst also möglicherweise 24 Stunden lang als "anwesend" gezählt.
+                                        <small>
+                                            <ul>
+                                                <li><a href="#2021-05-14_incident_Schwachstelle-Fremde-Schlsselanhnger-lassen-sich-einchecken-Kontaktdaten-fr-das-Gesundheitsamt-vernderbar---auch-nachtrglich">Fremde Schlüsselanhänger lassen sich einchecken, Kontaktdaten für das Gesundheitsamt veränderbar (letzteres inzwischen behoben)</a></li>
+                                                <li><a href="#2021-05-14_incident_Schwachstelle-Nexenio-hat-Zugriff-auf-Seriennummer-der-Schlsselanhnger---und-damit-auf-das-Bewegungsprofil-von-Nutzern">Nexenio hat Zugriff auf Seriennummer der Schlüsselanhänger - und damit auf das Bewegungsprofil von Nutzern</a></li>
+                                                <li><a href="#2021-05-11_incident_Schwachstelle-Schlsselanhnger-knnen-nicht-entschlsselt-werden">Schlüsselanhänger konnten nicht entschlüsselt werden (inzwischen behoben)</a></li>
+                                                <li><a href="#2021-04-13_incident_Schwachstelle-LucaTrack-Historie-fr-Schlsselanhnger-auslesbar-damit-Bewegungsprofile-mglich">LucaTrack: Historie für Schlüsselanhänger auslesbar, damit Bewegungsprofile möglich (inzwischen behoben)</a></li>
+                                                <li><a href="#2021-04-04_incident_Schwachstelle-Beliebige-6-stellige-Zahl-funktioniert-als-TAN">Beliebige 6-stellige Zahl funktioniert als TAN (bei Schlüsselanhängern behoben, TAN-Verifizierung in der App lässt sich noch immer umgehen)</a></li>
+                                            </ul>
+                                        </small>
                                     </li>
                                     <li>
                                         <b>"Daten durch das Gesundheitsamt abgerufen" ist eine Warnung</b><br>
