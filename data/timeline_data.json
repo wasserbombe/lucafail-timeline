@@ -892,6 +892,32 @@
             "verified": true
         },
         {
+            "date": "08.04.2021",
+            "dt_created": "2021-08-25 00:00:00",
+            "dt_updated": "2021-08-25 00:00:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "kNGVQcLjlmo"
+                }
+            ],
+            "id": "c21b0312291b",
+            "id_readable": "2021-04-08_podcast_The-Morpheus-Vlogs-Luca-Verschlsselung-einfach-erklrt",
+            "links": [
+                {
+                    "url": "https:\/\/www.youtube.com\/watch?v=kNGVQcLjlmo",
+                    "text": "The Morpheus Vlogs: \u201cDas ist NICHT VERSCHL\u00dcSSELT, liebe LUCA APP!\u201c (youtube.com)"
+                }
+            ],
+            "tags": [
+                "youtube",
+                "verschl\u00fcsselung"
+            ],
+            "text": "The Morpheus Vlogs erkl\u00e4rt auf YouTube das Verschl\u00fcsselungsprinzip hinter der Luca-App und erkl\u00e4rt, warum es sich dabei nicht um eine Verschl\u00fcsselung handelt, wie wir sie erwarten w\u00fcrden.",
+            "title": "The Morpheus Vlogs: Luca-Verschl\u00fcsselung einfach erkl\u00e4rt",
+            "type": "podcast"
+        },
+        {
             "date": "11.04.2021",
             "dt_created": "2021-04-11 00:00:00",
             "dt_updated": "2021-04-11 00:00:00",
@@ -1099,6 +1125,22 @@
             ],
             "text": "<ul><li>Investor Smudo auf Talkshow-Tour<\/li><li>Staatlich subventioniertes Gesch\u00e4ftsmodell<\/li><li>Fragw\u00fcrdige Vergabepraxis<\/li><li>Alternativen geflissentlich ignoriert<\/li><li>Zweifelhafter Nutzen<\/li><li>Betreiber greifen in zentralen Datenbestand ein<\/li><li>Handwerkliche M\u00e4ngel und Schwachstellen<\/li><\/ul>",
             "title": "\u201cLuca-App: CCC fordert Bundesnotbremse\u201d",
+            "type": "news"
+        },
+        {
+            "date": "14.04.2021",
+            "dt_created": "2021-04-14 00:00:00",
+            "dt_updated": "2021-04-14 00:00:00",
+            "id": "1cdcccd3afe8",
+            "id_readable": "2021-04-14_news_Mit-Kommerz-in-die-vierte-Welle",
+            "links": [
+                {
+                    "url": "https:\/\/www.nd-aktuell.de\/artikel\/1150766.luca-app-mit-kommerz-in-die-vierte-welle.html",
+                    "text": "Daniel L\u00fccking: \u201cMit Kommerz in die vierte Welle\u201d (nd-aktuell.de)"
+                }
+            ],
+            "text": "<blockquote>[...] Doch bei den Landesregierungen z\u00e4hlt technischer Sachverstand offenbar nicht. Mit kurzsichtigen und vorschnellen app-gest\u00fctzten \u00d6ffnungen droht bald eine vierte Infektionswelle.<\/blockquote>",
+            "title": "\u201cMit Kommerz in die vierte Welle\u201d",
             "type": "news"
         },
         {
@@ -4504,9 +4546,9 @@
     ],
     "meta": {
         "git": {
-            "commit_sh": "1c50b4a",
-            "commit_lh": "1c50b4a430da7470c278519586658ab0fe4b5304",
-            "commit_date": "2021-08-25 19:25:59 +0200",
+            "commit_sh": "f0928f2",
+            "commit_lh": "f0928f2b0183b08145ac772bfb5bae415fee5939",
+            "commit_date": "2021-08-25 19:48:33 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -4515,7 +4557,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1629913617,
-        "date": "2021-08-25"
+        "ts": 1629983155,
+        "date": "2021-08-26"
     }
 }

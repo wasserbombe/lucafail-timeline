@@ -37,9 +37,6 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(mymap);
 
-    $(document).on("popstate", () => { console.log("popstate"); });
-    $(document).on("pushstate", () => { console.log("pushstate"); });
-
     var scrollToPanel = function (panel){
         if ($('[data-panel-id="'+panel+'"]').length){
             $('[data-panel-id="'+panel+'"]').get(0).scrollIntoView();
@@ -500,7 +497,7 @@
         });
     }
     $.ajax({
-        url: "/data/timeline_data.json",
+        url: "/data/timeline_data.min.json",
         dataType: 'json',
         success: (data) => {
             data.timeline = data.timeline.reverse(); 
@@ -837,7 +834,7 @@
      * STATS
      */
     // stats_container_tweets_per_day
-    $.ajax({
+    /*$.ajax({
         url: "/api/stats.php",
         dataType: 'json',
         data: { view: 'twt_tweets-per-day' },
@@ -994,5 +991,5 @@
                 });
             }
         }
-    });
+    });*/
 })(); 

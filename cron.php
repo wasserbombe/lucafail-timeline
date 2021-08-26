@@ -1,6 +1,7 @@
 <?php
     // update timeline JSON with relevant data
     $fn = __DIR__.'/data/timeline_data.json'; 
+    $fn_min = str_replace(".json", ".min.json", $fn); 
     $json = file_get_contents($fn); 
     $data = json_decode($json, true); 
 
@@ -68,4 +69,5 @@
     }
 
     file_put_contents($fn, json_encode($data, JSON_PRETTY_PRINT));
+    file_put_contents($fn_min, json_encode($data));
 ?>
