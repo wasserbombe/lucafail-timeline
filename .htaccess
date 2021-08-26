@@ -9,3 +9,4 @@ RedirectMatch 404 /config
 Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
 Header set Pragma "no-cache"
 Header set Expires "Wed, 12 Jan 1980 05:00:00 GMT"
+Header always set Referrer-Policy "no-referrer"

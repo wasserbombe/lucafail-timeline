@@ -3213,6 +3213,11 @@
                     "text": "Artikel in Telepolis: \u201cLuca und L\u00fcgen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt\u201d (heise.de)"
                 }
             ],
+            "references": [
+                {
+                    "id": "fe4f6854c901"
+                }
+            ],
             "text": "Zitat aus verlinktem Artikel: <blockquote>Die Sache wirft ein eigenartiges Licht darauf, wie vonseiten der LucaApp-Betreiber mit Kritik umgegangen wird. Sie best\u00e4tigt den Eindruck, dass in der Coronakrise mit schwerem Gesch\u00fctz gegen Kritiker vorgegangen wird - nicht selten unverh\u00e4ltnism\u00e4\u00dfig. Demgegen\u00fcber steht eine privilegierte Marktposition der App, deren Team sehr gut vernetzt ist, wohl auch in politische Kreise.<\/blockquote>",
             "title": "Artikel in Telepolis: \u201cLuca und L\u00fcgen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt\u201d",
             "type": "news"
@@ -3432,6 +3437,11 @@
                 {
                     "url": "https:\/\/play.google.com\/store\/apps\/details?id=de.culture4life.luca&hl=de&gl=DE&showAllReviews=true",
                     "text": "Bewertungen der Luca-App im Google Play-Store (play.google.com)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "fe4f6854c901"
                 }
             ],
             "text": "Die Luca-App fordert Android-Nutzer zur Bewertung auf - die halten das f\u00fcr eine Bewertungsm\u00f6glichkeit der Restaurants. Dadurch ver\u00e4ndern sich Wertung und Inhalt der Bewertungen im Google Play Store rasant zum Guten.<br>Auf iOS fehlt dieses Feature.",
@@ -4542,13 +4552,50 @@
             "title": "\u201cLuca-App - Aus der Zauber\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "25.08.2021",
+            "dt_created": "2021-08-26 16:00:00",
+            "dt_updated": "2021-08-26 16:00:00",
+            "id": "fe4f6854c901",
+            "id_readable": "2021-08-25_doc_Stellungnahmen-von-Luca",
+            "links": [
+                {
+                    "url": "https:\/\/www.luca-app.de\/luca-stellt-klar-wissenswertes-zur-anbindung-an-sormas\/",
+                    "text": "\u201cluca stellt klar: Wissenswertes zur Anbindung an Sormas\u201d (luca-app.de)"
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/drei-fragen-an-luca-wie-steht-luca-zum-bsi-und-sicherheitsueberpruefungen\/",
+                    "text": "\u201cWie steht luca zum BSI und Sicherheits\u00fcberpr\u00fcfungen?\u201d (luca-app.de)"
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/macher-der-luca-app-nehmen-stellung-fakten-vs-geraune\/",
+                    "text": "\u201cMacher der Luca-App nehmen Stellung: Fakten vs. Geraune\u201d (luca-app.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ab234172e9ec"
+                },
+                {
+                    "id": "063672f0c4cf"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "stellungnahme"
+            ],
+            "text": "Die Luca-Macher haben auf ihrer Webseite drei Stellungnahmen ver\u00f6ffentlicht:<ul><\/ul>",
+            "title": "Stellungnahmen von Luca-Machern",
+            "type": "doc",
+            "verified": true
         }
     ],
     "meta": {
         "git": {
-            "commit_sh": "f0928f2",
-            "commit_lh": "f0928f2b0183b08145ac772bfb5bae415fee5939",
-            "commit_date": "2021-08-25 19:48:33 +0200",
+            "commit_sh": "4150582",
+            "commit_lh": "415058283bf600b61a8ff88978ba15c34d00c6cb",
+            "commit_date": "2021-08-26 15:10:09 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -4557,7 +4604,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1629983155,
+        "ts": 1629987456,
         "date": "2021-08-26"
     }
 }

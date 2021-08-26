@@ -591,6 +591,7 @@
                 // add panel link to subtitle
                 if (e.id_readable){
                     subtitle.push('<a href="#'+e.id_readable+'"><i class="bi-link"></i></a>')
+                    subtitle.push(e.id);
                 }
                 
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
@@ -679,6 +680,29 @@
                     var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
 
                     $content.append($linkarea);                    
+                }
+
+                // references
+                if (e.references && e.references.length > 0){
+                    $content.append($("<hr>"));  
+                    var $referencelist = $("<ul>");
+                    e.references.forEach((reference, i) => {
+                        if (reference.id){
+                            for (var ti = 0; ti < data.timeline.length; ti++){
+                                var tlelem = data.timeline[ti]; 
+                                if (tlelem.id == reference.id){
+                                    var $li = $("<li>");
+                                    var $a = $("<a>").attr("href", "#"+tlelem.id_readable).text(tlelem.title);
+                                    $li.append($a);
+                                    $referencelist.append($li); 
+                                    break; 
+                                }
+                            }
+                        }
+                    });
+
+                    var $referencearea = $("<div>").addClass("referencearea").html('<b>Siehe auch:</b>').append($referencelist);
+                    $content.append($referencearea);
                 }
 
                 // tag list
