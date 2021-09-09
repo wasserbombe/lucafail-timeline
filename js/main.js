@@ -685,7 +685,20 @@
                 }
 
                 // references
-                if (e.references && e.references.length > 0){
+                e.references = e.references || []; 
+
+                // find "incoming" references
+                data.timeline.forEach((tlelem, ti) => {
+                    if (tlelem.references){
+                        tlelem.references.forEach((reference, ri) => {
+                            if (reference.id == e.id){
+                                e.references.push({ id: tlelem.id});
+                            }
+                        });
+                    }
+                });
+
+                if (e.references.length > 0){
                     $content.append($("<hr>"));  
                     var $referencelist = $("<ul>");
                     e.references.forEach((reference, i) => {

@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "5b60762",
-            "commit_lh": "5b607621ff93d85cf9741fc52fc6024e975de30d",
-            "commit_date": "2021-08-26 16:17:47 +0200",
+            "commit_sh": "733b0e2",
+            "commit_lh": "733b0e27d8f6f0357ba228e4d2e6680d54e972ba",
+            "commit_date": "2021-09-09 16:14:19 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1631196556,
+        "ts": 1631197381,
         "date": "2021-09-09"
     },
     "timeline": [
@@ -3229,11 +3229,7 @@
                     "text": "Artikel in Telepolis: \u201cLuca und L\u00fcgen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt\u201d (heise.de)"
                 }
             ],
-            "references": [
-                {
-                    "id": "fe4f6854c901"
-                }
-            ],
+            "references": [],
             "text": "Zitat aus verlinktem Artikel: <blockquote>Die Sache wirft ein eigenartiges Licht darauf, wie vonseiten der LucaApp-Betreiber mit Kritik umgegangen wird. Sie best\u00e4tigt den Eindruck, dass in der Coronakrise mit schwerem Gesch\u00fctz gegen Kritiker vorgegangen wird - nicht selten unverh\u00e4ltnism\u00e4\u00dfig. Demgegen\u00fcber steht eine privilegierte Marktposition der App, deren Team sehr gut vernetzt ist, wohl auch in politische Kreise.<\/blockquote>",
             "title": "Artikel in Telepolis: \u201cLuca und L\u00fcgen - Meinungsfreiheit in Corona-Zeiten: Kritiker der Luca-App wird von Anwaltskanzlei abgemahnt\u201d",
             "type": "news"
@@ -3455,11 +3451,7 @@
                     "text": "Bewertungen der Luca-App im Google Play-Store (play.google.com)"
                 }
             ],
-            "references": [
-                {
-                    "id": "fe4f6854c901"
-                }
-            ],
+            "references": [],
             "text": "Die Luca-App fordert Android-Nutzer zur Bewertung auf - die halten das f\u00fcr eine Bewertungsm\u00f6glichkeit der Restaurants. Dadurch ver\u00e4ndern sich Wertung und Inhalt der Bewertungen im Google Play Store rasant zum Guten.<br>Auf iOS fehlt dieses Feature.",
             "title": "Artikel in Telepolis: \u201cF\u00fcnf Sterne f\u00fcr die Luca-App: \"Das Essen war sehr gut\"\u201d",
             "type": "news"
@@ -3706,11 +3698,7 @@
                     "text": "dpa: \u201cOberlandesgericht \u00fcberpr\u00fcft Kauf der Luca-App durch das Land\u201d (welt.de)"
                 }
             ],
-            "references": [
-                {
-                    "id": "de4e8d5597af"
-                }
-            ],
+            "references": [],
             "text": "<blockquote>Am kommenden Mittwoch beginnt vor dem Oberlandesgericht Rostock der Prozess gegen die Vergabe der Luca-App ohne Ausschreibung. Die \u00f6sterreichische Firma Cube Software- und Hotel Projektierungs GmbH verklagt das Land MV wegen der Beschaffung der Luca-App zur Kontaktnachverfolgung durch die Gesundheits\u00e4mter. Drei Tage bevor die Luca-App der Culture4life GmbH beauftragt wurde, hatte die Kl\u00e4gerin ebenfalls Interesse an einem Auftrag bekundet.<\/blockquote>",
             "title": "tv.rostock: Klage gegen Vergabe der Luca-App",
             "type": "news",
@@ -4656,6 +4644,11 @@
                 {
                     "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca-app_im_saarland_bislang_ein_flop_100.html",
                     "text": "Caroline Uhl, Niklas Resch: \u201cLuca-App im Saarland bislang ein Flop\u201d (sr.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "f1f9fd987be1"
                 }
             ],
             "scope": "Land: Saarland",
