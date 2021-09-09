@@ -1,4 +1,20 @@
 {
+    "meta": {
+        "git": {
+            "commit_sh": "5b60762",
+            "commit_lh": "5b607621ff93d85cf9741fc52fc6024e975de30d",
+            "commit_date": "2021-08-26 16:17:47 +0200",
+            "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
+        },
+        "urls": [
+            "https:\/\/timeline.luca.fail\/",
+            "https:\/\/timeline.luca.fail\/?date={{YYYY-MM-DD}}",
+            "https:\/\/timeline.luca.fail\/?panel={{id}}",
+            "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
+        ],
+        "ts": 1631196556,
+        "date": "2021-09-09"
+    },
     "timeline": [
         {
             "date": "01.02.2021",
@@ -3690,10 +3706,15 @@
                     "text": "dpa: \u201cOberlandesgericht \u00fcberpr\u00fcft Kauf der Luca-App durch das Land\u201d (welt.de)"
                 }
             ],
+            "references": [
+                {
+                    "id": "de4e8d5597af"
+                }
+            ],
             "text": "<blockquote>Am kommenden Mittwoch beginnt vor dem Oberlandesgericht Rostock der Prozess gegen die Vergabe der Luca-App ohne Ausschreibung. Die \u00f6sterreichische Firma Cube Software- und Hotel Projektierungs GmbH verklagt das Land MV wegen der Beschaffung der Luca-App zur Kontaktnachverfolgung durch die Gesundheits\u00e4mter. Drei Tage bevor die Luca-App der Culture4life GmbH beauftragt wurde, hatte die Kl\u00e4gerin ebenfalls Interesse an einem Auftrag bekundet.<\/blockquote>",
             "title": "tv.rostock: Klage gegen Vergabe der Luca-App",
             "type": "news",
-            "verified": false
+            "verified": true
         },
         {
             "date": "05.08.2021",
@@ -4527,7 +4548,7 @@
         {
             "date": "22.08.2021",
             "dt_created": "2021-08-24 11:30:00",
-            "dt_updated": "2021-08-24 12:30:00",
+            "dt_updated": "2021-09-02 23:20:00",
             "id": "26acc32dd6ce",
             "id_readable": "2021-08-22_news_Luca-App---Aus-der-Zauber",
             "links": [
@@ -4542,13 +4563,17 @@
                 {
                     "url": "https:\/\/www.faz.net\/aktuell\/technik-motor\/die-luca-app-sorgt-fuer-gastronomische-paralleluniversen-17492494.html",
                     "text": "Anna-Lena Niemann \/ Frankfurter Allgemeine Zeitung: \u201cZeit mit Luca\u201d (faz.net)"
+                },
+                {
+                    "url": "https:\/\/scienceblogs.de\/rupture-de-catenaire\/2021\/09\/02\/wer-haette-das-gedacht-die-luca-app-ist-nutzlos\/",
+                    "text": "Christian Meesters: \u201cWer h\u00e4tte das gedacht? \u2013 Die Luca-App ist nutzlos\u201d (scienceblogs.de)"
                 }
             ],
             "scope": "Bundesweit",
             "tags": [
                 "kommentar"
             ],
-            "text": "Verschiedene Zeitungen kommentieren den Bericht des Spiegels:<blockquote>Die Luca-App sollte der Heilsbringer f\u00fcr die \u00fcberlasteten Gesundheits\u00e4mter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken \u00fcber Alternativen zu machen.<\/blockquote><div class=\"quote-origin\">\u2014 Max Muth (S\u00fcddeutsche Zeitung)<\/div><blockquote>Wir beamen, nein scannen, uns jetzt an mehrere Orte gleichzeitig. Eine Bekannte hat dabei einen Rekord aufgestellt, als sie, parallel zu Alltag und Job, 261 Stunden beim Lieblingsitaliener sa\u00df.<\/blockquote><div class=\"quote-origin\">\u2014 Anna-Lena Niemann (Frankfurter Allgemeine Zeitung)<\/div>",
+            "text": "Verschiedene Zeitungen kommentieren den Bericht des Spiegels:<blockquote>Die Luca-App sollte der Heilsbringer f\u00fcr die \u00fcberlasteten Gesundheits\u00e4mter sein - doch die nutzen sie gar nicht. Zeit, sich Gedanken \u00fcber Alternativen zu machen.<\/blockquote><div class=\"quote-origin\">\u2014 Max Muth (S\u00fcddeutsche Zeitung)<\/div><blockquote>Wir beamen, nein scannen, uns jetzt an mehrere Orte gleichzeitig. Eine Bekannte hat dabei einen Rekord aufgestellt, als sie, parallel zu Alltag und Job, 261 Stunden beim Lieblingsitaliener sa\u00df.<\/blockquote><div class=\"quote-origin\">\u2014 Anna-Lena Niemann (Frankfurter Allgemeine Zeitung)<\/div><blockquote>Ach wie gut, dass wir manche Politiker bald daran erinnern k\u00f6nnen, dass es ab und an gut ist Expertisen nicht in den Wind zu schlagen!<\/blockquote><div class=\"quote-origin\">\u2014 Christian Meesters (scienceblogs.de)<\/div>",
             "title": "\u201cLuca-App - Aus der Zauber\u201d",
             "type": "news",
             "verified": true
@@ -4587,24 +4612,58 @@
             ],
             "text": "Die Luca-Macher haben auf ihrer Webseite drei Stellungnahmen ver\u00f6ffentlicht:<ul><\/ul>",
             "title": "Stellungnahmen von Luca-Machern",
-            "type": "doc",
+            "type": "doc-luca",
+            "verified": true
+        },
+        {
+            "date": "02.09.2021",
+            "dt_created": "2021-09-02 23:00:00",
+            "dt_updated": "2021-09-02 23:00:00",
+            "id": "de4e8d5597af",
+            "id_readable": "2021-09-02_news_OLG-Rostock-Klage-abgewiesen",
+            "links": [
+                {
+                    "url": "https:\/\/www.computerbild.de\/artikel\/cb-News-App-Check-Luca-App-Klage-Vergabeverfahren-Abgewiesen-30713883.html",
+                    "text": "\u201cLuca-App: Konkurrent scheitert mit Klage gegen Vergabeverfahren\u201d (computerbild.de)"
+                },
+                {
+                    "url": "https:\/\/www.juris.de\/jportal\/portal\/t\/1tkj\/page\/homerl.psml?nid=jnachr-JUNA210903137&cmsuri=%2Fjuris%2Fde%2Fnachrichten%2Fzeigenachricht.jsp",
+                    "text": "\u201cJuris: Beschwerde gegen Luca-App-Vergabe zur\u00fcckgewiesen\u201d (juris.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "437e77191467"
+                }
+            ],
+            "scope": "Land: Mecklenburg-Vorpommern",
+            "tags": [
+                "gericht",
+                "klage"
+            ],
+            "text": "Das OLG Rostock hat eine Klage einer \u00f6sterreichischen Firma abgelehnt, die im Fr\u00fchjahr ein Konkurrenz-Produkt anbieten wollten. Dabei wurden allerdings nicht die Vergabeverfahren gepr\u00fcft, man stellte lediglich fest, dass der Antrag unbegr\u00fcndet sei.<blockquote>In der Begr\u00fcndung stellte die Kammer auf ein Alleinstellungsmerkmal der Beigeladenen ab. Nur diese habe ein Angebot mit einer Schnittstelle zu der von den Gesundheits\u00e4mtern verwendeten Fachanwendung SORMAS abgegeben.<\/blockquote>",
+            "title": "OLG Rostock: Klage gegen Vergabe der Luca-App abgewiesen",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "09.09.2021",
+            "dt_created": "2021-09-09 16:00:00",
+            "dt_updated": "2021-09-09 16:00:00",
+            "id": "291b3ac75ef2",
+            "id_readable": "2021-09-09_news_Luca-App-im-Saarland-bislang-ein-Flop",
+            "links": [
+                {
+                    "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca-app_im_saarland_bislang_ein_flop_100.html",
+                    "text": "Caroline Uhl, Niklas Resch: \u201cLuca-App im Saarland bislang ein Flop\u201d (sr.de)"
+                }
+            ],
+            "scope": "Land: Saarland",
+            "tags": [],
+            "text": "<blockquote>Aus einer SR-Anfrage an die saarl\u00e4ndischen Gesundheits\u00e4mter geht hervor: Bei \u00fcber 13.000 best\u00e4tigten Corona-Infektionen seit April gab es keinen einzigen Fall, bei dem die App geholfen h\u00e4tte, Kontaktpersonen zu ermitteln und zu informieren.<\/blockquote><blockquote>Er betont aber, angesichts des geringen Nutzens m\u00fcsse man schon \u00fcberlegen, ob es nicht in Zukunft \u201epreisg\u00fcnstigere und bessere Alternativen gebe\u201c.<\/blockquote><div class=\"quote-origin\">\u2014 Caroline Uhl, Niklas Resch (sr.de)<\/div>",
+            "title": "\u201cLuca-App im Saarland bislang ein Flop\u201d",
+            "type": "news",
             "verified": true
         }
-    ],
-    "meta": {
-        "git": {
-            "commit_sh": "4150582",
-            "commit_lh": "415058283bf600b61a8ff88978ba15c34d00c6cb",
-            "commit_date": "2021-08-26 15:10:09 +0200",
-            "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
-        },
-        "urls": [
-            "https:\/\/timeline.luca.fail\/",
-            "https:\/\/timeline.luca.fail\/?date={{YYYY-MM-DD}}",
-            "https:\/\/timeline.luca.fail\/?panel={{id}}",
-            "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
-        ],
-        "ts": 1629987456,
-        "date": "2021-08-26"
-    }
+    ]
 }
