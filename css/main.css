@@ -165,7 +165,7 @@ li.type-doc .timeline-panel {
 li.type-incident .timeline-panel, li.type-probleme .timeline-panel {
     border-top: 8px solid rgb(173, 0, 0);
 }
-li.type-event .timeline-panel, li.type-talk .timeline-panel, li.type-podcast .timeline-panel, li.type-broadcast .timeline-panel {
+li.type-event .timeline-panel, li.type-talk .timeline-panel, li.type-podcast .timeline-panel, li.type-broadcast .timeline-panel, li.type-doc-luca .timeline-panel {
     border-top: 8px solid rgb(212, 145, 0);
 }
 li.type-fragdenstaat .timeline-panel {
@@ -184,7 +184,7 @@ li.type-doc .timeline-badge {
 li.type-incident .timeline-badge, li.type-probleme .timeline-badge {
     background-color: rgb(173, 0, 0);
 }
-li.type-event .timeline-badge, li.type-talk .timeline-badge, li.type-podcast .timeline-badge, li.type-broadcast .timeline-badge {
+li.type-event .timeline-badge, li.type-talk .timeline-badge, li.type-podcast .timeline-badge, li.type-broadcast .timeline-badge, li.type-doc-luca .timeline-badge {
     background-color: rgb(212, 145, 0);
 }
 li.type-fragdenstaat .timeline-badge {

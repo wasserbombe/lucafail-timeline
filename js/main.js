@@ -11,7 +11,8 @@
         "talk": "Präsentation auf Fachveranstaltung",
         "probleme": "Probleme im Betrieb: Benutzung / UX / Support",
         "podcast": "Podcast",
-        "research": "Recherche"
+        "research": "Recherche",
+        "doc-luca": "Veröffentlichung, direkt von Luca"
     };
     var typeBSIcon = {
         "general": "info-lg",
@@ -25,7 +26,8 @@
         "probleme": "emoji-frown",
         "podcast": "soundwave",
         "research": "zoom-in",
-        "Kuriositäten": "stars"
+        "Kuriositäten": "stars",
+        "doc-luca": "patch-check"
     };
 
     // /CONFIG
