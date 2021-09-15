@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "733b0e2",
-            "commit_lh": "733b0e27d8f6f0357ba228e4d2e6680d54e972ba",
-            "commit_date": "2021-09-09 16:14:19 +0200",
+            "commit_sh": "b5ca40f",
+            "commit_lh": "b5ca40f12242a9ff6596f0670a25208d5334d02f",
+            "commit_date": "2021-09-09 16:24:01 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1631197381,
-        "date": "2021-09-09"
+        "ts": 1631740635,
+        "date": "2021-09-15"
     },
     "timeline": [
         {
@@ -4635,6 +4635,54 @@
             "verified": true
         },
         {
+            "date": "05.09.2021",
+            "dt_created": "2021-09-14 14:00:00",
+            "dt_updated": "2021-09-14 14:00:00",
+            "id": "953466dceede",
+            "id_readable": "2021-09-05_news_Nexenio-kndigt-eine-berarbeitete-Version-der-Luca-App---Luca---an",
+            "links": [
+                {
+                    "url": "https:\/\/www.chip.de\/news\/Nach-viel-Kritik-Luca-App-verspricht-korrigierendes-Update_183799774.html",
+                    "text": "\u201cNach viel Kritik: Luca-App verspricht korrigierendes Update\u201d (chip.de)"
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/luca-umfassendes-update-und-neue-funktionen\/",
+                    "text": "\u201cluca+: Umfassendes Update und neue Funktionen\u201d (luca-app.de)"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "luca+",
+                "betreiber-app"
+            ],
+            "text": "Die Luca-Macher haben in ihrem Blogeintrag (siehe Verlinkung) ein umfassendes Update der Luca-App und zus\u00e4tzliche Funktionen angek\u00fcndigt. Zu den Neuerungen soll geh\u00f6ren (siehe Blogpost):<ul><li>Warnhinweise, die von Gesundheits\u00e4mtern ausl\u00f6sbar sein sollen<\/li><li>Verbesserung der Datenqualit\u00e4t durch vom Location-Betreiber konfigurierbare Umgebungswerte<\/li><li>Automatisierte Cluster-Erkennung<\/li><li>Mobile App f\u00fcr Betriebe<\/li><li>Re-Design der App<\/li><\/ul>",
+            "title": "Nexenio k\u00fcndigt eine \u00fcberarbeitete Version der Luca-App - Luca+ - an",
+            "type": "news"
+        },
+        {
+            "date": "08.09.2021",
+            "dt_created": "2021-09-09 16:00:00",
+            "dt_updated": "2021-09-09 16:00:00",
+            "id": "408bbda71f7f",
+            "id_readable": "2021-09-08_news_Landkreis-Oberhavel-Gesundheitsamt-ignoriert-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.moz.de\/lokales\/oranienburg\/corona-warn-app-ist-die-luca-app-im-landkreis-oberhavel-nutzlos_-59293677.html",
+                    "text": "J\u00fcrgen Liebezeit: \u201cIst die Luca-App im Landkreis Oberhavel nutzlos?\u201d (moz.de)"
+                },
+                {
+                    "url": "https:\/\/www.pressreader.com\/germany\/maerkischer-zeitungsverlag-oranienburger-generalanzeiger\/20210908\/281513639268095",
+                    "text": "J\u00fcrgen Liebezeit: \u201cGesundheitsamt ignoriert Luca-App\u201d (pressreader.com)"
+                }
+            ],
+            "scope": "Kreis: Oberhavel",
+            "tags": [],
+            "text": "<blockquote>Daher w\u00e4re eine Festlegung von Kontaktpersonen allein durch die Nutzung der Luca-App ohnehin nicht m\u00f6glich<\/blockquote><div class=\"quote-origin\">\u2014 Constanze Gatzke, Pressesprecherin Landkreis Oberhavel<\/div><blockquote>Viele Gastronomen, Veranstalter und Vereine bieten ebenso wie einige Kommunen im guten Glauben die App zum Registrieren an. Auch viele B\u00fcrger checken sich \u00fcber die App ein, in der Annahme, dass sie im Fall der F\u00e4lle vom Gesundheitsamt kontaktiert werden k\u00f6nnten. In Oberhavel ist das aber nicht der Fall. Das wissen jedoch die Wenigsten.<\/blockquote><div class=\"quote-origin\">\u2014 J\u00fcrgen Liebezeit (Oranienburger Generalanzeiger)<\/div>",
+            "title": "Landkreis Oberhavel: \u201cGesundheitsamt ignoriert Luca-App\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
             "date": "09.09.2021",
             "dt_created": "2021-09-09 16:00:00",
             "dt_updated": "2021-09-09 16:00:00",
@@ -4656,6 +4704,107 @@
             "text": "<blockquote>Aus einer SR-Anfrage an die saarl\u00e4ndischen Gesundheits\u00e4mter geht hervor: Bei \u00fcber 13.000 best\u00e4tigten Corona-Infektionen seit April gab es keinen einzigen Fall, bei dem die App geholfen h\u00e4tte, Kontaktpersonen zu ermitteln und zu informieren.<\/blockquote><blockquote>Er betont aber, angesichts des geringen Nutzens m\u00fcsse man schon \u00fcberlegen, ob es nicht in Zukunft \u201epreisg\u00fcnstigere und bessere Alternativen gebe\u201c.<\/blockquote><div class=\"quote-origin\">\u2014 Caroline Uhl, Niklas Resch (sr.de)<\/div>",
             "title": "\u201cLuca-App im Saarland bislang ein Flop\u201d",
             "type": "news",
+            "verified": true
+        },
+        {
+            "date": "10.09.2021",
+            "dt_created": "2021-09-10 10:00:00",
+            "dt_updated": "2021-09-10 10:00:00",
+            "id": "f48e2fc09c14",
+            "id_readable": "2021-09-10_probleme_Alzey-Luca-Schlsselanhnger-sorgen-fr-Verwirrung",
+            "links": [
+                {
+                    "url": "https:\/\/www.allgemeine-zeitung.de\/lokales\/alzey\/alzey\/alzey-luca-schlusselanhanger-sorgen-fur-verwirrung_24448870",
+                    "text": "Antonia Dittrich: \u201cAlzey: Luca-Schl\u00fcsselanh\u00e4nger sorgen f\u00fcr Verwirrung\u201d (allgemeine-zeitung.de)"
+                }
+            ],
+            "references": [],
+            "scope": "Land: Saarland",
+            "tags": [],
+            "text": "<blockquote>B\u00fcrger melden, dass der QR-Code nicht gescannt werden kann, denn Gastronomen fragen sich: Wie?<\/blockquote>",
+            "title": "\u201cAlzey: Luca-Schl\u00fcsselanh\u00e4nger sorgen f\u00fcr Verwirrung\u201d",
+            "type": "probleme",
+            "verified": true
+        },
+        {
+            "date": "13.09.2021",
+            "dt_created": "2021-09-15 22:30:00",
+            "dt_updated": "2021-09-15 22:30:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "ugEvM5V49ow",
+                    "startAt": 386
+                }
+            ],
+            "id": "7f126cecd633",
+            "id_readable": "2021-09-13_event_Sitzung-des-Ausschuss-fr-Kommunikationstechnologie-und-Datenschutz-KTDat-des-Abgeordnetenhauses-Berlin-am-",
+            "references": [
+                {
+                    "id": "90bc8cffd47c"
+                }
+            ],
+            "scope": "Land: Berlin",
+            "tags": [
+                "agh-berlin",
+                "abgeordnetenhaus-berlin",
+                "berlin",
+                "ktdat",
+                "maja-smoltczyk"
+            ],
+            "text": "<i>(Zusammenfassung in Textform wird hier noch eingef\u00fcgt)<\/i><blockquote>In der Tat ist so, dass die Betreiberfirma hier von einer sch\u00f6nen Welt ausgeht, in der es keine b\u00f6sen Menschen gibt<\/blockquote>Maja Smoltczyk sch\u00e4tzt, dass die Luca-App von allen Apps, die personenbezogene Daten zur Kontaktdatenerfassung erfassen, am sichersten mit diesen Daten angeht - zumindest was die Verschl\u00fcsselung, nicht das Konzept der zentralen Speicherung, betrifft. Dennoch regt sie an, zu \u00fcberpr\u00fcfen, ob die erfassten Daten \u00fcberhaupt notwendig sind. Dann sollte das durch den Senat auch in die VO aufgenommen werden, andernfalls sollte dringend dar\u00fcber nachgedacht werden, ob eine anonyme Kontaktdatenerfassung wie bspw. \u00fcber die Corona-Warn-App nicht eher dem eigentlichen Ziel - Nutzer zu warnen und Gesundheits\u00e4mter zu entlasten - gerecht wird.",
+            "title": "Sitzung des Ausschuss f\u00fcr Kommunikationstechnologie und Datenschutz (KTDat) des Abgeordnetenhauses Berlin am 13.09.2021",
+            "type": "event",
+            "verified": true
+        },
+        {
+            "date": "15.09.2021",
+            "dt_created": "2021-09-15 23:16:00",
+            "dt_updated": "2021-09-15 23:16:00",
+            "id": "b1ec10966fcb",
+            "id_readable": "2021-09-15_news_Tagesschau-Faktenfinder-Wie-ntzlich-ist-die-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.tagesschau.de\/faktenfinder\/luca-app-115.html",
+                    "text": "Tagesschau Faktenfinder: \u201cWie n\u00fctzlich ist die Luca-App?\u201d (tagesschau.de)"
+                }
+            ],
+            "references": [],
+            "scope": "Bundesweit",
+            "tags": [],
+            "text": "",
+            "title": "Tagesschau Faktenfinder: \u201cWie n\u00fctzlich ist die Luca-App?\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "18.09.2021",
+            "dt_created": "2021-09-15 22:20:00",
+            "dt_updated": "2021-09-15 22:20:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/kcotsneb\/status\/1438219639469772807"
+                }
+            ],
+            "id": "a151de114b88",
+            "id_readable": "2021-09-18_talk_Vortrag-bei-der-CISPA-Roadshow-von-Dr-Ben-Stock-Digitale-Werkzeuge-in-der-Pandemie-Bekmpfung",
+            "links": [
+                {
+                    "url": "https:\/\/roadshow.cybersicherheit.saarland\/",
+                    "text": "\u201cCISPA-Roadshow: Cybersicherheit f\u00fcr alle - Zukunft digital erleben!\u201d (roadshow.cybersicherheit.saarland)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "fbc288656e00"
+                }
+            ],
+            "scope": "Land: Saarland",
+            "tags": [],
+            "text": "Dr. Ben Stock h\u00e4lt auf der CISPA-Roadshow des Saarlandes einen Vortrag zu Digitalen Werkzeugen innerhalb der Pandemie-Bek\u00e4mpfung.<blockquote>Im Vortrag befassen wir uns insbesondere mit zwei meistinstallierten Apps, der Luca-App und der Corona-Warn-App. Wir besprechen hier die unterschiedlichen Ziele, die beide Apps verfolgen, sowie die Risiken und den Nutzen beider Apps.<\/blockquote><b>Der Vortrag startet am 18.09. um 14:30 Uhr im Hauptstream.<\/b><br><br>Dr. Ben Stock (CISPA Helmholtz Center for Information Security) geh\u00f6rt zu den \u00fcber 70 Sicherheitsforschern, die die \"Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung\" gestartet haben.",
+            "title": "Vortrag bei der CISPA-Roadshow von Dr. Ben Stock: \u201cDigitale Werkzeuge in der Pandemie-Bek\u00e4mpfung\u201d",
+            "type": "talk",
             "verified": true
         }
     ]
