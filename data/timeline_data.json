@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b5ca40f",
-            "commit_lh": "b5ca40f12242a9ff6596f0670a25208d5334d02f",
-            "commit_date": "2021-09-09 16:24:01 +0200",
+            "commit_sh": "6e8dc70",
+            "commit_lh": "6e8dc705a04c9ddae2ad44499d2f050d68b244d3",
+            "commit_date": "2021-09-15 23:24:02 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1631740635,
-        "date": "2021-09-15"
+        "ts": 1631820073,
+        "date": "2021-09-16"
     },
     "timeline": [
         {
@@ -4778,6 +4778,32 @@
             "verified": true
         },
         {
+            "date": "16.09.2021",
+            "dt_created": "2021-09-16 21:20:00",
+            "dt_updated": "2021-09-16 21:20:00",
+            "id": "249f25f2a94b",
+            "id_readable": "2021-09-16_doc_CISPA-experts-on-the-problems-with-the-Luca-app-The-Luca-app-is-immediately-replaceable-without-any-loss",
+            "links": [
+                {
+                    "url": "https:\/\/cispa.de\/en\/news-and-events\/news-archive\/articles\/2021\/luca-app",
+                    "text": "CISPA experts on the problems with the Luca app: \u201cThe Luca app is immediately replaceable without any loss\u201d (cispa.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "a151de114b88"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "cispa"
+            ],
+            "text": "",
+            "title": "CISPA experts on the problems with the Luca app: \u201cThe Luca app is immediately replaceable without any loss\u201d",
+            "type": "doc",
+            "verified": true
+        },
+        {
             "date": "18.09.2021",
             "dt_created": "2021-09-15 22:20:00",
             "dt_updated": "2021-09-15 22:20:00",
@@ -4801,7 +4827,9 @@
                 }
             ],
             "scope": "Land: Saarland",
-            "tags": [],
+            "tags": [
+                "cispa"
+            ],
             "text": "Dr. Ben Stock h\u00e4lt auf der CISPA-Roadshow des Saarlandes einen Vortrag zu Digitalen Werkzeugen innerhalb der Pandemie-Bek\u00e4mpfung.<blockquote>Im Vortrag befassen wir uns insbesondere mit zwei meistinstallierten Apps, der Luca-App und der Corona-Warn-App. Wir besprechen hier die unterschiedlichen Ziele, die beide Apps verfolgen, sowie die Risiken und den Nutzen beider Apps.<\/blockquote><b>Der Vortrag startet am 18.09. um 14:30 Uhr im Hauptstream.<\/b><br><br>Dr. Ben Stock (CISPA Helmholtz Center for Information Security) geh\u00f6rt zu den \u00fcber 70 Sicherheitsforschern, die die \"Gemeinsame Stellungnahme zur digitalen Kontaktnachverfolgung\" gestartet haben.",
             "title": "Vortrag bei der CISPA-Roadshow von Dr. Ben Stock: \u201cDigitale Werkzeuge in der Pandemie-Bek\u00e4mpfung\u201d",
             "type": "talk",
