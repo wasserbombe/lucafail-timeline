@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "9f0326a",
-            "commit_lh": "9f0326a999217079000c863bdbbc97a8b4d54d93",
-            "commit_date": "2021-09-16 22:02:16 +0200",
+            "commit_sh": "eb2fb75",
+            "commit_lh": "eb2fb752adac12039def718f21a04568dfc89509",
+            "commit_date": "2021-09-21 23:13:53 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1632258782,
-        "date": "2021-09-21"
+        "ts": 1633124878,
+        "date": "2021-10-01"
     },
     "timeline": [
         {
@@ -4859,6 +4859,27 @@
             ],
             "text": "<blockquote>Hilfreich war auch, dass viele Besucher des Klubs die Corona-Warn-App installiert hatten. Sie bekamen eine Warnmeldung auf ihr Handy. Und dann ging es sehr schnell, die Menschen meldeten sich auf einmal sehr z\u00fcgig bei uns.<\/blockquote><div class=\"quote-origin\">\u2014 Schulze Kalthoff<\/div>",
             "title": "\u201cWas den Gesundheitsamtsleiter nach der Super-Spreader-Party freut\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "26.09.2021",
+            "dt_created": "2021-10-01 23:50:00",
+            "dt_updated": "2021-10-01 23:50:00",
+            "embed": [],
+            "id": "99249fa2f20f",
+            "id_readable": "2021-09-26_news_Nutzung-der-Luca-App-fllt-in-Schleswig-Holstein-weg",
+            "links": [
+                {
+                    "url": "https:\/\/www.rnd.de\/gesundheit\/luca-app-in-schleswig-holstein-wird-sie-nicht-mehr-gebraucht-TBFB3WZVBZD7FJLZBLTLY2QBCU.html",
+                    "text": "\u201cNutzung der Luca-App f\u00e4llt in Schleswig-Holstein weg\u201d (rnd.de)"
+                }
+            ],
+            "references": [],
+            "scope": "Land: Schleswig-Holstein",
+            "tags": [],
+            "text": "<blockquote>Durch eine neue Corona-Landes\u00adverordnung in Schleswig-Holstein, wird die Luca-App dort nun nicht mehr gebraucht. Neben dem Einzelhandel ist die Kontakt\u00addaten\u00ad\u00fcbermittlung nun auch in Gastronomie und Co. nicht mehr n\u00f6tig.<\/blockquote>",
+            "title": "\u201cNutzung der Luca-App f\u00e4llt in Schleswig-Holstein weg\u201d",
             "type": "news",
             "verified": true
         }
