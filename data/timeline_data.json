@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "eb2fb75",
-            "commit_lh": "eb2fb752adac12039def718f21a04568dfc89509",
-            "commit_date": "2021-09-21 23:13:53 +0200",
+            "commit_sh": "e49f15c",
+            "commit_lh": "e49f15c9c7f078117c8d0d977f8709d8bad1aba8",
+            "commit_date": "2021-10-01 23:49:32 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1633124878,
-        "date": "2021-10-01"
+        "ts": 1633298440,
+        "date": "2021-10-04"
     },
     "timeline": [
         {
@@ -4882,6 +4882,131 @@
             "title": "\u201cNutzung der Luca-App f\u00e4llt in Schleswig-Holstein weg\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "27.09.2021",
+            "dt_created": "2021-10-03 23:30:00",
+            "dt_updated": "2021-10-03 23:30:00",
+            "id": "762731286361",
+            "id_readable": "2021-09-27_news_Luca-App-Entwickler-Patrick-Hennig-Wir-sind-ohne-Business-Modell-gestartet",
+            "links": [
+                {
+                    "url": "https:\/\/www.handelsblatt.com\/unternehmen\/management\/vordenker\/vordenker-2021-luca-app-entwickler-patrick-hennig-wir-sind-ohne-business-modell-gestartet\/27641718.html",
+                    "text": "\u201cLuca-App-Entwickler Patrick Hennig: \u201eWir sind ohne Business-Modell gestartet\u201c\u201d (handelsblatt.com)"
+                }
+            ],
+            "references": [],
+            "tags": [],
+            "text": "",
+            "title": "\u201cLuca-App-Entwickler Patrick Hennig: \u201eWir sind ohne Business-Modell gestartet\u201c\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "29.09.2021",
+            "dt_created": "2021-10-03 23:30:00",
+            "dt_updated": "2021-10-03 23:30:00",
+            "id": "f71154e8f1b1",
+            "id_readable": "2021-09-29_doc-luca_luca-bundesweit-in-322-Gesundheitsmtern-verfgbar",
+            "links": [
+                {
+                    "url": "https:\/\/www.luca-app.de\/luca-bundesweit-in-322-gesundheitsaemtern-verfuegbar\/",
+                    "text": "\u201cluca+ bundesweit in 322 Gesundheits\u00e4mtern verf\u00fcgbar\u201d (luca-app.de)"
+                }
+            ],
+            "references": [],
+            "scope": "Bundesweit",
+            "text": "<blockquote>Entsprechend der Risikoanalyse ko\u0308nnen die Gesundheitsa\u0308mter nun direkt u\u0308ber luca+ mittels des dreistufigen Verfahrens \u201cInformieren, Warnen und Kontaktieren\u201d mit den Bu\u0308rger:innen kommunizieren.<\/blockquote>",
+            "title": "\u201cluca+ bundesweit in 322 Gesundheits\u00e4mtern verf\u00fcgbar\u201d",
+            "type": "doc-luca",
+            "verified": false
+        },
+        {
+            "date": "29.09.2021",
+            "dt_created": "2021-10-03 23:30:00",
+            "dt_updated": "2021-10-03 23:30:00",
+            "geo": {
+                "city": "Rostock",
+                "state": "Mecklenburg-Vorpommern",
+                "state_short": "MV",
+                "position": {
+                    "lat": 54.10282119681471,
+                    "lng": 12.095490683430818
+                }
+            },
+            "id": "3a4c6f1d0199",
+            "id_readable": "2021-09-29_news_Neue-Beschwerde-gegen-Luca-App-Beschaffung-in-MV",
+            "links": [
+                {
+                    "url": "https:\/\/www.ndr.de\/nachrichten\/mecklenburg-vorpommern\/Neue-Beschwerde-gegen-Luca-App-Beschaffung-in-MV,lucaapp122.html",
+                    "text": "\u201cNeue Beschwerde gegen Luca-App-Beschaffung in MV\u201d (ndr.de)"
+                }
+            ],
+            "references": [],
+            "scope": "Land: Mecklenburg-Vorpommern",
+            "tags": [
+                "klage"
+            ],
+            "text": "<blockquote>Das Software-Unternehmen aus Niedersachsen ist nun der Auffassung, dass es ein geregeltes Vergabeverfahren h\u00e4tte geben m\u00fcssen. Auch ihre App verf\u00fcge \u00fcber das damals gesuchte Anforderungsprofil. Das Produkt sei sogar besser, als die vom Land eingekaufte Luca-App.<\/blockquote>",
+            "title": "\u201cNeue Beschwerde gegen Luca-App-Beschaffung in MV\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "29.09.2021",
+            "dt_created": "2021-10-03 23:30:00",
+            "dt_updated": "2021-10-03 23:30:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1443195631317798916"
+                }
+            ],
+            "id": "9566cad3a4d9",
+            "id_readable": "2021-09-29_doc_Chaos-Computer-Club-Freiburg-Luca-Abschtzung-des-Einsatz",
+            "links": [
+                {
+                    "url": "https:\/\/wiki.cccfr.de\/luca_numbers4",
+                    "text": "Chaos Computer Club Freiburg: \u201cLuca Absch\u00e4tzung des Einsatz\u201d (wiki.cccfr.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "58913de9ecd5"
+                }
+            ],
+            "text": "Der Chaos Computer Club Freiburg hat bereits mehrfach eine ungef\u00e4hre Nutzung der Luca-App abgesch\u00e4tzt (siehe unten); die \"Luca Numbers\" gibt es nun in einer vierten Version:<blockquote>Absch\u00e4tzung der Abfragen einzelner\/bestimmter Gesundheits\u00e4mter im Lucasystem \u00fcber die Beobachtung der \u00f6ffentlich zug\u00e4nglichen Traces. Ziel die Anzahl und Zeitpunkte der GA Abfragen herauszuarbeiten.<\/blockquote>",
+            "title": "Chaos Computer Club Freiburg: \u201cLuca Absch\u00e4tzung des Einsatz\u201d",
+            "type": "doc",
+            "verified": false
+        },
+        {
+            "date": "30.09.2021",
+            "dt_created": "2021-10-03 23:30:00",
+            "dt_updated": "2021-10-03 23:30:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1443647846075543553"
+                }
+            ],
+            "id": "51d15ebf1894",
+            "id_readable": "2021-09-30_news_Heise-Telepolis-Dieser-Text-wurde-aufgrund-juristischer-Auseinandersetzungen-nachtrglich-an-mehreren-Stellen-gekrzt",
+            "links": [
+                {
+                    "url": "https:\/\/www.heise.de\/tp\/features\/Das-Ende-des-Luca-Skandals-6172907.html",
+                    "text": "Heise Telepolis: \u201cDas Ende des Luca-Skandals\u201d (heise.de)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1443647846075543553",
+                    "text": "Tweet des CCC Freiburg mit m\u00f6glichen \u00c4nderungen (twitter.com)"
+                }
+            ],
+            "references": [],
+            "text": "Der CCC Freiburg (@cccfr) und Manuel Atug (@HonkHase) berichtet auf Twitter von m\u00f6glichen Anpassungen bei einem Heise Telepolis-Artikel zur Luca-App:",
+            "title": "Heise Telepolis: \u201cDieser Text wurde aufgrund juristischer Auseinandersetzungen nachtr\u00e4glich an mehreren Stellen gek\u00fcrzt.\u201d",
+            "type": "news",
+            "verified": false
         }
     ]
 }
