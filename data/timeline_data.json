@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "e49f15c",
-            "commit_lh": "e49f15c9c7f078117c8d0d977f8709d8bad1aba8",
-            "commit_date": "2021-10-01 23:49:32 +0200",
+            "commit_sh": "461c443",
+            "commit_lh": "461c4434058e3d7d2e994069cf0a831592c5e960",
+            "commit_date": "2021-10-04 00:01:00 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1633298440,
-        "date": "2021-10-04"
+        "ts": 1633468378,
+        "date": "2021-10-05"
     },
     "timeline": [
         {
@@ -5007,6 +5007,71 @@
             "title": "Heise Telepolis: \u201cDieser Text wurde aufgrund juristischer Auseinandersetzungen nachtr\u00e4glich an mehreren Stellen gek\u00fcrzt.\u201d",
             "type": "news",
             "verified": false
+        },
+        {
+            "date": "04.10.2021",
+            "dt_created": "2021-10-05 13:40:00",
+            "dt_updated": "2021-10-05 13:40:00",
+            "embed": [],
+            "id": "6487e9b08114",
+            "id_readable": "2021-10-04_news_FFH-FFH-Recherche-zeigt-Luca-App-in-Hessen-vielerorts-ein-Flop",
+            "links": [
+                {
+                    "url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/280882-corona-luca-app-vielerorts-ein-mega-flop.html",
+                    "text": "FFH: \u201cFFH-Recherche zeigt: Luca-App in Hessen vielerorts ein \"Flop\"\u201d (ffh.de)"
+                }
+            ],
+            "references": [],
+            "text": "<blockquote>Die Gesundheits\u00e4mter haben die Datenflut offenbar kaum \u00fcberschaut und fast gar nicht genutzt. Unsere Recherchen zeigen: In mindestens acht Kreisen und St\u00e4dten gab es bei den Gesundheits\u00e4mtern gar keine oder maximal ein bis zwei Kontaktnachverfolgungen durch \"Luca\".<\/blockquote>",
+            "title": "FFH: \u201cFFH-Recherche zeigt: Luca-App in Hessen vielerorts ein \"Flop\"\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "05.10.2021",
+            "dt_created": "2021-10-05 13:40:00",
+            "dt_updated": "2021-10-05 13:40:00",
+            "embed": [],
+            "id": "84c4b8993657",
+            "id_readable": "2021-10-05_event_heise-devSec-Die-Luca-App--Eine-entschlsselte-Fehlersammlung",
+            "links": [
+                {
+                    "url": "https:\/\/www.heise-devsec.de\/veranstaltung-13480-0-keynote-die-luca-app--eine-entschluesselte-fehlersammlung.html",
+                    "text": "heise devSec (Programm): \u201cKeynote: Die Luca App \u2013 Eine entschl\u00fcsselte Fehlersammlung\u201d (heise-devsec.de)"
+                },
+                {
+                    "url": "https:\/\/bkastl.de\/devsec\/",
+                    "text": "Bianca Kastl: Slides zum Talk (bkastl.de)"
+                }
+            ],
+            "references": [],
+            "text": "Bianca Kastl (@bkastl) stellt auf der heise devSec, einer Konferenz f\u00fcr sichere Software- und Webentwicklung, eine Fehlersammlung zur Luca-App vor.<blockquote>Dieser Vortrag soll sich einiger dieser Probleme annehmen und ganz genau entschl\u00fcsseln, was bei luca schief lief \u2013 ganz ohne tief in den Code oder die Verschl\u00fcsselung einsteigen zu m\u00fcssen.<\/blockquote>",
+            "title": "heise devSec: \u201cDie Luca App \u2013 Eine entschl\u00fcsselte Fehlersammlung\u201d",
+            "type": "event",
+            "verified": true
+        },
+        {
+            "date": "05.10.2021",
+            "dt_created": "2021-10-05 23:15:00",
+            "dt_updated": "2021-10-05 23:15:00",
+            "embed": [],
+            "id": "020a94e6df69",
+            "id_readable": "2021-10-05_news_Oldenburger-Mnsterland-Der-Luca-Schlsselanhnger-sorgt-offenbar-fr-einige-Verwirrungen",
+            "links": [
+                {
+                    "url": "https:\/\/www.om-online.de\/om\/der-luca-schlusselanhanger-sorgt-offenbar-fur-einige-verwirrungen-86673",
+                    "text": "OMonline: \u201cOldenburger M\u00fcnsterland: Der Luca-Schl\u00fcsselanh\u00e4nger sorgt offenbar f\u00fcr einige Verwirrungen\u201d (om-online.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "f48e2fc09c14"
+                }
+            ],
+            "text": "<blockquote>Denn l\u00e4ngst nicht jeder Gastronom oder Veranstalter wei\u00df etwas mit dem Schl\u00fcsselanh\u00e4nger anzufangen. Denn der QR-Code auf dem Schl\u00fcsselanh\u00e4nger muss von ihm eingescannt werden, um die Kontaktdaten des Kunden zu erfassen.<\/blockquote>",
+            "title": "\u201cOldenburger M\u00fcnsterland: Der Luca-Schl\u00fcsselanh\u00e4nger sorgt offenbar f\u00fcr einige Verwirrungen\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }
