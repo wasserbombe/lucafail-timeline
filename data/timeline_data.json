@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "461c443",
-            "commit_lh": "461c4434058e3d7d2e994069cf0a831592c5e960",
-            "commit_date": "2021-10-04 00:01:00 +0200",
+            "commit_sh": "b8ac4bb",
+            "commit_lh": "b8ac4bb7df8766edb3c475998eb5f5e86dbe3268",
+            "commit_date": "2021-10-05 23:17:42 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1633468378,
-        "date": "2021-10-05"
+        "ts": 1633772769,
+        "date": "2021-10-09"
     },
     "timeline": [
         {
@@ -4979,6 +4979,34 @@
             "title": "Chaos Computer Club Freiburg: \u201cLuca Absch\u00e4tzung des Einsatz\u201d",
             "type": "doc",
             "verified": false
+        },
+        {
+            "date": "29.09.2021",
+            "dt_created": "2021-10-09 12:00:00",
+            "dt_updated": "2021-10-09 12:30:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "5XzvJsGGbWw"
+                }
+            ],
+            "id": "8f7f75052606",
+            "id_readable": "2021-09-29_talk_Brgerforum-Baden-Wrttemberg-LfDI-ordnet-Einschtzung-zu-Luca-vom-Mrz-ein",
+            "links": [
+                {
+                    "url": "https:\/\/beteiligungsportal.baden-wuerttemberg.de\/de\/informieren\/service\/media\/mid\/dr-stefan-brink\/",
+                    "text": "Beteiligungsportal Baden-W\u00fcrttemberg: \u201cZehntes B\u00fcrgerforum Corona - Dr. Stefan Brink\u201d (beteiligungsportal.baden-wuerttemberg.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "7f308a500750"
+                }
+            ],
+            "text": "Dr. Stefan Brink, Landesbeauftragter f\u00fcr Datenschutz und Informationsfreiheit in Baden-W\u00fcrttemberg, ordnet die oft gebrauchte Einsch\u00e4tzung aus dem M\u00e4rz ein. Es sind die <b>Landesbeh\u00f6rden, die auf die Kontaktdatenerhebung bestehen<\/b> - unter diesen Vorraussetzungen ist die zweitbeste L\u00f6sung eben auch eine L\u00f6sung. Besser w\u00e4re auf die Kontaktdatenabgabe zu verzichten.",
+            "title": "B\u00fcrgerforum Baden-W\u00fcrttemberg: LfDI ordnet Einsch\u00e4tzung zu Luca vom M\u00e4rz ein",
+            "type": "talk",
+            "verified": true
         },
         {
             "date": "30.09.2021",
