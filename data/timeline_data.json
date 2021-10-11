@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b8ac4bb",
-            "commit_lh": "b8ac4bb7df8766edb3c475998eb5f5e86dbe3268",
-            "commit_date": "2021-10-05 23:17:42 +0200",
+            "commit_sh": "0b51699",
+            "commit_lh": "0b516990157add87ed82a08fb064b251f01840aa",
+            "commit_date": "2021-10-09 15:25:41 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1633772769,
-        "date": "2021-10-09"
+        "ts": 1633952237,
+        "date": "2021-10-11"
     },
     "timeline": [
         {
@@ -3520,6 +3520,26 @@
             "text": "Die Macher der Luca-App haben den Fehler best\u00e4tigt und in ihrem Blogpost erkl\u00e4rt, dass f\u00fcr ca. 46 Stunden keine neuen Trace IDs bereitgestellt wurden (siehe Link unten), offenbar, da Wartungsarbeiten am Produktiv-System vorgenommen wurden.<br>Diese Trace IDs wurden dann aber ab dem 30. Juli wieder ausgespielt, d.h. Nutzer wurden \u00fcber eine Abfrage eines Gesundheitsamts auf jeden Fall informiert, theoretisch aber mit einer Verzogerung im schlimmsten Fall von bis zu 46 Stunden.",
             "title": "M\u00f6gliche Schwachstelle: Daily Traces \/ Benachrichtigungen der Nutzer \u00fcber Datenzugriffe wurden nicht aktualisiert?",
             "type": "incident"
+        },
+        {
+            "date": "30.07.2021",
+            "dt_created": "2021-10-11 13:30:00",
+            "dt_updated": "2021-10-11 13:30:00",
+            "id": "5e7c25fbdc16",
+            "id_readable": "2021-07-30_doc_Studie-COVID-19-Contact-Tracing-Apps-in-the-EU-Lessons-from-Germany",
+            "links": [
+                {
+                    "url": "https:\/\/www.liberties.eu\/f\/XKDH18",
+                    "text": "Studie: \u201cCOVID-19 Contact Tracing Apps in the EU: Lessons from Germany\u201d (liberties.eu)"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "trackthetrackers"
+            ],
+            "text": "In einer Studie von Christian Th\u00f6nnes \u00fcber Contact Tracings Apps in Deutschland wird auch die Luca-App erw\u00e4hnt (Seiten 19-21).<blockquote>From the start, Luca was beset with technical problems and security breaches. [...] Almost every week, there seemed to be a new flurry of deeply concerning problems and breaches occurring with Luca<\/blockquote>",
+            "title": "Studie: \u201cCOVID-19 Contact Tracing Apps in the EU: Lessons from Germany\u201d",
+            "type": "doc"
         },
         {
             "date": "01.08.2021",
