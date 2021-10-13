@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "0b51699",
-            "commit_lh": "0b516990157add87ed82a08fb064b251f01840aa",
-            "commit_date": "2021-10-09 15:25:41 +0200",
+            "commit_sh": "eeb3897",
+            "commit_lh": "eeb3897a7caef363ea84eabb3d5067dd695ae09a",
+            "commit_date": "2021-10-11 13:38:01 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1633952237,
-        "date": "2021-10-11"
+        "ts": 1634133374,
+        "date": "2021-10-13"
     },
     "timeline": [
         {
@@ -4470,13 +4470,17 @@
         {
             "date": "20.08.2021",
             "dt_created": "2021-08-24 12:30:00",
-            "dt_updated": "2021-08-24 12:30:00",
+            "dt_updated": "2021-10-13 15:55:00",
             "id": "e0e81a9e816e",
             "id_readable": "2021-08-20_news_Baden-Wrttemberg-Kontaktnachverfolgung-Ministerium-hat-keinen-berblick-ber-Wirksamkeit-der-Luca-App",
             "links": [
                 {
                     "url": "https:\/\/www.swr.de\/swraktuell\/baden-wuerttemberg\/corona-pandemie-bilanz-zur-luca-app-100.html",
                     "text": "SWR: \u201cKontaktnachverfolgung? Ministerium hat keinen \u00dcberblick \u00fcber Wirksamkeit der Luca-App\u201d (swr.de)"
+                },
+                {
+                    "url": "https:\/\/www.stuttgarter-nachrichten.de\/inhalt.thomas-d-verteidigt-luca-app-herablassend-und-verletzend.9c1329be-fe31-48ab-ac39-f0650f5c4b6c.html",
+                    "text": "Stuttgarter Nachrichten: \u201cThomas D verteidigt Luca-App - \u201eHerablassend und verletzend\u201c\u201d (stuttgarter-nachrichten.de)"
                 }
             ],
             "scope": "Land: Baden-W\u00fcrttemberg",
