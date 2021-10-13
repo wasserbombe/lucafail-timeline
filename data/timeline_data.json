@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "eeb3897",
-            "commit_lh": "eeb3897a7caef363ea84eabb3d5067dd695ae09a",
-            "commit_date": "2021-10-11 13:38:01 +0200",
+            "commit_sh": "d574057",
+            "commit_lh": "d5740571cb989465f3fa7a4135d5b7a7c4751bdd",
+            "commit_date": "2021-10-13 15:56:22 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1634133374,
+        "ts": 1634156431,
         "date": "2021-10-13"
     },
     "timeline": [
@@ -5124,6 +5124,37 @@
             "title": "\u201cOldenburger M\u00fcnsterland: Der Luca-Schl\u00fcsselanh\u00e4nger sorgt offenbar f\u00fcr einige Verwirrungen\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "13.10.2021",
+            "dt_created": "2021-10-13 22:00:00",
+            "dt_updated": "2021-10-13 22:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/bkastl\/status\/1448382649316302862"
+                }
+            ],
+            "id": "7bed0efcf3d2",
+            "id_readable": "2021-10-13_doc_Baden-Wrttemberg-Datenerhebung-gem-CoronaVO-auch-mit-der-Corona-Warn-App-mglich",
+            "links": [
+                {
+                    "url": "https:\/\/www.baden-wuerttemberg.de\/de\/service\/alle-meldungen\/meldung\/pid\/ein-weiterer-schritt-zurueck-zur-normalitaet\/",
+                    "text": "Baden-W\u00fcrttemberg: \u201cEin weiterer Schritt zur\u00fcck zur Normalit\u00e4t\u201d (baden-wuerttemberg.de)"
+                },
+                {
+                    "url": "https:\/\/www.baden-wuerttemberg.de\/fileadmin\/redaktion\/dateien\/PDF\/Coronainfos\/211013_CoronaVO_konsolidierte_Fassung_ab_211015.pdf",
+                    "text": "\u201cVerordnung der Landesregierung \u00fcber infektionssch\u00fctzende Ma\u00dfnahmen gegen die Ausbreitung des Virus SARS-CoV-2 (Corona-Verordnung \u2013 CoronaVO)\u201d (baden-wuerttemberg.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "8f7f75052606"
+                }
+            ],
+            "text": "Baden-W\u00fcrttemberg \u00fcberarbeitet seine Corona-Verordnung. Ab Freitag, den 15.10.2021 gen\u00fcgt auch die anonyme Kontakterfassung \u00fcber die Corona-Warn-App, die der Luca-App aus Datenschutzgr\u00fcnden vorzuziehen ist.<blockquote>Weitere neue Regelungen: Die Datenverarbeitung gem\u00e4\u00df \u00a7 8 der Corona-Verordnung ist k\u00fcnftig auch durch Verwendung der Corona-Warn-App oder vergleichbarer Apps m\u00f6glich. [...]<\/blockquote>",
+            "title": "Baden-W\u00fcrttemberg: Datenerhebung gem\u00e4\u00df CoronaVO auch mit der Corona-Warn-App m\u00f6glich",
+            "type": "doc"
         }
     ]
 }
