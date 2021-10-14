@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "d574057",
-            "commit_lh": "d5740571cb989465f3fa7a4135d5b7a7c4751bdd",
-            "commit_date": "2021-10-13 15:56:22 +0200",
+            "commit_sh": "c488a57",
+            "commit_lh": "c488a574133859655c33c40a88853ff9aea60b94",
+            "commit_date": "2021-10-13 22:28:31 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1634156431,
-        "date": "2021-10-13"
+        "ts": 1634236889,
+        "date": "2021-10-14"
     },
     "timeline": [
         {
@@ -5155,6 +5155,24 @@
             "text": "Baden-W\u00fcrttemberg \u00fcberarbeitet seine Corona-Verordnung. Ab Freitag, den 15.10.2021 gen\u00fcgt auch die anonyme Kontakterfassung \u00fcber die Corona-Warn-App, die der Luca-App aus Datenschutzgr\u00fcnden vorzuziehen ist.<blockquote>Weitere neue Regelungen: Die Datenverarbeitung gem\u00e4\u00df \u00a7 8 der Corona-Verordnung ist k\u00fcnftig auch durch Verwendung der Corona-Warn-App oder vergleichbarer Apps m\u00f6glich. [...]<\/blockquote>",
             "title": "Baden-W\u00fcrttemberg: Datenerhebung gem\u00e4\u00df CoronaVO auch mit der Corona-Warn-App m\u00f6glich",
             "type": "doc"
+        },
+        {
+            "date": "14.10.2021",
+            "dt_created": "2021-10-14 21:00:00",
+            "dt_updated": "2021-10-14 21:00:00",
+            "embed": [],
+            "id": "1caf17d03ba7",
+            "id_readable": "2021-10-14_news_Luca-Betreiber-verwirrt-Gastronomen-im-Saarland",
+            "links": [
+                {
+                    "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca_falschinformation_kontaktnachverfolgung_100.html",
+                    "text": "Axel Wagner \/ SR: \u201cLuca-Betreiber verwirrt Gastronomen im Saarland\u201d (sr.de)"
+                }
+            ],
+            "text": "<blockquote>Eine Nachricht der Luca-App an Gastronomen hat im Saarland f\u00fcr Verwirrung gesorgt. Darin hie\u00df es, Gastronomen m\u00fcssten seit Anfang des Monats keine Kontakte mehr erfassen. Dabei gilt die Kontaktnachverfolgung noch mindestens bis Ende November.<\/blockquote>",
+            "title": "\u201cLuca-Betreiber verwirrt Gastronomen im Saarland\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }
