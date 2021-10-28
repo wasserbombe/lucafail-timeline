@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "c488a57",
-            "commit_lh": "c488a574133859655c33c40a88853ff9aea60b94",
-            "commit_date": "2021-10-13 22:28:31 +0200",
+            "commit_sh": "a0748d0",
+            "commit_lh": "a0748d0d5aa9b4a0dafe30520882665487d8667a",
+            "commit_date": "2021-10-14 20:54:52 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1634236889,
-        "date": "2021-10-14"
+        "ts": 1635411611,
+        "date": "2021-10-28"
     },
     "timeline": [
         {
@@ -5173,6 +5173,51 @@
             "title": "\u201cLuca-Betreiber verwirrt Gastronomen im Saarland\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "27.10.2021",
+            "dt_created": "2021-10-28 10:45:00",
+            "dt_updated": "2021-10-28 10:45:00",
+            "embed": [],
+            "id": "0112a5ee6cd7",
+            "id_readable": "2021-10-27_news_Interview-mit-N-TV-Grnder-Hennig-kontert-Kritik---Fort-Knox-ist-unsicher-gegen-die-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.n-tv.de\/wirtschaft\/Fort-Knox-ist-unsicher-gegen-die-Luca-App-article22889238.html",
+                    "text": "n-tv: \u201cGr\u00fcnder Hennig kontert Kritik - \"Fort Knox ist unsicher gegen die Luca-App\"\u201d (n-tv.de)"
+                }
+            ],
+            "text": "<blockquote>Die Sicherheit des Luca-Systems selbst war immer gegeben und ist heute st\u00e4rker denn je. Ich w\u00fcrde sagen, Fort Knox ist unsicher dagegen.<\/blockquote>(Luca konnte per <a href=\"#2021-05-26_incident_Schwachstelle-Remote-Code-Injection-via-CSV-Export\">CSV-Injection<\/a> mit nur wenigen Zeichen \u00fcberlistet werden)<br><br><blockquote>Dadurch, dass die Schl\u00fcssel im ganzen Land verteilt sind, gibt es keinen zentralen Angriffspunkt. Weder die Gesundheits\u00e4mter noch wir noch die Betreiber k\u00f6nnen allein auf die Daten zugreifen.<\/blockquote>(jeden Tag generiert ein Gesundheitsamt den Key f\u00fcr alle Gesundheits\u00e4mter, der dann f\u00fcr alle gleich ist - das <a href=\"#2021-08-16_event_Sitzung-des-Ausschuss-fr-Kommunikationstechnologie-und-Datenschutz-KTDat-des-Abgeordnetenhauses-Berlin\">kritisiert auch die Berliner Datenschutzbeauftragte Maja Smoltczyk<\/a>)",
+            "title": "Interview mit N-TV: \u201cGr\u00fcnder Hennig kontert Kritik - \"Fort Knox ist unsicher gegen die Luca-App\"\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "27.10.2021",
+            "dt_created": "2021-10-28 10:45:00",
+            "dt_updated": "2021-10-28 10:45:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1453381552449130498\/photo\/1"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/achisto\/status\/1453374908071915525"
+                }
+            ],
+            "id": "d1d16a503da7",
+            "id_readable": "2021-10-27_news_CCC-Freiburg-Das-Gesundheitsamt-Wrzburg-kapituliert-bei-tausenden-Kontaktdaten-die-durch-das-Luca-System-eingeschwemmt-werden",
+            "links": [
+                {
+                    "url": "https:\/\/www.mainpost.de\/regional\/wuerzburg\/corona-gesundheitsamt-wuerzburg-stellt-kontaktverfolgung-bei-clubbesuchern-ein-art-10679079",
+                    "text": "Main Post: \u201cCorona: Gesundheitsamt W\u00fcrzburg stellt Kontaktnachverfolgung in Clubs ein\u201d (mainpost.de)"
+                }
+            ],
+            "text": "<blockquote>Das Gesundheitsamt W\u00fcrzburg will k\u00fcnftig eine Priorisierung bei der Kontaktnachverfolgung einf\u00fchren. Warum Clubbesucher pl\u00f6tzlich nicht mehr \u00fcber Coronaf\u00e4lle informiert werden sollen.<\/blockquote>",
+            "title": "CCC Freiburg: \u201cDas Gesundheitsamt W\u00fcrzburg kapituliert bei tausenden Kontaktdaten, die durch das Luca-System eingeschwemmt werden\u201d",
+            "type": "news",
+            "verified": false
         }
     ]
 }
