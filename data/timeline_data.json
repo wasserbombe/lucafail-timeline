@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "7982d8d",
-            "commit_lh": "7982d8d3a8bc78312a4bd26f113636e6198a30e8",
-            "commit_date": "2021-11-09 22:38:06 +0100",
+            "commit_sh": "59ddd96",
+            "commit_lh": "59ddd969c5243daa49c8d4c754121b33f5143533",
+            "commit_date": "2021-11-09 22:53:41 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1636494729,
+        "ts": 1636495620,
         "date": "2021-11-09"
     },
     "timeline": [
@@ -862,6 +862,23 @@
             "text": "Die lokal generierten QR-Codes lassen sich vom Luca App-Scanner (f\u00fcr Gastgeber) einscannen, werden als g\u00fcltig erkannt und erh\u00f6hen den Gastz\u00e4hler beim Betreiber, sind ansonsten aber sinnlos.",
             "title": "Schwachstelle: Anonyme Luca-QR-Codes lassen sich ohne Luca erstellen und nutzen",
             "type": "incident"
+        },
+        {
+            "date": "08.04.2021",
+            "dt_created": "2021-11-09 23:00:00",
+            "dt_updated": "2021-11-09 23:00:00",
+            "id": "eb209e94890c",
+            "id_readable": "2021-04-08_doc_Chaos-Treff-Osnabrck-Offener-Brief-an-Entscheidungstrger",
+            "links": [
+                {
+                    "url": "https:\/\/chaostreff-osnabrueck.de\/downloads\/brief_kontaktnachverfolgungsapps.pdf",
+                    "text": "Offener Brief: Wir fordern eine Anpassung der Nieders\u00e4chsischen Corona-Verordnung, um pseudonyme Kontaktlisten mittels der Corona-WarnApp zu erm\u00f6glichen (chaostreff-osnabrueck.de)"
+                }
+            ],
+            "text": "<blockquote>Wir fordern eine Anpassung der Nieders\u00e4chsischen Corona-Verordnung, um pseudonyme Kontaktlisten mittels der Corona-WarnApp zu erm\u00f6glichen<\/blockquote><blockquote>Wir fordern Sie auf: Setzen Sie auf das bestehende Vertrauen und auf die bestehende L\u00f6sung. Auch f\u00fcr die angestrebte L\u00f6sung muss die Verordnung angepasst werden. Machen Sie dies nachhaltig, schaffen sie Vertrauen, erm\u00f6glichen Sie die pseudonyme Erfassung von Kontaktlisten und st\u00e4rken Sie das digitale Contact Tracing!<\/blockquote>",
+            "title": "Chaos-Treff Osnabr\u00fcck: Offener Brief an Entscheidungstr\u00e4ger",
+            "type": "doc",
+            "verified": true
         },
         {
             "date": "08.04.2021",
@@ -2420,6 +2437,32 @@
             "text": "Ein Logbuch:Netzpolitik (LNP)-Spezial zur letzten dicken Sicherheitsl\u00fccke in der Luca-App, mit Marcus Mengs, Linus Neumann und Tim Pritlove",
             "title": "Logbuch Netzpolitik: Hochsicherheit kommt vor dem Fall",
             "type": "podcast"
+        },
+        {
+            "date": "28.05.2021",
+            "dt_created": "2021-11-09 23:00:00",
+            "dt_updated": "2021-11-09 23:00:00",
+            "id": "96bd85683e82",
+            "id_readable": "2021-05-28_doc_Digitalcourage-Braunschweig-Offener-Brief-fr-effiziente-datensparsame-Kontaktverfolgung",
+            "links": [
+                {
+                    "url": "https:\/\/digitalcourage.de\/blog\/2021\/braunschweig-offener-brief-fuer-effiziente-datensparsame-kontaktverfolgung",
+                    "text": "Digitalcourage: \u201cBraunschweig: Offener Brief f\u00fcr effiziente, datensparsame Kontaktverfolgung\u201d (digitalcourage.de)"
+                },
+                {
+                    "url": "https:\/\/freiheitsfoo.de\/2021\/06\/03\/offener-brief-luca-app\/",
+                    "text": "Offener Brief der Braunschweiger Digitalcourage: Warnung vor Aberglauben, eine Pandemie mittels Apps besiegen zu k\u00f6nnen \u2013 und wenn schon, dann bitte nicht mit der riskanten Luca-App (freiheitsfoo.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "eb209e94890c"
+                }
+            ],
+            "text": "<blockquote>Auch die Corona-Pandemie verf\u00fchrte und verf\u00fchrt viele Politiker, Populisten und technisch wenig versierte Menschen zu dem Aberglauben, technische Mittel und Methoden als Wundermittel im Kampf gegen menschliche oder soziale Probleme \u2013 in diesem Fall die globale Pandemie \u2013 anzusehen und anzupreisen.Eines der \u201ebesten\u201c Beispiele hierf\u00fcr ist der Hype um die Luca-App<\/blockquote>",
+            "title": "Digitalcourage: \u201cBraunschweig: Offener Brief f\u00fcr effiziente, datensparsame Kontaktverfolgung\u201d",
+            "type": "doc",
+            "verified": true
         },
         {
             "date": "28.05.2021",
@@ -4735,6 +4778,31 @@
             "text": "Die Luca-Macher haben in ihrem Blogeintrag (siehe Verlinkung) ein umfassendes Update der Luca-App und zus\u00e4tzliche Funktionen angek\u00fcndigt. Zu den Neuerungen soll geh\u00f6ren (siehe Blogpost):<ul><li>Warnhinweise, die von Gesundheits\u00e4mtern ausl\u00f6sbar sein sollen<\/li><li>Verbesserung der Datenqualit\u00e4t durch vom Location-Betreiber konfigurierbare Umgebungswerte<\/li><li>Automatisierte Cluster-Erkennung<\/li><li>Mobile App f\u00fcr Betriebe<\/li><li>Re-Design der App<\/li><\/ul>",
             "title": "Nexenio k\u00fcndigt eine \u00fcberarbeitete Version der Luca-App - Luca+ - an",
             "type": "news"
+        },
+        {
+            "date": "07.09.2021",
+            "dt_created": "2021-11-09 23:00:00",
+            "dt_updated": "2021-11-09 23:00:00",
+            "id": "2968c1743aa3",
+            "id_readable": "2021-09-07_news_Digitalzwang-in-Niedersachen-Weihnachten-fr-die-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/freiheitsfoo.de\/2021\/09\/07\/digitalzwang-in-niedersachsen\/",
+                    "text": "\u201cDigitalzwang in Niedersachen. Weihnachten f\u00fcr die Luca-App?\u201d (freiheitsfoo.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "eb209e94890c"
+                },
+                {
+                    "id": "96bd85683e82"
+                }
+            ],
+            "text": "",
+            "title": "\u201cDigitalzwang in Niedersachen. Weihnachten f\u00fcr die Luca-App?\u201d",
+            "type": "news",
+            "verified": true
         },
         {
             "date": "08.09.2021",
