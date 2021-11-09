@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "5c1d3c6",
-            "commit_lh": "5c1d3c626f45f6b408d21888a403ef7b9d6a2d60",
-            "commit_date": "2021-11-09 22:25:55 +0100",
+            "commit_sh": "7982d8d",
+            "commit_lh": "7982d8d3a8bc78312a4bd26f113636e6198a30e8",
+            "commit_date": "2021-11-09 22:38:06 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1636493685,
+        "ts": 1636494729,
         "date": "2021-11-09"
     },
     "timeline": [
@@ -125,7 +125,7 @@
                                 "?",
                                 "?",
                                 "Nicht m\u00f6glich laut CoronaVO",
-                                "2.521.580 EUR (netto) laut https://fragdenstaat.de/a/220970"
+                                "2.521.580 EUR (netto) laut https:\/\/fragdenstaat.de\/a\/220970"
                             ],
                             [
                                 "Hessen",
@@ -2606,10 +2606,13 @@
             },
             "id": "6eaa413c5acc",
             "id_readable": "2021-06-08_fragdenstaat_luca-App-in-Niedersachsen-Vertrge-und-Sicherheitsprfungen",
-            "text": "<blockquote>Die Kosten richten sich im Wesentlichen nach der Zahl der Gesundheits\u00e4mter in Niedersachsen und belaufen sich insgesamt auf 2.521.580 \u20ac (netto) f\u00fcr ein Jahr. Die Beschaffung erfolgte gem\u00e4\u00df \u00a7 14 Abs. 4 Nr. 2 Buchstabe b Vergabeverordnung. Zudem lag zum Zeitpunkt der Beschaffung eine Dringlichkeit im Sinne von \u00a7 14 Abs. 4 Nr. 3 Vergabeverordnung vor.<\/blockquote>Die Verträge wurden nicht offengelegt und als Begründung für die Wahl Alternativlosigkeit (bei digitalter KV-Pflicht der GÄ) angegeben.",
+            "tags": [
+                "kosten",
+                "niedersachsen"
+            ],
+            "text": "<blockquote>Die Kosten richten sich im Wesentlichen nach der Zahl der Gesundheits\u00e4mter in Niedersachsen und belaufen sich insgesamt auf 2.521.580 \u20ac (netto) f\u00fcr ein Jahr. Die Beschaffung erfolgte gem\u00e4\u00df \u00a7 14 Abs. 4 Nr. 2 Buchstabe b Vergabeverordnung. Zudem lag zum Zeitpunkt der Beschaffung eine Dringlichkeit im Sinne von \u00a7 14 Abs. 4 Nr. 3 Vergabeverordnung vor.<\/blockquote>Die Vertr\u00e4ge wurden nicht offengelegt und als Begr\u00fcndung f\u00fcr die Wahl Alternativlosigkeit (bei digitalter KV-Pflicht der G\u00c4) angegeben.",
             "title": "luca App in Niedersachsen: Vertr\u00e4ge und Sicherheitspr\u00fcfungen",
-            "type": "fragdenstaat",
-            "tags": ["kosten","niedersachsen"]
+            "type": "fragdenstaat"
         },
         {
             "date": "08.06.2021",
@@ -3241,6 +3244,30 @@
             "scope": "Stadt: Solingen",
             "text": "Die Kommunalverwaltung Solingen verweigert die Auskunft zu Beschaffungsprozess und datenschutzrechtlicher Bewertung",
             "title": "Kommunalverwaltung Solingen verweigert die Auskunft zu Beschaffungsprozess und datenschutzrechtlicher Bewertung",
+            "type": "fragdenstaat"
+        },
+        {
+            "dt_created": "2021-11-09 22:30:00",
+            "dt_updated": "2021-11-09 22:30:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "218839"
+                }
+            ],
+            "geo": {
+                "city": "Braunschweig",
+                "state": "Niedersachsen",
+                "state_short": "NS",
+                "position": {
+                    "lat": 52.26420958076669,
+                    "lng": 10.522042362303766
+                }
+            },
+            "id": "baa7f54fcd9d",
+            "id_readable": "fragdenstaat_IFGAnfrage-Einsatz-der-Luca-App-durch-die-Stadt-Braunschweig",
+            "text": "<blockquote>Die Stadt Braunschweig hat die Anfrage abgelehnt, weil sie die Rechtsauffassung vertritt, f\u00fcr das Land Niedersachsen gehandelt zu haben und die Informationsfreiheitssatzung der Stadt nur den eigenen Wirkungsbereich umfasst.<\/blockquote>",
+            "title": "IFG-Anfrage: Einsatz der Luca-App durch die Stadt Braunschweig",
             "type": "fragdenstaat"
         },
         {
@@ -4825,6 +4852,33 @@
             "text": "",
             "title": "Tagesschau Faktenfinder: \u201cWie n\u00fctzlich ist die Luca-App?\u201d",
             "type": "news",
+            "verified": true
+        },
+        {
+            "date": "16.09.2021",
+            "dt_created": "2021-11-09 22:20:00",
+            "dt_updated": "2021-11-09 22:20:00",
+            "id": "d7cb23181f86",
+            "id_readable": "2021-09-16_doc_Braunschweig-Anfrage-der-Fraktion-P-zur-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/ratsinfo.braunschweig.de\/bi\/vo020.asp?VOLFDNR=1021851",
+                    "text": "Antwort der Verwaltung (ratsinfo.braunschweig.de)"
+                },
+                {
+                    "url": "https:\/\/ratsinfo.braunschweig.de\/bi\/vo020.asp?VOLFDNR=1021835",
+                    "text": "Anfrage der Fraktion P\u00b2 (ratsinfo.braunschweig.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "baa7f54fcd9d"
+                }
+            ],
+            "scope": "Stadt Braunschweig",
+            "text": "Nachdem die Anfrage gem\u00e4\u00df IFG bei der Stadt Braunschweig abgelehnt wurde, wurde mit Hilfe der Fraktion P\u00b2 im Braunschweiger Stadtrat (Piraten plus Die PARTEI) und auf Anregung der Digitalcourage Ortsgruppe Braunschweig die Frage aus der IFG-Anfrage dann im Stadtrat eingebracht und dort tats\u00e4chlich beantwortet.",
+            "title": "Braunschweig: Anfrage der Fraktion P\u00b2 zur Luca-App",
+            "type": "doc",
             "verified": true
         },
         {
