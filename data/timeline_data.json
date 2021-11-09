@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "a0748d0",
-            "commit_lh": "a0748d0d5aa9b4a0dafe30520882665487d8667a",
-            "commit_date": "2021-10-14 20:54:52 +0200",
+            "commit_sh": "cd13095",
+            "commit_lh": "cd130957fdfd9a329c50ceab0a6f6dd8d1350db4",
+            "commit_date": "2021-10-28 11:03:41 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1635411611,
-        "date": "2021-10-28"
+        "ts": 1636492954,
+        "date": "2021-11-09"
     },
     "timeline": [
         {
@@ -5212,11 +5212,133 @@
                 {
                     "url": "https:\/\/www.mainpost.de\/regional\/wuerzburg\/corona-gesundheitsamt-wuerzburg-stellt-kontaktverfolgung-bei-clubbesuchern-ein-art-10679079",
                     "text": "Main Post: \u201cCorona: Gesundheitsamt W\u00fcrzburg stellt Kontaktnachverfolgung in Clubs ein\u201d (mainpost.de)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1453381552449130498",
+                    "text": "Tweet Chaos Computer Club Freiburg: \u201cDas Gesundheitsamt W\u00fcrzburg kapituliert bei tausenden Kontaktdaten, die durch das Luca-System eingeschwemmt werden\u201d (twitter.com)"
                 }
             ],
             "text": "<blockquote>Das Gesundheitsamt W\u00fcrzburg will k\u00fcnftig eine Priorisierung bei der Kontaktnachverfolgung einf\u00fchren. Warum Clubbesucher pl\u00f6tzlich nicht mehr \u00fcber Coronaf\u00e4lle informiert werden sollen.<\/blockquote>",
             "title": "CCC Freiburg: \u201cDas Gesundheitsamt W\u00fcrzburg kapituliert bei tausenden Kontaktdaten, die durch das Luca-System eingeschwemmt werden\u201d",
             "type": "news",
+            "verified": false
+        },
+        {
+            "date": "09.11.2021",
+            "dt_created": "2021-11-09 22:00:00",
+            "dt_updated": "2021-11-09 22:00:00",
+            "id": "c7afea2e8e33",
+            "id_readable": "2021-11-09_news_Bund-der-Steuerzahler-Gut-gemeint-reicht-nicht",
+            "links": [
+                {
+                    "url": "https:\/\/www.schwarzbuch.de\/aufgedeckt\/steuergeldverschwendung-alle-faelle\/details\/luca-app-vorauszahlungen-mit-zweifelhaftem-nutzen",
+                    "text": "Bund der Steuerzahler (BdSt): \u201cLUCA-App: Vorauszahlungen mit zweifelhaftem Nutzen - Gut gemeint reicht nicht\u201d (schwarzbuch.de)"
+                },
+                {
+                    "url": "https:\/\/www.heise.de\/news\/Steuerzahlerbund-ruegt-Luca-App-digitalen-Impfnachweis-und-IT-Chaos-beim-Bund-6262887.html",
+                    "text": "Heise: \u201cSteuerzahlerbund r\u00fcgt Luca-App, digitalen Impfnachweis und IT-Chaos beim Bund\u201d (heise.de)"
+                }
+            ],
+            "tags": [
+                "steuern",
+                "kosten"
+            ],
+            "text": "Der Bund der Steuerzahler (BdSt) nimmt die Luca-App am Beispiel in Sachsen-Anhalt in sein \"Schwarzbuch\" f\u00fcr Steuerverschwendung auf.<blockquote>Dies alles wirft Fragen zum wirtschaftlichen und sparsamen Einsatz von Steuergeld bei der Bek\u00e4mpfung der Corona-Pandemie auf. Aus Sicht der Steuerzahler sieht die Beschaffung der Luca-App wenig strukturiert und kaum nachhaltig aus.<\/blockquote>",
+            "title": "Bund der Steuerzahler: \u201cGut gemeint reicht nicht\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "09.11.2021",
+            "dt_created": "2021-11-09 22:00:00",
+            "dt_updated": "2021-11-09 22:00:00",
+            "id": "ea7fb0d88eb2",
+            "id_readable": "2021-11-09_news_Corona-Warn-App-kann-auch-QR-Codes-von-luca-einscannen",
+            "links": [
+                {
+                    "url": "https:\/\/www.coronawarn.app\/de\/blog\/2021-11-09-cwa-luca-qr-codes\/",
+                    "text": "Corona-Warn-App: \u201cCheck-In-Funktion: Corona-Warn-App kann jetzt auch QR-Codes von luca einscannen\u201d (coronawarn.app)"
+                },
+                {
+                    "url": "https:\/\/www.coronawarn.app\/de\/faq\/#check_in_luca",
+                    "text": "Corona-Warn-App FAQs zum Check-In via Luca-Code (coronawarn.app)"
+                }
+            ],
+            "tags": [
+                "cwa",
+                "corona-warn-app"
+            ],
+            "text": "QR-Codes, die von Luca f\u00fcr eine Veranstaltung oder andere Orte erstellt wurden, lassen sich nun auch mit der Corona-Warn-App einscannen und nutzen. Damit ist die Luca-App nur noch an wenigen Orten relevant - \u00fcberall dort, wo eine anonyme Kontaktnachverfolgung via CWA (noch) nicht ausreicht.",
+            "title": "Corona-Warn-App kann auch QR-Codes von luca einscannen",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "09.11.2021",
+            "dt_created": "2021-11-09 22:00:00",
+            "dt_updated": "2021-11-09 22:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/thomasmechen\/status\/1458160880328269830"
+                }
+            ],
+            "id": "9ea405c8207a",
+            "id_readable": "2021-11-09_incident_Kompatibilitt-mit-CWA-lsst-sich-abschalten",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/thomasmechen\/status\/1458160880328269830",
+                    "text": "Tweet von @thomasmechen: Kompatibilit\u00e4t mit der CWA l\u00e4sst sich deaktivieren (twitter.com)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ea7fb0d88eb2"
+                }
+            ],
+            "tags": [
+                "cwa",
+                "corona-warn-app"
+            ],
+            "text": "Die Kompatibilit\u00e4t von Luca-QR-Codes mit der Corona-Warn-App l\u00e4sst sich offenbar bei der Erstellung selbiger \u00fcber die Luca-Webanwendung deaktivieren. Das ist nat\u00fcrlich unerfreulich, da dadurch im Umkehrschluss keine vollst\u00e4ndige Kompatibilit\u00e4t erreicht werden kann und f\u00fcr Nutzer im ersten Moment nicht klar ist, ob ein QR-Code kompatibel ist oder nicht.",
+            "title": "Kompatibilit\u00e4t mit CWA l\u00e4sst sich abschalten",
+            "type": "incident",
+            "verified": false
+        },
+        {
+            "date": "09.11.2021",
+            "dt_created": "2021-11-09 22:00:00",
+            "dt_updated": "2021-11-09 22:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/se38\/status\/1458152346727374850"
+                }
+            ],
+            "id": "36d71ada9e81",
+            "id_readable": "2021-11-09_incident_Event-im-Gasthof-undefined-in-undefined-Hausen",
+            "links": [
+                {
+                    "url": "https:\/\/github.com\/corona-warn-app\/cwa-documentation\/issues\/741",
+                    "text": "Gihub-Issue: \u201cScanning luca QR code with CWA results in \"undefined\"\u201d (github.com)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/se38\/status\/1458152346727374850",
+                    "text": "Tweet von @se38 mit Screenshot (twitter.com)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ea7fb0d88eb2"
+                }
+            ],
+            "tags": [
+                "cwa",
+                "corona-warn-app"
+            ],
+            "text": "Manche Luca-QR-Codes enthalten das Wort \"undefined\" statt eines korrekten Location- bzw. Event-Namens. Dadurch k\u00f6nnen die Codes zwar in der Corona-Warn-App eingelesen werden, jedoch werden nicht wirklich hilfreiche Daten angezeigt.",
+            "title": "Event im Gasthof \"undefined\" in \"undefined\"-Hausen",
+            "type": "incident",
             "verified": false
         }
     ]
