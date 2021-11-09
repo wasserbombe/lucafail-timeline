@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "cd13095",
-            "commit_lh": "cd130957fdfd9a329c50ceab0a6f6dd8d1350db4",
-            "commit_date": "2021-10-28 11:03:41 +0200",
+            "commit_sh": "5c1d3c6",
+            "commit_lh": "5c1d3c626f45f6b408d21888a403ef7b9d6a2d60",
+            "commit_date": "2021-11-09 22:25:55 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1636492954,
+        "ts": 1636493685,
         "date": "2021-11-09"
     },
     "timeline": [
@@ -125,7 +125,7 @@
                                 "?",
                                 "?",
                                 "Nicht m\u00f6glich laut CoronaVO",
-                                "-"
+                                "2.521.580 EUR (netto) laut https://fragdenstaat.de/a/220970"
                             ],
                             [
                                 "Hessen",
@@ -2584,6 +2584,32 @@
             "text": "Nordrhein-Westfalen hat seine Corona-Schutzverordnung um einen Absatz erg\u00e4nzt, nachdem Location-Betreiber die erfassten Daten bei einer Kontrolle durch Beh\u00f6rden vorweisen und zum Abgleich bereithalten m\u00fcssen. Damit ist Luca in NRW nicht mehr Corona-SchVO-konform einsetzbar.",
             "title": "NRW: Luca nicht mehr Corona-SchVO-konform",
             "type": "news"
+        },
+        {
+            "date": "08.06.2021",
+            "dt_created": "2021-11-09 22:00:00",
+            "dt_updated": "2021-11-09 22:00:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "220970"
+                }
+            ],
+            "geo": {
+                "city": "Hannover",
+                "state": "Niedersachsen",
+                "state_short": "NS",
+                "position": {
+                    "lat": 52.36859298252394,
+                    "lng": 9.728423323976022
+                }
+            },
+            "id": "6eaa413c5acc",
+            "id_readable": "2021-06-08_fragdenstaat_luca-App-in-Niedersachsen-Vertrge-und-Sicherheitsprfungen",
+            "text": "<blockquote>Die Kosten richten sich im Wesentlichen nach der Zahl der Gesundheits\u00e4mter in Niedersachsen und belaufen sich insgesamt auf 2.521.580 \u20ac (netto) f\u00fcr ein Jahr. Die Beschaffung erfolgte gem\u00e4\u00df \u00a7 14 Abs. 4 Nr. 2 Buchstabe b Vergabeverordnung. Zudem lag zum Zeitpunkt der Beschaffung eine Dringlichkeit im Sinne von \u00a7 14 Abs. 4 Nr. 3 Vergabeverordnung vor.<\/blockquote>Die Verträge wurden nicht offengelegt und als Begründung für die Wahl Alternativlosigkeit (bei digitalter KV-Pflicht der GÄ) angegeben.",
+            "title": "luca App in Niedersachsen: Vertr\u00e4ge und Sicherheitspr\u00fcfungen",
+            "type": "fragdenstaat",
+            "tags": ["kosten","niedersachsen"]
         },
         {
             "date": "08.06.2021",
