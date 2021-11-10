@@ -3,7 +3,8 @@
     $allowed_projects = ['25883425','25531274'];
     $project2projectID = [
         "web" => "25881780",
-        "security-overview" => "25883425"
+        "security-overview" => "25883425",
+        "cwa-event" => "26885332"
     ];
     $res = array(
         "data" => array(),

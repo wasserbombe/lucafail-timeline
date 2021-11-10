@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "59ddd96",
-            "commit_lh": "59ddd969c5243daa49c8d4c754121b33f5143533",
-            "commit_date": "2021-11-09 22:53:41 +0100",
+            "commit_sh": "2ad00dd",
+            "commit_lh": "2ad00dd0942556926254717e09d182620ed87be4",
+            "commit_date": "2021-11-09 23:10:11 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1636495620,
-        "date": "2021-11-09"
+        "ts": 1636562863,
+        "date": "2021-11-10"
     },
     "timeline": [
         {
@@ -5410,6 +5410,10 @@
                 {
                     "url": "https:\/\/www.coronawarn.app\/de\/faq\/#check_in_luca",
                     "text": "Corona-Warn-App FAQs zum Check-In via Luca-Code (coronawarn.app)"
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/ab-sofort-check-ins-mit-cwa-und-luca-qr-codes-moeglich\/",
+                    "text": "\u201cAb sofort Check-ins mit CWA und luca-QR-Codes m\u00f6glich\u201d (luca-app.de)"
                 }
             ],
             "tags": [
@@ -5461,6 +5465,11 @@
                 {
                     "type": "tweet",
                     "url": "https:\/\/twitter.com\/se38\/status\/1458152346727374850"
+                },
+                {
+                    "type": "gitlab",
+                    "project": "cwa-event",
+                    "issue": "1"
                 }
             ],
             "id": "36d71ada9e81",
