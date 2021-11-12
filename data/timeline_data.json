@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "2ad00dd",
-            "commit_lh": "2ad00dd0942556926254717e09d182620ed87be4",
-            "commit_date": "2021-11-09 23:10:11 +0100",
+            "commit_sh": "21c3d58",
+            "commit_lh": "21c3d58853db73f809b7ae6dc2e5421202e24074",
+            "commit_date": "2021-11-10 17:48:07 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1636562863,
-        "date": "2021-11-10"
+        "ts": 1636709624,
+        "date": "2021-11-12"
     },
     "timeline": [
         {
@@ -5497,6 +5497,39 @@
             "title": "Event im Gasthof \"undefined\" in \"undefined\"-Hausen",
             "type": "incident",
             "verified": false
+        },
+        {
+            "date": "11.11.2021",
+            "dt_created": "2021-11-11 12:50:00",
+            "dt_updated": "2021-11-11 12:50:00",
+            "id": "0c1493e8e61e",
+            "id_readable": "2021-11-11_news_Oberlandesgericht-Rostock-Direktvergabe-der-Luca-App-durch-das-Land-Mecklenburg-Vorpommern-war-vergaberechtswidrig",
+            "links": [
+                {
+                    "text": "Pressemitteilung OLG Rostock: \u201cScanning luca QR code with CWA results in \"undefined\"\u201d (mv-justiz.de)",
+                    "url": "https:\/\/www.mv-justiz.de\/gerichte-und-staatsanwaltschaften\/ordentliche-gerichte\/oberlandesgericht-rostock\/Aktuelles\/?id=175558&processor=processor.sa.pressemitteilung"
+                },
+                {
+                    "url": "https:\/\/www.heise.de\/tp\/features\/Mecklenburg-Vorpommern-Kauf-der-Luca-App-war-illegal-6264844.html",
+                    "text": "Artikel in Telepolis: \u201cMecklenburg-Vorpommern: Kauf der Luca-App war illegal\u201d (heise.de)"
+                },
+                {
+                    "url": "https:\/\/www.heise.de\/news\/Luca-App-Beauftragung-durch-Land-Mecklenburg-Vorpommern-war-vergaberechtswidrig-6264710.html",
+                    "text": "Artikel bei heise: \u201cGericht: Auftrag f\u00fcr Luca-App durch Mecklenburg-Vorpommern war rechtswidrig\u201d (heise.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "437e77191467"
+                },
+                {
+                    "id": "de4e8d5597af"
+                }
+            ],
+            "text": "<blockquote>Auch im Falle bestehender unvorhersehbarer Dringlichkeit und daraus folgender Nichteinhaltung der Mindestfristen m\u00fcsse immer so viel Wettbewerb wie m\u00f6glich geboten werden. Vorliegend sei es zumutbar gewesen, zumindest mehrere Angebote einzuholen.<\/blockquote>",
+            "title": "Oberlandesgericht Rostock: Direktvergabe der Luca-App durch das Land Mecklenburg-Vorpommern war vergaberechtswidrig",
+            "type": "news",
+            "verified": true
         }
     ]
 }
