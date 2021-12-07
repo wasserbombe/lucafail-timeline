@@ -55,7 +55,13 @@
             description: ''
         },
         'DE-TH': {
-            
+            color: "#ff8c00",
+            updated: '2021-12-07',
+            description: 'Das Land Thüringen empfiehlt in den Grundsätzen der Corona-Verordnung die Corona-Warn-App für die Kontakterfassung. In einzigen Bereichen ist aber eine Kontaktnachverfolgung vorgeschrieben (§3 Abs. 4) - hier ist eine anonymisierte Datenerfassung nicht möglich.',
+            sources: [{
+                url: "https://www.tmasgff.de/covid-19/verordnung",
+                text: "Thüringer Verordnung zur Regelung infektionsschutzrechtlicher Maßnahmen zur Eindämmung des Coronavirus SARS-CoV-2"
+            }]
         },
         'DE-HB': {
             color: "#006400",
