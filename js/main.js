@@ -39,6 +39,200 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(mymap);
 
+    var federalStatesDetails = {
+        'DE-BW': {
+            color: "#006400",
+            updated: '2021-12-07',
+            description: 'Seit Freitag, dem 15. Oktober 2021 ist ein Check-In in Baden-Württemberg auch mit der Corona-Warn-App möglich. Eine nicht-anonyme Datenerfassung - wie bspw. über die Luca-App - zur Kontaktnachverfolgung ist nicht mehr notwendig.',
+            "sources": [{
+                text: "netzpolitik.org",
+                "url": "https://netzpolitik.org/2021/corona-warn-app-baden-wuerttemberg-erlaubt-datensparsames-einchecken/"
+            }]
+        },
+        'DE-SH': {
+            color: "#006400",
+            updated: '2021-12-07',
+            description: ''
+        },
+        'DE-TH': {
+            
+        },
+        'DE-HB': {
+            color: "#006400",
+            updated: '2021-12-07',
+            description: 'In Bremen kann die Corona-Warn-App zur Kontaktnachverfolgung genutzt werden.',
+            sources: [{
+                text: "\u201cSenat beschließt Anpassung der Bremer Corona-Verordnung\u201d",
+                url: "https://www.senatspressestelle.bremen.de/pressemitteilungen/senat-beschliesst-anpassung-der-bremer-corona-verordnung-373930?asl=bremen02.c.730.de"
+            }]
+        },
+        'DE-SN': {
+            color: "#006400",
+            updated: '2021-11-19',
+            description: 'In Sachsen ist eine anonyme Kontaktnachverfolgung über die Corona-Warn-App möglich un erwünscht: Veranstalter sollen vorrangig digitale Systeme - insbesondere die Corona-Warn-App - für die Kontaktnachverfolgung einsetzen. Dies gilt nur für in der Corona-Notfall-Verordnung genannten Bereiche.',
+            sources: [{
+                url: "https://www.coronavirus.sachsen.de/download/SaechsCoronaNotVO-2021-11-19.pdf",
+                text: "Sächsische Corona-Notfall-Verordnung – SächsCoronaNotVO"
+            }]
+        },
+        'DE-BB': {
+            color: "#006400",
+            updated: '2021-12-07',
+            description: 'In Brandenburg ist ein Einsatz anonymer Kontaktnachverfolgung möglich, die Corona-Warn-App wird in der geltenden Verordnung (§5 - Kontaktnachweis) explizit genannt und von der Landesregierung emfohlen.',
+            sources: [{
+                text: "\u201cGesundheitsministerin Nonnemacher: Corona-Warn-App nutzen\u201d",
+                url: "https://msgiv.brandenburg.de/msgiv/de/presse/pressemitteilungen/detail/~01-11-2020-corona-warn-app-nutzen"
+            },{
+                text: "\u201cHohe Corona-Fallzahlen: Priorisierung bei Nachverfolgung von Kontaktpersonen\u201d",
+                url: "https://msgiv.brandenburg.de/msgiv/de/presse/pressemitteilungen/detail/~18-11-2021-priorisierung-bei-nachverfolgung-von-kontaktpersonen"
+            },{
+                text: "Zweite SARS-CoV-2-Eindämmungsverordnung - 2. SARS-CoV-2-EindV",
+                url: "https://bravors.brandenburg.de/verordnungen/2__sars_cov_2_eindv#5"
+            }]
+        },
+        'DE-HE': {
+            color: "#ff8c00",
+            updated: '2021-12-07',
+            description: 'In Hessen ist eine Kontaktdatenerfassung vermutlich nur in Krankenhäusern, Kliniken, Pflegeeinrichtungen, Prostitutionsstätten und Clubs erforderlich.',
+            sources: [{
+                text: "Coronavirus-Schutzverordnung - CoSchuV - vom 24. November 2021",
+                url: "https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-CoronaVVHE2021apP4"
+            },{
+                text: "Infektionsschutzgesetz, §23",
+                url: "https://www.gesetze-im-internet.de/ifsg/__23.html"
+            }]
+        },
+        'DE-BY': {
+            color: "#ff8c00",
+            updated: '2021-11-04',
+            description: 'In Bayern ist eine Kontaktdatenerfassung nur dann erforderlich, wenn die Inzidenz im Landkreis über 1000 liegt. Die breite Kontaktnachverfolgung durch die Gesundheitsämter wurde eingestellt.',
+            sources: [{
+                text: "\u201cGesundheitsämter stellen breite Kontaktnachverfolgung ein\u201d",
+                url: "https://www.br.de/nachrichten/bayern/gesundheitsaemter-stellen-breite-corona-kontaktnachverfolgung-ein,SnoHOTl"
+            },{
+                text: "Fünfzehnte Bayerische Infektionsschutzmaßnahmenverordnung (15. BayIfSMV) vom 23. November 2021",
+                url: "https://www.gesetze-bayern.de/Content/Document/BayIfSMV_15"
+            }]
+        },
+        'DE-HH': {
+            color: "#8b0000",
+            updated: '2021-12-07',
+            description: '<blockquote>In Hamburg müssen die Kontaktdaten weiter erfasst werden. Dazu muss soll vorrangig eine digitale Möglichkeit genutzt werden. Diese muss allerdings die Möglichkeit des Zugriffs durch die Gesundheitsämter ermöglichen. Die  CWA bietet einen solchen Datenübertrag nicht an. Sie dient der   individuellen Warnung und ist - konzeptionell so vorgesehen - kein   Beitrag zur Kontaktnachverfolgung.',
+            sources: [{
+                text: "Martin Helfrich (Pressesprecher) gegenüber dem CCC FR"
+            }]
+        },
+        'DE-MV': {
+            color: "#8b0000",
+            updated: '2021-12-07',
+            description: 'Die Corona-Verordnung in Mecklenburg-Vorpommern sieht eine Kontaktdatenerfassung vor, ein Einsatz anonymer Kontaktnachverfolgung wie bspw. über die Corona-Warn-App ist daher nicht möglich. Die Kontaktnachverfolgung selbst ist aber nur noch sehr schwer möglich. ',
+            sources: [{
+                text: "Corona-Jugend und Familie-Verordnung – Corona-JugFamVO M-V",
+                url: "https://www.regierung-mv.de/static/Regierungsportal/Ministerium%20f%C3%BCr%20Soziales%2c%20Integration%20und%20Gleichstellung/Dateien/GVOBl.%20Nr.%2074%20v.%2026.11.2021.pdf"
+            },{
+                text: "\u201cStadt ändert ihr Kontaktpersonenmanagement / Konzentration auf gefährdete Gruppen und Gemeinschaftseinrichtungen\u201d",
+                url: "https://www.schwerin.de/news/stadt-aendert-kontaktpersonenmanagement/"
+            },{
+                text: "Allgemeinverfügung zur Absonderung und Kontaktpersonenmanagement der Stadt Schwerin",
+                url: "https://www.schwerin.de/export/sites/default/.galleries/Dokumente/Bekanntmachungen/Bekanntmachungen-2021/2021-10-27-AV-Absonderung-und-Kontaktpersonenmanagement.pdf"
+            }]
+        },
+        'DE-BE': {
+            color: "#8b0000",
+            updated: '2021-12-07',
+            description: 'In Berlin ist eine "Anwesenheitsdokumentation" (= Kontaktdatenerfassung) weiterhin erforderlich, wenngleich eine vollständige Kontaktnachverfolgung nicht sichergestellt werden kann.',
+            sources: [{
+                text: "\u201cErster Berliner Bezirk gibt Kontaktnachverfolgung auf\u201d",
+                url: "https://www.morgenpost.de/bezirke/reinickendorf/article233808579/Erster-Berliner-Bezirk-gibt-Kontaktnachverfolgung-auf.html"
+            },{
+                text: "Dritte SARS-CoV-2-Infektionsschutzmaßnahmenverordnung",
+                url: "https://www.berlin.de/corona/massnahmen/verordnung/"
+            }]
+        },
+        'DE-RP': {
+            color: "#8b0000",
+            updated: '2021-12-03',
+            description: 'Die Kontaktdatenerfassung ist zwingend, jedoch haben bereits mehrere Gesundheitsämter die Kontaktnachverfolgung einstellen müssen. Ein zusätzlicher Einsatz von anonymer Kontaktnachverfolgung ist in jedem Fall sinnvoll.',
+            sources: [{
+                url: "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/pfaelzer-gesundheitsaemter-an-ueberlastungsgrenze-corona-kontaktverfolgung-100.html",
+                text: "\u201cPfalz: Mehrere Gesundheitsämter stellen Kontaktnachverfolgung ein\u201d",
+            },{
+                url: "https://corona.rlp.de/fileadmin/corona/211203_29_CoBeLVO.pdf",
+                text: "Neunundzwanzigste Corona-Bekämpfungsverordnung Rheinland-Pfalz"
+            }]
+        },
+        'DE-NI': {
+            color: "#8b0000",
+            updated: '2021-12-07',
+            description: 'Die Corona-Verordnung in Niedersachsen schreibt eine strikte Kontaktdatenerfassung vor. Der Einsatz von anonymer Kontaktnachverfolgung ist hier zwar möglich, aber nicht ausreichend. ',
+            sources: [{
+                url: "https://www.niedersachsen.de/Coronavirus/vorschriften-der-landesregierung-185856.html",
+                text: "Niedersächsische Corona-Verordnung"
+            }]
+        },
+        'DE-ST': {
+            color: "#8b0000",
+            updated: '2021-12-07',
+            description: ''
+        },
+        'DE-NW': {
+            description: 'Die  Coronaschutzverordnung in Nordrhein-Westfalen sieht derzeit keine verpflichtende Erhebung  von  Kontaktdaten (Rückverfolgbarkeit) vor. NRW nutzt IRIS Connect, eine offene Schnittstelle zur Datenerfassung für verschiedene Apps. Die Luca-App unterstützt diese Schnittstelle nicht.'
+        },
+        'DE-SL': {
+            color: "#006400",
+            updated: '2021-12-07',
+            description: 'Die Corona-Verordnung im Saarland schreibt keine Kontaktdatenerfassung vor, die Luca-App wird aber beworben. Ein Einsatz einer zusätzlichen anonymen Kontaktnachverfolgung ist in jedem Fall sinnvoll.',
+            sources: [{
+                url: "https://www.saarland.de/DE/portale/corona/service/rechtsverordnung-massnahmen/_documents/verordnung_stand-21-12-01.html",
+                text: "Corona-Verordnung Saarland"
+            }]
+        }
+    };
+
+    L.geoJSON(federalStates, {
+        onEachFeature: function (feature, layer){
+            var content = []; 
+            content.push("<b>" + feature.properties.name + "</b>");
+            if (typeof federalStatesDetails[feature.properties.id] !== "undefined") {
+                var details = federalStatesDetails[feature.properties.id];
+                if (details.description !== "") {
+                    content.push(details.description);
+                }
+                if (details.sources && details.sources.length > 0){
+                    content.push('<u>Quelle(n):</u> '); 
+                    var $ul = $("<ul>");
+                    details.sources.forEach((source) => {
+                        if (source.url){
+                            $ul.append($("<li>").html("<a href='" + source.url + "'>" + source.text + "</a>"));
+                        } else {
+                            $ul.append($("<li>").html(source.text));
+                        }
+                    });
+                    content.push($ul.html()); 
+                }
+                if (details.updated){
+                    content.push('<small>Stand: ' + details.updated + '</small>');
+                }
+            }
+            content = content.join("<br>");
+            layer.bindPopup(content);
+        },
+        style: function(feature) {
+            console.log(feature); 
+            if (typeof federalStatesDetails[feature.properties.id] !== "undefined") {
+                var details = federalStatesDetails[feature.properties.id];
+                if (details.color){
+                    return {
+                        color: details.color,
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 0.5
+                    };
+                }
+            }
+        }
+    }).addTo(mymap);
+
     var scrollToPanel = function (panel){
         if ($('[data-panel-id="'+panel+'"]').length){
             $('[data-panel-id="'+panel+'"]').get(0).scrollIntoView();

@@ -57,6 +57,7 @@
                         <li>Wir wollen kein "Bashing". Ein sachlicher Austausch ist in jedem Fall sinnvoll - auch bei fundierter und möglicherweise berechtigter Kritik. Nur dann kann sich etwas ändern/verbessern.</li>
                         <li>Wir wollen nicht nur Kritik gegenüber dem Hersteller vorstellen - es gibt ebenso Kritikpunkte, die Entscheidungsträger in Politik und anderen Institutionen betreffen. Diese sollen hier ebenso vertreten sein.</li>
                     </ul>
+                    <b>Aber:</b> Auch wir sind nicht fehlerfrei oder perfekt, bekommen vielleicht auch nicht alles in seiner Gesamtheit mit. Wenn also etwas in dieser Timeline falsch, unvollständig oder missverständlich ist, dann lasst es uns einfach wissen (siehe nächsten Abschnitt) und wir korrigieren das.
                 </p>
                 <h2>Du magst helfen?</h2>
                 <p>
@@ -136,6 +137,10 @@
                                             </ul>
                                         </small>
                                     </li>
+                                    <li>
+                                        <b>Überprüfung der 2G-Regel nur mit CovPass-Check!</b><br>
+                                        Nur mit der CovPass-Check-App lässt sich verlässlich überprüfen, ob ein Impfzertifikat gültig ist und ein Gast somit unter die 2G-Regel fällt (siehe auch die Webseite des RKI, <a href="https://www.digitaler-impfnachweis-app.de/covpasscheck-app/" target="_blank">digitaler-impfnachweis-app.de</a>). 
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -200,7 +205,20 @@
                 <hr>
 
                 <div id="map_container"></div>
-
+                <div id="map_legend">
+                    Für Quellen der Einfärbungen bitte auf das jewilige Budesland klicken. Unterstützung bei der Recherche: <a href="https://twitter.com/cccfr" target="_blank">Chaos Computer Club Freiburg e.V.</a> - danke dafür!
+                    <nobr>
+                        <div style="background-color: #006400; height: 10px; width: 20px;"> </div>
+                        = Keine Kontaktdatenerfassung vorgeschrieben, Einsatz der CWA zur anonymen Kontaktnachverfolgung möglich</nobr>
+                    <nobr>
+                        <div style="background-color: #ff8c00; height: 10px; width: 20px;"> </div>
+                        = Kontaktdatenerfassung in seltenen Fällen vorgeschrieben, ansonsten Einsatz der CWA möglich
+                    </nobr>
+                    <nobr>
+                        <div style="background-color: #8b0000; height: 10px; width: 20px;"> </div>
+                        = Kontaktdatenerfassung und/oder Luca vorgeschrieben, keine anonyme Kontaktnachverfolgung via CWA möglich
+                    </nobr>
+                </div>
                 <hr>
                     
                 <div id="settings">
@@ -599,6 +617,7 @@
         <script src="/js/bootstrap-multiselect.min.js"></script>
         <script src="/osmtiles/leaflet/leaflet.js"></script>
         <script src="/osmtiles/leaflet/Leaflet.fullscreen.min.js"></script>
+        <script src="/js/federalStates.js"></script>
         <script src="/js/main.js"></script>
     </body>
 </html>

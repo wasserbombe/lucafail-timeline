@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "ee92380",
-            "commit_lh": "ee92380500a6f41e226d069fe90597cda73296bf",
-            "commit_date": "2021-11-12 12:37:12 +0100",
+            "commit_sh": "bcee33b",
+            "commit_lh": "bcee33bb64f93d4b4929d468dab507ec8d545eff",
+            "commit_date": "2021-11-16 21:39:28 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1637095143,
-        "date": "2021-11-16"
+        "ts": 1638892748,
+        "date": "2021-12-07"
     },
     "timeline": [
         {
@@ -5597,6 +5597,10 @@
                 {
                     "url": "https:\/\/rp-online.de\/panorama\/coronavirus\/corona-daten-aus-der-luca-app-bars-und-clubs-sind-hotspots_aid-64070077",
                     "text": "\u201cDaten aus der Luca-App: Bars und Clubs sind Corona-Hotspots\u201d (rp-online.de)"
+                },
+                {
+                    "url": "https:\/\/www.welt.de\/politik\/deutschland\/video235081788\/Luca-App-An-diesen-Orten-wird-am-haeufigsten-gewarnt.html",
+                    "text": "Video: \u201cAn diesen Orten wird am h\u00e4ufigsten gewarnt\u201d (welt.de)"
                 }
             ],
             "tags": [
@@ -5606,6 +5610,46 @@
             "text": "Luca hat auf seiner Webseite und via Presseverteiler einige Zahlen ver\u00f6ffentlicht, die auf Nutzer-Warnungen durch die Luca-App basieren. <blockquote>Verh\u00e4ltnism\u00e4\u00dfig wenige Warnmeldungen in Restaurants, Caf\u00e9s, Kinos, Einzelhandel sowie Theater, Kultur und Museen. Vergleichsweise starke H\u00e4ufung von Warnmeldungen in Clubs und Bars (72 Prozent aller Warnmeldungen im Oktober).<\/blockquote><div class=\"quote-origin\">\u2014 <a href=\"https:\/\/www.luca-app.de\/luca-veroeffentlicht-aktuelle-zahlen-zum-infektionsgeschehen\/\" target=\"_blank\">luca-app.de<\/a><\/div><br>Einige Experten kritisieren, dass der Artikel den Eindruck erwecke, R\u00fcckschl\u00fcsse auf das Infektionsgeschehen in Deutschland ziehen zu k\u00f6nnen. Das sei aus folgenden Gr\u00fcnden nicht m\u00f6glich, wie <a href=\"https:\/\/twitter.com\/Linuzifer\/status\/1460623797250367491\" target=\"_blank\">Linus Neumann auf Twitter kurz erkl\u00e4rt<\/a>: <ul><li>Warnungen entsprechen nicht den tats\u00e4chlichen Infektionen, sondern sind nur ein Hinweis darauf, dass an einem Ort eine infekti\u00f6se Person war. Da keine Infektionswahrscheinlichkeit ermittelt wird (im Gegensatz zur CWA), Nutzer nur einer Veranstaltung\/einem Ort zugeordnet werden - und das bei einem Club logischerweise mehr sind als in einer Gastst\u00e4tte, sei es v\u00f6llig logisch, dass hier auch mehr Warnungen erfolgen.<\/li><li>Warnungen sind keine Aussage zur Infektionswahrscheinlichkeit, weil auf unterschiedliche Hygienema\u00dfnahmen oder generell 2G-\/3G-Regeln in verschiedenen Bundesl\u00e4ndern keine R\u00fccksicht genommen wird<\/li><li>Luca selbst wird nur an Orten eingesetzt, wo das erforderlich ist. Am Arbeitsplatz, im \u00d6PNV oder in Privathaushalten ist Luca nicht vertreten, dabei gibt es auch dort Infektionsherde - die eine Luca-Analyse gar nicht abdecken kann. Dass es also mehr Warnungen in der Gastronomie gibt als im Einzelhandel, ist daher nicht verwunderlich.<\/li><li>Es k\u00f6nnen keine Aussagen \u00fcber Infektionswahrscheinlichkeiten getroffen werden.<\/li><\/ul><br><br><blockquote>Die Pressemeldung von Luca (\"Bars und Clubs sind Corona-Hotspots\") bez\u00fcglich Clubs und Bars f\u00fchrt ganz gerne in sehr falsche Richtung. Diese Locations sind im Luca-System Warnungshotspots. Das deckt sich nicht unbedingt mit dem Alltag in Gesundheits\u00e4mtern (die im Gegensatz zu Luca auch echte Testergebnisse in so Statistiken einflie\u00dfen lassen k\u00f6nnen, nicht nur Warnungen). Luca stellt nur einen Bruchteil dar des gesamten Infektionskontextes dieser Pandemie.<\/blockquote><div class=\"quote-origin\">\u2014 Bianca Kastl, Stabsstelle Digitalisierung im GA Frankfurt, <a href=\"https:\/\/twitter.com\/bkastl\/status\/1460213216357892100\" target=\"_blank\">Tweet<\/a> \/ <a href=\"https:\/\/twitter.com\/bkastl\/status\/1460330109831987202\" target=\"_blank\">Tweet<\/a><\/div><blockquote>Gestern dachte ich noch: 99% aller Fr\u00fcchte sind \u00c4pfel laut Ausz\u00e4hlungen von Fallobst in der weltweit gr\u00f6\u00dften Apfelplantage<\/blockquote><div class=\"quote-origin\">\u2014 Markus Eisele, <a href=\"https:\/\/twitter.com\/myfear\/status\/1460645448495079431\" target=\"_blank\">Tweet<\/a><\/div>",
             "title": "\u201cluca ver\u00f6ffentlicht aktuelle Zahlen zum Infektionsgeschehen in verschiedenen Bereichen des \u00f6ffentlichen Lebens\u201d",
             "type": "doc-luca",
+            "verified": false
+        },
+        {
+            "date": "06.12.2021",
+            "dt_created": "2021-12-06 00:00:00",
+            "dt_updated": "2021-12-06 00:00:00",
+            "id": "1b9f43f0f6c4",
+            "id_readable": "2021-12-06_general_Daten-von-Ende-November-unvollstndig",
+            "tags": [
+                "help"
+            ],
+            "text": "Sorry, die Daten von Ende November \/ Anfang Dezember (16.11. bis 06.12.) sind aufgrund Zeitmangels noch unvollst\u00e4ndig. Sollte es einen Beitrag geben, der noch fehlt, bitte eine kurze E-Mail mit Link zu Quellen \/ Beschreibungen \/ Ver\u00f6ffentlichungen (und am besten einer kurzen Beschreibung) an <a href=\"mailto:mitmachen@luca.fail\">mitmachen@luca.fail<\/a> oder einen <a href=\"https:\/\/github.com\/wasserbombe\/lucafail-timeline\/issues\/\" target=\"_blank\">Github-Issue<\/a> erstellen - danke!",
+            "title": "Datenl\u00fccke: Daten von Ende November unvollst\u00e4ndig",
+            "type": "general"
+        },
+        {
+            "date": "07.12.2021",
+            "dt_created": "2021-12-07 16:00:00",
+            "dt_updated": "2021-12-07 16:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1468181850497691650"
+                }
+            ],
+            "id": "a95250407805",
+            "id_readable": "2021-12-07_doc_Chaos-Computer-Club-Freiburg-Gesundsheitsmter-bundesweit-nur-10-AbfragenTag-vor-allem-Hamburg",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1468181850497691650",
+                    "text": "Tweet des Chaos Computer Clubs Freiburg e.V. (twitter.com)"
+                }
+            ],
+            "tags": [
+                "statistik",
+                "zahlen"
+            ],
+            "text": "<blockquote>Reality\/Relevanzcheck #LucaApp:<br>Gesundsheits\u00e4mter Bundesweit nur ~10 Abfragen\/Tag, Gro\u00dfteil aller Kontaktdaten Hamburg und Umgebung.<br>Jede Nutzerin \u00d8 0.03 Checkin\/Tag.<br>Kontaktnachverfolgung (ohne CWA Checkin) nur noch in 6 Bundesl\u00e4ndern (+Bayern >1000 \/ +Hessen Krankenh\u00e4user)<\/blockquote>",
+            "title": "Chaos Computer Club Freiburg: \u201cGesundsheits\u00e4mter bundesweit nur ~10 Abfragen\/Tag, vor allem Hamburg\u201d",
+            "type": "doc",
             "verified": false
         }
     ]
