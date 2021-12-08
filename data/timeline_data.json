@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "bcee33b",
-            "commit_lh": "bcee33bb64f93d4b4929d468dab507ec8d545eff",
-            "commit_date": "2021-11-16 21:39:28 +0100",
+            "commit_sh": "1751de4",
+            "commit_lh": "1751de401c466556af63f4fddc866bae978b5977",
+            "commit_date": "2021-12-07 20:00:07 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1638892748,
-        "date": "2021-12-07"
+        "ts": 1638963254,
+        "date": "2021-12-08"
     },
     "timeline": [
         {
@@ -3104,6 +3104,24 @@
         },
         {
             "date": "29.06.2021",
+            "dt_created": "2021-12-08 00:00:00",
+            "dt_updated": "2021-12-08 00:00:00",
+            "id": "c78d215e001e",
+            "id_readable": "2021-06-29_doc_Kleine-Anfrage-Hintergrnde-zur-Vergabe-der-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/dokumente.landtag.rlp.de\/landtag\/drucksachen\/413-18.pdf",
+                    "text": "Landtag Rheinland-Pfalz: Antwort des Ministeriums f\u00fcr Wissenschaft und Gesundheit auf die Kleine Anfrage der Abgeordneten Lisa-Marie Jeckel (FREIE W\u00c4HLER): Hintergr\u00fcnde zur Vergabe der \u201eLuca\u201c-App (dokumente.landtag.rlp.de)"
+                }
+            ],
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "Die medienpolitische Sprecherin und Landtagsabgeordnete der Freien W\u00e4hler Lisa-Marie Jeckel hat eine Kleine Anfrage an das rheinland-pf\u00e4lzische Ministerium f\u00fcr Wissenschaft und Gesundheit mit dem Titel \u201eHintergr\u00fcnde zur Vergabe der Luca-App\u201c gestellt. Demnach: <ul><li>Es wurde eine Markterkundung durchgef\u00fchrt<\/li><li>Eine Software m\u00fcssen die Schritte Kontaktdatenerfassung inkl. Smartphone-Alternativen, Verschl\u00fcsselte Daten\u00fcbermittlung an die Gesundheits\u00e4mter bzw. SORMAS und Benachrichtigung von Kontaktpersonen unterst\u00fctzen.<\/li><\/ul>Luca hatte zu diesem Zeitpunkt eine Anbindung an SORMAS nur \u00fcber einen behelfsm\u00e4\u00dfigen CSV-Export; eine Benachrichtigung von Kontaktpersonen war \u00fcber die App nur in Form von \"Kontaktdaten einer Location wurden abgerufen\", Kontaktpersonen konnten nicht gezielt \u00fcber Luca kontaktiert werden. Das Land Rheinland-Pfalz hat sich trotzdem f\u00fcr Luca entschieden. ",
+            "title": "Kleine Anfrage: Hintergr\u00fcnde zur Vergabe der Luca-App",
+            "type": "doc",
+            "verified": true
+        },
+        {
+            "date": "29.06.2021",
             "dt_created": "2021-06-29 00:00:00",
             "dt_updated": "2021-06-29 00:00:00",
             "embed": [
@@ -5611,6 +5629,27 @@
             "title": "\u201cluca ver\u00f6ffentlicht aktuelle Zahlen zum Infektionsgeschehen in verschiedenen Bereichen des \u00f6ffentlichen Lebens\u201d",
             "type": "doc-luca",
             "verified": false
+        },
+        {
+            "date": "02.12.2021",
+            "dt_created": "2021-12-08 00:00:00",
+            "dt_updated": "2021-12-08 00:00:00",
+            "id": "0cf2ae662cc0",
+            "id_readable": "2021-12-02_Lisa-Marie-Jeckel-MdL-Da-gehen-sie-hin-unsere-Steuergelder",
+            "links": [
+                {
+                    "text": "Facebook-Post von Lisa-Marie Jeckel (facebook.com)",
+                    "url": "https:\/\/www.facebook.com\/Lisamariejeckelfw\/posts\/435667734736731"
+                }
+            ],
+            "references": [
+                {
+                    "id": "c78d215e001e"
+                }
+            ],
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "<blockquote>Da gehen sie hin unsere Steuergelder... Heute im Ausschuss f\u00fcr Digitalisierung haben wir \u00fcber einige Ausgaben der Landes geredet. 1,7 Millionen Euro f\u00fcr die Luca App (und das allein in RLP!) was bisher pro Person die durch die App kontaktiert wurde mindestens 14.160\u20ac ausmacht. Wenn ich so viel Geld bei einem Telefonat verdienen w\u00fcrde....<\/blockquote>",
+            "title": "Lisa-Marie Jeckel, MdL: \u201cDa gehen sie hin unsere Steuergelder...\u201d"
         },
         {
             "date": "06.12.2021",
