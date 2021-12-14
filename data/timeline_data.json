@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "1751de4",
-            "commit_lh": "1751de401c466556af63f4fddc866bae978b5977",
-            "commit_date": "2021-12-07 20:00:07 +0100",
+            "commit_sh": "11309a5",
+            "commit_lh": "11309a51665f1a715d4d859887bb0e04cefede64",
+            "commit_date": "2021-12-08 12:38:40 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1638963254,
-        "date": "2021-12-08"
+        "ts": 1639520523,
+        "date": "2021-12-14"
     },
     "timeline": [
         {
@@ -5689,6 +5689,23 @@
             "text": "<blockquote>Reality\/Relevanzcheck #LucaApp:<br>Gesundsheits\u00e4mter Bundesweit nur ~10 Abfragen\/Tag, Gro\u00dfteil aller Kontaktdaten Hamburg und Umgebung.<br>Jede Nutzerin \u00d8 0.03 Checkin\/Tag.<br>Kontaktnachverfolgung (ohne CWA Checkin) nur noch in 6 Bundesl\u00e4ndern (+Bayern >1000 \/ +Hessen Krankenh\u00e4user)<\/blockquote>",
             "title": "Chaos Computer Club Freiburg: \u201cGesundsheits\u00e4mter bundesweit nur ~10 Abfragen\/Tag, vor allem Hamburg\u201d",
             "type": "doc",
+            "verified": false
+        },
+        {
+            "date": "08.12.2021",
+            "dt_created": "2021-12-08 16:00:00",
+            "dt_updated": "2021-12-08 16:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/linksanwaelte\/status\/1468539086797516807"
+                }
+            ],
+            "id": "7f8909fd6416",
+            "id_readable": "2021-12-08_incident_Corona-Kontaktdatensammlung-fhrt-zur-Identifizierung-Beschuldigter",
+            "text": "Rechtlich ist die Identifizierung von Menschen \u00fcber Corona-Kontaktdatensammlungen mindestens umstritten, dennoch werden sie von Beh\u00f6rden genutzt. Eine anonyme Kontaktnachverfolgung w\u00e4re hier hilfreich, und zwar nicht zum Schutz von Beschuldigten, sondern zum Datenschutz aller.<br>Die Luca-App ist sich diesem Problem bewusst, an Kontaktdaten selbst kommt man dem Konzept zufolge nur dann, wenn sowohl Location-Betreiber als auch Gesundheitsamt die Daten entschl\u00fcsseln. Jedoch w\u00e4re theoretisch auch eine Identifizierung \u00fcber Meta-Daten m\u00f6glich.",
+            "title": "Corona-Kontaktdatensammlung f\u00fchrt zur Identifizierung Beschuldigter",
+            "type": "incident",
             "verified": false
         }
     ]

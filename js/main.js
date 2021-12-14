@@ -47,6 +47,9 @@
             "sources": [{
                 text: "netzpolitik.org",
                 "url": "https://netzpolitik.org/2021/corona-warn-app-baden-wuerttemberg-erlaubt-datensparsames-einchecken/"
+            },{
+                text: "MSI BW: Ein weiterer Schritt zurück zur Normalität",
+                url: "https://www.baden-wuerttemberg.de/de/service/alle-meldungen/meldung/pid/ein-weiterer-schritt-zurueck-zur-normalitaet/"
             }]
         },
         'DE-SH': {
@@ -97,12 +100,15 @@
             }]
         },
         'DE-HE': {
-            color: "#ff8c00",
-            updated: '2021-12-07',
-            description: 'In Hessen ist eine Kontaktdatenerfassung vermutlich nur in Krankenhäusern, Kliniken, Pflegeeinrichtungen, Prostitutionsstätten und Clubs erforderlich.',
+            color: "#006400",
+            updated: '2021-12-14',
+            description: 'In Hessen ist eine Kontaktdatenerfassung nur in Krankenhäusern, Kliniken, Pflegeeinrichtungen, Prostitutionsstätten und Clubs erforderlich. Ab dem 16.12.2021 entfällt die Pflicht zur Kontaktdatenerfassung, sofern eine Event-Registrierung - und somit eine anonyme Kontaktnachverfolgung - über die Corona-Warn-App erfolgt. Luca ist dann auch hier nicht mehr erforderlich.<br><blockquote>Die Kontaktdatenerfassung nach Satz 1 ist nicht erforderlich, wenn die Person, deren Daten zu erfassen wären, die in der Corona-Warn-App des Robert Koch-Institutes enthaltene QR-Code-Registrierung nutzt.</blockquote>',
             sources: [{
                 text: "Coronavirus-Schutzverordnung - CoSchuV - vom 24. November 2021",
                 url: "https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-CoronaVVHE2021apP4"
+            },{
+                text: "Coronavirus-Schutzverordnung - CoSchuV - vom 24. November 2021, Stand 16.12.2021",
+                url: "https://www.hessen.de/sites/hessen.hessen.de/files/2021-12/lf_coschuv_stand_16.12.21.pdf"
             },{
                 text: "Infektionsschutzgesetz, §23",
                 url: "https://www.gesetze-im-internet.de/ifsg/__23.html"
