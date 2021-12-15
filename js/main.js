@@ -67,12 +67,18 @@
             }]
         },
         'DE-HB': {
-            color: "#006400",
-            updated: '2021-12-07',
-            description: 'In Bremen kann die Corona-Warn-App zur Kontaktnachverfolgung genutzt werden.',
+            color: "#8b0000",
+            updated: '2021-12-15',
+            description: 'In Bremen konnte die Corona-Warn-App für vier Tage zur Kontaktnachverfolgung genutzt werden, dann wurde sie aus der Verordnung gestrichen.',
             sources: [{
                 text: "\u201cSenat beschließt Anpassung der Bremer Corona-Verordnung\u201d",
                 url: "https://www.senatspressestelle.bremen.de/pressemitteilungen/senat-beschliesst-anpassung-der-bremer-corona-verordnung-373930?asl=bremen02.c.730.de"
+            },{
+                text: "Änderung der Corona-Verordnung vom 9.12.2021",
+                url: "https://www.gesetzblatt.bremen.de/fastmedia/218/2021_12_09_GBl_Nr_0136_signed.pdf"
+            },{
+                text: "Neunundzwanzigste Verordnung zum Schutz vor Neuinfektionen mit dem Coronavirus SARS-CoV-2",
+                url: "https://www.transparenz.bremen.de/metainformationen/neunundzwanzigste-verordnung-zum-schutz-vor-neuinfektionen-mit-dem-coronavirus-sars-cov-2-neunundzwanzigste-coronaverordnung-vom-28-september-2021-174654?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d"
             }]
         },
         'DE-SN': {
