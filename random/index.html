@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/bootstrap-multiselect.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/bootstrap-icons/bootstrap-icons.css">
+
+        <style>
+            blockquote {
+                padding-left: 15px;
+                padding-right: 15px;
+                text-indent: -0.45em;
+                font-style: italic;
+                font-family: Georgia;
+                quotes: "“" "”" "‘" "’";
+            }
+            @supports ( hanging-punctuation: first) {
+                blockquote {
+                    text-indent: 0;
+                    hanging-punctuation: first;
+                }
+            }
+
+            blockquote::before {
+                content: open-quote;
+            }
+            blockquote::after {
+                content: close-quote;
+            }
+            div.quote-origin {
+                margin-top: -5px;
+                padding-right: 15px;
+                text-align: right;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body class="bg-light">
+        <main>
+            <div class="container">
+                <div id="randomcontent"></div>
+
+                <hr>
+                <small>Die hier gezeigten Daten sind Teil der <a href="https://timeline.luca.fail/" target="_blank">Luca-Timeline</a>, eine chronologische Übersicht über die Luca-App, die ihre Daten <a href="https://timeline.luca.fail/data/timeline_data.json" target="_blank">hier</a> für alle und maschinenlesbar zur Verfügung stellt. Die einzelnen Beiträge haben möglicherweise zusätzliche/interaktive Inhalte, die hier in der Kürze nicht dargestellt werden können.</small>
+            </div>
+        </main>
+        <script src="/js/jquery.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/bootstrap-multiselect.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
