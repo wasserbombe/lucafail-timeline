@@ -7,6 +7,12 @@
             console.log(item);
 
             $("#randomcontent").append("<b>"+item.date+'</b> &middot; <a href="/#'+item.id_readable+'"><i class="bi-link"></i></a>');
+            if (item.scope){
+                $("#randomcontent").append(" &middot; "+item.scope+'');
+            }
+            if (item.type){
+                $("#randomcontent").append(" &middot; "+item.type+'');
+            }
             $("#randomcontent").append("<h1>"+item.title+"</h1>");
             if (item.text){
                 $("#randomcontent").append("<p>"+item.text+"</p>");

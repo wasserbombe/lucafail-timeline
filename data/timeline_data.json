@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "11309a5",
-            "commit_lh": "11309a51665f1a715d4d859887bb0e04cefede64",
-            "commit_date": "2021-12-08 12:38:40 +0100",
+            "commit_sh": "1c2e3a7",
+            "commit_lh": "1c2e3a7465aa8e77d5edf279a4b62fc634b49fb2",
+            "commit_date": "2021-12-20 12:51:47 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1639520523,
-        "date": "2021-12-14"
+        "ts": 1640123998,
+        "date": "2021-12-21"
     },
     "timeline": [
         {
@@ -5665,6 +5665,22 @@
             "type": "general"
         },
         {
+            "date": "06.12.2021",
+            "dt_created": "2021-12-06 00:00:00",
+            "dt_updated": "2021-12-06 00:00:00",
+            "id": "0eda660ef585",
+            "id_readable": "2021-12-06_WELT-Millionengrab-fr-Steuerzahler--Luca-App-nach-nur-einem-Jahr-vor-dem-Aus",
+            "links": [
+                {
+                    "url": "https:\/\/www.welt.de\/wirtschaft\/plus235477400\/Corona-Luca-App-nach-nur-einem-Jahr-vor-dem-Aus.html",
+                    "text": "Jan Klauth: \u201c\u201eMillionengrab f\u00fcr Steuerzahler\u201c \u2013 Luca-App nach nur einem Jahr vor dem Aus?\u201d"
+                }
+            ],
+            "text": "<blockquote>Doch was hat das Programm nun gebracht? Angesichts harscher Kritik z\u00f6gern die L\u00e4nder, die teure Software-Lizenz zu verl\u00e4ngern.<\/blockquote>",
+            "title": "WELT: \u201c\u201eMillionengrab f\u00fcr Steuerzahler\u201c \u2013 Luca-App nach nur einem Jahr vor dem Aus?\u201d",
+            "type": "news"
+        },
+        {
             "date": "07.12.2021",
             "dt_created": "2021-12-07 16:00:00",
             "dt_updated": "2021-12-07 16:00:00",
@@ -5707,6 +5723,71 @@
             "title": "Corona-Kontaktdatensammlung f\u00fchrt zur Identifizierung Beschuldigter",
             "type": "incident",
             "verified": false
+        },
+        {
+            "date": "09.12.2021",
+            "dt_created": "2021-12-09 00:00:00",
+            "dt_updated": "2021-12-09 00:00:00",
+            "id": "3d95d72cb960",
+            "id_readable": "2021-12-09_news_BR-Kampf-gegen-Corona-Hat-die-Luca-App-noch-eine-Zukunft",
+            "links": [
+                {
+                    "url": "https:\/\/www.br.de\/nachrichten\/netzwelt\/kampf-gegen-corona-hat-die-luca-app-noch-eine-zukunft,Sr1AixH",
+                    "text": "Bernd Oswald: \u201cKampf gegen Corona: Hat die Luca-App noch eine Zukunft?\u201d (br.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "0eda660ef585"
+                }
+            ],
+            "text": "<blockquote>Die Vertr\u00e4ge, die Nexenio mit den Bundesl\u00e4ndern geschlossen hat, laufen noch bis Ende M\u00e4rz 2022. Ob alle 13 L\u00e4nder ihre Luca-Lizenz verl\u00e4ngern, ist allerdings h\u00f6chst fraglich. Der hessische SPD-Bundestagsabgeordnete Jens Zimmermann bezeichnet die Luca-App als \"Geldverbrennungsmachine\" und r\u00e4t den Bundesl\u00e4ndern davon ab, neue Vertr\u00e4ge zu schlie\u00dfen, wie er der Welt sagte.<\/blockquote><blockquote>Au\u00dferdem wird in einigen L\u00e4ndern auch die Nutzung der Corona-Warn-App (CWA) als Mittel zur Unterbrechung von Infektionsketten anerkannt. Die CWA erhebt im Gegensatz zur Luca-App keine personenbezogenen Daten, sondern warnt ihre Nutzer, wenn sie eine kritische Zeitspanne in kurzem Abstand mit Personen in Kontakt waren, die mit dem Coronavirus infiziert sind.<\/blockquote>",
+            "title": "BR: \u201cKampf gegen Corona: Hat die Luca-App noch eine Zukunft?\u201d",
+            "type": "news"
+        },
+        {
+            "date": "16.12.2021",
+            "dt_created": "2021-12-16 00:00:00",
+            "dt_updated": "2021-12-16 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/_lucaApp\/status\/1471510188117016585"
+                }
+            ],
+            "id": "1f02ec799fc6",
+            "id_readable": "2021-12-16_doc-luca_40-Millionen-Nutzer",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/_lucaApp\/status\/1471510188117016585",
+                    "text": "Tweet von @_lucaApp (twitter.com)"
+                }
+            ],
+            "text": "Die Luca-App gibt auf Twitter an, dass sie nun von \u00fcber 40 Millionen Nutzern genutzt wird:<blockquote>40.000.000 [...] Gemeinsam leisten wir alle einen Beitrag zur Kontaktnachverfolgung und zum Schutz vor Corona.<\/blockquote><div class=\"quote-origin\">\u2014 @_lucaApp auf <a href=\"https:\/\/twitter.com\/_lucaApp\/status\/1471510188117016585\" target=\"_blank\">Twitter<\/a><\/div><br>Das ist aus mehreren Gesichtspunkten schwer zu beurteilen. Zum einen kritisieren Nutzer, dass die Download-Zahlen der Luca-App nur bedingt herangezogen werden k\u00f6nnen, um auf Nutzer zu schlie\u00dfen. Zum anderen stellt jeder Check-In, der nicht \u00fcber die Smartphone-App, sondern \u00fcber z.B. ein Kontaktformular erfolgte, einen neuen User-Datensatz dar. Es ist fraglich, ob dies bei der Ermittlung der Nutzerzahl ber\u00fccksichtigt wurde. Schlussendlich wird \u00fcber die Luca-App in erster Linie eine <i>Kontaktdatenerfassung<\/i> durchgef\u00fchrt - die <i>Kontaktnachverfolgung<\/i> ist weiterhin Aufwand der zust\u00e4ndigen Gesundheits\u00e4mter mithilfe von Luca erfassten Daten, zumindest, wenn die Corona-Warn-App - die eigenst\u00e4ndig in der Lage w\u00e4re, eine Kontaktnachverfolgung zu betreiben - nicht zum Einsatz kommen kann.",
+            "title": "Meilenstein erreicht: 40 Millionen Nutzer?",
+            "type": "doc-luca"
+        },
+        {
+            "date": "21.12.2021",
+            "dt_created": "2021-12-21 00:00:00",
+            "dt_updated": "2021-12-21 00:00:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "url": "https:\/\/www.youtube.com\/watch?v=I6F8mWSycoA"
+                }
+            ],
+            "id": "67bdc48dd6d0",
+            "id_readable": "2021-12-21_video_WALULIS-DAILY-21-Millionen-fr-eine-kaputte-App-und-Smudo-heult-rum",
+            "links": [
+                {
+                    "url": "https:\/\/www.youtube.com\/watch?v=I6F8mWSycoA",
+                    "text": "YouTube-Video: WALULIS DAILY: \u201c\"21 Millionen f\u00fcr eine kaputte App\" und Smudo heult rum\u201d (youtube.com)"
+                }
+            ],
+            "text": "Im Walulis Daily gab es einen \u00dcberblick \u00fcber die Probleme der Luca-App und verschiedene Twitter-Posts zur Kritik, man bereichere sich durch die Corona-Pandemie.",
+            "title": "WALULIS DAILY: \u201c\"21 Millionen f\u00fcr eine kaputte App\" und Smudo heult rum\u201d",
+            "type": "broadcast"
         }
     ]
 }
