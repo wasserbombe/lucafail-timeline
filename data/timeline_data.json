@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "1c2e3a7",
-            "commit_lh": "1c2e3a7465aa8e77d5edf279a4b62fc634b49fb2",
-            "commit_date": "2021-12-20 12:51:47 +0100",
+            "commit_sh": "a142d4e",
+            "commit_lh": "a142d4e7c248b216910f67e58a2457e99f0449cf",
+            "commit_date": "2021-12-21 23:03:51 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640123998,
+        "ts": 1640125627,
         "date": "2021-12-21"
     },
     "timeline": [
@@ -5768,6 +5768,25 @@
             "type": "doc-luca"
         },
         {
+            "date": "20.12.2021",
+            "dt_created": "2021-12-20 00:00:00",
+            "dt_updated": "2021-12-20 00:00:00",
+            "id": "ea9b63045423",
+            "id_readable": "2021-12-20_news_Shitstorm-nach-CCC-Vorwurf-Hat-Smudo-sich-mit-der-Luca-App-an-der-Pandemie-bereichert",
+            "links": [
+                {
+                    "url": "https:\/\/www.tag24.de\/unterhaltung\/promis\/shitstorm-nach-ccc-vorwurf-hat-smudo-sich-mit-der-luca-app-an-der-pandemie-bereichert-2253981",
+                    "text": "Nora Petig: \u201cShitstorm nach CCC-Vorwurf: Hat Smudo sich mit der Luca-App an der Pandemie bereichert?\u201d (tag24.de)"
+                }
+            ],
+            "tags": [
+                "smudo"
+            ],
+            "text": "<blockquote>Statt seinen Verdienst an der Vermarktung der Luca App offenzulegen, geschweige denn, sich zu erkl\u00e4ren, entschloss sich Smudo dazu, einfach einen unbeteiligten Dritten miteinzubeziehen und ihm seinerseits vorzuwerfen, immense Corona-Hilfen erhalten und sich somit an der Pandemie bereichert zu haben.<\/blockquote><blockquote>Nach eigenen Angaben finanziert sich der Club gr\u00f6\u00dftenteils durch Mitgliederbeitr\u00e4ge.<br>Ob sich Smudo an der Pandemie bereichert hat, sei einmal dahin gestellt. Geld daran verdient, hat er allemal.<\/blockquote>",
+            "title": "\u201cShitstorm nach CCC-Vorwurf: Hat Smudo sich mit der Luca-App an der Pandemie bereichert?\u201d",
+            "type": "news"
+        },
+        {
             "date": "21.12.2021",
             "dt_created": "2021-12-21 00:00:00",
             "dt_updated": "2021-12-21 00:00:00",
@@ -5783,6 +5802,11 @@
                 {
                     "url": "https:\/\/www.youtube.com\/watch?v=I6F8mWSycoA",
                     "text": "YouTube-Video: WALULIS DAILY: \u201c\"21 Millionen f\u00fcr eine kaputte App\" und Smudo heult rum\u201d (youtube.com)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ea9b63045423"
                 }
             ],
             "text": "Im Walulis Daily gab es einen \u00dcberblick \u00fcber die Probleme der Luca-App und verschiedene Twitter-Posts zur Kritik, man bereichere sich durch die Corona-Pandemie.",
