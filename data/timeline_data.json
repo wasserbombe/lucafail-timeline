@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "42c3e23",
-            "commit_lh": "42c3e23025df6cc5f544fa4c70ce6cca229d8b5f",
-            "commit_date": "2021-12-26 16:42:18 +0100",
+            "commit_sh": "03006cb",
+            "commit_lh": "03006cbeadd525f1e1c2c0ccd8da3ffaeb4c264d",
+            "commit_date": "2021-12-26 16:48:46 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640533720,
+        "ts": 1640537575,
         "date": "2021-12-26"
     },
     "timeline": [
@@ -4740,6 +4740,22 @@
             "title": "Stellungnahmen von Luca-Machern",
             "type": "doc-luca",
             "verified": true
+        },
+        {
+            "date": "26.08.2021",
+            "dt_created": "2021-08-26 00:00:00",
+            "dt_updated": "2021-08-26 00:00:00",
+            "id": "f42bc56dad6c",
+            "id_readable": "2021-08-26_news_Felix-Grdler-Was-ist-eigentlich-der-Unterschied-zwischen-der-Luca-App-und-der-Corona-Warn-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.felixgraedler.de\/post\/was-ist-eigentlich-der-unterschied-zwischen-der-luca-app-und-der-corona-warn-app",
+                    "text": "Felix Gr\u00e4dler: \u201cWas ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?\u201d (felixgraedler.de)"
+                }
+            ],
+            "text": "<blockquote>Grundproblem ist aktuell: In den Landesverordnungen ist eine Datenspeicherung verpflichtend, obwohl diese f\u00fcr die Nachverfolgung gar nicht n\u00f6tig w\u00e4re, wenn man stattdessen einen Check-In mit der Corona-App verpflichtend machen w\u00fcrde.<\/blockquote><blockquote>Die Wirksamkeit der Luca App in Kombination mit der Nachverfolgung durch Gesundheits\u00e4mer kann bezweifelt werden. Anfragen aus Karlsruhe, Freiburg und Heidelberg belegen: Es gibt so gut wie keinen Fall in denen die mit Millionen Euro Steuergelder subventionierte App \u00fcberhaupt eine Infektion bearbeitet h\u00e4tte!<\/blockquote>",
+            "title": "Felix Gr\u00e4dler: \u201cWas ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?\u201d",
+            "type": "news"
         },
         {
             "date": "02.09.2021",

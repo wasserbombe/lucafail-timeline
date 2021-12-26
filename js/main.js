@@ -1078,6 +1078,18 @@
                 },
                 series: series_new
             });
+
+            $("#stats_total_count").html("Diese Timeline enthält aktuell <b>"+data.timeline.length+" Beiträge</b>, verteilt auf folgende Monate und Themen. ");
+            var countLinks = countEmbeds = 0; 
+            data.timeline.forEach((e,i) => {
+                if (e.links && e.links.length > 0){
+                    countLinks += e.links.length; 
+                }
+                if (e.embed && e.embed.length > 0){
+                    countEmbeds += e.embed.length;
+                }
+            });
+            $("#stats_total_count").append("Die Beiträge enthalten insgesamt <b>"+countLinks+" Links und Quellen</b> bzw. <b>"+countEmbeds+" Einbindungen</b> von externen Webseiten (soziale Netzwerke, Gitlab, Frag den Staat, etc.). ");
         }
     });
 
