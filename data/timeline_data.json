@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "94572a0",
-            "commit_lh": "94572a0b1eb449d90519711937ded82749d95208",
-            "commit_date": "2021-12-21 23:32:22 +0100",
+            "commit_sh": "42c3e23",
+            "commit_lh": "42c3e23025df6cc5f544fa4c70ce6cca229d8b5f",
+            "commit_date": "2021-12-26 16:42:18 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640524157,
+        "ts": 1640533720,
         "date": "2021-12-26"
     },
     "timeline": [
@@ -5882,6 +5882,27 @@
             ],
             "text": "<blockquote>Ein Gro\u00dfteil der Gesundheits\u00e4mter in Deutschland ist nicht mehr in der Lage, Kontakte von Infizierten nachzuverfolgen und Quarant\u00e4ne anzuordnen. Die besonders infekti\u00f6se Omikron-Variante k\u00f6nnte sich dadurch unerkannt ausbreiten. Wenn auch zunehmend Angestellte der Gesundheits\u00e4mter erkranken, versch\u00e4rft dies die Personalnot und es droht der Komplettausfall.<\/blockquote><div class=\"quote-origin\">\u2014 Sven Christian Schulz, rnd.de<\/div><br><b>Luca ben\u00f6tigt die Arbeit der Gesundheits\u00e4mter, um Menschen zu warnen. Die Corona-Warn-App hingegen warnt Kontaktpersonen direkt und entlastet damit direkt die Gesundheits\u00e4mter. Nie war es also wichtiger, die Corona-Warn-App zu nutzen und positive Testergebnisse dar\u00fcber anonym zu teilen.<\/b>",
             "title": "\u201cKeine Kontaktverfolgung mehr m\u00f6glich: Gesundheits\u00e4mter \u00fcber dem Limit \u2013 und jetzt kommt Omikron\u201d",
+            "type": "news"
+        },
+        {
+            "date": "25.12.2021",
+            "dt_created": "2021-12-25 00:00:00",
+            "dt_updated": "2021-12-25 00:00:00",
+            "id": "09a1dc19822d",
+            "id_readable": "2021-12-25_news_Baden-Wrttemberg-Wenn-es-was-Besseres-oder-Gnstigeres-gibt-nehmen-wir-das",
+            "links": [
+                {
+                    "url": "https:\/\/www.stuttgarter-zeitung.de\/inhalt.corona-kontaktnachverfolgung-luca-macher-haben-fuss-fest-in-der-tuer.2d86b703-35e7-43cb-81bb-af05b010725b.html?reduced=true",
+                    "text": "Jan Georg Plavec: \u201cLuca-Macher haben Fu\u00df fest in der T\u00fcr\u201d (stuttgarter-zeitung.de)"
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "tags": [
+                "vertrag",
+                "vertragsverl\u00e4ngerung"
+            ],
+            "text": "<blockquote>\u00dcber die neue Funktion \u201eConnect\u201c, mit der \u00c4mter B\u00fcrger vor einem Infektionsrisiko warnen k\u00f6nnen, wurden im November w\u00f6chentlich einige Hundert Meldungen versendet. Zum Vergleich: Bundesweit wies die Corona-Warn-App in derselben Zeit mehr als 500 000 User auf Infektionsrisiken hin.<\/blockquote><blockquote>Patrick Hennig kennt die Zahlen. Er wei\u00df aber auch: die Datenschnittstelle hat er exklusiv.<\/blockquote><blockquote>\u201eWenn es was Besseres oder G\u00fcnstigeres gibt, nehmen wir das. Wenn nicht, bleiben wir bei Luca\u201c, sagt der Manfred Luchas Amtschef Uwe Lahl. Programme wie Luca sind aus Verwaltungssicht n\u00fctzlich, weil sie Zugriff auf viele Daten erlauben. Dass der Vertrag nicht aktiv verl\u00e4ngert werden muss, d\u00fcrfte Luca helfen.<\/blockquote>",
+            "title": "Baden-W\u00fcrttemberg: \u201cWenn es was Besseres oder G\u00fcnstigeres gibt, nehmen wir das.\u201d",
             "type": "news"
         }
     ]
