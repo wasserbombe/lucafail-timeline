@@ -67,9 +67,9 @@
             }]
         },
         'DE-HB': {
-            color: "#8b0000",
+            color: "#ff8c00",
             updated: '2021-12-15',
-            description: 'In Bremen konnte die Corona-Warn-App für vier Tage zur Kontaktnachverfolgung genutzt werden, dann wurde sie aus der Verordnung gestrichen.',
+            description: 'In Bremen konnte die Corona-Warn-App für vier Tage zur Kontaktnachverfolgung genutzt werden, dann wurde sie aus der Verordnung gestrichen. Inzwischen iist die Situation unklar. Verordnung sehen die CWA nicht vor, auf Nachfrage wird aber mitgeteilt, dass eine ausschließliche Nutzung der Corona-Warn-App möglich sei - siehe <a href="https://github.com/wasserbombe/lucafail-timeline/issues/9">Github-Issue hierzu</a>.',
             sources: [{
                 text: "\u201cSenat beschließt Anpassung der Bremer Corona-Verordnung\u201d",
                 url: "https://www.senatspressestelle.bremen.de/pressemitteilungen/senat-beschliesst-anpassung-der-bremer-corona-verordnung-373930?asl=bremen02.c.730.de"

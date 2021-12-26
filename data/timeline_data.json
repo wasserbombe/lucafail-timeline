@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "a142d4e",
-            "commit_lh": "a142d4e7c248b216910f67e58a2457e99f0449cf",
-            "commit_date": "2021-12-21 23:03:51 +0100",
+            "commit_sh": "94572a0",
+            "commit_lh": "94572a0b1eb449d90519711937ded82749d95208",
+            "commit_date": "2021-12-21 23:32:22 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640125627,
-        "date": "2021-12-21"
+        "ts": 1640524157,
+        "date": "2021-12-26"
     },
     "timeline": [
         {
@@ -5768,6 +5768,28 @@
             "type": "doc-luca"
         },
         {
+            "date": "17.12.2021",
+            "dt_created": "2021-12-17 00:00:00",
+            "dt_updated": "2021-12-17 00:00:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "233234"
+                }
+            ],
+            "id": "c030780d7b8e",
+            "id_readable": "2021-12-17_fragdenstaat_Hamburg-gibt-jeden-Monat-13711968--extra-fr-die-eigens-geschaffene-Luca-App-Abteilung-mit-18-Mitarbeiterinnen-aus",
+            "links": [
+                {
+                    "url": "https:\/\/fragdenstaat.de\/a\/233234",
+                    "text": "https:\/\/fragdenstaat.de\/a\/233234"
+                }
+            ],
+            "text": "<blockquote>- Wie hoch ist Anzahl der Mitarbeitenden die nur f\u00fcr Luca Bearbeitung abgestellt sind?<br>Es sind 18 Mitarbeiterinnen und Mitarbeiter in dem Fachbereich t\u00e4tig.<br><br>- Monatlichen Gesamtkosten f\u00fcr diese Unterabteilung?<br>Die Kosten betragen monatlich 137.119,68 \u20ac.<\/blockquote>Es gab eine \"Fremd-Anfrage\" durch Polizei, ohne Datenweitergabe.",
+            "title": "Hamburg gibt jeden Monat 137.119,68 \u20ac extra f\u00fcr die eigens geschaffene Luca-App Abteilung mit 18 Mitarbeiterinnen aus",
+            "type": "fragdenstaat"
+        },
+        {
             "date": "20.12.2021",
             "dt_created": "2021-12-20 00:00:00",
             "dt_updated": "2021-12-20 00:00:00",
@@ -5812,6 +5834,55 @@
             "text": "Im Walulis Daily gab es einen \u00dcberblick \u00fcber die Probleme der Luca-App und verschiedene Twitter-Posts zur Kritik, man bereichere sich durch die Corona-Pandemie.",
             "title": "WALULIS DAILY: \u201c\"21 Millionen f\u00fcr eine kaputte App\" und Smudo heult rum\u201d",
             "type": "broadcast"
+        },
+        {
+            "date": "24.12.2021",
+            "dt_created": "2021-12-24 00:00:00",
+            "dt_updated": "2021-12-24 00:00:00",
+            "embed": [
+                {
+                    "type": "twitter",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1474169814025482241"
+                }
+            ],
+            "id": "343cb18ec807",
+            "id_readable": "2021-12-24_news_CCC-Freiburg-Seit-Wochenbeginn-findet-bundesweit-so-gut-wie-gar-KEINE-Nachverfolgung-mehr-statt",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1474169814025482241",
+                    "text": "Tweet vom CCC Freiburg (twitter.com)"
+                }
+            ],
+            "text": "... und damit gibt es auch keine Warnungen via Luca-App",
+            "title": "CCC Freiburg: \u201cSeit Wochenbeginn findet bundesweit so gut wie gar KEINE Nachverfolgung mehr statt\u201d",
+            "type": "news"
+        },
+        {
+            "date": "24.12.2021",
+            "dt_created": "2021-12-24 00:00:00",
+            "dt_updated": "2021-12-24 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/coronawarnapp\/status\/1474323516228923393"
+                }
+            ],
+            "id": "e4e75b9cf2de",
+            "id_readable": "2021-12-24_news_Keine-Kontaktverfolgung-mehr-mglich-Gesundheitsmter-ber-dem-Limit--und-jetzt-kommt-Omikron",
+            "links": [
+                {
+                    "url": "https:\/\/www.rnd.de\/politik\/omikron-kontaktverfolgung-nicht-mehr-moeglich-gesundheitsaemter-am-limit-IM72SM7ELZC3NKU4ZCOC7MXGWU.html",
+                    "text": "Sven Christian Schulz: \u201cKeine Kontaktverfolgung mehr m\u00f6glich: Gesundheits\u00e4mter \u00fcber dem Limit \u2013 und jetzt kommt Omikron\u201d (rnd.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "343cb18ec807"
+                }
+            ],
+            "text": "<blockquote>Ein Gro\u00dfteil der Gesundheits\u00e4mter in Deutschland ist nicht mehr in der Lage, Kontakte von Infizierten nachzuverfolgen und Quarant\u00e4ne anzuordnen. Die besonders infekti\u00f6se Omikron-Variante k\u00f6nnte sich dadurch unerkannt ausbreiten. Wenn auch zunehmend Angestellte der Gesundheits\u00e4mter erkranken, versch\u00e4rft dies die Personalnot und es droht der Komplettausfall.<\/blockquote><div class=\"quote-origin\">\u2014 Sven Christian Schulz, rnd.de<\/div><br><b>Luca ben\u00f6tigt die Arbeit der Gesundheits\u00e4mter, um Menschen zu warnen. Die Corona-Warn-App hingegen warnt Kontaktpersonen direkt und entlastet damit direkt die Gesundheits\u00e4mter. Nie war es also wichtiger, die Corona-Warn-App zu nutzen und positive Testergebnisse dar\u00fcber anonym zu teilen.<\/b>",
+            "title": "\u201cKeine Kontaktverfolgung mehr m\u00f6glich: Gesundheits\u00e4mter \u00fcber dem Limit \u2013 und jetzt kommt Omikron\u201d",
+            "type": "news"
         }
     ]
 }
