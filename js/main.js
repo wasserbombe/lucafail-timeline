@@ -67,9 +67,9 @@
             }]
         },
         'DE-HB': {
-            color: "#ff8c00",
-            updated: '2021-12-15',
-            description: 'In Bremen konnte die Corona-Warn-App für vier Tage zur Kontaktnachverfolgung genutzt werden, dann wurde sie aus der Verordnung gestrichen. Inzwischen iist die Situation unklar. Verordnung sehen die CWA nicht vor, auf Nachfrage wird aber mitgeteilt, dass eine ausschließliche Nutzung der Corona-Warn-App möglich sei - siehe <a href="https://github.com/wasserbombe/lucafail-timeline/issues/9">Github-Issue hierzu</a>.',
+            color: "#006400",
+            updated: '2021-12-24',
+            description: 'In Bremen ist seit dem 24.12. die ausschließliche Nutzung der Corona-Warn-App möglich; Luca bzw. nicht-anonyme Kontaktdatenerfassung wird hier nicht mehr benötigt.<br>Zuvor: <s>In Bremen konnte die Corona-Warn-App für vier Tage zur Kontaktnachverfolgung genutzt werden, dann wurde sie aus der Verordnung gestrichen. Inzwischen iist die Situation unklar. Verordnung sehen die CWA nicht vor, auf Nachfrage wird aber mitgeteilt, dass eine ausschließliche Nutzung der Corona-Warn-App möglich sei - siehe <a href="https://github.com/wasserbombe/lucafail-timeline/issues/9">Github-Issue hierzu</a>.</s>',
             sources: [{
                 text: "\u201cSenat beschließt Anpassung der Bremer Corona-Verordnung\u201d",
                 url: "https://www.senatspressestelle.bremen.de/pressemitteilungen/senat-beschliesst-anpassung-der-bremer-corona-verordnung-373930?asl=bremen02.c.730.de"
@@ -79,6 +79,9 @@
             },{
                 text: "Neunundzwanzigste Verordnung zum Schutz vor Neuinfektionen mit dem Coronavirus SARS-CoV-2",
                 url: "https://www.transparenz.bremen.de/metainformationen/neunundzwanzigste-verordnung-zum-schutz-vor-neuinfektionen-mit-dem-coronavirus-sars-cov-2-neunundzwanzigste-coronaverordnung-vom-28-september-2021-174654?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d"
+            },{
+                text: "Begründung der Sechsten Verordnung zur Änderung der Neunundzwanzigsten Verordnung zum Schutz vor Neuinfektionen mit dem Coronavirus SARS-CoV-2",
+                url: "https://www.amtliche-bekanntmachungen.bremen.de/amtliche-bekanntmachungen/begruendung-der-sechsten-verordnung-zur-aenderung-der-neunundzwanzigsten-verordnung-zum-schutz-vor-neuinfektionen-mit-dem-coronavirus-sars-cov-2-16279?asl=bremen02.c.730.de"
             }]
         },
         'DE-SN': {

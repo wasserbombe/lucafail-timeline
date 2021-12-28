@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "03006cb",
-            "commit_lh": "03006cbeadd525f1e1c2c0ccd8da3ffaeb4c264d",
-            "commit_date": "2021-12-26 16:48:46 +0100",
+            "commit_sh": "cc1b0e3",
+            "commit_lh": "cc1b0e397ad66a53a3eec33eae64f1df523dd37f",
+            "commit_date": "2021-12-26 17:53:16 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640537575,
-        "date": "2021-12-26"
+        "ts": 1640692129,
+        "date": "2021-12-28"
     },
     "timeline": [
         {
@@ -4753,7 +4753,10 @@
                     "text": "Felix Gr\u00e4dler: \u201cWas ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?\u201d (felixgraedler.de)"
                 }
             ],
-            "text": "<blockquote>Grundproblem ist aktuell: In den Landesverordnungen ist eine Datenspeicherung verpflichtend, obwohl diese f\u00fcr die Nachverfolgung gar nicht n\u00f6tig w\u00e4re, wenn man stattdessen einen Check-In mit der Corona-App verpflichtend machen w\u00fcrde.<\/blockquote><blockquote>Die Wirksamkeit der Luca App in Kombination mit der Nachverfolgung durch Gesundheits\u00e4mer kann bezweifelt werden. Anfragen aus Karlsruhe, Freiburg und Heidelberg belegen: Es gibt so gut wie keinen Fall in denen die mit Millionen Euro Steuergelder subventionierte App \u00fcberhaupt eine Infektion bearbeitet h\u00e4tte!<\/blockquote>",
+            "tags": [
+                "corona-warn-app"
+            ],
+            "text": "Felix Gr\u00e4dler, Stadtrat in Heidelberg und gesch\u00e4ftsf\u00fchrender Gesellschafter der dortigen halle02, fasst auf seiner Webseite die Kritik an der Luca-App und die Abgrenzung zur Corona-Warn-App kurz und pr\u00e4zise zusammen.<br><blockquote>Grundproblem ist aktuell: In den Landesverordnungen ist eine Datenspeicherung verpflichtend, obwohl diese f\u00fcr die Nachverfolgung gar nicht n\u00f6tig w\u00e4re, wenn man stattdessen einen Check-In mit der Corona-App verpflichtend machen w\u00fcrde.<\/blockquote><blockquote>Die Wirksamkeit der Luca App in Kombination mit der Nachverfolgung durch Gesundheits\u00e4mer kann bezweifelt werden. Anfragen aus Karlsruhe, Freiburg und Heidelberg belegen: Es gibt so gut wie keinen Fall in denen die mit Millionen Euro Steuergelder subventionierte App \u00fcberhaupt eine Infektion bearbeitet h\u00e4tte!<\/blockquote>",
             "title": "Felix Gr\u00e4dler: \u201cWas ist eigentlich der Unterschied zwischen der Luca-App und der Corona-Warn-App?\u201d",
             "type": "news"
         },
@@ -5725,6 +5728,22 @@
         },
         {
             "date": "08.12.2021",
+            "dt_created": "2021-12-08 00:00:00",
+            "dt_updated": "2021-12-08 00:00:00",
+            "id": "5d362f2f5cf1",
+            "id_readable": "2021-12-08_news_Luca-Connect-Neues-Werkzeug-fr-Gesundheitsmter",
+            "links": [
+                {
+                    "url": "https:\/\/kommunal.de\/luca-app-gesundheitsaemter",
+                    "text": "Christian Erhardt: \u201cLuca-App: \u00f6rtliche Gesundheits\u00e4mter k\u00f6nnen jetzt Nachrichten senden\u201d (kommunal.de)"
+                }
+            ],
+            "text": "Luca bietet mit \"Luca Connect\" ein zus\u00e4tzliches Feature f\u00fcr Gesundheits\u00e4mter, \u00fcber das diese Warnungen verschicken und Kontakt zu einzelnen Luca-Nutzern aufnehmen k\u00f6nnen. Das Kernproblem, n\u00e4mlich die \u00dcberlastung der Gesundheits\u00e4mter, wird damit leider nicht gel\u00f6st. Eine L\u00f6sung ist hier nur politisch m\u00f6glich, n\u00e4mlich, indem die anonyme Kontaktnachverfolgung via Corona-Warn-App erlaubt wird, die f\u00fcr Warnungen kein Gesundheitsamt ben\u00f6tigt. <br><b>Stattdessen wird den Gesundheits\u00e4mtern ein Werkzeug an die Hand gegeben, das die Kommunikation mit 40 Millionen B\u00fcrgern von \u00f6ffentlicher Infrastruktur (Telefon, E-Mail, Post, Fax, etc.) auf private Infrastruktur und Systeme eines einzelnen Anbieters verlagert.<\/b><br><br><blockquote>Allerdings m\u00fcssen Nutzer, die von dem direkten Draht zum Gesundheitsamt profitieren wollen, daf\u00fcr in der Luca-App selbst aktiv werden. Konkret m\u00fcssen sie ihre Kontaktdaten und ihren Impfstatus in dem Bereich \"Luca-Connect\" hinterlegen. <\/blockquote>",
+            "title": "Luca Connect: Neues Werkzeug f\u00fcr Gesundheits\u00e4mter",
+            "type": "news"
+        },
+        {
+            "date": "08.12.2021",
             "dt_created": "2021-12-08 16:00:00",
             "dt_updated": "2021-12-08 16:00:00",
             "embed": [
@@ -5919,7 +5938,33 @@
             ],
             "text": "<blockquote>\u00dcber die neue Funktion \u201eConnect\u201c, mit der \u00c4mter B\u00fcrger vor einem Infektionsrisiko warnen k\u00f6nnen, wurden im November w\u00f6chentlich einige Hundert Meldungen versendet. Zum Vergleich: Bundesweit wies die Corona-Warn-App in derselben Zeit mehr als 500 000 User auf Infektionsrisiken hin.<\/blockquote><blockquote>Patrick Hennig kennt die Zahlen. Er wei\u00df aber auch: die Datenschnittstelle hat er exklusiv.<\/blockquote><blockquote>\u201eWenn es was Besseres oder G\u00fcnstigeres gibt, nehmen wir das. Wenn nicht, bleiben wir bei Luca\u201c, sagt der Manfred Luchas Amtschef Uwe Lahl. Programme wie Luca sind aus Verwaltungssicht n\u00fctzlich, weil sie Zugriff auf viele Daten erlauben. Dass der Vertrag nicht aktiv verl\u00e4ngert werden muss, d\u00fcrfte Luca helfen.<\/blockquote>",
             "title": "Baden-W\u00fcrttemberg: \u201cWenn es was Besseres oder G\u00fcnstigeres gibt, nehmen wir das.\u201d",
-            "type": "news"
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "28.12.2021",
+            "dt_created": "2021-12-28 00:00:00",
+            "dt_updated": "2021-12-28 00:00:00",
+            "id": "85ed2e26e06e",
+            "id_readable": "2021-12-28_talk_rC3-Expertin-fr-Kontaktverfolgung-Die-Luca-App-ist-technologisch-tot",
+            "links": [
+                {
+                    "url": "https:\/\/heise.de\/-6314412",
+                    "text": "Stefan Krempl: \u201cExpertin f\u00fcr Kontaktverfolgung: \"Die Luca-App ist technologisch tot\"\u201d (heise.de)"
+                },
+                {
+                    "url": "https:\/\/media.ccc.de\/v\/rc3-2021-cwtv-226-digitalisierung-in-ein",
+                    "text": "Bianca Kastl @ rC3: \u201cDigitalisierung. In einer Pandemie. Im Gesundheitsamt!\u201d (media.ccc.de)"
+                }
+            ],
+            "tags": [
+                "rC3",
+                "bianca-kastl"
+            ],
+            "text": "Bianca Kastl berichtet in ihrem Talk auf dem rC3 von Digitalisierung in Gesundheits\u00e4mtern, u.a. auch bezogen auf die Luca-App. Heise hat dazu in einem Artikel ausf\u00fchrlich berichtet.<blockquote>Die Entwicklerin Bianca Kastl sieht in der Luca-App kein Potenzial mehr f\u00fcrs effektive Kontakt-Tracing in der Pandemie. \u00c4mter fragten die Daten kaum ab.<\/blockquote><blockquote>Ebenfalls bereits im M\u00e4rz habe sie f\u00fcr den Bodenseekreis einen Pilot-Test der App begleitet, berichtete Kastl. Diese habe sich dabei als \"fachlich ungeeignet\" herausgestellt, da sich das Verh\u00e4ltnis zwischen der Masse von Kontaktdaten und der Effizienz als \"schwierig\" herausgestellt habe. Ein Mitarbeiter des Landratsamts habe im Anschluss auch betont, dass es nicht dessen Rolle sei, \"Entwicklungshilfe f\u00fcr private Betreiber zu leisten\". Die Beh\u00f6rde k\u00f6nne auch kein Sicherheitsaudit durchf\u00fchren.<\/blockquote><blockquote>Bei Luca werde auch allenfalls ein Aktengang von einer zur n\u00e4chsten Beh\u00f6rde elektrifiziert, kritisierte die Insiderin. Dabei m\u00fcssten erst Dinge freigegeben, von der Location angefragt und dann in den Check-ins geschaut werden, wer Kontakt mit einem Infizierten hatte. Dabei handle es sich um einen manuell ausgel\u00f6sten Prozess. In der Regel frage aber keiner die Daten ab, da die Arbeitslast in den Gesundheits\u00e4mtern in den mehrfachen Corona-Wellen zu hoch sei. Sie wisse daher nicht, was Luca noch f\u00fcr einen Nutzen haben k\u00f6nnte bei den nun mit der Omikron-Variante zu erwartenden hohen Fallzahlen.<\/blockquote>",
+            "title": "rC3: \u201cExpertin f\u00fcr Kontaktverfolgung: \"Die Luca-App ist technologisch tot\"\u201d",
+            "type": "talk",
+            "verified": true
         }
     ]
 }
