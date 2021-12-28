@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "cc1b0e3",
-            "commit_lh": "cc1b0e397ad66a53a3eec33eae64f1df523dd37f",
-            "commit_date": "2021-12-26 17:53:16 +0100",
+            "commit_sh": "1db89f0",
+            "commit_lh": "1db89f0a67592ce179c94821b99b432edc9a0260",
+            "commit_date": "2021-12-28 12:53:25 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640692129,
+        "ts": 1640712490,
         "date": "2021-12-28"
     },
     "timeline": [
@@ -5834,12 +5834,17 @@
                 {
                     "url": "https:\/\/www.tag24.de\/unterhaltung\/promis\/shitstorm-nach-ccc-vorwurf-hat-smudo-sich-mit-der-luca-app-an-der-pandemie-bereichert-2253981",
                     "text": "Nora Petig: \u201cShitstorm nach CCC-Vorwurf: Hat Smudo sich mit der Luca-App an der Pandemie bereichert?\u201d (tag24.de)"
+                },
+                {
+                    "url": "https:\/\/www.computerbild.de\/artikel\/cb-News-Internet-Luca-App-Twitter-Shitstorm-fuer-Rapper-Smudo-Chaos-Computer-Club-31287467.html",
+                    "text": "\u201cLuca-App: Twitter-Shitstorm f\u00fcr Rapper Smudo\u201d (computerbild.de)"
                 }
             ],
             "tags": [
-                "smudo"
+                "smudo",
+                "shitstorm"
             ],
-            "text": "<blockquote>Statt seinen Verdienst an der Vermarktung der Luca App offenzulegen, geschweige denn, sich zu erkl\u00e4ren, entschloss sich Smudo dazu, einfach einen unbeteiligten Dritten miteinzubeziehen und ihm seinerseits vorzuwerfen, immense Corona-Hilfen erhalten und sich somit an der Pandemie bereichert zu haben.<\/blockquote><blockquote>Nach eigenen Angaben finanziert sich der Club gr\u00f6\u00dftenteils durch Mitgliederbeitr\u00e4ge.<br>Ob sich Smudo an der Pandemie bereichert hat, sei einmal dahin gestellt. Geld daran verdient, hat er allemal.<\/blockquote>",
+            "text": "<blockquote>Statt seinen Verdienst an der Vermarktung der Luca App offenzulegen, geschweige denn, sich zu erkl\u00e4ren, entschloss sich Smudo dazu, einfach einen unbeteiligten Dritten miteinzubeziehen und ihm seinerseits vorzuwerfen, immense Corona-Hilfen erhalten und sich somit an der Pandemie bereichert zu haben.<\/blockquote><blockquote>Nach eigenen Angaben finanziert sich der Club gr\u00f6\u00dftenteils durch Mitgliederbeitr\u00e4ge.<br>Ob sich Smudo an der Pandemie bereichert hat, sei einmal dahin gestellt. Geld daran verdient, hat er allemal.<\/blockquote><div class=\"quote-origin\">\u2014 tag24.de<\/div>",
             "title": "\u201cShitstorm nach CCC-Vorwurf: Hat Smudo sich mit der Luca-App an der Pandemie bereichert?\u201d",
             "type": "news"
         },
@@ -5940,6 +5945,23 @@
             "title": "Baden-W\u00fcrttemberg: \u201cWenn es was Besseres oder G\u00fcnstigeres gibt, nehmen wir das.\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "27.12.2021",
+            "dt_created": "2021-12-27 00:00:00",
+            "dt_updated": "2021-12-27 00:00:00",
+            "id": "dda70fba63d7",
+            "id_readable": "2021-12-27_news_Bayern-Grne-fordern-Lizenz-fr-Luca-App-nicht-zu-verlngern",
+            "links": [
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/bayern\/bayern-luca-app-kritik-gruene-1.5495628",
+                    "text": "Maximilian Gerl: \u201cGr\u00fcne fordern, Lizenz f\u00fcr Luca-App nicht zu verl\u00e4ngern\u201d (sueddeutsche.de)"
+                }
+            ],
+            "scope": "Land: Bayern",
+            "text": "<blockquote>die Luca-App habe in Bayern zum Stand 19. November \"innerhalb der letzten 14 Tage 2666 Systemhinweise\" ausgespielt, dazu 1274 Risikohinweise der Stufe eins und keine Risikohinweise der Stufe zwei.<br>Nach Adjeis Berechnungen spielte die Corona-Warn-App des Bundes im gleichen Zeitraum ungef\u00e4hr 100 000 Risiko-Warnungen vor einer Infektion aus - also deutlich mehr.<\/blockquote>",
+            "title": "Bayern: \u201cGr\u00fcne fordern, Lizenz f\u00fcr Luca-App nicht zu verl\u00e4ngern\u201d",
+            "type": "news"
         },
         {
             "date": "28.12.2021",
