@@ -987,6 +987,29 @@
             }, 200);
 
             $(document).ready(function() {
+                // scroll to referring article if possible
+                if (document.referrer){
+                    var ref = new URL(document.referrer);
+                    var found = false; 
+                    for (var i = 0; i < data.timeline.length; i++){
+                        var item = data.timeline[i];
+                        if (!found && item.links && item.links.length > 0){
+                            item.links.forEach((link, i) => {
+                                try {
+                                    var lurl = new URL(link.url);
+                                    if (lurl.host.toLowerCase() == ref.host.toLowerCase()){
+                                        scrollToPanel(item.id_readable);
+                                        found = true; 
+                                    }
+                                } catch (e){}
+                            });
+                        }
+                        if (found){
+                            break; 
+                        }
+                    }
+                }
+
                 $('#filterTopics').multiselect({
                     allSelectedText: "Alle Themen",
                     nSelectedText: " Themen ausgewählt",
@@ -1092,7 +1115,7 @@
                     countEmbeds += e.embed.length;
                 }
             });
-            $("#stats_total_count").append("Die Beiträge enthalten insgesamt <b>"+countLinks+" Links und Quellen</b> bzw. <b>"+countEmbeds+" Einbindungen</b> von externen Webseiten (soziale Netzwerke, Gitlab, Frag den Staat, etc.). ");
+            $("#stats_total_count").append("Die Beiträge enthalten insgesamt <b>"+(countLinks+countEmbeds)+" Links und Quellen</b> bzw. <b>"+countEmbeds+" Einbindungen</b> von externen Webseiten (soziale Netzwerke, Gitlab, Frag den Staat, etc.). ");
         }
     });
 

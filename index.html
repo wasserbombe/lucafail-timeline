@@ -44,7 +44,8 @@
             <div class="container">
                 <h1>Die Timeline zur Luca-App</h1>
                 <p>
-                    Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung in Online- und Print-Medien, Statements von IT- und Security-Experten, Diskussionen in Social Media, Talks und Videos, Gitlab-Issues sowie Informationsfreiheits-Anfragen auf fragdenstaat.de
+                    Ein chronologisch aufbereiteter Überblick über die Luca-App basierend auf aktueller Berichterstattung in Online- und Print-Medien, Statements von IT- und Security-Experten, Diskussionen in Social Media, Talks und Videos, Gitlab-Issues sowie Informationsfreiheits-Anfragen auf fragdenstaat.de<br>
+                    Eine Zusammenfassung mit Link-Liste findet sich auf <a href="https://luca.fail">luca.fail</a>. 
                 </p>
                 <p>
                     <a href="/random/" target="_blank">Die Reihenfolge dem Zufall überlassen? Hier lang!</a>
@@ -202,7 +203,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingCWA">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCWA" aria-expanded="false" aria-controls="collapseCWA">
-                                <b>Die Corona-Warn-App...</b>
+                                <b>Die Corona-Warn-App (CWA)...</b>
                             </button>
                         </h2>
                         <div id="collapseCWA" class="accordion-collapse collapse" aria-labelledby="headingCWA" data-bs-parent="#accordionSummary">
@@ -214,9 +215,31 @@
                                     <li>
                                         <b>Warum gibt es die Corona-Warn-App und die Luca-App?</b><br>
                                         Die Corona-Warn-App bietet alle notwendigen Funktionen, um Kontaktnachverfolgung (sog. Contact Tracing) betreiben zu können, das hat sie bereits zum Zeitpunkt der Einführung der Luca-App. Die Hürde hierbei: Es würde ein Umdenken in der Politik erfordern, denn die meisten Verordnungen schreiben eine nicht-anonyme Kontaktdatenerfassung vor, welche bei hohen Infektionszahlen eine Überlastung der Gesundheitsämter bedeutet.<br>
-                                        Das Geschäftsmodell der Luca-App macht sich genau dieses Problem zunutze: Mit der Luca-App wird den Gesundheitsämtern ein Hilfsmittel angeboten, dass bei der Bewältigung von Kontaktdaten helfen soll.  
+                                        Das Geschäftsmodell der Luca-App macht sich genau dieses Problem zunutze: Mit der Luca-App wird den Gesundheitsämtern ein Hilfsmittel angeboten, dass bei der Bewältigung von Kontaktdaten helfen soll. Das Problem hierbei: Die Gesundheitsämter kommen oft gar nicht dazu, die Daten von Luca abzufragen, da sie mit anderen, viel grundlegenderen Problemen zu kämpfen hätten (hier hätten sie eher Unterstützung gebraucht), wenn sie nicht gerade Personal dafür abstellen. Und selbst wenn Luca einmal abgefragt wird, sind die erhaltenen Daten umfangreich und wenig aussagekräftig, da sie nicht gewichtet sind.<br><br>
                                     </li>
-                                    
+                                    <li>
+                                        <b>Worin unterscheiden sich Corona-Warn-App und die Luca-App?</b><br>
+                                        Luca versucht, einen analogen Prozess - nämlich das Erfassen von Kontaktdaten, was vorher auf Zetteln geschah - gemeinsam mit etwas Kryptografie 1:1 zu digitalisieren. Am eigentlichen Prozess bei der Kontaktnachverfolgung ändert das aber genau gar nichts.<br>
+                                        Die Corona-Warn-App verbessert den Prozess, um die Pandemie einzudämmen. Denn sie unterstützt die Eindämmung, indem sie anonym Kontakte erfasst und bei einer möglichen Infektionen sofort benachrichtigt - ganz ohne Zutun der Gesundheitsämter und aufwendiger Kontaktnachverfolgung.  
+                                        <br><br>
+                                    </li>
+                                    <li>
+                                        <b>Worin bestehen die Vorteile der Luca-App gegenüber der CWA?</b>
+                                        <ul>
+                                            <li>Sie wird den Anforderungen mancher Verordnungen gerecht, Kontaktdaten zu erfassen (Name, Adresse, Kontaktdaten, ...)</li>
+                                        </ul>
+                                        <br>
+                                    </li>
+                                    <li>
+                                        <b>Worin bestehen die Vorteile der Corona-Warn-App gegenüber der Luca-App?</b>
+                                        <ul>
+                                            <li>Bei den erfassten Daten handelt es sich um anonyme, wechselnde zufällige IDs (Luca: Kontaktdaten wie Name, Adresse, ...), die bis zum Teilen eines positiven Testergebnisses dezentral auf dem eigenen Gerät (Luca: Zentral auf Servern von Luca) gespeichert werden.</li>
+                                            <li>Sie unterstützt die Pandemieeindämmung direkt, indem der Warnprozess verbessert wird (Luca: "Zettelwirtschaft" wird 1:1 digitalisiert)</li>
+                                            <li>Sie entlastet Gesundheitsämter. Würden - rein hypothetisch - alle Bürger die CWA in vollem Umfang nutzen - müssten sich nur noch positiv getestete bei Gesundheitsämtern melden; die Gesundheitsämter selbst müssten keine Kontakte mehr suchen.</li>
+                                            <li>Sie nutzt <a href="https://developer.apple.com/documentation/exposurenotification" target="_blank">Apple's</a>/<a href="https://www.google.com/covid19/exposurenotifications/" target="_blank">Google's</a> Exposure Notification Framework, das den Datenschutz der Nutzer gewährleistet.</li>
+                                        </ul>
+                                        <br>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -225,7 +248,7 @@
 
                 <hr> 
                 <div id="stats_total_count"></div>
-                <div id="stats_container_month_category"></div>
+                <!--<div id="stats_container_month_category"></div>-->
 
                 <hr>
 
@@ -267,7 +290,7 @@
                     </table>
                 </div>
                 <ul class="timeline">
-                    <li class="type-general" data-type="general">
+                    <!--<li class="type-general" data-type="general">
                         <div class="timeline-badge"><i class="bi-info"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -322,7 +345,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li>-->
                 </ul>
                 <hr>
                 <h2>Stats</h2>

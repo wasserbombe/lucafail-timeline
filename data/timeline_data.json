@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "1db89f0",
-            "commit_lh": "1db89f0a67592ce179c94821b99b432edc9a0260",
-            "commit_date": "2021-12-28 12:53:25 +0100",
+            "commit_sh": "ad0f1de",
+            "commit_lh": "ad0f1de90e8143e8c03e26d9460754151b39d7aa",
+            "commit_date": "2021-12-28 18:35:18 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1640712490,
-        "date": "2021-12-28"
+        "ts": 1641498089,
+        "date": "2022-01-06"
     },
     "timeline": [
         {
@@ -5881,7 +5881,7 @@
             "dt_updated": "2021-12-24 00:00:00",
             "embed": [
                 {
-                    "type": "twitter",
+                    "type": "tweet",
                     "url": "https:\/\/twitter.com\/cccfr\/status\/1474169814025482241"
                 }
             ],
@@ -5977,6 +5977,10 @@
                 {
                     "url": "https:\/\/media.ccc.de\/v\/rc3-2021-cwtv-226-digitalisierung-in-ein",
                     "text": "Bianca Kastl @ rC3: \u201cDigitalisierung. In einer Pandemie. Im Gesundheitsamt!\u201d (media.ccc.de)"
+                },
+                {
+                    "url": "https:\/\/www.stern.de\/digital\/smartphones\/-die-luca-app-ist-in-ihrer-wirkung-tot---expertin-zerreisst-die-einstige-app-hoffnung-31461944.html",
+                    "text": "Malte Mansholt: \u201c\"Die Luca-App ist in ihrer Wirkung tot\": So hart verrei\u00dft eine Expertin die einstige Hoffnungs-App\u201d (stern.de)"
                 }
             ],
             "tags": [
@@ -5987,6 +5991,115 @@
             "title": "rC3: \u201cExpertin f\u00fcr Kontaktverfolgung: \"Die Luca-App ist technologisch tot\"\u201d",
             "type": "talk",
             "verified": true
+        },
+        {
+            "date": "28.12.2021",
+            "dt_created": "2021-12-28 00:00:00",
+            "dt_updated": "2021-12-28 00:00:00",
+            "id": "38e1f4712379",
+            "id_readable": "2021-12-28_news_Netzaktivistinnen-kritisieren-ineffektives-Millioneninvestment",
+            "links": [
+                {
+                    "url": "https:\/\/www.nd-aktuell.de\/artikel\/1159982.digitale-pandemiebekaempfung-netzaktivistinnen-kritisieren-ineffektives-millioneninvestment.html",
+                    "text": "Daniel L\u00fccking: \u201cNetzaktivistinnen kritisieren ineffektives Millioneninvestment\u201d (nd-aktuell.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ea9b63045423"
+                }
+            ],
+            "text": "<blockquote>Die Bilanz seiner Luca-App ist ern\u00fcchternd. Die Kontaktnachverfolgung gelang in Bremen nur in einer Handvoll F\u00e4llen. Reihenweise flogen Sicherheitsl\u00fccken auf. Zum deutlichsten Anzeichen f\u00fcr das kaum funktionierende Konzept wurden zuletzt die QR-Codes selbst, die in Caf\u00e9s und Restaurants zum Einsatz kommen.<\/blockquote><blockquote>Einfacher l\u00f6st das die Corona-Warn-App. Sie nimmt nicht den Umweg \u00fcber eines der chronisch \u00fcberlasteten Gesundheits\u00e4mter, die in zahlreichen F\u00e4llen die Quarant\u00e4nema\u00dfnahmen erst Wochen sp\u00e4ter per Post an die Betroffenen vermeldeten. \u00bbDie Luca-App ist im Prinzip nur die elektrifizierte Version eines langsamen und br\u00fcchigen Prozesses\u00ab, kritisiert auch Netzaktivistin Bianca Kastl. \u00bbDas eigentliche Ziel, Kontakte m\u00f6glichst schnell und direkt zu warnen, l\u00e4sst sich so kaum mehr erreichen, weil Gesundheits\u00e4mter schlichtweg bereits mehr als genug Arbeit in dieser Pandemie zu tun haben.\u00ab<\/blockquote><blockquote>Dem Gesundheitsministerium wirft er vor, es habe zu lange mit der Testung und \u00bbFreischaltung der Kompatibilit\u00e4t\u00ab gewartet. Das Gesundheitsministerium weist auf die offenliegenden Software-Quellcodes hin, an die sich andere Projekte anpassen k\u00f6nnen.<\/blockquote><blockquote>Auch Anne Roth, Referentin f\u00fcr Netzpolitik bei der Linksfraktion im Bundestag, sieht im d\u00fcrftigen Ergebnis des Millioneninvestments in die Luca-App ein Problem und kommentierte den tausendsten Tweet von Netzaktivist Manuel Atug: \u00bbFreue mich auf den Luca-App-Untersuchungsausschuss, der diesen Thread aus 1000 Tweets als Grundlage f\u00fcr den Untersuchungsauftrag hat.\u00ab<\/blockquote><div class=\"quote-origin\">\u2014 Daniel L\u00fccking, nd-aktuell.de<\/div>",
+            "title": "\u201cNetzaktivistinnen kritisieren ineffektives Millioneninvestment\u201d",
+            "type": "news"
+        },
+        {
+            "date": "31.12.2021",
+            "dt_created": "2021-12-31 00:00:00",
+            "dt_updated": "2021-12-31 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/UlrichKelber\/status\/1476841390881624086"
+                }
+            ],
+            "id": "4f02ca5cfae8",
+            "id_readable": "2021-12-31_doc_Bundesdatenschutzbeauftragter-Ulrich-Kelber-Jetzt-wrde-ich-mir-wnschen-dass-ALLE-wichtigen-Multiplikatoren-ihre-aufgeschnappten-Vorurteile-verlernen-und-FR-die-Corona-Warn-App-werben-statt-sie-madig-zu-machen",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/UlrichKelber\/status\/1476841390881624086",
+                    "text": "Tweet von Ulrich Kelber (twitter.com)"
+                }
+            ],
+            "tags": [
+                "ulrich-kelber",
+                "corona-warn-app"
+            ],
+            "text": "Der Bundesdatenschutzbeauftragte Ulrich Kelber weist auf Twitter nochmal deutlich auf die Wichtigkeit des Einsatzes der Corona-Warn-App hin: <blockquote>Nur noch mal zur Corona-Warn-App. Sie warnt, ohne die zu knappen Ressourcen der Gesundheits\u00e4mter in Anspruch nehmen zu m\u00fcssen, sie warnt so schnell, wie es das Testen zul\u00e4sst UND sie warnt die Richtigen, da die Positivrate unter Gewarnten doppelt so hoch wie im Schnitt ist.<br>Und jetzt w\u00fcrde ich mir w\u00fcnschen, dass ALLE wichtigen Multiplikatoren ihre aufgeschnappten Vorurteile verlernen und F\u00dcR die Corona-Warn-App werben, statt sie madig zu machen. Denn wenn 50 Mio. statt 40 Mio. sie nutzen w\u00fcrden und noch h\u00e4ufiger Check-In-Codes aushingen, dann k\u00f6nnte der Beitrag noch sehr viel h\u00f6her sein. Zumindest h\u00f6her als der Beitrag der angeblich so tollen anderen Corona-Tracking-Apps in anderen L\u00e4ndern, die ABER \u00dcBERHAUPT NICHT EXISTIEREN<\/blockquote><div class=\"quote-origin\">\u2014 Ulrich Kelber, Bundesdatenschutzbeauftragter<\/div>",
+            "title": "Bundesdatenschutzbeauftragter Ulrich Kelber: \u201cJetzt w\u00fcrde ich mir w\u00fcnschen, dass ALLE wichtigen Multiplikatoren ihre aufgeschnappten Vorurteile verlernen und F\u00dcR die Corona-Warn-App werben, statt sie madig zu machen\u201d",
+            "type": "doc"
+        },
+        {
+            "date": "06.01.2022",
+            "dt_created": "2022-01-06 00:00:00",
+            "dt_updated": "2022-01-06 00:00:00",
+            "id": "0427fe473fa4",
+            "id_readable": "2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann",
+            "links": [
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/",
+                    "text": "Markus Reuter: \u201cNeue Gesch\u00e4ftsmodelle - Wie Luca nach der Pandemie weiter Kasse machen kann\u201d (netzpolitik.org)"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "netzpolitik",
+                "gesch\u00e4ftsmodell",
+                "vertragsverl\u00e4ngerung",
+                "vertrag"
+            ],
+            "text": "<blockquote>Derzeit k\u00e4mpfen die Betreiber der Corona-App zusammen mit einer Lobbyagentur daf\u00fcr, dass die Bundesl\u00e4nder die Vertr\u00e4ge mit Luca nicht k\u00fcndigen.<\/blockquote><blockquote>Das gro\u00dfe Bundesland Bayern hat Luca in den letzten 14 Tagen gar nicht mehr zur Kontaktverfolgung eingesetzt. Zahl der abgefragten Kontakte in diesem Zeitraum: 0.<\/blockquote><blockquote>W\u00e4hrend andere Firmen Millionenbetr\u00e4ge ausgeben, um sich eine solche Nutzer:innenbasis aufzubauen, hatte Luca das Gl\u00fcck, dass die Nutzung durch staatliche Verordnungen den B\u00fcrger:innen gleichsam auferlegt wurde. Und nicht nur das: Der Staat zahlte sogar mehr als 20 Millionen Euro daf\u00fcr, dass Luca genutzt wird.<\/blockquote><blockquote>Derzeit ist in den Allgemeinen Gesch\u00e4ftsbedingungen eine Nutzung der App zur Kontaktverfolgung festgeschrieben. Dort steht aber auch, dass Luca die Nutzungsbedingungen jederzeit \u00e4ndern kann.<\/blockquote><div class=\"quote-origin\">\u2014 Markus Reuter, <a href=\"https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/\" target=\"_blank\">Artikel auf netzpolitik.org<\/a><\/div>",
+            "title": "\u201cNeue Gesch\u00e4ftsmodelle - Wie Luca nach der Pandemie weiter Kasse machen kann\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "06.01.2022",
+            "dt_created": "2022-01-06 00:00:00",
+            "dt_updated": "2022-01-06 00:00:00",
+            "id": "4036b9458acb",
+            "id_readable": "2022-01-06_news_STERN-Luca-App-Chef-verteidigt-Nutzen-seiner-Software-vehement",
+            "links": [
+                {
+                    "url": "https:\/\/www.stern.de\/digital\/luca-app--chef-verteidigt-nutzen-seiner-software-vehement-31480818.html",
+                    "text": "STERN: \u201cLuca-App: Chef verteidigt Nutzen seiner Software vehement\u201d (stern.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "0427fe473fa4"
+                },
+                {
+                    "id": "85ed2e26e06e"
+                },
+                {
+                    "id": "343cb18ec807"
+                },
+                {
+                    "id": "c030780d7b8e"
+                },
+                {
+                    "id": "1f02ec799fc6"
+                }
+            ],
+            "scope": "Bundesweit",
+            "tags": [
+                "interview"
+            ],
+            "text": "In einem Interview mit dem Stern nennt Patrick Hennig einige interessante Zahlen. <br>Bereits im Vorfeld hatte das Land Bayern gegen\u00fcber <a href=\"https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/\">netzpolitik.org<\/a> best\u00e4tigt, dass man Luca in den \"letzten 14 Tagen\" gar nicht mehr zur Kontaktnachverfolgung eingesetzt habe. Damit wurden zwar Daten via Luca erfasst, aber nie ausgewertet. Da viele Gesundheits\u00e4mter die Daten von Luca also offensichtlich gar nicht abrufen, w\u00e4re m\u00f6glicherweise eine L\u00f6sung sinnvoller, die keinen Datenabruf und -auswertung durch ein Gesundheitsamt erfordert. Eine solche L\u00f6sung w\u00e4re bspw. die bereits existierende Corona-Warn-App, die \u00fcber einen automatisierten Prozess der Risikoermittlung und -warnung verf\u00fcgt - aber m\u00f6glicherweise durch einen gut gemeinten Einsatz der Luca-App \"vor Ort\" verdr\u00e4ngt wird.<br><br> <blockquote>Teile des Chaos Computer Clubs kritisieren die Luca-App kategorisch, weil sie sich am Prinzip der zentralen Datenspeicherung st\u00f6ren.<\/blockquote>Dabei ist die zentrale Speicherung aber weit nicht der einzige Kritikpunkt an der Luca-App.<br><br><blockquote>Bianca Kastl, die Luca vor Kurzem \u00f6ffentlich kritisiert hat, ist auch keine unabh\u00e4ngige Expertin, sondern an der Entwicklung des Konkurrenzprodukts \"Iris connect\" beteiligt.<\/blockquote>Beim Gateway-System IRIS Connect handelt es sich um ein Projekt, das eine standardisierte Schnittstelle f\u00fcr alle Kontaktnachverfolgungs-Apps zu Gesundheits\u00e4mtern schaffen will - an die sich auch die Luca-App anbinden k\u00f6nnte. IRIS wird vom Innovationsverbund \u00d6ffentliche Gesundheit (In\u00d6G) vorangetrieben. Der In\u00d6G ist ein Zusammenschluss von Initiativen, die digitale L\u00f6sungen f\u00fcr das \u00d6ffentliche Gesundheitswesen entwickeln.<br>Bianca Kastl als fachlich Verantwortliche bekleidet die Stabsstelle Digistalisierung beim gr\u00f6\u00dften Gesundheitsamt Deutschlands in Frankfurt, das selbst \"Konsument\" von Kontaktdaten  ist \u2013 und damit kein Konkurrent im eigentlichen Sinne.<br><br><blockquote>In den 28 Tagen vor Weihnachten haben wir deutschlandweit [...] innerhalb von 14 Tagen mehr als 33.000 ausgespielte Warnungen von Gesundheits\u00e4mtern verzeichnet.<\/blockquote>Zum Vergleich: Die Corona-Warn-App hat in den 28 Tagen vor Weihnachten deutschlandweit ca. 466.000 bis 597.000 \"rote\" Warnungen w\u00f6chentlich ausgespielt (= in 14 Tagen ca. 1 Mio. Warnungen); die Statistiken sind hier \u00f6ffentlich einsehbar (<a href=\"https:\/\/www.coronawarn.app\/de\/analysis\/\" target=\"_blank\">coronawarn.app<\/a>). Im Gegensatz zur Luca-App, die nur an bestimmten Orten eingesetzt wird, ist die Corona-Warn-App aber \u00fcberall t\u00e4tig - erfordert aber vor allem keinen Datenabruf durch das Gesundheitsamt.",
+            "title": "Interview mit dem STERN: \u201cLuca-App: Chef verteidigt Nutzen seiner Software vehement\u201d",
+            "type": "news",
+            "verified": false
         }
     ]
 }
