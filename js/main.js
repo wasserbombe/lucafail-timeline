@@ -126,7 +126,7 @@
         'DE-BY': {
             color: "#ff8c00",
             updated: '2021-11-04',
-            description: 'In Bayern ist eine Kontaktdatenerfassung nur dann erforderlich, wenn die Inzidenz im Landkreis über 1000 liegt. Die breite Kontaktnachverfolgung durch die Gesundheitsämter wurde eingestellt.',
+            description: 'In Bayern ist eine Kontaktdatenerfassung nur bei Veranstaltungen mit mehr als 1000 Personen in geschlossenen Räumen notwendig, sowie bei körpernahen Dienstleistungen und Gemeinschaftsunterkünften. Die breite Kontaktnachverfolgung durch die Gesundheitsämter wurde eingestellt.',
             sources: [{
                 text: "\u201cGesundheitsämter stellen breite Kontaktnachverfolgung ein\u201d",
                 url: "https://www.br.de/nachrichten/bayern/gesundheitsaemter-stellen-breite-corona-kontaktnachverfolgung-ein,SnoHOTl"
