@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "2723ff6",
-            "commit_lh": "2723ff62e83e33610e28b88d35db5e7278b6df04",
-            "commit_date": "2022-01-06 20:46:39 +0100",
+            "commit_sh": "b4a6737",
+            "commit_lh": "b4a67375f03f7e4628668887e59e8c6044c1644d",
+            "commit_date": "2022-01-06 22:15:40 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641503191,
-        "date": "2022-01-06"
+        "ts": 1641660666,
+        "date": "2022-01-08"
     },
     "timeline": [
         {
@@ -6049,6 +6049,10 @@
                 {
                     "url": "https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/",
                     "text": "Markus Reuter: \u201cNeue Gesch\u00e4ftsmodelle - Wie Luca nach der Pandemie weiter Kasse machen kann\u201d (netzpolitik.org)"
+                },
+                {
+                    "url": "https:\/\/www.t-online.de\/digital\/internet\/id_100004230\/corona-warn-app-bund-verlaengert-vertrag-luca-app-steht-auf-der-kippe.html",
+                    "text": "\u201cBund verl\u00e4ngert Vertrag f\u00fcr Corona-Warn-App\u201d (t-online.de)"
                 }
             ],
             "scope": "Bundesweit",
@@ -6102,8 +6106,61 @@
             "tags": [
                 "interview"
             ],
-            "text": "In einem Interview mit dem Stern nennt Patrick Hennig einige interessante Zahlen. <br>Bereits im Vorfeld hatte das Land Bayern gegen\u00fcber <a href=\"https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/\">netzpolitik.org<\/a> best\u00e4tigt, dass man Luca in den \"letzten 14 Tagen\" gar nicht mehr zur Kontaktnachverfolgung eingesetzt habe. Damit wurden zwar Daten via Luca erfasst, aber nie ausgewertet. Da viele Gesundheits\u00e4mter die Daten von Luca also offensichtlich gar nicht abrufen, w\u00e4re m\u00f6glicherweise eine L\u00f6sung sinnvoller, die keinen Datenabruf und -auswertung durch ein Gesundheitsamt erfordert. Eine solche L\u00f6sung w\u00e4re bspw. die bereits existierende Corona-Warn-App, die \u00fcber einen automatisierten Prozess der Risikoermittlung und -warnung verf\u00fcgt - aber m\u00f6glicherweise durch einen gut gemeinten Einsatz der Luca-App \"vor Ort\" verdr\u00e4ngt wird.<br><br> <blockquote>Teile des Chaos Computer Clubs kritisieren die Luca-App kategorisch, weil sie sich am Prinzip der zentralen Datenspeicherung st\u00f6ren.<\/blockquote>Dabei ist die zentrale Speicherung aber weit nicht der einzige Kritikpunkt an der Luca-App.<br><br><blockquote>Bianca Kastl, die Luca vor Kurzem \u00f6ffentlich kritisiert hat, ist auch keine unabh\u00e4ngige Expertin, sondern an der Entwicklung des Konkurrenzprodukts \"Iris connect\" beteiligt.<\/blockquote>Beim Gateway-System IRIS Connect handelt es sich um ein Projekt, das eine standardisierte Schnittstelle f\u00fcr alle Kontaktnachverfolgungs-Apps zu Gesundheits\u00e4mtern schaffen will - an die sich auch die Luca-App anbinden k\u00f6nnte. IRIS wird vom Innovationsverbund \u00d6ffentliche Gesundheit (In\u00d6G) vorangetrieben. Der In\u00d6G ist ein Zusammenschluss von Initiativen, die digitale L\u00f6sungen f\u00fcr das \u00d6ffentliche Gesundheitswesen entwickeln.<br>Bianca Kastl als fachlich Verantwortliche bekleidet die Stabsstelle Digistalisierung beim gr\u00f6\u00dften Gesundheitsamt Deutschlands in Frankfurt, das selbst \"Konsument\" von Kontaktdaten  ist \u2013 und damit kein Konkurrent im eigentlichen Sinne. <a href=\"https:\/\/twitter.com\/bkastl\/status\/1479183179105853441\" target=\"_blank\">Auf Twitter<\/a> erkl\u00e4rt sie den Zusammenhang zwischen Luca und IRIS Connect.<br><br><blockquote>In den 28 Tagen vor Weihnachten haben wir deutschlandweit [...] innerhalb von 14 Tagen mehr als 33.000 ausgespielte Warnungen von Gesundheits\u00e4mtern verzeichnet.<\/blockquote>Zum Vergleich: Die Corona-Warn-App hat in den 28 Tagen vor Weihnachten deutschlandweit ca. 466.000 bis 597.000 \"rote\" Warnungen w\u00f6chentlich ausgespielt (= in 14 Tagen ca. 1 Mio. Warnungen); die Statistiken sind hier \u00f6ffentlich einsehbar (<a href=\"https:\/\/www.coronawarn.app\/de\/analysis\/\" target=\"_blank\">coronawarn.app<\/a>). Im Gegensatz zur Luca-App, die nur an bestimmten Orten eingesetzt wird, ist die Corona-Warn-App aber \u00fcberall t\u00e4tig - erfordert aber vor allem keinen Datenabruf durch das Gesundheitsamt.<br><br><blockquote>Seit Mai letzten Jahres haben Gesundheits\u00e4mter mehr als 3.500 Mal Restaurants um die Herausgabe von Kontaktdaten gebeten.<\/blockquote>Damit wurden im Schnitt etwa <b>14 Infektionsf\u00e4lle<\/b> pro Tag via Luca verfolgt (01.05.21 bis 06.01.22 sind 250 Tage).<br><br><blockquote>Seit Mai letzten Jahres spielten Gesundheits\u00e4mter nach einer individuellen Risikoeinsch\u00e4tzung der Umst\u00e4nde vor Ort \u00fcber 550.000 individuelle Warnungen aus.<\/blockquote>Individuelle Hinweise gibt es erst seit September \/ Luca+ \/ LucaConnect, fr\u00fchestens <a href=\"#2021-08-08_probleme_Corona-Fall-bei-einer-Veranstaltung-in-Bad-Doberan-der-Kreis-Rostock-und-die-angeblich-individuelle-Luca-Warnung\">seit August<\/a>. Zuvor wurden nur allgemeine Hinweise angezeigt, dass die Kontaktdaten im Rahmen eines Kontaktdatennachverfolgung von einem Gesundheitsamt abgerufen wurden.",
+            "text": "In einem Interview mit dem Stern nennt Patrick Hennig einige interessante Zahlen. <br>Bereits im Vorfeld hatte das Land Bayern gegen\u00fcber <a href=\"https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-wie-luca-nach-der-pandemie-weiter-kasse-machen-kann\/\">netzpolitik.org<\/a> best\u00e4tigt, dass man Luca in den \"letzten 14 Tagen\" gar nicht mehr zur Kontaktnachverfolgung eingesetzt habe. Damit wurden zwar Daten via Luca erfasst, aber nie ausgewertet. Da viele Gesundheits\u00e4mter die Daten von Luca also offensichtlich gar nicht abrufen, w\u00e4re m\u00f6glicherweise eine L\u00f6sung sinnvoller, die keinen Datenabruf und -auswertung durch ein Gesundheitsamt erfordert. Eine solche L\u00f6sung w\u00e4re bspw. die bereits existierende Corona-Warn-App, die \u00fcber einen automatisierten Prozess der Risikoermittlung und -warnung verf\u00fcgt - aber m\u00f6glicherweise durch einen gut gemeinten Einsatz der Luca-App \"vor Ort\" verdr\u00e4ngt wird.<br><br> <blockquote>Teile des Chaos Computer Clubs kritisieren die Luca-App kategorisch, weil sie sich am Prinzip der zentralen Datenspeicherung st\u00f6ren.<\/blockquote>Dabei ist die zentrale Speicherung aber weit nicht der einzige Kritikpunkt an der Luca-App.<br><br><blockquote>Bianca Kastl, die Luca vor Kurzem \u00f6ffentlich kritisiert hat, ist auch keine unabh\u00e4ngige Expertin, sondern an der Entwicklung des Konkurrenzprodukts \"Iris connect\" beteiligt.<\/blockquote>Beim Gateway-System IRIS Connect handelt es sich um ein Projekt, das eine standardisierte Schnittstelle f\u00fcr alle Kontaktnachverfolgungs-Apps zu Gesundheits\u00e4mtern schaffen will - an die sich auch die Luca-App anbinden k\u00f6nnte. IRIS wird vom Innovationsverbund \u00d6ffentliche Gesundheit (In\u00d6G) vorangetrieben. Der In\u00d6G ist ein Zusammenschluss von Initiativen, die digitale L\u00f6sungen f\u00fcr das \u00d6ffentliche Gesundheitswesen entwickeln.<br>Bianca Kastl als fachlich Verantwortliche bekleidet die Stabsstelle Digistalisierung beim gr\u00f6\u00dften Gesundheitsamt Deutschlands in Frankfurt, das selbst \"Konsument\" von Kontaktdaten  ist \u2013 und damit kein Konkurrent im eigentlichen Sinne. <a href=\"https:\/\/twitter.com\/bkastl\/status\/1479183179105853441\" target=\"_blank\">Auf Twitter<\/a> erkl\u00e4rt sie den Zusammenhang zwischen Luca und IRIS Connect.<br><br><blockquote>In den 28 Tagen vor Weihnachten haben wir deutschlandweit [...] innerhalb von 14 Tagen mehr als 33.000 ausgespielte Warnungen von Gesundheits\u00e4mtern verzeichnet.<\/blockquote>Zum Vergleich: Die Corona-Warn-App hat in den 28 Tagen vor Weihnachten deutschlandweit ca. 466.000 bis 597.000 \"rote\" Warnungen w\u00f6chentlich ausgespielt (= in 14 Tagen ca. 1 Mio. Warnungen); die Statistiken sind hier \u00f6ffentlich einsehbar (<a href=\"https:\/\/www.coronawarn.app\/de\/analysis\/\" target=\"_blank\">coronawarn.app<\/a>). Im Gegensatz zur Luca-App, die nur an bestimmten Orten eingesetzt wird - und sich das Gesundheitsamt theoretisch gegen einen Datenabruf und damit gegen eine Warnung entscheiden kann -, ist die Corona-Warn-App aber \u00fcberall t\u00e4tig - erfordert dazu aber keinen Datenabruf durch das Gesundheitsamt.<br><br><blockquote>Seit Mai letzten Jahres haben Gesundheits\u00e4mter mehr als 3.500 Mal Restaurants um die Herausgabe von Kontaktdaten gebeten.<\/blockquote>Damit wurden im Schnitt etwa <b>14 Infektionsf\u00e4lle<\/b> pro Tag via Luca verfolgt (01.05.21 bis 06.01.22 sind 250 Tage).<br><br><blockquote>Seit Mai letzten Jahres spielten Gesundheits\u00e4mter nach einer individuellen Risikoeinsch\u00e4tzung der Umst\u00e4nde vor Ort \u00fcber 550.000 individuelle Warnungen aus.<\/blockquote>Individuelle Hinweise gibt es erst seit September \/ Luca+ \/ LucaConnect, fr\u00fchestens <a href=\"#2021-08-08_probleme_Corona-Fall-bei-einer-Veranstaltung-in-Bad-Doberan-der-Kreis-Rostock-und-die-angeblich-individuelle-Luca-Warnung\">seit August<\/a>. Zuvor wurden nur allgemeine Hinweise angezeigt, dass die Kontaktdaten im Rahmen eines Kontaktdatennachverfolgung von einem Gesundheitsamt abgerufen wurden.",
             "title": "Interview mit dem STERN: \u201cLuca-App: Chef verteidigt Nutzen seiner Software vehement\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "07.01.2022",
+            "dt_created": "2022-01-07 00:00:00",
+            "dt_updated": "2022-01-07 00:00:00",
+            "id": "c985813cf339",
+            "id_readable": "2022-01-07_incident_Mainzer-Polizei-nutzte-Daten-aus-Luca-App-ohne-Rechtsgrundlage",
+            "links": [
+                {
+                    "url": "https:\/\/www.swr.de\/swraktuell\/rheinland-pfalz\/mainz\/polizei-ermittelt-ohne-rechtsgrundlage-mit-daten-aus-luca-app-100.html",
+                    "text": "\u201cMainzer Polizei nutzte Daten aus Luca-App ohne Rechtsgrundlage\u201d (swr.de)"
+                },
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/mainz-polizei-nutzte-luca-daten-von-kneipenbesuchern-ohne-rechtsgrundlage\/",
+                    "text": "Markus Reuter: \u201cPolizei nutzte Luca-Daten von Kneipenbesuchern ohne Rechtsgrundlage\u201d (netzpolitik.org)"
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/luca-verurteilt-missbraeuchliche-datenabfrage-der-polizei-mainz\/",
+                    "text": "Luca: \u201cluca verurteilt missbr\u00e4uchliche Datenabfrage der Polizei Mainz\u201d (luca-app.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "7f8909fd6416"
+                }
+            ],
+            "text": "Wovor lange Zeit mehrfach gewarnt wurde ist nun erstmals <s>eingetreten<\/s> bekanntgeworden. <blockquote>Demnach wurden mittels der Datenabfrage Besucher einer Gastst\u00e4tte in der Mainzer Innenstadt ausfindig gemacht, um diese als m\u00f6gliche Zeugen des Vorfalls zu gewinnen.<\/blockquote><blockquote>Eine verantwortliche Mitarbeiterin der Gastst\u00e4tte best\u00e4tigte dem SWR, dass Beamte der Mainzer Kriminalpolizei sie nach dem Vorfall <b>aktiv nach Daten aus der Luca-App gefragt<\/b> h\u00e4tten<\/blockquote><blockquote>Ein Gast [...] berichtete, er sei [...] von der Polizei in Mainz kontaktiert worden, mit dem Hinweis, dass seine Kontaktdaten via Luca-App gewonnen worden seien.<\/blockquote>",
+            "title": "\u201cMainzer Polizei nutzte Daten aus Luca-App ohne Rechtsgrundlage\u201d",
+            "type": "incident",
+            "verified": true
+        },
+        {
+            "date": "08.01.2022",
+            "dt_created": "2022-01-08 00:00:00",
+            "dt_updated": "2022-01-08 00:00:00",
+            "id": "15bbe55e3287",
+            "id_readable": "2022-01-08_news_Politiker-fordern-Brger-auf-Luca-App-zu-lschen",
+            "links": [
+                {
+                    "url": "https:\/\/www.t-online.de\/digital\/handy\/id_100004238\/politiker-fordern-luca-app-zu-loeschen.html",
+                    "text": "\u201cPolitiker fordern B\u00fcrger auf, Luca-App zu l\u00f6schen\u201d (t-online.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "c985813cf339"
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "text": "<blockquote>Der Fall belege erneut die Datenschutz- und Sicherheitsprobleme der App, kritisierte der digitalpolitische Sprecher der FDP, der Landtagsabgeordnete Daniel Karrais, am Samstag. Au\u00dferdem nutzten die baden-w\u00fcrttembergischen Gesundheits\u00e4mter die Daten kaum noch zur Kontaktverfolgung, auch die Gastronomie verzichte weitgehend.<\/blockquote>",
+            "title": "\u201cPolitiker fordern B\u00fcrger auf, Luca-App zu l\u00f6schen\u201d",
             "type": "news",
             "verified": false
         }
