@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b4a6737",
-            "commit_lh": "b4a67375f03f7e4628668887e59e8c6044c1644d",
-            "commit_date": "2022-01-06 22:15:40 +0100",
+            "commit_sh": "28f53dd",
+            "commit_lh": "28f53ddc6561ab85c93e6fb2d7718fd1cb7f6ec6",
+            "commit_date": "2022-01-08 18:01:11 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641660666,
+        "ts": 1641674819,
         "date": "2022-01-08"
     },
     "timeline": [
@@ -1245,6 +1245,22 @@
             "text": "lucifer-app.de stellt das Luca-System (Android-App und Web-App) nach und untersucht so, welche Daten durch Server der luca App erhoben und verkn\u00fcpft werden k\u00f6nnen, ohne dass dies durch Endnutzer feststellbar w\u00e4re. Ziel des Projektes ist es festzustellen, was passieren k\u00f6nnte, wenn die Server von luca unter Kontrolle einer Person fallen, die diese missbr\u00e4uchlich oder f\u00fcr andere Zwecke einsetzt.<br>Mithilfe einer <a href=\"https:\/\/app.lucifer-app.de\/lucifer\/\" target=\"_blank\">Suche<\/a> k\u00f6nnen erfasste Daten durchsucht werden.",
             "title": "Forschungsprojekt: lucifer - Wenn luca zum Teufel geht",
             "type": "incident"
+        },
+        {
+            "date": "20.04.2021",
+            "dt_created": "2022-01-08 00:00:00",
+            "dt_updated": "2022-01-08 00:00:00",
+            "id": "5f9d37e3257e",
+            "id_readable": "2021-04-20_news_Interview-in-Heise-Telepolis-Luca-App-Hilfe-oder-Belastung-von-Gesundheitsmtern",
+            "links": [
+                {
+                    "url": "https:\/\/www.heise.de\/tp\/features\/Luca-App-Hilfe-oder-Belastung-von-Gesundheitsaemtern-6021060.html",
+                    "text": "Interview in Heise Telepolis: \u201cLuca-App: Hilfe oder Belastung von Gesundheits\u00e4mtern?\u201d (heise.de)"
+                }
+            ],
+            "text": "<blockquote>Patrick Hennig: Ja, es ist technisch ausgeschlossen, dass wir irgendwelche Daten herausgeben k\u00f6nnen. Und es ist technisch ausgeschlossen, dass das Gesundheitsamt alleine oder ein Betreiber mit Zwang Daten herausgeben k\u00f6nnen. Das ist der Sinn des Kryptokonzeptes des Luca-Systems. Insbesondere schlie\u00dft Luca vor allem den \"kurzen Dienstweg\" aus, das hei\u00dft, Ordnungsbeh\u00f6rden k\u00f6nnen nicht einfach ein Restaurant betreten und eben mal die Aush\u00e4ndigung von Anwesenheitslisten verlangen.<\/blockquote>",
+            "title": "Interview in Heise Telepolis: \u201cLuca-App: Hilfe oder Belastung von Gesundheits\u00e4mtern?\u201d",
+            "type": "news"
         },
         {
             "date": "22.04.2021",
@@ -6134,6 +6150,9 @@
             "references": [
                 {
                     "id": "7f8909fd6416"
+                },
+                {
+                    "id": "5f9d37e3257e"
                 }
             ],
             "text": "Wovor lange Zeit mehrfach gewarnt wurde ist nun erstmals <s>eingetreten<\/s> bekanntgeworden. <blockquote>Demnach wurden mittels der Datenabfrage Besucher einer Gastst\u00e4tte in der Mainzer Innenstadt ausfindig gemacht, um diese als m\u00f6gliche Zeugen des Vorfalls zu gewinnen.<\/blockquote><blockquote>Eine verantwortliche Mitarbeiterin der Gastst\u00e4tte best\u00e4tigte dem SWR, dass Beamte der Mainzer Kriminalpolizei sie nach dem Vorfall <b>aktiv nach Daten aus der Luca-App gefragt<\/b> h\u00e4tten<\/blockquote><blockquote>Ein Gast [...] berichtete, er sei [...] von der Polizei in Mainz kontaktiert worden, mit dem Hinweis, dass seine Kontaktdaten via Luca-App gewonnen worden seien.<\/blockquote>",
@@ -6151,6 +6170,10 @@
                 {
                     "url": "https:\/\/www.t-online.de\/digital\/handy\/id_100004238\/politiker-fordern-luca-app-zu-loeschen.html",
                     "text": "\u201cPolitiker fordern B\u00fcrger auf, Luca-App zu l\u00f6schen\u201d (t-online.de)"
+                },
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/wirtschaft\/telekommunikation-stuttgart-nach-luca-app-zwischenfall-software-scharf-kritisiert-dpa.urn-newsml-dpa-com-20090101-220108-99-635380",
+                    "text": "\u201cNach Luca-App-Zwischenfall: Software scharf kritisiert\u201d (sueddeutsche.de)"
                 }
             ],
             "references": [
@@ -6159,7 +6182,7 @@
                 }
             ],
             "scope": "Land: Baden-W\u00fcrttemberg",
-            "text": "<blockquote>Der Fall belege erneut die Datenschutz- und Sicherheitsprobleme der App, kritisierte der digitalpolitische Sprecher der FDP, der Landtagsabgeordnete Daniel Karrais, am Samstag. Au\u00dferdem nutzten die baden-w\u00fcrttembergischen Gesundheits\u00e4mter die Daten kaum noch zur Kontaktverfolgung, auch die Gastronomie verzichte weitgehend.<\/blockquote>",
+            "text": "<blockquote>Der Fall belege erneut die Datenschutz- und Sicherheitsprobleme der App, kritisierte der digitalpolitische Sprecher der FDP, der Landtagsabgeordnete Daniel Karrais, am Samstag. Au\u00dferdem nutzten die baden-w\u00fcrttembergischen Gesundheits\u00e4mter die Daten kaum noch zur Kontaktverfolgung, auch die Gastronomie verzichte weitgehend.<\/blockquote><blockquote>Was die Warnung und die Nachverfolgung angeht, ist die Luca-App mausetot<\/blockquote>",
             "title": "\u201cPolitiker fordern B\u00fcrger auf, Luca-App zu l\u00f6schen\u201d",
             "type": "news",
             "verified": false
