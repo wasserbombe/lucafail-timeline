@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "28f53dd",
-            "commit_lh": "28f53ddc6561ab85c93e6fb2d7718fd1cb7f6ec6",
-            "commit_date": "2022-01-08 18:01:11 +0100",
+            "commit_sh": "2e1342d",
+            "commit_lh": "2e1342d1fec377d82c61cc220607ec8fcb8fdebe",
+            "commit_date": "2022-01-08 23:13:56 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641674819,
-        "date": "2022-01-08"
+        "ts": 1641684413,
+        "date": "2022-01-09"
     },
     "timeline": [
         {
@@ -6158,6 +6158,28 @@
             "text": "Wovor lange Zeit mehrfach gewarnt wurde ist nun erstmals <s>eingetreten<\/s> bekanntgeworden. <blockquote>Demnach wurden mittels der Datenabfrage Besucher einer Gastst\u00e4tte in der Mainzer Innenstadt ausfindig gemacht, um diese als m\u00f6gliche Zeugen des Vorfalls zu gewinnen.<\/blockquote><blockquote>Eine verantwortliche Mitarbeiterin der Gastst\u00e4tte best\u00e4tigte dem SWR, dass Beamte der Mainzer Kriminalpolizei sie nach dem Vorfall <b>aktiv nach Daten aus der Luca-App gefragt<\/b> h\u00e4tten<\/blockquote><blockquote>Ein Gast [...] berichtete, er sei [...] von der Polizei in Mainz kontaktiert worden, mit dem Hinweis, dass seine Kontaktdaten via Luca-App gewonnen worden seien.<\/blockquote>",
             "title": "\u201cMainzer Polizei nutzte Daten aus Luca-App ohne Rechtsgrundlage\u201d",
             "type": "incident",
+            "verified": true
+        },
+        {
+            "date": "07.01.2022",
+            "dt_created": "2022-01-08 23:00:00",
+            "dt_updated": "2022-01-07 00:00:00",
+            "id": "214ecc310adf",
+            "id_readable": "2022-01-07_Luca-CEO-Wir-wollen-Impf--und-Personalausweis-zusammenfhren",
+            "links": [
+                {
+                    "url": "https:\/\/www.berliner-zeitung.de\/wochenende\/luca-ceo-wir-wollen-impf-und-personalausweis-zusammenfuehren-li.204737",
+                    "text": "Interview in der Berliner Zeitung, Moritz Eichhorn: \u201cLuca-CEO: \u201eWir wollen Impf- und Personalausweis zusammenf\u00fchren\u201c\u201d (berliner-zeitung.de)"
+                }
+            ],
+            "tags": [
+                "interview",
+                "moritz-eichhorn",
+                "luca-ceo",
+                "patrick-hennig"
+            ],
+            "text": "<blockquote>Wir werden fast jeden Tag von der Polizei oder der Staatsanwaltschaft angerufen, weil sich Tatverd\u00e4chtige angeblich irgendwo kurz vor, nach oder w\u00e4hrend einer Tat eingecheckt haben. Es geht um alles M\u00f6gliche: Einbr\u00fcche, Diebstahl, Raub, sogar Mord. Die Beamten wollen von uns dann die Nutzerdaten haben.<\/blockquote>Zwar kann Luca selbst auf die Daten nicht zugreifen, es scheint aber bew\u00e4hrte Praxis zu sein, dass Beh\u00f6rden versuchen, mithilfe von Luca-Daten zu ermitteln.<blockquote>[...] wenn sie die digitalen Schl\u00fcssel bei Gesundheitsamt und dem Ort des Check-ins zusammen f\u00fchren, indem Sie im Gesundheitsamt einen Infektionsfall simulieren, k\u00f6nnen sie vom Gesundheitsamt pers\u00f6nliche Daten erhalten.<\/blockquote>",
+            "title": "\u201cLuca-CEO: \u201eWir wollen Impf- und Personalausweis zusammenf\u00fchren\u201c\u201d",
             "verified": true
         },
         {
