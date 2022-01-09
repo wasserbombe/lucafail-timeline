@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "38837fb",
-            "commit_lh": "38837fb6799efb91382e6251d894ebe38d22482e",
-            "commit_date": "2022-01-09 00:27:37 +0100",
+            "commit_sh": "9440901",
+            "commit_lh": "94409019c515c5bdde6a16968d1f3a3ca16ac519",
+            "commit_date": "2022-01-09 00:28:05 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641684463,
+        "ts": 1641732643,
         "date": "2022-01-09"
     },
     "timeline": [
@@ -6178,7 +6178,7 @@
                 "luca-ceo",
                 "patrick-hennig"
             ],
-            "text": "<blockquote>Wir werden fast jeden Tag von der Polizei oder der Staatsanwaltschaft angerufen, weil sich Tatverd\u00e4chtige angeblich irgendwo kurz vor, nach oder w\u00e4hrend einer Tat eingecheckt haben. Es geht um alles M\u00f6gliche: Einbr\u00fcche, Diebstahl, Raub, sogar Mord. Die Beamten wollen von uns dann die Nutzerdaten haben.<\/blockquote>Zwar kann Luca selbst auf die Daten nicht zugreifen, es scheint aber bew\u00e4hrte Praxis zu sein, dass Beh\u00f6rden versuchen, mithilfe von Luca-Daten zu ermitteln.<blockquote>[...] wenn sie die digitalen Schl\u00fcssel bei Gesundheitsamt und dem Ort des Check-ins zusammen f\u00fchren, indem Sie im Gesundheitsamt einen Infektionsfall simulieren, k\u00f6nnen sie vom Gesundheitsamt pers\u00f6nliche Daten erhalten.<\/blockquote>",
+            "text": "<blockquote>Wir werden fast jeden Tag von der Polizei oder der Staatsanwaltschaft angerufen, weil sich Tatverd\u00e4chtige angeblich irgendwo kurz vor, nach oder w\u00e4hrend einer Tat eingecheckt haben. Es geht um alles M\u00f6gliche: Einbr\u00fcche, Diebstahl, Raub, sogar Mord. Die Beamten wollen von uns dann die Nutzerdaten haben.<\/blockquote><blockquote>[...] wenn sie die digitalen Schl\u00fcssel bei Gesundheitsamt und dem Ort des Check-ins zusammen f\u00fchren, indem Sie im Gesundheitsamt einen Infektionsfall simulieren, k\u00f6nnen sie vom Gesundheitsamt pers\u00f6nliche Daten erhalten.<\/blockquote>\u2794 Zwar kann Luca selbst auf die Daten nicht zugreifen, es scheint aber bew\u00e4hrte Praxis zu sein, dass Beh\u00f6rden versuchen, mithilfe von Luca-Daten zu ermitteln. Luca best\u00e4tigt damit einen lange kritisierten Punkt - n\u00e4mlich dass ein Datenabruf zwar erschwert, aber durch Social Engineering theoretisch m\u00f6glich w\u00e4re und Beh\u00f6rden versuchen werden, darauf zuzugreifen.<br><br><blockquote>Tests und Laborergebnisse [...] direkt digital [...] per Push-Nachricht zugestellt [...] zur\u00fcckmelden, welche Symptome ich habe. Jede Kommunikation eben digital [...].<\/blockquote>\u2794 Luca m\u00f6chte noch mehr Amt-B\u00fcrger-Kommunikation \u00fcber die private Luca-Infrastruktur abwickeln.<br><br><blockquote>Der Ort und die Zeit sind die wichtigsten Angaben, sowohl f\u00fcr die Gesundheits\u00e4mter als auch f\u00fcr Kontaktpersonen. Da es einen Unterschied macht, ob ich zehn Minuten im Freien am Bahnsteig oder mit 100 Personen im engen Raum war, braucht es diese Angaben. Nur dann k\u00f6nnen wir auch selbst das Risiko einsch\u00e4tzen.<\/blockquote>\u2794 Da Luca nur an Orten mit Check-In-QR-Code \u00fcberhaupt funktioniert - und z.B. nicht an Bahnsteigen eingesetzt wird - ist fraglich, ob und wie Luca in seiner aktuellen Form hier zur Einsch\u00e4tzung beitragen kann. Ebenso erfasst die Corona-Warn-App keine \"Umgebungsdaten\", aber immerhin die Begegnungen mit anderen Personen und die Dauer der Begegnung - und das dauerhaft.<br><br><blockquote>Seit einiger Zeit muss man zus\u00e4tzlich zum Impf- oder Genesenenausweis auch den Personalausweis oder Pass vorzeigen. Das wollen wir in Luca auch einfach zusammenf\u00fchren. Dann muss man vielleicht bald nur noch sein Handy zeigen. Und ich gehe davon aus, dass es diese ganzen Anforderungen noch ein paar Jahre geben wird.<\/blockquote>\u2794 Hier entscheidend wird das Softwarekonzept sein, d.h. wie stark der Personalausweis in Luca integriert werden wird. W\u00fcnschenswert w\u00e4re eine rein lokale Speicherung und Verifikation, alle anderen M\u00f6glichkeiten - wie die zentrale Speicherung der Ausweisdaten am Benutzer-Profil oder der Online-Abgleich der Ausweisdaten - bieten schier endlose Sicherheitsrisiken. Auch bei der Implementierung von SSI w\u00e4re <a href=\"https:\/\/lilithwittmann.medium.com\/mit-der-id-wallet-kannst-du-alles-und-jeder-sein-au%C3%9Fer-du-musst-dich-ausweisen-829293739fa0\" target=\"_blank\">einiges zu beachten<\/a>.",
             "title": "\u201cLuca-CEO: \u201eWir wollen Impf- und Personalausweis zusammenf\u00fchren\u201c\u201d",
             "verified": true
         },
