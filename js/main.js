@@ -171,15 +171,21 @@
             }]
         },
         'DE-RP': {
-            color: "#8b0000",
-            updated: '2021-12-03',
-            description: 'Die Kontaktdatenerfassung ist zwingend, jedoch haben bereits mehrere Gesundheitsämter die Kontaktnachverfolgung einstellen müssen. Ein zusätzlicher Einsatz von anonymer Kontaktnachverfolgung ist in jedem Fall sinnvoll.',
+            color: "#006400",
+            updated: '2021-12-22',
+            description: '<blockquote>Die Kontakterfassung nach Satz 1 ist nicht erforderlich, wenn die Person, deren Daten zu erfassen sind, die in der Corona-Warn-App des Robert Koch-Instituts enthaltene QR-Code-Registrierung nutzt</blockquote>Damit ist eine anonyme Kontaktnachverfolgung in Rheinland-Pfalz möglich. Luca ist hier nicht erforderlich.',
             sources: [{
                 url: "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/pfaelzer-gesundheitsaemter-an-ueberlastungsgrenze-corona-kontaktverfolgung-100.html",
                 text: "\u201cPfalz: Mehrere Gesundheitsämter stellen Kontaktnachverfolgung ein\u201d",
             },{
                 url: "https://corona.rlp.de/fileadmin/corona/211203_29_CoBeLVO.pdf",
                 text: "Neunundzwanzigste Corona-Bekämpfungsverordnung Rheinland-Pfalz"
+            },{
+                url: "https://corona.rlp.de/fileadmin/corona/Verordnungen/29._CoBeVo/211222_29_CoBeLVO_1AEndVO_konsolidierte_Fassung_001.pdf",
+                text: "Neunundzwanzigste Corona-Bekämpfungsverordnung Rheinland-Pfalz"
+            },{
+                url: "https://corona.rlp.de/fileadmin/corona/Verordnungen/29._CoBeVo/211222_29_CoBeLVO_1_AEndVO_AEnderungsVO_001.pdf",
+                text: "Änderung am 22.12 zu der Verordnung von 3.12."
             }]
         },
         'DE-NI': {
