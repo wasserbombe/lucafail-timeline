@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "33ba191",
-            "commit_lh": "33ba191a0f7daf5097d08ab17f709c05deb2899b",
-            "commit_date": "2022-01-09 20:50:10 +0100",
+            "commit_sh": "a5dd645",
+            "commit_lh": "a5dd64502835d7c1bfcfa8b0a61514498bc820a1",
+            "commit_date": "2022-01-11 00:10:00 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641856183,
+        "ts": 1641857279,
         "date": "2022-01-11"
     },
     "timeline": [
@@ -6185,7 +6185,7 @@
         {
             "date": "08.01.2022",
             "dt_created": "2022-01-08 00:00:00",
-            "dt_updated": "2022-01-09 21:00:00",
+            "dt_updated": "2022-01-11 00:27:00",
             "id": "15bbe55e3287",
             "id_readable": "2022-01-08_news_Politiker-fordern-Brger-auf-Luca-App-zu-lschen",
             "links": [
@@ -6202,6 +6202,13 @@
                     "text": "Bernd Mewes: \u201cScharfe Kritik an Luca-App nach Zeugensuche der Polizei\u201d (heise.de)",
                     "authors": [
                         "Bernd Mewes"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.stern.de\/digital\/smartphones\/luca-app--nach-polizei-zugriff-fordern-politiker-zum-loeschen-auf-31489944.html",
+                    "text": "\u201cPolizei holt sich Luca-Daten: Nun rufen Politiker zum L\u00f6schen der App auf\u201d (stern.de)",
+                    "authors": [
+                        "Christian Hensen"
                     ]
                 }
             ],
