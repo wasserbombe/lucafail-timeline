@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "9440901",
-            "commit_lh": "94409019c515c5bdde6a16968d1f3a3ca16ac519",
-            "commit_date": "2022-01-09 00:28:05 +0100",
+            "commit_sh": "33ba191",
+            "commit_lh": "33ba191a0f7daf5097d08ab17f709c05deb2899b",
+            "commit_date": "2022-01-09 20:50:10 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641732643,
-        "date": "2022-01-09"
+        "ts": 1641856183,
+        "date": "2022-01-11"
     },
     "timeline": [
         {
@@ -6185,7 +6185,7 @@
         {
             "date": "08.01.2022",
             "dt_created": "2022-01-08 00:00:00",
-            "dt_updated": "2022-01-08 00:00:00",
+            "dt_updated": "2022-01-09 21:00:00",
             "id": "15bbe55e3287",
             "id_readable": "2022-01-08_news_Politiker-fordern-Brger-auf-Luca-App-zu-lschen",
             "links": [
@@ -6196,6 +6196,13 @@
                 {
                     "url": "https:\/\/www.sueddeutsche.de\/wirtschaft\/telekommunikation-stuttgart-nach-luca-app-zwischenfall-software-scharf-kritisiert-dpa.urn-newsml-dpa-com-20090101-220108-99-635380",
                     "text": "\u201cNach Luca-App-Zwischenfall: Software scharf kritisiert\u201d (sueddeutsche.de)"
+                },
+                {
+                    "url": "https:\/\/www.heise.de\/news\/Scharfe-Kritik-an-Luca-App-nach-Zeugensuche-der-Polizei-6321239.html",
+                    "text": "Bernd Mewes: \u201cScharfe Kritik an Luca-App nach Zeugensuche der Polizei\u201d (heise.de)",
+                    "authors": [
+                        "Bernd Mewes"
+                    ]
                 }
             ],
             "references": [
@@ -6208,6 +6215,67 @@
             "title": "\u201cPolitiker fordern B\u00fcrger auf, Luca-App zu l\u00f6schen\u201d",
             "type": "news",
             "verified": false
+        },
+        {
+            "date": "10.01.2022",
+            "dt_created": "2022-01-10 00:00:00",
+            "dt_updated": "2022-01-10 00:00:00",
+            "embed": [
+                {
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1480494980535885826",
+                    "type": "tweet"
+                },
+                {
+                    "id": "OKYRjUFm3Yg",
+                    "type": "youtube",
+                    "startAt": 1680
+                }
+            ],
+            "id": "35652f7e0751",
+            "id_readable": "2022-01-10_news_Tilo-Jung-auf-der-Bundespressekonferenz-Das-Bundesgesundheitsministerium-wei-aktuell-nicht-welchen-Nutzen-die-Luca-App-zur-Kontaktverfolgung-hat",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/tilojung\/status\/1480545997658931202",
+                    "text": "Tweet von @TiloJung (twitter.com)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1480494980535885826",
+                    "text": "Tweet von @TiloJung (twitter.com)"
+                },
+                {
+                    "url": "https:\/\/youtu.be\/OKYRjUFm3Yg?t=1680",
+                    "text": "10. Januar 2022 - Regierungspressekonferenz | BPK (youtube.com)"
+                }
+            ],
+            "text": "<blockquote>Bundesregierung zur umstrittenen #LucaApp: \"Ich kann tats\u00e4chlich jetzt zum Nutzen bzw. auch zum Erfolg der Luca-App keine Aussagen treffen\", sagte mir heute das @BMG_bund<br><br>Ob der Bund die Kosten der L\u00e4nder f\u00fcr die App-Lizenz \u00fcbernimmt, wei\u00df das Ministerium von Lauterbach nicht.<\/blockquote>",
+            "title": "Tilo Jung auf der Bundespressekonferenz: \u201cDas Bundesgesundheitsministerium wei\u00df aktuell nicht, welchen Nutzen die Luca-App zur Kontaktverfolgung hat\u201d",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "10.01.2022",
+            "dt_created": "2022-01-10 00:00:00",
+            "dt_updated": "2022-01-10 00:00:00",
+            "id": "44ea73594d83",
+            "id_readable": "2022-01-10_news_Datenschutzbeauftragter-Prfen-ob-Luca-App-gebraucht-wird---oder-die-Corona-Warn-App-reicht",
+            "links": [
+                {
+                    "url": "https:\/\/www.golem.de\/news\/datenschutzbeauftragter-pruefen-ob-luca-app-gebraucht-wird-2201-162317.html",
+                    "text": "\u201cDatenschutzbeauftragter: Pr\u00fcfen, ob Luca-App gebraucht wird\u201d (golem.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "15bbe55e3287"
+                },
+                {
+                    "id": "c985813cf339"
+                }
+            ],
+            "text": "<blockquote>Der rheinland-pf\u00e4lzische Landesbeauftragte f\u00fcr den Datenschutz [...] hat gefordert, \"ernsthaft zu pr\u00fcfen, ob die Luca-App als Instrument zur Pandemie-Bek\u00e4mpfung noch gebraucht wird. [...]\" [...] M\u00f6glicherweise sei die [...] Corona-Warn-App des Bundes ausreichend, bei der die Daten nicht in einem zentralen Pool, sondern auf dem Smartphone gespeichert w\u00fcrden.<\/blockquote>",
+            "title": "\u201cDatenschutzbeauftragter: Pr\u00fcfen, ob Luca-App gebraucht wird\u201d - oder die Corona-Warn-App reicht",
+            "type": "news",
+            "verified": true
         }
     ]
 }
