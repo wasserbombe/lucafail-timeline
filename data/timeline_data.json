@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "a5dd645",
-            "commit_lh": "a5dd64502835d7c1bfcfa8b0a61514498bc820a1",
-            "commit_date": "2022-01-11 00:10:00 +0100",
+            "commit_sh": "4c5517e",
+            "commit_lh": "4c5517e5e976b4be8abd805c7b2a42d1937f7fa2",
+            "commit_date": "2022-01-11 13:12:08 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641857279,
+        "ts": 1641918475,
         "date": "2022-01-11"
     },
     "timeline": [
@@ -41,6 +41,36 @@
             "text": "(fehlt)",
             "title": "Stellungnahme des LfDI Baden-W\u00fcrttemberg zur App Luca",
             "type": "doc"
+        },
+        {
+            "date": "05.03.2021",
+            "dt_created": "2022-01-11 00:00:00",
+            "dt_updated": "2022-01-11 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/spdde\/status\/1367616723873071110"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/YEAccount1\/status\/1367932982422568960"
+                }
+            ],
+            "id": "ce5e013cfd61",
+            "id_readable": "2021-03-05_news_Olaf-Schulz-Wollen-alle-Bundeslnder-Luca",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/spdde\/status\/1367616723873071110",
+                    "text": "Tweet der SPD (twitter.com)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/YEAccount1\/status\/1367932982422568960",
+                    "text": "Tweet von @YEAccount1 (twitter.com)"
+                }
+            ],
+            "text": "Tweet der SPD: <blockquote>\u201cDie Entscheidung \u00fcber die #Luca-App soll am Montag fallen. Ich tippe auf ein 16:0.\u201d @OlafScholz ist jetzt schon Fan der App zur Kontaktnachverfolgung von @lesmoureal. #Beep #Lanz<\/blockquote>Darunter wird bereits fr\u00fchzeitig die fehlende Transparenz bem\u00e4ngelt:<blockquote>Dies App ist eine Katastrophe. Im Dezember war ich noch angetan und habe nachgefragt, wie die technische Umsetzung\/Verschl\u00fcsselung aussieht und ob der Quellcode ver\u00f6ffentlicht wird. Trotz mehrfachem nachhaken bis jetzt keine Infos. Statt Transparenz eine Blackbox!<\/blockquote>",
+            "title": "Olaf Schulz: Wollen alle Bundesl\u00e4nder Luca?",
+            "type": "news"
         },
         {
             "date": "08.03.2021",
@@ -1007,7 +1037,7 @@
         {
             "date": "12.04.2021",
             "dt_created": "2021-04-12 00:00:00",
-            "dt_updated": "2021-04-12 00:00:00",
+            "dt_updated": "2022-01-11 17:00:00",
             "geo": {
                 "city": "Weimar",
                 "state": "Th\u00fcringen",
@@ -1030,6 +1060,7 @@
                 "weimar",
                 "studie"
             ],
+            "text": "Die Stadt Weimar hat innerhalb einer Test-Phase eine Studie zum Nutzen der Luca-App durchgef\u00fchrt. Das Fazit: <blockquote>Die von der Firma angebotene Luca-App bringe dem Gesundheitsamt nicht den erhofften Mehrwert bei der Konaktdaten-Nachverfolgung. Entscheidend sei, dass die App in Objekten mit vielen Menschen nicht differenzieren konnte, wer sich nahe und wer sich weit entfernt von einem Infektionsfall aufgehalten habe. Wenn das Amt Kontaktdaten von 20 Menschen braucht, aber 200 bekommt, sei das nicht hilfreich.<\/blockquote>",
             "title": "Stadt Weimar: Studie zum Nutzen der Luca-App",
             "type": "doc",
             "verified": true
