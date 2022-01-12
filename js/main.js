@@ -900,7 +900,7 @@
                         $linklist.append($li);
                     });
                     
-                    var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links:</b>').append($linklist);
+                    var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links / Quellen:</b>').append($linklist);
 
                     $content.append($linkarea);                    
                 }

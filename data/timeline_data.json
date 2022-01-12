@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "4c5517e",
-            "commit_lh": "4c5517e5e976b4be8abd805c7b2a42d1937f7fa2",
-            "commit_date": "2022-01-11 13:12:08 +0100",
+            "commit_sh": "7c231dd",
+            "commit_lh": "7c231dd551caf11892feaa5a05b02b5c7ca7fd2e",
+            "commit_date": "2022-01-11 17:28:12 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1641918475,
-        "date": "2022-01-11"
+        "ts": 1642017007,
+        "date": "2022-01-12"
     },
     "timeline": [
         {
@@ -6314,6 +6314,150 @@
             "title": "\u201cDatenschutzbeauftragter: Pr\u00fcfen, ob Luca-App gebraucht wird\u201d - oder die Corona-Warn-App reicht",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "12.01.2022",
+            "dt_created": "2022-01-12 00:00:00",
+            "dt_updated": "2022-01-12 00:00:00",
+            "embed": [
+                {
+                    "type": "gitlab",
+                    "project": "web",
+                    "issue": "34"
+                }
+            ],
+            "id": "af4fdd851d42",
+            "id_readable": "2022-01-12_doc_Rckfrage-Lschprozess-fr-inaktive-Nutzer",
+            "text": "Laut der Datenschutzerkl\u00e4rung der Luca-App sollen \"inaktive Nutzer\" nach einem Jahr gel\u00f6scht werden, jedoch findet sich im ver\u00f6ffentlichen Source Code kein entsprechender Job. \u00dcber einen Gitlab-Issue wurde nun nachgefragt. Interessant d\u00fcrfte vor allem sein, wie dieser Job arbeitet und wie er inaktive Nutzer erkennt.",
+            "title": "R\u00fcckfrage: L\u00f6schprozess f\u00fcr \"inaktive Nutzer\"",
+            "type": "doc"
+        },
+        {
+            "date": "12.01.2022",
+            "dt_created": "2022-01-12 00:00:00",
+            "dt_updated": "2022-01-12 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1481242577110245378"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1481264200152457218"
+                }
+            ],
+            "id": "21b7906ed08a",
+            "id_readable": "2022-01-12_news_Der-Bund-bernimmt-NICHT-die-Kosten-fr-die-Luca-App-Lizenzen-der-Lnder",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1481242577110245378",
+                    "text": "Tweet von @TiloJung (twitter.com)",
+                    "authors": [
+                        "Tilo Jung"
+                    ]
+                },
+                {
+                    "url": "https:\/\/twitter.com\/TiloJung\/status\/1481264200152457218",
+                    "text": "Tweet von @TiloJung (twitter.com)",
+                    "authors": [
+                        "Tilo Jung"
+                    ]
+                },
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/luca-app-bund-uebernimmt-millionenkosten-der-laender-nicht\/",
+                    "text": "Chris K\u00f6ver, Markus Reuter: \u201eBund \u00fcbernimmt Millionenkosten der L\u00e4nder nicht\u201c (netzpolitik.org)",
+                    "authors": [
+                        "Chris K\u00f6ver",
+                        "Markus Reuter"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "35652f7e0751"
+                }
+            ],
+            "text": "Tilo Jung hatte auf der letzten Bundespressekonferenz (BPK) beim Bundesgesundheitsministerium nachgefragt, ob man nun die Kosten der Luca-App seitens des Bundes \u00fcbernehme. Die R\u00fcckmeldung:<blockquote>Das @BMG_Bund sagt mir gerade, dass der Bund die Kosten der L\u00e4nder f\u00fcr die #LucaApp NICHT \u00fcbernehmen werde #BPK<\/blockquote><blockquote>Sargnagel f\u00fcr die #LucaApp? Die Bundesregierung stellte heute klar, dass die Kosten der Bundesl\u00e4nder f\u00fcr die Lizenz der App nicht \u00fcbernommen werden: \"Wir finanzieren die Luca-App nicht f\u00fcr die L\u00e4nder\", sagte mir das @BMG_bund heute in der #BPK<\/blockquote>",
+            "title": "Der Bund \u00fcbernimmt NICHT die Kosten f\u00fcr die Luca-App-Lizenzen der L\u00e4nder",
+            "type": "news",
+            "verified": false
+        },
+        {
+            "date": "12.01.2022",
+            "dt_created": "2022-01-12 00:00:00",
+            "dt_updated": "2022-01-12 00:00:00",
+            "id": "c460a079f685",
+            "id_readable": "2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz",
+            "links": [
+                {
+                    "url": "https:\/\/www.shz.de\/34878357",
+                    "text": "Mark Otten: \u201eEntscheidung zu Luca-App steht: SH k\u00fcndigt Vertrag\u201c (shz.de)",
+                    "authors": [
+                        "Mark Otten"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.stern.de\/kultur\/luca-aus-in-schleswig-holstein--schleswig-holstein-haelt-nicht-an-app-fest-31530220.html",
+                    "text": "\u201eSchleswig-Holstein h\u00e4lt nicht an App fest\u201c (stern.de)"
+                }
+            ],
+            "scope": "Land: Schleswig-Holstein",
+            "text": "Grund daf\u00fcr: Luca wird nicht ben\u00f6tigt, wenn keine Kontaktdaten erhoben werden. Schleswig-Holstein plant derzeit nicht, die Pflicht zur Erhebung von Kontaktdaten wieder einzuf\u00fchren, somit ist die Lizenz auch in Zukunft nicht n\u00f6tig. Auch habe sich die Nutzung durch die Gesundheits\u00e4mter reduziert, nachdem keine Pflicht zur Kontaktdatenerhebung mehr bestand. Zu den Kosten f\u00fcr ein Jahr Nutzung: <blockquote>Die Gesamtkosten f\u00fcr ein Jahr Luca-Nutzung in den 15 Gesundheits\u00e4mtern des Landes beliefen sich laut Schulz auf etwa 1,25 Millionen Euro. Das Land Schleswig-Holstein hat rund 900.000 Euro der Kosten getragen, die restlichen rund 350.000 haben die Kreise und St\u00e4dte \u00fcbernommen. Deren Ausgaben sind jedoch aus Mitteln des Bundes refinanziert worden.<\/blockquote>",
+            "title": "Schleswig-Holstein k\u00fcndig Luca-Lizenz",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "12.01.2022",
+            "dt_created": "2022-01-12 00:00:00",
+            "dt_updated": "2022-01-12 00:00:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "237406"
+                }
+            ],
+            "id": "bd7cc2bfa83a",
+            "id_readable": "2022-01-12_news_Mecklenburg-Vorpommern-kndigt-Vertrag-mit-Luca-App---wegen-Urteil",
+            "links": [
+                {
+                    "url": "https:\/\/www.handelsblatt.com\/inside\/digital_health\/culture4life-fehlender-wettbewerb-neue-regeln-zwei-bundeslaender-kuendigen-vertrag-fuer-luca-app\/27969000.html?ticket=ST-187134-DfI9a06XLHmnRqehG63o-ap3",
+                    "text": "Lukas Hoffmann, Britta Rybicki:\u201cFehlender Wettbewerb, neue Regeln: Zwei Bundesl\u00e4nder k\u00fcndigen Vertrag f\u00fcr Luca-App\u201d (handelsblatt.com)",
+                    "authors": [
+                        "Lukas Hoffmann",
+                        "Britta Rybicki"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "0c1493e8e61e"
+                }
+            ],
+            "scope": "Land: Mecklenburg-Vorpommern",
+            "text": "<blockquote>Bei der Vergabe an Culture4Life habe die Regierung gegen Wettbewerbsrecht versto\u00dfen, weil sie sich nicht mehrere Angebote eingeholt h\u00e4tte, begr\u00fcndete das OLG seine Entscheidung.<br>Anstatt die Arbeit mit Luca einzustellen, hat Mecklenburg-Vorpommern einen Interimsvertrag mit Culture4Life abgeschlossen. [...] Ob die digitale Kontaktnachverfolgung nach Vertragsende am 12. M\u00e4rz weitergehe, sei offen, teilte das zust\u00e4ndige Ministerium mit. In jedem Fall w\u00fcrde es ein \u201eneues Vergabeverfahren mit offenem Ausgang\u201c geben.<\/blockquote>",
+            "title": "Mecklenburg-Vorpommern k\u00fcndigt Vertrag mit Luca-App - wegen Urteil",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "b55ce9e49c8c",
+            "id_readable": "2022-01-13_news_Was-die-Luca-App-noch-bringt",
+            "links": [
+                {
+                    "url": "https:\/\/www.zeit.de\/2022\/03\/luca-app-verlaengerung-corona-warn-app\/komplettansicht",
+                    "text": "Thomas Fischermann: \u201cWas die Luca-App noch bringt\u201d (zeit.de)",
+                    "authors": [
+                        "Thomas Fischermann"
+                    ]
+                }
+            ],
+            "scope": "Bundesweit",
+            "text": "<blockquote>Ein millionenteures Programm sollte dabei helfen, Corona-Ansteckungen nachzuvollziehen. Der Nutzen ist aber zunehmend umstritten.<\/blockquote><blockquote>Luca ist schneller als Papier \u2013 aber offenbar nicht schnell genug. Obwohl die Daten elektronisch erfasst werden, kann es Tage dauern, bis sie ihren Weg durch die Gesundheits\u00e4mter gemacht haben \u2013 wo quasi jede Beh\u00f6rde nach eigenen Kriterien und Methoden bewertet, welche Ausbr\u00fcche nun besonders schlimm sind und wer gewarnt werden muss.[...] Dieses gr\u00fcndliche Vorgehen wurde aber in den vergangenen Wochen quasi bundesweit eingestellt, weil es sowieso schon zu viele Ansteckungen gibt. Mit anderen Worten ist die Luca-App in den vergangenen Tagen reichlich nutzlos geworden.<\/blockquote><blockquote>Der Bundestag hatte schon im November mit einem neuen Infektionsschutzgesetz erm\u00f6glicht, dass die klassische Kontaktverfolgung durch den Einsatz der CWA ersetzt wird.<\/blockquote>",
+            "title": "\u201cWas die Luca-App noch bringt\u201d",
+            "type": "news"
         }
     ]
 }
