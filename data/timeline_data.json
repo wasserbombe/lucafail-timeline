@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "71f355f",
-            "commit_lh": "71f355f7f935479f9b6d6848e1b970fec9ea65fc",
-            "commit_date": "2022-01-13 00:14:52 +0100",
+            "commit_sh": "61e800b",
+            "commit_lh": "61e800b65eab5010e361e201338b2193e9fa5b84",
+            "commit_date": "2022-01-13 21:24:20 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642105453,
-        "date": "2022-01-13"
+        "ts": 1642114829,
+        "date": "2022-01-14"
     },
     "timeline": [
         {
@@ -24,6 +24,29 @@
             "id_readable": "2021-02-01_Februar-2021-und-frher",
             "text": "Fehlt noch und m\u00fcsste erg\u00e4nzt werden. Gerne auch auf <a href=\"http:\/\/edit.luca.fail\/\">edit.luca.fail<\/a> eintragen!",
             "title": "Februar 2021 und fr\u00fcher"
+        },
+        {
+            "date": "28.02.2021",
+            "dt_created": "2021-02-28 00:00:00",
+            "dt_updated": "2021-02-28 00:00:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "GbaKa8sOpqM",
+                    "startAt": 1440
+                }
+            ],
+            "id": "01fe70345035",
+            "id_readable": "2021-02-28_broadcast_Smudo-Auftritt-bei-Anne-Will",
+            "links": [
+                {
+                    "url": "https:\/\/youtu.be\/GbaKa8sOpqM?t=1440",
+                    "text": "\u201cAnne Will - 28.02.2021 - Die gro\u00dfe Ratlosigkeit \u2013 gibt es einen Weg aus dem Dauer-Lockdown?\u201d (youtube.com)"
+                }
+            ],
+            "scope": "Bundesweit",
+            "title": "Smudo-Auftritt bei Anne Will",
+            "type": "broadcast"
         },
         {
             "date": "02.03.2021",
@@ -5067,7 +5090,7 @@
                 {
                     "type": "youtube",
                     "id": "8_pXAOzLta4",
-                    "startAt": "1448"
+                    "startAt": 1448
                 }
             ],
             "id": "a151de114b88",
@@ -5695,6 +5718,23 @@
             "title": "\u201cluca ver\u00f6ffentlicht aktuelle Zahlen zum Infektionsgeschehen in verschiedenen Bereichen des \u00f6ffentlichen Lebens\u201d",
             "type": "doc-luca",
             "verified": false
+        },
+        {
+            "date": "22.11.2021",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "e05cae62ee54",
+            "id_readable": "2021-11-22_news_Brandenburg-erwgt-frheres-Vertragsende-mit-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/politik\/thema\/corona\/beitraege\/2021\/11\/brandenburg-luca-app-corona-datenschutz.html",
+                    "text": "Antenne Brandenburg: \u201cBrandenburg erw\u00e4gt fr\u00fcheres Vertragsende mit Luca-App\u201d (rbb24.de)"
+                }
+            ],
+            "scope": "Land: Brandenburg",
+            "text": "",
+            "title": "\u201cBrandenburg erw\u00e4gt fr\u00fcheres Vertragsende mit Luca-App\u201d",
+            "type": "news"
         },
         {
             "date": "02.12.2021",
@@ -6402,6 +6442,26 @@
             "date": "12.01.2022",
             "dt_created": "2022-01-12 00:00:00",
             "dt_updated": "2022-01-12 00:00:00",
+            "id": "8935b085c801",
+            "id_readable": "2022-01-12_news_Kritik-an-Luca-App-in-Berlin---Luca-soll-in-Quarantne",
+            "links": [
+                {
+                    "url": "https:\/\/taz.de\/Kritik-an-Luca-App-in-Berlin\/!5827211\/",
+                    "text": "Bert Schulz: \u201cKritik an Luca-App in Berlin - Luca soll in Quarant\u00e4ne\u201d (taz.de)",
+                    "authors": [
+                        "Bert Schulz"
+                    ]
+                }
+            ],
+            "scope": "Land: Berlin",
+            "text": "<blockquote>Doch die l\u00e4ngst bundesweit verbreitete Luca-App ist auch eine Geschichte von \u00fcberholten technischen Fortschrittsglauben neoliberaler F\u00e4rbung. Und ein Beleg daf\u00fcr, dass der Staat durchaus der privaten Konkurrenz \u00fcberlegene Produkte entwickeln kann \u2013 wenn die Po\u00adli\u00adti\u00adke\u00adr*in\u00adnen darauf vertrauen.<\/blockquote><blockquote>\u201eDie Luca-App lieferte lediglich in Einzelf\u00e4llen hilfreiche Hinweise\u201c, teilt etwa Pankows Gesundheitsstadtr\u00e4tin Cordelia Koch (Gr\u00fcne) am Dienstag mit.<\/blockquote><blockquote>Der Linke Schl\u00fcsselburg formuliert es sch\u00e4rfer. Er attestiert der culture4life GmbH \u201eviel Rhethorik und wenig konkretes Handeln\u201c.<\/blockquote>",
+            "title": "\u201cKritik an Luca-App in Berlin - Luca soll in Quarant\u00e4ne\u201d",
+            "type": "news"
+        },
+        {
+            "date": "12.01.2022",
+            "dt_created": "2022-01-12 00:00:00",
+            "dt_updated": "2022-01-12 00:00:00",
             "id": "c460a079f685",
             "id_readable": "2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz",
             "links": [
@@ -6421,6 +6481,14 @@
                     "text": "Ingo Pakalski\/dpa: \u201cSchleswig-Holstein l\u00e4sst Lizenz f\u00fcr Luca-App auslaufen\u201d (golem.de)",
                     "authors": [
                         "Ingo Pakalski",
+                        "dpa"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.heise.de\/news\/Luca-App-Schleswig-Holstein-laesst-Lizenz-auslaufen-6325460.html",
+                    "text": "Volker Briegleb: \u201cLuca-App: Schleswig-Holstein l\u00e4sst Lizenz auslaufen\u201d (heise.de)",
+                    "authors": [
+                        "Volker Briegleb",
                         "dpa"
                     ]
                 }
@@ -6487,11 +6555,11 @@
                             ],
                             [
                                 "Landkreis Rhein-Neckar-Kreis",
+                                "Polizei Heidelberg \/ Polizeipr\u00e4sidium Mannheim",
                                 "?",
-                                "?",
-                                "?",
+                                "Diebstahl",
                                 "Nein, Anfrage abgelehnt",
-                                "<a href=\"https:\/\/www.swr.de\/swraktuell\/baden-wuerttemberg\/abfragen-luca-app-bw-100.html\" target=\"blank\">swr.de<\/a>",
+                                "<a href=\"https:\/\/www.swr.de\/swraktuell\/baden-wuerttemberg\/abfragen-luca-app-bw-100.html\" target=\"blank\">swr.de<\/a><br><a href=\"https:\/\/www.stuttgarter-nachrichten.de\/inhalt.baden-wuerttemberg-polizei-wollte-noch-mehr-daten-der-luca-app-haben.00e380cc-ed43-4281-b8f6-9130e01e8860.html\" target=\"blank\">stuttgarter-nachrichten.de<\/a><br><a href=\"https:\/\/www.rnf.de\/ludwigshafen-mannheim-polizei-fragt-nach-daten-von-luca-app-gesundheitsaemter-verweigern-infos-279252\/\" target=\"blank\">rnf.de<\/a>",
                                 "IFG-Anfrage l\u00e4uft: <a href=\"https:\/\/fragdenstaat.de\/anfrage\/nutzung-von-kontaktnachverfolgungsdaten-zu-anderen-zwecken-als-dem-infektionsschutz\/\" target=\"_blank\">fragdenstaat.de<\/a>"
                             ],
                             [
@@ -6520,6 +6588,15 @@
                                 "Ja, G\u00e4ste einer Abi-Party",
                                 "<a href=\"https:\/\/twitter.com\/lk_lueneburg\/status\/1418223223641042947\" target=\"blank\">twitter.com (Landkreis L\u00fcneburg)<\/a>",
                                 "Daten der Luca-App wurden als Infektionsfall abgerufen, dann aber zum Versenden von Impf-Einladungen missbraucht."
+                            ],
+                            [
+                                "...",
+                                "...",
+                                "...",
+                                "...",
+                                "...",
+                                "...",
+                                "..."
                             ]
                         ]
                     }
