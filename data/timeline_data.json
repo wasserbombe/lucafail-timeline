@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "7bca9fa",
-            "commit_lh": "7bca9faeaf473f33669ab4d1287a034d7a0de054",
-            "commit_date": "2022-01-12 20:50:17 +0100",
+            "commit_sh": "71f355f",
+            "commit_lh": "71f355f7f935479f9b6d6848e1b970fec9ea65fc",
+            "commit_date": "2022-01-13 00:14:52 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642029285,
+        "ts": 1642105453,
         "date": "2022-01-13"
     },
     "timeline": [
@@ -6316,6 +6316,22 @@
             "verified": true
         },
         {
+            "date": "11.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "e5e13762d33b",
+            "id_readable": "2022-01-11_news_Bremen-stellt-Vertrag-fr-Luca-App-auf-den-Prfstand",
+            "links": [
+                {
+                    "url": "https:\/\/www.butenunbinnen.de\/nachrichten\/luca-app-bremen-vertrag-102.html",
+                    "text": "\u201cBremen stellt Vertrag f\u00fcr Luca-App auf den Pr\u00fcfstand\u201d (butenunbinnen.de)"
+                }
+            ],
+            "text": "<blockquote>Seit Vertragsbeginn gab es lediglich zehn F\u00e4lle, bei denen der Kontakt durch die Daten aus der App ermittelt werden konnte. [...] Gut 220.000 Euro hat Bremen f\u00fcr die Nutzung der Luca-App gezahlt.<\/blockquote>",
+            "title": "\u201cBremen stellt Vertrag f\u00fcr Luca-App auf den Pr\u00fcfstand\u201d",
+            "type": "news"
+        },
+        {
             "date": "12.01.2022",
             "dt_created": "2022-01-12 00:00:00",
             "dt_updated": "2022-01-12 00:00:00",
@@ -6399,6 +6415,14 @@
                 {
                     "url": "https:\/\/www.stern.de\/kultur\/luca-aus-in-schleswig-holstein--schleswig-holstein-haelt-nicht-an-app-fest-31530220.html",
                     "text": "\u201eSchleswig-Holstein h\u00e4lt nicht an App fest\u201c (stern.de)"
+                },
+                {
+                    "url": "https:\/\/www.golem.de\/news\/coronapandemie-schleswig-holstein-laesst-lizenz-fuer-luca-app-auslaufen-2201-162384.html",
+                    "text": "Ingo Pakalski\/dpa: \u201cSchleswig-Holstein l\u00e4sst Lizenz f\u00fcr Luca-App auslaufen\u201d (golem.de)",
+                    "authors": [
+                        "Ingo Pakalski",
+                        "dpa"
+                    ]
                 }
             ],
             "scope": "Land: Schleswig-Holstein",
@@ -6509,7 +6533,7 @@
                 "missbrauch"
             ],
             "text": "In einem Interview verr\u00e4t Luca, dass man \"fast jeden Tag von der Polizei oder der Staatsanwaltschaft angerufen\" werde. Sp\u00e4testens seit dem Zugriff auf Luca-Daten in Mainz liegt der Verdacht nahe, dass \u00e4hnliche Anfragen auch bei anderen Gesundheits\u00e4mtern passiert sein k\u00f6nnten:",
-            "title": "Recherche: Anfragen an Gesundheits\u00e4mter, die nicht im Sinne des Infektionschutzgesetzes waren",
+            "title": "Recherche: Zweckentfremdung von Luca-Daten durch Beh\u00f6rden und \u00c4mter",
             "type": "research",
             "verified": true
         },
@@ -6563,6 +6587,91 @@
             "scope": "Bundesweit",
             "text": "<blockquote>Ein millionenteures Programm sollte dabei helfen, Corona-Ansteckungen nachzuvollziehen. Der Nutzen ist aber zunehmend umstritten.<\/blockquote><blockquote>Luca ist schneller als Papier \u2013 aber offenbar nicht schnell genug. Obwohl die Daten elektronisch erfasst werden, kann es Tage dauern, bis sie ihren Weg durch die Gesundheits\u00e4mter gemacht haben \u2013 wo quasi jede Beh\u00f6rde nach eigenen Kriterien und Methoden bewertet, welche Ausbr\u00fcche nun besonders schlimm sind und wer gewarnt werden muss.[...] Dieses gr\u00fcndliche Vorgehen wurde aber in den vergangenen Wochen quasi bundesweit eingestellt, weil es sowieso schon zu viele Ansteckungen gibt. Mit anderen Worten ist die Luca-App in den vergangenen Tagen reichlich nutzlos geworden.<\/blockquote><blockquote>Der Bundestag hatte schon im November mit einem neuen Infektionsschutzgesetz erm\u00f6glicht, dass die klassische Kontaktverfolgung durch den Einsatz der CWA ersetzt wird.<\/blockquote>",
             "title": "\u201cWas die Luca-App noch bringt\u201d",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "24038e1621c5",
+            "id_readable": "2022-01-13_news_Luca-App-unter-Druck",
+            "links": [
+                {
+                    "url": "https:\/\/background.tagesspiegel.de\/gesundheit\/luca-app-unter-druck",
+                    "text": "Daniel B\u00f6ldt: \u201cLuca-App unter Druck\u201d (tagesspiegel.de)",
+                    "authors": [
+                        "Daniel B\u00f6ldt"
+                    ]
+                }
+            ],
+            "text": "Artikel im Tagesspiegel Background<blockquote>Die Aufmerksamkeit richtet sich nun \u2013 neben den immer noch bestehenden Datenschutz-Bedenken \u2013 auf ein viel gr\u00f6\u00dferes Problem der App: ihren eigentlich Nutzen. Der Chaos Computer Club (CCC) Freiburg verfolgt seit Beginn der App die bundesweiten Kontaktanfragen der Gesundheits\u00e4mter \u00fcber Luca und stellte fest, dass die Anwendung seit Ende Dezember kaum noch genutzt wird. Grund daf\u00fcr sind vor allem die hohen Infektionszahlen, die meisten Gesundheits\u00e4mter haben eine fl\u00e4chendeckende Kontaktverfolgung von Corona-Infizierten l\u00e4ngst aufgegeben und konzentrieren sich auf die Verfolgung innerhalb vulnerabler Gruppen.<\/blockquote><br>Luca wurde offenbar fast ausschlie\u00dflich in Hamburg genutzt: <blockquote>Zahlen aus Hamburg und von Luca legen sogar nahe, dass Luca im Monat Dezember fast ausschlie\u00dflich dort zur Kontaktrecherche genutzt wurde. Insgesamt wurden laut Luca in diesem Monat \u201emehr als 20.000 Mal\u201c Menschen vor einem erh\u00f6hten Infektionsrisiko gewarnt, laut Hamburger Finanzbeh\u00f6rde fielen davon 19.436 Warnungen allein auf den Stadtstaat.<\/blockquote><blockquote>Hamburg ist ein beliebtes Beispiel sowohl von Smudo als auch den Luca-Betreibern f\u00fcr Funktionalit\u00e4t und Nutzen der App. Es ist aber zurzeit auch ein besonders schlechtes. Denn wie die zust\u00e4ndige Hamburger Finanzbeh\u00f6rde Tagesspiegel Background mitteilte, wird die Anwendung auch dort nicht mehr genutzt.<\/blockquote>",
+            "title": "\u201cLuca-App unter Druck\u201d",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "3c9a89de2032",
+            "id_readable": "2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus",
+            "links": [
+                {
+                    "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/luca_app_saarland_vor_dem_aus_100.html",
+                    "text": "Caroline Uhl, Niklas Resch: \u201cLuca-App im Saarland vor dem Aus\u201d (sr.de)",
+                    "authors": [
+                        "Caroline Uhl",
+                        "Niklas Resch"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/gastro_eventbranche_saarland_gegen_vertragsverlaengerung_luca_app_100.html",
+                    "text": "Caroline Uhl: \u201cGastro- und Eventbranche f\u00fcr Aus der Luca-App\u201d (sr.de)",
+                    "authors": [
+                        "Caroline Uhl"
+                    ]
+                }
+            ],
+            "scope": "Land: Saarland",
+            "text": "<blockquote>Nach der Gastronomie- und Eventbranche hat sich nun auch der saarl\u00e4ndische Landkreistag gegen eine Verl\u00e4ngerung der App-Lizenz ausgesprochen.<\/blockquote><blockquote>In zwei F\u00e4llen in Discotheken etwa w\u00e4re das zust\u00e4ndige Gesundheitsamt bei Anwendung von Luca auf bis zu 600 potenzielle Kontaktpersonen gekommen \u2013 ohne genau zu wissen, wem die infizierte Person wirklich begegnet war.<\/blockquote>",
+            "title": "\u201cLuca-App im Saarland vor dem Aus\u201d",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "724d77855c8b",
+            "id_readable": "2022-01-13_news_Berliner-Gesundheitssenatorin-Gote-sieht-Luca-App-kritisch",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/politik\/thema\/corona\/beitraege\/2022\/01\/luca-app-vertraege-pruefung-berlin-brandenburg-kritik.html",
+                    "text": "RBB: \u201cBerliner Gesundheitssenatorin Gote sieht Luca-App kritisch\u201d (rbb24.de)"
+                }
+            ],
+            "scope": "Land: Berlin",
+            "title": "\u201cBerliner Gesundheitssenatorin Gote sieht Luca-App kritisch\u201d",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "806aaea0c9d1",
+            "id_readable": "2022-01-13_news_Luca-muss-um-Vertrge-frchten",
+            "links": [
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/wirtschaft\/luca-app-bundeslaender-vertraege-1.5507037",
+                    "text": "Jana Anzlinger, Jannis Br\u00fchl, Simon Gro\u00df: \u201cLuca muss um Vertr\u00e4ge f\u00fcrchten\u201d (sueddeutsche.de)",
+                    "authors": [
+                        "Jana Anzlinger",
+                        "Jannis Br\u00fchl",
+                        "Simon Gro\u00df"
+                    ]
+                }
+            ],
+            "scope": "Bundesweit",
+            "text": "<blockquote>\"Es braucht jetzt digitale Tools, die eine wirkliche Entlastung f\u00fcr die Gesundheits\u00e4mter darstellen - wie die Corona-Warn-App.\" Die Luca-App bedeute dagegen zus\u00e4tzlichen Arbeitsaufwand, der kaum mehr zu leisten sei. \"Eine K\u00fcndigung der Luca-Vertr\u00e4ge ist daher nur folgerichtig.\"<\/blockquote>",
+            "title": "\u201cLuca muss um Vertr\u00e4ge f\u00fcrchten\u201d",
             "type": "news"
         }
     ]
