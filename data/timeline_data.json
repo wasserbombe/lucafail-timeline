@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "e155f82",
-            "commit_lh": "e155f8288930be473aa9575accb0fd58d0d885a0",
-            "commit_date": "2022-01-14 00:00:41 +0100",
+            "commit_sh": "6f43eab",
+            "commit_lh": "6f43eabbf7b26b390ddaedcb3c418bc31efe50fd",
+            "commit_date": "2022-01-14 18:57:31 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642166454,
+        "ts": 1642195342,
         "date": "2022-01-14"
     },
     "timeline": [
@@ -6647,7 +6647,7 @@
             "type": "news"
         },
         {
-            "date": "13.01.2022",
+            "date": "12.01.2022",
             "dt_created": "2022-01-13 00:00:00",
             "dt_updated": "2022-01-13 00:00:00",
             "id": "b55ce9e49c8c",
@@ -6819,6 +6819,30 @@
             "scope": "Land: Bremen",
             "text": "<blockquote>Seit Vertragsbeginn vor knapp einem Jahr ist es nur in zehn F\u00e4llen gelungen, einen Corona-Kontakt durch die Daten aus der App zu ermitteln. Das Bremer Gesundheitsressort war von Anfang skeptisch, was den Nutzen der Luca-App betrifft.<\/blockquote>",
             "title": "\u201cBremen l\u00e4sst Vertrag f\u00fcr Luca-App auslaufen\u201d",
+            "type": "news"
+        },
+        {
+            "date": "14.01.2022",
+            "dt_created": "2022-01-14 00:00:00",
+            "dt_updated": "2022-01-14 00:00:00",
+            "id": "08cfcb099460",
+            "id_readable": "2022-01-14_news_Keine-Luca-App-mehr--und-dann",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/content\/rbb\/r24\/politik\/thema\/corona\/beitraege\/2022\/01\/luca-app-brandenburg-keine-vertragsverlaengerung.html",
+                    "text": "Leonie Schwarzer: \u201cKeine Luca-App mehr \u2013 und dann?\u201d (rbb24.de)",
+                    "authors": [
+                        "Leonie Schwarzer"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "724d77855c8b"
+                }
+            ],
+            "text": "<blockquote>So empfahl Gesundheitsministerin Ursula Nonnemacher (B\u00fcndnis 90\/Die Gr\u00fcnen) heute, den Vertrag mit der Luca-App zu beenden.<\/blockquote><blockquote>Auch hier sei die Luca-App nicht zur Kontaktverfolgung genutzt worden. Generell w\u00fcrden Restaurants im Infektionsgeschehen keine Rolle spielen, so Larscheid. Und auch in Brandenburg scheinen die Gesundheits\u00e4mter die Luca-App nur wenig zu nutzen: Nur eines der 18 Gesundheits\u00e4mter w\u00fcrden die App laut einer Umfrage vom vergangenen Jahr regem\u00e4\u00dfig nutzen, so die Brandenburger Gesundheitsministerin Nonnemacher am Freitag nach einer Kabinettssitzung.<\/blockquire>",
+            "title": "\u201cKeine Luca-App mehr \u2013 und dann?\u201d",
             "type": "news"
         }
     ]
