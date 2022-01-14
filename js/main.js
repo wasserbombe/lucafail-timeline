@@ -189,9 +189,9 @@
             }]
         },
         'DE-NI': {
-            color: "#8b0000",
-            updated: '2021-12-07',
-            description: 'Die Corona-Verordnung in Niedersachsen schreibt eine strikte Kontaktdatenerfassung vor. Der Einsatz von anonymer Kontaktnachverfolgung ist hier zwar möglich, aber nicht ausreichend. ',
+            color: "#006400",
+            updated: '2022-01-15',
+            description: 'Seit Samstag, dem 15. Januar 2022 ist ein Check-In in Niedersachsen auch mit der Corona-Warn-App möglich. Eine nicht-anonyme Datenerfassung - wie bspw. über die Luca-App - zur Kontaktnachverfolgung ist nicht mehr notwendig.',
             sources: [{
                 url: "https://www.niedersachsen.de/Coronavirus/vorschriften-der-landesregierung-185856.html",
                 text: "Niedersächsische Corona-Verordnung"
