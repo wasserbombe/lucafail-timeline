@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "61e800b",
-            "commit_lh": "61e800b65eab5010e361e201338b2193e9fa5b84",
-            "commit_date": "2022-01-13 21:24:20 +0100",
+            "commit_sh": "e155f82",
+            "commit_lh": "e155f8288930be473aa9575accb0fd58d0d885a0",
+            "commit_date": "2022-01-14 00:00:41 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642114829,
+        "ts": 1642166454,
         "date": "2022-01-14"
     },
     "timeline": [
@@ -6749,6 +6749,76 @@
             "scope": "Bundesweit",
             "text": "<blockquote>\"Es braucht jetzt digitale Tools, die eine wirkliche Entlastung f\u00fcr die Gesundheits\u00e4mter darstellen - wie die Corona-Warn-App.\" Die Luca-App bedeute dagegen zus\u00e4tzlichen Arbeitsaufwand, der kaum mehr zu leisten sei. \"Eine K\u00fcndigung der Luca-Vertr\u00e4ge ist daher nur folgerichtig.\"<\/blockquote>",
             "title": "\u201cLuca muss um Vertr\u00e4ge f\u00fcrchten\u201d",
+            "type": "news"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
+            "id": "82a55fdfe402",
+            "id_readable": "2022-01-13_doc_FDPDVP-Fraktion-beantragt-Auschecken-bei-Luca",
+            "links": [
+                {
+                    "url": "https:\/\/fdp-dvp-fraktion.de\/pressemitteilungen\/karrais-fdpdvp-fraktion-beantragt-auschecken-bei-luca\/",
+                    "text": "Pressemitteilung: \u201cFDP\/DVP-Fraktion beantragt Auschecken bei Luca\u201d (fdp-dvp-fraktion.de)",
+                    "authors": [
+                        "Daniel Karrais"
+                    ]
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "text": "<blockquote>Nutzen zweifelhaft, Kosten hoch, Fremdnutzung m\u00f6glich \u2013 Vertrag darf auf keinen Fall verl\u00e4ngert werden.<\/blockquote>",
+            "title": "\u201cFDP\/DVP-Fraktion beantragt Auschecken bei Luca\u201d",
+            "type": "doc"
+        },
+        {
+            "date": "14.01.2022",
+            "dt_created": "2022-01-14 00:00:00",
+            "dt_updated": "2022-01-14 00:00:00",
+            "embed": [
+                {
+                    "type": "gitlab",
+                    "project": "android",
+                    "issue": "73"
+                },
+                {
+                    "type": "gitlab",
+                    "project": "android",
+                    "issue": "74"
+                }
+            ],
+            "id": "4fc8e463e011",
+            "id_readable": "2022-01-14_doc_Wird-Luca-fr-Android-aufgegeben",
+            "links": [
+                {
+                    "url": "https:\/\/gitlab.com\/lucaapp\/android",
+                    "text": "Gitlab-Repository f\u00fcr die Android-Version der Luca-App (gitlab.com)"
+                }
+            ],
+            "text": "Im <a href=\"https:\/\/gitlab.com\/lucaapp\/android\" target=\"_blank\">Gitlab-Repository<\/a> zur Android-Version der Luca-App gibt es schon seit l\u00e4ngerer Zeit kaum noch Aktivit\u00e4ten. Daher wird nachgefragt, ob das Repository \u00fcberhaupt noch aktiv von Luca genutzt wird.",
+            "title": "\u201cWird Luca f\u00fcr Android aufgegeben?\u201d",
+            "type": "doc"
+        },
+        {
+            "date": "14.01.2022",
+            "dt_created": "2022-01-14 00:00:00",
+            "dt_updated": "2022-01-14 00:00:00",
+            "id": "824bd778d8b8",
+            "id_readable": "2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen",
+            "links": [
+                {
+                    "url": "https:\/\/www.butenunbinnen.de\/nachrichten\/aus-luca-app-bremen-100.html",
+                    "text": "\u201cBremen l\u00e4sst Vertrag f\u00fcr Luca-App auslaufen\u201d (butenunbinnen.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "e5e13762d33b"
+                }
+            ],
+            "scope": "Land: Bremen",
+            "text": "<blockquote>Seit Vertragsbeginn vor knapp einem Jahr ist es nur in zehn F\u00e4llen gelungen, einen Corona-Kontakt durch die Daten aus der App zu ermitteln. Das Bremer Gesundheitsressort war von Anfang skeptisch, was den Nutzen der Luca-App betrifft.<\/blockquote>",
+            "title": "\u201cBremen l\u00e4sst Vertrag f\u00fcr Luca-App auslaufen\u201d",
             "type": "news"
         }
     ]
