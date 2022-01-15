@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b32b748",
-            "commit_lh": "b32b748fdc41a95708f8031d8a533b36389406db",
-            "commit_date": "2022-01-14 22:22:30 +0100",
+            "commit_sh": "b0571c7",
+            "commit_lh": "b0571c7374a5e9744413d0003ec2f029dab33eec",
+            "commit_date": "2022-01-15 13:22:15 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642249307,
+        "ts": 1642253592,
         "date": "2022-01-15"
     },
     "timeline": [
@@ -6862,6 +6862,46 @@
             ],
             "text": "<blockquote>Die flei\u00dfige Datensammelei war \u00fcberfl\u00fcssig, die Gesundheits\u00e4mter r\u00e4umen das offen ein. Zum Beispiel in Rostock: Gerade f\u00fcnf Mal wurden die Daten aus der App bei der Kontaktverfolgung von Menschen, die sich mit Corona angesteckt haben, genutzt. Eine l\u00e4cherlich niedrige Zahl, angesichts von fast 12 000 Coronaf\u00e4llen in der Hansestadt.<\/blockquote><blockquote>Luca ist ein Traum f\u00fcr PR-Profis. Coole Typen wie der Rapper Smudo erfinden mal eben ein smartes Werkzeug, mit der sich Corona l\u00e4ssig wegwischen l\u00e4sst.<\/blockquote>",
             "title": "\u201cZehn Monate Luca-App in MV: Das ganze Gefummel mit dem Handy hat nichts gebracht\u201d",
+            "type": "news"
+        },
+        {
+            "date": "15.01.2022",
+            "dt_created": "2022-01-15 00:00:00",
+            "dt_updated": "2022-01-15 00:00:00",
+            "embed": [
+                {
+                    "type": "tagesschau-video",
+                    "id": "974031"
+                }
+            ],
+            "id": "db63f78f8866",
+            "id_readable": "2022-01-15_Tagesschau-Video-Wie-es-um-die-Zukunft-der-Luca-App-steht",
+            "links": [
+                {
+                    "url": "https:\/\/www.tagesschau.de\/multimedia\/video\/video-974031.html",
+                    "text": "Tagesschau-Video: \u201cWie es um die Zukunft der Luca-App steht\u201d (tagesschau.de)",
+                    "authors": [
+                        "J\u00f6rg Schieb"
+                    ]
+                }
+            ],
+            "title": "Tagesschau-Video: \u201cWie es um die Zukunft der Luca-App steht\u201d",
+            "type": "broadcast"
+        },
+        {
+            "date": "15.01.2022",
+            "dt_created": "2022-01-15 00:00:00",
+            "dt_updated": "2022-01-15 00:00:00",
+            "id": "47a5a0f348a8",
+            "id_readable": "2022-01-15_news_Luca-App-Kndigung-Zweites-Bundesland-mit-Bremen-kndigt-Vertrag-fr-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.telefontarifrechner.de\/Luca-App-Kuendigung:-Zweites-Bundesland-mit-Bremen-kuendigt-Vertrag-fuer-Luca-App-news24907.html",
+                    "text": "\u201cLuca-App-K\u00fcndigung: Zweites Bundesland mit Bremen k\u00fcndigt Vertrag f\u00fcr Luca-App\u201d (telefontarifrechner.de)"
+                }
+            ],
+            "text": "In einem Beitrag auf telefontarifrechner.de gibt es nochmal einen sch\u00f6nen \u00dcberblick dar\u00fcber, wie Luca (nicht) eingesetzt wurde und \u00fcber die Kritik am Luca-System.",
+            "title": "\u201cLuca-App-K\u00fcndigung: Zweites Bundesland mit Bremen k\u00fcndigt Vertrag f\u00fcr Luca-App\u201d",
             "type": "news"
         }
     ]

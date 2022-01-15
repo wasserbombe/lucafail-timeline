@@ -448,6 +448,30 @@
                 return false; 
             }
         },
+        "tagesschau-video": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                // <iframe src="" width="512" height="288" allowfullscreen frameBorder="0" scrolling="no"></iframe>
+                // <iframe src="https://www.tagesschau.de/multimedia/video/video-974031~player.html?start=15.88&ende=205.59" width="512" height="288" allowfullscreen frameBorder="0" scrolling="no"></iframe>
+                if (cfg.id){
+                    var url = "https://www.tagesschau.de/multimedia/video/video-"+cfg.id+"~player.html"; 
+                    if (cfg.startTime && cfg.endTime){
+                        url += "?start="+cfg.startTime+"&ende="+cfg.endTime;
+                    }
+                    var $iframe = $("<iframe>")
+                                    .attr("src", url)
+                                    .attr("allowfullscreen","")
+                                    .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+                                    .attr("frameborder", "0")
+                                    .css("width", "100%")
+                                    .css("min-height", "320px");// .css("width","640").css("height","420");
+                    $container.append($iframe);
+                    return true; 
+                }
+                return false; 
+            }
+        },
         "ccc-media": {
             needsConsent: true,
             type: "iframe",
