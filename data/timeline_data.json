@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "6f43eab",
-            "commit_lh": "6f43eabbf7b26b390ddaedcb3c418bc31efe50fd",
-            "commit_date": "2022-01-14 18:57:31 +0100",
+            "commit_sh": "b32b748",
+            "commit_lh": "b32b748fdc41a95708f8031d8a533b36389406db",
+            "commit_date": "2022-01-14 22:22:30 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642195342,
-        "date": "2022-01-14"
+        "ts": 1642249307,
+        "date": "2022-01-15"
     },
     "timeline": [
         {
@@ -6843,6 +6843,25 @@
             ],
             "text": "<blockquote>So empfahl Gesundheitsministerin Ursula Nonnemacher (B\u00fcndnis 90\/Die Gr\u00fcnen) heute, den Vertrag mit der Luca-App zu beenden.<\/blockquote><blockquote>Auch hier sei die Luca-App nicht zur Kontaktverfolgung genutzt worden. Generell w\u00fcrden Restaurants im Infektionsgeschehen keine Rolle spielen, so Larscheid. Und auch in Brandenburg scheinen die Gesundheits\u00e4mter die Luca-App nur wenig zu nutzen: Nur eines der 18 Gesundheits\u00e4mter w\u00fcrden die App laut einer Umfrage vom vergangenen Jahr regem\u00e4\u00dfig nutzen, so die Brandenburger Gesundheitsministerin Nonnemacher am Freitag nach einer Kabinettssitzung.<\/blockquire>",
             "title": "\u201cKeine Luca-App mehr \u2013 und dann?\u201d",
+            "type": "news"
+        },
+        {
+            "date": "14.01.2022",
+            "dt_created": "2022-01-14 00:00:00",
+            "dt_updated": "2022-01-14 00:00:00",
+            "id": "4c197fd7dab9",
+            "id_readable": "2022-01-14_news_Zehn-Monate-Luca-App-in-MV-Das-ganze-Gefummel-mit-dem-Handy-hat-nichts-gebracht",
+            "links": [
+                {
+                    "url": "https:\/\/www.ostsee-zeitung.de\/Mehr\/Meinung\/Kommentar\/Kommentar-zur-Luca-App-in-MV-Die-Bilanz-nach-zehn-Monaten-ist-peinlich",
+                    "text": "Gerald Kleine W\u00f6rdemann: \u201cZehn Monate Luca-App in MV: Das ganze Gefummel mit dem Handy hat nichts gebracht\u201d (ostsee-zeitung.de)",
+                    "authors": [
+                        "Gerald Kleine W\u00f6rdemann"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Die flei\u00dfige Datensammelei war \u00fcberfl\u00fcssig, die Gesundheits\u00e4mter r\u00e4umen das offen ein. Zum Beispiel in Rostock: Gerade f\u00fcnf Mal wurden die Daten aus der App bei der Kontaktverfolgung von Menschen, die sich mit Corona angesteckt haben, genutzt. Eine l\u00e4cherlich niedrige Zahl, angesichts von fast 12 000 Coronaf\u00e4llen in der Hansestadt.<\/blockquote><blockquote>Luca ist ein Traum f\u00fcr PR-Profis. Coole Typen wie der Rapper Smudo erfinden mal eben ein smartes Werkzeug, mit der sich Corona l\u00e4ssig wegwischen l\u00e4sst.<\/blockquote>",
+            "title": "\u201cZehn Monate Luca-App in MV: Das ganze Gefummel mit dem Handy hat nichts gebracht\u201d",
             "type": "news"
         }
     ]

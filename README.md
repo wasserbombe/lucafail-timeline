@@ -20,3 +20,4 @@ Git-Repo for [timeline.luca.fail](https://timeline.luca.fail/)
 - [x] geocode data, show map
 - [ ] RSS-Feed ([#2](https://github.com/wasserbombe/lucafail-timeline/issues/2))
 - [ ] E-Mail Newsletter ([#2](https://github.com/wasserbombe/lucafail-timeline/issues/2))
+- [ ] translated version for international press
