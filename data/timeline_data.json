@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "34bb24c",
-            "commit_lh": "34bb24cd674b1e67b7bd013c58b6bfc87e2d6862",
-            "commit_date": "2022-01-18 16:49:36 +0100",
+            "commit_sh": "e8b2e22",
+            "commit_lh": "e8b2e22e4b3bd83f2283f91094bb3f340dcae4e7",
+            "commit_date": "2022-01-18 20:32:42 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642534291,
+        "ts": 1642534776,
         "date": "2022-01-18"
     },
     "timeline": [
@@ -6942,6 +6942,28 @@
             "text": "<blockquote>Die Luca App hat ausgedient. Wobei \"ausgedient\" das falsche Wort ist. Denn daf\u00fcr m\u00fcsste sie schlie\u00dflich gedient haben. Hat sie aber nicht. Zumindest im Vogelsbergkreis. Nicht eine Infektion ist \u00fcber die Kontaktnachverfolgungs-App, an der unter anderem der S\u00e4nger Smudo beteiligt ist, an das hiesige Gesundheitsamt \u00fcbermittelt worden. Von bislang knapp 7000 Personen im Kreis, bei denen das Virus nachgewiesen worden ist, hat demnach nicht eine einzige ihre Infektion in diese App eingetragen. Der Nutzen ist somit nicht messbar, sie ist irrelevant, wie unsere Zeitung in dieser Woche titelte.<\/blockquote>",
             "title": "\u201cAusgediente Luca App\u201d",
             "type": "news"
+        },
+        {
+            "date": "16.01.2022",
+            "dt_created": "2022-01-16 00:00:00",
+            "dt_updated": "2022-01-16 00:00:00",
+            "embed": [
+                {
+                    "type": "br-podcast",
+                    "episode": "1846635"
+                }
+            ],
+            "id": "e0373b242792",
+            "id_readable": "2022-01-16_podcast_BR-Podcast-Das-Computermagazin---Zukunft-der-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.br.de\/mediathek\/podcast\/das-computermagazin\/576",
+                    "text": "BR Podcast: \u201cDas Computermagazin - Zukunft der Luca-App\u201d (br.de)"
+                }
+            ],
+            "text": "<blockquote>Wir brauchen eine bessere Form der staatlichen Softwareentwicklung<\/blockquote>",
+            "title": "BR Podcast: \u201cDas Computermagazin - Zukunft der Luca-App\u201d",
+            "type": "podcast"
         },
         {
             "date": "17.01.2022",

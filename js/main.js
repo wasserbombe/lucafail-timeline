@@ -472,6 +472,29 @@
                 return false; 
             }
         },
+        "br-podcast": {
+            needsConsent: true,
+            type: "iframe",
+            embed: ($container, cfg) => {
+                // <iframe src="https://www.br.de/mediathek/podcast/embed?episode=1846635" width="320px" height="120px"></iframe>
+                if (cfg.episode){
+                    var url = "https://www.br.de/mediathek/podcast/embed?episode="+cfg.episode; 
+                    if (cfg.startTime && cfg.endTime){
+                        url += "?start="+cfg.startTime+"&ende="+cfg.endTime;
+                    }
+                    var $iframe = $("<iframe>")
+                                    .attr("src", url)
+                                    .attr("allowfullscreen","")
+                                    .attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+                                    .attr("frameborder", "0")
+                                    .css("width", "100%")
+                                    .css("min-height", "120px");// .css("width","640").css("height","420");
+                    $container.append($iframe);
+                    return true; 
+                }
+                return false; 
+            }
+        },
         "ccc-media": {
             needsConsent: true,
             type: "iframe",
