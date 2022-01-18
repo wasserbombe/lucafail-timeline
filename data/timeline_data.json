@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "73e6faa",
-            "commit_lh": "73e6faa5d42bbe50e705fb946466db37be121438",
-            "commit_date": "2022-01-18 20:39:59 +0100",
+            "commit_sh": "83ee4c7",
+            "commit_lh": "83ee4c7c81885c3968d855edd3041de57c425a0a",
+            "commit_date": "2022-01-18 22:38:22 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642541281,
+        "ts": 1642542288,
         "date": "2022-01-18"
     },
     "timeline": [
@@ -7090,6 +7090,28 @@
             "date": "18.01.2022",
             "dt_created": "2022-01-18 00:00:00",
             "dt_updated": "2022-01-18 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1483336052354035715"
+                }
+            ],
+            "id": "65a556728517",
+            "id_readable": "2022-01-18_doc_Chaos-Computer-Club-Freiburg-Auffllig-Luca-selbst-dementiert-Relevanzproblem-nichtmal",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1483336052354035715",
+                    "text": "Tweet Chaos Computer Club Freiburg (twitter.com)"
+                }
+            ],
+            "text": "<blockquote>Auff\u00e4llig: Luca selbst dementiert Relevanzproblem nichtmal!<br>Sie selber wissen auch nicht ob sie eher eine Ticketing App (eure Daten verscherbeln) oder eine B\u00fcrger-zu-Amt App werden wollen. Es besteht die reale Gefahr das erneut ohne Ausschreibung in die L\u00e4nder verkauft wird.<br><br>..mit neuen Heilsversprechen einer B\u00fcrger zu Amt Kommunikation bei der Luca eine zentrale Rolle einnehmen m\u00f6chte, die Kontakte zu euch verwaltet.<br>Das ist auf so vielen Ebenen Problematisch das wir dringend davon abraten. Wir brauchen aber eure Hilfe: schreibt bitte euren L\u00e4ndern.",
+            "title": "Chaos Computer Club Freiburg: \u201cAuff\u00e4llig: Luca selbst dementiert Relevanzproblem nichtmal\u201d",
+            "type": "doc"
+        },
+        {
+            "date": "18.01.2022",
+            "dt_created": "2022-01-18 00:00:00",
+            "dt_updated": "2022-01-18 00:00:00",
             "id": "e188ce29b7da",
             "id_readable": "2022-01-18_news_Das-Polizeiprsidium-Freiburg-wrde--erneut-eine-Datenabfrage-ersuchen",
             "links": [
@@ -7119,6 +7141,11 @@
                         "Anna Lisa L\u00fcft",
                         "dpa"
                     ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "c746798f6c6c"
                 }
             ],
             "scope": "Land: Hessen",
