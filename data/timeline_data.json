@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "76963c5",
-            "commit_lh": "76963c57986fbb91a61cc0ccb3f0f84f243d9087",
-            "commit_date": "2022-01-18 22:51:25 +0100",
+            "commit_sh": "211d6fd",
+            "commit_lh": "211d6fdbd84b66c55e65c01c515862bfd732df5a",
+            "commit_date": "2022-01-18 23:13:12 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642543214,
+        "ts": 1642545335,
         "date": "2022-01-18"
     },
     "timeline": [
@@ -7063,6 +7063,25 @@
             "type": "broadcast"
         },
         {
+            "date": "17.01.2022",
+            "dt_created": "2022-01-17 00:00:00",
+            "dt_updated": "2022-01-17 00:00:00",
+            "id": "41e16ea50fae",
+            "id_readable": "2022-01-17_news_Den-ganz-harten-Hass-blocke-ich-einfach-direkt",
+            "links": [
+                {
+                    "url": "https:\/\/www.faz.net\/aktuell\/wirtschaft\/unternehmen\/luca-app-aendert-das-geschaeftsmodell-erste-vertragskuendigungen-17735737.html",
+                    "text": "Sarah Obertreis: \u201c\u201eDen ganz harten Hass blocke ich einfach direkt\u201c\u201d (faz.net)",
+                    "authors": [
+                        "Sarah Obertreis"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Gleichzeitig, sagt Smudo, sei sein Investment bisher nicht lukrativ gewesen.<\/blockquote><blockquote>Culture4life plane, der Gastronomie und der Veranstaltungsbranche bei der dringend notwendigen Digitalisierung zu helfen. Hennig kann sich ein digitales Bezahlsystem vorstellen, das f\u00fcr die Gastronomen g\u00fcnstiger ist als das Visa- oder Mastercard-System und direkt \u00fcber die Luca-App funktioniert.<\/blockquote><blockquote>Der einstige Zweck der App ist hinf\u00e4llig geworden in einer Zeit, in der die Inzidenz im bundesweiten Durchschnitt bei \u00fcber 500 liegt. Kein Gesundheitsamt schafft es dann noch den Ursprung der einzelnen Infektionen zur\u00fcckzuverfolgen.<\/blockquote>",
+            "title": "\u201c\u201eDen ganz harten Hass blocke ich einfach direkt\u201c\u201d",
+            "type": "news"
+        },
+        {
             "date": "18.01.2022",
             "dt_created": "2022-01-18 00:00:00",
             "dt_updated": "2022-01-18 00:00:00",
@@ -7177,6 +7196,44 @@
             "title": "Hessen: \u201cKommt jetzt das Aus f\u00fcr die Luca-App?\u201d",
             "type": "news",
             "viaDPAInfocom": true
+        },
+        {
+            "date": "18.01.2022",
+            "dt_created": "2022-01-18 00:00:00",
+            "dt_updated": "2022-01-18 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/BangSeezy\/status\/1483379316360724485"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/msb2k\/status\/1480852460201775111"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/daniel_bouhs\/status\/1475727952453287938"
+                }
+            ],
+            "id": "78b85755e7ab",
+            "id_readable": "2022-01-18_incident_Probleme-beim-Lschen-des-Luca-Accounts",
+            "links": [
+                {
+                    "url": "https:\/\/twitter.com\/BangSeezy\/status\/1483379316360724485",
+                    "text": "Tweet von @BangSeezy (twitter.com)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/msb2k\/status\/1480852460201775111",
+                    "text": "Tweet von @msb2k (twitter.com)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/daniel_bouhs\/status\/1475727952453287938",
+                    "text": "Tweet von @daniel_bouhs (twitter.com)"
+                }
+            ],
+            "text": "Offenbar gibt es selbst beim L\u00f6schen des Luca-Accounts \u00fcber die Luca-App Probleme und Fehlermeldungen - davon berichten einige Nutzer auf Twitter.",
+            "title": "Probleme beim L\u00f6schen des Luca-Accounts",
+            "type": "incident"
         }
     ]
 }
