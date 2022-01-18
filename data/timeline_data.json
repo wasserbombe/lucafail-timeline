@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "d0d67e7",
-            "commit_lh": "d0d67e759740eb583a8db540347ebd23d46a1541",
-            "commit_date": "2022-01-18 12:54:12 +0100",
+            "commit_sh": "34bb24c",
+            "commit_lh": "34bb24cd674b1e67b7bd013c58b6bfc87e2d6862",
+            "commit_date": "2022-01-18 16:49:36 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642520957,
+        "ts": 1642534291,
         "date": "2022-01-18"
     },
     "timeline": [
@@ -5868,6 +5868,26 @@
             "type": "news"
         },
         {
+            "date": "12.12.2021",
+            "dt_created": "2022-01-18 17:00:00",
+            "dt_updated": "2022-01-18 17:00:00",
+            "id": "c746798f6c6c",
+            "id_readable": "2021-12-12_news_Luca-App-vor-dem-Aus-in-Hessen",
+            "links": [
+                {
+                    "url": "https:\/\/www.fr.de\/rhein-main\/landespolitik\/luca-app-vor-dem-aus-in-hessen-91174523.html",
+                    "text": "Pitt von Bebenburg: \u201cLuca-App vor dem Aus in Hessen\u201d (fr.de)",
+                    "authors": [
+                        "Pitt von Bebenburg"
+                    ]
+                }
+            ],
+            "scope": "Land: Hessen",
+            "text": "<blockquote>Die Erfolge sind offenbar \u00fcberschaubar. Wie das hessische Digitalministerium von Kristina Sinemus (CDU) auf FR-Anfrage berichtet, wurden von den 24 hessischen Gesundheits\u00e4mtern innerhalb der vergangenen vier Wochen rund 2150 Kontaktdaten angefragt. Ausgespielt wurden in dieser Zeit gut 1100 Warnweise \u201em\u00f6gliches Infektionsrisiko\u201c sowie rund 70 Warnhinweise \u201eerh\u00f6htes Infektionsrisiko\u201c. Sie betrafen damit nur einen Bruchteil der mehr als 60 000 Neuinfektionen im gleichen Zeitraum.<\/blockquote>",
+            "title": "\u201cLuca-App vor dem Aus in Hessen\u201d",
+            "type": "news"
+        },
+        {
             "date": "16.12.2021",
             "dt_created": "2021-12-16 00:00:00",
             "dt_updated": "2021-12-16 00:00:00",
@@ -7027,6 +7047,13 @@
                 {
                     "url": "https:\/\/www.radiobrocken.de\/nachrichten\/Luca-App-Sachsen-Anhalt-will-aussteigen-id634078.html",
                     "text": "\u201cLuca-App: Sachsen-Anhalt will aussteigen\u201d (radiobrocken.de)"
+                },
+                {
+                    "url": "https:\/\/www.mdr.de\/nachrichten\/sachsen-anhalt\/luca-app-nur-elf-mal-genutzt-100.html",
+                    "text": "Marcel Roth: \u201cLuca-App in Sachsen-Anhalt: Elf Mal genutzt\u201d (mdr.de)",
+                    "authors": [
+                        "Marcel Roth"
+                    ]
                 }
             ],
             "scope": "Land: Sachsen-Anhalt",
