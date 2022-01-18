@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b0571c7",
-            "commit_lh": "b0571c7374a5e9744413d0003ec2f029dab33eec",
-            "commit_date": "2022-01-15 13:22:15 +0100",
+            "commit_sh": "73f9509",
+            "commit_lh": "73f95094784c44b644ba158f7463d02d4950c6a1",
+            "commit_date": "2022-01-15 14:35:06 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642253592,
-        "date": "2022-01-15"
+        "ts": 1642505905,
+        "date": "2022-01-18"
     },
     "timeline": [
         {
@@ -6903,6 +6903,119 @@
             "text": "In einem Beitrag auf telefontarifrechner.de gibt es nochmal einen sch\u00f6nen \u00dcberblick dar\u00fcber, wie Luca (nicht) eingesetzt wurde und \u00fcber die Kritik am Luca-System.",
             "title": "\u201cLuca-App-K\u00fcndigung: Zweites Bundesland mit Bremen k\u00fcndigt Vertrag f\u00fcr Luca-App\u201d",
             "type": "news"
+        },
+        {
+            "date": "16.01.2022",
+            "dt_created": "2022-01-16 00:00:00",
+            "dt_updated": "2022-01-16 00:00:00",
+            "id": "a1d864480985",
+            "id_readable": "2022-01-16_news_Ausgediente-Luca-App-und-verleumdende-Facebook-Beitrge",
+            "links": [
+                {
+                    "url": "https:\/\/www.oberhessische-zeitung.de\/lokales\/vogelsbergkreis\/landkreis\/ausgediente-luca-app-und-verleumdende-facebook-beitrage_25152328",
+                    "text": "Maximilian Gerten: \u201cAusgediente Luca App und verleumdende Facebook-Beitr\u00e4ge\u201d (oberhessische-zeitung.de)",
+                    "authors": [
+                        "Maximilian Gerten"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Die Luca App hat ausgedient. Wobei \"ausgedient\" das falsche Wort ist. Denn daf\u00fcr m\u00fcsste sie schlie\u00dflich gedient haben. Hat sie aber nicht. Zumindest im Vogelsbergkreis. Nicht eine Infektion ist \u00fcber die Kontaktnachverfolgungs-App, an der unter anderem der S\u00e4nger Smudo beteiligt ist, an das hiesige Gesundheitsamt \u00fcbermittelt worden. Von bislang knapp 7000 Personen im Kreis, bei denen das Virus nachgewiesen worden ist, hat demnach nicht eine einzige ihre Infektion in diese App eingetragen. Der Nutzen ist somit nicht messbar, sie ist irrelevant, wie unsere Zeitung in dieser Woche titelte.<\/blockquote>",
+            "title": "\u201cAusgediente Luca App\u201d",
+            "type": "news"
+        },
+        {
+            "date": "17.01.2022",
+            "dt_created": "2022-01-17 00:00:00",
+            "dt_updated": "2022-01-17 00:00:00",
+            "id": "b76fa11d9f66",
+            "id_readable": "2022-01-17_news_Keine-Entlastung-fr-Gesundheitsmter---Kontaktnachverfolgung-Warum-der-Luca-App-eine-Kndigungswelle-droht",
+            "links": [
+                {
+                    "url": "https:\/\/www.vorwaerts.de\/artikel\/kontaktnachverfolgung-luca-app-kuendigungswelle-droht",
+                    "text": "Benedikt Dittrich: \u201cKeine Entlastung f\u00fcr Gesundheits\u00e4mter - Kontaktnachverfolgung: Warum der Luca-App eine K\u00fcndigungswelle droht\u201d (vorwaerts.de)",
+                    "authors": [
+                        "Benedikt Dittrich"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Damit wird f\u00fcr die Entwickler die grundlegende Funktionsweise der App zu einem Problem, die auch schon im vergangenen Jahr f\u00fcr massive Kritik gesorgt hatte: Anders als bei der mit Hilfe des Robert-Koch-Instituts entwickelten Corona-Warn-App sind bei Luca die Gesundheits\u00e4mter direkt eingebunden. Die zentral gespeicherten Daten der Nutzer*innen m\u00fcssen aktiv abgefragt werden, um m\u00f6gliche Infektionsherde zu identifizieren. Und weil das in der Vergangenheit nur sehr selten passierte, meint Tillmann r\u00fcckblickend: \u201eDie App hat keinen gro\u00dfen Vorteil gebracht.\u201c<\/blockquote>",
+            "title": "\u201cKeine Entlastung f\u00fcr Gesundheits\u00e4mter - Kontaktnachverfolgung: Warum der Luca-App eine K\u00fcndigungswelle droht\u201d",
+            "type": "news"
+        },
+        {
+            "date": "17.01.2022",
+            "dt_created": "2022-01-17 00:00:00",
+            "dt_updated": "2022-01-17 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/kattascha\/status\/1483144620536217605"
+                }
+            ],
+            "id": "99589775efdf",
+            "id_readable": "2022-01-17_news_Neue-Geschftsmodelle-besttigt",
+            "links": [
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/neue-geschaeftsmodelle-bestaetigt-luca-app-will-endemisch-werden\/",
+                    "text": "\u201cNeue Gesch\u00e4ftsmodelle best\u00e4tigt: Luca-App will endemisch werden\u201d (netzpolitik.org)",
+                    "authors": [
+                        "Markus Reuter",
+                        "Anna Biselli"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.spiegel.de\/netzwelt\/apps\/luca-betreiber-wollen-app-mit-preisnachlaessen-anbieten-a-cab7c709-fdfe-4940-a054-d9900d8f7474",
+                    "text": "\u201cLuca-Betreiber wollen App mit Preisnachl\u00e4ssen anbieten\u201d (spiegel.de)",
+                    "authors": [
+                        "dpa"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.golem.de\/news\/neues-geschaeftsmodell-luca-app-plant-flexible-abos-und-will-preise-senken-2201-162463.html",
+                    "text": "Friedhelm Greis: \u201cLuca-App plant flexible Abos und will Preise senken\u201d (golem.de)",
+                    "authors": [
+                        "Friedhelm Greis"
+                    ]
+                },
+                {
+                    "url": "https:\/\/winfuture.de\/news,127560.html",
+                    "text": "Witold Pryjda: \u201cPreisnachl\u00e4sse: Luca-App landet auf dem virtuellen Grabbeltisch\u201d (winfuture.de)",
+                    "authors": [
+                        "Witold Pryjda"
+                    ]
+                }
+            ],
+            "tags": [
+                "gesch\u00e4ftsmodell",
+                "winterschlussverkauf",
+                "finanzierung"
+            ],
+            "text": "Wovor viele Kritiker gewarnt haben ist nun eingetreten:<blockquote>Die Betreiber der Luca-App k\u00fcndigen neue Gesch\u00e4ftsmodelle an. In der letzten Woche hatten sie konkrete Fragen von netzpolitik.org zu diesem Thema weder dementiert noch best\u00e4tigt. Unsere Recherchen hatten einen wahrscheinlichen Ausbau von der Kontaktverfolgung hin zu einer Gastro- und Event-App beschrieben, der Chaos Computer Club hatte schon im Fr\u00fchling 2021 vor diesem Szenario gewarnt. [...]<br>Geplant ist offenbar eine Art Komplettl\u00f6sung f\u00fcr Ticket-Kauf, Identit\u00e4tskontrolle sowie Impf- oder Testnachweis. Dabei will Luca \u201edigital alles in einem Prozess abbilden, ganz ohne zentralen Validierungsdienst\u201c. Mit der Funktion einer digitalen ID, basierend auf dem Personalausweis, wie es bereits in anderen L\u00e4ndern m\u00f6glich ist, soll Luca nach Eigeneinsch\u00e4tzung eine Vereinfachung f\u00fcr Gastronomen und Veranstalter erm\u00f6glichen.<\/blockquote>\u2794 Dass Luca eine Integration einer \"digitalen ID\" vorsieht, ist insbesondere vor dem Hintergrund interessant, dass eine offizielle App der Bundesregierung (<a href=\"https:\/\/www.zeit.de\/digital\/2021-11\/app-id-wallet-gescheitert-digitale-identitaet-fuehrerschein-personalausweis\" target=\"_blank\">ID Wallet<\/a>) dabei gerade gescheitert ist - eine digitale ID ist also nicht ohne weiteres umzusetzen. Die Verkn\u00fcpfung einer Contact Tracing-App mit Ausweisdaten und Event-Tickets wirft weitere Fragen auf.<br><br>Zuk\u00fcnftig soll es Luca auch g\u00fcnstiger und flexibler geben:<blockquote>Winterschlussverkauf bei Luca: Die Macher der umstrittenen Kontaktnachverfolgungs-App kommen den Bundesl\u00e4ndern bei den [...] Vertragsverl\u00e4ngerungen entgegen. Die L\u00e4nder [...] k\u00f6nnen sich Monat f\u00fcr Monat entscheiden, ob ihre Gesundheits\u00e4mter die Luca-Daten nutzen sollen, teilte die Betreibergesellschaft Cultur4Life [...] mit.<br>Gleichzeitig halbierten die Luca-Macher die Kosten: Pro Gesundheitsamt werden k\u00fcnftig 9000 Euro pro Jahr f\u00e4llig statt bislang 18.000 Euro.<\/blockquote>\u2794 Das wirft Fragen zur Finanzierung auf: Entweder hat man Luca in der ersten Zeit viel zu teuer verkauft - denn man argumentierte immer, dass prim\u00e4r die Infrastruktur und SMS-Kosten diese hohen Kosten verursachen -, oder das neue Gesch\u00e4ftsmodell deckt bereits anderweitig die Kosten.<br><br><blockquote>Im vergangenen August hatte Hennig dem SPIEGEL noch gesagt, es gebe kein postpandemisches Gesch\u00e4ftsmodell f\u00fcr Luca.<\/blockquote>",
+            "title": "\u201cNeue Gesch\u00e4ftsmodelle best\u00e4tigt\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "17.01.2022",
+            "dt_created": "2022-01-17 00:00:00",
+            "dt_updated": "2022-01-17 00:00:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "Sa7rl757Suo"
+                }
+            ],
+            "id": "5cd712278f0b",
+            "id_readable": "2022-01-17_broadcast_Tagesschau-Diskussion-ber-Zukunft-der-Luca-App-bei-der-Kontaktnachverfolgung",
+            "links": [
+                {
+                    "url": "https:\/\/www.youtube.com\/watch?v=Sa7rl757Suo",
+                    "text": "Tagesschau: \u201cDiskussion \u00fcber Zukunft der Luca-App bei der Kontaktnachverfolgung\u201d (youtube.com)"
+                }
+            ],
+            "text": "<blockquote>Um profitabel zu bleiben integrieren die Luca-Anbieter immer wieder neue Funktionen, die immer neue Risiken f\u00fcr die Nutzer bedeuten - und das passiert leider oft durch die Hintert\u00fcr und ohne, dass es die Nutzer merken.<\/blockquote><div class=\"quote-origin\">\u2014 Theresa Stadler, Technische Hochschule Lausanne<\/div>",
+            "title": "Tagesschau: \u201cDiskussion \u00fcber Zukunft der Luca-App bei der Kontaktnachverfolgung\u201d",
+            "type": "broadcast"
         }
     ]
 }
