@@ -367,3 +367,11 @@ div.quote-origin {
     text-align: right;
     margin-bottom: 10px;
 }
+
+.tl-badge-dpa {
+    background-color: #0047e1;
+    color: white; 
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}

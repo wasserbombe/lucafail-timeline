@@ -863,6 +863,10 @@
                     subtitle.push('<a href="#'+e.id_readable+'"><i class="bi-link"></i></a>')
                     subtitle.push(e.id);
                 }
+
+                if (typeof e.viaDPAInfocom != "undefined" && e.viaDPAInfocom){
+                    subtitle.push('<span class="tl-badge tl-badge-dpa"><i class="bi-megaphone"></i> DPA-Boost</span>');
+                }
                 
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));
                 var $p = $("<p>").append($small);

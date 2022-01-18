@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "e8b2e22",
-            "commit_lh": "e8b2e22e4b3bd83f2283f91094bb3f340dcae4e7",
-            "commit_date": "2022-01-18 20:32:42 +0100",
+            "commit_sh": "73e6faa",
+            "commit_lh": "73e6faa5d42bbe50e705fb946466db37be121438",
+            "commit_date": "2022-01-18 20:39:59 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642534776,
+        "ts": 1642541281,
         "date": "2022-01-18"
     },
     "timeline": [
@@ -3906,7 +3906,8 @@
             "text": "<blockquote>Am kommenden Mittwoch beginnt vor dem Oberlandesgericht Rostock der Prozess gegen die Vergabe der Luca-App ohne Ausschreibung. Die \u00f6sterreichische Firma Cube Software- und Hotel Projektierungs GmbH verklagt das Land MV wegen der Beschaffung der Luca-App zur Kontaktnachverfolgung durch die Gesundheits\u00e4mter. Drei Tage bevor die Luca-App der Culture4life GmbH beauftragt wurde, hatte die Kl\u00e4gerin ebenfalls Interesse an einem Auftrag bekundet.<\/blockquote>",
             "title": "tv.rostock: Klage gegen Vergabe der Luca-App",
             "type": "news",
-            "verified": true
+            "verified": true,
+            "viaDPAInfocom": true
         },
         {
             "date": "05.08.2021",
@@ -6517,7 +6518,8 @@
             "text": "Grund daf\u00fcr: Luca wird nicht ben\u00f6tigt, wenn keine Kontaktdaten erhoben werden. Schleswig-Holstein plant derzeit nicht, die Pflicht zur Erhebung von Kontaktdaten wieder einzuf\u00fchren, somit ist die Lizenz auch in Zukunft nicht n\u00f6tig. Auch habe sich die Nutzung durch die Gesundheits\u00e4mter reduziert, nachdem keine Pflicht zur Kontaktdatenerhebung mehr bestand. Zu den Kosten f\u00fcr ein Jahr Nutzung: <blockquote>Die Gesamtkosten f\u00fcr ein Jahr Luca-Nutzung in den 15 Gesundheits\u00e4mtern des Landes beliefen sich laut Schulz auf etwa 1,25 Millionen Euro. Das Land Schleswig-Holstein hat rund 900.000 Euro der Kosten getragen, die restlichen rund 350.000 haben die Kreise und St\u00e4dte \u00fcbernommen. Deren Ausgaben sind jedoch aus Mitteln des Bundes refinanziert worden.<\/blockquote>",
             "title": "Schleswig-Holstein k\u00fcndig Luca-Lizenz",
             "type": "news",
-            "verified": true
+            "verified": true,
+            "viaDPAInfocom": true
         },
         {
             "date": "12.01.2022",
@@ -7035,7 +7037,8 @@
             "text": "Wovor viele Kritiker gewarnt haben ist nun eingetreten:<blockquote>Die Betreiber der Luca-App k\u00fcndigen neue Gesch\u00e4ftsmodelle an. In der letzten Woche hatten sie konkrete Fragen von netzpolitik.org zu diesem Thema weder dementiert noch best\u00e4tigt. Unsere Recherchen hatten einen wahrscheinlichen Ausbau von der Kontaktverfolgung hin zu einer Gastro- und Event-App beschrieben, der Chaos Computer Club hatte schon im Fr\u00fchling 2021 vor diesem Szenario gewarnt. [...]<br>Geplant ist offenbar eine Art Komplettl\u00f6sung f\u00fcr Ticket-Kauf, Identit\u00e4tskontrolle sowie Impf- oder Testnachweis. Dabei will Luca \u201edigital alles in einem Prozess abbilden, ganz ohne zentralen Validierungsdienst\u201c. Mit der Funktion einer digitalen ID, basierend auf dem Personalausweis, wie es bereits in anderen L\u00e4ndern m\u00f6glich ist, soll Luca nach Eigeneinsch\u00e4tzung eine Vereinfachung f\u00fcr Gastronomen und Veranstalter erm\u00f6glichen.<\/blockquote>\u2794 Dass Luca eine Integration einer \"digitalen ID\" vorsieht, ist insbesondere vor dem Hintergrund interessant, dass eine offizielle App der Bundesregierung (<a href=\"https:\/\/www.zeit.de\/digital\/2021-11\/app-id-wallet-gescheitert-digitale-identitaet-fuehrerschein-personalausweis\" target=\"_blank\">ID Wallet<\/a>) dabei gerade gescheitert ist - eine digitale ID ist also nicht ohne weiteres umzusetzen. Die Verkn\u00fcpfung einer Contact Tracing-App mit Ausweisdaten und Event-Tickets wirft weitere Fragen auf.<br><br>Zuk\u00fcnftig soll es Luca auch g\u00fcnstiger und flexibler geben:<blockquote>Winterschlussverkauf bei Luca: Die Macher der umstrittenen Kontaktnachverfolgungs-App kommen den Bundesl\u00e4ndern bei den [...] Vertragsverl\u00e4ngerungen entgegen. Die L\u00e4nder [...] k\u00f6nnen sich Monat f\u00fcr Monat entscheiden, ob ihre Gesundheits\u00e4mter die Luca-Daten nutzen sollen, teilte die Betreibergesellschaft Cultur4Life [...] mit.<br>Gleichzeitig halbierten die Luca-Macher die Kosten: Pro Gesundheitsamt werden k\u00fcnftig 9000 Euro pro Jahr f\u00e4llig statt bislang 18.000 Euro.<\/blockquote>\u2794 Das wirft Fragen zur Finanzierung auf: Entweder hat man Luca in der ersten Zeit viel zu teuer verkauft - denn man argumentierte immer, dass prim\u00e4r die Infrastruktur und SMS-Kosten diese hohen Kosten verursachen -, oder das neue Gesch\u00e4ftsmodell deckt bereits anderweitig die Kosten.<br><br><blockquote>Im vergangenen August hatte Hennig dem SPIEGEL noch gesagt, es gebe kein postpandemisches Gesch\u00e4ftsmodell f\u00fcr Luca.<\/blockquote>",
             "title": "\u201cNeue Gesch\u00e4ftsmodelle best\u00e4tigt\u201d",
             "type": "news",
-            "verified": true
+            "verified": true,
+            "viaDPAInfocom": true
         },
         {
             "date": "17.01.2022",
@@ -7101,6 +7104,28 @@
             "text": "Das Polizeipr\u00e4sidium Freiburg hat versucht, auf Luca-Daten zuzugreifen. Das Gesundheitsamt hat eine entsprechende Anfrage aber abgelehnt.<blockquote>Doch das Polizeipr\u00e4sidium Freiburg w\u00fcrde bei schweren Straftaten erneut eine Datenabfrage ersuchen, so eine Sprecherin auf BZ-Nachfrage.<\/blockquote>",
             "title": "\u201cDas Polizeipr\u00e4sidium Freiburg w\u00fcrde [...] erneut eine Datenabfrage ersuchen.\u201d",
             "type": "news"
+        },
+        {
+            "date": "18.01.2022",
+            "dt_created": "2022-01-18 00:00:00",
+            "dt_updated": "2022-01-18 00:00:00",
+            "id": "2309b758dee2",
+            "id_readable": "2022-01-18_news_Hessen-Kommt-jetzt-das-Aus-fr-die-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.hessenschau.de\/politik\/kommt-jetzt-das-aus-fuer-die-luca-app,luca-app-verlaengerung-100.html",
+                    "text": "Anna Lisa L\u00fcft: \u201cKommt jetzt das Aus f\u00fcr die Luca-App?\u201d (hessenschau.de)",
+                    "authors": [
+                        "Anna Lisa L\u00fcft",
+                        "dpa"
+                    ]
+                }
+            ],
+            "scope": "Land: Hessen",
+            "text": "<blockquote>Wie oft die 24 hessischen Gesundheits\u00e4mter in den vergangenen Wochen Daten aus der App abgefragt haben, ist laut Betreiber nicht erfasst. Auch dem Digitalministerium liegen nur Daten aus dem vorigen Jahr vor. Demnach wurden im November rund 2.150 Kontaktdaten abgefragt - bei mehr als 60.000 Neuinfektionen im selben Zeitraum.<\/blockquote><blockquote>Die Linke-Fraktion im Landtag kritisiert, die Daten w\u00fcrden den Gesundheits\u00e4mtern in einer \"schlecht strukturierten Form\" geliefert. Dadurch werde ihnen die Arbeit nicht erleichtert, sondern erschwert. [...] Auch SPD, FDP und AfD sprechen sich gegen eine Vertragsverl\u00e4ngerung aus. Den Sicherheitsrisiken durch die App stehe kein verh\u00e4ltnism\u00e4\u00dfiger Nutzen gegen\u00fcber, moniert der digitalpolitische Sprecher der AfD, Andreas Lichert: \"Eine Vertragsverl\u00e4ngerung mit einem Hersteller, der prim\u00e4r Gewinnerzielungsabsichten verfolgt und es nicht schafft, Sicherheitsl\u00fccken zu beheben, verbietet sich.\"<\/blockquote>",
+            "title": "Hessen: \u201cKommt jetzt das Aus f\u00fcr die Luca-App?\u201d",
+            "type": "news",
+            "viaDPAInfocom": true
         }
     ]
 }
