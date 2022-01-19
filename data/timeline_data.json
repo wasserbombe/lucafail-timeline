@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "211d6fd",
-            "commit_lh": "211d6fdbd84b66c55e65c01c515862bfd732df5a",
-            "commit_date": "2022-01-18 23:13:12 +0100",
+            "commit_sh": "6756be3",
+            "commit_lh": "6756be302d73852d71a8cafb02c249b4dabde447",
+            "commit_date": "2022-01-18 23:36:39 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642545335,
-        "date": "2022-01-18"
+        "ts": 1642582024,
+        "date": "2022-01-19"
     },
     "timeline": [
         {
@@ -7234,6 +7234,25 @@
             "text": "Offenbar gibt es selbst beim L\u00f6schen des Luca-Accounts \u00fcber die Luca-App Probleme und Fehlermeldungen - davon berichten einige Nutzer auf Twitter.",
             "title": "Probleme beim L\u00f6schen des Luca-Accounts",
             "type": "incident"
+        },
+        {
+            "date": "19.01.2022",
+            "dt_created": "2022-01-19 00:00:00",
+            "dt_updated": "2022-01-19 00:00:00",
+            "id": "82018e85aad1",
+            "id_readable": "2022-01-19_news_Kontaktdaten-fr-den-Mll",
+            "links": [
+                {
+                    "url": "https:\/\/background.tagesspiegel.de\/gesundheit\/kontaktdaten-fuer-den-muell",
+                    "text": "Daniel B\u00f6ldt: \u201cKontaktdaten f\u00fcr den M\u00fcll\u201d (background.tagesspiegel.de)",
+                    "authors": [
+                        "Daniel B\u00f6ldt"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Dar\u00fcber hinaus ist die Datenerfassung in den meisten F\u00e4llen aber selbst in der Theorie \u00fcberfl\u00fcssig. Bund und L\u00e4nder haben schlie\u00dflich gerade entschieden, dass Geboosterte sowie frisch Geimpfte und Genesene [...] per se nicht in Quarant\u00e4ne geschickt werden sollen, zuvor war die Quarant\u00e4nepflicht bereits f\u00fcr doppelt Geimpfte und Genesene aufgehoben. Dennoch m\u00fcssen auch diese Menschen weiter Name, Anschrift und Telefonnummer hinterlassen, obwohl von vornherein klar ist: Die Daten landen am Ende im M\u00fcll \u2013 oder im schlimmsten Fall auf dem Server des Luca-Systems.<\/blockquote><blockquote>Man habe gesehen, dass das Infektionsgeschehen vor allem in pers\u00f6nlichem Umfeld stattfindet.<\/blockquote>\u2794 Im pers\u00f6nlichen Umfeld wird sowieso keine Kontaktdatenerfassung betrieben bzw. vorgeschrieben; insofern m\u00fcssen Gesundheits\u00e4mter hier derzeit sowieso nachforschen.",
+            "title": "\u201cKontaktdaten f\u00fcr den M\u00fcll\u201d",
+            "type": "news"
         }
     ]
 }
