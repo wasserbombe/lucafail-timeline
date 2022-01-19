@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "6756be3",
-            "commit_lh": "6756be302d73852d71a8cafb02c249b4dabde447",
-            "commit_date": "2022-01-18 23:36:39 +0100",
+            "commit_sh": "34aebdc",
+            "commit_lh": "34aebdc643d437d1926cc2a52324b6f724538a91",
+            "commit_date": "2022-01-19 09:51:00 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642582024,
+        "ts": 1642587772,
         "date": "2022-01-19"
     },
     "timeline": [
@@ -7253,6 +7253,46 @@
             "text": "<blockquote>Dar\u00fcber hinaus ist die Datenerfassung in den meisten F\u00e4llen aber selbst in der Theorie \u00fcberfl\u00fcssig. Bund und L\u00e4nder haben schlie\u00dflich gerade entschieden, dass Geboosterte sowie frisch Geimpfte und Genesene [...] per se nicht in Quarant\u00e4ne geschickt werden sollen, zuvor war die Quarant\u00e4nepflicht bereits f\u00fcr doppelt Geimpfte und Genesene aufgehoben. Dennoch m\u00fcssen auch diese Menschen weiter Name, Anschrift und Telefonnummer hinterlassen, obwohl von vornherein klar ist: Die Daten landen am Ende im M\u00fcll \u2013 oder im schlimmsten Fall auf dem Server des Luca-Systems.<\/blockquote><blockquote>Man habe gesehen, dass das Infektionsgeschehen vor allem in pers\u00f6nlichem Umfeld stattfindet.<\/blockquote>\u2794 Im pers\u00f6nlichen Umfeld wird sowieso keine Kontaktdatenerfassung betrieben bzw. vorgeschrieben; insofern m\u00fcssen Gesundheits\u00e4mter hier derzeit sowieso nachforschen.",
             "title": "\u201cKontaktdaten f\u00fcr den M\u00fcll\u201d",
             "type": "news"
+        },
+        {
+            "date": "19.01.2022",
+            "dt_created": "2022-01-19 00:00:00",
+            "dt_updated": "2022-01-19 00:00:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "237393"
+                }
+            ],
+            "id": "56bfc42977a4",
+            "id_readable": "2022-01-19_fragdenstaat_Derzeit-keine-Ausschreibung-fr-ein-Contact-Tracing-System-in-Baden-Wrttemberg",
+            "links": [
+                {
+                    "url": "https:\/\/fragdenstaat.de\/a\/237393",
+                    "text": "Frag den Staat: Ausschreibung f\u00fcr ein Contact Tracing-System in Baden-W\u00fcrttemberg (fragdenstaat.de)",
+                    "authors": [
+                        "Sebastian Fuhrmann",
+                        "Ministerium f\u00fcr Soziales und Integration Baden-W\u00fcrttemberg"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.zeit.de\/digital\/datenschutz\/2021-11\/luca-app-mecklenburg-vorpommern-kauf-rechtswidrig-kontaktnachverfolgung\/komplettansicht",
+                    "text": "Jakob von Lindern: \u201cZu fr\u00fch gekauft\u201d (zeit.de)",
+                    "authors": [
+                        "Jakob von Lindern"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "0c1493e8e61e"
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "text": "Obwohl der Vertrag mit Luca zeitnah ausl\u00e4uft, gibt es keine Ausschreibung f\u00fcr ein Contact Tracing-System in Baden-W\u00fcrttemberg. Zur Fortf\u00fchrung des Vertrags mit Luca wird es ein \u00f6ffentliches Hearing geben. F\u00fcr die urspr\u00fcngliche Vergabe beruft man sich auf ein Vergabeverfahren \u00fcber Dataport. Auch Mecklenburg-Vorpommern hatte eine Vergabe \u00fcber Dataport durchgef\u00fchrt; diese wurde gerichtlich f\u00fcr rechtswidrig erkl\u00e4rt.",
+            "title": "Derzeit keine Ausschreibung f\u00fcr ein Contact Tracing-System in Baden-W\u00fcrttemberg",
+            "type": "fragdenstaat",
+            "verified": true
         }
     ]
 }
