@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "34aebdc",
-            "commit_lh": "34aebdc643d437d1926cc2a52324b6f724538a91",
-            "commit_date": "2022-01-19 09:51:00 +0100",
+            "commit_sh": "dc44695",
+            "commit_lh": "dc4469578e547f683198eac058222c2be41d3dc1",
+            "commit_date": "2022-01-19 11:49:44 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642587772,
+        "ts": 1642592899,
         "date": "2022-01-19"
     },
     "timeline": [
@@ -1002,6 +1002,37 @@
             "text": "The Morpheus Vlogs erkl\u00e4rt auf YouTube das Verschl\u00fcsselungsprinzip hinter der Luca-App und erkl\u00e4rt, warum es sich dabei nicht um eine Verschl\u00fcsselung handelt, wie wir sie erwarten w\u00fcrden.",
             "title": "The Morpheus Vlogs: Luca-Verschl\u00fcsselung einfach erkl\u00e4rt",
             "type": "podcast"
+        },
+        {
+            "date": "09.04.2021",
+            "dt_created": "2022-01-19 12:47:00",
+            "dt_updated": "2022-01-19 12:47:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "216778"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/sand2drn\/status\/1383048665518985217"
+                }
+            ],
+            "id": "776d0f479d9b",
+            "id_readable": "2021-04-09_fragdenstaat_Die-Landesregierung-hat-den-Landesbeauftragten-fr-Datenschutz-vor-der-Beschaffung-der-Lizenzen-nicht-einbezogen",
+            "links": [
+                {
+                    "url": "https:\/\/fragdenstaat.de\/a\/216778",
+                    "text": "Frag den Staat: \u201cPr\u00fcfung der Luca-App\u201d (fragdenstaat.de)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/sand2drn\/status\/1383048665518985217",
+                    "text": "tweet von @sand2drn (twitter.com)"
+                }
+            ],
+            "scope": "Land: Mecklenburg-Vorpommern",
+            "text": "<blockquote>Die Landesregierung in Mecklenburg-Vorpommern hat den Landesbeauftragten f\u00fcr Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern vor der Beschaffung der Lizenzen nicht einbezogen<\/blockquote>Generell scheint es keine technische Pr\u00fcfung der Luca-App gegeben zu haben.",
+            "title": "\u201cDie Landesregierung hat den Landesbeauftragten f\u00fcr Datenschutz vor der Beschaffung der Lizenzen nicht einbezogen\u201d",
+            "type": "fragdenstaat"
         },
         {
             "date": "11.04.2021",
