@@ -865,7 +865,12 @@
                 }
 
                 if (typeof e.viaDPAInfocom != "undefined" && e.viaDPAInfocom){
-                    subtitle.push('<span class="tl-badge tl-badge-dpa"><i class="bi-megaphone"></i> DPA-Boost</span>');
+                    e.tags.push("dpa-meldung");
+                    if (e.viaDPAInfocomID){
+                        subtitle.push('<nobr><span class="tl-badge tl-badge-dpa"><i class="bi-megaphone"></i> '+e.viaDPAInfocomID+'</span></nobr>');
+                    } else {
+                        subtitle.push('<nobr><span class="tl-badge tl-badge-dpa"><i class="bi-megaphone"></i> DPA-Boost</span></nobr>');
+                    }
                 }
                 
                 var $small = $("<small>").addClass("text-muted").html(subtitle.join(' / '));

@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "dc44695",
-            "commit_lh": "dc4469578e547f683198eac058222c2be41d3dc1",
-            "commit_date": "2022-01-19 11:49:44 +0100",
+            "commit_sh": "5f8311a",
+            "commit_lh": "5f8311a90fe616e76d6e96e3c9f64f052192a002",
+            "commit_date": "2022-01-19 12:48:30 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642592899,
+        "ts": 1642606875,
         "date": "2022-01-19"
     },
     "timeline": [
@@ -5265,6 +5265,24 @@
         },
         {
             "date": "29.09.2021",
+            "dt_created": "2021-09-29 00:00:00",
+            "dt_updated": "2021-09-29 00:00:00",
+            "id": "6dfe6c9b35ad",
+            "id_readable": "2021-09-29_news_Gesundheitsmter-knnen-ber-Luca-App-vor-Infektion-warnen",
+            "links": [
+                {
+                    "text": "\u201cGesundheits\u00e4mter k\u00f6nnen \u00fcber Luca-App vor Infektion warnen\u201d (zeit.de)",
+                    "url": "https:\/\/www.zeit.de\/news\/2021-09\/29\/gesundheitsaemter-koennen-ueber-luca-app-vor-infektion-warnen"
+                }
+            ],
+            "text": "<blockquote>Die Gesundheits\u00e4mter in Deutschland k\u00f6nnen k\u00fcnftig Nutzerinnen und Nutzer der Luca-App \u00fcber die Anwendung selbst auf ein erh\u00f6htes individuelles Corona-Infektionsrisiko hinweisen.<\/blockquote>",
+            "title": "\u201cGesundheits\u00e4mter k\u00f6nnen \u00fcber Luca-App vor Infektion warnen\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:210929-99-410262\/2"
+        },
+        {
+            "date": "29.09.2021",
             "dt_created": "2021-10-03 23:30:00",
             "dt_updated": "2021-10-03 23:30:00",
             "embed": [
@@ -6179,6 +6197,25 @@
             "type": "doc"
         },
         {
+            "date": "05.01.2022",
+            "dt_created": "2022-01-05 00:00:00",
+            "dt_updated": "2022-01-05 00:00:00",
+            "id": "f3c0faf34a7f",
+            "id_readable": "2022-01-05_news_Gesundheitsmter-Besser-aufgestellt-und-doch-berlastet",
+            "links": [
+                {
+                    "text": "\u201cGesundheits\u00e4mter: Besser aufgestellt und doch \u00fcberlastet\u201d (zeit.de)",
+                    "url": "https:\/\/www.zeit.de\/news\/2022-01\/05\/gesundheitsaemter-besser-aufgestellt-und-doch-ueberlastet"
+                }
+            ],
+            "scope": "Land: Th\u00fcringen",
+            "text": "<blockquote>\u00abDie Registrierung f\u00fcr die App haben wir fr\u00fchzeitig vorgenommen, jedoch hat sich bis zum heutigen Tage die Nutzung nicht etabliert, da kein einziger Fall hier\u00fcber ermittelt wurde\u00bb, sagte etwa ein Sprecher des Landkreises Schmalkalden-Meiningen mit Blick auf Luca. \u00abDie Software hat sich f\u00fcr uns nicht bew\u00e4hrt.\u00bb<\/blockquote>",
+            "title": "\u201cGesundheits\u00e4mter: Besser aufgestellt und doch \u00fcberlastet\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220105-99-593114\/3"
+        },
+        {
             "date": "06.01.2022",
             "dt_created": "2022-01-06 00:00:00",
             "dt_updated": "2022-01-06 00:00:00",
@@ -6808,6 +6845,25 @@
             "date": "13.01.2022",
             "dt_created": "2022-01-13 00:00:00",
             "dt_updated": "2022-01-13 00:00:00",
+            "id": "7966e1affea1",
+            "id_readable": "2022-01-13_news_Bayern-muss-noch-ber-Fortsetzung-der-Luca-App-entscheiden",
+            "links": [
+                {
+                    "text": "\u201cBayern muss noch \u00fcber Fortsetzung der Luca-App entscheiden\u201d (zeit.de)",
+                    "url": "https:\/\/www.zeit.de\/news\/2022-01\/13\/bayern-muss-noch-ueber-fortsetzung-der-luca-app-entscheiden"
+                }
+            ],
+            "scope": "Land: Bayern",
+            "text": "<blockquote>Unklar ist, wie intensiv das Luca-System in den Gesundheits\u00e4mtern \u00fcberhaupt genutzt wird, zumal viele die Kontaktnachverfolgung fast eingestellt haben.<\/blockquote>",
+            "title": "\u201cBayern muss noch \u00fcber Fortsetzung der Luca-App entscheiden\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220113-99-689277\/2"
+        },
+        {
+            "date": "13.01.2022",
+            "dt_created": "2022-01-13 00:00:00",
+            "dt_updated": "2022-01-13 00:00:00",
             "id": "82a55fdfe402",
             "id_readable": "2022-01-13_doc_FDPDVP-Fraktion-beantragt-Auschecken-bei-Luca",
             "links": [
@@ -6897,6 +6953,31 @@
             "text": "<blockquote>So empfahl Gesundheitsministerin Ursula Nonnemacher (B\u00fcndnis 90\/Die Gr\u00fcnen) heute, den Vertrag mit der Luca-App zu beenden.<\/blockquote><blockquote>Auch hier sei die Luca-App nicht zur Kontaktverfolgung genutzt worden. Generell w\u00fcrden Restaurants im Infektionsgeschehen keine Rolle spielen, so Larscheid. Und auch in Brandenburg scheinen die Gesundheits\u00e4mter die Luca-App nur wenig zu nutzen: Nur eines der 18 Gesundheits\u00e4mter w\u00fcrden die App laut einer Umfrage vom vergangenen Jahr regem\u00e4\u00dfig nutzen, so die Brandenburger Gesundheitsministerin Nonnemacher am Freitag nach einer Kabinettssitzung.<\/blockquire>",
             "title": "\u201cKeine Luca-App mehr \u2013 und dann?\u201d",
             "type": "news"
+        },
+        {
+            "date": "14.01.2022",
+            "dt_created": "2022-01-14 00:00:00",
+            "dt_updated": "2022-01-14 00:00:00",
+            "id": "a159149e4c82",
+            "id_readable": "2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen",
+            "links": [
+                {
+                    "text": "\u201cAuch Bremen und Brandenburg wollen aus Luca-App aussteigen\u201d (zeit.de)",
+                    "url": "https:\/\/www.zeit.de\/news\/2022-01\/14\/auch-bremen-und-brandenburg-wollen-aus-luca-app-aussteigen"
+                }
+            ],
+            "references": [
+                {
+                    "id": "724d77855c8b"
+                },
+                {
+                    "id": "e5e13762d33b"
+                }
+            ],
+            "title": "\u201cAuch Bremen und Brandenburg wollen aus Luca-App aussteigen\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220114-99-712960\/3"
         },
         {
             "date": "14.01.2022",
@@ -7135,6 +7216,30 @@
             "text": "<blockquote>An der T\u00fcr h\u00e4ngt zwar der Code f\u00fcr die App, aber ob Familie Meyer mit dem Corona-Infizierten Kind von Familie Schulze am gleichen oder Nachbartisch gesessen hat, wei\u00df das Gesundheitsamt im Zweifel nicht. F\u00fcr eine sinnvolle Kontaktnachverfolgung w\u00e4re das aber wichtig.<\/blockquote><blockquote>Die wenigsten Landkreise haben gr\u00f6\u00dfere Infektionszahlen auf die Gastronomie zur\u00fcckf\u00fchren k\u00f6nnen. Nach Radio Brocken Recherche liegen die Infektionen in gastronomischen Einrichtungen im einstelligen Bereich. Im Saalekreis und in Wittenberg gab es auf Radio Brocken Nachfrage nur jeweils einen Infektionsfall, der sich auf eine gastronomische Einrichtung zur\u00fcckf\u00fchren l\u00e4sst.<\/blockquote>",
             "title": "\u201cLuca-App: Sachsen-Anhalt will aussteigen\u201d",
             "type": "news"
+        },
+        {
+            "date": "18.01.2022",
+            "dt_created": "2022-01-18 00:00:00",
+            "dt_updated": "2022-01-18 00:00:00",
+            "id": "1a21582f7ee1",
+            "id_readable": "2022-01-18_news_Gesundheitsmter-nutzen-Luca-App-kaum-zur-Kontaktverfolgung",
+            "links": [
+                {
+                    "url": "https:\/\/www.zeit.de\/news\/2022-01\/18\/gesundheitsaemter-nutzen-luca-app-kaum-zur-kontaktverfolgung",
+                    "text": "\u201cGesundheits\u00e4mter nutzen Luca-App kaum zur Kontaktverfolgung\u201d (zeit.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "46b77ab0f668"
+                }
+            ],
+            "scope": "Land: Sachsen-Anhalt",
+            "text": "<blockquote>Sachsen-Anhalts Gesundheitsministerin Petra Grimm-Benne (SPD) deutete am Montagabend an, dass das Land den Vertrag mit dem privaten Anbieter der Luca-App m\u00f6glicherweise beenden werde. \u00abWir werden eine Abw\u00e4gung treffen\u00bb, sagte sie nach einer Videoschalte mit den Gesundheitsministern von Bund und L\u00e4ndern, in der das Thema beraten wurde. \u00abAber im Augenblick sieht es eher so aus, als ob sich die L\u00e4nder verabschieden werden, da die Gesundheits\u00e4mter das nicht entsprechend nutzen.\u00bb<\/blockquote>",
+            "title": "\u201cGesundheits\u00e4mter nutzen Luca-App kaum zur Kontaktverfolgung\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220118-99-754255\/2"
         },
         {
             "date": "18.01.2022",
