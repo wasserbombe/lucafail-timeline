@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "5f8311a",
-            "commit_lh": "5f8311a90fe616e76d6e96e3c9f64f052192a002",
-            "commit_date": "2022-01-19 12:48:30 +0100",
+            "commit_sh": "ccd5041",
+            "commit_lh": "ccd504141e7d5c99c171d207576408ac29a89e41",
+            "commit_date": "2022-01-19 17:14:40 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642606875,
-        "date": "2022-01-19"
+        "ts": 1642706741,
+        "date": "2022-01-20"
     },
     "timeline": [
         {
@@ -7429,6 +7429,68 @@
             "title": "Derzeit keine Ausschreibung f\u00fcr ein Contact Tracing-System in Baden-W\u00fcrttemberg",
             "type": "fragdenstaat",
             "verified": true
+        },
+        {
+            "date": "20.01.2022",
+            "dt_created": "2022-01-20 00:00:00",
+            "dt_updated": "2022-01-20 00:00:00",
+            "id": "607c799c289a",
+            "id_readable": "2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab",
+            "links": [
+                {
+                    "url": "https:\/\/www.zdf.de\/nachrichten\/politik\/corona-kontaktdaten-abfrage-datenschutz-100.html",
+                    "text": "Christian Deker: \u201cPolizei fragt in mehr als 100 F\u00e4llen Daten ab\u201d (zdf.de)",
+                    "authors": [
+                        "Christian Deker"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "196db5017197"
+                }
+            ],
+            "text": "<blockquote>Staatsanwaltschaft und Polizei haben in \u00fcber 100 Ermittlungsverfahren auf Daten aus Corona-Listen und der Luca-App zugegriffen. Das ergab eine bundesweite ZDFheute-Umfrage.<\/blockquote><blockquote>Tats\u00e4chlich d\u00fcrften die Daten in noch mehr F\u00e4llen erhoben worden sein. Derartige Datenabfragen werden bei den Staatsanwaltschaften nicht gesondert erfasst, so dass die Zahlen vor allem auf der Erinnerung der Beamten beruhen. Da ist es in vielen F\u00e4llen nicht eindeutig, aus welchen Quellen die Daten stammen. Zudem gibt es F\u00e4lle, in denen die Polizei die Daten ohne Wissen der Staatsanwaltschaft erhoben hat.<\/blockquote>",
+            "title": "Zweckentfremdung von Luca-Daten: \u201cPolizei fragt in mehr als 100 F\u00e4llen Daten ab\u201d",
+            "type": "incident",
+            "verified": true
+        },
+        {
+            "date": "20.01.2022",
+            "dt_created": "2022-01-20 00:00:00",
+            "dt_updated": "2022-01-20 00:00:00",
+            "id": "c7d01751690d",
+            "id_readable": "2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/content\/rbb\/r24\/politik\/thema\/corona\/beitraege\/2022\/01\/berlin-luca-app-vertrag-nicht-verlaengert-kontaktdaten.html",
+                    "text": "\u201cBerlin will Vertrag mit Luca-App nicht verl\u00e4ngern\u201d (rbb24.de)"
+                }
+            ],
+            "scope": "Land: Berlin",
+            "text": "<blockquote>Genau wie Brandenburg wird auch das Land Berlin den Vertrag mit der Luca-App nicht verl\u00e4ngern. Zudem diskutiert der Senat offenbar auch dar\u00fcber, die Kontaktnachverfolgung komplett aufzugeben.<\/blockquote>",
+            "title": "\u201cBerlin will Vertrag mit Luca-App nicht verl\u00e4ngern\u201d",
+            "type": "news"
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "id": "d0faf359eb7f",
+            "id_readable": "2022-01-24_event_Showdown-am-Montag",
+            "links": [
+                {
+                    "url": "https:\/\/www.stuttgarter-nachrichten.de\/inhalt.luca-app-in-baden-wuerttemberg-showdown-am-montag.28c7f3c1-0d30-44f8-80bf-6b520afd00d9.html?reduced=true",
+                    "text": "Jan Georg Plavec: \u201cShowdown am Montag\u201d (stuttgarter-nachrichten.de)",
+                    "authors": [
+                        "Jan Georg Plavec"
+                    ]
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "text": "<blockquote>Mit einer Anh\u00f6rung will das Sozialministerium die Argumente f\u00fcr und gegen den weiteren Einsatz der Luca-App abfragen. Am Montag treffen bei einer Anh\u00f6rung die Entwickler der Luca-App, Anbieter alternativer L\u00f6sungen sowie der Chaos Computer Club (CCC) aufeinander[...]",
+            "title": "\u201cLuca-App in Baden-W\u00fcrttemberg: Showdown am Montag\u201d",
+            "type": "event"
         }
     ]
 }
