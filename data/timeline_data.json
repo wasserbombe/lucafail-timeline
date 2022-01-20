@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "ccd5041",
-            "commit_lh": "ccd504141e7d5c99c171d207576408ac29a89e41",
-            "commit_date": "2022-01-19 17:14:40 +0100",
+            "commit_sh": "2dfece3",
+            "commit_lh": "2dfece32dc9d7e222d95967c1d43658021f93984",
+            "commit_date": "2022-01-20 20:52:13 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642706741,
+        "ts": 1642716250,
         "date": "2022-01-20"
     },
     "timeline": [
@@ -7485,10 +7485,17 @@
                     "authors": [
                         "Jan Georg Plavec"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.stuttgarter-zeitung.de\/inhalt.luca-app-in-baden-wuerttemberg-showdown-am-montag.4c661a5f-ca6a-4012-aebf-bd99383f5ed2.html",
+                    "text": "Jan Georg Plavec: \u201cShowdown am Montag\u201d (stuttgarter-zeitung.de)",
+                    "authors": [
+                        "Jan Georg Plavec"
+                    ]
                 }
             ],
             "scope": "Land: Baden-W\u00fcrttemberg",
-            "text": "<blockquote>Mit einer Anh\u00f6rung will das Sozialministerium die Argumente f\u00fcr und gegen den weiteren Einsatz der Luca-App abfragen. Am Montag treffen bei einer Anh\u00f6rung die Entwickler der Luca-App, Anbieter alternativer L\u00f6sungen sowie der Chaos Computer Club (CCC) aufeinander[...]",
+            "text": "<blockquote>Mit einer Anh\u00f6rung will das Sozialministerium die Argumente f\u00fcr und gegen den weiteren Einsatz der Luca-App abfragen. Am Montag treffen bei einer Anh\u00f6rung die Entwickler der Luca-App, Anbieter alternativer L\u00f6sungen sowie der Chaos Computer Club (CCC) aufeinander[...]<\/blockquote><blockquote>Detaillierte Nutzungszahlen ver\u00f6ffentlichen die Luca-Betreiber auf ihrer Seite nicht mehr. Vom Chaos Computer Club aus \u00f6ffentlichen Schnittstellen ermittelte Daten, wonach bundesweit seit Wochen an keinem Tag Tag f\u00fcr mehr als 25 Infizierte Kontakte nachverfolgt wurden, wollen die Betreiber nicht kommentieren. Verglichen mit den fast sechs Millionen Check-ins, die zwischen Mitte Dezember und Mitte Januar in Baden-W\u00fcrttemberg gez\u00e4hlt wurden, erscheinen die Zahlen sehr gering.<\/blockquote>",
             "title": "\u201cLuca-App in Baden-W\u00fcrttemberg: Showdown am Montag\u201d",
             "type": "event"
         }
