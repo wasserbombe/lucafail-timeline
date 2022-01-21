@@ -954,6 +954,15 @@
                             $li.html(link.text);
                         }
                         $linklist.append($li);
+
+                        if (link.authors && link.authors.length > 0){
+                            link.authors.forEach((author, a) => {
+                                var authortag = "author:"+author;
+                                if (e.tags.indexOf(authortag) == -1){
+                                    e.tags.push(authortag);
+                                }
+                            });
+                        }
                     });
                     
                     var $linkarea = $("<div>").addClass("linkarea").html('<b>Weiterführende Links / Quellen:</b>').append($linklist);

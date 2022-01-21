@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "0589aa1",
-            "commit_lh": "0589aa190fe82cfae7f2eec90799b102385efcbe",
-            "commit_date": "2022-01-21 11:14:19 +0100",
+            "commit_sh": "f055e46",
+            "commit_lh": "f055e46b792b3996a2730e6cd2ac08be021d77e8",
+            "commit_date": "2022-01-21 11:21:13 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642760455,
+        "ts": 1642761285,
         "date": "2022-01-21"
     },
     "timeline": [
@@ -7475,6 +7475,13 @@
                     "text": "Moritz Tremmel: \u201cBerlin will keine Luca-App mehr\u201d (golem.de)",
                     "authors": [
                         "Moritz Tremmel"
+                    ]
+                },
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/domino-geht-weiter-auch-berlin-will-vertrag-mit-der-luca-app-kuendigen\/",
+                    "text": "Markus Reuter: \u201cDomino geht weiter: Auch Berlin will Vertrag mit der Luca-App k\u00fcndigen\u201d (netzpolitik.org)",
+                    "authors": [
+                        "Markus Reuter"
                     ]
                 }
             ],
