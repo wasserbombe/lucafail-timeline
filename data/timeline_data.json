@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "925ff7b",
-            "commit_lh": "925ff7b7d7e2ce5784417fd82d9185218ec05fc7",
-            "commit_date": "2022-01-21 10:51:15 +0100",
+            "commit_sh": "0589aa1",
+            "commit_lh": "0589aa190fe82cfae7f2eec90799b102385efcbe",
+            "commit_date": "2022-01-21 11:14:19 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642760055,
+        "ts": 1642760455,
         "date": "2022-01-21"
     },
     "timeline": [
@@ -7469,6 +7469,13 @@
                 {
                     "url": "https:\/\/www.rbb24.de\/content\/rbb\/r24\/politik\/thema\/corona\/beitraege\/2022\/01\/berlin-luca-app-vertrag-nicht-verlaengert-kontaktdaten.html",
                     "text": "\u201cBerlin will Vertrag mit Luca-App nicht verl\u00e4ngern\u201d (rbb24.de)"
+                },
+                {
+                    "url": "https:\/\/www.golem.de\/news\/kontaktverfolgung-berlin-will-keine-luca-app-mehr-2201-162579.html",
+                    "text": "Moritz Tremmel: \u201cBerlin will keine Luca-App mehr\u201d (golem.de)",
+                    "authors": [
+                        "Moritz Tremmel"
+                    ]
                 }
             ],
             "scope": "Land: Berlin",
