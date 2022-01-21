@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "2dfece3",
-            "commit_lh": "2dfece32dc9d7e222d95967c1d43658021f93984",
-            "commit_date": "2022-01-20 20:52:13 +0100",
+            "commit_sh": "4cac36b",
+            "commit_lh": "4cac36b41890591f72c3a2298657f771bfbe03e1",
+            "commit_date": "2022-01-20 23:06:56 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642716250,
-        "date": "2022-01-20"
+        "ts": 1642757361,
+        "date": "2022-01-21"
     },
     "timeline": [
         {
@@ -7443,6 +7443,10 @@
                     "authors": [
                         "Christian Deker"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/aktuelles-statement-von-luca-zu-ermittlungsverfahren-durch-staatsanwaltschaften\/",
+                    "text": "Luca-App: \u201cAktuelles Statement von Luca zu Ermittlungsverfahren durch Staatsanwaltschaften\u201d (luca-app.de)"
                 }
             ],
             "references": [
@@ -7450,7 +7454,7 @@
                     "id": "196db5017197"
                 }
             ],
-            "text": "<blockquote>Staatsanwaltschaft und Polizei haben in \u00fcber 100 Ermittlungsverfahren auf Daten aus Corona-Listen und der Luca-App zugegriffen. Das ergab eine bundesweite ZDFheute-Umfrage.<\/blockquote><blockquote>Tats\u00e4chlich d\u00fcrften die Daten in noch mehr F\u00e4llen erhoben worden sein. Derartige Datenabfragen werden bei den Staatsanwaltschaften nicht gesondert erfasst, so dass die Zahlen vor allem auf der Erinnerung der Beamten beruhen. Da ist es in vielen F\u00e4llen nicht eindeutig, aus welchen Quellen die Daten stammen. Zudem gibt es F\u00e4lle, in denen die Polizei die Daten ohne Wissen der Staatsanwaltschaft erhoben hat.<\/blockquote>",
+            "text": "<blockquote>Staatsanwaltschaft und Polizei haben in \u00fcber 100 Ermittlungsverfahren auf Daten aus Corona-Listen und der Luca-App zugegriffen. Das ergab eine bundesweite ZDFheute-Umfrage.<\/blockquote><blockquote>Tats\u00e4chlich d\u00fcrften die Daten in noch mehr F\u00e4llen erhoben worden sein. Derartige Datenabfragen werden bei den Staatsanwaltschaften nicht gesondert erfasst, so dass die Zahlen vor allem auf der Erinnerung der Beamten beruhen. Da ist es in vielen F\u00e4llen nicht eindeutig, aus welchen Quellen die Daten stammen. Zudem gibt es F\u00e4lle, in denen die Polizei die Daten ohne Wissen der Staatsanwaltschaft erhoben hat.<\/blockquote><br>Nachtrag: Luca stellt in einem Statement auf der eigenen Webseite (s.u.) fest, dass es hierbei nicht ausschlie\u00dflich um Luca-Daten, sondern generell Daten aus der Kontaktdatennachverfolgung geht. Das ist nat\u00fcrlich richtig. Dennoch erm\u00f6glicht Luca weiterhin konzeptionell, dass Daten durch Gesundheits\u00e4mter abgefragt und weitergegeben werden k\u00f6nnen - dies ist also in erster Linie keine Kritik an Luca selbst, sondern an dem Konzept, Daten \u00fcberhaupt in dieser Form zu erfassen und zu speichern. W\u00fcnschenswerter w\u00e4re hier die anonyme Kontaktnachverfolgung (z.B. via Corona-Warn-App).",
             "title": "Zweckentfremdung von Luca-Daten: \u201cPolizei fragt in mehr als 100 F\u00e4llen Daten ab\u201d",
             "type": "incident",
             "verified": true
