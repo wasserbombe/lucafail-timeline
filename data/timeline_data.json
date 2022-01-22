@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "f055e46",
-            "commit_lh": "f055e46b792b3996a2730e6cd2ac08be021d77e8",
-            "commit_date": "2022-01-21 11:21:13 +0100",
+            "commit_sh": "a3156e6",
+            "commit_lh": "a3156e67f39bf4707efab706e5e98e4e4e37513b",
+            "commit_date": "2022-01-21 11:37:24 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642761285,
-        "date": "2022-01-21"
+        "ts": 1642864570,
+        "date": "2022-01-22"
     },
     "timeline": [
         {
@@ -7463,6 +7463,13 @@
             "date": "20.01.2022",
             "dt_created": "2022-01-20 00:00:00",
             "dt_updated": "2022-01-20 00:00:00",
+            "embed": [
+                {
+                    "type": "youtube",
+                    "id": "usXcfS6N9EU",
+                    "startAt": "69"
+                }
+            ],
             "id": "c7d01751690d",
             "id_readable": "2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern",
             "links": [
@@ -7483,6 +7490,13 @@
                     "authors": [
                         "Markus Reuter"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.youtube.com\/watch?v=usXcfS6N9EU&t=69",
+                    "text": "TV.Berlin: tvberlin Nachrichten am Freitag, den 21. Januar (youtube.com)",
+                    "author": [
+                        "TV.Berlin"
+                    ]
                 }
             ],
             "scope": "Land: Berlin",
@@ -7494,6 +7508,12 @@
             "date": "21.01.2022",
             "dt_created": "2022-01-21 00:00:00",
             "dt_updated": "2022-01-21 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/m_hoppenstedt\/status\/1484878801813258240"
+                }
+            ],
             "id": "5fbb534de41f",
             "id_readable": "2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App",
             "links": [
@@ -7503,10 +7523,54 @@
                     "authors": [
                         "Max Hoppenstedt"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.luca-app.de\/stellungnahme-zur-spiegel-abfrage-bei-gesundheitsaemtern\/",
+                    "text": "\u201cStellungnahme zur Spiegel-Abfrage bei Gesundheits\u00e4mtern\u201d (luca-app.de)",
+                    "authors": [
+                        "Culture4Life"
+                    ]
+                },
+                {
+                    "url": "https:\/\/twitter.com\/m_hoppenstedt\/status\/1484878801813258240",
+                    "text": "Tweet von Max Hoppenstedt (Redakteur Spiegel) mit Datengrundlage (twitter.com)"
                 }
             ],
-            "text": "<blockquote>Rund die H\u00e4lfte hat ge\u00adantwortet, aus ihren R\u00fcckmeldungen ergibt sich eine ern\u00fcchternde Bilanz. 54 der \u00c4mter, die theoretisch mit der App arbeiten k\u00f6nnten, haben in einem Dreivierteljahr noch kein einziges Mal Daten von Gastst\u00e4ttenbetreibern angefordert.<\/blockquote><blockquote>Die eifrigsten Nutzer sitzen in Hamburg, die Hansestadt kommt allein von Mai bis November auf knapp 600 Abrufe. Und selbst die Luca-Mustersch\u00fcler deckten so gerade einmal 44 Infektionen unter den Kontaktpersonen auf.<\/blockquote><blockquote>Seine App habe von Mai bis Ende Dezember 2021 \u00fcber 550\u2009000 Mal Warnhinweise verschickt. Zum Vergleich: Die Corona-Warn-App, die ohne die Arbeit der Gesundheits\u00e4mter funktioniert, hat allein in diesem Januar bisher 6,6 Millionen Mal Menschen gewarnt.<\/blockquote>",
+            "text": "<blockquote>Rund die H\u00e4lfte hat ge\u00adantwortet, aus ihren R\u00fcckmeldungen ergibt sich eine ern\u00fcchternde Bilanz. 54 der \u00c4mter, die theoretisch mit der App arbeiten k\u00f6nnten, haben in einem Dreivierteljahr noch kein einziges Mal Daten von Gastst\u00e4ttenbetreibern angefordert.<\/blockquote><blockquote>Die eifrigsten Nutzer sitzen in Hamburg, die Hansestadt kommt allein von Mai bis November auf knapp 600 Abrufe. Und selbst die Luca-Mustersch\u00fcler deckten so gerade einmal 44 Infektionen unter den Kontaktpersonen auf.<\/blockquote><blockquote>Seine App habe von Mai bis Ende Dezember 2021 \u00fcber 550\u2009000 Mal Warnhinweise verschickt. Zum Vergleich: Die Corona-Warn-App, die ohne die Arbeit der Gesundheits\u00e4mter funktioniert, hat allein in diesem Januar bisher 6,6 Millionen Mal Menschen gewarnt.<\/blockquote><br>Nachtrag: In einem Statement zweifelt Luca die Analysen des Spiegels an: ",
             "title": "\u201cKontaktnachverfolgungsflop: Die entt\u00e4uschende Bilanz der Luca-App\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "21.01.2022",
+            "dt_created": "2022-01-21 00:00:00",
+            "dt_updated": "2022-01-21 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/tmigge\/status\/1484791589977436160"
+                }
+            ],
+            "id": "9bf011ebd530",
+            "id_readable": "2022-01-21_news_Stadt-nutzt-Luca-App-nicht-Polizei-ahndet-Verste-trotzdem",
+            "links": [
+                {
+                    "url": "https:\/\/www.abendblatt.de\/hamburg\/article234376421\/corona-hamburg-luca-app-sozialbehoerde-polizei-bussgelder-verstoesse.html",
+                    "text": "Christoph Heinemann: \u201cStadt nutzt Luca-App nicht: Polizei ahndet Verst\u00f6\u00dfe trotzdem\u201d (abendblatt.de)",
+                    "authors": [
+                        "Christoph Heinemann"
+                    ]
+                },
+                {
+                    "url": "https:\/\/twitter.com\/tmigge\/status\/1484791589977436160",
+                    "text": "Tweet von @tmigger (twitter.com)",
+                    "authors": [
+                        "Thomas Migge"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Um die Luca-App hat sich in Hamburg eine absurde Situation entwickelt: Obwohl die Gesundheits\u00e4mter mit der Kontaktnachverfolgung \u00fcberfordert sind und Luca gar nicht mehr benutzen, m\u00fcssen Hamburger sich weiter damit [...] einchecken. Die Luca-App ist in der Rechtsverordnung der Stadt noch festgeschrieben. [...]<br>Die Polizei erfuhr erst durch die Anfrage des Abendblattes am Freitag davon, dass die Luca-App nicht mehr genutzt wird.<\/blockquote>",
+            "title": "\u201cStadt nutzt Luca-App nicht: Polizei ahndet Verst\u00f6\u00dfe trotzdem\u201d",
             "type": "news",
             "verified": true
         },
