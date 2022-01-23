@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "a3156e6",
-            "commit_lh": "a3156e67f39bf4707efab706e5e98e4e4e37513b",
-            "commit_date": "2022-01-21 11:37:24 +0100",
+            "commit_sh": "33605dc",
+            "commit_lh": "33605dc7f3f2f6cee45d422f3ce2b1cc6bc06b01",
+            "commit_date": "2022-01-22 16:17:54 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642864570,
-        "date": "2022-01-22"
+        "ts": 1642940751,
+        "date": "2022-01-23"
     },
     "timeline": [
         {
@@ -7573,6 +7573,35 @@
             "title": "\u201cStadt nutzt Luca-App nicht: Polizei ahndet Verst\u00f6\u00dfe trotzdem\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "21.01.2022",
+            "dt_created": "2022-01-21 00:00:00",
+            "dt_updated": "2022-01-21 00:00:00",
+            "id": "1b4404f1d294",
+            "id_readable": "2022-01-21_news_Kontaktdaten-Gastgewerbe-fordert-Ende-der-Sammelpflicht",
+            "links": [
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/wirtschaft\/gastgewerbe-stuttgart-kontaktdaten-gastgewerbe-fordert-ende-der-sammelpflicht-dpa.urn-newsml-dpa-com-20090101-220121-99-800824",
+                    "text": "\u201cKontaktdaten: Gastgewerbe fordert Ende der Sammelpflicht\u201d (sueddeutsche.de)",
+                    "authors": [
+                        "dpa",
+                        "lsw"
+                    ]
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "tags": [
+                "dehoga",
+                "sammelpflicht",
+                "gastgewerbe"
+            ],
+            "text": "<blockquote>Das Sammeln von Daten der G\u00e4ste sei enorm aufwendig und trage in der Praxis nicht wirkungsvoll dazu bei, die Pandemie einzud\u00e4mmen<\/blockquote><blockquote>Es passiere nur wenig mit den erhobenen Daten, die unter anderem mit der Luca-App gesammelt werden. \"Aufwand und Nutzen stehen bei der Pflicht zur G\u00e4ste-Kontaktdatenerfassung im Gastgewerbe in keinem vertretbaren Verh\u00e4ltnis mehr zueinander\", kritisierte der Verband. \"Die Landesregierung sollte die Betriebe deshalb so schnell wie m\u00f6glich von dieser \u00fcberfl\u00fcssigen Pflicht befreien.\"<\/blockquote>",
+            "title": "\u201cKontaktdaten: Gastgewerbe fordert Ende der Sammelpflicht\u201d",
+            "type": "news",
+            "verified": true,
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220121-99-800824\/4"
         },
         {
             "date": "24.01.2022",
