@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "33605dc",
-            "commit_lh": "33605dc7f3f2f6cee45d422f3ce2b1cc6bc06b01",
-            "commit_date": "2022-01-22 16:17:54 +0100",
+            "commit_sh": "cc5bbfc",
+            "commit_lh": "cc5bbfc710656947d428240042bd7074905f243c",
+            "commit_date": "2022-01-23 13:26:23 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1642940751,
-        "date": "2022-01-23"
+        "ts": 1643033404,
+        "date": "2022-01-24"
     },
     "timeline": [
         {
@@ -7629,6 +7629,32 @@
             "text": "<blockquote>Mit einer Anh\u00f6rung will das Sozialministerium die Argumente f\u00fcr und gegen den weiteren Einsatz der Luca-App abfragen. Am Montag treffen bei einer Anh\u00f6rung die Entwickler der Luca-App, Anbieter alternativer L\u00f6sungen sowie der Chaos Computer Club (CCC) aufeinander[...]<\/blockquote><blockquote>Detaillierte Nutzungszahlen ver\u00f6ffentlichen die Luca-Betreiber auf ihrer Seite nicht mehr. Vom Chaos Computer Club aus \u00f6ffentlichen Schnittstellen ermittelte Daten, wonach bundesweit seit Wochen an keinem Tag Tag f\u00fcr mehr als 25 Infizierte Kontakte nachverfolgt wurden, wollen die Betreiber nicht kommentieren. Verglichen mit den fast sechs Millionen Check-ins, die zwischen Mitte Dezember und Mitte Januar in Baden-W\u00fcrttemberg gez\u00e4hlt wurden, erscheinen die Zahlen sehr gering.<\/blockquote>",
             "title": "\u201cLuca-App in Baden-W\u00fcrttemberg: Showdown am Montag\u201d",
             "type": "event"
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "id": "efb8793df518",
+            "id_readable": "2022-01-24_news_Hacker-lassen-kein-gutes-Haar-an-Luca-Software",
+            "links": [
+                {
+                    "url": "https:\/\/www.zeit.de\/news\/2022-01\/24\/hacker-lassen-kein-gutes-haar-an-luca-software",
+                    "text": "\u201cHacker lassen kein gutes Haar an Luca-Software\u201d (zeit.de)",
+                    "authors": [
+                        "dpa"
+                    ]
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "tags": [
+                "jens-rieger"
+            ],
+            "text": "<blockquote>Die europ\u00e4ische Hackervereinigung Chaos Computer Club (CCC) sieht keinen Sinn in der weiteren Verwendung der Luca-App zur Nachverfolgung von Corona-Ausbr\u00fcchen. Bei der Nachverfolgung von Kontakten m\u00fcsse man sehr schnell sein, sagte Jens Rieger, Vorstand des CCC Freiburg am Montag in Stuttgart bei einem \u00f6ffentlichen Austausch zur weiteren Nutzung der App. \u00abDaf\u00fcr ist Luca systematisch und strukturell bedingt einfach eine dysfunktionale App, weil Luca braucht immer die Zuarbeit von den Gesundheits\u00e4mtern.\u00bb Das koste Zeit, die man nicht habe. Bundesweit gebe es pro Tag im Schnitt 10 bs 20 Kontaktverfolgungen \u00fcber die App, berichtete Rieger - bei mehr als 320 angeschlossenen Gesundheits\u00e4mtern sei das \u00abein Witz\u00bb. Die Kontaktnachverfolgung \u00fcber die Luca-App finde einfach de facto nicht statt - bundesweit nicht.<\/blockquote>",
+            "title": "\u201cHacker lassen kein gutes Haar an Luca-Software\u201d",
+            "type": "news",
+            "verified": true,
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220124-99-830665\/2"
         }
     ]
 }
