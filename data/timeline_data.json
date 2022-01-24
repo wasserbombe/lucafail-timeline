@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "cc5bbfc",
-            "commit_lh": "cc5bbfc710656947d428240042bd7074905f243c",
-            "commit_date": "2022-01-23 13:26:23 +0100",
+            "commit_sh": "e34cf92",
+            "commit_lh": "e34cf9230f4e4eadae765118ed14671be09bcf53",
+            "commit_date": "2022-01-24 15:24:41 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643033404,
+        "ts": 1643034679,
         "date": "2022-01-24"
     },
     "timeline": [
@@ -7655,6 +7655,27 @@
             "verified": true,
             "viaDPAInfocom": true,
             "viaDPAInfocomID": "dpa:220124-99-830665\/2"
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "scope": "Land: Sachsen-Anhalt",
+            "id": "935d5cfe5ed5",
+            "id_readable": "2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus",
+            "links": [
+                {
+                    "text": "Hagen Eichler: \u201cEine Million Euro f\u00fcr nutzlose Luca-App: Sachsen-Anhalt steigt jetzt aus\u201d",
+                    "url": "https:\/\/www.mz.de\/mitteldeutschland\/sachsen-anhalt\/eine-million-euro-fur-nutzlose-luca-app-sachsen-anhalt-steigt-jetzt-aus-3325770",
+                    "author": [
+                        "Hagen Eichler"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Vor einem Jahr ruhten gro\u00dfe Hoffnungen auf der elektronischen Kontaktnachverfolgung \u00fcber die Luca-App. Rund eine Million Euro lie\u00df sich Sachsen-Anhalt das Projekt kosten. Doch erf\u00fcllt haben sich Hoffnungen nie.<\/blockquote>",
+            "title": "\u201cEine Million Euro f\u00fcr nutzlose Luca-App: Sachsen-Anhalt steigt jetzt aus\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }
