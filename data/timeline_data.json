@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "c41b8ae",
-            "commit_lh": "c41b8ae7f315260c93094e04f33c19bab8134927",
-            "commit_date": "2022-01-24 15:32:42 +0100",
+            "commit_sh": "9faeb04",
+            "commit_lh": "9faeb04204bc025c44349d3aaa0f5184dcb34553",
+            "commit_date": "2022-01-24 23:03:49 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643061821,
-        "date": "2022-01-24"
+        "ts": 1643065206,
+        "date": "2022-01-25"
     },
     "timeline": [
         {
@@ -7652,6 +7652,19 @@
                         "dpa",
                         "lsw"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.badische-zeitung.de\/kritiker-und-nutzer-stellen-luca-app-miserables-zeugnis-aus-x1x--208509777.html",
+                    "text": "\u201cKritiker und Nutzer stellen Luca-App miserables Zeugnis aus\u201d (badische-zeitung.de)",
+                    "authors": [
+                        "dpa",
+                        "lsw"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "d0faf359eb7f"
                 }
             ],
             "scope": "Land: Baden-W\u00fcrttemberg",
@@ -7687,6 +7700,73 @@
             "title": "\u201cEine Million Euro f\u00fcr nutzlose Luca-App: Sachsen-Anhalt steigt jetzt aus\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "id": "11d9ebb93e53",
+            "id_readable": "2022-01-24_podcast_Interview-im-Deutschlandfunk-Warum-die-Luca-App-dysfunktional-ist",
+            "links": [
+                {
+                    "url": "https:\/\/www.deutschlandfunkkultur.de\/die-zukunft-der-luca-app-steht-auf-der-kippe-zu-recht-dlf-kultur-c21a0281-100.html",
+                    "text": "DLF Kultur: \u201cWarum die Luca-App \u201edysfunktional\u201c ist\u201d (deutschlandfunkkultur.de)",
+                    "author": [
+                        "Jens Rieger",
+                        "DLF Kultur"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "d0faf359eb7f"
+                }
+            ],
+            "text": "<blockquote>Die Luca-App war mit dem Versprechen an den Start gegangen, Gesundheits\u00e4mtern bei der Kontaktnachverfolgung zu helfen. Doch die Kritik rei\u00dft nicht ab. Die App sei keine gro\u00dfe Hilfe bei der Kontaktnachverfolgung, meint Jens Rieger vom Chaos Computer Club.<\/blockquote>",
+            "title": "Interview im Deutschlandfunk: \u201cWarum die Luca-App \u201edysfunktional\u201c ist\u201d",
+            "type": "podcast",
+            "verified": true
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "id": "dc628e775cd6",
+            "id_readable": "2022-01-24_doc_Bund-der-Steuerzahler-Keine-Verlngerung-der-Luca-Lizenzen",
+            "links": [
+                {
+                    "url": "https:\/\/www.steuerzahler-hessen.de\/neuigkeiten\/artikel\/keine-verlaengerung-der-luca-lizenzen\/",
+                    "text": "Bund der Steuerzahler: \u201cKeine Verl\u00e4ngerung der Luca-Lizenzen!\u201d (steuerzahler-hessen.de)",
+                    "authors": [
+                        "Bund der Steuerzahler Hessen e.V.",
+                        "Joachim Papendick"
+                    ]
+                }
+            ],
+            "text": "Der Bund der Steuerzahler Hessen e.V. fordert ein Ende der Luca-App in Hessen.<blockquote>Der Bund der Steuerzahler (BdSt) Hessen fordert das Land auf, die auslaufenden Lizenzen der umstrittenen Luca-App nicht zu verl\u00e4ngern. \u201eZu Beginn der Vertragslaufzeit hat man sich von Luca noch versprochen, effektiv zur Pandemiebek\u00e4mpfung beizutragen und sich die App daher einiges kosten lassen. Nach fast einem Jahr ist davon laut Medienberichten und Experten nur wenig \u00fcbriggeblieben: Offenbar gibt es nicht nur Sicherheitsl\u00fccken und Datenschutzprobleme, sondern die App hat wohl auch nur selten zur Nachverfolgung von Infektionsketten beigetragen\u201c, erkl\u00e4rt Joachim Papendick, Vorsitzender des BdSt Hessen.<\/blockquote>",
+            "title": "Bund der Steuerzahler: \u201cKeine Verl\u00e4ngerung der Luca-Lizenzen!\u201d",
+            "type": "doc",
+            "verified": true
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "id": "b28819b6da12",
+            "id_readable": "2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus",
+            "links": [
+                {
+                    "url": "https:\/\/www.allgemeine-zeitung.de\/politik\/rheinland-pfalz\/luca-app-steht-in-rheinland-pfalz-vor-dem-aus_25208676",
+                    "text": "Stephen Weber: \u201cLuca-App steht in Rheinland-Pfalz vor dem Aus\u201d (allgemeine-zeitung.de)",
+                    "authors": [
+                        "Stephen Weber"
+                    ]
+                }
+            ],
+            "scope": "Land: Rheinland-Pfalz",
+            "text": "<blockquote>Immer lauter schallen derzeit die Stimmen durch das Regierungsviertel der Landespolitik, die fordern, die Nutzung der teuren Luca-App zur Kontaktverfolgung in der Corona-Pandemie zu hinterfragen. Auch aus den Reihen der Regierungsfraktionen. Aus dem rheinland-pf\u00e4lzischen Gesundheitsministerium hei\u00dft es dazu: \u201eWir befinden uns aktuell in Gespr\u00e4chen, ob in dieser Frage ein bundeseinheitlicher Weg eingeschlagen wird.\u201c<\/blockquote><blockquote>Zwischen April und Oktober haben die Gesundheits\u00e4mter in Rheinland-Pfalz angegeben, gar nicht oder h\u00f6chstens bis zu f\u00fcnfmal auf Daten der Luca-App zur Kontaktverfolgung zur\u00fcckgegriffen zu haben. Ist das aufwendige und kostspielige Prozedere also umsonst gewesen?<\/blockquote>",
+            "title": "\u201cLuca-App steht in Rheinland-Pfalz vor dem Aus\u201d",
+            "type": "news"
         }
     ]
 }
