@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "9faeb04",
-            "commit_lh": "9faeb04204bc025c44349d3aaa0f5184dcb34553",
-            "commit_date": "2022-01-24 23:03:49 +0100",
+            "commit_sh": "28fc455",
+            "commit_lh": "28fc4555de31941c72875cea98db973207c2c668",
+            "commit_date": "2022-01-25 00:01:24 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643065206,
+        "ts": 1643065617,
         "date": "2022-01-25"
     },
     "timeline": [
@@ -7767,6 +7767,32 @@
             "text": "<blockquote>Immer lauter schallen derzeit die Stimmen durch das Regierungsviertel der Landespolitik, die fordern, die Nutzung der teuren Luca-App zur Kontaktverfolgung in der Corona-Pandemie zu hinterfragen. Auch aus den Reihen der Regierungsfraktionen. Aus dem rheinland-pf\u00e4lzischen Gesundheitsministerium hei\u00dft es dazu: \u201eWir befinden uns aktuell in Gespr\u00e4chen, ob in dieser Frage ein bundeseinheitlicher Weg eingeschlagen wird.\u201c<\/blockquote><blockquote>Zwischen April und Oktober haben die Gesundheits\u00e4mter in Rheinland-Pfalz angegeben, gar nicht oder h\u00f6chstens bis zu f\u00fcnfmal auf Daten der Luca-App zur Kontaktverfolgung zur\u00fcckgegriffen zu haben. Ist das aufwendige und kostspielige Prozedere also umsonst gewesen?<\/blockquote>",
             "title": "\u201cLuca-App steht in Rheinland-Pfalz vor dem Aus\u201d",
             "type": "news"
+        },
+        {
+            "date": "24.01.2022",
+            "dt_created": "2022-01-24 00:00:00",
+            "dt_updated": "2022-01-24 00:00:00",
+            "embed": [
+                {
+                    "id": "sOcubgCsSLk",
+                    "type": "youtube"
+                }
+            ],
+            "id": "386152b38481",
+            "id_readable": "2022-01-24_broadcast_Video-Luca-App-sofort-lschen---Kritik-am-Datenschutz--Nutzen-gegen-Corona",
+            "links": [
+                {
+                    "url": "https:\/\/www.youtube.com\/watch?v=sOcubgCsSLk",
+                    "text": "Video: \u201cLuca App sofort l\u00f6schen? - Kritik am Datenschutz & Nutzen gegen Corona\u201d (youtube.com)",
+                    "authors": [
+                        "Politik f\u00fcr Dich",
+                        "Leon Kottmann"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Die Luca App sollte helfen, die Corona-Pandemie zu bek\u00e4mpfen. Doch immer wieder wird Kritik am mangelnden Datenschutz der Luca App laut. Hilft die App von Rapper Smudo wirklich gegen die Pandemie im Vergleich zur Corona Warn-App? Verdient Smudo mit der Luca App Geld?<\/blockquote>",
+            "title": "Video: \u201cLuca App sofort l\u00f6schen? - Kritik am Datenschutz & Nutzen gegen Corona\u201d",
+            "type": "broadcast"
         }
     ]
 }
