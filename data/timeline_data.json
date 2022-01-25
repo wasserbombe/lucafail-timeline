@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "28fc455",
-            "commit_lh": "28fc4555de31941c72875cea98db973207c2c668",
-            "commit_date": "2022-01-25 00:01:24 +0100",
+            "commit_sh": "654821d",
+            "commit_lh": "654821dd13336fd01865ba92d670614256ebdc2f",
+            "commit_date": "2022-01-25 00:08:21 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643065617,
+        "ts": 1643126443,
         "date": "2022-01-25"
     },
     "timeline": [
@@ -7793,6 +7793,24 @@
             "text": "<blockquote>Die Luca App sollte helfen, die Corona-Pandemie zu bek\u00e4mpfen. Doch immer wieder wird Kritik am mangelnden Datenschutz der Luca App laut. Hilft die App von Rapper Smudo wirklich gegen die Pandemie im Vergleich zur Corona Warn-App? Verdient Smudo mit der Luca App Geld?<\/blockquote>",
             "title": "Video: \u201cLuca App sofort l\u00f6schen? - Kritik am Datenschutz & Nutzen gegen Corona\u201d",
             "type": "broadcast"
+        },
+        {
+            "date": "25.01.2022",
+            "dt_created": "2022-01-25 00:00:00",
+            "dt_updated": "2022-01-25 00:00:00",
+            "id": "8fae43d92e46",
+            "id_readable": "2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt",
+            "links": [
+                {
+                    "url": "https:\/\/www.bayern.de\/bayern-setzt-kuenftig-auf-anonymisierte-corona-kontaktverfolgung-holetschek-und-gerlach-die-omikron-variante-zeigt-dass-wir-andere-instrumente-der-pandemiebekaempfung-brauchen-kontaktdatenerfas\/",
+                    "text": "Pressemitteilung: \u201cKontaktdatenerfassung per Luca-App nicht mehr angezeigt\u201d (bayern.de)"
+                }
+            ],
+            "scope": "Land: Bayern",
+            "text": "Bayern steigt bei der Luca-App aus und wird den Vertrag auslaufen lassen.<blockquote>Bayern setzt im Kampf gegen die Corona-Pandemie k\u00fcnftig auf eine anonymisierte Kontaktverfolgung und die Weiterentwicklung der Corona-Warn-App (CWA) des Bundes. Darauf haben das Bayerische Digitalministerium und das Bayerische Gesundheitsministerium am Dienstag in M\u00fcnchen hingewiesen.<br>Grund ist die rasante Ausbreitung der Omikron-Variante, die eine individualisierte Nachverfolgung von Kontaktpersonen durch die Gesundheits\u00e4mter deutlich erschwert. Eine Kontaktdatenerfassung durch die Luca-App ist daher nicht mehr angezeigt. Der Freistaat Bayern wird deshalb keine erneute Ausschreibung f\u00fcr eine App zur Kontaktdatenerfassung durchf\u00fchren und den bestehenden Vertrag mit der Culture4Life GmbH zum 05. April 2022 auslaufen lassen.<\/blockquote>",
+            "title": "Bayern: \u201cKontaktdatenerfassung per Luca-App nicht mehr angezeigt\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }

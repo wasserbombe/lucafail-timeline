@@ -124,10 +124,13 @@
             }]
         },
         'DE-BY': {
-            color: "#ff8c00",
-            updated: '2021-11-04',
-            description: 'In Bayern ist eine Kontaktdatenerfassung nur bei Veranstaltungen mit mehr als 1000 Personen in geschlossenen Räumen notwendig, sowie bei körpernahen Dienstleistungen und Gemeinschaftsunterkünften. Die breite Kontaktnachverfolgung durch die Gesundheitsämter wurde eingestellt.',
+            color: "#006400",
+            updated: '2022-01-25',
+            description: 'In Bayern ist eine Kontaktdatenerfassung nur bei Veranstaltungen mit mehr als 1000 Personen in geschlossenen Räumen notwendig, sowie bei körpernahen Dienstleistungen und Gemeinschaftsunterkünften. Die breite Kontaktnachverfolgung durch die Gesundheitsämter wurde eingestellt. In Zukunft wolle man auf die Corona-Warn-App und damit auf anonyme Kontaktnachverfolgung setzen.',
             sources: [{
+                "url": "https:\/\/www.bayern.de\/bayern-setzt-kuenftig-auf-anonymisierte-corona-kontaktverfolgung-holetschek-und-gerlach-die-omikron-variante-zeigt-dass-wir-andere-instrumente-der-pandemiebekaempfung-brauchen-kontaktdatenerfas\/",
+                "text": "Pressemitteilung: \u201cKontaktdatenerfassung per Luca-App nicht mehr angezeigt\u201d (bayern.de)"
+            },{
                 text: "\u201cGesundheitsämter stellen breite Kontaktnachverfolgung ein\u201d",
                 url: "https://www.br.de/nachrichten/bayern/gesundheitsaemter-stellen-breite-corona-kontaktnachverfolgung-ein,SnoHOTl"
             },{
