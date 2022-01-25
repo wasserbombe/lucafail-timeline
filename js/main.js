@@ -769,6 +769,12 @@
             }
         });
     }
+    
+    const monthNames = [
+        "Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+        "August", "September", "Oktober", "November", "Dezember"
+    ];
+
     $.ajax({
         url: "/data/timeline_data.min.json",
         dataType: 'json',
@@ -788,8 +794,17 @@
                         var yearMonth = dateMatch[3] + '-' + dateMatch[2];
                         e.dateYYMMDD = dateMatch[3] + '-' + dateMatch[2] + '-' + dateMatch[1]
                         if (yearMonth != lastYearAndMonth){
+                            var date = new Date(yearMonth + '-01');
                             // new month!
-                            var $monthSep = $("<div>").html("<h2>" + yearMonth + "</h2>").addClass("month-separator").attr("id", yearMonth);
+                            var $monthSep = $("<div>").addClass("month-separator").attr("id", yearMonth).attr("data-panel-id", yearMonth);
+                            var $h2 = $("<h2>")
+                                        .text(monthNames[date.getMonth()] + " " + date.getFullYear())
+                                        .append(' <a href="#'+yearMonth+'"><i class="bi-link"></i></a>');
+                            $monthSep.append($h2);
+
+                            if (data.months[yearMonth] && data.months[yearMonth].summary){
+                                $monthSep.append($("<p>").html(data.months[yearMonth].summary));
+                            }
 
                             $(".timeline").append($monthSep);
                             

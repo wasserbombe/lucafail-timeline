@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "ec7be95",
-            "commit_lh": "ec7be9595054596e255a2e6c2aa529f858652768",
-            "commit_date": "2022-01-25 17:03:09 +0100",
+            "commit_sh": "f372693",
+            "commit_lh": "f372693e9a77af2c03bac46ea54591ad00043e46",
+            "commit_date": "2022-01-25 19:33:50 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,19 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643135625,
+        "ts": 1643148467,
         "date": "2022-01-25"
+    },
+    "months": {
+        "2022-01": {
+            "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
+        },
+        "2021-12": {
+            "summary": "Die meisten Gesundheits\u00e4mter sind <a href=\"#2021-12-24_news_Keine-Kontaktverfolgung-mehr-mglich-Gesundheitsmter-ber-dem-Limit--und-jetzt-kommt-Omikron\">von der Kontaktnachverfolgung \u00fcberfordert oder arbeiten am Limit<\/a>, da die Inzidenzen zu hoch sind und es somit mehr F\u00e4lle als Kapazit\u00e4ten bei den Gesundheits\u00e4mtern gibt. Eine <a href=\"#2021-12-07_doc_Chaos-Computer-Club-Freiburg-Gesundsheitsmter-bundesweit-nur-10-AbfragenTag-vor-allem-Hamburg\">Kontaktnachverfolgung findet mit Luca nicht oder nur sehr selten statt<\/a> - auch, weil in vielen L\u00e4ndern inzwischen eine anonyme Kontaktverfolgung \u00fcber die Corona-Warn-App m\u00f6glich ist. Gleichzeitig erreicht die Luca-App einen weiteren <a href=\"#2021-12-16_doc-luca_40-Millionen-Nutzer\">Meilenstein: 40 Millionen Nutzer<\/a> - aber keiner wei\u00df so wirklich, woraus diese Zahl ermittelt wird und wie z.B. Registrierungen \u00fcber Kontaktformulare da mit hineinz\u00e4hlen. Auch von der im September <a href=\"#2021-12-08_news_Luca-Connect-Neues-Werkzeug-fr-Gesundheitsmter\">angek\u00fcndigten Erweiterung Luca-Connect<\/a> ist nicht bekannt, ob und wie diese bereits eingesetzt wird."
+        },
+        "2021-11": {
+            "summary": "Endlich gibt es die versprochene <a href=\"#2021-11-09_news_Corona-Warn-App-kann-auch-QR-Codes-von-luca-einscannen\">Kompatibilit\u00e4t mit der Corona-Warn-App<\/a>! Aber leider mit T\u00fccken: <a href=\"#2021-11-09_incident_Event-im-Gasthof-undefined-in-undefined-Hausen\">Manche QR-Codes enthalten keine Daten<\/a>, die <a href=\"#2021-11-09_incident_Kompatibilitt-mit-CWA-lsst-sich-abschalten\">Kompatibilit\u00e4t mit der CWA l\u00e4sst sich im Web-Interface abschalten<\/a> - und dann funktioniert das auch nur bei QR-Codes, die nach einem bestimmten Zeitpunkt erstellt (und seitens der Location-Betreiber vermutlich nie aktualisiert wurden).<br>Gleichzeitig gibt es einen R\u00fcckschlag f\u00fcr das Vergabeverfahren in Mecklenburg-Vorpommern: Das <a href=\"#2021-11-11_news_Oberlandesgericht-Rostock-Direktvergabe-der-Luca-App-durch-das-Land-Mecklenburg-Vorpommern-war-vergaberechtswidrig\">OLG Rostock urteilt, diese Direktvergabe sei vergaberechtswidrig gewesen<\/a>."
+        }
     },
     "timeline": [
         {
