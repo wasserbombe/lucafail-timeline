@@ -283,6 +283,7 @@
         url.hash = "#"+panel; 
 
         window.history.replaceState(null, '', url); 
+        updateNav(); 
     };
 
     $(document).on("click", function (e) {
@@ -775,6 +776,60 @@
         "August", "September", "Oktober", "November", "Dezember"
     ];
 
+    // credits: https://stackoverflow.com/a/32623832
+    function absolutePosition(el) {
+        var found, left = 0, top = 0, width = 0, height = 0, offsetBase = absolutePosition.offsetBase;
+        if (!offsetBase && document.body) {
+            offsetBase = absolutePosition.offsetBase = document.createElement('div');
+            offsetBase.style.cssText = 'position:absolute;left:0;top:0';
+            document.body.appendChild(offsetBase);
+        }
+        if (el && el.ownerDocument === document && 'getBoundingClientRect' in el && offsetBase) {
+            var boundingRect = el.getBoundingClientRect();
+            var baseRect = offsetBase.getBoundingClientRect();
+            found = true;
+            left = boundingRect.left - baseRect.left;
+            top = boundingRect.top - baseRect.top;
+            width = boundingRect.right - boundingRect.left;
+            height = boundingRect.bottom - boundingRect.top;
+        }
+        return {
+            found: found,
+            left: left,
+            top: top,
+            width: width,
+            height: height,
+            right: left + width,
+            bottom: top + height
+        };
+    }
+    
+    var updateNav = function(){
+        var y = window.pageYOffset; 
+        var smallestdiff = null; 
+        var month = null; 
+        $(".month-separator").each(function(s, separator){
+            var pos = absolutePosition(separator);
+            var diff = pos.top - y; 
+            if (diff < 0 && (!smallestdiff || diff > smallestdiff)){
+                smallestdiff = diff; 
+                month = separator.id
+            }
+        });
+
+        if (month){
+            console.log("Current Month: " + month); 
+            $("#timeline_nav .timeline-nav-month").each(function (m, monthnav){
+                if ($(monthnav).data("month") < month){
+                    $(monthnav).addClass("timeline-nav-month-active");
+                } else {
+                    $(monthnav).removeClass("timeline-nav-month-active");
+                }
+            });
+        }
+    };
+    $(document).on("scroll", updateNav);
+
     $.ajax({
         url: "/data/timeline_data.min.json",
         dataType: 'json',
@@ -809,6 +864,20 @@
                             $(".timeline").append($monthSep);
                             
                             lastYearAndMonth = yearMonth; 
+
+                            $("#timeline_nav").prepend(
+                                $("<div>")
+                                .addClass("timeline-nav-month")
+                                .attr("data-month", yearMonth)
+                                .attr("data-toggle","tooltip")
+                                .attr("data-placement","top")
+                                .attr("title", monthNames[date.getMonth()] + " " + date.getFullYear())
+                                .on("click", function (){
+                                    scrollToPanel(yearMonth)
+                                })
+                            );
+
+                            $("#timeline_nav .timeline-nav-month").css("width", "calc(100% / " + $("#timeline_nav .timeline-nav-month").length + ")");
                         }
                     }
                 }
@@ -1205,6 +1274,9 @@
                 }
             });
             $("#stats_total_count").append("Die Beiträge enthalten insgesamt <b>"+(countLinks+countEmbeds)+" Links und Quellen</b> bzw. <b>"+countEmbeds+" Einbindungen</b> von externen Webseiten (soziale Netzwerke, Gitlab, Frag den Staat, etc.). ");
+        },
+        complete: function() {
+            $('[data-toggle="tooltip"]').tooltip();
         }
     });
 })(); 

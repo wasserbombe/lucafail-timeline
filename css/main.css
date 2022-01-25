@@ -376,6 +376,7 @@ div.quote-origin {
     font-weight: bold;
 }
 
+/* months */
 .month-separator {
     border: 1px solid #d4d4d4;
     background-color: #fff;
@@ -388,4 +389,27 @@ div.quote-origin {
 }
 .month-separator h2 {
     text-decoration: underline;
+}
+
+/* navigation */
+#timeline_nav {
+    position: fixed;
+    bottom: 0px; 
+    left: 0px;
+    right: 0px; 
+    height: 10px; 
+    background-color: #fff;
+
+    display:flex;
+
+    z-index: 9999;
+}
+
+#timeline_nav .timeline-nav-month {
+    height: 10px;
+    border-right: 1px solid #d4d4d4;
+    background-color: #809edf;
+}
+#timeline_nav .timeline-nav-month-active {
+    background-color: #0047e1;
 }
