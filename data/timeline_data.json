@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "654821d",
-            "commit_lh": "654821dd13336fd01865ba92d670614256ebdc2f",
-            "commit_date": "2022-01-25 00:08:21 +0100",
+            "commit_sh": "ec7be95",
+            "commit_lh": "ec7be9595054596e255a2e6c2aa529f858652768",
+            "commit_date": "2022-01-25 17:03:09 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643126443,
+        "ts": 1643135625,
         "date": "2022-01-25"
     },
     "timeline": [
@@ -7804,13 +7804,49 @@
                 {
                     "url": "https:\/\/www.bayern.de\/bayern-setzt-kuenftig-auf-anonymisierte-corona-kontaktverfolgung-holetschek-und-gerlach-die-omikron-variante-zeigt-dass-wir-andere-instrumente-der-pandemiebekaempfung-brauchen-kontaktdatenerfas\/",
                     "text": "Pressemitteilung: \u201cKontaktdatenerfassung per Luca-App nicht mehr angezeigt\u201d (bayern.de)"
+                },
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/bayern\/corona-bayern-aktuell-luca-app-fussball-lockerungen-1.5512150",
+                    "text": "\u201cBayern l\u00e4sst Zusammenarbeit mit Luca-App auslaufen\u201d (sueddeutsche.de)"
+                },
+                {
+                    "url": "https:\/\/www.br.de\/nachrichten\/bayern\/corona-bayern-beschliesst-aus-fuer-luca-app-zur-kontaktverfolgung,SvXPawl",
+                    "text": "\u201cBayern beschlie\u00dft Aus f\u00fcr Luca-App zur Kontaktverfolgung\u201d (br.de)",
+                    "authors": [
+                        "BR24 Redaktion"
+                    ]
                 }
             ],
             "scope": "Land: Bayern",
-            "text": "Bayern steigt bei der Luca-App aus und wird den Vertrag auslaufen lassen.<blockquote>Bayern setzt im Kampf gegen die Corona-Pandemie k\u00fcnftig auf eine anonymisierte Kontaktverfolgung und die Weiterentwicklung der Corona-Warn-App (CWA) des Bundes. Darauf haben das Bayerische Digitalministerium und das Bayerische Gesundheitsministerium am Dienstag in M\u00fcnchen hingewiesen.<br>Grund ist die rasante Ausbreitung der Omikron-Variante, die eine individualisierte Nachverfolgung von Kontaktpersonen durch die Gesundheits\u00e4mter deutlich erschwert. Eine Kontaktdatenerfassung durch die Luca-App ist daher nicht mehr angezeigt. Der Freistaat Bayern wird deshalb keine erneute Ausschreibung f\u00fcr eine App zur Kontaktdatenerfassung durchf\u00fchren und den bestehenden Vertrag mit der Culture4Life GmbH zum 05. April 2022 auslaufen lassen.<\/blockquote>",
+            "text": "Bayern steigt bei der Luca-App aus und wird den Vertrag auslaufen lassen.<blockquote>Bayern setzt im Kampf gegen die Corona-Pandemie k\u00fcnftig auf eine anonymisierte Kontaktverfolgung und die Weiterentwicklung der Corona-Warn-App (CWA) des Bundes. Darauf haben das Bayerische Digitalministerium und das Bayerische Gesundheitsministerium am Dienstag in M\u00fcnchen hingewiesen.<br>Grund ist die rasante Ausbreitung der Omikron-Variante, die eine individualisierte Nachverfolgung von Kontaktpersonen durch die Gesundheits\u00e4mter deutlich erschwert. Eine Kontaktdatenerfassung durch die Luca-App ist daher nicht mehr angezeigt. Der Freistaat Bayern wird deshalb keine erneute Ausschreibung f\u00fcr eine App zur Kontaktdatenerfassung durchf\u00fchren und den bestehenden Vertrag mit der Culture4Life GmbH zum 05. April 2022 auslaufen lassen.<\/blockquote><blockquote>Der Nutzen der Luca-App war zuletzt stark umstritten, sie wurde zu selten zur Kontaktverfolgung genutzt. So hatte eine Umfrage des \"Spiegel\" j\u00fcngst ergeben, dass die 380 deutschen Gesundheits\u00e4mter nur selten auf Daten der Luca-App zur\u00fcckgreifen. Demnach hatten 54 derjenigen \u00c4mter, die theoretisch mit der App arbeiten k\u00f6nnten, bislang kein einziges Mal Daten von Gastst\u00e4tten oder \u00e4hnlichen Orten angefordert.<\/blockquote>",
             "title": "Bayern: \u201cKontaktdatenerfassung per Luca-App nicht mehr angezeigt\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "25.01.2022",
+            "dt_created": "2022-01-25 00:00:00",
+            "dt_updated": "2022-01-25 00:00:00",
+            "id": "e062b13d6fb9",
+            "id_readable": "2022-01-25_news_Sachsen-Anhalt-und-Bayern-steigen-aus-Luca-Vertrgen-aus",
+            "links": [
+                {
+                    "url": "https:\/\/www.spiegel.de\/netzwelt\/apps\/luca-app-sachsen-anhalt-und-bayern-steigen-aus-vertraegen-aus-a-a01129a2-71d0-4f4a-83ab-94b5a9209ed3",
+                    "text": "\u201cSachsen-Anhalt und Bayern steigen aus Luca-Vertr\u00e4gen aus\u201d (spiegel.de)"
+                }
+            ],
+            "references": [
+                {
+                    "id": "8fae43d92e46"
+                },
+                {
+                    "id": "935d5cfe5ed5"
+                }
+            ],
+            "text": "<blockquote>Die Gesundheits\u00e4mter in Sachsen-Anhalt haben Luca kaum zur Kontaktnachverfolgung genutzt. Bayern setzt wegen Omikron nur noch auf die Corona-Warn-App.<\/blockquote><blockquote>\u00bbWir haben von Anfang an gesagt, dass die Luca-App f\u00fcr uns wenig Sinn macht\u00ab, hatte Eike Hennig, Sprecher der Gesundheits\u00e4mter in Sachsen-Anhalt, k\u00fcrzlich dem SPIEGEL gesagt. Die Daten aus der App w\u00fcrden kaum helfen, die Pandemie einzud\u00e4mmen, weil sie nicht genau genug seien, um das tats\u00e4chliche Infektionsrisiko, beispielsweise in einem Restaurant, einzusch\u00e4tzen.<\/blockquote>",
+            "title": "\u201cSachsen-Anhalt und Bayern steigen aus Luca-Vertr\u00e4gen aus\u201d",
+            "type": "news",
+            "viaDPAInfocom": true
         }
     ]
 }
