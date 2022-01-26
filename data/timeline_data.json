@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "f372693",
-            "commit_lh": "f372693e9a77af2c03bac46ea54591ad00043e46",
-            "commit_date": "2022-01-25 19:33:50 +0100",
+            "commit_sh": "dfbc752",
+            "commit_lh": "dfbc752483ffd1501f00177b63ccd9db5f08c97c",
+            "commit_date": "2022-01-26 00:00:07 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,12 +12,12 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643148467,
-        "date": "2022-01-25"
+        "ts": 1643211894,
+        "date": "2022-01-26"
     },
     "months": {
         "2022-01": {
-            "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
+            "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-18_news_Hessen-Kommt-jetzt-das-Aus-fr-die-Luca-App\">Hessen<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
         },
         "2021-12": {
             "summary": "Die meisten Gesundheits\u00e4mter sind <a href=\"#2021-12-24_news_Keine-Kontaktverfolgung-mehr-mglich-Gesundheitsmter-ber-dem-Limit--und-jetzt-kommt-Omikron\">von der Kontaktnachverfolgung \u00fcberfordert oder arbeiten am Limit<\/a>, da die Inzidenzen zu hoch sind und es somit mehr F\u00e4lle als Kapazit\u00e4ten bei den Gesundheits\u00e4mtern gibt. Eine <a href=\"#2021-12-07_doc_Chaos-Computer-Club-Freiburg-Gesundsheitsmter-bundesweit-nur-10-AbfragenTag-vor-allem-Hamburg\">Kontaktnachverfolgung findet mit Luca nicht oder nur sehr selten statt<\/a> - auch, weil in vielen L\u00e4ndern inzwischen eine anonyme Kontaktverfolgung \u00fcber die Corona-Warn-App m\u00f6glich ist. Gleichzeitig erreicht die Luca-App einen weiteren <a href=\"#2021-12-16_doc-luca_40-Millionen-Nutzer\">Meilenstein: 40 Millionen Nutzer<\/a> - aber keiner wei\u00df so wirklich, woraus diese Zahl ermittelt wird und wie z.B. Registrierungen \u00fcber Kontaktformulare da mit hineinz\u00e4hlen. Auch von der im September <a href=\"#2021-12-08_news_Luca-Connect-Neues-Werkzeug-fr-Gesundheitsmter\">angek\u00fcndigten Erweiterung Luca-Connect<\/a> ist nicht bekannt, ob und wie diese bereits eingesetzt wird."
@@ -7857,6 +7857,69 @@
             "text": "<blockquote>Die Gesundheits\u00e4mter in Sachsen-Anhalt haben Luca kaum zur Kontaktnachverfolgung genutzt. Bayern setzt wegen Omikron nur noch auf die Corona-Warn-App.<\/blockquote><blockquote>\u00bbWir haben von Anfang an gesagt, dass die Luca-App f\u00fcr uns wenig Sinn macht\u00ab, hatte Eike Hennig, Sprecher der Gesundheits\u00e4mter in Sachsen-Anhalt, k\u00fcrzlich dem SPIEGEL gesagt. Die Daten aus der App w\u00fcrden kaum helfen, die Pandemie einzud\u00e4mmen, weil sie nicht genau genug seien, um das tats\u00e4chliche Infektionsrisiko, beispielsweise in einem Restaurant, einzusch\u00e4tzen.<\/blockquote>",
             "title": "\u201cSachsen-Anhalt und Bayern steigen aus Luca-Vertr\u00e4gen aus\u201d",
             "type": "news",
+            "viaDPAInfocom": true
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "embed": [
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1486289819378540545"
+                },
+                {
+                    "type": "tweet",
+                    "url": "https:\/\/twitter.com\/sand2drn\/status\/1486252333176692738"
+                }
+            ],
+            "id": "9ce0c4a9b56c",
+            "id_readable": "2022-01-26_news_Hamburg-Luca-App-bald-nicht-mehr-Pflicht-in-der-Gastronomie",
+            "links": [
+                {
+                    "url": "https:\/\/www.ndr.de\/nachrichten\/hamburg\/coronavirus\/Hamburg-Luca-App-bald-nicht-mehr-Pflicht-in-der-Gastronomie,lucaapp130.html",
+                    "text": "\u201cHamburg: Luca-App bald nicht mehr Pflicht in der Gastronomie\u201d (ndr.de)"
+                },
+                {
+                    "url": "https:\/\/twitter.com\/cccfr\/status\/1486289819378540545",
+                    "text": "Tweet vom Chaos Computer Club zur NDR-Meldung (twitter.com)",
+                    "authors": [
+                        "Chaos Computer Club Freiburg e.V."
+                    ]
+                },
+                {
+                    "url": "https:\/\/twitter.com\/sand2drn\/status\/1486252333176692738",
+                    "text": "Tweet vom @sand2drn zur Hamburger Verordnung (twitter.com)",
+                    "authors": [
+                        "sand2drn"
+                    ]
+                }
+            ],
+            "text": "Hamburg will in Zukunft die anonyme Kontaktnachverfolgung \u00fcber die Corona-Warn-App (CWA) erm\u00f6glichen. Derzeit sei die Luca-App noch in der Verordnung vorgeschrieben - und das werde auch noch mindestens drei Wochen so bleiben. <br>Die Luca-App m\u00f6chte man ggf. \"auf Vorrat\" weiter lizenzieren. Der Chaos Computer Club findet das befremdlich: <blockquote>Hamburg hatte die Kontaktnachverfolgung nur noch als \"Warnmelder\" - wie die Corona-Warn-App - genutzt und Mitte Dezember im wesentlichen eingestellt. Wir w\u00fcrden als Jura-Laien sogar vermuten, dass die Erhebung an dieser Stelle dann eher nicht mehr rechtsm\u00e4\u00dfig w\u00e4re<\/blockquote>",
+            "title": "\u201cHamburg: Luca-App bald nicht mehr Pflicht in der Gastronomie\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "id": "d8021fa49aac",
+            "id_readable": "2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung",
+            "links": [
+                {
+                    "url": "https:\/\/www.stuttgarter-zeitung.de\/inhalt.coronavirus-in-baden-wuerttemberg-land-steigt-bei-luca-app-aus-keine-vertragsverlaengerung.c907ad45-0b3e-4521-88e0-acbdfaa00add.html",
+                    "text": "\u201cLand steigt bei Luca-App aus \u2013 keine Vertragsverl\u00e4ngerung\u201d (stuttgarter-zeitung.de)",
+                    "authors": [
+                        "DPA"
+                    ]
+                }
+            ],
+            "scope": "Land: Baden-W\u00fcrttemberg",
+            "text": "<blockquote>Das Land Baden-W\u00fcrttemberg will k\u00fcnftig nicht mehr auf die Luca-App zur Kontaktverfolgung zur\u00fcckgreifen. Der Vertrag mit dem privaten Betreiber der Software werde nicht \u00fcber Ende M\u00e4rz hinaus verl\u00e4ngert, erfuhr die Deutsche Presse-Agentur am Mittwoch aus Regierungskreisen in Stuttgart.<\/blockquote>",
+            "title": "\u201cLand steigt bei Luca-App aus \u2013 keine Vertragsverl\u00e4ngerung\u201d",
+            "type": "news",
+            "verified": false,
             "viaDPAInfocom": true
         }
     ]

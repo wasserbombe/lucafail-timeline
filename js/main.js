@@ -139,11 +139,12 @@
             }]
         },
         'DE-HH': {
-            color: "#8b0000",
-            updated: '2021-12-07',
-            description: '<blockquote>In Hamburg müssen die Kontaktdaten weiter erfasst werden. Dazu muss soll vorrangig eine digitale Möglichkeit genutzt werden. Diese muss allerdings die Möglichkeit des Zugriffs durch die Gesundheitsämter ermöglichen. Die  CWA bietet einen solchen Datenübertrag nicht an. Sie dient der   individuellen Warnung und ist - konzeptionell so vorgesehen - kein   Beitrag zur Kontaktnachverfolgung.',
+            color: "#ff8c00",
+            updated: '2022-01-26',
+            description: 'Hamburg möchte in Zukunft die anonyme Kontaktnachverfolgung via Corona-Warn-App ermöglichen. Aktuell ist noch eine Kontaktdatenerfassung via Luca vorgeschrieben.',
             sources: [{
-                text: "Martin Helfrich (Pressesprecher) gegenüber dem CCC FR"
+                text: "NDR: \u201cHamburg: Luca-App bald nicht mehr Pflicht in der Gastronomie\u201d",
+                url: "https://www.ndr.de/nachrichten/hamburg/coronavirus/Hamburg-Luca-App-bald-nicht-mehr-Pflicht-in-der-Gastronomie,lucaapp130.html"
             }]
         },
         'DE-MV': {
@@ -820,7 +821,7 @@
         if (month){
             console.log("Current Month: " + month); 
             $("#timeline_nav .timeline-nav-month").each(function (m, monthnav){
-                if ($(monthnav).data("month") < month){
+                if ($(monthnav).data("month") <= month){
                     $(monthnav).addClass("timeline-nav-month-active");
                 } else {
                     $(monthnav).removeClass("timeline-nav-month-active");
