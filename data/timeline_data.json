@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "e2995b3",
-            "commit_lh": "e2995b30ffdd8b1cb2fe0d2649c34b021cf6504f",
-            "commit_date": "2022-01-26 16:47:39 +0100",
+            "commit_sh": "d95c300",
+            "commit_lh": "d95c300f136da445a4799d8c2a46f15cd9f452d3",
+            "commit_date": "2022-01-27 08:31:04 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643268642,
+        "ts": 1643277804,
         "date": "2022-01-27"
     },
     "months": {
@@ -8014,6 +8014,29 @@
             "text": "<blockquote>Das Schicksal der Luca-App als Mittel der Pandemiebek\u00e4mpfung scheint besiegelt. Mit Hessen hat heute ein weiteres Bundesland Vertrag mit der Firma Culture4Life gek\u00fcndigt. Acht von 13 L\u00e4ndern verl\u00e4ngern ihre Luca-Lizenzen demnach absehbar nicht. <\/blockquote><blockquote>Von den knapp 37.000 in Hessen registrierten Luca-Standorten habe nur noch ein Bruchteil die App aktiv genutzt und auch von den Gesundheits\u00e4mtern erfolgten kaum noch Anfragen an Luca.<\/blockquote>",
             "title": "\u201cMehrheit der Bundesl\u00e4nder k\u00fcndigt die Vertr\u00e4ge f\u00fcr Luca\u201d",
             "type": "news"
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "id": "d0cadaddb9ee",
+            "id_readable": "2022-01-26_news_Welt-Luca-App-gert-ins-Straucheln-Chef-Patrick-Hennig-im-Interview",
+            "links": [
+                {
+                    "url": "https:\/\/www.welt.de\/wirtschaft\/article236403931\/Luca-App-geraet-ins-Straucheln-Chef-Patrick-Hennig-im-Interview.html",
+                    "text": "Jan Klauth: \u201cLuca-App ger\u00e4t ins Straucheln: Chef Patrick Hennig im Interview\u201d (welt.de)",
+                    "authors": [
+                        "Jan Klauth"
+                    ]
+                }
+            ],
+            "tags": [
+                "interview"
+            ],
+            "text": "<blockquote>Hennig: Der Ausweis soll nicht an das Luca-System lesbar hochgeladen werden. Die Daten selbst werden nicht an zentraler Stelle lesbar gespeichert.<\/blockquote>\u2794 \"nicht lesbar\", aber doch hochgeladen?<br><br><br><blockquote>Hennig: Luca hat keine Datenschutz-Probleme.<\/blockquote>\u2794 Obwohl der Datenschutz nie der gr\u00f6\u00dfte Kritikpunkt war: <a href=\"#2021-05-26_incident_Schwachstelle-Remote-Code-Injection-via-CSV-Export\">Daten auslesen via Code Injection<\/a>, <a href=\"#2021-04-13_incident_Schwachstelle-LucaTrack-Historie-fr-Schlsselanhnger-auslesbar-damit-Bewegungsprofile-mglich\">Bewegegungsdaten \/ Historie bei Schl\u00fcsselanh\u00e4ngern auslesen<\/a>, <a href=\"#2021-03-31_incident_Schwachstelle-Alle-Gesundheitsmter-nutzen-denselben-Schlssel-zum-Zugriff-auf-Kontaktdaten\">Daten bei allen Gesundheits deutschlandweit abfragen, weil diese sich einen Schl\u00fcssel teilen<\/a>, <a href=\"#2021-03-23_doc_Preliminary-Analysis-of-Potential-Harms-in-the-Luca-Tracing-System\">Identifizierung von Individuen durch Meta-Daten-Analyse<\/a><br><br><br><blockquote>Hennig: Es ging um vier Anforderungen: Zweckbindung, Transparenz, Freiwilligkeit und Risikoabw\u00e4gung.<\/blockquote>\u2794 Zweckbindung: <a href=\"#2022-01-17_news_Neue-Geschftsmodelle-besttigt\">Luca k\u00fcndigt neue Gesch\u00e4ftsmodelle an<\/a><br>\u2794 Transparenz: Bis heute <a href=\"#2021-03-31_incident_Code-und-Code-Commits-fehlen-in-Gitlab---immer-wieder\">fehlt Code in den Gitlab-Repositories<\/a>, Zahlen, die Luca eigentlich haben m\u00fcsste, werden nicht oder nur sehr allgemein ver\u00f6ffentlicht - der <a href=\"https:\/\/twitter.com\/cccfr\/status\/1486289819378540545\" target=\"_blank\">Chaos Computer Club Freiburg hat dies dann \u00fcbernommen<\/a><br>\u2794 Freiwilligkeit: Viele Luca-Locations lassen nichts anderes zu bzw. \u00fcberf\u00fchren Papierzettel in Luca. Das betrifft nicht Luca selbst (die Nutzungsbedingungen untersagen es), aber das Konzept.<br>\u2794 Risikoabw\u00e4gung: Eine Beurteilung des Nutzens und der Risiken fand in vielen L\u00e4ndern nicht oder nur bedingt statt. Sonst h\u00e4tte sich bereits im Vorfeld herausgestellt, dass Luca nur bedingt eingesetzt werden wird.",
+            "title": "Welt: \u201cLuca-App ger\u00e4t ins Straucheln: Chef Patrick Hennig im Interview\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }
