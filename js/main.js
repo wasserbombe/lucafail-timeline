@@ -855,12 +855,25 @@
                             var $monthSep = $("<div>").addClass("month-separator").attr("id", yearMonth).attr("data-panel-id", yearMonth);
                             var $h2 = $("<h2>")
                                         .text(monthNames[date.getMonth()] + " " + date.getFullYear())
-                                        .append(' <a href="#'+yearMonth+'"><i class="bi-link"></i></a>');
+                                        .append(' <a href="#'+yearMonth+'"><i class="bi-link-45deg"></i></a>');
                             $monthSep.append($h2);
 
                             if (data.months[yearMonth] && data.months[yearMonth].summary){
                                 $monthSep.append($("<p>").html(data.months[yearMonth].summary));
                             }
+
+                            var month_counts = month_links = 0;
+                            for (var ti = 0; ti < data.timeline.length; ti++){
+                                var titem = data.timeline[ti];
+                                if (titem.date && titem.date.substr(3,7) == dateMatch[2] + '.' + dateMatch[3]){
+                                    month_counts++;
+                                    if (titem.links && titem.links.length > 0) month_links += titem.links.length;
+                                }
+                            }
+
+                            $monthstats = $("<div>").addClass("month-stats");
+                            $monthstats.append('<i class="bi bi-collection-fill"></i> ' + month_counts + ' Einträge &middot; <i class="bi bi-link-45deg"></i>' + month_links + ' Referenzen');
+                            $monthSep.append($monthstats);
 
                             $(".timeline").append($monthSep);
                             
@@ -948,7 +961,7 @@
                 }
                 // add panel link to subtitle
                 if (e.id_readable){
-                    subtitle.push('<a href="#'+e.id_readable+'"><i class="bi-link"></i></a>')
+                    subtitle.push('<a href="#'+e.id_readable+'"><i class="bi-link-45deg"></i></a>')
                     subtitle.push(e.id);
                 }
 

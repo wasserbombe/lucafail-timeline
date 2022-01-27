@@ -391,6 +391,10 @@ div.quote-origin {
     text-decoration: underline;
 }
 
+.month-stats {
+    color:rgb(92, 92, 92);
+}
+
 /* navigation */
 #timeline_nav {
     position: fixed;

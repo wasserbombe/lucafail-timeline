@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "dfbc752",
-            "commit_lh": "dfbc752483ffd1501f00177b63ccd9db5f08c97c",
-            "commit_date": "2022-01-26 00:00:07 +0100",
+            "commit_sh": "e2995b3",
+            "commit_lh": "e2995b30ffdd8b1cb2fe0d2649c34b021cf6504f",
+            "commit_date": "2022-01-26 16:47:39 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,12 +12,12 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643211894,
-        "date": "2022-01-26"
+        "ts": 1643268642,
+        "date": "2022-01-27"
     },
     "months": {
         "2022-01": {
-            "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-18_news_Hessen-Kommt-jetzt-das-Aus-fr-die-Luca-App\">Hessen<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
+            "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a>, <a href=\"#2022-01-26_news_Hessen-lsst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen\">Hessen<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
         },
         "2021-12": {
             "summary": "Die meisten Gesundheits\u00e4mter sind <a href=\"#2021-12-24_news_Keine-Kontaktverfolgung-mehr-mglich-Gesundheitsmter-ber-dem-Limit--und-jetzt-kommt-Omikron\">von der Kontaktnachverfolgung \u00fcberfordert oder arbeiten am Limit<\/a>, da die Inzidenzen zu hoch sind und es somit mehr F\u00e4lle als Kapazit\u00e4ten bei den Gesundheits\u00e4mtern gibt. Eine <a href=\"#2021-12-07_doc_Chaos-Computer-Club-Freiburg-Gesundsheitsmter-bundesweit-nur-10-AbfragenTag-vor-allem-Hamburg\">Kontaktnachverfolgung findet mit Luca nicht oder nur sehr selten statt<\/a> - auch, weil in vielen L\u00e4ndern inzwischen eine anonyme Kontaktverfolgung \u00fcber die Corona-Warn-App m\u00f6glich ist. Gleichzeitig erreicht die Luca-App einen weiteren <a href=\"#2021-12-16_doc-luca_40-Millionen-Nutzer\">Meilenstein: 40 Millionen Nutzer<\/a> - aber keiner wei\u00df so wirklich, woraus diese Zahl ermittelt wird und wie z.B. Registrierungen \u00fcber Kontaktformulare da mit hineinz\u00e4hlen. Auch von der im September <a href=\"#2021-12-08_news_Luca-Connect-Neues-Werkzeug-fr-Gesundheitsmter\">angek\u00fcndigten Erweiterung Luca-Connect<\/a> ist nicht bekannt, ob und wie diese bereits eingesetzt wird."
@@ -7913,14 +7913,107 @@
                     "authors": [
                         "DPA"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.stuttgarter-nachrichten.de\/inhalt.coronavirus-in-baden-wuerttemberg-die-luca-app-ist-endlich-geschichte.746dc7ac-a8bd-4e9c-b1be-43197d65d3c6.html?reduced=true",
+                    "text": "Florian D\u00fcrr: \u201cDie Luca-App ist endlich Geschichte\u201d (stuttgarter-zeitung.de)",
+                    "authors": [
+                        "Florian D\u00fcrr"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.stuttgarter-zeitung.de\/inhalt.land-steigt-aus-luca-app-aus-warum-die-kontaktverfolgung-ausgedient-hat-und-wie-es-kuenftig-laufen-soll.aebc39ce-2547-4510-ac33-1aa609a8e17b.html",
+                    "text": "Hanna Spanhel, Florian D\u00fcrr: \u201cWarum die Kontaktverfolgung ausgedient hat \u2013 und wie es k\u00fcnftig laufen soll\u201d (stuttgarter-zeitung.de)",
+                    "authors": [
+                        "Hanna Spanhel",
+                        "Florian D\u00fcrr"
+                    ]
+                },
+                {
+                    "url": "https:\/\/sozialministerium.baden-wuerttemberg.de\/de\/service\/presse\/pressemitteilung\/pid\/baden-wuerttemberg-wird-aus-luca-app-aussteigen\/",
+                    "text": "Pressemitteilung: \u201cBaden-W\u00fcrttemberg wird aus luca-App aussteigen\u201d (sozialministerium.baden-wuerttemberg.de)"
                 }
             ],
             "scope": "Land: Baden-W\u00fcrttemberg",
             "text": "<blockquote>Das Land Baden-W\u00fcrttemberg will k\u00fcnftig nicht mehr auf die Luca-App zur Kontaktverfolgung zur\u00fcckgreifen. Der Vertrag mit dem privaten Betreiber der Software werde nicht \u00fcber Ende M\u00e4rz hinaus verl\u00e4ngert, erfuhr die Deutsche Presse-Agentur am Mittwoch aus Regierungskreisen in Stuttgart.<\/blockquote>",
             "title": "\u201cLand steigt bei Luca-App aus \u2013 keine Vertragsverl\u00e4ngerung\u201d",
             "type": "news",
-            "verified": false,
+            "verified": true,
             "viaDPAInfocom": true
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "id": "53f2b398dc20",
+            "id_readable": "2022-01-26_news_Hessen-lsst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen",
+            "links": [
+                {
+                    "url": "https:\/\/soziales.hessen.de\/Presse\/Hessen-laesst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen",
+                    "text": "\u201cHessen l\u00e4sst Vertrag zur Nutzung der Luca-App auslaufen\u201d (soziales.hessen.de)"
+                },
+                {
+                    "url": "https:\/\/www.welt.de\/politik\/deutschland\/article236498187\/Baden-Wuerttemberg-und-Hessen-steigen-bei-Luca-App-aus.html",
+                    "text": "\u201cAuch Baden-W\u00fcrttemberg und Hessen lassen Vertrag mit der Luca-App auslaufen\u201d (welt.de)",
+                    "authors": [
+                        "DPA"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.hessenschau.de\/panorama\/hessen-steigt-bei-der-luca-app-aus,luca-app-114.html",
+                    "text": "Pia Stenner: \u201cHessen steigt bei der Luca-App aus\u201d (hessenschau.de)",
+                    "authors": [
+                        "DPA",
+                        "Pia Stenner"
+                    ]
+                }
+            ],
+            "scope": "Land: Hessen",
+            "text": "<blockquote>Seit einigen Monaten habe sich der Schwerpunkt aber auf den Schutz vulnerabler Gruppen und sensibler Einrichtungen verlagert, so dass eine umfassende Nachverfolgung nicht mehr angezeigt sei: \u201eDeshalb nutzen von den knapp 37.000 in Hessen registrierten Luca-Standorten nur noch ein Bruchteil die App aktiv und auch von den Gesundheits\u00e4mtern erfolgen kaum noch Anfragen an Luca, was unseren Entschluss erleichtert hat\u201c, so Gesundheitsminister Klose.<\/blockquote>",
+            "title": "\u201cHessen l\u00e4sst Vertrag zur Nutzung der Luca-App auslaufen\u201d",
+            "type": "news",
+            "verified": true,
+            "viaDPAInfocom": true
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "id": "60bec33c8401",
+            "id_readable": "2022-01-26_news_Stern-Aus-fr-die-Luca-App---Wie-wird-es-nun-weitergehen",
+            "links": [
+                {
+                    "url": "https:\/\/www.stern.de\/kultur\/aus-fuer-die-luca-app--wie-wird-es-nun-weitergehen--31572018.html",
+                    "text": "Stern: \u201cAus f\u00fcr die Luca-App - Wie wird es nun weitergehen?\u201d (stern.de)"
+                }
+            ],
+            "text": "<blockquote>Die Luca-App und das angebundene System erm\u00f6glichen in der Theorie w\u00e4hrend der Corona-Pandemie eine schnelle R\u00fcckverfolgung von Kontakten ohne Zettelwirtschaft. In mehreren Bundesl\u00e4ndern steht die Anwendung, \u00fcber die ganz Deutschland seit dem Fr\u00fchjahr 2021 spricht, aber vor dem Aus.<\/blockquote>",
+            "title": "Stern: \u201cAus f\u00fcr die Luca-App - Wie wird es nun weitergehen?\u201d",
+            "type": "news"
+        },
+        {
+            "date": "26.01.2022",
+            "dt_created": "2022-01-26 00:00:00",
+            "dt_updated": "2022-01-26 00:00:00",
+            "id": "7a36ad8e3e44",
+            "id_readable": "2022-01-26_news_Mehrheit-der-Bundeslnder-kndigt-die-Vertrge-fr-Luca",
+            "links": [
+                {
+                    "url": "https:\/\/netzpolitik.org\/2022\/hessen-ist-raus-mehrheit-der-bundeslaender-kuendigt-die-vertraege-fuer-luca\/",
+                    "text": "Markus Reuter: \u201cMehrheit der Bundesl\u00e4nder k\u00fcndigt die Vertr\u00e4ge f\u00fcr Luca\u201d (netzpolitik.org)",
+                    "authors": [
+                        "Markus Reuter"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "53f2b398dc20"
+                }
+            ],
+            "text": "<blockquote>Das Schicksal der Luca-App als Mittel der Pandemiebek\u00e4mpfung scheint besiegelt. Mit Hessen hat heute ein weiteres Bundesland Vertrag mit der Firma Culture4Life gek\u00fcndigt. Acht von 13 L\u00e4ndern verl\u00e4ngern ihre Luca-Lizenzen demnach absehbar nicht. <\/blockquote><blockquote>Von den knapp 37.000 in Hessen registrierten Luca-Standorten habe nur noch ein Bruchteil die App aktiv genutzt und auch von den Gesundheits\u00e4mtern erfolgten kaum noch Anfragen an Luca.<\/blockquote>",
+            "title": "\u201cMehrheit der Bundesl\u00e4nder k\u00fcndigt die Vertr\u00e4ge f\u00fcr Luca\u201d",
+            "type": "news"
         }
     ]
 }
