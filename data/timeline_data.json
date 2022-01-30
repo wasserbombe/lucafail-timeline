@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "d95c300",
-            "commit_lh": "d95c300f136da445a4799d8c2a46f15cd9f452d3",
-            "commit_date": "2022-01-27 08:31:04 +0100",
+            "commit_sh": "df6a14b",
+            "commit_lh": "df6a14b864d1559fa44555a416a5a2788c01f3c6",
+            "commit_date": "2022-01-27 11:08:37 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643277804,
-        "date": "2022-01-27"
+        "ts": 1643579266,
+        "date": "2022-01-30"
     },
     "months": {
         "2022-01": {
@@ -8035,6 +8035,27 @@
             ],
             "text": "<blockquote>Hennig: Der Ausweis soll nicht an das Luca-System lesbar hochgeladen werden. Die Daten selbst werden nicht an zentraler Stelle lesbar gespeichert.<\/blockquote>\u2794 \"nicht lesbar\", aber doch hochgeladen?<br><br><br><blockquote>Hennig: Luca hat keine Datenschutz-Probleme.<\/blockquote>\u2794 Obwohl der Datenschutz nie der gr\u00f6\u00dfte Kritikpunkt war: <a href=\"#2021-05-26_incident_Schwachstelle-Remote-Code-Injection-via-CSV-Export\">Daten auslesen via Code Injection<\/a>, <a href=\"#2021-04-13_incident_Schwachstelle-LucaTrack-Historie-fr-Schlsselanhnger-auslesbar-damit-Bewegungsprofile-mglich\">Bewegegungsdaten \/ Historie bei Schl\u00fcsselanh\u00e4ngern auslesen<\/a>, <a href=\"#2021-03-31_incident_Schwachstelle-Alle-Gesundheitsmter-nutzen-denselben-Schlssel-zum-Zugriff-auf-Kontaktdaten\">Daten bei allen Gesundheits deutschlandweit abfragen, weil diese sich einen Schl\u00fcssel teilen<\/a>, <a href=\"#2021-03-23_doc_Preliminary-Analysis-of-Potential-Harms-in-the-Luca-Tracing-System\">Identifizierung von Individuen durch Meta-Daten-Analyse<\/a><br><br><br><blockquote>Hennig: Es ging um vier Anforderungen: Zweckbindung, Transparenz, Freiwilligkeit und Risikoabw\u00e4gung.<\/blockquote>\u2794 Zweckbindung: <a href=\"#2022-01-17_news_Neue-Geschftsmodelle-besttigt\">Luca k\u00fcndigt neue Gesch\u00e4ftsmodelle an<\/a><br>\u2794 Transparenz: Bis heute <a href=\"#2021-03-31_incident_Code-und-Code-Commits-fehlen-in-Gitlab---immer-wieder\">fehlt Code in den Gitlab-Repositories<\/a>, Zahlen, die Luca eigentlich haben m\u00fcsste, werden nicht oder nur sehr allgemein ver\u00f6ffentlicht - der <a href=\"https:\/\/twitter.com\/cccfr\/status\/1486289819378540545\" target=\"_blank\">Chaos Computer Club Freiburg hat dies dann \u00fcbernommen<\/a><br>\u2794 Freiwilligkeit: Viele Luca-Locations lassen nichts anderes zu bzw. \u00fcberf\u00fchren Papierzettel in Luca. Das betrifft nicht Luca selbst (die Nutzungsbedingungen untersagen es), aber das Konzept.<br>\u2794 Risikoabw\u00e4gung: Eine Beurteilung des Nutzens und der Risiken fand in vielen L\u00e4ndern nicht oder nur bedingt statt. Sonst h\u00e4tte sich bereits im Vorfeld herausgestellt, dass Luca nur bedingt eingesetzt werden wird.",
             "title": "Welt: \u201cLuca-App ger\u00e4t ins Straucheln: Chef Patrick Hennig im Interview\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "30.01.2022",
+            "dt_created": "2022-01-30 00:00:00",
+            "dt_updated": "2022-01-30 00:00:00",
+            "id": "3414b32be9ef",
+            "id_readable": "2022-01-30_news_Warum-immer-mehr-Lnder-auf-Luca-verzichten",
+            "links": [
+                {
+                    "url": "https:\/\/www.sueddeutsche.de\/wirtschaft\/luca-app-bundeslaender-vertraege-kontaktverfolgung-1.5518236",
+                    "text": "Simon Gro\u00df, Simon Hurtz: \u201cWarum immer mehr L\u00e4nder auf Luca verzichten\u201d (sueddeutsche.de)",
+                    "authors": [
+                        "Simon Gro\u00df",
+                        "Simon Hurtz"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Von Anfang an wurden Datenschutz und Datensicherheit bei Luca kritisiert, mittlerweile gibt es auch Zweifel, welchen praktischen Nutzen die App \u00fcberhaupt hat.<\/blockquote><blockquote>Das zeigte eine Umfrage des Spiegel. Culture4life zufolge sind 323 Gesundheits\u00e4mter an die Luca-App angeschlossen. 54 davon gaben an, die App gar nicht zu nutzen. Fast zwei Drittel der Gesundheits\u00e4mter, die auf die Spiegel-Anfrage antworteten, h\u00e4tten noch nie eine Infektionskette mithilfe von Luca-Daten nachverfolgen k\u00f6nnen. <\/blockquote><blockquote>Anders ausgedr\u00fcckt: Menschen, die sich auf Luca verlassen, erhalten auch bei einer Risikobegegnung keine Warnung, weil viele Gesundheits\u00e4mter gar nicht mehr mit dem System arbeiten. Der Chaos Computer Club h\u00e4lt Luca daher nicht nur f\u00fcr nutzlos, sondern f\u00fcr gef\u00e4hrlich. [...] Die Beh\u00f6rden sollten \u00f6ffentlich aufrufen, statt Luca die Corona-Warn-App (CWA) zu nutzen, die mittlerweile ebenfalls einen Check-in per QR-Code erm\u00f6glicht. Deren Warnmechanismus funktioniert automatisch ohne Mitarbeit von Gesundheits\u00e4mtern.<\/blockquote><blockquote>Mehr als 40 Millionen B\u00fcrgerinnen und B\u00fcrger sind Culture4life zufolge bei Luca registriert. F\u00fcr diese enorme Verbreitung w\u00fcrden andere App-Entwickler viel Geld bezahlen - im Fall von Luca haben daf\u00fcr ma\u00dfgeblich die Bundesl\u00e4nder bezahlt.<\/blockquote>",
+            "title": "\u201cWarum immer mehr L\u00e4nder auf Luca verzichten\u201d",
             "type": "news",
             "verified": true
         }
