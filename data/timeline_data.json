@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "df6a14b",
-            "commit_lh": "df6a14b864d1559fa44555a416a5a2788c01f3c6",
-            "commit_date": "2022-01-27 11:08:37 +0100",
+            "commit_sh": "df503e4",
+            "commit_lh": "df503e45cda07c2e6b9d8201856e1c8cce9b6ee4",
+            "commit_date": "2022-01-30 22:50:23 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643579266,
-        "date": "2022-01-30"
+        "ts": 1643666738,
+        "date": "2022-01-31"
     },
     "months": {
         "2022-01": {
@@ -8058,6 +8058,47 @@
             "title": "\u201cWarum immer mehr L\u00e4nder auf Luca verzichten\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "31.01.2022",
+            "dt_created": "2022-01-31 00:00:00",
+            "dt_updated": "2022-01-31 00:00:00",
+            "id": "504e507a25c2",
+            "id_readable": "2022-01-31_news_exitlucafail-Deine-erste-Informationsfreiheits-Anfrage-leicht-gemacht",
+            "links": [
+                {
+                    "url": "https:\/\/exit.luca.fail\/",
+                    "text": "exit.luca.fail"
+                }
+            ],
+            "text": "<b><i>- In eigener Sache -<\/i><\/b><br>Mithilfe von <a href=\"https:\/\/fragdenstaat.de\/\" target=\"blank\">Frag den Staat<\/a>, einer Internetplattform, \u00fcber die Anfragen auf Basis der Informationsfreiheitsgesetze an Beh\u00f6rden gestellt werden k\u00f6nnen, erleichtern wir Nutzern fortan das Anfragen der Situation rund um die Luca-App f\u00fcr das eigene Gesundheitsamt. \u00dcber die Suche auf <a href=\"https:\/\/exit.luca.fail\" target=\"_blank\">exit.luca.fail<\/a> kann anhand der Postleitzahl oder des Namens das eigene Gesundheitsamt gesucht werden. Angezeigt wird dann, ob die Webseite der Luca-App angibt, dass dieses Gesundheitsamt ans Luca-System angebunden ist. Danach stehen zwei m\u00f6gliche IFG-Anfragen zur Verf\u00fcgung: <ul><li><b>Frage zu Daten-Missbrauch<\/b><br>Diese Frage zielt auf die <a href=\"#2022-01-07_incident_Mainzer-Polizei-nutzte-Daten-aus-Luca-App-ohne-Rechtsgrundlage\">missbr\u00e4uchliche Herausgabe und Nutzung von Kontaktnachverfolgungsdaten in Mainz<\/a> ab. Ziel ist es, herauszufinden, ob es bei anderen Gesundheits\u00e4mtern \u00e4hnliche Anfragen gab - und wie diese bantwortet wurden.<br><br><\/li><li><b>Frage nach dem Luca-Status<\/b><br>Die Webseite der Luca-App gibt immer noch viele Gesundheits\u00e4mter an, die angeblich angebunden sind und das Luca-System nutzen. Jedoch haben die meisten Bundesl\u00e4nder die Luca-App gek\u00fcndigt; eine Kontaktnachverfolgung findet fast nirgends mehr statt. Ziel dieser Anfrage ist es, die aktuelle Situation im eigenen Gesundheitsamt herauszufinden und die Gesundheits\u00e4mter daf\u00fcr zu sensibilisieren, dass viele noch die Luca-App zum Check-In benutzen, aber vermutlich nie bei einem Infektionsrisiko benachrichtigt werden.<\/li><\/ul> <br><br><b>Wir danken an dieser Stelle ganz besonders Frag den Staat, denn ohne diese Plattform, die API und die Unterst\u00fctung in den letzten Tagen w\u00e4re eine Umsetzung nicht gelungen!<\/b><br><small>(Gab es eine Anfrage schon einmal, wird diese verlinkt - wir wollen den Gesundheits\u00e4mtern nicht noch mehr Arbeit machen als ohnehin schon.)<\/small>",
+            "title": "exit.luca.fail: Deine erste Informationsfreiheits-Anfrage leicht gemacht!",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "31.01.2022",
+            "dt_created": "2022-01-31 00:00:00",
+            "dt_updated": "2022-01-31 00:00:00",
+            "id": "0a5fa5ad4feb",
+            "id_readable": "2022-01-31_broadcast_Chaosradio-Freiburg-0x5b",
+            "links": [
+                {
+                    "url": "https:\/\/rdl.de\/beitrag\/chaosradio-freiburg-0x5b",
+                    "text": "Radio Dreyeckland: Chaosradio Freiburg 0x5b (rdl.de)",
+                    "authors": [
+                        "fuzzle",
+                        "EinTim2"
+                    ]
+                }
+            ],
+            "tags": [
+                "cwa",
+                "chaosradio freiburg"
+            ],
+            "text": "Sendung des Chaosradio Freiburg vom 31.01.2022, es geht u.a. \u00fcber den aktuellen Status der Luca-App in Baden-W\u00fcrttemberg und Deutschland sowieso \u00fcber die Corona-Warn-App. Reinh\u00f6ren lohnt sich!",
+            "title": "Chaosradio Freiburg 0x5b",
+            "type": "broadcast"
         }
     ]
 }
