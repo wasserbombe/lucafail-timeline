@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "df503e4",
-            "commit_lh": "df503e45cda07c2e6b9d8201856e1c8cce9b6ee4",
-            "commit_date": "2022-01-30 22:50:23 +0100",
+            "commit_sh": "b530425",
+            "commit_lh": "b5304259215303aa7240f5eef0668d8abb11fb9d",
+            "commit_date": "2022-01-31 23:18:26 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,10 +12,13 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643666738,
-        "date": "2022-01-31"
+        "ts": 1643747448,
+        "date": "2022-02-01"
     },
     "months": {
+        "2022-02": {
+            "summary": "Gek\u00fcndigt haben\/werden: <a href=\"#2021-02-01_news_Aus-fr-Luca-App-im-Saarland\">Saarland<\/a>"
+        },
         "2022-01": {
             "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a>, <a href=\"#2022-01-26_news_Hessen-lsst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen\">Hessen<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
         },
@@ -8099,6 +8102,64 @@
             "text": "Sendung des Chaosradio Freiburg vom 31.01.2022, es geht u.a. \u00fcber den aktuellen Status der Luca-App in Baden-W\u00fcrttemberg und Deutschland sowieso \u00fcber die Corona-Warn-App. Reinh\u00f6ren lohnt sich!",
             "title": "Chaosradio Freiburg 0x5b",
             "type": "broadcast"
+        },
+        {
+            "date": "31.01.2022",
+            "dt_created": "2022-01-31 00:00:00",
+            "dt_updated": "2022-01-31 00:00:00",
+            "id": "06ed47b396b1",
+            "id_readable": "2022-01-31_news_Berlin-beendet-Kontaktnachverfolgung-in-Bars-und-Restaurants",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/content\/rbb\/r24\/politik\/thema\/corona\/beitraege\/2022\/01\/berlin-senat-kontakte-nachverfolgung-gastronomie-veranstaltungen.html",
+                    "text": "\u201cBerlin beendet Kontaktnachverfolgung in Bars und Restaurants\u201d (rbb24.de)"
+                }
+            ],
+            "scope": "Land: Berlin",
+            "text": "<blockquote>Gesundheits\u00e4mter haben die Kontaktnachverfolgung zuletzt deutlich zur\u00fcckgefahren. Bei seiner Sitzung am Dienstag hat der Senat diese Regelung der Realit\u00e4t angepasst - und sie in den Bereichen Gastronomie, Sport und Beherbergung ganz gestrichen.<\/blockquote>",
+            "title": "\u201cBerlin beendet Kontaktnachverfolgung in Bars und Restaurants\u201d",
+            "type": "news"
+        },
+        {
+            "date": "01.02.2022",
+            "dt_created": "2022-02-01 00:00:00",
+            "dt_updated": "2022-02-01 00:00:00",
+            "id": "d88b462ab2ca",
+            "id_readable": "2022-02-01_news_Aus-fr-Luca-App-im-Saarland",
+            "links": [
+                {
+                    "url": "https:\/\/www.sr.de\/sr\/home\/nachrichten\/politik_wirtschaft\/aus_fuer_luca_app_im_saarland_100.html",
+                    "text": "Niklas Resch: \u201cAus f\u00fcr Luca-App im Saarland\u201d (sr.de)",
+                    "authors": [
+                        "Niklas Resch"
+                    ]
+                }
+            ],
+            "scope": "Land: Saarland",
+            "text": "<blockquote>Die Landesregierung hat das Aus f\u00fcr die Luca-App zur Corona-Kontaktnachverfolgung im Saarland beschlossen. Das hat das Gesundheitsministerium dem SR mitgeteilt. Demnach wird der Vertrag mit dem Betreiber der Luca-App zum 31. M\u00e4rz nicht verl\u00e4ngert. Die Kontaktnachverfolgung muss aber weiterhin sichergestellt werden.<\/blockquote>",
+            "title": "\u201cAus f\u00fcr Luca-App im Saarland\u201d",
+            "type": "news",
+            "verified": true
+        },
+        {
+            "date": "02.02.2022",
+            "dt_created": "2022-02-02 00:00:00",
+            "dt_updated": "2022-02-02 00:00:00",
+            "id": "d39ff1c17710",
+            "id_readable": "2022-02-02_news_Am-2222-ist-Luca-App-Lschtag",
+            "links": [
+                {
+                    "url": "https:\/\/www.bavarian-geek.de\/luca-app-loeschtag\/",
+                    "text": "Manuel Atug, Daniela Stoffers: \u201cAm 2.2.22 ist \u201eLuca-App L\u00f6schtag\u201c\u201d (bavarian-geek.de)",
+                    "authors": [
+                        "Manuel Atug",
+                        "Daniela Stoffers"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Expert:innen rufen f\u00fcr den 2.2.22 auf Twitter dazu auf, gemeinsam eine L\u00f6schung der Luca-App auf den Smartphones durchzuf\u00fchren.<\/blockquote>",
+            "title": "\u201cAm 2.2.22 ist \u201eLuca-App L\u00f6schtag\u201c\u201d",
+            "type": "news"
         }
     ]
 }

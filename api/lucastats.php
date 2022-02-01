@@ -32,8 +32,6 @@
     $xpath = new \DOMXpath($doc);
     $wrappers = $xpath->query('//div[@class="wpb_wrapper"]');
 
-    
-    
     try {
         $existing = array(); 
         foreach ($wrappers as $wrapper){
