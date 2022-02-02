@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "b530425",
-            "commit_lh": "b5304259215303aa7240f5eef0668d8abb11fb9d",
-            "commit_date": "2022-01-31 23:18:26 +0100",
+            "commit_sh": "4651c3e",
+            "commit_lh": "4651c3e77bfb719d914df9e18e78f4ab2026cc6c",
+            "commit_date": "2022-02-01 23:53:56 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643747448,
-        "date": "2022-02-01"
+        "ts": 1643813301,
+        "date": "2022-02-02"
     },
     "months": {
         "2022-02": {
@@ -8133,13 +8133,44 @@
                     "authors": [
                         "Niklas Resch"
                     ]
+                },
+                {
+                    "url": "https:\/\/www.saarbruecker-zeitung.de\/saarland\/landespolitik\/saarland-aus-fuer-luca-app-beschlossen_aid-65843053",
+                    "text": "Saskia Leidinger: \u201cEndg\u00fcltiges Aus f\u00fcr die Luca-App im Saarland beschlossen\u201d (saarbruecker-zeitung.de)",
+                    "authors": [
+                        "Saskia Leidinger"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.wndn.de\/landesregierung-beschliesst-ende-der-luca-app-im-saarland\/",
+                    "text": "\u201cLandesregierung beschlie\u00dft Ende der Luca-App im Saarland\u201d (wndn.de)"
                 }
             ],
             "scope": "Land: Saarland",
-            "text": "<blockquote>Die Landesregierung hat das Aus f\u00fcr die Luca-App zur Corona-Kontaktnachverfolgung im Saarland beschlossen. Das hat das Gesundheitsministerium dem SR mitgeteilt. Demnach wird der Vertrag mit dem Betreiber der Luca-App zum 31. M\u00e4rz nicht verl\u00e4ngert. Die Kontaktnachverfolgung muss aber weiterhin sichergestellt werden.<\/blockquote>",
+            "text": "<blockquote>Die Landesregierung hat das Aus f\u00fcr die Luca-App zur Corona-Kontaktnachverfolgung im Saarland beschlossen. Das hat das Gesundheitsministerium dem SR mitgeteilt. Demnach wird der Vertrag mit dem Betreiber der Luca-App zum 31. M\u00e4rz nicht verl\u00e4ngert. Die Kontaktnachverfolgung muss aber weiterhin sichergestellt werden.<\/blockquote><blockquote>Die Zahl der Meldungen \u00fcber die App soll sich im Saarland im einstelligen Bereich bewegen. Der Entscheidung \u00fcber die K\u00fcndigung vorausgegangen sei eine R\u00fccksprache mit dem Hotel- und Gastst\u00e4ttenverband Dehoga, dem PopRat Saarland als Interessenverband der Kultur- und Eventbranche, dem saarl\u00e4ndischen St\u00e4dte- und Gemeindetag und dem Landkreistag.<\/blockquote>",
             "title": "\u201cAus f\u00fcr Luca-App im Saarland\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "02.02.2022",
+            "dt_created": "2022-02-02 00:00:00",
+            "dt_updated": "2022-02-02 00:00:00",
+            "id": "6d1ad21e2467",
+            "id_readable": "2022-02-02_news_Hamburg-schafft-Luca-aber-nicht-komplett-ab",
+            "links": [
+                {
+                    "url": "https:\/\/www.mopo.de\/hamburg\/hamburg-schafft-kontaktnachverfolgung-ab-keiner-braucht-mehr-luca\/",
+                    "text": "Frederik Mittendorff: \u201cHamburg schafft Kontaktnachverfolgung ab \u2013 niemand braucht mehr Luca\u201d (mopo.de)",
+                    "authors": [
+                        "Frederik Mittendorff"
+                    ]
+                }
+            ],
+            "scope": "Land: Hamburg",
+            "text": "<blockquote>Hamburg macht Schluss \u2013 mit Luca! K\u00fcnftig muss man sich nicht mehr in Restaurants oder bei Veranstaltungen einchecken. Dies k\u00fcndigte der Senat am Dienstag an.<\/blcokquote><blockquote>Die Lizenz selbst wird n\u00e4mlich nicht gek\u00fcndigt, sondern in eine Art Ruhevertrag versetzt. \u201eSollte die Luca-App kurzfristig wieder n\u00f6tig sein, werden wir sie wieder nutzen. Wir schaffen sie daher nicht ab\u201c, so Senatssprecher Marcel Schweitzer.<\/blockquote>",
+            "title": "\u201cHamburg schafft Luca aber nicht komplett ab\u201d",
+            "type": "news"
         },
         {
             "date": "02.02.2022",
@@ -8157,9 +8188,79 @@
                     ]
                 }
             ],
-            "text": "<blockquote>Expert:innen rufen f\u00fcr den 2.2.22 auf Twitter dazu auf, gemeinsam eine L\u00f6schung der Luca-App auf den Smartphones durchzuf\u00fchren.<\/blockquote>",
+            "references": [
+                {
+                    "id": "504e507a25c2"
+                }
+            ],
+            "text": "<blockquote>Expert:innen rufen f\u00fcr den 2.2.22 auf Twitter dazu auf, gemeinsam eine L\u00f6schung der Luca-App auf den Smartphones durchzuf\u00fchren.<\/blockquote><br>Mit <a href=\"https:\/\/exit.luca.fail\" target=\"_blank\">exit.luca.fail<\/a> greifen wir hierbei unter die Arme: Die Seite stellt eine Anleitung zum Austieg bei der Luca-App sowie eine Vorlage zum Nachfragen bei Gesundheits\u00e4mtern bereit.",
             "title": "\u201cAm 2.2.22 ist \u201eLuca-App L\u00f6schtag\u201c\u201d",
             "type": "news"
+        },
+        {
+            "date": "02.02.2022",
+            "dt_created": "2022-02-02 00:00:00",
+            "dt_updated": "2022-02-02 00:00:00",
+            "id": "e9c9b8a8b687",
+            "id_readable": "2022-02-02_news_Luca-App-soll-Bezahlfunktion-bekommen",
+            "links": [
+                {
+                    "url": "https:\/\/www.turi2.de\/aktuell\/luca-app-soll-bezahlfunktion-bekommen\/",
+                    "text": "Tatjana Kerschbaumer: \u201cLuca-App soll Bezahlfunktion bekommen.\u201d (turi2.de)",
+                    "authors": [
+                        "Tatjana Kerschbaumer"
+                    ]
+                },
+                {
+                    "url": "https:\/\/www.stuttgarter-nachrichten.de\/inhalt.neu-ausrichtung-luca-app-soll-kuenftig-bezahlen-im-restaurant-ermoeglichen.6601ed2d-5b96-4dc2-aa18-b66b0013955f.html",
+                    "text": "\u201cLuca-App soll k\u00fcnftig Bezahlen im Restaurant erm\u00f6glichen\u201d (stuttgarter-nachrichten.de)"
+                }
+            ],
+            "text": "<blockquote>Daf\u00fcr sollen Dienste wie PayPal und Apple Pay in das Tracking-Tool integriert werden.<\/blockquote><blockquote>\"Eine Kontaktverfolgung durch die Gesundheits\u00e4mter findet aktuell gar nicht mehr statt\", sagte der Gesch\u00e4ftsf\u00fchrer der Betreibergesellschaft Culture4Life, Patrick Hennig, am Mittwoch in Berlin.<\/blockquote><blockquote> In einer neuen Version der App, die Ende der Woche erscheinen soll, werde man zu diesem Zweck auch den Personalausweis lokal auf dem Smartphone speichern k\u00f6nnen. Dies werde in Form eines sogenannten Token geschehen, der \u00fcber eine Partner-App verifiziert bereit gestellt werde. Au\u00dferdem soll das Luca-System zu einem kompletten Zahlungssystem f\u00fcr Restaurants ausgebaut werden.<\/blockquote>",
+            "title": "\u201cLuca-App soll Bezahlfunktion bekommen.\u201d",
+            "type": "news",
+            "viaDPAInfocom": true
+        },
+        {
+            "date": "02.02.2022",
+            "dt_created": "2022-02-02 00:00:00",
+            "dt_updated": "2022-02-02 00:00:00",
+            "id": "25da1a7af647",
+            "id_readable": "2022-02-02_news_Nun-haben-Millionen-Menschen-eine-kommerzielle-Veranstaltungs-App-auf-dem-Handy-obwohl-sie-eigentlich-nur-Gesundheitsmter-entlasten-wollten",
+            "links": [
+                {
+                    "url": "https:\/\/checkpoint.tagesspiegel.de\/newsletter\/4F37EDIlFJQg7e3EIRpf0A",
+                    "text": "Tagesspiegel Checkpoint vom Mittwoch, 02.02.2022 (checkpoint.tagesspiegel.de)"
+                }
+            ],
+            "text": "<blockquote>Das Unternehmen sagte Zeit Online, man entwickle sie jetzt f\u00fcr \u201eGastronomie und Kultur\u201c weiter. Nun haben Millionen Menschen eine kommerzielle Veranstaltungs-App auf dem Handy, obwohl sie eigentlich nur Gesundheits\u00e4mter entlasten wollten. Auch das hatten Datensch\u00fctzer von Anfang an bef\u00fcrchtet.<\/blockquote>",
+            "title": "\u201cNun haben Millionen Menschen eine kommerzielle Veranstaltungs-App auf dem Handy, obwohl sie eigentlich nur Gesundheits\u00e4mter entlasten wollten.\u201d",
+            "type": "news"
+        },
+        {
+            "date": "02.02.2022",
+            "dt_created": "2022-02-02 00:00:00",
+            "dt_updated": "2022-02-02 00:00:00",
+            "id": "70ed9f8c96a7",
+            "id_readable": "2022-02-02_news_Niedergang-der-Luca-App-Daten-auf-dem-Whltisch",
+            "links": [
+                {
+                    "url": "https:\/\/taz.de\/Niedergang-der-Luca-App\/!5829592\/",
+                    "text": "Svenja Bergt: \u201cNiedergang der Luca-App: Daten auf dem W\u00fchltisch\u201d (taz.de)",
+                    "authors": [
+                        "Svenja Bergt"
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "id": "e9c9b8a8b687"
+                }
+            ],
+            "text": "<blockquote>Das Unternehmen bietet jetzt schon 50-prozentige Rabatte plus monatliche K\u00fcndbarkeit der Vertr\u00e4ge an. Die Luca-App, im vergangenen Fr\u00fchjahr noch in Talkshows zum gro\u00dfen Hoffnungstr\u00e4ger f\u00fcr die Eind\u00e4mmung der Pandemie geredet, liegt auf dem W\u00fchltisch.<\/blockquote><blockquote>Die Gesundheits\u00e4mter stellten bald fest, dass es mit der App nicht einfacher wird, sondern im Gegenteil die Daten von Kontaktpersonen vor allem mehr werden und dabei nicht unbedingt von besserer Qualit\u00e4t sind. Flap.<\/blockquote><blockquote>F\u00fcr die weitere Speicherung und Verwendung dieser Daten werde von Seiten der Luca-Betreibergesellschaft und ihrer Investoren jetzt fieberhaft nach einer Rechtfertigung gesucht werden. Eine Idee, die anscheinend schon fr\u00fch im vergangenen Jahr bei dem Unternehmen kursierte, wie Hinweise vom Chaos Computer Club und der Transparenz-Plattform fragdenstaat im vergangenen April zeigten.<\/blockquote><blockquote>\u201eDas Perfide ist ja, dass Luca ohne die Pandemie niemals so viele Millionen Nut\u00adze\u00adr*in\u00adnen h\u00e4tte\u201c, sagt Engeler. Er bezeichnet es als \u201emaximalst unsympathisch, diese mit Steuermitteln finanzierte Zwangs-User-Basis jetzt zur Grundlage f\u00fcr ein v\u00f6llig Pandemie-unabh\u00e4ngiges Gesch\u00e4ft zu verwerten\u201c.<\/blockquote>",
+            "title": "\u201cNiedergang der Luca-App: Daten auf dem W\u00fchltisch\u201d",
+            "type": "news",
+            "verified": true
         }
     ]
 }
