@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "4651c3e",
-            "commit_lh": "4651c3e77bfb719d914df9e18e78f4ab2026cc6c",
-            "commit_date": "2022-02-01 23:53:56 +0100",
+            "commit_sh": "8385a86",
+            "commit_lh": "8385a86c2e3b1c8c9186b4e79a65efe8b05f3013",
+            "commit_date": "2022-02-02 15:48:25 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1643813301,
-        "date": "2022-02-02"
+        "ts": 1644056209,
+        "date": "2022-02-05"
     },
     "months": {
         "2022-02": {
@@ -8261,6 +8261,41 @@
             "title": "\u201cNiedergang der Luca-App: Daten auf dem W\u00fchltisch\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "04.02.2022",
+            "dt_created": "2022-02-04 00:00:00",
+            "dt_updated": "2022-02-04 00:00:00",
+            "id": "d2ac59cf3140",
+            "id_readable": "2022-02-04_news_Luca-vielerorts-vor-dem-Aus-So-lschen-Sie-die-App-und-Ihre-Daten-richtig",
+            "links": [
+                {
+                    "url": "https:\/\/www.stern.de\/digital\/smartphones\/luca-app-loeschen--so-entfernen-sie-die-software-und-ihre-daten-vom-smartphone-31598306.html",
+                    "text": "\u201cLuca vielerorts vor dem Aus: So l\u00f6schen Sie die App und Ihre Daten richtig\u201d (stern.de)"
+                }
+            ],
+            "text": "<blockquote>F\u00fcr Luca geht es nun also ums nackte \u00dcberleben. Doch einen Trumpf haben die Luca-Macher, einst Empf\u00e4nger von staatlichen \u00dcberweisungen in Millionenh\u00f6he, in der Hand. Aufgrund der quasi erzwungenen Nutzung w\u00e4hrend der Pandemie, kann Luca auf eine riesige Verbreitung ihrer Software zur\u00fcckgreifen, wenn es um neue Ideen f\u00fcr die Zukunft geht.<\/blockquote>",
+            "title": "\u201cLuca vielerorts vor dem Aus: So l\u00f6schen Sie die App und Ihre Daten richtig\u201d",
+            "type": "news"
+        },
+        {
+            "date": "04.02.2022",
+            "dt_created": "2022-02-04 00:00:00",
+            "dt_updated": "2022-02-04 00:00:00",
+            "id": "77cb8ecee244",
+            "id_readable": "2022-02-04_news_Corona-Warn-App-Datenschutzbeauftragter-untersttzt-Wechsel",
+            "links": [
+                {
+                    "url": "https:\/\/www.zeit.de\/news\/2022-02\/04\/corona-warn-app-datenschutzbeauftragter-unterstuetzt-wechsel",
+                    "text": "\u201cCorona-Warn-App: Datenschutzbeauftragter unterst\u00fctzt Wechsel\u201d"
+                }
+            ],
+            "scope": "Land: Mecklenburg-Vorpommern",
+            "text": "<blockquote>Die Regierung will k\u00fcnftig verst\u00e4rkt auf die kostenlose bundesweite Corona-Warn-App setzen anstatt auf die bisher verwendete Luca-App. \u00abB\u00fcrgerinnen und B\u00fcrger erlangen die Souver\u00e4nit\u00e4t \u00fcber ihre Kontaktdaten zur\u00fcck. Die Gesundheits\u00e4mter werden mit der Corona-Warn-App bei der Kontaktnachverfolgung entlastet. Und Unternehmen m\u00fcssen keine datenschutzrechtlichen Haftungsrisiken mehr eingehen\u00bb, sagte der Landesdatenschutzbeauftragte am Freitag in Schwerin. Dies sei eine Win-win-Situation f\u00fcr alle.<\/blockquote>",
+            "title": "\u201cCorona-Warn-App: Datenschutzbeauftragter unterst\u00fctzt Wechsel\u201d",
+            "type": "news",
+            "viaDPAInfocom": true,
+            "viaDPAInfocomID": "dpa:220204-99-975839\/2"
         }
     ]
 }

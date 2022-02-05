@@ -148,18 +148,12 @@
             }]
         },
         'DE-MV': {
-            color: "#8b0000",
-            updated: '2021-12-07',
-            description: 'Die Corona-Verordnung in Mecklenburg-Vorpommern sieht eine Kontaktdatenerfassung vor, ein Einsatz anonymer Kontaktnachverfolgung wie bspw. über die Corona-Warn-App ist daher nicht möglich. Die Kontaktnachverfolgung selbst ist aber nur noch sehr schwer möglich. ',
+            color: "#ff8c00",
+            updated: '2022-02-05',
+            description: 'Die Corona-Verordnung in Mecklenburg-Vorpommern sieht noch eine Kontaktdatenerfassung vor, ein Einsatz anonymer Kontaktnachverfolgung wie bspw. über die Corona-Warn-App ist derzeit nicht möglich. In Zukunft möchte man aber auf die Corona-Warn-App setzen, insofern ist bald ein Einsatz derselbigen möglich.',
             sources: [{
-                text: "Corona-Jugend und Familie-Verordnung – Corona-JugFamVO M-V",
-                url: "https://www.regierung-mv.de/static/Regierungsportal/Ministerium%20f%C3%BCr%20Soziales%2c%20Integration%20und%20Gleichstellung/Dateien/GVOBl.%20Nr.%2074%20v.%2026.11.2021.pdf"
-            },{
-                text: "\u201cStadt ändert ihr Kontaktpersonenmanagement / Konzentration auf gefährdete Gruppen und Gemeinschaftseinrichtungen\u201d",
-                url: "https://www.schwerin.de/news/stadt-aendert-kontaktpersonenmanagement/"
-            },{
-                text: "Allgemeinverfügung zur Absonderung und Kontaktpersonenmanagement der Stadt Schwerin",
-                url: "https://www.schwerin.de/export/sites/default/.galleries/Dokumente/Bekanntmachungen/Bekanntmachungen-2021/2021-10-27-AV-Absonderung-und-Kontaktpersonenmanagement.pdf"
+                text: "NDR: \u201cMecklenburg-Vorpommern: Corona-Verordnung: Kontaktdatenerfassung nicht mehr möglich\u201d",
+                url: "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/MV-steigt-Mitte-Maerz-bei-der-Luca-App-aus,coronavirus6430.html"
             }]
         },
         'DE-BE': {
