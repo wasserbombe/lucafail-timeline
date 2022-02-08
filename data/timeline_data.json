@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "8385a86",
-            "commit_lh": "8385a86c2e3b1c8c9186b4e79a65efe8b05f3013",
-            "commit_date": "2022-02-02 15:48:25 +0100",
+            "commit_sh": "a2af68d",
+            "commit_lh": "a2af68d45e94ad0452dc87195fcfab97102b5fb4",
+            "commit_date": "2022-02-05 11:17:05 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1644056209,
-        "date": "2022-02-05"
+        "ts": 1644318062,
+        "date": "2022-02-08"
     },
     "months": {
         "2022-02": {
@@ -8296,6 +8296,27 @@
             "type": "news",
             "viaDPAInfocom": true,
             "viaDPAInfocomID": "dpa:220204-99-975839\/2"
+        },
+        {
+            "date": "08.02.2022",
+            "dt_created": "2022-02-08 00:00:00",
+            "dt_updated": "2022-02-08 00:00:00",
+            "id": "69e8268a576d",
+            "id_readable": "2022-02-08_doc-luca_IDnow-bringt-den-Personalausweis-in-die-luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.idnow.io\/de\/pr-de\/idnow-bringt-den-personalausweis-in-die-luca-app\/",
+                    "text": "Pressemitteilung IDnow: \u201cIDnow bringt den Personalausweis in die luca App\u201d (idnow.io)"
+                }
+            ],
+            "tags": [
+                "IDnow",
+                "personalausweis"
+            ],
+            "text": "<blockquote>Nur die identifizierte Person selbst, kann den Check-in mittels Fingerabdrucks oder FaceID \u00fcber die luca App im Restaurant vornehmen. Ein zus\u00e4tzliches Vorzeigen des Ausweises bleibt so erspart.<\/blockquote>",
+            "title": "\u201cIDnow bringt den Personalausweis in die luca App\u201d",
+            "type": "doc-luca",
+            "verified": true
         }
     ]
 }
