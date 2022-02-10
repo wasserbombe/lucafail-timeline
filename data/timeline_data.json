@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "903460b",
-            "commit_lh": "903460bff11fd5f958141a9471d38a4653396b68",
-            "commit_date": "2022-02-08 12:01:06 +0100",
+            "commit_sh": "017ae27",
+            "commit_lh": "017ae2714be7e5df383aec259126cd6994379974",
+            "commit_date": "2022-02-10 15:57:03 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,7 +12,7 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1644505009,
+        "ts": 1644518958,
         "date": "2022-02-10"
     },
     "months": {
@@ -8330,9 +8330,33 @@
                     "text": "\u201cAus f\u00fcr Luca-App in Rheinland-Pfalz\u201d (rheinpfalz.de)"
                 }
             ],
+            "scope": "Land: Rheinland-Pfalz",
             "text": "Rheinland-Pfalz hat seinen Luca-Vertrag zum 31.03.2022 gek\u00fcndigt.<blockquote>F\u00fcr die weitere Erfassung von Risiko-Kontakten trage die Corona-Warn-App des Bundes allen Bed\u00fcrfnissen Rechnung. Diese erm\u00f6gliche im Unterschied zur Luca-App zudem eine anonyme Information der Nutzer \u00fcber Risikokontakte im Alltag.<\/blockquote>",
             "title": "\u201cAus f\u00fcr Luca-App in Rheinland-Pfalz\u201d",
             "verified": true
+        },
+        {
+            "date": "10.02.2022",
+            "dt_created": "2022-02-10 00:00:00",
+            "dt_updated": "2022-02-10 00:00:00",
+            "id": "361b2c46a265",
+            "id_readable": "2022-02-10_Justizministerin-Hoffmann-will-Luca-App-fr-Strafverfolgung-nutzen",
+            "links": [
+                {
+                    "url": "https:\/\/www.rbb24.de\/politik\/beitrag\/2022\/02\/brandenburg-luca-app-polizei-ermittlungen-strafverfolgung.html",
+                    "text": "\u201cJustizministerin Hoffmann will Luca-App f\u00fcr Strafverfolgung nutzen\u201d (rbb24.de)"
+                },
+                {
+                    "url": "https:\/\/www.bz-berlin.de\/berlin\/umland\/brandenburgs-justiz-will-kontaktdaten-aus-luca-app-nutzen",
+                    "text": "Michael Sauerbier: \u201cBrandenburgs Justiz will Kontaktdaten aus Luca-App nutzen\u201d (bz-berlin.de)",
+                    "authors": [
+                        "Michael Sauerbier"
+                    ]
+                }
+            ],
+            "scope": "Land: Brandenburg",
+            "text": "<blockquote>Brandenburgs Justizministerin Susanne Hoffmann (CDU) bef\u00fcrwortet es, Kontaktdaten der Luca-App ausnahmsweise auch f\u00fcr die Verfolgung von schweren Straftaten zu nutzen.<\/blockquote><blockquote>\"Nachdem sich nun herausgestellt hat, dass die Luca-App zum Zwecke der Pandemiebek\u00e4mpfung v\u00f6llig ungeeignet war, sollen die Daten bei erster Gelegenheit zweckentfremdet werden\", teilte Karstedt mit.<\/blockquote>",
+            "title": "\u201cJustizministerin Hoffmann will Luca-App f\u00fcr Strafverfolgung nutzen\u201d"
         }
     ]
 }
