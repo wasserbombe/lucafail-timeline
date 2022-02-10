@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "a2af68d",
-            "commit_lh": "a2af68d45e94ad0452dc87195fcfab97102b5fb4",
-            "commit_date": "2022-02-05 11:17:05 +0100",
+            "commit_sh": "903460b",
+            "commit_lh": "903460bff11fd5f958141a9471d38a4653396b68",
+            "commit_date": "2022-02-08 12:01:06 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,12 +12,12 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1644318062,
-        "date": "2022-02-08"
+        "ts": 1644505009,
+        "date": "2022-02-10"
     },
     "months": {
         "2022-02": {
-            "summary": "Gek\u00fcndigt haben\/werden: <a href=\"#2021-02-01_news_Aus-fr-Luca-App-im-Saarland\">Saarland<\/a>"
+            "summary": "Gek\u00fcndigt haben\/werden: <a href=\"#2021-02-01_news_Aus-fr-Luca-App-im-Saarland\">Saarland<\/a>, <a href=\"#2022-02-10_Aus-fr-Luca-App-in-Rheinland-Pfalz\">Rheinland-Pfalz<\/a>"
         },
         "2022-01": {
             "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a>, <a href=\"#2022-01-26_news_Hessen-lsst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen\">Hessen<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
@@ -8316,6 +8316,22 @@
             "text": "<blockquote>Nur die identifizierte Person selbst, kann den Check-in mittels Fingerabdrucks oder FaceID \u00fcber die luca App im Restaurant vornehmen. Ein zus\u00e4tzliches Vorzeigen des Ausweises bleibt so erspart.<\/blockquote>",
             "title": "\u201cIDnow bringt den Personalausweis in die luca App\u201d",
             "type": "doc-luca",
+            "verified": true
+        },
+        {
+            "date": "10.02.2022",
+            "dt_created": "2022-02-10 00:00:00",
+            "dt_updated": "2022-02-10 00:00:00",
+            "id": "d639e7db112c",
+            "id_readable": "2022-02-10_Aus-fr-Luca-App-in-Rheinland-Pfalz",
+            "links": [
+                {
+                    "url": "https:\/\/www.rheinpfalz.de\/lokal\/pfalz-ticker_artikel,-aus-f%C3%BCr-luca-app-in-rheinland-pfalz-_arid,5314288.html",
+                    "text": "\u201cAus f\u00fcr Luca-App in Rheinland-Pfalz\u201d (rheinpfalz.de)"
+                }
+            ],
+            "text": "Rheinland-Pfalz hat seinen Luca-Vertrag zum 31.03.2022 gek\u00fcndigt.<blockquote>F\u00fcr die weitere Erfassung von Risiko-Kontakten trage die Corona-Warn-App des Bundes allen Bed\u00fcrfnissen Rechnung. Diese erm\u00f6gliche im Unterschied zur Luca-App zudem eine anonyme Information der Nutzer \u00fcber Risikokontakte im Alltag.<\/blockquote>",
+            "title": "\u201cAus f\u00fcr Luca-App in Rheinland-Pfalz\u201d",
             "verified": true
         }
     ]
