@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "017ae27",
-            "commit_lh": "017ae2714be7e5df383aec259126cd6994379974",
-            "commit_date": "2022-02-10 15:57:03 +0100",
+            "commit_sh": "ba9f082",
+            "commit_lh": "ba9f082cf1f1cc8ca06cca9a3498a7942a35b833",
+            "commit_date": "2022-02-10 19:53:24 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1644518958,
-        "date": "2022-02-10"
+        "ts": 1644875182,
+        "date": "2022-02-14"
     },
     "months": {
         "2022-02": {
@@ -8261,6 +8261,25 @@
             "title": "\u201cNiedergang der Luca-App: Daten auf dem W\u00fchltisch\u201d",
             "type": "news",
             "verified": true
+        },
+        {
+            "date": "03.02.2022",
+            "dt_created": "2022-02-14 22:00:00",
+            "dt_updated": "2022-02-14 22:00:00",
+            "id": "2590e8b742e8",
+            "id_readable": "2022-02-03_news_Das-Mrchen-von-Luca",
+            "links": [
+                {
+                    "url": "https:\/\/publik.verdi.de\/ausgabe-202201\/das-m%C3%A4rchen-von-luca\/",
+                    "text": "Verdi Publik \/ Guillaume Paoli: \u201cDas M\u00e4rchen von Luca\u201d (publik.verdi.de)",
+                    "authors": [
+                        "Guillaume Paoli"
+                    ]
+                }
+            ],
+            "text": "<blockquote>Da die Nutzung den B\u00fcrgern durch staatliche Verordnungen quasi auferlegt wurde, installierten 40 Millionen Menschen die Luca-App. Somit verschaffte sich das Privatunternehmen, ohne einen Cent f\u00fcr Werbung ausgeben zu m\u00fcssen, eine \u00e4hnlich breite Nutzerbasis wie WhatsApp oder Instagram in Deutschland. [...] Ist also Luca die Hexe, die aus Virusbek\u00e4mpfung und amtlicher Inkompetenz Gold zaubern kann? Noch ist der Schluss der Geschichte offen. Denn ihre unfreiwilligen Geburtshelfer k\u00f6nnen ihre freiwilligen Totengr\u00e4ber sein. Daf\u00fcr reicht es, wenn jeder auf seinem Smartphone die App deinstalliert, die es niemals h\u00e4tte geben d\u00fcrfen.<\/blockquote>",
+            "title": "\u201cDas M\u00e4rchen von Luca\u201d",
+            "type": "news"
         },
         {
             "date": "04.02.2022",
