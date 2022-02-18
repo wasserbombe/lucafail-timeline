@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "12a6600",
-            "commit_lh": "12a66005df41c9085320b19a01066135d9edd283",
-            "commit_date": "2022-02-14 22:46:26 +0100",
+            "commit_sh": "57e096d",
+            "commit_lh": "57e096df53d109ccc52ecee8fb6bd077a143dd62",
+            "commit_date": "2022-02-17 14:29:36 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,12 +12,12 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1645104400,
-        "date": "2022-02-17"
+        "ts": 1645195127,
+        "date": "2022-02-18"
     },
     "months": {
         "2022-02": {
-            "summary": "Gek\u00fcndigt haben\/werden: <a href=\"#2021-02-01_news_Aus-fr-Luca-App-im-Saarland\">Saarland<\/a>, <a href=\"#2022-02-10_Aus-fr-Luca-App-in-Rheinland-Pfalz\">Rheinland-Pfalz<\/a>, <a href=\"#2022-02-17_news_Niedersachsen-steigt-bei-Luca-App-aus\">Niedersachsen<\/a>"
+            "summary": "Gek\u00fcndigt haben\/werden: <a href=\"#2021-02-01_news_Aus-fr-Luca-App-im-Saarland\">Saarland<\/a>, <a href=\"#2022-02-10_Aus-fr-Luca-App-in-Rheinland-Pfalz\">Rheinland-Pfalz<\/a>, <a href=\"#2022-02-17_news_Niedersachsen-steigt-bei-Luca-App-aus\">Niedersachsen<\/a>, <a href=\"#2022-02-18_news_Aus-fr-Luca-App-in-Brandenburg-Vertrag-luft-Ende-Mrz-aus\">Brandenburg<\/a>"
         },
         "2022-01": {
             "summary": "Das K\u00fcndigungs-Domino rollt: Ein Bundesland nach dem anderen pr\u00fcft den Nutzen der Luca-App, k\u00fcndigt den Vertrag mit Culture4Life oder l\u00e4sst ihn auslaufen. Die meisten L\u00e4nder, weil die Erwartungen an die Luca-App nicht erf\u00fcllt wurden - andere, weil man zur anonymen Kontaktnachverfolgung umschwenkt und die Luca-App daher nicht mehr braucht.<br>Gek\u00fcndigt haben\/werden: <a href=\"#2022-01-25_news_Bayern-Kontaktdatenerfassung-per-Luca-App-nicht-mehr-angezeigt\">Bayern<\/a>, <a href=\"#2022-01-24_news_Eine-Million-Euro-fr-nutzlose-Luca-App-Sachsen-Anhalt-steigt-jetzt-aus\">Sachsen-Anhalt<\/a>, <a href=\"#2022-01-20_news_Berlin-will-Vertrag-mit-Luca-App-nicht-verlngern\">Berlin<\/a>, <a href=\"#2022-01-14_news_Bremen-lsst-Vertrag-fr-Luca-App-auslaufen\">Bremen<\/a>, <a href=\"#2022-01-14_news_Auch-Bremen-und-Brandenburg-wollen-aus-Luca-App-aussteigen\">Brandenburg<\/a>, <a href=\"#2022-01-12_news_Schleswig-Holstein-kndig-Luca-Lizenz\">Schleswig-Holstein<\/a>, <a href=\"#2022-01-26_news_Land-steigt-bei-Luca-App-aus--keine-Vertragsverlngerung\">Baden-W\u00fcrttemberg<\/a>, <a href=\"#2022-01-26_news_Hessen-lsst-Vertrag-zur-Nutzung-der-Luca-App-auslaufen\">Hessen<\/a><br>Gepr\u00fcft wird in (K\u00fcndigung wahrscheinlich): <a href=\"#2022-01-24_news_Luca-App-steht-in-Rheinland-Pfalz-vor-dem-Aus\">Rheinland-Pfalz<\/a>, <a href=\"#2022-01-13_news_Luca-App-im-Saarland-vor-dem-Aus\">Saarland<\/a><br>Der Januar 2022 war auch gezeichnet von zwei gro\u00dfen Problemen: Von <a href=\"#2022-01-20_incident_Zweckentfremdung-von-Luca-Daten-Polizei-fragt-in-mehr-als-100-Fllen-Daten-ab\">illegalen Datenabfragen der Polizei<\/a> und von der <a href=\"#2022-01-21_news_Kontaktnachverfolgungsflop-Die-enttuschende-Bilanz-der-Luca-App\">Erkenntnis, dass Luca von den Gesundheits\u00e4mtern nie so richtig genutzt wurde - selbst im Vorzeige-Ressort Hamburg nicht<\/a>. W\u00e4hrendessen stellt Luca ein <a href=\"#2022-01-06_news_Neue-Geschftsmodelle---Wie-Luca-nach-der-Pandemie-weiter-Kasse-machen-kann\">neues Gesch\u00e4ftsmodell<\/a> vor - woduch sich die Bedenken vieler Kritiker bewahrheiten."
@@ -8392,6 +8392,26 @@
             "scope": "Land: Niedersachsen",
             "text": "<blockquote>Wie schon mehrere andere Bundesl\u00e4nder verzichtet nun auch Niedersachsen auf die Luca-App zur Corona-Kontaktnachverfolgung. Das k\u00fcndigte Landeswirtschaftsminister Bernd Althusmann am Donnerstag in Hannover an. \u201eWir verlassen uns im Wesentlichen auf die freiwillige Nutzung der Corona-Warn-App\u201c, sagte der CDU-Politiker. Die Lizenz l\u00e4uft Ende M\u00e4rz aus.<\/blockquote>",
             "title": "\u201cNiedersachsen steigt bei Luca-App aus\u201d",
+            "type": "news"
+        },
+        {
+            "date": "18.02.2022",
+            "dt_created": "2022-02-18 00:00:00",
+            "dt_updated": "2022-02-18 00:00:00",
+            "id": "858b9800c495",
+            "id_readable": "2022-02-18_news_Aus-fr-Luca-App-in-Brandenburg-Vertrag-luft-Ende-Mrz-aus",
+            "links": [
+                {
+                    "url": "https:\/\/www.maz-online.de\/Brandenburg\/Corona-in-Brandenburg-Luca-App-Vertrag-laeuft-Ende-Maerz-aus",
+                    "text": "Igor G\u00f6ldner: \u201cAus f\u00fcr Luca-App in Brandenburg: Vertrag l\u00e4uft Ende M\u00e4rz aus\u201d (ma-online.de)",
+                    "authors": [
+                        "Igor G\u00f6ldner"
+                    ]
+                }
+            ],
+            "scope": "Land: Brandenburg",
+            "text": "<blockquote>Die Gesundheits\u00e4mter in Brandenburg hatten die App zuletzt nur noch vereinzelt genutzt. Au\u00dferdem war die App scharf kritisiert worden, vor allem wegen der zentralen Datenspeicherung. Ein Fall in Mainz hatte f\u00fcr Aufsehen gesorgt, bei dem die Polizei die Daten von Besuchern widerrechtlich genutzt haben.<\/blockquote>",
+            "title": "\u201cAus f\u00fcr Luca-App in Brandenburg: Vertrag l\u00e4uft Ende M\u00e4rz aus\u201d",
             "type": "news"
         }
     ]
