@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "57e096d",
-            "commit_lh": "57e096df53d109ccc52ecee8fb6bd077a143dd62",
-            "commit_date": "2022-02-17 14:29:36 +0100",
+            "commit_sh": "f3d1bac",
+            "commit_lh": "f3d1bac8e247b4fff2917c6402639cfcb96ed114",
+            "commit_date": "2022-02-18 15:42:49 +0100",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1645195127,
-        "date": "2022-02-18"
+        "ts": 1649922423,
+        "date": "2022-04-14"
     },
     "months": {
         "2022-02": {
@@ -8412,6 +8412,65 @@
             "scope": "Land: Brandenburg",
             "text": "<blockquote>Die Gesundheits\u00e4mter in Brandenburg hatten die App zuletzt nur noch vereinzelt genutzt. Au\u00dferdem war die App scharf kritisiert worden, vor allem wegen der zentralen Datenspeicherung. Ein Fall in Mainz hatte f\u00fcr Aufsehen gesorgt, bei dem die Polizei die Daten von Besuchern widerrechtlich genutzt haben.<\/blockquote>",
             "title": "\u201cAus f\u00fcr Luca-App in Brandenburg: Vertrag l\u00e4uft Ende M\u00e4rz aus\u201d",
+            "type": "news"
+        },
+        {
+            "date": "15.03.2022",
+            "dt_created": "2022-04-13 00:00:00",
+            "dt_updated": "2022-04-13 00:00:00",
+            "embed": [
+                {
+                    "type": "fragdenstaat",
+                    "id": "216210"
+                }
+            ],
+            "id": "900dc21ce21c",
+            "id_readable": "2022-03-15_fragdenstaat_Berlin-Vertrag-mit-der-Luca-App-auf-Frag-den-Staat",
+            "links": [
+                {
+                    "url": "https:\/\/fragdenstaat.de\/a\/216210",
+                    "text": "https:\/\/fragdenstaat.de\/a\/216210"
+                }
+            ],
+            "scope": "Land: Berlin",
+            "tags": [
+                "vertrag"
+            ],
+            "title": "Berlin: Vertrag mit der Luca-App auf Frag den Staat",
+            "type": "fragdenstaat"
+        },
+        {
+            "date": "11.04.2022",
+            "dt_created": "2022-04-13 00:00:00",
+            "dt_updated": "2022-04-13 00:00:00",
+            "id": "bc6385079e3a",
+            "id_readable": "2022-04-11_news_Luca-App-stellt-Kernfunktion-ein",
+            "links": [
+                {
+                    "url": "https:\/\/www.t-online.de\/-\/100006992",
+                    "text": "\u201cLuca-App stellt Kernfunktion ein\u201d (t-online.de)"
+                }
+            ],
+            "text": "<blockquote>Wenn G\u00e4ste die Luca-QR-Codes scannen, w\u00fcrden dabei keine Kontaktdaten mehr aufgenommen.<\/blockquote>",
+            "title": "\u201cLuca-App stellt Kernfunktion ein\u201d",
+            "type": "news",
+            "verified": true,
+            "viaDPAInfocom": true
+        },
+        {
+            "date": "14.04.2022",
+            "dt_created": "2022-04-14 00:00:00",
+            "dt_updated": "2022-04-14 00:00:00",
+            "id": "b0f7af089369",
+            "id_readable": "2022-04-14_news_30-Mio-Euro-fr-Umbau-der-Luca-App",
+            "links": [
+                {
+                    "url": "https:\/\/www.capital.de\/wirtschaft-politik\/exklusiv--30-millionen-euro-fuer-fintech-plaene-der-luca-app-31774110.html",
+                    "text": "\u201c30 Mio. Euro f\u00fcr Umbau der Luca-App\u201d (capital.de)"
+                }
+            ],
+            "text": "<blockquote>Die Luca-App will sich als digitale Geldb\u00f6rse neu erfinden. 30 Mio. Euro gibt es von Investoren wie den Fintech-Unternehmern Julian Teicke und Ramin Niroumand \u2013 sowie einem Geldgeber mit Russland-Beziehungen<\/blockquote><blockquote>Die gesetzliche Pflicht zur Kontaktnachverfolgung hat dem Unternehmen einen wertvollen Vorsprung verschafft. Ohne sie w\u00e4re es quasi unm\u00f6glich gewesen, in der fragmentierten Gastro-Branche eine derartige Reichweite aufzubauen.<\/blockquote>",
+            "title": "\u201c30 Mio. Euro f\u00fcr Umbau der Luca-App\u201d",
             "type": "news"
         }
     ]
