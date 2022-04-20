@@ -1,9 +1,9 @@
 {
     "meta": {
         "git": {
-            "commit_sh": "f3d1bac",
-            "commit_lh": "f3d1bac8e247b4fff2917c6402639cfcb96ed114",
-            "commit_date": "2022-02-18 15:42:49 +0100",
+            "commit_sh": "110d680",
+            "commit_lh": "110d6802fc3f3335f9bb5713bd2f0aea1b312397",
+            "commit_date": "2022-04-14 09:48:43 +0200",
             "github": "https:\/\/github.com\/wasserbombe\/lucafail-timeline"
         },
         "urls": [
@@ -12,8 +12,8 @@
             "https:\/\/timeline.luca.fail\/?panel={{id}}",
             "https:\/\/timeline.luca.fail\/?panel={{id_readable}}"
         ],
-        "ts": 1649922423,
-        "date": "2022-04-14"
+        "ts": 1650294569,
+        "date": "2022-04-18"
     },
     "months": {
         "2022-02": {
@@ -8471,6 +8471,22 @@
             ],
             "text": "<blockquote>Die Luca-App will sich als digitale Geldb\u00f6rse neu erfinden. 30 Mio. Euro gibt es von Investoren wie den Fintech-Unternehmern Julian Teicke und Ramin Niroumand \u2013 sowie einem Geldgeber mit Russland-Beziehungen<\/blockquote><blockquote>Die gesetzliche Pflicht zur Kontaktnachverfolgung hat dem Unternehmen einen wertvollen Vorsprung verschafft. Ohne sie w\u00e4re es quasi unm\u00f6glich gewesen, in der fragmentierten Gastro-Branche eine derartige Reichweite aufzubauen.<\/blockquote>",
             "title": "\u201c30 Mio. Euro f\u00fcr Umbau der Luca-App\u201d",
+            "type": "news"
+        },
+        {
+            "date": "16.04.2022",
+            "dt_created": "2022-04-16 00:00:00",
+            "dt_updated": "2022-04-16 00:00:00",
+            "id": "def952719ba2",
+            "id_readable": "2022-04-16_news_Luca-App-mit-Russland-Verbindung",
+            "links": [
+                {
+                    "url": "https:\/\/www.tagesschau.de\/wirtschaft\/unternehmen\/luca-app-russland-sanktionen-target-global-101.html",
+                    "text": "Angela G\u00f6pfert: \u201cLuca-App mit Russland-Verbindung\u201d (tagesschau.de)"
+                }
+            ],
+            "text": "<blockquote>Target Global wurde urspr\u00fcnglich in Russland gegr\u00fcndet, CEO und Mitgr\u00fcnder ist Alexander Frolov. Dessen Vater, der auf den gleichen Namen h\u00f6rt, ist ein russischer Oligarch, der laut \"Forbes\" \u00fcber ein Verm\u00f6gen von 2,6 Milliarden Dollar verf\u00fcgt. Alexander Frolov Senior galt bislang als einer der Geldgeber von Target Global. Sein Geld machte er als Stahlbaron unter Putin.<\/blockquote>",
+            "title": "\u201cLuca-App mit Russland-Verbindung\u201d",
             "type": "news"
         }
     ]
